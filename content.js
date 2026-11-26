@@ -1,11 +1,10 @@
-/* ¿SABÍAS QUE? — Base de contenido v4 (280 contenidos, 278 preguntas, 7 dosieres).
+/* ¿SABÍAS QUE? — Base de contenido v5 (345 contenidos, 376 preguntas).
  * Cada contenido tiene fuentes verificadas automáticamente contra el texto de la fuente.
- * Imágenes: Wikimedia Commons, solo licencias libres, con autor y licencia (img, imgCredit).
  * Tipos: "articulo" | "curiosidad" | "mito". Estado: "publicado" | "borrador". Nivel: 1-3.
  * Este archivo lo puede regenerar el panel admin (admin.html → Publicar → Descargar content.js).
  */
 window.SQ_CONTENT = {
- "version": 4,
+ "version": 5,
  "updated": "2026-11-26",
  "categories": [
   {
@@ -96,6 +95,21 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Heart_anterior_exterior_view.png",
     "file": "Heart_anterior_exterior_view.png"
+   }
+  },
+  {
+   "id": "medicina",
+   "name": "Medicina",
+   "icon": "🩺",
+   "color": "#3fc1a0",
+   "desc": "Historia, descubrimientos y mitos de la salud. Contenido educativo, no consejo médico.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Stethoscope-2.png/960px-Stethoscope-2.png",
+   "imgCredit": {
+    "artist": "this version: Sonarpulse. origenal:Huji",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Stethoscope-2.png",
+    "file": "Stethoscope-2.png"
    }
   },
   {
@@ -7663,6 +7677,1836 @@ window.SQ_CONTENT = {
    ],
    "status": "publicado",
    "date": "2026-11-05"
+  },
+  {
+   "id": "a-viruela",
+   "type": "articulo",
+   "cat": "medicina",
+   "sub": "Historia de la medicina",
+   "level": 2,
+   "title": "La primera vacuna y la única enfermedad humana erradicada",
+   "subtitle": "De la observación de unas ordeñadoras en 1796 a la desaparición de la viruela en 1980.",
+   "desc": "Edward Jenner probó en 1796 que la viruela bovina protegía contra la viruela. En 1980, la OMS declaró erradicada la enfermedad.",
+   "intro": "La viruela mató a cientos de millones de personas a lo largo de la historia. Hoy no existe en la naturaleza. Es el mayor triunfo de la medicina preventiva, y empezó con una observación en el campo inglés.",
+   "sections": [
+    {
+     "h": "Lo que Jenner observó",
+     "p": [
+      "En la Inglaterra del siglo XVIII se decía que las ordeñadoras que se contagiaban de viruela bovina, una enfermedad leve, no enfermaban luego de viruela.",
+      "En 1796, el médico Edward Jenner inoculó material de una lesión de viruela bovina a un niño, James Phipps, y después comprobó que no desarrollaba la viruela. Hoy un experimento así no sería ético, pero abrió el camino a las vacunas."
+     ]
+    },
+    {
+     "h": "De dónde viene la palabra «vacuna»",
+     "p": [
+      "Viene del latín «vacca», vaca, por el origen bovino de aquella primera inmunización."
+     ]
+    },
+    {
+     "h": "La erradicación",
+     "p": [
+      "Entre 1958 y 1977, la Organización Mundial de la Salud dirigió una campaña mundial de vacunación. El último caso natural se diagnosticó en octubre de 1977.",
+      "En 1980, la Asamblea Mundial de la Salud declaró la viruela erradicada. Es la única enfermedad humana que se ha logrado eliminar por completo."
+     ]
+    }
+   ],
+   "facts": [
+    "El virus de la viruela pertenece al género Orthopoxvirus.",
+    "Antes de las vacunas modernas, la propia viruela bovina se usaba como vacuna natural."
+   ],
+   "conclusion": "La viruela demuestra lo que la ciencia y la cooperación internacional pueden lograr juntas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Smallpox",
+     "u": "https://en.wikipedia.org/wiki/Smallpox"
+    },
+    {
+     "t": "Wikipedia — Edward Jenner",
+     "u": "https://en.wikipedia.org/wiki/Edward_Jenner"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Smallpox_vaccine.jpg/960px-Smallpox_vaccine.jpg",
+   "imgCredit": {
+    "artist": "James Gathany (CDC)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Smallpox_vaccine.jpg",
+    "file": "Smallpox_vaccine.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "a-semmelweis",
+   "type": "articulo",
+   "cat": "medicina",
+   "sub": "Historia de la medicina",
+   "level": 2,
+   "title": "El médico que pidió lavarse las manos y nadie le creyó",
+   "subtitle": "En 1847, Ignaz Semmelweis redujo drásticamente las muertes en un hospital con una medida simple. Fue rechazado.",
+   "desc": "Semmelweis descubrió que lavarse las manos con una solución de cal clorada salvaba la vida de las madres tras el parto.",
+   "intro": "Hoy lavarse las manos parece obvio. Pero a mediados del siglo XIX, sugerir que los médicos transmitían enfermedades con sus manos era casi un insulto.",
+   "sections": [
+    {
+     "h": "Dos salas, dos destinos",
+     "p": [
+      "En el Hospital General de Viena había dos clínicas de maternidad. En una, atendida por médicos y estudiantes, morían muchas más mujeres por fiebre puerperal que en la otra, atendida por parteras.",
+      "Ignaz Semmelweis notó que los médicos llegaban a menudo directamente de hacer autopsias."
+     ]
+    },
+    {
+     "h": "La solución",
+     "p": [
+      "En 1847 impuso lavarse las manos con una solución de cal clorada antes de atender a las pacientes. La mortalidad bajó de forma espectacular."
+     ]
+    },
+    {
+     "h": "El rechazo",
+     "p": [
+      "Sus colegas no aceptaron sus conclusiones: todavía no se conocía la teoría de que los gérmenes causan enfermedades, y la idea de que los médicos eran culpables resultaba ofensiva.",
+      "Semmelweis murió en 1865. Años después, los trabajos de Louis Pasteur y Joseph Lister confirmaron que tenía razón."
+     ]
+    }
+   ],
+   "facts": [
+    "El «reflejo Semmelweis» es una expresión que describe el rechazo automático a ideas nuevas que contradicen lo establecido.",
+    "Hoy la higiene de manos es una de las medidas más eficaces contra las infecciones en los hospitales."
+   ],
+   "conclusion": "A veces el problema no es encontrar la respuesta, sino conseguir que los demás la acepten.",
+   "sources": [
+    {
+     "t": "Wikipedia — Ignaz Semmelweis",
+     "u": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/OCD_handwash.jpg/960px-OCD_handwash.jpg",
+   "imgCredit": {
+    "artist": "Lars Klintwall Malmqvist (Larsklintwallmalmqvist)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:OCD_handwash.jpg",
+    "file": "OCD_handwash.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "a-anestesia",
+   "type": "articulo",
+   "cat": "medicina",
+   "sub": "Historia de la medicina",
+   "level": 2,
+   "title": "Cuando operarse significaba sentirlo todo",
+   "subtitle": "En 1846, una demostración pública con éter en Boston cambió para siempre la cirugía.",
+   "desc": "La primera demostración pública de anestesia general con éter fue en 1846, en el Hospital General de Massachusetts.",
+   "intro": "Antes de la anestesia, la velocidad del cirujano era una virtud vital: las operaciones se hacían con el paciente despierto y sujetado.",
+   "sections": [
+    {
+     "h": "La demostración de 1846",
+     "p": [
+      "El 16 de octubre de 1846, el dentista William T. G. Morton administró éter a un paciente en el Hospital General de Massachusetts, en Boston, mientras un cirujano le extirpaba un tumor del cuello.",
+      "El paciente no mostró signos de dolor. La sala donde ocurrió se conoce hoy como el «Ether Dome»."
+     ]
+    },
+    {
+     "h": "Una disputa por la autoría",
+     "p": [
+      "El médico Crawford Long ya había usado éter como anestésico en 1842, en Georgia, pero no publicó sus resultados de inmediato. Durante años hubo disputas sobre quién merecía el mérito."
+     ]
+    },
+    {
+     "h": "El cambio que produjo",
+     "p": [
+      "La anestesia permitió operaciones más largas y complejas. Poco después se empezó a usar también el cloroformo."
+     ]
+    }
+   ],
+   "facts": [
+    "El 16 de octubre de 1846 se recuerda como el «Ether Day», el día del éter.",
+    "Hoy la anestesia la administran especialistas que vigilan constantemente las funciones vitales."
+   ],
+   "conclusion": "La anestesia convirtió la cirugía de un último recurso desesperado en una herramienta médica habitual.",
+   "sources": [
+    {
+     "t": "Wikipedia — William T. G. Morton",
+     "u": "https://en.wikipedia.org/wiki/William_T._G._Morton"
+    },
+    {
+     "t": "Wikipedia — Ether Dome",
+     "u": "https://en.wikipedia.org/wiki/Ether_Dome"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Inside_the_Ether_Dome_at_Massachusetts_General_Hospital.jpg/960px-Inside_the_Ether_Dome_at_Massachusetts_General_Hospital.jpg",
+   "imgCredit": {
+    "artist": "Kenneth C. Zirkel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Inside_the_Ether_Dome_at_Massachusetts_General_Hospital.jpg",
+    "file": "Inside_the_Ether_Dome_at_Massachusetts_General_Hospital.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "a-insulina",
+   "type": "articulo",
+   "cat": "medicina",
+   "sub": "Historia de la medicina",
+   "level": 2,
+   "title": "La insulina: el descubrimiento que convirtió una sentencia en una enfermedad tratable",
+   "subtitle": "Antes de 1922, un diagnóstico de diabetes tipo 1 era mortal en poco tiempo.",
+   "desc": "En Toronto, Frederick Banting y Charles Best aislaron la insulina. El primer paciente tratado con éxito fue un adolescente, en 1922.",
+   "intro": "La diabetes se conoce desde la Antigüedad, pero hasta el siglo XX no había un tratamiento eficaz para su forma más grave.",
+   "sections": [
+    {
+     "h": "El hallazgo de Toronto",
+     "p": [
+      "En 1921, en la Universidad de Toronto, Frederick Banting y su ayudante Charles Best, con el apoyo de John Macleod y luego del bioquímico James Collip, lograron extraer insulina del páncreas.",
+      "En enero de 1922, Leonard Thompson, un joven de 14 años con diabetes grave, recibió las primeras inyecciones y mejoró notablemente."
+     ]
+    },
+    {
+     "h": "Un Nobel polémico",
+     "p": [
+      "En 1923, el Premio Nobel de Fisiología o Medicina fue para Banting y Macleod. Banting compartió su parte del dinero con Best, y Macleod, con Collip."
+     ]
+    },
+    {
+     "h": "Un regalo a la humanidad",
+     "p": [
+      "La patente de la insulina se vendió a la Universidad de Toronto por un dólar simbólico. En 1923, una revista lo celebró como «un paso adelante en la ética médica»."
+     ]
+    }
+   ],
+   "facts": [
+    "Hoy la insulina para uso médico se produce mediante biotecnología.",
+    "La insulina es una hormona que permite que las células usen la glucosa de la sangre."
+   ],
+   "conclusion": "Un descubrimiento en un laboratorio universitario permitió que millones de personas con diabetes pudieran vivir.",
+   "sources": [
+    {
+     "t": "Wikipedia — Insulin",
+     "u": "https://en.wikipedia.org/wiki/Insulin"
+    },
+    {
+     "t": "Wikipedia — Frederick Banting",
+     "u": "https://en.wikipedia.org/wiki/Frederick_Banting"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Inzul%C3%ADn.jpg/960px-Inzul%C3%ADn.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Inzul%C3%ADn.jpg",
+    "file": "Inzulín.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-estetoscopio",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Instrumentos médicos",
+   "level": 1,
+   "title": "El primer estetoscopio fue un rollo de papel",
+   "desc": "René Laennec lo inventó en 1816 por pudor: no quería apoyar la oreja en el pecho de una paciente.",
+   "body": "El médico francés René Laennec enrolló unas hojas de papel y descubrió que, apoyando un extremo en el pecho de la paciente, escuchaba el corazón mejor que con la oreja directamente. Después construyó un tubo de madera. Lo llamó estetoscopio, del griego «pecho» y «examinar».",
+   "sources": [
+    {
+     "t": "Wikipedia — René Laennec",
+     "u": "https://en.wikipedia.org/wiki/Ren%C3%A9_Laennec"
+    },
+    {
+     "t": "Wikipedia — Stethoscope",
+     "u": "https://en.wikipedia.org/wiki/Stethoscope"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Stethoscope-2.png/960px-Stethoscope-2.png",
+   "imgCredit": {
+    "artist": "this version: Sonarpulse. origenal:Huji",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Stethoscope-2.png",
+    "file": "Stethoscope-2.png"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-harvey-circulacion",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Historia de la medicina",
+   "level": 2,
+   "title": "Hasta 1628 nadie sabía que la sangre circula",
+   "desc": "William Harvey demostró que el corazón bombea la sangre en un circuito cerrado.",
+   "body": "Durante siglos se aceptó la idea del médico griego Galeno de que la sangre se producía en el hígado y se consumía en el cuerpo. El médico inglés William Harvey midió cuánta sangre bombeaba el corazón y concluyó que era imposible fabricar tanta: la sangre tenía que circular. Lo publicó en 1628.",
+   "sources": [
+    {
+     "t": "Wikipedia — William Harvey",
+     "u": "https://en.wikipedia.org/wiki/William_Harvey"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/William_Harvey_%281578-1657%29_Venenbild.jpg/960px-William_Harvey_%281578-1657%29_Venenbild.jpg",
+   "imgCredit": {
+    "artist": "Ilustración de «De motu cordis», William Harvey (1628)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:William_Harvey_%281578-1657%29_Venenbild.jpg",
+    "file": "William Harvey (1578-1657) Venenbild.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-aspirina-sauce",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Medicamentos",
+   "level": 1,
+   "title": "La aspirina tiene su origen en la corteza de un árbol",
+   "desc": "La corteza de sauce se usaba desde la Antigüedad contra el dolor y la fiebre.",
+   "body": "La corteza de sauce contiene salicina, de la que se obtiene el ácido salicílico. En 1897, en la empresa alemana Bayer, se sintetizó una versión más tolerable, el ácido acetilsalicílico, comercializado como Aspirina. Es uno de los medicamentos más usados del mundo.",
+   "sources": [
+    {
+     "t": "Wikipedia — Aspirin",
+     "u": "https://en.wikipedia.org/wiki/Aspirin"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Salix_alba_leaves.jpg/960px-Salix_alba_leaves.jpg",
+   "imgCredit": {
+    "artist": "MPF",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Salix_alba_leaves.jpg",
+    "file": "Salix_alba_leaves.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-foto-51",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Genética",
+   "level": 2,
+   "title": "Una fotografía de rayos X fue clave para descubrir la forma del ADN",
+   "desc": "La «Fotografía 51», tomada en el laboratorio de Rosalind Franklin, mostró el patrón en hélice.",
+   "body": "La imagen fue obtenida en 1952 en el King’s College de Londres por el equipo de Rosalind Franklin y su estudiante Raymond Gosling. James Watson y Francis Crick la vieron sin que Franklin lo supiera, y les ayudó a proponer en 1953 el modelo de doble hélice. El papel de Franklin tardó décadas en reconocerse.",
+   "sources": [
+    {
+     "t": "Wikipedia — Photo 51",
+     "u": "https://en.wikipedia.org/wiki/Photo_51"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-trasplante-corazon",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Cirugía",
+   "level": 2,
+   "title": "El primer trasplante de corazón entre humanos se hizo en Sudáfrica en 1967",
+   "desc": "El cirujano Christiaan Barnard lo realizó en Ciudad del Cabo; el paciente vivió 18 días.",
+   "body": "El paciente, Louis Washkansky, murió de una neumonía 18 días después, en parte porque los fármacos para evitar el rechazo debilitaban sus defensas. Con el desarrollo de mejores medicamentos inmunosupresores, el trasplante de corazón se convirtió en un tratamiento establecido.",
+   "sources": [
+    {
+     "t": "Wikipedia — Heart transplantation",
+     "u": "https://en.wikipedia.org/wiki/Heart_transplantation"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Groote_Schuur_Hospital%2C_Observatory%2C_Cape_Town%2C_Western_Cape._05.JPG/960px-Groote_Schuur_Hospital%2C_Observatory%2C_Cape_Town%2C_Western_Cape._05.JPG",
+   "imgCredit": {
+    "artist": "A3alb",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Groote_Schuur_Hospital%2C_Observatory%2C_Cape_Town%2C_Western_Cape._05.JPG",
+    "file": "Groote_Schuur_Hospital,_Observatory,_Cape_Town,_Western_Cape._05.JPG"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-juramento-hipocratico",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Ética médica",
+   "level": 1,
+   "title": "Los médicos todavía hacen un juramento de origen griego",
+   "desc": "El juramento hipocrático se atribuye a la escuela de Hipócrates, del siglo V a. C.",
+   "body": "El texto original incluye compromisos como actuar en beneficio de los enfermos y guardar en secreto lo que se sepa de ellos. Hoy muchas facultades de medicina usan versiones modernizadas, como la Declaración de Ginebra de la Asociación Médica Mundial.",
+   "sources": [
+    {
+     "t": "Wikipedia — Hippocratic Oath",
+     "u": "https://en.wikipedia.org/wiki/Hippocratic_Oath"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/HippocraticOath.jpg/960px-HippocraticOath.jpg",
+   "imgCredit": {
+    "artist": "Manuscrito bizantino del siglo XII",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:HippocraticOath.jpg",
+    "file": "HippocraticOath.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-pasteur-rabia",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Vacunas",
+   "level": 2,
+   "title": "Un niño de 9 años fue el primero en recibir la vacuna contra la rabia",
+   "desc": "Louis Pasteur lo trató en 1885 tras ser mordido por un perro rabioso, y sobrevivió.",
+   "body": "Joseph Meister había sido mordido gravemente. Pasteur, que no era médico, le aplicó una serie de inyecciones con virus debilitado que había probado en animales. El niño sobrevivió. Pasteur fue también clave para demostrar que muchos microbios causan enfermedades y para desarrollar la pasteurización.",
+   "sources": [
+    {
+     "t": "Wikipedia — Louis Pasteur",
+     "u": "https://en.wikipedia.org/wiki/Louis_Pasteur"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Rabies_Virus_%2851706598561%29.jpg/960px-Rabies_Virus_%2851706598561%29.jpg",
+   "imgCredit": {
+    "artist": "NIAID - https://www.niaid.nih.gov/ - @ flikr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Rabies_Virus_%2851706598561%29.jpg",
+    "file": "Rabies_Virus_(51706598561).jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-koch-tuberculosis",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Enfermedades infecciosas",
+   "level": 2,
+   "title": "El Día Mundial de la Tuberculosis recuerda un descubrimiento de 1882",
+   "desc": "El 24 de marzo de 1882, Robert Koch anunció que había identificado la bacteria que la causa.",
+   "body": "Robert Koch identificó el Mycobacterium tuberculosis y lo presentó en Berlín. Recibió el Premio Nobel en 1905. La tuberculosis es una enfermedad prevenible y curable, pero sigue siendo una de las enfermedades infecciosas que más muertes causan en el mundo.",
+   "sources": [
+    {
+     "t": "Wikipedia — Robert Koch",
+     "u": "https://en.wikipedia.org/wiki/Robert_Koch"
+    },
+    {
+     "t": "Wikipedia — World Tuberculosis Day",
+     "u": "https://en.wikipedia.org/wiki/World_Tuberculosis_Day"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/TB_Culture.jpg/960px-TB_Culture.jpg",
+   "imgCredit": {
+    "artist": "CDC, Public Health Image Library",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:TB_Culture.jpg",
+    "file": "TB_Culture.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-lister-antisepsia",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Cirugía",
+   "level": 2,
+   "title": "Antes de 1867, la cirugía no usaba desinfectantes",
+   "desc": "Joseph Lister introdujo el ácido carbólico para limpiar heridas e instrumentos.",
+   "body": "El cirujano británico Joseph Lister empezó a usar ácido carbólico (fenol) en la cirugía. Las infecciones tras las operaciones disminuyeron mucho. El enjuague bucal Listerine lleva su nombre en su honor.",
+   "sources": [
+    {
+     "t": "Wikipedia — Joseph Lister",
+     "u": "https://en.wikipedia.org/wiki/Joseph_Lister"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Phenol_2_grams.jpg/960px-Phenol_2_grams.jpg",
+   "imgCredit": {
+    "artist": "W. Oelen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Phenol_2_grams.jpg",
+    "file": "Phenol_2_grams.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-temperatura-37",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Fisiología",
+   "level": 2,
+   "title": "La «temperatura normal» de 37 °C viene de un médico del siglo XIX",
+   "desc": "Carl Wunderlich la fijó en un libro de 1868; estudios más recientes encuentran un promedio algo más bajo, de unos 36,4 °C.",
+   "body": "En 1868, el médico alemán Carl Wunderlich publicó que la temperatura normal del cuerpo era de unos 37 °C. Estudios más recientes sitúan el promedio en unos 36,4 °C. Además, la temperatura varía alrededor de medio grado a lo largo del día: es más baja por la mañana y más alta al final de la tarde.",
+   "sources": [
+    {
+     "t": "Wikipedia — Human body temperature",
+     "u": "https://en.wikipedia.org/wiki/Human_body_temperature"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Fieberthermometer.jpg/960px-Fieberthermometer.jpg",
+   "imgCredit": {
+    "artist": "Benutzer:Daniel FR",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Fieberthermometer.jpg",
+    "file": "Fieberthermometer.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-nocebo",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Mente y cuerpo",
+   "level": 2,
+   "title": "El placebo tiene un gemelo malvado: el efecto nocebo",
+   "desc": "Esperar efectos negativos de un tratamiento puede hacer que la persona los sienta.",
+   "body": "Si a alguien le advierten de posibles efectos secundarios, puede llegar a experimentarlos aunque reciba una sustancia sin principio activo. Este fenómeno se llama efecto nocebo, del latín «haré daño». Muestra cuánto influyen las expectativas en cómo percibimos nuestro cuerpo.",
+   "sources": [
+    {
+     "t": "Wikipedia — Nocebo",
+     "u": "https://en.wikipedia.org/wiki/Nocebo"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Cebocap.jpg/960px-Cebocap.jpg",
+   "imgCredit": {
+    "artist": "NIH, objects donated by Elaine and Arthur Shapiro",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Cebocap.jpg",
+    "file": "Cebocap.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-vacunas-arnm",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Vacunas",
+   "level": 2,
+   "title": "Las vacunas de ARN mensajero se aprobaron por primera vez en 2020",
+   "desc": "Katalin Karikó y Drew Weissman recibieron el Nobel de Medicina 2023 por los descubrimientos que las hicieron posibles.",
+   "body": "Estas vacunas no contienen el virus: llevan instrucciones para que las células produzcan una proteína inofensiva que entrena al sistema inmunitario. Karikó y Weissman descubrieron cómo modificar el ARN para que no provocara una reacción inflamatoria excesiva. Las primeras autorizadas fueron contra la COVID-19, en diciembre de 2020.",
+   "sources": [
+    {
+     "t": "Wikipedia — mRNA vaccine",
+     "u": "https://en.wikipedia.org/wiki/MRNA_vaccine"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/MRNA-interaction.svg/960px-MRNA-interaction.svg.png",
+   "imgCredit": {
+    "artist": "National Human Genome Research Institute, NIH",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:MRNA-interaction.svg",
+    "file": "MRNA-interaction.svg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-cirugia-despierto",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Cerebro",
+   "level": 2,
+   "title": "Algunas operaciones de cerebro se hacen con el paciente despierto",
+   "desc": "Así los cirujanos comprueban en tiempo real que no dañan zonas importantes, como las del lenguaje.",
+   "body": "En la craneotomía con el paciente despierto, se adormecen con anestesia local la piel y el hueso de la cabeza. Durante la cirugía, el equipo médico habla con el paciente y le hace preguntas, a veces con ayuda de un logopeda o un neuropsicólogo. Se usa sobre todo para extirpar tumores cerca de zonas delicadas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Awake craniotomy",
+     "u": "https://en.wikipedia.org/wiki/Awake_craniotomy"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Gray728.svg/960px-Gray728.svg.png",
+   "imgCredit": {
+    "artist": "Henry Gray, «Anatomía de Gray» (1918)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Gray728.svg",
+    "file": "Gray728.svg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-donante-universal",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Sangre",
+   "level": 1,
+   "title": "La sangre O negativo es la «donante universal» de glóbulos rojos",
+   "desc": "Por eso se usa en emergencias cuando no hay tiempo de comprobar el grupo del paciente.",
+   "body": "Los glóbulos rojos del grupo O negativo no tienen los antígenos A, B ni RhD, así que el riesgo de una reacción grave en cualquier receptor es muy bajo. Para el plasma ocurre lo contrario: el donante universal es el grupo AB.",
+   "sources": [
+    {
+     "t": "Wikipedia — Blood type",
+     "u": "https://en.wikipedia.org/wiki/Blood_type"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Blood_donation_pictogram.svg/960px-Blood_donation_pictogram.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Blood_donation_pictogram.svg",
+    "file": "Blood_donation_pictogram.svg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-polio",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Enfermedades infecciosas",
+   "level": 2,
+   "title": "La polio está muy cerca de desaparecer",
+   "desc": "El poliovirus salvaje solo sigue circulando de forma endémica en dos países: Pakistán y Afganistán.",
+   "body": "La iniciativa mundial para erradicarla comenzó en 1988, liderada por la OMS, UNICEF y otras organizaciones. De los tres tipos de poliovirus salvaje, el tipo 2 se declaró erradicado en 2015 y el tipo 3 en 2019. Mientras el virus circule en algún lugar, la vacunación sigue siendo necesaria.",
+   "sources": [
+    {
+     "t": "Wikipedia — Polio eradication",
+     "u": "https://en.wikipedia.org/wiki/Polio_eradication"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Polio_EM_PHIL_1875_lores.PNG/960px-Polio_EM_PHIL_1875_lores.PNG",
+   "imgCredit": {
+    "artist": "CDC, Public Health Image Library",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Polio_EM_PHIL_1875_lores.PNG",
+    "file": "Polio EM PHIL 1875 lores.PNG"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-oms-1948",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Salud pública",
+   "level": 1,
+   "title": "El Día Mundial de la Salud celebra el nacimiento de la OMS",
+   "desc": "La Organización Mundial de la Salud se fundó el 7 de abril de 1948.",
+   "body": "La OMS es la agencia de las Naciones Unidas dedicada a la salud pública internacional. Tiene su sede en Ginebra, Suiza. Coordinó campañas como la erradicación de la viruela y elabora la Clasificación Internacional de Enfermedades, usada en todo el mundo.",
+   "sources": [
+    {
+     "t": "Wikipedia — World Health Organization",
+     "u": "https://en.wikipedia.org/wiki/World_Health_Organization"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg/960px-World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg",
+   "imgCredit": {
+    "artist": "Guilhem Vellut from Annecy, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg",
+    "file": "World_Health_Organization_@_Pregny-Chambésy_(50636746028).jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-cruz-roja",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Humanitarismo",
+   "level": 2,
+   "title": "La Cruz Roja nació tras una batalla en 1859",
+   "desc": "Henri Dunant quedó impactado por los heridos de Solferino, en Italia, y propuso una organización neutral para atenderlos.",
+   "body": "Dunant escribió un libro sobre lo que vio, y en 1863 se fundó en Ginebra el Comité Internacional de la Cruz Roja. Su emblema es la bandera suiza con los colores invertidos. Dunant recibió el primer Premio Nobel de la Paz, en 1901.",
+   "sources": [
+    {
+     "t": "Wikipedia — International Committee of the Red Cross",
+     "u": "https://en.wikipedia.org/wiki/International_Committee_of_the_Red_Cross"
+    },
+    {
+     "t": "Wikipedia — Henry Dunant",
+     "u": "https://en.wikipedia.org/wiki/Henry_Dunant"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Movement-6-4.svg/960px-Movement-6-4.svg.png",
+   "imgCredit": {
+    "artist": "International Red Cross and Red Crescent Movement",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Movement-6-4.svg",
+    "file": "Movement-6-4.svg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-quinina",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Medicamentos",
+   "level": 2,
+   "title": "Un árbol de los Andes fue la primera gran arma contra la malaria",
+   "desc": "La quinina se extrae de la corteza del árbol de la quina, nativo de Sudamérica.",
+   "body": "La corteza de quina se usaba en Perú y se llevó a Europa en el siglo XVII. De ella se aisló la quinina en 1820. Durante siglos fue el principal tratamiento contra la malaria. También es el ingrediente que da su sabor amargo al agua tónica.",
+   "sources": [
+    {
+     "t": "Wikipedia — Quinine",
+     "u": "https://en.wikipedia.org/wiki/Quinine"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Starr_020501-0057_Cinchona_pubescens.jpg/960px-Starr_020501-0057_Cinchona_pubescens.jpg",
+   "imgCredit": {
+    "artist": "Forest & Kim Starr",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Starr_020501-0057_Cinchona_pubescens.jpg",
+    "file": "Starr_020501-0057_Cinchona_pubescens.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-malaria-mosquito",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Enfermedades infecciosas",
+   "level": 2,
+   "title": "La malaria no la causa el mosquito, sino un parásito que viaja en él",
+   "desc": "Lo transmiten las hembras del mosquito Anopheles.",
+   "body": "El parásito Plasmodium se transmite a las personas por la picadura de mosquitos Anopheles infectados. En 1897, el médico británico Ronald Ross demostró el papel de los mosquitos en la transmisión. Hoy existen tratamientos eficaces, mosquiteros tratados con insecticida y vacunas recomendadas por la OMS.",
+   "sources": [
+    {
+     "t": "Wikipedia — Malaria",
+     "u": "https://en.wikipedia.org/wiki/Malaria"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Anopheles_stephensi.jpeg/960px-Anopheles_stephensi.jpeg",
+   "imgCredit": {
+    "artist": "Jim Gathany",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Anopheles_stephensi.jpeg",
+    "file": "Anopheles_stephensi.jpeg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-microbiota",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Microbiología",
+   "level": 2,
+   "title": "En tu cuerpo viven aproximadamente tantas bacterias como células humanas",
+   "desc": "Se estiman unos 38 billones de bacterias frente a entre 30 y 40 billones de células humanas.",
+   "body": "Las cifras son del mismo orden de magnitud. Muchos de estos microorganismos son comensales: conviven con nosotros sin causar daño, y otros nos benefician. El conjunto de microbios que habitan el cuerpo se llama microbiota.",
+   "sources": [
+    {
+     "t": "Wikipedia — Human microbiome",
+     "u": "https://en.wikipedia.org/wiki/Human_microbiome"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/E_coli_at_10000x%2C_original.jpg/960px-E_coli_at_10000x%2C_original.jpg",
+   "imgCredit": {
+    "artist": "Photo by Eric Erbe, digital colorization by Christopher Pooley, both of USDA, ARS, EMU",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:E_coli_at_10000x%2C_original.jpg",
+    "file": "E_coli_at_10000x,_original.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-resonancia",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Diagnóstico",
+   "level": 2,
+   "title": "La resonancia magnética no usa radiación ionizante",
+   "desc": "Funciona con imanes potentes y ondas de radio.",
+   "body": "A diferencia de los rayos X o la tomografía computarizada, la resonancia magnética no expone al paciente a radiación ionizante. Utiliza un campo magnético muy intenso, por lo que se pregunta a los pacientes por implantes o fragmentos metálicos antes de entrar en el equipo.",
+   "sources": [
+    {
+     "t": "Wikipedia — Magnetic resonance imaging",
+     "u": "https://en.wikipedia.org/wiki/Magnetic_resonance_imaging"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Modern_3T_MRI.JPG/960px-Modern_3T_MRI.JPG",
+   "imgCredit": {
+    "artist": "User:KasugaHuang",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "page": "https://commons.wikimedia.org/wiki/File:Modern_3T_MRI.JPG",
+    "file": "Modern_3T_MRI.JPG"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-resistencia-antibioticos",
+   "type": "curiosidad",
+   "cat": "medicina",
+   "sub": "Salud pública",
+   "level": 2,
+   "title": "Fleming ya advirtió del problema de las superbacterias en 1945",
+   "desc": "Predijo que un mal uso de la penicilina podía crear bacterias resistentes.",
+   "body": "La resistencia a los antimicrobianos aparece cuando bacterias y otros microbios dejan de responder a los medicamentos. El mal uso y el uso excesivo de los antimicrobianos son las principales causas. La OMS la considera una de las mayores amenazas para la salud pública mundial: se estima que la resistencia bacteriana causó directamente 1,27 millones de muertes en 2019.",
+   "sources": [
+    {
+     "t": "Wikipedia — Antimicrobial resistance",
+     "u": "https://en.wikipedia.org/wiki/Antimicrobial_resistance"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Penicillin_Core_v2.svg/960px-Penicillin_Core_v2.svg.png",
+   "imgCredit": {
+    "artist": "User:Innerstream",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Penicillin_Core_v2.svg",
+    "file": "Penicillin_Core_v2.svg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "m-antibioticos-gripe",
+   "type": "mito",
+   "cat": "medicina",
+   "sub": "Medicamentos",
+   "level": 1,
+   "title": "«Los antibióticos curan la gripe y los resfriados»",
+   "desc": "Falso. Los antibióticos actúan contra bacterias, no contra virus.",
+   "body": "La gripe y el resfriado común están causados por virus, así que los antibióticos no sirven para curarlos. Tomarlos sin necesidad no ayuda y favorece la aparición de bacterias resistentes. Ante cualquier duda, la indicación debe darla un profesional de la salud.",
+   "sources": [
+    {
+     "t": "Wikipedia — Antibiotic",
+     "u": "https://en.wikipedia.org/wiki/Antibiotic"
+    }
+   ],
+   "verdict": "falso",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Staphylococcus_aureus_%28AB_Test%29.jpg/960px-Staphylococcus_aureus_%28AB_Test%29.jpg",
+   "imgCredit": {
+    "artist": "CDC / Provider: Don Stalons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_%28AB_Test%29.jpg",
+    "file": "Staphylococcus_aureus_(AB_Test).jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "m-vacunas-autismo",
+   "type": "mito",
+   "cat": "medicina",
+   "sub": "Vacunas",
+   "level": 2,
+   "title": "«Las vacunas causan autismo»",
+   "desc": "Falso. El estudio de 1998 que lo sugirió era fraudulento y fue retractado en 2010.",
+   "body": "El artículo de Andrew Wakefield, publicado en The Lancet, relacionaba la vacuna triple vírica con el autismo. Se descubrió que los datos habían sido manipulados; la revista lo retractó y Wakefield fue expulsado del registro médico británico en 2010. Numerosos estudios con millones de niños no han encontrado ninguna relación.",
+   "sources": [
+    {
+     "t": "Wikipedia — MMR vaccine and autism",
+     "u": "https://en.wikipedia.org/wiki/MMR_vaccine_and_autism"
+    }
+   ],
+   "verdict": "falso",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/MMR_vaccine.jpg/960px-MMR_vaccine.jpg",
+   "imgCredit": {
+    "artist": "Whispyhistory",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:MMR_vaccine.jpg",
+    "file": "MMR_vaccine.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "m-frio-resfriado",
+   "type": "mito",
+   "cat": "medicina",
+   "sub": "Enfermedades comunes",
+   "level": 1,
+   "title": "«Salir con el pelo mojado o pasar frío te resfría»",
+   "desc": "Verdad a medias. Los resfriados los causan virus; el frío por sí solo no los produce.",
+   "body": "El resfriado común lo causan virus, sobre todo los rinovirus. Es más frecuente en épocas frías, entre otras razones porque pasamos más tiempo en espacios cerrados con otras personas. Algunos estudios sugieren que el frío podría influir en las defensas, pero sin virus no hay resfriado.",
+   "sources": [
+    {
+     "t": "Wikipedia — Common cold",
+     "u": "https://en.wikipedia.org/wiki/Common_cold"
+    }
+   ],
+   "verdict": "matizado",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Rhinovirus_isosurface.png/960px-Rhinovirus_isosurface.png",
+   "imgCredit": {
+    "artist": "Thomas Splettstoesser (www.scistyle.com)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Rhinovirus_isosurface.png",
+    "file": "Rhinovirus_isosurface.png"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "m-vitamina-c",
+   "type": "mito",
+   "cat": "medicina",
+   "sub": "Nutrición",
+   "level": 2,
+   "title": "«La vitamina C previene los resfriados»",
+   "desc": "Verdad a medias. En la población general no los previene, aunque tomarla a diario puede acortarlos un poco.",
+   "body": "Las revisiones de estudios indican que tomar suplementos de vitamina C de forma regular no reduce cuántos resfriados se tienen en la población general, aunque se asocia con una ligera reducción de su duración. Tomarla solo cuando ya han aparecido los síntomas no ha mostrado un beneficio claro.",
+   "sources": [
+    {
+     "t": "Wikipedia — Vitamin C and the common cold",
+     "u": "https://en.wikipedia.org/wiki/Vitamin_C_and_the_common_cold"
+    }
+   ],
+   "verdict": "matizado",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Oranges_-_whole-halved-segment.jpg/960px-Oranges_-_whole-halved-segment.jpg",
+   "imgCredit": {
+    "artist": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg",
+    "file": "Oranges_-_whole-halved-segment.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-velocidad-luz",
+   "type": "curiosidad",
+   "cat": "ciencia",
+   "sub": "Física",
+   "level": 2,
+   "title": "La velocidad de la luz es exacta por definición",
+   "desc": "Es de 299.792.458 metros por segundo, porque el metro se define a partir de ella.",
+   "body": "Desde 1983, el metro se define como la distancia que recorre la luz en el vacío en 1/299.792.458 de segundo. Por eso la velocidad de la luz no se «mide» con error: es un valor exacto. Nada con masa puede alcanzarla.",
+   "sources": [
+    {
+     "t": "Wikipedia — Speed of light",
+     "u": "https://en.wikipedia.org/wiki/Speed_of_light"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Earth_to_Sun_-_en.png/960px-Earth_to_Sun_-_en.png",
+   "imgCredit": {
+    "artist": "LucasVB",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Earth_to_Sun_-_en.png",
+    "file": "Earth_to_Sun_-_en.png"
+   },
+   "status": "publicado",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "c-118-elementos",
+   "type": "curiosidad",
+   "cat": "ciencia",
+   "sub": "Química",
+   "level": 2,
+   "title": "La tabla periódica tiene 118 elementos conocidos",
+   "desc": "Los últimos nombres oficiales se aprobaron en 2016, entre ellos el oganesón.",
+   "body": "Los elementos más pesados no existen en la naturaleza: se crean en laboratorios y duran fracciones de segundo. En 2016 se aprobaron los nombres de los elementos 113, 115, 117 y 118: nihonio, moscovio, teneso y oganesón.",
+   "sources": [
+    {
+     "t": "Wikipedia — Periodic table",
+     "u": "https://en.wikipedia.org/wiki/Periodic_table"
+    },
+    {
+     "t": "Wikipedia — Oganesson",
+     "u": "https://en.wikipedia.org/wiki/Oganesson"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Colour_18-col_PT_with_labels.svg/960px-Colour_18-col_PT_with_labels.svg.png",
+   "imgCredit": {
+    "artist": "Lekritz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Colour_18-col_PT_with_labels.svg",
+    "file": "Colour_18-col_PT_with_labels.svg"
+   },
+   "status": "publicado",
+   "date": "2026-11-13"
+  },
+  {
+   "id": "c-ebullicion-altura",
+   "type": "curiosidad",
+   "cat": "ciencia",
+   "sub": "Física",
+   "level": 2,
+   "title": "En la cima del Everest el agua hierve a unos 71 °C",
+   "desc": "A menos presión atmosférica, el agua hierve a menor temperatura.",
+   "body": "El punto de ebullición del agua depende de la presión. A nivel del mar es de unos 100 °C, pero en la cima del Everest, con una presión de solo unos 34 kPa, hierve a unos 71 °C. Por eso cocinar a gran altitud requiere más tiempo, y las ollas a presión hacen lo contrario: suben la temperatura de ebullición.",
+   "sources": [
+    {
+     "t": "Wikipedia — Boiling point",
+     "u": "https://en.wikipedia.org/wiki/Boiling_point"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Boilingkettle.jpg/960px-Boilingkettle.jpg",
+   "imgCredit": {
+    "artist": "Plorpy2",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Boilingkettle.jpg",
+    "file": "Boilingkettle.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "m-esfinge-nariz",
+   "type": "mito",
+   "cat": "historia",
+   "sub": "Antiguo Egipto",
+   "level": 2,
+   "title": "«Los soldados de Napoleón le dispararon a la nariz de la Esfinge»",
+   "desc": "Falso. Dibujos publicados en 1755, antes de la llegada de Napoleón, ya la muestran sin nariz.",
+   "body": "La expedición francesa a Egipto fue en 1798, pero los dibujos del viajero danés Frederic Norden, publicados en 1755, ya muestran a la Esfinge sin nariz. A comienzos del siglo XV, el historiador árabe al-Maqrizi atribuyó el daño a un sufí llamado Muhammad Sa'im al-Dahr, en 1378. El examen de la cara muestra señales de un daño deliberado con varillas o cinceles.",
+   "sources": [
+    {
+     "t": "Wikipedia — Great Sphinx of Giza",
+     "u": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza"
+    }
+   ],
+   "verdict": "falso",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Sphinx_with_the_third_pyramid.jpg/960px-Sphinx_with_the_third_pyramid.jpg",
+   "imgCredit": {
+    "artist": "Hesham Ebaid",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sphinx_with_the_third_pyramid.jpg",
+    "file": "Sphinx_with_the_third_pyramid.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "c-titanic",
+   "type": "curiosidad",
+   "cat": "historia",
+   "sub": "Siglo XX",
+   "level": 1,
+   "title": "El Titanic se hundió en su viaje inaugural, en 1912",
+   "desc": "Chocó contra un iceberg en el Atlántico Norte y murieron más de 1.500 personas.",
+   "body": "El transatlántico británico partió de Southampton rumbo a Nueva York. La noche del 14 de abril de 1912 chocó contra un iceberg y se hundió en la madrugada del 15. Viajaban unas 2.208 personas y llevaba solo veinte botes salvavidas. La tragedia impulsó grandes cambios en las normas de seguridad marítima.",
+   "sources": [
+    {
+     "t": "Wikipedia — Titanic",
+     "u": "https://en.wikipedia.org/wiki/Titanic"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/RMS_Titanic_3_%28cropped_to_ship%29.jpg/960px-RMS_Titanic_3_%28cropped_to_ship%29.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:RMS_Titanic_3_%28cropped_to_ship%29.jpg",
+    "file": "RMS_Titanic_3_(cropped_to_ship).jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-24"
+  },
+  {
+   "id": "c-cadena-montaje",
+   "type": "curiosidad",
+   "cat": "historia",
+   "sub": "Revolución industrial",
+   "level": 2,
+   "title": "La cadena de montaje de Ford redujo de horas a minutos la fabricación de un carro",
+   "desc": "En 1913, Ford introdujo una línea de montaje móvil para el Modelo T.",
+   "body": "Al mover el chasis por la fábrica mientras los trabajadores repetían tareas específicas, el tiempo para ensamblar un Modelo T se redujo drásticamente. El precio del carro bajó y se volvió accesible para muchas más familias. El sistema transformó la industria en todo el mundo.",
+   "sources": [
+    {
+     "t": "Wikipedia — Assembly line",
+     "u": "https://en.wikipedia.org/wiki/Assembly_line"
+    },
+    {
+     "t": "Wikipedia — Ford Model T",
+     "u": "https://en.wikipedia.org/wiki/Ford_Model_T"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/1925_Ford_Model_T_touring.jpg/960px-1925_Ford_Model_T_touring.jpg",
+   "imgCredit": {
+    "artist": "ModelTMitch",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:1925_Ford_Model_T_touring.jpg",
+    "file": "1925 Ford Model T touring.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "c-efecto-pigmalion",
+   "type": "curiosidad",
+   "cat": "psicologia",
+   "sub": "Expectativas",
+   "level": 2,
+   "title": "Las expectativas de un maestro pueden influir en el rendimiento de sus alumnos",
+   "desc": "Se llama efecto Pigmalión o efecto Rosenthal.",
+   "body": "En un estudio clásico, Robert Rosenthal y Lenore Jacobson dijeron a maestros que ciertos alumnos, elegidos al azar, tenían gran potencial. Al final del curso, algunos de esos alumnos mejoraron más. El estudio ha sido criticado y replicado con resultados variables, pero la idea de que las expectativas influyen sigue estudiándose.",
+   "sources": [
+    {
+     "t": "Wikipedia — Pygmalion effect",
+     "u": "https://en.wikipedia.org/wiki/Pygmalion_effect"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Pygmalion_%28Raoux%29.jpg/960px-Pygmalion_%28Raoux%29.jpg",
+   "imgCredit": {
+    "artist": "Jean Raoux (pintura, siglo XVIII)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Pygmalion_%28Raoux%29.jpg",
+    "file": "Pygmalion_(Raoux).jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "c-disonancia-cognitiva",
+   "type": "curiosidad",
+   "cat": "psicologia",
+   "sub": "Pensamiento",
+   "level": 2,
+   "title": "Cuando nuestras acciones contradicen nuestras creencias, sentimos incomodidad",
+   "desc": "Leon Festinger lo llamó disonancia cognitiva en 1957.",
+   "body": "Para reducir esa tensión solemos cambiar una creencia o justificar lo que hicimos. Festinger ya había explorado la idea en su libro «Cuando la profecía falla» (1956), y la desarrolló en 1957 en su obra sobre la disonancia cognitiva.",
+   "sources": [
+    {
+     "t": "Wikipedia — Cognitive dissonance",
+     "u": "https://en.wikipedia.org/wiki/Cognitive_dissonance"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Greek_uc_psi_icon.svg/960px-Greek_uc_psi_icon.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Greek_uc_psi_icon.svg",
+    "file": "Greek_uc_psi_icon.svg"
+   },
+   "status": "publicado",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "c-sueno-rem",
+   "type": "curiosidad",
+   "cat": "psicologia",
+   "sub": "Sueño",
+   "level": 1,
+   "title": "Los sueños más vívidos ocurren durante la fase REM",
+   "desc": "Durante esa fase los ojos se mueven rápido bajo los párpados y casi todos los músculos se relajan.",
+   "body": "REM significa «movimientos oculares rápidos» en inglés. A lo largo de la noche pasamos por varios ciclos de sueño, y la fase REM se repite varias veces. Durante ella, el cuerpo pierde casi todo su tono muscular, un estado llamado atonía REM, mientras el cerebro actúa casi como si estuviera despierto.",
+   "sources": [
+    {
+     "t": "Wikipedia — Rapid eye movement sleep",
+     "u": "https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "m-estrella-polar",
+   "type": "mito",
+   "cat": "universo",
+   "sub": "Estrellas",
+   "level": 1,
+   "title": "«La Estrella Polar es la más brillante del cielo»",
+   "desc": "Falso. Es útil para orientarse porque apenas se mueve, pero la más brillante es Sirio.",
+   "body": "La Estrella Polar, Polaris, está casi alineada con el eje de rotación de la Tierra, por eso parece fija sobre el polo norte celeste y ha servido para orientarse durante siglos. Pero no es especialmente brillante: la estrella más brillante del cielo nocturno es Sirio.",
+   "sources": [
+    {
+     "t": "Wikipedia — Polaris",
+     "u": "https://en.wikipedia.org/wiki/Polaris"
+    },
+    {
+     "t": "Wikipedia — Sirius",
+     "u": "https://en.wikipedia.org/wiki/Sirius"
+    }
+   ],
+   "verdict": "falso",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ursa_Minor_constellation_map.svg/960px-Ursa_Minor_constellation_map.svg.png",
+   "imgCredit": {
+    "artist": "Torsten Bronger",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Ursa_Minor_constellation_map.svg",
+    "file": "Ursa_Minor_constellation_map.svg"
+   },
+   "status": "publicado",
+   "date": "2026-11-09"
+  },
+  {
+   "id": "c-terremotos-luna",
+   "type": "curiosidad",
+   "cat": "universo",
+   "sub": "La Luna",
+   "level": 2,
+   "title": "En la Luna también hay terremotos",
+   "desc": "Los sismógrafos que dejaron las misiones Apolo registraron «lunamotos».",
+   "body": "Los instrumentos de las misiones Apolo 12, 14, 15 y 16 funcionaron hasta que se apagaron en 1977. Hay al menos cuatro tipos de lunamotos: profundos, probablemente causados por las mareas; por impactos de meteoritos; térmicos, cuando la corteza helada se dilata al volver la luz del Sol; y superficiales. Los más fuertes son mucho más débiles que los grandes terremotos terrestres.",
+   "sources": [
+    {
+     "t": "Wikipedia — Moonquake",
+     "u": "https://en.wikipedia.org/wiki/Moonquake"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Apollo_12_ALSEP.jpg/960px-Apollo_12_ALSEP.jpg",
+   "imgCredit": {
+    "artist": "NASA",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Apollo_12_ALSEP.jpg",
+    "file": "Apollo 12 ALSEP.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-iss-velocidad",
+   "type": "curiosidad",
+   "cat": "universo",
+   "sub": "Exploración espacial",
+   "level": 2,
+   "title": "La Estación Espacial Internacional da una vuelta a la Tierra cada 93 minutos",
+   "desc": "Completa unas 15,5 órbitas al día.",
+   "body": "La Estación orbita a unos 400 kilómetros de altura, a unos 27.600 km/h. Ha estado ocupada de forma continua desde el año 2000, con astronautas de distintos países.",
+   "sources": [
+    {
+     "t": "Wikipedia — International Space Station",
+     "u": "https://en.wikipedia.org/wiki/International_Space_Station"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg/960px-The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg",
+   "imgCredit": {
+    "artist": "NASA",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg",
+    "file": "The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-23"
+  },
+  {
+   "id": "c-eniac",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Historia de la informática",
+   "level": 2,
+   "title": "Una de las primeras computadoras ocupaba una sala entera",
+   "desc": "ENIAC, terminada en 1945, pesaba unas 27 toneladas.",
+   "body": "ENIAC se construyó en la Universidad de Pensilvania para calcular trayectorias de artillería. Tenía unos 18.000 tubos de vacío. La mayor parte de su programación la hicieron seis matemáticas: Jean Jennings, Marlyn Wescoff, Ruth Lichterman, Betty Snyder, Frances Bilas y Kay McNulty.",
+   "sources": [
+    {
+     "t": "Wikipedia — ENIAC",
+     "u": "https://en.wikipedia.org/wiki/ENIAC"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/ENIAC_at_Moore_School_of_Electrical_Engineering_%282026-09-21%29.webp/960px-ENIAC_at_Moore_School_of_Electrical_Engineering_%282026-09-21%29.webp",
+   "imgCredit": {
+    "artist": "Hubcapp/author",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:ENIAC_at_Moore_School_of_Electrical_Engineering_%282026-09-21%29.webp",
+    "file": "ENIAC_at_Moore_School_of_Electrical_Engineering_(2026-09-21).webp"
+   },
+   "status": "publicado",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "c-linux",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Software",
+   "level": 2,
+   "title": "Linux nació en 1991 de la mano de un joven finlandés de 21 años",
+   "desc": "Linus Torvalds publicó la primera versión del núcleo Linux el 17 de septiembre de 1991.",
+   "body": "Torvalds, nacido en Helsinki en 1969, sigue siendo hoy el desarrollador principal del núcleo. Linux se distribuye como software libre y sobre él funcionan desde servidores hasta supercomputadoras. También es la base de Android. Torvalds creó además Git, una herramienta que usan millones de programadores.",
+   "sources": [
+    {
+     "t": "Wikipedia — Linux",
+     "u": "https://en.wikipedia.org/wiki/Linux"
+    },
+    {
+     "t": "Wikipedia — Linus Torvalds",
+     "u": "https://en.wikipedia.org/wiki/Linus_Torvalds"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/960px-Tux.svg.png",
+   "imgCredit": {
+    "artist": "Larry Ewing, Simon Budig, Garrett LeSage",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Tux.svg",
+    "file": "Tux.svg"
+   },
+   "status": "publicado",
+   "date": "2026-11-17"
+  },
+  {
+   "id": "c-arpanet-lo",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Internet",
+   "level": 2,
+   "title": "El primer mensaje de la red precursora de internet fue «LO»",
+   "desc": "Iban a escribir «LOGIN», pero el sistema se colgó tras dos letras.",
+   "body": "El 29 de octubre de 1969, en ARPANET, un estudiante de la Universidad de California en Los Ángeles intentó conectarse con un equipo del Instituto de Investigación de Stanford. Solo llegaron las letras «L» y «O» antes de que el sistema fallara. Poco después lograron la conexión completa.",
+   "sources": [
+    {
+     "t": "Wikipedia — ARPANET",
+     "u": "https://en.wikipedia.org/wiki/ARPANET"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Arpanet_logical_map%2C_march_1977.png/960px-Arpanet_logical_map%2C_march_1977.png",
+   "imgCredit": {
+    "artist": "ARPANET",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Arpanet_logical_map%2C_march_1977.png",
+    "file": "Arpanet logical map, march 1977.png"
+   },
+   "status": "publicado",
+   "date": "2026-11-14"
+  },
+  {
+   "id": "c-everest-altura",
+   "type": "curiosidad",
+   "cat": "geografia",
+   "sub": "Montañas",
+   "level": 1,
+   "title": "La altura oficial del Everest se actualizó en 2020",
+   "desc": "China y Nepal anunciaron conjuntamente una altura de 8.848,86 metros.",
+   "body": "La altura de las montañas se mide con técnicas cada vez más precisas, y el Everest puede cambiar ligeramente por movimientos tectónicos y terremotos. La cifra anunciada en 2020 es la referencia oficial actual. La montaña está en la frontera entre Nepal y China.",
+   "sources": [
+    {
+     "t": "Wikipedia — Mount Everest",
+     "u": "https://en.wikipedia.org/wiki/Mount_Everest"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/960px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg",
+   "imgCredit": {
+    "artist": "Rdevany",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg",
+    "file": "Mt._Everest_from_Gokyo_Ri_November_5,_2012.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "c-sahara-verde",
+   "type": "curiosidad",
+   "cat": "geografia",
+   "sub": "Climas",
+   "level": 2,
+   "title": "El Sahara fue verde hace miles de años",
+   "desc": "Durante el «periodo húmedo africano» hubo lagos, ríos y sabanas donde hoy hay arena.",
+   "body": "Entre hace unos 14.500 y 5.000 años, con monzones más intensos ligados a cambios en la órbita terrestre, y gran parte del Sahara se cubrió de vegetación. Pinturas rupestres de la región muestran jirafas, elefantes y escenas de pastoreo.",
+   "sources": [
+    {
+     "t": "Wikipedia — African humid period",
+     "u": "https://en.wikipedia.org/wiki/African_humid_period"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Sahara_satellite_hires.jpg/960px-Sahara_satellite_hires.jpg",
+   "imgCredit": {
+    "artist": "NASA",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Sahara_satellite_hires.jpg",
+    "file": "Sahara_satellite_hires.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-08"
+  },
+  {
+   "id": "c-monaco-densidad",
+   "type": "curiosidad",
+   "cat": "geografia",
+   "sub": "Países",
+   "level": 1,
+   "title": "Mónaco es el país más densamente poblado del mundo",
+   "desc": "En unos 2 km² viven decenas de miles de personas.",
+   "body": "Mónaco, en la costa mediterránea junto a Francia, es el segundo país más pequeño del mundo tras el Vaticano. Su densidad de población es la más alta de todos los Estados soberanos. Es famoso por su casino de Montecarlo y su Gran Premio de Fórmula 1.",
+   "sources": [
+    {
+     "t": "Wikipedia — Monaco",
+     "u": "https://en.wikipedia.org/wiki/Monaco"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/960px-Flag_of_Monaco.svg.png",
+   "imgCredit": {
+    "artist": "Drawn by User:SKopp",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Monaco.svg",
+    "file": "Flag_of_Monaco.svg"
+   },
+   "status": "publicado",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "c-delfines-duermen",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Mamíferos",
+   "level": 2,
+   "title": "Los delfines duermen con la mitad del cerebro despierta",
+   "desc": "Así pueden seguir respirando y vigilando mientras descansan.",
+   "body": "Se llama sueño unihemisférico: un hemisferio cerebral duerme mientras el otro permanece alerta, y luego se turnan. Los delfines necesitan subir a la superficie a respirar de forma consciente, así que no pueden desconectarse por completo. Algunas aves también duermen así.",
+   "sources": [
+    {
+     "t": "Wikipedia — Unihemispheric slow-wave sleep",
+     "u": "https://en.wikipedia.org/wiki/Unihemispheric_slow-wave_sleep"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Half_Sleeping_Bird.jpg/960px-Half_Sleeping_Bird.jpg",
+   "imgCredit": {
+    "artist": "Hussain Kaouri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Half_Sleeping_Bird.jpg",
+    "file": "Half_Sleeping_Bird.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-22"
+  },
+  {
+   "id": "c-perezoso",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Mamíferos",
+   "level": 1,
+   "title": "Un perezoso puede tardar un mes o más en digerir lo que come",
+   "desc": "Ningún otro mamífero digiere tan despacio. Los perezosos de tres dedos bajan al suelo más o menos una vez por semana.",
+   "body": "Los perezosos se alimentan sobre todo de hojas, que aportan poca energía. Una parte importante de su peso corporal es el contenido de su estómago, y la digestión puede durar un mes o más. Para ahorrar energía se mueven muy despacio, y en su pelaje crecen algas que les dan un tono verdoso.",
+   "sources": [
+    {
+     "t": "Wikipedia — Sloth",
+     "u": "https://en.wikipedia.org/wiki/Sloth"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Bicho-pregui%C3%A7a_3.jpg/960px-Bicho-pregui%C3%A7a_3.jpg",
+   "imgCredit": {
+    "artist": "Daniella Maraschiello",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bicho-pregui%C3%A7a_3.jpg",
+    "file": "Bicho-preguiça_3.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "c-pinguino-emperador",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Aves",
+   "level": 2,
+   "title": "Los machos de pingüino emperador incuban el huevo durante el invierno antártico",
+   "desc": "Lo incuban durante algo más de dos meses mientras la hembra se alimenta en el mar.",
+   "body": "Tras la puesta, la hembra pasa el huevo al macho y regresa al mar a alimentarse. Los machos se agrupan en grandes «tortugas» para protegerse del frío extremo y del viento, turnándose en el centro. Cuando el huevo eclosiona, el macho puede llevar unos 120 días en ayunas desde que llegó a la colonia.",
+   "sources": [
+    {
+     "t": "Wikipedia — Emperor penguin",
+     "u": "https://en.wikipedia.org/wiki/Emperor_penguin"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/960px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
+   "imgCredit": {
+    "artist": "Ian Duffy from UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
+    "file": "Aptenodytes_forsteri_-Snow_Hill_Island,_Antarctica_-adults_and_juvenile-8.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "c-epicteto",
+   "type": "curiosidad",
+   "cat": "filosofia",
+   "sub": "Estoicismo",
+   "level": 2,
+   "title": "Uno de los grandes filósofos estoicos nació esclavo",
+   "desc": "Epicteto enseñó que no controlamos lo que nos pasa, pero sí cómo respondemos.",
+   "body": "Epicteto nació esclavo en el siglo I y obtuvo después su libertad. No escribió libros: su discípulo Arriano recogió sus enseñanzas en las Disertaciones y el Enquiridión, o manual. Su idea central es distinguir entre lo que depende de nosotros y lo que no.",
+   "sources": [
+    {
+     "t": "Wikipedia — Epictetus",
+     "u": "https://en.wikipedia.org/wiki/Epictetus"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Epictetus_Enchiridion_1683_page1.jpg/960px-Epictetus_Enchiridion_1683_page1.jpg",
+   "imgCredit": {
+    "artist": "Epictetus. Edited by Abraham van Berkel",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Epictetus_Enchiridion_1683_page1.jpg",
+    "file": "Epictetus_Enchiridion_1683_page1.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-13"
+  },
+  {
+   "id": "c-dios-ha-muerto",
+   "type": "curiosidad",
+   "cat": "filosofia",
+   "sub": "Filosofía moderna",
+   "level": 2,
+   "title": "«Dios ha muerto» no era una celebración, sino un diagnóstico",
+   "desc": "Nietzsche lo escribió en 1882 en La gaya ciencia.",
+   "body": "Con esa frase, Friedrich Nietzsche describía que, en su opinión, la cultura europea moderna había dejado de basarse en la fe religiosa. Le preocupaba qué ocuparía ese lugar y cómo encontrar valores y sentido sin aquella base. La frase se cita a menudo fuera de contexto.",
+   "sources": [
+    {
+     "t": "Wikipedia — God is dead",
+     "u": "https://en.wikipedia.org/wiki/God_is_dead"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/FW82.jpg/960px-FW82.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:FW82.jpg",
+    "file": "FW82.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "c-principe-maquiavelo",
+   "type": "curiosidad",
+   "cat": "filosofia",
+   "sub": "Filosofía política",
+   "level": 2,
+   "title": "El Príncipe de Maquiavelo se publicó después de que su autor muriera",
+   "desc": "Escrito hacia 1513, no se imprimió hasta 1532.",
+   "body": "Nicolás Maquiavelo lo escribió poco después de que los Médici recuperaran Florencia y él fuera arrestado, torturado y desterrado. El libro analiza cómo se conquista y se conserva el poder, sin idealismos. De ahí viene el adjetivo «maquiavélico», aunque los estudiosos discuten si el libro era un manual sincero o una descripción crítica.",
+   "sources": [
+    {
+     "t": "Wikipedia — The Prince",
+     "u": "https://en.wikipedia.org/wiki/The_Prince"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Nicolo_Machiavelli%2C_Il_Principe%2C_1550%2C_title_page.jpg/960px-Nicolo_Machiavelli%2C_Il_Principe%2C_1550%2C_title_page.jpg",
+   "imgCredit": {
+    "artist": "Niccolò Machiavelli",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Nicolo_Machiavelli%2C_Il_Principe%2C_1550%2C_title_page.jpg",
+    "file": "Nicolo_Machiavelli,_Il_Principe,_1550,_title_page.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "c-copiale",
+   "type": "curiosidad",
+   "cat": "misterios",
+   "sub": "Misterios resueltos",
+   "level": 2,
+   "title": "Un manuscrito cifrado de 105 páginas se descifró en 2011",
+   "desc": "El códice Copiale resultó ser un texto de una sociedad secreta alemana del siglo XVIII.",
+   "body": "Durante siglos nadie supo qué decía. En 2011, un equipo de investigadores usó métodos informáticos de traducción para descifrarlo: describía los rituales de una sociedad secreta relacionada con la oftalmología. Es un ejemplo de cómo la tecnología ayuda a resolver viejos enigmas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Copiale cipher",
+     "u": "https://en.wikipedia.org/wiki/Copiale_cipher"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Copiale-cipher09s.png/960px-Copiale-cipher09s.png",
+   "imgCredit": {
+    "artist": "18th century",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Copiale-cipher09s.png",
+    "file": "Copiale-cipher09s.png"
+   },
+   "status": "publicado",
+   "date": "2026-11-24"
+  },
+  {
+   "id": "c-sabana-turin",
+   "type": "curiosidad",
+   "cat": "misterios",
+   "sub": "Arqueología",
+   "level": 2,
+   "title": "La datación por carbono-14 situó la Sábana Santa de Turín en la Edad Media",
+   "desc": "En 1988, tres laboratorios la fecharon entre 1260 y 1390.",
+   "body": "La Sábana Santa es un lienzo con la imagen de un hombre, venerado por muchos fieles. En 1988, la Universidad de Oxford, la Universidad de Arizona y el Instituto Federal Suizo de Tecnología dataron muestras del tejido en la Edad Media. Quienes defienden su autenticidad han cuestionado los resultados, sobre todo con el argumento de que las muestras analizadas podrían no ser representativas del lienzo.",
+   "sources": [
+    {
+     "t": "Wikipedia — Shroud of Turin",
+     "u": "https://en.wikipedia.org/wiki/Shroud_of_Turin"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Turin_shroud_positive_and_negative_displaying_original_color_information_708_x_465_pixels_94_KB.jpg/960px-Turin_shroud_positive_and_negative_displaying_original_color_information_708_x_465_pixels_94_KB.jpg",
+   "imgCredit": {
+    "artist": "Dianelos Georgoudis",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Turin_shroud_positive_and_negative_displaying_original_color_information_708_x_465_pixels_94_KB.jpg",
+    "file": "Turin_shroud_positive_and_negative_displaying_original_color_information_708_x_465_pixels_94_KB.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "c-banco-antiguo",
+   "type": "curiosidad",
+   "cat": "economia",
+   "sub": "Historia económica",
+   "level": 2,
+   "title": "El banco en funcionamiento más antiguo del mundo se fundó en 1472",
+   "desc": "Es la Banca Monte dei Paschi di Siena, en Italia.",
+   "body": "Nació como un «monte de piedad», una institución para conceder préstamos a personas necesitadas y combatir la usura. Ha funcionado de forma continua durante más de cinco siglos, aunque en las últimas décadas ha atravesado graves crisis.",
+   "sources": [
+    {
+     "t": "Wikipedia — Banca Monte dei Paschi di Siena",
+     "u": "https://en.wikipedia.org/wiki/Banca_Monte_dei_Paschi_di_Siena"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Palazzo_Salimbeni%2C_Siena%2C_Headquarters_of_Monte_dei_Paschi_di_Siena%2C_the_worlds_oldest_surviving_bank.jpg/960px-Palazzo_Salimbeni%2C_Siena%2C_Headquarters_of_Monte_dei_Paschi_di_Siena%2C_the_worlds_oldest_surviving_bank.jpg",
+   "imgCredit": {
+    "artist": "Ray in Manila",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Palazzo_Salimbeni%2C_Siena%2C_Headquarters_of_Monte_dei_Paschi_di_Siena%2C_the_worlds_oldest_surviving_bank.jpg",
+    "file": "Palazzo_Salimbeni,_Siena,_Headquarters_of_Monte_dei_Paschi_di_Siena,_the_worlds_oldest_surviving_bank.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "c-crack-1929",
+   "type": "curiosidad",
+   "cat": "economia",
+   "sub": "Crisis",
+   "level": 1,
+   "title": "La Gran Depresión empezó con un desplome de la bolsa en 1929",
+   "desc": "El «crac del 29» comenzó en Wall Street en octubre.",
+   "body": "En pocos días de octubre de 1929, el valor de las acciones en la Bolsa de Nueva York se desplomó. La caída marcó el inicio de la Gran Depresión, la peor crisis económica del siglo XX, con desempleo masivo en muchos países durante la década de 1930.",
+   "sources": [
+    {
+     "t": "Wikipedia — Wall Street crash of 1929",
+     "u": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/NYSE127.jpg/960px-NYSE127.jpg",
+   "imgCredit": {
+    "artist": "Ryan Lawler",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:NYSE127.jpg",
+    "file": "NYSE127.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "c-billetes-euro",
+   "type": "curiosidad",
+   "cat": "economia",
+   "sub": "Dinero",
+   "level": 2,
+   "title": "Los puentes de los billetes de euro no existen",
+   "desc": "Representan estilos arquitectónicos europeos, no edificios reales de ningún país.",
+   "body": "Para no favorecer a ningún país, los billetes de euro muestran ventanas, puertas y puentes que ilustran estilos de distintas épocas, como el románico, el gótico o el barroco. Curiosamente, la ciudad neerlandesa de Spijkenisse construyó después réplicas reales de esos puentes.",
+   "sources": [
+    {
+     "t": "Wikipedia — Euro banknotes",
+     "u": "https://en.wikipedia.org/wiki/Euro_banknotes"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Euro_banknotes%2C_Europa_series.png/960px-Euro_banknotes%2C_Europa_series.png",
+   "imgCredit": {
+    "artist": "Bericht",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Euro_banknotes%2C_Europa_series.png",
+    "file": "Euro_banknotes,_Europa_series.png"
+   },
+   "status": "publicado",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "c-mezquita-cordoba",
+   "type": "curiosidad",
+   "cat": "religion",
+   "sub": "Arquitectura religiosa",
+   "level": 2,
+   "title": "En Córdoba hay una catedral construida dentro de una mezquita",
+   "desc": "La Mezquita-Catedral fue mezquita durante siglos y desde el siglo XIII es templo cristiano.",
+   "body": "Comenzada en el siglo VIII bajo la dinastía omeya, su famoso bosque de columnas y arcos bicolores la convirtió en una obra maestra del arte islámico. Tras la conquista cristiana de Córdoba en 1236, se convirtió en catedral, y en el siglo XVI se levantó una gran nave renacentista en su interior.",
+   "sources": [
+    {
+     "t": "Wikipedia — Mosque–Cathedral of Córdoba",
+     "u": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg/960px-Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg",
+   "imgCredit": {
+    "artist": "Toni Castillo Quero",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg",
+    "file": "Mezquita de Córdoba desde el aire (Córdoba, España).jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-09"
+  },
+  {
+   "id": "c-borobudur",
+   "type": "curiosidad",
+   "cat": "religion",
+   "sub": "Budismo",
+   "level": 2,
+   "title": "El mayor templo budista del mundo está en Indonesia",
+   "desc": "Borobudur, en Java, se construyó en el siglo IX.",
+   "body": "Está formado por nueve plataformas superpuestas, tiene 2.672 relieves y tuvo originalmente 504 estatuas de Buda. Estuvo oculto durante siglos bajo cenizas volcánicas y vegetación; el interés mundial por él despertó en 1814. Es Patrimonio de la Humanidad.",
+   "sources": [
+    {
+     "t": "Wikipedia — Borobudur",
+     "u": "https://en.wikipedia.org/wiki/Borobudur"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Pradaksina.jpg/960px-Pradaksina.jpg",
+   "imgCredit": {
+    "artist": "Heri nugroho",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Pradaksina.jpg",
+    "file": "Pradaksina.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-coran-suras",
+   "type": "curiosidad",
+   "cat": "religion",
+   "sub": "Islam",
+   "level": 1,
+   "title": "El Corán está dividido en 114 capítulos llamados suras",
+   "desc": "Según la tradición islámica, fue revelado al profeta Mahoma a lo largo de unos 23 años.",
+   "body": "Cada sura se compone de versículos llamados aleyas. Poco después de la muerte de Mahoma, el Corán fue recopilado por orden del primer califa, Abu Bakr. Está escrito en árabe.",
+   "sources": [
+    {
+     "t": "Wikipedia — Quran",
+     "u": "https://en.wikipedia.org/wiki/Quran"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Birmingham_Quran_manuscript_full.jpg/960px-Birmingham_Quran_manuscript_full.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Birmingham_Quran_manuscript_full.jpg",
+    "file": "Birmingham_Quran_manuscript_full.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-23"
+  },
+  {
+   "id": "c-don-quijote",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "Literatura",
+   "level": 1,
+   "title": "La primera parte del Quijote se publicó en 1605",
+   "desc": "Muchos la consideran la primera novela moderna.",
+   "body": "Miguel de Cervantes publicó la segunda parte en 1615. Entre medias apareció una continuación falsa escrita por un autor con seudónimo, Alonso Fernández de Avellaneda, y Cervantes se burló de ella en su propia segunda parte. El Quijote es una de las obras más traducidas de la historia.",
+   "sources": [
+    {
+     "t": "Wikipedia — Don Quixote",
+     "u": "https://en.wikipedia.org/wiki/Don_Quixote"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Title_page_first_edition_Don_Quijote.jpg/960px-Title_page_first_edition_Don_Quijote.jpg",
+   "imgCredit": {
+    "artist": "Juan de la Cuesta",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Title_page_first_edition_Don_Quijote.jpg",
+    "file": "Title_page_first_edition_Don_Quijote.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "c-tango-unesco",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "Música y baile",
+   "level": 1,
+   "title": "El tango es Patrimonio Cultural Inmaterial de la Humanidad desde 2009",
+   "desc": "Nació en la región del Río de la Plata, entre Argentina y Uruguay.",
+   "body": "Surgió a finales del siglo XIX en los barrios populares de Buenos Aires y Montevideo, con influencias africanas, europeas y criollas. Argentina y Uruguay presentaron juntos la candidatura a la UNESCO, que lo inscribió en 2009.",
+   "sources": [
+    {
+     "t": "Wikipedia — Tango",
+     "u": "https://en.wikipedia.org/wiki/Tango"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Bandoneon.jpg/960px-Bandoneon.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bandoneon.jpg",
+    "file": "Bandoneon.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-17"
+  },
+  {
+   "id": "c-dia-muertos",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "Tradiciones",
+   "level": 1,
+   "title": "El Día de Muertos mexicano es Patrimonio Cultural Inmaterial",
+   "desc": "La UNESCO lo reconoció en 2008 dentro de las fiestas indígenas dedicadas a los muertos.",
+   "body": "Se celebra principalmente el 1 y 2 de noviembre. Las familias construyen altares, u ofrendas, con fotografías, flores de cempasúchil, velas y comida para recordar a sus seres queridos. Combina tradiciones indígenas mesoamericanas con el calendario católico.",
+   "sources": [
+    {
+     "t": "Wikipedia — Day of the Dead",
+     "u": "https://en.wikipedia.org/wiki/Day_of_the_Dead"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Tagetes_erecta_chendumalli_chedi.jpg/960px-Tagetes_erecta_chendumalli_chedi.jpg",
+   "imgCredit": {
+    "artist": "Ezhuttukari",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Tagetes_erecta_chendumalli_chedi.jpg",
+    "file": "Tagetes erecta chendumalli chedi.jpg"
+   },
+   "status": "publicado",
+   "date": "2026-11-14"
   }
  ],
  "questions": [
@@ -12113,6 +13957,1607 @@ window.SQ_CONTENT = {
    ],
    "a": 1,
    "exp": "Es una respuesta al bombardeo de la villa vasca de Guernica en 1937."
+  },
+  {
+   "id": "q279",
+   "cat": "medicina",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-viruela",
+   "q": "¿Qué enfermedad humana fue declarada erradicada en 1980?",
+   "o": [
+    "La polio",
+    "La viruela",
+    "La malaria",
+    "El sarampión"
+   ],
+   "a": 1,
+   "exp": "Edward Jenner probó en 1796 que la viruela bovina protegía contra la viruela. En 1980, la OMS declaró erradicada la enfermedad."
+  },
+  {
+   "id": "q280",
+   "cat": "medicina",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-semmelweis",
+   "q": "¿Qué propuso Ignaz Semmelweis en 1847?",
+   "o": [
+    "Usar antibióticos",
+    "Lavarse las manos antes de atender a las pacientes",
+    "Hacer más autopsias",
+    "Vacunar a las madres"
+   ],
+   "a": 1,
+   "exp": "Semmelweis descubrió que lavarse las manos con una solución de cal clorada salvaba la vida de las madres tras el parto."
+  },
+  {
+   "id": "q281",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-anestesia",
+   "q": "¿Qué sustancia se usó en la demostración pública de anestesia de 1846?",
+   "o": [
+    "Cloroformo",
+    "Éter",
+    "Morfina",
+    "Alcohol"
+   ],
+   "a": 1,
+   "exp": "La primera demostración pública de anestesia general con éter fue en 1846, en el Hospital General de Massachusetts."
+  },
+  {
+   "id": "q282",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-insulina",
+   "q": "¿En qué ciudad se aisló la insulina?",
+   "o": [
+    "Londres",
+    "París",
+    "Toronto",
+    "Nueva York"
+   ],
+   "a": 2,
+   "exp": "En Toronto, Frederick Banting y Charles Best aislaron la insulina. El primer paciente tratado con éxito fue un adolescente, en 1922."
+  },
+  {
+   "id": "q283",
+   "cat": "medicina",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-estetoscopio",
+   "q": "¿Quién inventó el estetoscopio en 1816?",
+   "o": [
+    "Louis Pasteur",
+    "René Laennec",
+    "Robert Koch",
+    "William Harvey"
+   ],
+   "a": 1,
+   "exp": "René Laennec lo inventó en 1816 por pudor: no quería apoyar la oreja en el pecho de una paciente."
+  },
+  {
+   "id": "q284",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-harvey-circulacion",
+   "q": "¿Quién demostró la circulación de la sangre en 1628?",
+   "o": [
+    "Galeno",
+    "William Harvey",
+    "Vesalio",
+    "Hipócrates"
+   ],
+   "a": 1,
+   "exp": "William Harvey demostró que el corazón bombea la sangre en un circuito cerrado."
+  },
+  {
+   "id": "q285",
+   "cat": "medicina",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-aspirina-sauce",
+   "q": "¿De qué planta procede el principio de la aspirina?",
+   "o": [
+    "Del café",
+    "Del sauce",
+    "De la amapola",
+    "Del tabaco"
+   ],
+   "a": 1,
+   "exp": "La corteza de sauce se usaba desde la Antigüedad contra el dolor y la fiebre."
+  },
+  {
+   "id": "q286",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-foto-51",
+   "q": "¿Qué científica estaba al frente del trabajo que produjo la «Fotografía 51»?",
+   "o": [
+    "Marie Curie",
+    "Rosalind Franklin",
+    "Ada Lovelace",
+    "Barbara McClintock"
+   ],
+   "a": 1,
+   "exp": "La «Fotografía 51», tomada en el laboratorio de Rosalind Franklin, mostró el patrón en hélice."
+  },
+  {
+   "id": "q287",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-trasplante-corazon",
+   "q": "¿En qué ciudad se hizo el primer trasplante de corazón entre humanos?",
+   "o": [
+    "Nueva York",
+    "Ciudad del Cabo",
+    "Londres",
+    "Houston"
+   ],
+   "a": 1,
+   "exp": "El cirujano Christiaan Barnard lo realizó en Ciudad del Cabo; el paciente vivió 18 días."
+  },
+  {
+   "id": "q288",
+   "cat": "medicina",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-juramento-hipocratico",
+   "q": "¿A qué médico griego se atribuye el juramento que hacen los médicos?",
+   "o": [
+    "Galeno",
+    "Hipócrates",
+    "Aristóteles",
+    "Asclepio"
+   ],
+   "a": 1,
+   "exp": "El juramento hipocrático se atribuye a la escuela de Hipócrates, del siglo V a. C."
+  },
+  {
+   "id": "q289",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-pasteur-rabia",
+   "q": "¿Contra qué enfermedad aplicó Pasteur su vacuna en 1885?",
+   "o": [
+    "La viruela",
+    "La rabia",
+    "La tuberculosis",
+    "El cólera"
+   ],
+   "a": 1,
+   "exp": "Louis Pasteur lo trató en 1885 tras ser mordido por un perro rabioso, y sobrevivió."
+  },
+  {
+   "id": "q290",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-koch-tuberculosis",
+   "q": "¿Quién identificó la bacteria de la tuberculosis?",
+   "o": [
+    "Louis Pasteur",
+    "Robert Koch",
+    "Alexander Fleming",
+    "Joseph Lister"
+   ],
+   "a": 1,
+   "exp": "El 24 de marzo de 1882, Robert Koch anunció que había identificado la bacteria que la causa."
+  },
+  {
+   "id": "q291",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-lister-antisepsia",
+   "q": "¿Qué sustancia usó Joseph Lister como antiséptico?",
+   "o": [
+    "Alcohol",
+    "Ácido carbólico",
+    "Yodo",
+    "Cloro"
+   ],
+   "a": 1,
+   "exp": "Joseph Lister introdujo el ácido carbólico para limpiar heridas e instrumentos."
+  },
+  {
+   "id": "q292",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-temperatura-37",
+   "q": "¿Quién popularizó la cifra de 37 °C como temperatura normal?",
+   "o": [
+    "Carl Wunderlich",
+    "Galileo",
+    "Celsius",
+    "Fahrenheit"
+   ],
+   "a": 0,
+   "exp": "Carl Wunderlich la fijó en un libro de 1868; estudios más recientes encuentran un promedio algo más bajo, de unos 36,4 °C."
+  },
+  {
+   "id": "q293",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-nocebo",
+   "q": "¿Qué es el efecto nocebo?",
+   "o": [
+    "Un medicamento nuevo",
+    "Sentir efectos negativos por esperarlos",
+    "Una vacuna",
+    "Una alergia"
+   ],
+   "a": 1,
+   "exp": "Esperar efectos negativos de un tratamiento puede hacer que la persona los sienta."
+  },
+  {
+   "id": "q294",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-vacunas-arnm",
+   "q": "¿Qué contienen las vacunas de ARN mensajero?",
+   "o": [
+    "El virus vivo",
+    "Instrucciones para producir una proteína inofensiva",
+    "Antibióticos",
+    "Sangre de donantes"
+   ],
+   "a": 1,
+   "exp": "Katalin Karikó y Drew Weissman recibieron el Nobel de Medicina 2023 por los descubrimientos que las hicieron posibles."
+  },
+  {
+   "id": "q295",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-cirugia-despierto",
+   "q": "¿Para qué se mantiene despierto al paciente en algunas cirugías cerebrales?",
+   "o": [
+    "Para ahorrar anestesia",
+    "Para comprobar que no se dañan zonas como las del lenguaje",
+    "Porque es más rápido",
+    "No se hace nunca"
+   ],
+   "a": 1,
+   "exp": "Así los cirujanos comprueban en tiempo real que no dañan zonas importantes, como las del lenguaje."
+  },
+  {
+   "id": "q296",
+   "cat": "medicina",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-donante-universal",
+   "q": "¿Qué grupo sanguíneo es el donante universal de glóbulos rojos?",
+   "o": [
+    "AB positivo",
+    "O negativo",
+    "A positivo",
+    "B negativo"
+   ],
+   "a": 1,
+   "exp": "Por eso se usa en emergencias cuando no hay tiempo de comprobar el grupo del paciente."
+  },
+  {
+   "id": "q297",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-polio",
+   "q": "¿En qué dos países sigue siendo endémico el poliovirus salvaje?",
+   "o": [
+    "India y Nigeria",
+    "Pakistán y Afganistán",
+    "Brasil y Perú",
+    "Egipto y Sudán"
+   ],
+   "a": 1,
+   "exp": "El poliovirus salvaje solo sigue circulando de forma endémica en dos países: Pakistán y Afganistán."
+  },
+  {
+   "id": "q298",
+   "cat": "medicina",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-oms-1948",
+   "q": "¿Dónde tiene su sede la OMS?",
+   "o": [
+    "Nueva York",
+    "Ginebra",
+    "París",
+    "Roma"
+   ],
+   "a": 1,
+   "exp": "La Organización Mundial de la Salud se fundó el 7 de abril de 1948."
+  },
+  {
+   "id": "q299",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-cruz-roja",
+   "q": "¿Qué batalla inspiró la creación de la Cruz Roja?",
+   "o": [
+    "Waterloo",
+    "Solferino",
+    "Verdún",
+    "Gettysburg"
+   ],
+   "a": 1,
+   "exp": "Henri Dunant quedó impactado por los heridos de Solferino, en Italia, y propuso una organización neutral para atenderlos."
+  },
+  {
+   "id": "q300",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-quinina",
+   "q": "¿De qué árbol se obtiene la quinina?",
+   "o": [
+    "Del sauce",
+    "De la quina",
+    "Del eucalipto",
+    "Del caucho"
+   ],
+   "a": 1,
+   "exp": "La quinina se extrae de la corteza del árbol de la quina, nativo de Sudamérica."
+  },
+  {
+   "id": "q301",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-malaria-mosquito",
+   "q": "¿Qué causa la malaria?",
+   "o": [
+    "Un virus",
+    "Un parásito llamado Plasmodium",
+    "Una bacteria",
+    "Un hongo"
+   ],
+   "a": 1,
+   "exp": "Lo transmiten las hembras del mosquito Anopheles."
+  },
+  {
+   "id": "q302",
+   "cat": "medicina",
+   "level": 3,
+   "status": "publicado",
+   "ref": "c-microbiota",
+   "q": "Según las estimaciones actuales, ¿cuántas bacterias hay por cada célula humana?",
+   "o": [
+    "Unas diez",
+    "Aproximadamente una",
+    "Unas cien",
+    "Ninguna"
+   ],
+   "a": 1,
+   "exp": "Se estiman unos 38 billones de bacterias frente a entre 30 y 40 billones de células humanas."
+  },
+  {
+   "id": "q303",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-resonancia",
+   "q": "¿Qué usa la resonancia magnética para obtener imágenes?",
+   "o": [
+    "Rayos X",
+    "Imanes y ondas de radio",
+    "Ultrasonido",
+    "Radiación gamma"
+   ],
+   "a": 1,
+   "exp": "Funciona con imanes potentes y ondas de radio."
+  },
+  {
+   "id": "q304",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-resistencia-antibioticos",
+   "q": "¿Qué acelera la aparición de bacterias resistentes?",
+   "o": [
+    "Lavarse las manos",
+    "El uso excesivo o inadecuado de antibióticos",
+    "Vacunarse",
+    "Beber agua"
+   ],
+   "a": 1,
+   "exp": "Predijo que un mal uso de la penicilina podía crear bacterias resistentes."
+  },
+  {
+   "id": "q305",
+   "cat": "medicina",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-antibioticos-gripe",
+   "q": "¿Sirven los antibióticos contra los virus de la gripe?",
+   "o": [
+    "Sí, siempre",
+    "No, actúan contra bacterias",
+    "Solo en niños",
+    "Solo si se toman muchos"
+   ],
+   "a": 1,
+   "exp": "Falso. Los antibióticos actúan contra bacterias, no contra virus."
+  },
+  {
+   "id": "q306",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "m-vacunas-autismo",
+   "q": "¿Qué pasó con el estudio de 1998 que relacionaba vacunas y autismo?",
+   "o": [
+    "Fue confirmado",
+    "Fue retractado por fraudulento",
+    "Nunca se publicó",
+    "Ganó un premio"
+   ],
+   "a": 1,
+   "exp": "Falso. El estudio de 1998 que lo sugirió era fraudulento y fue retractado en 2010."
+  },
+  {
+   "id": "q307",
+   "cat": "medicina",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-frio-resfriado",
+   "q": "¿Qué causa realmente el resfriado común?",
+   "o": [
+    "El frío",
+    "Virus, sobre todo rinovirus",
+    "El pelo mojado",
+    "La lluvia"
+   ],
+   "a": 1,
+   "exp": "Verdad a medias. Los resfriados los causan virus; el frío por sí solo no los produce."
+  },
+  {
+   "id": "q308",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "m-vitamina-c",
+   "q": "¿Qué indican los estudios sobre la vitamina C y el resfriado?",
+   "o": [
+    "Que lo cura en un día",
+    "Que no lo previene, pero puede acortarlo ligeramente",
+    "Que lo provoca",
+    "Que no tiene ninguna relación con nada"
+   ],
+   "a": 1,
+   "exp": "Verdad a medias. En la población general no los previene, aunque tomarla a diario puede acortarlos un poco."
+  },
+  {
+   "id": "q309",
+   "cat": "ciencia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-velocidad-luz",
+   "q": "¿Cuál es la velocidad de la luz en el vacío?",
+   "o": [
+    "300.000 m/s",
+    "299.792.458 m/s",
+    "150.000 km/s",
+    "1 millón de km/s"
+   ],
+   "a": 1,
+   "exp": "Es de 299.792.458 metros por segundo, porque el metro se define a partir de ella."
+  },
+  {
+   "id": "q310",
+   "cat": "ciencia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-118-elementos",
+   "q": "¿Cuántos elementos tiene la tabla periódica actualmente conocida?",
+   "o": [
+    "92",
+    "103",
+    "118",
+    "150"
+   ],
+   "a": 2,
+   "exp": "Los últimos nombres oficiales se aprobaron en 2016, entre ellos el oganesón."
+  },
+  {
+   "id": "q311",
+   "cat": "ciencia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-ebullicion-altura",
+   "q": "¿Por qué el agua hierve a menor temperatura en la montaña?",
+   "o": [
+    "Porque hace frío",
+    "Porque hay menos presión atmosférica",
+    "Porque el agua es distinta",
+    "Porque hay menos oxígeno en el agua"
+   ],
+   "a": 1,
+   "exp": "A menos presión atmosférica, el agua hierve a menor temperatura."
+  },
+  {
+   "id": "q312",
+   "cat": "historia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "m-esfinge-nariz",
+   "q": "¿Le arrancaron la nariz a la Esfinge los soldados de Napoleón?",
+   "o": [
+    "Sí, a cañonazos",
+    "No, ya faltaba antes de su llegada",
+    "Sí, por accidente",
+    "Nunca tuvo nariz"
+   ],
+   "a": 1,
+   "exp": "Falso. Dibujos publicados en 1755, antes de la llegada de Napoleón, ya la muestran sin nariz."
+  },
+  {
+   "id": "q313",
+   "cat": "historia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-titanic",
+   "q": "¿En qué año se hundió el Titanic?",
+   "o": [
+    "1898",
+    "1912",
+    "1923",
+    "1939"
+   ],
+   "a": 1,
+   "exp": "Chocó contra un iceberg en el Atlántico Norte y murieron más de 1.500 personas."
+  },
+  {
+   "id": "q314",
+   "cat": "historia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-cadena-montaje",
+   "q": "¿Qué modelo de carro se fabricaba con la cadena de montaje de Ford en 1913?",
+   "o": [
+    "El Mustang",
+    "El Modelo T",
+    "El Escarabajo",
+    "El Modelo A"
+   ],
+   "a": 1,
+   "exp": "En 1913, Ford introdujo una línea de montaje móvil para el Modelo T."
+  },
+  {
+   "id": "q315",
+   "cat": "psicologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-efecto-pigmalion",
+   "q": "¿Qué describe el efecto Pigmalión?",
+   "o": [
+    "Que las estatuas cobran vida",
+    "Que las expectativas sobre alguien influyen en su rendimiento",
+    "Que olvidamos rápido",
+    "Que copiamos a los demás"
+   ],
+   "a": 1,
+   "exp": "Se llama efecto Pigmalión o efecto Rosenthal."
+  },
+  {
+   "id": "q316",
+   "cat": "psicologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-disonancia-cognitiva",
+   "q": "¿Quién propuso la teoría de la disonancia cognitiva?",
+   "o": [
+    "Freud",
+    "Leon Festinger",
+    "Piaget",
+    "Skinner"
+   ],
+   "a": 1,
+   "exp": "Leon Festinger lo llamó disonancia cognitiva en 1957."
+  },
+  {
+   "id": "q317",
+   "cat": "psicologia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-sueno-rem",
+   "q": "¿En qué fase del sueño suelen darse los sueños más vívidos?",
+   "o": [
+    "Fase 1",
+    "Fase REM",
+    "Fase 3",
+    "Al despertar"
+   ],
+   "a": 1,
+   "exp": "Durante esa fase los ojos se mueven rápido bajo los párpados y casi todos los músculos se relajan."
+  },
+  {
+   "id": "q318",
+   "cat": "universo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-estrella-polar",
+   "q": "¿Cuál es la estrella más brillante del cielo nocturno?",
+   "o": [
+    "La Estrella Polar",
+    "Sirio",
+    "Betelgeuse",
+    "Vega"
+   ],
+   "a": 1,
+   "exp": "Falso. Es útil para orientarse porque apenas se mueve, pero la más brillante es Sirio."
+  },
+  {
+   "id": "q319",
+   "cat": "universo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-terremotos-luna",
+   "q": "¿Qué instrumentos detectaron los terremotos lunares?",
+   "o": [
+    "Telescopios",
+    "Sismógrafos de las misiones Apolo",
+    "Satélites GPS",
+    "Radares"
+   ],
+   "a": 1,
+   "exp": "Los sismógrafos que dejaron las misiones Apolo registraron «lunamotos»."
+  },
+  {
+   "id": "q320",
+   "cat": "universo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-iss-velocidad",
+   "q": "¿Desde qué año está ocupada de forma continua la Estación Espacial Internacional?",
+   "o": [
+    "1986",
+    "2000",
+    "2011",
+    "2020"
+   ],
+   "a": 1,
+   "exp": "Completa unas 15,5 órbitas al día."
+  },
+  {
+   "id": "q321",
+   "cat": "tecnologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-eniac",
+   "q": "¿Qué componente electrónico usaba ENIAC por miles?",
+   "o": [
+    "Transistores",
+    "Tubos de vacío",
+    "Microchips",
+    "Resortes"
+   ],
+   "a": 1,
+   "exp": "ENIAC, terminada en 1945, pesaba unas 27 toneladas."
+  },
+  {
+   "id": "q322",
+   "cat": "tecnologia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-linux",
+   "q": "¿Qué sistema operativo para teléfonos se basa en el núcleo Linux?",
+   "o": [
+    "iOS",
+    "Android",
+    "Windows Phone",
+    "Symbian"
+   ],
+   "a": 1,
+   "exp": "Linus Torvalds publicó la primera versión del núcleo Linux el 17 de septiembre de 1991."
+  },
+  {
+   "id": "q323",
+   "cat": "tecnologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-arpanet-lo",
+   "q": "¿Qué palabra se intentó enviar en el primer mensaje de ARPANET?",
+   "o": [
+    "HELLO",
+    "LOGIN",
+    "TEST",
+    "WORLD"
+   ],
+   "a": 1,
+   "exp": "Iban a escribir «LOGIN», pero el sistema se colgó tras dos letras."
+  },
+  {
+   "id": "q324",
+   "cat": "geografia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-everest-altura",
+   "q": "¿Cuál es la altura oficial del Everest anunciada en 2020?",
+   "o": [
+    "8.611 m",
+    "8.848,86 m",
+    "9.000 m",
+    "8.091 m"
+   ],
+   "a": 1,
+   "exp": "China y Nepal anunciaron conjuntamente una altura de 8.848,86 metros."
+  },
+  {
+   "id": "q325",
+   "cat": "geografia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-sahara-verde",
+   "q": "¿Cómo era el Sahara durante el periodo húmedo africano?",
+   "o": [
+    "Más seco que hoy",
+    "Verde, con lagos y vegetación",
+    "Cubierto de hielo",
+    "Bajo el mar"
+   ],
+   "a": 1,
+   "exp": "Durante el «periodo húmedo africano» hubo lagos, ríos y sabanas donde hoy hay arena."
+  },
+  {
+   "id": "q326",
+   "cat": "geografia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-monaco-densidad",
+   "q": "¿Cuál es el país más densamente poblado del mundo?",
+   "o": [
+    "Singapur",
+    "Mónaco",
+    "Bangladés",
+    "Malta"
+   ],
+   "a": 1,
+   "exp": "En unos 2 km² viven decenas de miles de personas."
+  },
+  {
+   "id": "q327",
+   "cat": "animales",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-delfines-duermen",
+   "q": "¿Cómo duermen los delfines?",
+   "o": [
+    "No duermen",
+    "Con un hemisferio del cerebro despierto",
+    "Solo en tierra",
+    "Una hora al año"
+   ],
+   "a": 1,
+   "exp": "Así pueden seguir respirando y vigilando mientras descansan."
+  },
+  {
+   "id": "q328",
+   "cat": "animales",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-perezoso",
+   "q": "¿Qué crece en el pelaje de los perezosos?",
+   "o": [
+    "Hongos venenosos",
+    "Algas",
+    "Musgo dorado",
+    "Plumas"
+   ],
+   "a": 1,
+   "exp": "Ningún otro mamífero digiere tan despacio. Los perezosos de tres dedos bajan al suelo más o menos una vez por semana."
+  },
+  {
+   "id": "q329",
+   "cat": "animales",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-pinguino-emperador",
+   "q": "En el pingüino emperador, ¿quién incuba el huevo?",
+   "o": [
+    "La hembra",
+    "El macho",
+    "Ambos por turnos de un día",
+    "Nadie, se entierra"
+   ],
+   "a": 1,
+   "exp": "Lo incuban durante algo más de dos meses mientras la hembra se alimenta en el mar."
+  },
+  {
+   "id": "q330",
+   "cat": "filosofia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-epicteto",
+   "q": "¿Quién recogió por escrito las enseñanzas de Epicteto?",
+   "o": [
+    "Platón",
+    "Arriano",
+    "Séneca",
+    "Marco Aurelio"
+   ],
+   "a": 1,
+   "exp": "Epicteto enseñó que no controlamos lo que nos pasa, pero sí cómo respondemos."
+  },
+  {
+   "id": "q331",
+   "cat": "filosofia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-dios-ha-muerto",
+   "q": "¿En qué obra escribió Nietzsche «Dios ha muerto»?",
+   "o": [
+    "Así habló Zaratustra",
+    "La gaya ciencia",
+    "El Anticristo",
+    "Ecce homo"
+   ],
+   "a": 1,
+   "exp": "Nietzsche lo escribió en 1882 en La gaya ciencia."
+  },
+  {
+   "id": "q332",
+   "cat": "filosofia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-principe-maquiavelo",
+   "q": "¿En qué año se publicó El Príncipe de Maquiavelo?",
+   "o": [
+    "1492",
+    "1513",
+    "1532",
+    "1600"
+   ],
+   "a": 2,
+   "exp": "Escrito hacia 1513, no se imprimió hasta 1532."
+  },
+  {
+   "id": "q333",
+   "cat": "misterios",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-copiale",
+   "q": "¿En qué año se descifró el códice Copiale?",
+   "o": [
+    "1911",
+    "1975",
+    "2011",
+    "Todavía no"
+   ],
+   "a": 2,
+   "exp": "El códice Copiale resultó ser un texto de una sociedad secreta alemana del siglo XVIII."
+  },
+  {
+   "id": "q334",
+   "cat": "misterios",
+   "level": 3,
+   "status": "publicado",
+   "ref": "c-sabana-turin",
+   "q": "¿Qué rango de fechas dio la datación de 1988 de la Sábana de Turín?",
+   "o": [
+    "Siglo I",
+    "1260–1390",
+    "1700–1800",
+    "Antes de Cristo"
+   ],
+   "a": 1,
+   "exp": "En 1988, tres laboratorios la fecharon entre 1260 y 1390."
+  },
+  {
+   "id": "q335",
+   "cat": "economia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-banco-antiguo",
+   "q": "¿En qué país está el banco más antiguo en funcionamiento?",
+   "o": [
+    "Inglaterra",
+    "Italia",
+    "Suiza",
+    "Países Bajos"
+   ],
+   "a": 1,
+   "exp": "Es la Banca Monte dei Paschi di Siena, en Italia."
+  },
+  {
+   "id": "q336",
+   "cat": "economia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-crack-1929",
+   "q": "¿Qué crisis comenzó tras el crac bursátil de 1929?",
+   "o": [
+    "La crisis del petróleo",
+    "La Gran Depresión",
+    "La crisis de 2008",
+    "La hiperinflación alemana"
+   ],
+   "a": 1,
+   "exp": "El «crac del 29» comenzó en Wall Street en octubre."
+  },
+  {
+   "id": "q337",
+   "cat": "economia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-billetes-euro",
+   "q": "¿Qué representan los puentes de los billetes de euro?",
+   "o": [
+    "Puentes famosos de cada país",
+    "Estilos arquitectónicos, no edificios reales",
+    "Puentes de Bruselas",
+    "Puentes romanos"
+   ],
+   "a": 1,
+   "exp": "Representan estilos arquitectónicos europeos, no edificios reales de ningún país."
+  },
+  {
+   "id": "q338",
+   "cat": "religion",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-mezquita-cordoba",
+   "q": "¿En qué ciudad está la Mezquita-Catedral?",
+   "o": [
+    "Granada",
+    "Córdoba",
+    "Sevilla",
+    "Toledo"
+   ],
+   "a": 1,
+   "exp": "La Mezquita-Catedral fue mezquita durante siglos y desde el siglo XIII es templo cristiano."
+  },
+  {
+   "id": "q339",
+   "cat": "religion",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-borobudur",
+   "q": "¿En qué país está Borobudur, el mayor templo budista?",
+   "o": [
+    "Tailandia",
+    "Indonesia",
+    "India",
+    "Japón"
+   ],
+   "a": 1,
+   "exp": "Borobudur, en Java, se construyó en el siglo IX."
+  },
+  {
+   "id": "q340",
+   "cat": "religion",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-coran-suras",
+   "q": "¿Cuántas suras tiene el Corán?",
+   "o": [
+    "99",
+    "114",
+    "150",
+    "66"
+   ],
+   "a": 1,
+   "exp": "Según la tradición islámica, fue revelado al profeta Mahoma a lo largo de unos 23 años."
+  },
+  {
+   "id": "q341",
+   "cat": "cultura",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-don-quijote",
+   "q": "¿En qué año se publicó la primera parte del Quijote?",
+   "o": [
+    "1492",
+    "1605",
+    "1700",
+    "1810"
+   ],
+   "a": 1,
+   "exp": "Muchos la consideran la primera novela moderna."
+  },
+  {
+   "id": "q342",
+   "cat": "cultura",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-tango-unesco",
+   "q": "¿De qué región es originario el tango?",
+   "o": [
+    "El Caribe",
+    "El Río de la Plata",
+    "Andalucía",
+    "México"
+   ],
+   "a": 1,
+   "exp": "Nació en la región del Río de la Plata, entre Argentina y Uruguay."
+  },
+  {
+   "id": "q343",
+   "cat": "cultura",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-dia-muertos",
+   "q": "¿Qué flor es típica de las ofrendas del Día de Muertos?",
+   "o": [
+    "La rosa",
+    "El cempasúchil",
+    "El girasol",
+    "El tulipán"
+   ],
+   "a": 1,
+   "exp": "La UNESCO lo reconoció en 2008 dentro de las fiestas indígenas dedicadas a los muertos."
+  },
+  {
+   "id": "q344",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/esqueletico",
+   "q": "¿Cuántos huesos tiene un adulto?",
+   "o": [
+    "106",
+    "206",
+    "306",
+    "406"
+   ],
+   "a": 1,
+   "exp": "El armazón del cuerpo: sostiene, protege y produce células de la sangre."
+  },
+  {
+   "id": "q345",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/muscular",
+   "q": "¿Qué tipo de músculo forma el corazón?",
+   "o": [
+    "Esquelético",
+    "Liso",
+    "Cardíaco",
+    "Voluntario"
+   ],
+   "a": 2,
+   "exp": "Los músculos que nos mueven, bombean la sangre y mueven los alimentos."
+  },
+  {
+   "id": "q346",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/nervioso",
+   "q": "¿Qué forman el encéfalo y la médula espinal?",
+   "o": [
+    "El sistema nervioso periférico",
+    "El sistema nervioso central",
+    "El sistema endocrino",
+    "El sistema linfático"
+   ],
+   "a": 1,
+   "exp": "La red de comunicación del cuerpo: recibe información, la procesa y da órdenes."
+  },
+  {
+   "id": "q347",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/circulatorio",
+   "q": "¿Qué vasos sanguíneos son los más finos?",
+   "o": [
+    "Arterias",
+    "Venas",
+    "Capilares",
+    "Aorta"
+   ],
+   "a": 2,
+   "exp": "El corazón y los vasos sanguíneos llevan oxígeno y nutrientes a cada célula."
+  },
+  {
+   "id": "q348",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/respiratorio",
+   "q": "¿Dónde ocurre el intercambio de gases en los pulmones?",
+   "o": [
+    "En la tráquea",
+    "En los alvéolos",
+    "En la laringe",
+    "En el diafragma"
+   ],
+   "a": 1,
+   "exp": "Toma oxígeno del aire y expulsa dióxido de carbono."
+  },
+  {
+   "id": "q349",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/digestivo",
+   "q": "¿Cómo se llama el movimiento que empuja los alimentos por el tubo digestivo?",
+   "o": [
+    "Ósmosis",
+    "Peristaltismo",
+    "Difusión",
+    "Fotosíntesis"
+   ],
+   "a": 1,
+   "exp": "Transforma los alimentos en nutrientes que el cuerpo puede absorber."
+  },
+  {
+   "id": "q350",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/endocrino",
+   "q": "¿Cómo viajan las hormonas por el cuerpo?",
+   "o": [
+    "Por los nervios",
+    "Por la sangre",
+    "Por el aire",
+    "Por los huesos"
+   ],
+   "a": 1,
+   "exp": "Glándulas que envían mensajes químicos, las hormonas, a través de la sangre."
+  },
+  {
+   "id": "q351",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/inmunitario",
+   "q": "¿Qué tipo de inmunidad guarda memoria de infecciones anteriores?",
+   "o": [
+    "La innata",
+    "La adaptativa",
+    "Ninguna",
+    "La digestiva"
+   ],
+   "a": 1,
+   "exp": "Las defensas del cuerpo contra virus, bacterias y otras amenazas."
+  },
+  {
+   "id": "q352",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/urinario",
+   "q": "¿Qué órgano almacena la orina?",
+   "o": [
+    "El riñón",
+    "La vejiga",
+    "El uréter",
+    "El hígado"
+   ],
+   "a": 1,
+   "exp": "Filtra la sangre y elimina los desechos en forma de orina."
+  },
+  {
+   "id": "q353",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/reproductor",
+   "q": "¿Qué glándulas producen las células reproductoras?",
+   "o": [
+    "Tiroides y suprarrenales",
+    "Ovarios y testículos",
+    "Hígado y páncreas",
+    "Riñones"
+   ],
+   "a": 1,
+   "exp": "Los órganos que permiten la reproducción y producen hormonas sexuales."
+  },
+  {
+   "id": "q354",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/tegumentario",
+   "q": "¿Qué vitamina produce la piel con la luz solar?",
+   "o": [
+    "Vitamina A",
+    "Vitamina C",
+    "Vitamina D",
+    "Vitamina K"
+   ],
+   "a": 2,
+   "exp": "La piel, el pelo y las uñas: la barrera del cuerpo con el exterior."
+  },
+  {
+   "id": "q355",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/cerebro",
+   "q": "¿Qué parte del encéfalo coordina el equilibrio?",
+   "o": [
+    "El tronco encefálico",
+    "El cerebelo",
+    "La médula",
+    "El hipocampo"
+   ],
+   "a": 1,
+   "exp": "Es el centro de control del cuerpo. Interpreta la información de los sentidos, controla los movimientos y hace posibles el pensamiento, la memoria, el lenguaje y las emociones."
+  },
+  {
+   "id": "q356",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/medula-espinal",
+   "q": "¿Qué protege a la médula espinal?",
+   "o": [
+    "Las costillas",
+    "Las vértebras de la columna",
+    "El cráneo",
+    "El esternón"
+   ],
+   "a": 1,
+   "exp": "Es el gran cable que conecta el encéfalo con el resto del cuerpo. Lleva las órdenes de movimiento hacia los músculos y la información de los sentidos hacia el cerebro, y controla algunos reflejos."
+  },
+  {
+   "id": "q357",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/corazon",
+   "q": "¿Cuántas cavidades tiene el corazón humano?",
+   "o": [
+    "Dos",
+    "Tres",
+    "Cuatro",
+    "Cinco"
+   ],
+   "a": 2,
+   "exp": "Es un músculo que funciona como una bomba. Sus contracciones impulsan la sangre hacia los pulmones, para oxigenarla, y hacia el resto del cuerpo."
+  },
+  {
+   "id": "q358",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/pulmones",
+   "q": "¿Cuántos lóbulos tiene el pulmón izquierdo?",
+   "o": [
+    "Uno",
+    "Dos",
+    "Tres",
+    "Cuatro"
+   ],
+   "a": 1,
+   "exp": "Son los órganos donde el oxígeno del aire pasa a la sangre y el dióxido de carbono sale de ella. Lo hacen a través de millones de alvéolos."
+  },
+  {
+   "id": "q359",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/higado",
+   "q": "¿Qué sustancia produce el hígado para digerir las grasas?",
+   "o": [
+    "Insulina",
+    "Bilis",
+    "Saliva",
+    "Pepsina"
+   ],
+   "a": 1,
+   "exp": "Es el órgano interno más grande y realiza cientos de tareas: produce la bilis para digerir las grasas, almacena energía, fabrica proteínas de la sangre y neutraliza sustancias tóxicas."
+  },
+  {
+   "id": "q360",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/estomago",
+   "q": "¿Cómo se llama la papilla que sale del estómago hacia el intestino?",
+   "o": [
+    "Bolo",
+    "Quimo",
+    "Bilis",
+    "Plasma"
+   ],
+   "a": 1,
+   "exp": "Es una bolsa muscular que recibe los alimentos, los mezcla con ácido y enzimas, y los convierte en una papilla espesa llamada quimo antes de pasarla al intestino."
+  },
+  {
+   "id": "q361",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/intestino-delgado",
+   "q": "¿Cuál es la primera parte del intestino delgado?",
+   "o": [
+    "Íleon",
+    "Yeyuno",
+    "Duodeno",
+    "Colon"
+   ],
+   "a": 2,
+   "exp": "Es donde se absorbe la mayor parte de los nutrientes. Tiene tres partes: duodeno, yeyuno e íleon. Su pared está cubierta de diminutas vellosidades que multiplican la superficie de absorción."
+  },
+  {
+   "id": "q362",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/intestino-grueso",
+   "q": "¿Qué absorbe sobre todo el intestino grueso?",
+   "o": [
+    "Grasas",
+    "Agua",
+    "Proteínas",
+    "Oxígeno"
+   ],
+   "a": 1,
+   "exp": "Absorbe agua y sales de los restos de la digestión y forma las heces. Alberga una enorme comunidad de bacterias que ayudan a descomponer lo que el intestino delgado no digirió."
+  },
+  {
+   "id": "q363",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/pancreas",
+   "q": "¿Qué órgano produce la insulina?",
+   "o": [
+    "El hígado",
+    "El páncreas",
+    "El riñón",
+    "El bazo"
+   ],
+   "a": 1,
+   "exp": "Tiene dos trabajos. Como glándula digestiva, produce enzimas que ayudan a digerir los alimentos. Como glándula endocrina, fabrica hormonas como la insulina y el glucagón, que regulan el azúcar en la sangre."
+  },
+  {
+   "id": "q364",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/vesicula",
+   "q": "¿Qué almacena la vesícula biliar?",
+   "o": [
+    "Orina",
+    "Bilis",
+    "Insulina",
+    "Sangre"
+   ],
+   "a": 1,
+   "exp": "Es una pequeña bolsa que almacena y concentra la bilis producida por el hígado, y la libera al intestino cuando comemos, sobre todo alimentos grasos."
+  },
+  {
+   "id": "q365",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/apendice",
+   "q": "¿Es el apéndice un órgano totalmente inútil?",
+   "o": [
+    "Sí, no tiene ninguna función",
+    "No, se cree que participa en la inmunidad",
+    "Sí, solo causa problemas",
+    "Es un músculo"
+   ],
+   "a": 1,
+   "exp": "Es un pequeño tubo cerrado unido al ciego. Durante mucho tiempo se consideró inútil, pero hoy se cree que tiene un papel en la inmunidad y que puede servir de reserva para las bacterias beneficiosas del intestino."
+  },
+  {
+   "id": "q366",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/rinones",
+   "q": "¿Cómo se llaman las unidades de filtrado del riñón?",
+   "o": [
+    "Alvéolos",
+    "Nefronas",
+    "Neuronas",
+    "Vellosidades"
+   ],
+   "a": 1,
+   "exp": "Filtran la sangre para eliminar desechos y exceso de agua en forma de orina. También ayudan a regular la presión arterial y producen hormonas, entre ellas una que estimula la fabricación de glóbulos rojos."
+  },
+  {
+   "id": "q367",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/bazo",
+   "q": "¿Qué retira el bazo de la sangre?",
+   "o": [
+    "Azúcar",
+    "Glóbulos rojos viejos",
+    "Oxígeno",
+    "Agua"
+   ],
+   "a": 1,
+   "exp": "Filtra la sangre, retira los glóbulos rojos viejos o dañados y participa en la defensa del cuerpo, ya que alberga glóbulos blancos."
+  },
+  {
+   "id": "q368",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/tiroides",
+   "q": "¿Qué mineral necesita la tiroides para fabricar sus hormonas?",
+   "o": [
+    "Hierro",
+    "Calcio",
+    "Yodo",
+    "Sodio"
+   ],
+   "a": 2,
+   "exp": "Tiene forma de mariposa y produce hormonas que regulan el metabolismo, es decir, la velocidad a la que el cuerpo usa la energía. Para fabricarlas necesita yodo."
+  },
+  {
+   "id": "q369",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/hipofisis",
+   "q": "¿Qué región del cerebro trabaja junto a la hipófisis para controlar el sistema endocrino?",
+   "o": [
+    "El cerebelo",
+    "El hipotálamo",
+    "El bulbo raquídeo",
+    "La corteza visual"
+   ],
+   "a": 1,
+   "exp": "Es una glándula de alrededor de 1 cm, del tamaño de un frijol. Sus hormonas ayudan a controlar el crecimiento, la presión arterial, la tiroides, el metabolismo y los órganos sexuales. Junto con el hipotálamo, dirige gran parte del sistema endocrino."
+  },
+  {
+   "id": "q370",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/suprarrenales",
+   "q": "¿Qué hormona prepara al cuerpo para la reacción de «lucha o huida»?",
+   "o": [
+    "Insulina",
+    "Adrenalina",
+    "Melatonina",
+    "Tiroxina"
+   ],
+   "a": 1,
+   "exp": "Producen hormonas como la adrenalina, que prepara al cuerpo para reaccionar ante un peligro, y el cortisol, que interviene en la respuesta al estrés y en el metabolismo."
+  },
+  {
+   "id": "q371",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/ojo",
+   "q": "¿Qué células del ojo detectan el color?",
+   "o": [
+    "Los bastones",
+    "Los conos",
+    "Las neuronas motoras",
+    "Los glóbulos rojos"
+   ],
+   "a": 1,
+   "exp": "Capta la luz y la convierte en señales nerviosas. La córnea y el cristalino enfocan la imagen sobre la retina, donde los conos detectan el color y los bastones permiten ver con poca luz."
+  },
+  {
+   "id": "q372",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/oido",
+   "q": "¿Qué parte del oído convierte las vibraciones en señales nerviosas?",
+   "o": [
+    "El tímpano",
+    "La cóclea",
+    "El pabellón",
+    "La trompa de Eustaquio"
+   ],
+   "a": 1,
+   "exp": "Capta los sonidos y también nos da el sentido del equilibrio. Tiene tres partes: oído externo, medio e interno. En el interno, la cóclea convierte las vibraciones en señales nerviosas."
+  },
+  {
+   "id": "q373",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/piel",
+   "q": "¿Cuál es la capa más externa de la piel?",
+   "o": [
+    "Dermis",
+    "Epidermis",
+    "Hipodermis",
+    "Músculo"
+   ],
+   "a": 1,
+   "exp": "Es el órgano más grande del sistema tegumentario y la primera barrera contra el exterior. Tiene tres capas: la epidermis, la dermis y la hipodermis, o tejido subcutáneo."
+  },
+  {
+   "id": "q374",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/huesos",
+   "q": "¿Qué células construyen el tejido óseo?",
+   "o": [
+    "Osteoclastos",
+    "Osteoblastos",
+    "Neuronas",
+    "Linfocitos"
+   ],
+   "a": 1,
+   "exp": "Son órganos vivos formados por tejido óseo, que se renueva gracias a células que lo destruyen (osteoclastos) y otras que lo construyen (osteoblastos). En su interior está la médula ósea."
+  },
+  {
+   "id": "q375",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/sangre",
+   "q": "¿Qué componente de la sangre ayuda a la coagulación?",
+   "o": [
+    "El plasma",
+    "Las plaquetas",
+    "Los glóbulos rojos",
+    "La hemoglobina"
+   ],
+   "a": 1,
+   "exp": "Es un tejido líquido formado por plasma y células: glóbulos rojos, que llevan oxígeno; glóbulos blancos, que defienden el cuerpo; y plaquetas, que ayudan a la coagulación."
+  },
+  {
+   "id": "q376",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/dientes",
+   "q": "¿Cuál es la sustancia más dura del cuerpo humano?",
+   "o": [
+    "El hueso",
+    "El esmalte dental",
+    "La uña",
+    "El cartílago"
+   ],
+   "a": 1,
+   "exp": "Cortan y trituran los alimentos, el primer paso de la digestión. Su capa exterior, el esmalte, es la sustancia más dura del cuerpo humano."
   }
  ],
  "series": [
@@ -12314,6 +15759,24 @@ window.SQ_CONTENT = {
     "c-stonehenge",
     "c-moai-caminar",
     "c-gobekli-tepe"
+   ]
+  },
+  {
+   "id": "grandes-hitos-medicina",
+   "title": "Grandes hitos de la medicina",
+   "desc": "De la primera vacuna a las vacunas de ARN: los descubrimientos que cambiaron la forma de curar.",
+   "ids": [
+    "a-viruela",
+    "a-semmelweis",
+    "a-anestesia",
+    "a-insulina",
+    "c-harvey-circulacion",
+    "c-estetoscopio",
+    "c-pasteur-rabia",
+    "c-lister-antisepsia",
+    "c-koch-tuberculosis",
+    "c-trasplante-corazon",
+    "c-vacunas-arnm"
    ]
   }
  ],

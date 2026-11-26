@@ -238,7 +238,7 @@ const catChip = item => { const c = ContentRepo.cat(item.cat); return c ? `<span
 const lvlBars = n => `<span class="lvl" title="Nivel ${LEVEL[n] || ''}">${[1, 2, 3].map(k => `<b class="${k <= n ? 'on' : ''}"></b>`).join('')}</span>`;
 const metaLine = (i, extra = '') => `<div class="meta"><span>${ICON.clock}${i.read} min</span><span>${lvlBars(i.level || 1)} ${LEVEL[i.level || 1]}</span>${extra}</div>`;
 const kindColor = t => t === 'mito' ? '#ffb08a' : t === 'curiosidad' ? 'var(--ac2)' : 'var(--tx3)';
-const href = i => i.type === 'articulo' ? `#/articulo/${i.id}` : i.type === 'pais' ? `#/pais/${i.iso.toLowerCase()}` : `#/dato/${i.id}`;
+const href = i => i.type === 'articulo' ? `#/articulo/${i.id}` : i.type === 'pais' ? `#/pais/${i.iso.toLowerCase()}` : i.type === 'anat' ? `#/anatomia/${i.slug}` : `#/dato/${i.id}`;
 
 /* Tarjeta de descubrimiento rápido: muestra la afirmación y abre la explicación en una hoja */
 const quickCard = i => {
@@ -263,15 +263,15 @@ const sourcesBlock = srcs => (srcs && srcs.length) ? `<div class="sources"><h3>F
 const refMarks = srcs => (srcs && srcs.length) ? `<p class="refs">Fuentes de este texto: ${srcs.map((s, k) => `<button class="ref" data-act="toref" data-n="${k + 1}" aria-label="Ir a la fuente ${k + 1}">[${k + 1}]</button>`).join(' ')}</p>` : '';
 /* Dirección pública: páginas estáticas indexables con vista previa al compartir (las genera tools/build-pages.js) */
 const SITE = /vercel\.app$|sabiasque/i.test(location.hostname) ? location.origin : 'https://cultura-khaki.vercel.app';
-const publicUrl = i => i.type === 'pais' ? `${SITE}/pais/${i.iso.toLowerCase()}/` : `${SITE}/${i.type === 'articulo' ? 'articulo' : 'dato'}/${i.id}/`;
+const publicUrl = i => i.type === 'pais' ? `${SITE}/pais/${i.iso.toLowerCase()}/` : i.type === 'anat' ? `${SITE}/anatomia/${i.slug}/` : `${SITE}/${i.type === 'articulo' ? 'articulo' : 'dato'}/${i.id}/`;
 const credit = (x, cls = 'credit') => x && x.imgCredit ? `<figcaption class="${cls}">Imagen: ${esc(x.imgCredit.artist)} · <a href="${esc(x.imgCredit.page)}" target="_blank" rel="noopener noreferrer">${esc(x.imgCredit.license)} · Wikimedia Commons</a></figcaption>` : '';
 const MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
 const LAUNCH = Date.UTC(2026, 10, 25);
 const edition = () => { const d = new Date(); return { n: Math.max(1, Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - LAUNCH) / 864e5) + 1), date: d.toLocaleDateString('es-DO', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) }; };
 const apa = i => { const d = new Date((i.date || '2026-11-25') + 'T12:00:00'); return `Redacción ¿Sabías que? (${d.getFullYear()}, ${d.getDate()} de ${MONTHS[d.getMonth()]}). ${i.title}. ¿SABÍAS QUE? ${publicUrl(i)}`; };
-const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || [])]), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, i.body, i.lead, i.name_origin, i.history].filter(Boolean).join('. ').replace(/\.\./g, '.');
+const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || [])]), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, i.body, i.lead, i.name_origin, i.history, i.where && 'Dónde está. ' + i.where, i.what !== i.desc && i.what, ...(i.functions || []), ...(i.curious || [])].filter(Boolean).join('. ').replace(/\.\./g, '.');
 const toolBtns = (id, extra = '') => `<div class="art-actions">${favBtn(id)}<button class="btn sm" data-act="share" data-id="${id}">${ICON.share}<span>Compartir</span></button><button class="btn sm" data-act="card" data-id="${id}">${ICON.image}<span>Imagen</span></button><button class="btn sm" data-act="listen" data-id="${id}">${ICON.sound}<span>Escuchar</span></button><button class="btn sm" data-act="cite" data-id="${id}">${ICON.quote}<span>Citar</span></button>${extra}</div>`;
-const getAny = id => String(id).startsWith('pais-') ? Countries.get(id) : ContentRepo.get(id);
+const getAny = id => String(id).startsWith('pais-') ? Countries.get(id) : String(id).startsWith('anat-') ? Anatomy.get(id) : ContentRepo.get(id);
 
 function toast(msg) {
   const t = $('#toast'); t.textContent = msg; t.classList.add('on');
@@ -309,6 +309,7 @@ const Sheet = {
       <h2 class="claim" id="sheet-title">${esc(i.title)}</h2>
       <p class="lede">${esc(i.desc)}</p>
       ${isArt ? `<p class="full">${esc(i.intro)}</p>${metaLine(i)}` : `<p class="full">${esc(i.body)}</p>`}
+      ${i.cat === 'medicina' ? medNote('sm') : ''}
       ${isArt ? '' : sourcesBlock(i.sources)}
       <div class="acts">
         ${isArt ? `<a class="btn pri" href="#/articulo/${i.id}" data-act="sheet-close-nav">Leer artículo ${ICON.arrow}</a>` : ''}
@@ -393,9 +394,9 @@ Views.home = () => {
   <div class="sec"><div><h2>Descubrimientos rápidos</h2><p>Lee la afirmación. Toca para saber por qué es cierta (o falsa).</p></div></div>
   <div class="rail">${quick.map(quickCard).join('')}</div>
 
-  <div class="sec"><div><h2>Explorar categorías</h2><p>13 áreas del conocimiento</p></div><a class="more" href="#/explorar">Ver todo</a></div>
+  <div class="sec"><div><h2>Explorar categorías</h2><p>${ContentRepo.categories().length} áreas del conocimiento</p></div><a class="more" href="#/explorar">Ver todo</a></div>
   ${catsGrid()}
-  <div style="margin-top:12px">${countriesBanner()}</div>
+  <div class="banners">${anatomyBanner()}${countriesBanner()}</div>
 
   ${series.length ? `<div class="sec"><div><h2>Dosieres</h2><p>Series temáticas para leer de principio a fin</p></div><a class="more" href="#/dosieres">Ver todos</a></div>
   <div class="rail">${series.map(seriesCard).join('')}</div>` : ''}
@@ -433,7 +434,7 @@ Views.explore = (p, q) => {
   <a class="searchbar" href="#/buscar" style="margin-bottom:14px">${ICON.search}<span>Buscar en todo el catálogo…</span></a>
   ${typeSeg(tipo, '#/explorar')}
   ${list ? `<div class="sec"><div><h2>${TYPE[tipo]}${tipo === 'mito' ? '' : 's'}</h2><p>${plural(list.length, 'resultado', 'resultados')}</p></div></div><div class="list two">${list.map(rowCard).join('')}</div>`
-      : `<div style="margin-top:16px">${countriesBanner()}</div><div style="margin-top:12px">${catsGrid()}</div>`}`;
+      : `<div class="banners" style="margin-top:16px">${anatomyBanner()}${countriesBanner()}</div><div style="margin-top:12px">${catsGrid()}</div>`}`;
 };
 
 Views.category = ([id], q) => {
@@ -445,6 +446,7 @@ Views.category = ([id], q) => {
   <button class="back" data-act="back">${ICON.back} Volver</button>
   <header class="cat-hero${c.img ? ' has-img' : ''}" style="--cc:${c.color}">${c.img ? `<img class="cat-bg" src="${esc(c.img)}" alt="" decoding="async" referrerpolicy="no-referrer">` : ''}<div class="gl">${c.icon}</div><h1 class="h1">${esc(c.name)}</h1><p>${esc(c.desc)}</p></header>
   ${c.imgCredit ? credit(c, 'credit sm') : ''}
+  ${id === 'medicina' ? medNote() : ''}${id === 'cuerpo' || id === 'medicina' ? `<div style="margin:12px 0">${anatomyBanner()}</div>` : ''}
   ${typeSeg(tipo, '#/categoria/' + id)}
   <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(rowCard).join('')}</div>`
       : emptyState(c.icon, 'Nada por aquí todavía', 'No hay contenidos de este tipo en esta categoría. Prueba con otro filtro.', `<a class="btn" href="#/categoria/${id}">Ver todo en ${esc(c.name)}</a>`)}</div>`;
@@ -461,17 +463,18 @@ Views.search = (p, q) => {
 function searchResults(term) {
   if (!term.trim()) {
     const rec = UserRepo.recent();
-    const sug = ['cerebro', 'Venus', 'vikingos', 'República Dominicana', 'inflación', 'pulpo'];
+    const sug = ['corazón', 'vacuna', 'Venus', 'vikingos', 'República Dominicana', 'inflación', 'pulpo'];
     return `<div class="eyebrow" style="margin:6px 0 10px">${rec.length ? 'Búsquedas recientes' : 'Prueba con'}</div>
       <div class="seg" style="flex-wrap:wrap">${(rec.length ? rec : sug).map(s => `<button data-act="search-term" data-v="${esc(s)}">${esc(s)}</button>`).join('')}</div>
       <div class="sec"><div><h2>Explora por tema</h2></div></div>${catsGrid()}`;
   }
   const r = ContentRepo.search(term);
   const pc = Countries.search(term).slice(0, 8);
-  const pcBlock = pc.length ? `<div class="sec" style="margin-top:4px"><div><h2>Países</h2></div></div><div class="list two" style="margin-bottom:8px">${pc.map(countryRow).join('')}</div>` : '';
-  if (!r.length && pc.length) return pcBlock;
+  const an = Anatomy.search(term).slice(0, 6);
+  const pcBlock = (an.length ? `<div class="sec" style="margin-top:4px"><div><h2>Atlas del cuerpo</h2></div></div><div class="list two" style="margin-bottom:8px">${an.map(anatRow).join('')}</div>` : '') + (pc.length ? `<div class="sec" style="margin-top:4px"><div><h2>Países</h2></div></div><div class="list two" style="margin-bottom:8px">${pc.map(countryRow).join('')}</div>` : '');
+  if (!r.length && (pc.length || an.length)) return pcBlock;
   if (!r.length) return emptyState('🔍', 'Sin resultados', `No encontramos nada para «${esc(term)}». Prueba con otra palabra o explora por categorías.`, '<a class="btn" href="#/explorar">Explorar categorías</a>');
-  return `${pcBlock}<div class="faint" style="font-size:13px;margin-bottom:10px">${plural(r.length, 'resultado', 'resultados')}${pc.length ? ' en artículos y curiosidades' : ''}</div><div class="list two">${r.map(rowCard).join('')}</div>`;
+  return `${pcBlock}<div class="faint" style="font-size:13px;margin-bottom:10px">${plural(r.length, 'resultado', 'resultados')}${pc.length || an.length ? ' en artículos y curiosidades' : ''}</div><div class="list two">${r.map(rowCard).join('')}</div>`;
 }
 
 Views.article = ([id]) => {
@@ -500,6 +503,7 @@ Views.article = ([id]) => {
       ${i.conclusion ? `<h2><span class="n">EN RESUMEN</span>Conclusión</h2><p class="conclusion">${esc(i.conclusion)}</p>` : ''}
       ${refMarks(i.sources)}
     </div>
+    ${i.cat === 'medicina' ? medNote() : ''}
     ${sourcesBlock(i.sources)}
     <p class="verify">¿Encontraste un error? Toda afirmación de este artículo debería poder comprobarse en sus fuentes. Consulta <a href="#/metodologia">cómo verificamos</a> y nuestra <a href="#/erratas">fe de erratas</a>.</p>
     <div class="endread ${read ? 'done' : ''}" id="endread">${read ? `${ICON.check} Artículo leído · +20 XP` : 'Llega al final para marcarlo como leído'}</div>
@@ -522,6 +526,7 @@ Views.fact = ([id]) => {
       <h1>${esc(i.title)}</h1><p class="sub">${esc(i.desc)}</p>${metaLine(i)}
     </header>
     <div class="prose"><p>${esc(i.body)}</p>${refMarks(i.sources)}</div>
+    ${i.cat === 'medicina' ? medNote() : ''}
     ${toolBtns(i.id, `<button class="btn sm" data-act="surprise">${ICON.shuffle}<span>Sorpréndeme</span></button>`)}
     ${sourcesBlock(i.sources)}
     ${related.length ? `<div class="sec"><div><h2>Relacionado</h2></div></div><div class="list">${related.map(rowCard).join('')}</div>` : ''}
@@ -532,12 +537,12 @@ Views.saved = (p, q) => {
   const tab = q.get('tab') || 'todo';
   const ids = UserRepo.get().favs;
   if (ids.some(x => x.startsWith('pais-')) && !Countries.data) return needCountries();
-  const favs = ids.map(id => id.startsWith('pais-') ? Countries.get(id) : ContentRepo.get(id)).filter(Boolean);
-  const list = favs.filter(i => tab === 'todo' || (tab === 'articulo' ? i.type === 'articulo' : tab === 'paises' ? i.type === 'pais' : i.type !== 'articulo' && i.type !== 'pais'));
+  const favs = ids.map(getAny).filter(Boolean);
+  const list = favs.filter(i => tab === 'todo' || (tab === 'articulo' ? i.type === 'articulo' : tab === 'paises' ? i.type === 'pais' : tab === 'cuerpo' ? i.type === 'anat' : !['articulo', 'pais', 'anat'].includes(i.type)));
   return `
   <div class="sec" style="margin-top:8px"><div><h1 class="h1">Guardados</h1><p>Tu biblioteca personal${favs.length ? ' · ' + plural(favs.length, 'elemento', 'elementos') : ''}</p></div></div>
-  ${favs.length ? `<div class="seg">${[['todo', 'Todo'], ['articulo', 'Artículos'], ['datos', 'Curiosidades y mitos'], ['paises', 'Países']].map(([v, l]) => `<button class="${tab === v ? 'on' : ''}" data-act="nav" data-to="#/guardados${v === 'todo' ? '' : '?tab=' + v}">${l}</button>`).join('')}</div>` : ''}
-  <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(i => i.type === 'pais' ? countryRow(i) : rowCard(i)).join('')}</div>`
+  ${favs.length ? `<div class="seg">${[['todo', 'Todo'], ['articulo', 'Artículos'], ['datos', 'Curiosidades y mitos'], ['paises', 'Países'], ['cuerpo', 'Cuerpo humano']].map(([v, l]) => `<button class="${tab === v ? 'on' : ''}" data-act="nav" data-to="#/guardados${v === 'todo' ? '' : '?tab=' + v}">${l}</button>`).join('')}</div>` : ''}
+  <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(i => i.type === 'pais' ? countryRow(i) : i.type === 'anat' ? anatRow(i) : rowCard(i)).join('')}</div>`
       : favs.length ? emptyState('🗂️', 'Nada en esta pestaña', 'Lo que guardes de este tipo aparecerá aquí.')
         : emptyState('🔖', 'Tu biblioteca está vacía', 'Toca «Guardar» en cualquier artículo o curiosidad y lo tendrás aquí siempre, incluso sin conexión.', '<button class="btn ac" data-act="surprise">' + ICON.shuffle + ' Descubrir algo ahora</button>')}</div>`;
 };
@@ -587,7 +592,7 @@ function quizAnswer(k) {
   const last = Quiz.i === Quiz.list.length - 1;
   $('#fb').innerHTML = `<div class="feedback"><b class="${ok ? 'ok' : 'bad'}">${ok ? '¡Correcto! +' + 10 * q.level + ' XP' : 'No era esa'}</b><p>${esc(q.exp)}</p>
     <div class="row"><button class="btn ac" data-act="q-next">${last ? 'Ver resultado' : 'Siguiente'} ${ICON.arrow}</button>
-    ${q.href ? `<a class="btn sm" href="${q.href}">Ver país</a>` : ref ? `<a class="btn sm" href="${href(ref)}" ${ref.type !== 'articulo' ? `data-act="open" data-id="${ref.id}"` : ''}>Saber más</a>` : ''}</div></div>`;
+    ${q.href ? `<a class="btn sm" href="${q.href}">${q.href.startsWith('#/anatomia') ? 'Ver en el atlas' : 'Ver país'}</a>` : ref ? `<a class="btn sm" href="${href(ref)}" ${ref.type !== 'articulo' ? `data-act="open" data-id="${ref.id}"` : ''}>Saber más</a>` : ''}</div></div>`;
   $('#fb').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 function quizResult() {
@@ -637,6 +642,7 @@ Views.profile = () => {
     <div class="stat"><b>${seenN}</b><span>Datos descubiertos</span></div>
     <div class="stat"><b>${u.quiz.played}</b><span>Quizzes jugados</span></div>
     <div class="stat"><b>${Object.keys(u.seen).filter(k => k.startsWith('pais-')).length}<span class="faint" style="font-size:16px">/195</span></b><span>Países explorados</span></div>
+    <div class="stat"><b>${Anatomy.all().filter(x => u.seen[x.id]).length}<span class="faint" style="font-size:16px">/${Anatomy.all().length}</span></b><span>Atlas del cuerpo</span></div>
     <div class="stat"><b>${acc}%</b><span>Acierto en quiz</span></div>
   </div>
   <div class="sec"><div><h2>Récords por nivel</h2></div></div>
@@ -771,6 +777,95 @@ Views.country = ([iso]) => {
   </article>`;
 };
 
+/* ================= ATLAS DEL CUERPO HUMANO =================
+ * Datos: anatomy.js (window.SQ_ANATOMY): 11 sistemas y sus órganos principales, con fuentes verificadas.
+ * Identificadores públicos: «anat-<id>» (favoritos, vistos, compartir). */
+const MED_NOTE = 'Contenido educativo y de divulgación. No sustituye el diagnóstico, el tratamiento ni el consejo de un profesional de la salud. Ante cualquier síntoma o duda, consulta a tu médico.';
+const medNote = (cls = '') => `<aside class="med-note ${cls}" role="note"><b>⚕️ Aviso</b> ${MED_NOTE}</aside>`;
+const Anatomy = {
+  _all: null, _map: null,
+  build() {
+    const A = window.SQ_ANATOMY || { systems: [], organs: [] };
+    const sys = A.systems.map(s => ({ ...s, kind: 'sistema', type: 'anat', id: 'anat-' + s.id, slug: s.id, title: s.name, cat: 'cuerpo' }));
+    const org = A.organs.map(o => ({ ...o, kind: 'organo', type: 'anat', id: 'anat-' + o.id, slug: o.id, title: o.name, cat: 'cuerpo', desc: o.desc || o.what }));
+    this._all = [...sys, ...org];
+    this._map = Object.fromEntries(this._all.map(x => [x.slug, x]));
+    this._all.forEach(x => { x._s = norm([x.name, x.desc, x.intro, x.what, x.where, ...(x.facts || []).flat(), ...(x.conditions || [])].filter(Boolean).join(' ')); });
+  },
+  all() { if (!this._all) this.build(); return this._all; },
+  systems() { return this.all().filter(x => x.kind === 'sistema'); },
+  organs() { return this.all().filter(x => x.kind === 'organo').sort((a, b) => a.name.localeCompare(b.name, 'es')); },
+  get(id) { this.all(); return this._map[String(id || '').replace(/^anat-/, '')]; },
+  search(q) { const t = norm(q).split(/\s+/).filter(x => x.length > 1); return t.length ? this.all().filter(x => t.every(w => x._s.includes(w))) : []; },
+  sysOf(o) { return (o.systems || []).map(s => this.get(s)).filter(Boolean); },
+  organsOf(s) { return (s.organs || []).map(o => this.get(o)).filter(Boolean); }
+};
+const anatThumb = x => x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : `<span class="anat-ic" style="--ac3:${x.color || '#ff7a6b'}">${x.icon || '🫀'}</span>`;
+const anatCard = x => `<a class="anat-card" href="#/anatomia/${x.slug}" style="--cc:${x.color || '#ff7a6b'}"><div class="ph">${anatThumb(x)}</div><div class="in"><span class="ic">${x.icon || ''}</span><b>${esc(x.name)}</b><small>${esc(x.desc)}</small></div></a>`;
+const anatRow = x => `<a class="rowc" href="#/anatomia/${x.slug}"><div class="cover">${anatThumb(x)}</div><div><span class="kind" style="color:#ff9a8a">${x.kind === 'sistema' ? 'Sistema del cuerpo' : 'Órgano'}${UserRepo.isSeen(x.id) ? ' · <span style="color:var(--ok)">✓ visto</span>' : ''}</span><h4>${esc(x.name)}</h4><div class="meta"><span>${esc((x.desc || '').slice(0, 90))}${(x.desc || '').length > 90 ? '…' : ''}</span></div></div></a>`;
+const anatomyBanner = () => {
+  const s = Anatomy.systems(), pics = s.filter(x => x.img).slice(0, 4);
+  return `<a class="anat-banner" href="#/anatomia">
+  <div class="mosaic">${pics.map(x => `<img src="${esc(x.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`).join('')}</div>
+  <div class="txt"><span class="eyebrow" style="color:#ff9a8a">Nuevo · Atlas</span><b>El cuerpo humano</b><span>${s.length} sistemas y ${Anatomy.organs().length} órganos: dónde están, qué hacen y cuándo algo falla.</span><span class="go">Abrir el atlas ${ICON.arrow}</span></div></a>`;
+};
+
+Views.anatomy = () => {
+  const sys = Anatomy.systems(), org = Anatomy.organs();
+  const seen = Anatomy.all().filter(x => UserRepo.isSeen(x.id)).length;
+  return `
+  <button class="back" data-act="back">${ICON.back} Volver</button>
+  <header class="cat-hero" style="--cc:#ff7a6b"><div class="gl">🫀</div><h1 class="h1">Atlas del cuerpo humano</h1><p>Cómo está hecho y cómo funciona tu cuerpo: ${sys.length} sistemas y ${org.length} órganos, cada uno con sus fuentes.${seen ? ` Has explorado ${seen} de ${sys.length + org.length}.` : ''}</p></header>
+  ${medNote()}
+  <div class="sec"><div><h2>Sistemas del cuerpo</h2><p>Grupos de órganos que trabajan juntos</p></div></div>
+  <div class="anat-grid">${sys.map(anatCard).join('')}</div>
+  <div class="sec"><div><h2>Órganos de la A a la Z</h2><p>Toca uno para ver dónde está y qué hace</p></div></div>
+  <label class="searchbar" for="aq" style="margin-bottom:12px">${ICON.search}<input id="aq" type="search" autocomplete="off" placeholder="Busca un órgano: hígado, ojo, bazo…"></label>
+  <div class="ctry-grid" id="agrid">${org.map(o => `<a class="ctry organ" href="#/anatomia/${o.slug}" data-s="${esc(norm(o.name))}"><span class="oi">${o.img ? `<img src="${esc(o.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : '🫀'}</span><span><b>${esc(o.name)}</b><small>${esc(Anatomy.sysOf(o).map(s => s.name.replace('Sistema ', '')).join(' · '))}</small></span></a>`).join('')}</div>
+  <div id="aempty" hidden>${emptyState('🔎', 'Ningún órgano coincide', 'Prueba con otro nombre.')}</div>
+  <div class="sec"><div><h2>Ponte a prueba</h2><p>Preguntas sobre el cuerpo humano</p></div></div>
+  <button class="btn ac block" data-act="q-anat">Hacer el quiz del cuerpo humano ${ICON.arrow}</button>
+  <p class="foot-note">Textos de elaboración propia verificados contra sus fuentes (enlazadas en cada ficha). Imágenes: Wikimedia Commons, con autor y licencia en cada ficha.</p>`;
+};
+
+Views.anatItem = ([slug]) => {
+  const x = Anatomy.get(slug);
+  if (!x) return Views.notFound();
+  if (UserRepo.markSeen(x.id)) renderAvatar();
+  const isSys = x.kind === 'sistema';
+  const li = a => (a || []).map(t => `<li>${esc(t)}</li>`).join('');
+  const parents = isSys ? [] : Anatomy.sysOf(x);
+  const kids = isSys ? Anatomy.organsOf(x) : [];
+  const siblings = isSys ? Anatomy.systems().filter(s => s !== x).slice(0, 4) : [...new Set(parents.flatMap(p => Anatomy.organsOf(p)))].filter(o => o !== x).slice(0, 6);
+  return `<article class="art anat">
+    <div class="art-top"><button class="back" data-act="back">${ICON.back} Volver</button>
+      <div style="display:flex;gap:8px">${favBtn(x.id, false)}<button class="btn sm" data-act="share" data-id="${x.id}" aria-label="Compartir">${ICON.share}</button></div></div>
+    ${x.img ? `<figure class="art-fig" style="margin-top:0"><div class="cover art-hero anat-hero" style="margin-top:0"><img src="${esc(x.img)}" alt="${esc(x.name)}" decoding="async" referrerpolicy="no-referrer"></div>${credit(x)}</figure>` : ''}
+    <header class="art-head" style="margin-top:22px">
+      <a class="chip" href="#/anatomia" style="color:#ff9a8a"><span class="dot"></span>Atlas del cuerpo · ${isSys ? 'Sistema' : 'Órgano'}</a>
+      <h1 style="margin-top:12px">${x.icon && isSys ? x.icon + ' ' : ''}${esc(x.name)}</h1>
+      <p class="sub">${esc(isSys ? x.desc : x.what)}</p>
+    </header>
+    ${toolBtns(x.id)}
+    <div class="prose">
+      ${isSys ? `<p class="lead">${esc(x.intro)}</p>
+        <h2><span class="n">01</span>Para qué sirve</h2><ul class="anat-list">${li(x.functions)}</ul>
+        ${(x.curious || []).length ? `<h2><span class="n">02</span>¿Sabías que…?</h2><ul class="anat-list">${li(x.curious)}</ul>` : ''}`
+      : `<h2><span class="n">01</span>Dónde está</h2><p>${esc(x.where)}</p>
+        ${(x.facts || []).length ? `<h2><span class="n">02</span>En datos</h2><div class="kvs">${x.facts.map(([k, v]) => `<div class="kv"><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}</div>` : ''}
+        ${(x.curious || []).length ? `<h2><span class="n">03</span>¿Sabías que…?</h2><ul class="anat-list">${li(x.curious)}</ul>` : ''}
+        ${(x.conditions || []).length ? `<h2><span class="n">04</span>Cuando algo falla</h2><p>Algunas afecciones conocidas relacionadas con este órgano:</p><ul class="anat-list cond">${li(x.conditions)}</ul>${medNote('sm')}` : ''}`}
+      ${refMarks(x.sources)}
+    </div>
+    ${isSys ? medNote() : ''}
+    ${parents.length ? `<div class="sec"><div><h2>Forma parte de</h2></div></div><div class="anat-grid">${parents.map(anatCard).join('')}</div>` : ''}
+    ${kids.length ? `<div class="sec"><div><h2>Órganos de este sistema</h2></div></div><div class="list two">${kids.map(anatRow).join('')}</div>` : ''}
+    ${sourcesBlock(x.sources)}
+    <p class="verify">Cada dato de esta ficha se comprobó contra el texto de sus fuentes. Consulta <a href="#/metodologia">cómo verificamos</a>.</p>
+    ${siblings.length ? `<div class="sec"><div><h2>${isSys ? 'Otros sistemas' : 'Órganos relacionados'}</h2></div></div><div class="list two">${siblings.map(anatRow).join('')}</div>` : ''}
+  </article>`;
+};
+
 /* ================= SECCIONES EDITORIALES ================= */
 
 /* Hoy en la historia: efemérides seleccionadas por Wikipedia en español (se actualiza sola cada día). */
@@ -874,7 +969,7 @@ const Speech = {
 async function makeCard(i) {
   const W = 1080, H = 1350, cv = document.createElement('canvas'); cv.width = W; cv.height = H;
   const x = cv.getContext('2d');
-  const cat = i.type === 'pais' ? { name: 'Países del mundo', color: '#5b8cff', icon: '🌎' } : (ContentRepo.cat(i.cat) || { name: '', color: '#8f7cff', icon: '✦' });
+  const cat = i.type === 'pais' ? { name: 'Países del mundo', color: '#5b8cff', icon: '🌎' } : i.type === 'anat' ? { name: 'Atlas del cuerpo humano', color: '#ff7a6b', icon: i.icon || '🫀' } : (ContentRepo.cat(i.cat) || { name: '', color: '#8f7cff', icon: '✦' });
   x.fillStyle = '#07080b'; x.fillRect(0, 0, W, H);
   const imgUrl = i.type === 'pais' ? Countries.flag(i.iso) : i.img;
   let drew = false;
@@ -920,6 +1015,8 @@ const ROUTES = [
   [/^\/dato\/([\w-]+)$/, 'fact', Views.fact, ''],
   [/^\/paises$/, 'countries', Views.countries, 'explorar'],
   [/^\/pais\/([a-z]{2})$/, 'country', Views.country, 'explorar'],
+  [/^\/anatomia$/, 'anatomy', Views.anatomy, 'explorar'],
+  [/^\/anatomia\/([\w-]+)$/, 'anatItem', Views.anatItem, 'explorar'],
   [/^\/hoy$/, 'otd', Views.otd, 'inicio'],
   [/^\/dosieres$/, 'series', Views.series, 'explorar'],
   [/^\/dosier\/([\w-]+)$/, 'dossier', Views.dossier, 'explorar'],
@@ -963,6 +1060,10 @@ function afterRender(name) {
     const inp = $('#cq'), cards = $$('#cgrid .ctry');
     const apply = () => { const t = norm(inp.value).split(/\s+/).filter(Boolean); let n = 0; cards.forEach(el => { const ok = t.every(x => el.dataset.s.includes(x)); el.hidden = !ok; if (ok) n++; }); $('#ccount').textContent = plural(n, 'país', 'países'); $('#cempty').hidden = n > 0; };
     inp.addEventListener('input', apply); if (inp.value) apply();
+  }
+  if (name === 'anatomy' && $('#aq')) {
+    const inp = $('#aq'), cards = $$('#agrid .organ');
+    inp.addEventListener('input', () => { const t = norm(inp.value).split(/\s+/).filter(Boolean); let n = 0; cards.forEach(el => { const ok = t.every(x => el.dataset.s.includes(x)); el.hidden = !ok; if (ok) n++; }); $('#aempty').hidden = n > 0; });
   }
   if (name === 'search') {
     const inp = $('#q');
@@ -1052,7 +1153,7 @@ document.addEventListener('click', e => {
     }
     case 'copy-cite': { const t = $('#cite-text'); if (t) navigator.clipboard.writeText(t.textContent).then(() => toast('Cita copiada'), () => toast('Selecciona el texto y cópialo')); break; }
     case 'toref': { const li = $('#src-' + el.dataset.n); if (li) { li.scrollIntoView({ behavior: 'smooth', block: 'center' }); li.classList.add('flash'); setTimeout(() => li.classList.remove('flash'), 1400); } break; }
-    case 'share': { const i = id.startsWith('pais-') ? Countries.get(id) : ContentRepo.get(id); if (i) share(i.type === 'pais' ? { ...i, title: `${i.name}: capital ${i.capital}` } : i); break; }
+    case 'share': { const i = getAny(id); if (i) share(i.type === 'pais' ? { ...i, title: `${i.name}: capital ${i.capital}` } : i); break; }
     case 'back':
       if (sessionStorage.getItem('sq.nav')) history.back(); // hubo navegación interna en esta sesión
       else location.hash = '#/';                            // llegó por enlace directo: volver al inicio
@@ -1065,6 +1166,7 @@ document.addEventListener('click', e => {
     case 'q-level': Quiz.level = +el.dataset.v; render(); break;
     case 'q-cat': Quiz.cat = el.dataset.v; render(); break;
     case 'q-start': quizStart(); break;
+    case 'q-anat': Quiz.cat = 'cuerpo'; Quiz.level = 0; Quiz.list = []; if (current.name === 'quiz') quizStart(); else { Object.assign(Quiz, { list: Services.buildQuiz(0, 'cuerpo', 10), i: 0, correct: 0, xp: 0, wrong: [], answered: false, saved: false, isBest: false }); location.hash = '#/quiz'; } break;
     case 'q-ans': quizAnswer(+el.dataset.i); break;
     case 'q-next': Quiz.i++; Quiz.answered = false; render(); window.scrollTo(0, 0); break;
     case 'q-quit': Quiz.list = []; render(); break;

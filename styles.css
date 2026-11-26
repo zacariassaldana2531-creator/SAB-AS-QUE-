@@ -436,3 +436,46 @@ input{font:inherit;color:inherit}
 .foot-note a{color:var(--tx2);text-decoration:underline;text-decoration-color:var(--line2);text-underline-offset:3px}
 .prose a{color:var(--ac2);text-decoration:underline;text-underline-offset:3px}
 .verify a{color:var(--tx2);text-decoration:underline}
+
+/* ===== Atlas del cuerpo humano y medicina ===== */
+.banners{display:grid;gap:12px;margin-top:12px}
+@media (min-width:1100px){.banners{grid-template-columns:1fr 1fr}.banners .ctry-banner,.banners .anat-banner{grid-template-columns:1fr}}
+.anat-banner{display:grid;grid-template-columns:1fr;overflow:hidden;border-radius:var(--r3);background:radial-gradient(120% 140% at 100% 0%,rgba(255,122,107,.22),transparent 60%),var(--g2);border:1px solid var(--line);box-shadow:var(--shadow);transition:transform .2s var(--ease)}
+.anat-banner:active{transform:scale(.99)}
+.anat-banner .mosaic{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:16px 16px 0}
+.anat-banner .mosaic img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:10px;background:#f4f1ea;box-shadow:0 0 0 1px rgba(255,255,255,.1)}
+.anat-banner .txt{padding:20px 20px 22px;display:grid;gap:6px}
+.anat-banner b{font-family:var(--serif);font-size:24px;letter-spacing:-.3px}
+.anat-banner .txt>span:not(.eyebrow){color:var(--tx2);font-size:14.5px}
+.anat-banner .go{display:inline-flex;align-items:center;gap:6px;color:#ff9a8a!important;font-weight:650;margin-top:4px}
+.anat-banner .go svg{width:16px;height:16px}
+@media (min-width:760px){.anat-banner{grid-template-columns:1.1fr 1fr;align-items:center}.anat-banner .mosaic{padding:18px}}
+.anat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (min-width:760px){.anat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:1100px){.anat-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.anat-card{display:flex;flex-direction:column;overflow:hidden;border-radius:var(--r2);background:var(--g2);border:1px solid var(--line);transition:border-color .2s,transform .15s;min-width:0}
+.anat-card:hover{border-color:color-mix(in srgb,var(--cc) 45%,transparent)}
+.anat-card:active{transform:scale(.98)}
+.anat-card .ph{aspect-ratio:4/3;background:#f4f1ea;display:grid;place-items:center;overflow:hidden}
+.anat-card .ph img{width:100%;height:100%;object-fit:cover}
+.anat-card .in{padding:12px 14px 14px;display:grid;gap:3px;border-top:2px solid var(--cc)}
+.anat-card .ic{font-size:18px}
+.anat-card b{font-size:15px;line-height:1.25}
+.anat-card small{color:var(--tx3);font-size:12.5px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.anat-ic{font-size:44px;width:100%;height:100%;display:grid;place-items:center;background:radial-gradient(circle at 50% 40%,color-mix(in srgb,var(--ac3) 35%,transparent),transparent 70%),var(--g1)}
+.rowc .cover .anat-ic{font-size:30px}
+.rowc .cover img{background:#f4f1ea}
+.organ .oi{width:44px;height:44px;flex:none;border-radius:10px;overflow:hidden;background:#f4f1ea;display:grid;place-items:center;font-size:22px}
+.organ .oi img{width:100%;height:100%;object-fit:cover}
+.organ small{display:block;color:var(--tx3);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.organ b{display:block;font-size:14.5px}
+.organ>span:last-child{min-width:0}
+.anat-hero{background:#f4f1ea}
+.anat-hero img{width:100%;height:100%;object-fit:contain}
+.anat-list{margin:6px 0 4px 1.1em;display:grid;gap:8px}
+.anat-list li{padding-left:4px}
+.anat-list li::marker{color:#ff9a8a}
+.anat-list.cond li::marker{color:var(--warn)}
+.med-note{margin:18px 0;padding:14px 16px;border-radius:var(--r1);background:rgba(63,193,160,.08);border:1px solid rgba(63,193,160,.3);color:var(--tx2);font-size:14px;line-height:1.5}
+.med-note b{color:#7fe0c4;margin-right:4px}
+.med-note.sm{font-size:13px;padding:10px 12px;margin:12px 0}

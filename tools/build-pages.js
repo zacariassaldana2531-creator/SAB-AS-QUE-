@@ -2,7 +2,7 @@
  * Crea una página HTML real por artículo, dato y país, con título, descripción,
  * vista previa para redes (Open Graph) y datos estructurados (JSON-LD), más sitemap.xml y robots.txt.
  * Uso:  node tools/build-pages.js            (desde la carpeta del proyecto)
- * Vuelve a ejecutarlo cada vez que cambie content.js o countries.js.
+ * Vuelve a ejecutarlo cada vez que cambie content.js, countries.js o anatomy.js.
  */
 const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
@@ -10,7 +10,10 @@ const SITE = (process.env.SITE || 'https://cultura-khaki.vercel.app').replace(/\
 global.window = {};
 require(path.join(ROOT, 'content.js'));
 require(path.join(ROOT, 'countries.js'));
-const C = window.SQ_CONTENT, P = window.SQ_COUNTRIES || [];
+require(path.join(ROOT, 'anatomy.js'));
+const C = window.SQ_CONTENT, P = window.SQ_COUNTRIES || [], AN = window.SQ_ANATOMY || { systems: [], organs: [] };
+const MED = 'Contenido educativo y de divulgación. No sustituye el diagnóstico, el tratamiento ni el consejo de un profesional de la salud.';
+const medNote = `<aside class="med-note" role="note"><b>⚕️ Aviso</b> ${MED}</aside>`;
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const cats = Object.fromEntries(C.categories.map(c => [c.id, c]));
 const TYPE = { articulo: 'Artículo', curiosidad: 'Curiosidad', mito: 'Mito o realidad' };
@@ -61,7 +64,7 @@ const sources = ss => ss && ss.length ? `<div class="sources"><h3>Fuentes consul
 const write = (rel, html) => { const f = path.join(ROOT, rel, 'index.html'); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, html); };
 
 /* Limpiar las carpetas generadas para no dejar páginas de contenido borrado */
-for (const d of ['articulo', 'dato', 'pais']) fs.rmSync(path.join(ROOT, d), { recursive: true, force: true });
+for (const d of ['articulo', 'dato', 'pais', 'anatomia']) fs.rmSync(path.join(ROOT, d), { recursive: true, force: true });
 
 const urls = [{ loc: `${SITE}/`, pri: '1.0' }];
 const items = C.items.filter(i => i.status === 'publicado');
@@ -74,8 +77,9 @@ for (const i of items) {
   const body = i.type === 'articulo'
     ? `${head}${figure(i, i.title)}<div class="prose"><p class="lead">${esc(i.intro)}</p>${(i.sections || []).map(s => `<h2>${esc(s.h)}</h2>${(s.p || []).map(t => `<p>${esc(t)}</p>`).join('')}`).join('')}${(i.facts || []).length ? `<aside class="box"><h3>Datos complementarios</h3><ul>${i.facts.map(f => `<li>${esc(f)}</li>`).join('')}</ul></aside>` : ''}${i.conclusion ? `<h2>Conclusión</h2><p class="conclusion">${esc(i.conclusion)}</p>` : ''}</div>${sources(i.sources)}`
     : `${head}${figure(i, i.title)}<div class="prose"><p>${esc(i.body)}</p></div>${sources(i.sources)}`;
+  const bodyFull = i.cat === 'medicina' ? body.replace('<div class="sources">', medNote + '<div class="sources">') : body;
   const jsonld = { '@context': 'https://schema.org', '@type': i.type === 'articulo' ? 'Article' : 'CreativeWork', headline: clip(i.title, 110), description: desc, datePublished: i.date, dateModified: C.updated || i.date, inLanguage: 'es', url, image: i.img || `${SITE}/og-default.png`, author: { '@type': 'Organization', name: 'Redacción ¿Sabías que?' }, publisher: { '@type': 'Organization', name: '¿SABÍAS QUE?', logo: { '@type': 'ImageObject', url: `${SITE}/icons/icon-512.png` } }, citation: (i.sources || []).map(s => s.u), isAccessibleForFree: true };
-  write(`${kind}/${i.id}`, page({ url, appUrl, title: i.title, desc, image: i.img || `${SITE}/og-default.png`, type: 'article', jsonld, body }));
+  write(`${kind}/${i.id}`, page({ url, appUrl, title: i.title, desc, image: i.img || `${SITE}/og-default.png`, type: 'article', jsonld, body: bodyFull }));
   urls.push({ loc: url, pri: i.type === 'articulo' ? '0.8' : '0.6', mod: i.date });
 }
 for (const c of P) {
@@ -91,6 +95,29 @@ for (const c of P) {
   write(`pais/${iso}`, page({ url, appUrl, title: `${c.name}: bandera, capital, moneda e historia`, desc, image: `${SITE}/og-default.png`, type: 'article', jsonld, body }));
   urls.push({ loc: url, pri: '0.5' });
 }
+/* Atlas del cuerpo humano */
+const anMap = Object.fromEntries([...AN.systems, ...AN.organs].map(x => [x.id, x]));
+const ul = a => (a || []).length ? `<ul class="anat-list">${a.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : '';
+{
+  const url = `${SITE}/anatomia/`;
+  const desc = `Atlas del cuerpo humano: ${AN.systems.length} sistemas y ${AN.organs.length} órganos explicados con fuentes. Dónde están, qué hacen y cuándo algo falla.`;
+  const list = a => `<ul class="anat-list">${a.map(x => `<li><a href="/anatomia/${x.id}/">${esc(x.name)}</a> — ${esc(clip(x.desc || x.what, 110))}</li>`).join('')}</ul>`;
+  const body = `<header class="art-head"><span class="chip" style="color:#ff9a8a"><span class="dot"></span>Atlas</span><h1 style="margin-top:12px">Atlas del cuerpo humano</h1><p class="sub">${esc(desc)}</p></header>${medNote}<div class="prose"><h2>Sistemas</h2>${list(AN.systems)}<h2>Órganos</h2>${list([...AN.organs].sort((a, b) => a.name.localeCompare(b.name, 'es')))}</div>`;
+  write('anatomia', page({ url, appUrl: '/#/anatomia', title: 'Atlas del cuerpo humano', desc, image: (AN.systems.find(s => s.img) || {}).img || `${SITE}/og-default.png`, type: 'website', jsonld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Atlas del cuerpo humano', description: desc, inLanguage: 'es', url }, body }));
+  urls.push({ loc: url, pri: '0.8' });
+}
+for (const x of [...AN.systems, ...AN.organs]) {
+  const isSys = !!x.functions, url = `${SITE}/anatomia/${x.id}/`, appUrl = `/#/anatomia/${x.id}`;
+  const desc = clip(isSys ? `${x.desc} ${x.intro}` : `${x.what} ${x.where}`, 200);
+  const rel = isSys ? (x.organs || []).map(o => anMap[o]).filter(Boolean) : (x.systems || []).map(s => anMap[s]).filter(Boolean);
+  const body = `<header class="art-head"><span class="chip" style="color:#ff9a8a"><span class="dot"></span>Atlas del cuerpo · ${isSys ? 'Sistema' : 'Órgano'}</span><h1 style="margin-top:12px">${esc(x.name)}</h1><p class="sub">${esc(isSys ? x.desc : x.what)}</p></header>${figure(x, x.name)}
+<div class="prose">${isSys ? `<p class="lead">${esc(x.intro)}</p><h2>Para qué sirve</h2>${ul(x.functions)}${(x.curious || []).length ? `<h2>¿Sabías que…?</h2>${ul(x.curious)}` : ''}`
+    : `<h2>Dónde está</h2><p>${esc(x.where)}</p>${(x.facts || []).length ? `<h2>En datos</h2><div class="kvs">${x.facts.map(([k, v]) => `<div class="kv"><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}</div>` : ''}${(x.curious || []).length ? `<h2>¿Sabías que…?</h2>${ul(x.curious)}` : ''}${(x.conditions || []).length ? `<h2>Cuando algo falla</h2><p>Algunas afecciones conocidas relacionadas con este órgano:</p>${ul(x.conditions)}` : ''}`}
+${rel.length ? `<h2>${isSys ? 'Órganos de este sistema' : 'Forma parte de'}</h2><ul class="anat-list">${rel.map(r => `<li><a href="/anatomia/${r.id}/">${esc(r.name)}</a></li>`).join('')}</ul>` : ''}</div>${medNote}${sources(x.sources)}`;
+  const jsonld = { '@context': 'https://schema.org', '@type': 'MedicalWebPage', name: x.name, description: desc, inLanguage: 'es', url, about: { '@type': 'AnatomicalStructure', name: x.name }, citation: (x.sources || []).map(s => s.u), isAccessibleForFree: true };
+  write(`anatomia/${x.id}`, page({ url, appUrl, title: `${x.name}: qué es, dónde está y qué hace`, desc, image: x.img || `${SITE}/og-default.png`, type: 'article', jsonld, body }));
+  urls.push({ loc: url, pri: '0.6' });
+}
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `<url><loc>${u.loc}</loc>${u.mod ? `<lastmod>${u.mod}</lastmod>` : ''}<priority>${u.pri}</priority></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /admin.html\nSitemap: ${SITE}/sitemap.xml\n`);
-console.log(`Páginas: ${items.length} contenidos + ${P.length} países · sitemap con ${urls.length} direcciones`);
+console.log(`Páginas: ${items.length} contenidos + ${P.length} países + ${AN.systems.length + AN.organs.length + 1} del atlas · sitemap con ${urls.length} direcciones`);
