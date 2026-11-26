@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Panel admin · ¿SABÍAS QUE?</title>
+<meta name="theme-color" content="#07080b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2307080b'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='38' font-weight='700' text-anchor='middle' fill='%238f7cff'%3E%C2%BF%3F%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<style>
+body{padding:calc(env(safe-area-inset-top) + 12px) 0 calc(env(safe-area-inset-bottom) + 40px)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 16px}
+.ah{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.ah .logo small{display:inline}
+.ah .sp{flex:1}
+.panel-card{background:var(--g2);border:1px solid var(--line);border-radius:var(--r2);padding:16px;margin-bottom:12px}
+.grid4{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media(min-width:760px){.grid4{grid-template-columns:repeat(4,1fr)}}
+.tbl{display:grid;gap:8px}
+.it{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:12px 14px;background:var(--g2);border:1px solid var(--line);border-radius:14px}
+.it b{display:block;font-size:15px;line-height:1.3}
+.it small{color:var(--tx3);font-size:12.5px}
+.badge{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;padding:3px 7px;border-radius:6px;margin-right:6px;background:var(--g3);color:var(--tx2)}
+.badge.pub{background:rgba(83,211,154,.12);color:var(--ok)}
+.badge.dr{background:rgba(242,184,75,.12);color:var(--warn)}
+.badge.err{background:rgba(255,111,111,.12);color:var(--bad)}
+.fld{display:grid;gap:6px;margin-bottom:14px}
+.fld label{font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--tx3)}
+.fld small{color:var(--tx3);font-size:12px;line-height:1.4}
+.fld input,.fld select,.fld textarea{width:100%;background:var(--g1);border:1px solid var(--line2);border-radius:12px;padding:11px 12px;color:var(--tx);font:15px/1.5 var(--sans);-webkit-appearance:none}
+.fld textarea{min-height:90px;resize:vertical}
+.fld textarea.big{min-height:260px;font-family:ui-monospace,Menlo,monospace;font-size:13.5px}
+.row2{display:grid;gap:0 12px}
+@media(min-width:640px){.row2{grid-template-columns:1fr 1fr}.row3{grid-template-columns:1fr 1fr 1fr}}
+.issues{margin:0 0 14px;padding:12px 14px;border-radius:12px;background:rgba(255,111,111,.07);border:1px solid rgba(255,111,111,.25);color:#ffb3b3;font-size:14px}
+.issues li{margin-left:18px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.filters select,.filters input{background:var(--g2);border:1px solid var(--line);border-radius:99px;height:38px;padding:0 14px;color:var(--tx);font:14px var(--sans);-webkit-appearance:none}
+.filters input{flex:1;min-width:160px}
+.gate{max-width:380px;margin:12vh auto;text-align:center;padding:0 20px}
+.gate input{width:100%;height:50px;border-radius:14px;background:var(--g2);border:1px solid var(--line2);color:var(--tx);padding:0 16px;font-size:17px;margin:18px 0 12px;text-align:center}
+.note{font-size:13px;color:var(--tx3);line-height:1.5}
+.dirty{color:var(--warn);font-size:13px;font-weight:600}
+</style>
+</head>
+<body>
+<div class="wrap" id="root"></div>
+<div class="toast" id="toast" role="status" aria-live="polite" style="bottom:24px"></div>
+<script src="content.js"></script>
+<script>
+/* Panel admin de ¿SABÍAS QUE?
+ * Edita una copia (borrador) del contenido guardada en este navegador.
+ * Para publicar: Exportar → descarga content.js → súbelo a GitHub reemplazando el anterior.
+ * IMPORTANTE: el PIN solo evita accesos casuales. En un sitio estático no hay seguridad real:
+ * la protección de verdad llegará con Supabase Auth (ver schema.sql).
+ */
+(() => {
+'use strict';
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const S = { get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch{return d}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}, del(k){try{localStorage.removeItem(k)}catch{}} };
+const clone = o => JSON.parse(JSON.stringify(o));
+const today = () => new Date().toISOString().slice(0,10);
+const slug = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,48);
+const TYPE = { articulo:'Artículo', curiosidad:'Curiosidad', mito:'Mito' };
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('on'),2200)}
+async function sha(s){ if(!crypto.subtle) return s; const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)); return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join(''); }
+
+let D = S.get('sq.draft', null) || clone(window.SQ_CONTENT);
+let state = { tab:'resumen', edit:null, kind:null, f:{type:'',status:'',cat:'',q:''} };
+const dirty = () => S.get('sq.draft', null) !== null;
+const save = () => { D.updated = today(); S.set('sq.draft', D) ? toast('Borrador guardado') : toast('No se pudo guardar (almacenamiento lleno)'); };
+const catName = id => (D.categories.find(c=>c.id===id)||{}).name || id;
+
+/* ---------- Validación: lo que no cumple no se puede publicar ---------- */
+const isUrl = u => /^https?:\/\/[^\s]+\.[^\s]+/.test(u||'');
+function validateItem(i){
+  const e=[];
+  if(!i.id) e.push('Falta el identificador');
+  if(!i.title||i.title.length<8) e.push('Título demasiado corto');
+  if(!D.categories.some(c=>c.id===i.cat)) e.push('Categoría inválida');
+  if(!i.desc) e.push('Falta la descripción breve');
+  if(!(i.sources||[]).length) e.push('Debe tener al menos una fuente');
+  (i.sources||[]).forEach((s,k)=>{ if(!isUrl(s.u)) e.push(`Fuente ${k+1}: URL no válida`); if(!s.t) e.push(`Fuente ${k+1}: falta título`); });
+  if(i.type==='articulo'){
+    if(!i.intro) e.push('Falta la introducción');
+    if(!(i.sections||[]).length) e.push('Debe tener al menos un apartado');
+    if(!i.conclusion) e.push('Falta la conclusión');
+  } else if(!i.body) e.push('Falta la explicación completa');
+  if(i.img && !isUrl(i.img)) e.push('La imagen debe ser una URL https');
+  return e;
+}
+function validateQ(q){
+  const e=[];
+  if(!q.q) e.push('Falta la pregunta');
+  if(!Array.isArray(q.o)||q.o.length!==4||q.o.some(x=>!String(x).trim())) e.push('Debe tener 4 respuestas');
+  if(!(q.a>=0&&q.a<=3)) e.push('Respuesta correcta inválida');
+  if(!q.exp) e.push('Falta la explicación');
+  if(q.ref && !D.items.some(i=>i.id===q.ref)) e.push('El contenido relacionado no existe');
+  return e;
+}
+const allIssues = () => [
+  ...D.items.filter(i=>i.status==='publicado').map(i=>({id:i.id,kind:'item',t:i.title,e:validateItem(i)})),
+  ...D.questions.filter(q=>q.status!=='borrador').map(q=>({id:q.id,kind:'q',t:q.q,e:validateQ(q)}))
+].filter(x=>x.e.length);
+
+/* ---------- Conversión texto <-> estructura (cómodo de editar en el móvil) ---------- */
+const sectionsToText = ss => (ss||[]).map(s=>`## ${s.h}\n\n${(s.p||[]).join('\n\n')}`).join('\n\n');
+function textToSections(t){
+  const out=[]; let cur=null;
+  String(t||'').split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean).forEach(block=>{
+    if(block.startsWith('## ')){ const [h,...rest]=block.split('\n'); cur={h:h.slice(3).trim(),p:[]}; out.push(cur); if(rest.join(' ').trim()) cur.p.push(rest.join(' ').trim()); }
+    else { if(!cur){cur={h:'Introducción',p:[]};out.push(cur)} cur.p.push(block.replace(/\n/g,' ')); }
+  });
+  return out;
+}
+const sourcesToText = ss => (ss||[]).map(s=>`${s.t} | ${s.u}`).join('\n');
+const textToSources = t => String(t||'').split('\n').map(l=>l.trim()).filter(Boolean).map(l=>{const k=l.lastIndexOf('|');return k<0?{t:'',u:l}:{t:l.slice(0,k).trim(),u:l.slice(k+1).trim()}});
+const lines = t => String(t||'').split('\n').map(l=>l.trim()).filter(Boolean);
+
+/* ---------- Render ---------- */
+function shell(body){
+  const iss = allIssues().length;
+  return `<header class="ah">
+    <a class="logo" href="index.html"><i>¿</i>SABÍAS QUE<i>?</i><small>Admin</small></a><span class="sp"></span>
+    ${dirty()?'<span class="dirty">● Borrador sin publicar</span>':''}
+    <a class="btn sm" href="index.html" target="_blank">Ver app</a></header>
+  <div class="seg" style="margin:0 0 16px;padding:0">${[['resumen','Resumen'],['contenidos','Contenidos'],['preguntas','Preguntas'],['categorias','Categorías'],['publicar','Publicar'+(iss?` (${iss}⚠)`:'')]].map(([v,l])=>`<button class="${state.tab===v&&!state.edit?'on':''}" data-a="tab" data-v="${v}">${l}</button>`).join('')}</div>
+  ${body}`;
+}
+function render(){
+  let body='';
+  if(state.edit) body = state.kind==='q' ? editQ() : state.kind==='cat' ? editCat() : editItem();
+  else body = ({resumen,contenidos,preguntas,categorias,publicar})[state.tab]();
+  $('#root').innerHTML = shell(body);
+  window.scrollTo(0,0);
+}
+function resumen(){
+  const c=t=>D.items.filter(i=>i.type===t).length;
+  const pub=D.items.filter(i=>i.status==='publicado').length;
+  const iss=allIssues();
+  return `<div class="grid4">
+    <div class="stat"><b>${c('articulo')}</b><span>Artículos</span></div>
+    <div class="stat"><b>${c('curiosidad')}</b><span>Curiosidades</span></div>
+    <div class="stat"><b>${c('mito')}</b><span>Mitos</span></div>
+    <div class="stat"><b>${D.questions.length}</b><span>Preguntas</span></div></div>
+  <div class="panel-card" style="margin-top:12px"><b>${pub}</b> publicados · <b>${D.items.length-pub}</b> borradores · ${D.categories.length} categorías<br>
+  <span class="note">Última actualización: ${esc(D.updated||'—')}</span></div>
+  <div class="panel-card"><b>Contenido por categoría</b><div style="margin-top:10px;display:grid;gap:6px">${D.categories.map(k=>{const n=D.items.filter(i=>i.cat===k.id).length;const nq=D.questions.filter(q=>q.cat===k.id).length;return `<div style="display:flex;justify-content:space-between;font-size:14px"><span>${k.icon} ${esc(k.name)}</span><span class="faint">${n} contenidos · ${nq} preguntas${n<3?' <span class="badge dr">poco contenido</span>':''}</span></div>`}).join('')}</div></div>
+  ${iss.length?`<div class="issues"><b>${iss.length} elemento(s) publicados con problemas</b><ul>${iss.map(x=>`<li><a href="#" data-a="edit-${x.kind}" data-id="${x.id}" style="text-decoration:underline">${esc(x.t)}</a>: ${x.e.join(', ')}</li>`).join('')}</ul></div>`:'<div class="panel-card" style="color:var(--ok)">✓ Todo el contenido publicado pasa la validación.</div>'}
+  <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn ac" data-a="new-item" data-t="articulo">+ Artículo</button><button class="btn" data-a="new-item" data-t="curiosidad">+ Curiosidad</button><button class="btn" data-a="new-item" data-t="mito">+ Mito</button><button class="btn" data-a="new-q">+ Pregunta</button></div>`;
+}
+function contenidos(){
+  const f=state.f, q=slug(f.q).replace(/-/g,' ');
+  const list=D.items.filter(i=>(!f.type||i.type===f.type)&&(!f.status||i.status===f.status)&&(!f.cat||i.cat===f.cat)&&(!q||slug(i.title+' '+i.id).replace(/-/g,' ').includes(q)))
+    .sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  return `<div class="filters">
+    <input placeholder="Buscar…" value="${esc(f.q)}" data-f="q">
+    <select data-f="type"><option value="">Todos los tipos</option>${Object.entries(TYPE).map(([k,v])=>`<option value="${k}" ${f.type===k?'selected':''}>${v}</option>`).join('')}</select>
+    <select data-f="cat"><option value="">Todas las categorías</option>${D.categories.map(c=>`<option value="${c.id}" ${f.cat===c.id?'selected':''}>${esc(c.name)}</option>`).join('')}</select>
+    <select data-f="status"><option value="">Todo estado</option><option value="publicado" ${f.status==='publicado'?'selected':''}>Publicado</option><option value="borrador" ${f.status==='borrador'?'selected':''}>Borrador</option></select>
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap"><button class="btn sm ac" data-a="new-item" data-t="articulo">+ Artículo</button><button class="btn sm" data-a="new-item" data-t="curiosidad">+ Curiosidad</button><button class="btn sm" data-a="new-item" data-t="mito">+ Mito</button></div>
+  <div class="faint" style="font-size:13px;margin-bottom:8px">${list.length} resultado(s)</div>
+  <div class="tbl">${list.map(i=>{const e=validateItem(i);return `<div class="it"><div><span class="badge ${i.status==='publicado'?'pub':'dr'}">${i.status}</span><span class="badge">${TYPE[i.type]}</span>${e.length?'<span class="badge err">'+e.length+' problema(s)</span>':''}<b style="margin-top:6px">${esc(i.title)}</b><small>${esc(catName(i.cat))} · ${esc(i.sub||'')} · ${esc(i.date||'')} · ${(i.sources||[]).length} fuente(s)</small></div>
+  <button class="btn sm" data-a="edit-item" data-id="${i.id}">Editar</button></div>`}).join('')||'<p class="faint">Sin resultados.</p>'}</div>`;
+}
+function preguntas(){
+  return `<div style="margin-bottom:12px"><button class="btn sm ac" data-a="new-q">+ Pregunta</button></div>
+  <div class="tbl">${D.questions.map(q=>{const e=validateQ(q);return `<div class="it"><div><span class="badge ${q.status==='borrador'?'dr':'pub'}">${q.status||'publicado'}</span><span class="badge">Nivel ${q.level}</span>${e.length?'<span class="badge err">'+e.length+' problema(s)</span>':''}<b style="margin-top:6px">${esc(q.q)}</b><small>${esc(catName(q.cat))} · Correcta: ${esc((q.o||[])[q.a])}</small></div><button class="btn sm" data-a="edit-q" data-id="${q.id}">Editar</button></div>`}).join('')}</div>`;
+}
+function categorias(){
+  return `<div style="margin-bottom:12px"><button class="btn sm ac" data-a="new-cat">+ Categoría</button></div>
+  <div class="tbl">${D.categories.map(c=>`<div class="it"><div><b><span style="color:${esc(c.color)}">${c.icon}</span> ${esc(c.name)}</b><small>${esc(c.id)} · ${esc(c.desc)}</small></div><button class="btn sm" data-a="edit-cat" data-id="${c.id}">Editar</button></div>`).join('')}</div>`;
+}
+function publicar(){
+  const iss=allIssues();
+  return `<div class="panel-card"><b>1. Revisar</b><p class="note" style="margin-top:6px">${iss.length?`<span style="color:var(--bad)">Hay ${iss.length} elemento(s) publicados con problemas. Corrígelos o pásalos a borrador antes de exportar.</span>`:'✓ Validación correcta.'}</p></div>
+  <div class="panel-card"><b>2. Probar en la app</b><p class="note" style="margin:6px 0 12px">Abre la app usando este borrador, solo en este dispositivo.</p>
+    <button class="btn sm" data-a="preview">${S.get('sq.preview',false)?'Desactivar vista previa':'Activar vista previa'}</button></div>
+  <div class="panel-card"><b>3. Exportar y subir a GitHub</b><p class="note" style="margin:6px 0 12px">Descarga el archivo <code>content.js</code> y súbelo a tu repositorio reemplazando el actual (GitHub → Add file → Upload files). Vercel publicará el cambio solo.</p>
+    <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn ac" data-a="export" ${iss.length?'disabled style="opacity:.5"':''}>Descargar content.js</button><button class="btn" data-a="copy">Copiar código</button><button class="btn" data-a="json">Descargar copia JSON</button></div></div>
+  <div class="panel-card"><b>Importar / restaurar</b><p class="note" style="margin:6px 0 12px">Carga una copia JSON exportada antes, o descarta el borrador y vuelve al contenido publicado.</p>
+    <div style="display:flex;gap:8px;flex-wrap:wrap"><label class="btn sm">Importar JSON<input type="file" accept="application/json,.json" data-a="import" hidden></label><button class="btn sm" data-a="discard">Descartar borrador</button><button class="btn sm" data-a="pin">Cambiar PIN</button></div></div>`;
+}
+
+/* ---------- Editores ---------- */
+const opt=(v,cur,l)=>`<option value="${esc(v)}" ${v===cur?'selected':''}>${esc(l)}</option>`;
+const fld=(label,html,help='')=>`<div class="fld"><label>${label}</label>${html}${help?`<small>${help}</small>`:''}</div>`;
+function editItem(){
+  const i=state.edit, art=i.type==='articulo', e=validateItem(i);
+  return `<button class="back" data-a="cancel">‹ Volver</button>
+  <h1 class="h2" style="margin:8px 0 14px">${state.isNew?'Nuevo':'Editar'}: ${TYPE[i.type]}</h1>
+  ${e.length?`<ul class="issues">${e.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
+  <form id="ef">
+  ${fld('Título',`<input name="title" value="${esc(i.title)}" required>`, i.type==='mito'?'Escribe el mito entre comillas: «…»':'Atractivo y verdadero. Sin clickbait engañoso.')}
+  ${art?fld('Subtítulo',`<input name="subtitle" value="${esc(i.subtitle)}">`):''}
+  ${fld('Descripción breve',`<textarea name="desc">${esc(i.desc)}</textarea>`,'1–2 frases. Se muestra en tarjetas y resultados.')}
+  <div class="row2 row3">
+    ${fld('Categoría',`<select name="cat">${D.categories.map(c=>opt(c.id,i.cat,c.name)).join('')}</select>`)}
+    ${fld('Subcategoría',`<input name="sub" value="${esc(i.sub)}">`)}
+    ${fld('Nivel',`<select name="level">${[1,2,3].map(n=>opt(String(n),String(i.level),['','Básico','Intermedio','Avanzado'][n])).join('')}</select>`)}
+  </div>
+  <div class="row2 row3">
+    ${fld('Estado',`<select name="status">${opt('borrador',i.status,'Borrador')}${opt('publicado',i.status,'Publicado')}</select>`)}
+    ${fld('Fecha de publicación',`<input type="date" name="date" value="${esc(i.date)}">`)}
+    ${fld('Lectura (min)',`<input type="number" min="0" name="read" value="${esc(i.read||'')}" placeholder="auto">`,'Vacío = cálculo automático')}
+  </div>
+  ${i.type==='mito'?fld('Veredicto',`<select name="verdict">${opt('falso',i.verdict,'Falso')}${opt('matizado',i.verdict,'Verdad a medias')}</select>`):''}
+  ${art?fld('Introducción',`<textarea name="intro">${esc(i.intro)}</textarea>`)
+       +fld('Desarrollo por apartados',`<textarea class="big" name="sections">${esc(sectionsToText(i.sections))}</textarea>`,'Empieza cada apartado con «## Título». Separa los párrafos con una línea en blanco.')
+       +fld('Datos complementarios',`<textarea name="facts">${esc((i.facts||[]).join('\n'))}</textarea>`,'Uno por línea.')
+       +fld('Conclusión',`<textarea name="conclusion">${esc(i.conclusion)}</textarea>`)
+      :fld('Explicación completa',`<textarea class="big" name="body" style="font-family:var(--sans)">${esc(i.body)}</textarea>`)}
+  ${fld('Fuentes y referencias',`<textarea name="sources">${esc(sourcesToText(i.sources))}</textarea>`,'Una por línea: <b>Título de la fuente | https://url</b>. Solo fuentes reales que hayas abierto y que respalden lo que dices.')}
+  ${fld('Imagen (opcional)',`<input name="img" value="${esc(i.img||'')}" placeholder="https://… (vacío = ilustración automática)">`,'Usa imágenes con licencia libre (p. ej., Wikimedia Commons) e indica el crédito en las fuentes.')}
+  ${fld('Identificador',`<input name="id" value="${esc(i.id)}" ${state.isNew?'':'readonly'}>`, state.isNew?'Se genera del título si lo dejas vacío. No se puede cambiar después.':'No editable: lo usan enlaces y favoritos.')}
+  <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">
+    <button class="btn ac" type="submit">Guardar</button>
+    <button class="btn" type="button" data-a="cancel">Cancelar</button>
+    ${state.isNew?'':`<button class="btn" type="button" data-a="dup">Duplicar</button><button class="btn" type="button" data-a="del" style="color:#ff9a9a">Eliminar</button>`}
+  </div></form>`;
+}
+function editQ(){
+  const q=state.edit, e=validateQ(q);
+  return `<button class="back" data-a="cancel">‹ Volver</button><h1 class="h2" style="margin:8px 0 14px">${state.isNew?'Nueva':'Editar'} pregunta</h1>
+  ${e.length?`<ul class="issues">${e.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
+  <form id="ef">
+  ${fld('Pregunta',`<textarea name="q">${esc(q.q)}</textarea>`)}
+  ${[0,1,2,3].map(k=>fld(`Respuesta ${'ABCD'[k]}`,`<input name="o${k}" value="${esc((q.o||[])[k])}">`)).join('')}
+  <div class="row2 row3">
+    ${fld('Correcta',`<select name="a">${[0,1,2,3].map(k=>opt(String(k),String(q.a),'ABCD'[k])).join('')}</select>`,'El orden se baraja al jugar.')}
+    ${fld('Nivel',`<select name="level">${[1,2,3].map(n=>opt(String(n),String(q.level),['','Fácil','Medio','Difícil'][n])).join('')}</select>`)}
+    ${fld('Categoría',`<select name="cat">${D.categories.map(c=>opt(c.id,q.cat,c.name)).join('')}</select>`)}
+  </div>
+  ${fld('Explicación',`<textarea name="exp">${esc(q.exp)}</textarea>`)}
+  <div class="row2">
+  ${fld('Contenido relacionado',`<select name="ref"><option value="">— Ninguno —</option>${D.items.map(i=>opt(i.id,q.ref,i.title)).join('')}</select>`,'Respalda la pregunta con un contenido que tenga fuentes.')}
+  ${fld('Estado',`<select name="status">${opt('publicado',q.status,'Publicado')}${opt('borrador',q.status,'Borrador')}</select>`)}
+  </div>
+  <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn ac" type="submit">Guardar</button><button class="btn" type="button" data-a="cancel">Cancelar</button>${state.isNew?'':'<button class="btn" type="button" data-a="del" style="color:#ff9a9a">Eliminar</button>'}</div></form>`;
+}
+function editCat(){
+  const c=state.edit;
+  return `<button class="back" data-a="cancel">‹ Volver</button><h1 class="h2" style="margin:8px 0 14px">${state.isNew?'Nueva':'Editar'} categoría</h1><form id="ef">
+  ${fld('Nombre',`<input name="name" value="${esc(c.name)}" required>`)}
+  <div class="row2 row3">${fld('Icono (emoji)',`<input name="icon" value="${esc(c.icon)}">`)}${fld('Color',`<input type="color" name="color" value="${esc(c.color||'#8f7cff')}" style="height:46px;padding:4px">`)}${fld('Identificador',`<input name="id" value="${esc(c.id)}" ${state.isNew?'':'readonly'}>`)}</div>
+  ${fld('Descripción',`<input name="desc" value="${esc(c.desc)}">`)}
+  <div style="display:flex;gap:8px"><button class="btn ac" type="submit">Guardar</button><button class="btn" type="button" data-a="cancel">Cancelar</button>${state.isNew?'':'<button class="btn" type="button" data-a="del" style="color:#ff9a9a">Eliminar</button>'}</div></form>`;
+}
+
+/* ---------- Guardado de formularios ---------- */
+function submit(form){
+  const v=Object.fromEntries(new FormData(form));
+  if(state.kind==='item'){
+    const i=state.edit;
+    Object.assign(i,{title:v.title.trim(),desc:v.desc.trim(),cat:v.cat,sub:v.sub.trim(),level:+v.level,status:v.status,date:v.date||today(),sources:textToSources(v.sources)});
+    v.read?i.read=+v.read:delete i.read;
+    v.img.trim()?i.img=v.img.trim():delete i.img;
+    if(i.type==='articulo'){ Object.assign(i,{subtitle:v.subtitle.trim(),intro:v.intro.trim(),sections:textToSections(v.sections),facts:lines(v.facts),conclusion:v.conclusion.trim()}); }
+    else { i.body=v.body.trim(); if(i.type==='mito') i.verdict=v.verdict; }
+    if(state.isNew){
+      i.id=slug(v.id||'')||(i.type[0]+'-'+slug(i.title));
+      if(D.items.some(x=>x.id===i.id)) return toast('Ya existe un contenido con ese identificador');
+    }
+    if(i.status==='publicado'){ const e=validateItem(i); if(e.length){ i.status='borrador'; toast('Guardado como borrador: corrige los problemas para publicarlo'); } }
+    if(state.isNew) D.items.unshift(i);
+  } else if(state.kind==='q'){
+    const q=state.edit;
+    Object.assign(q,{q:v.q.trim(),o:[v.o0,v.o1,v.o2,v.o3].map(x=>x.trim()),a:+v.a,level:+v.level,cat:v.cat,exp:v.exp.trim(),status:v.status});
+    v.ref?q.ref=v.ref:delete q.ref;
+    if(q.status==='publicado'&&validateQ(q).length){ q.status='borrador'; toast('Guardada como borrador: tiene problemas'); }
+    if(state.isNew){ q.id='q'+Date.now().toString(36); D.questions.push(q); }
+  } else if(state.kind==='cat'){
+    const c=state.edit; Object.assign(c,{name:v.name.trim(),icon:v.icon.trim()||'✦',color:v.color,desc:v.desc.trim()});
+    if(state.isNew){ c.id=slug(v.id||v.name); if(!c.id||D.categories.some(x=>x.id===c.id)) return toast('Identificador vacío o repetido'); D.categories.push(c); }
+  }
+  save(); state.edit=null; render();
+}
+
+/* ---------- Exportar ---------- */
+function exportJs(){
+  const out=clone(D); out.version=(window.SQ_CONTENT.version||1); out.updated=today();
+  return `/* ¿SABÍAS QUE? — Base de contenido. Generado por admin.html el ${today()}. */\nwindow.SQ_CONTENT = ${JSON.stringify(out,null,1)};\n`;
+}
+function download(name,text,type){ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([text],{type})); a.download=name; document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500); }
+
+/* ---------- Eventos ---------- */
+document.addEventListener('click', e=>{
+  const el=e.target.closest('[data-a]'); if(!el||el.tagName==='INPUT') return;
+  const a=el.dataset.a, id=el.dataset.id;
+  if(a==='tab'){ state.tab=el.dataset.v; state.edit=null; return render(); }
+  e.preventDefault();
+  switch(a){
+    case 'new-item': { const t=el.dataset.t; state.kind='item'; state.isNew=true; state.edit={id:'',type:t,status:'borrador',date:today(),level:1,cat:D.categories[0].id,sub:'',title:'',desc:'',sources:[],...(t==='articulo'?{subtitle:'',intro:'',sections:[],facts:[],conclusion:''}:{body:''}),...(t==='mito'?{verdict:'falso'}:{})}; return render(); }
+    case 'edit-item': state.kind='item'; state.isNew=false; state.edit=D.items.find(i=>i.id===id); return render();
+    case 'new-q': state.kind='q'; state.isNew=true; state.edit={q:'',o:['','','',''],a:0,level:1,cat:D.categories[0].id,exp:'',status:'borrador'}; return render();
+    case 'edit-q': state.kind='q'; state.isNew=false; state.edit=D.questions.find(q=>q.id===id); return render();
+    case 'new-cat': state.kind='cat'; state.isNew=true; state.edit={id:'',name:'',icon:'✦',color:'#8f7cff',desc:''}; return render();
+    case 'edit-cat': state.kind='cat'; state.isNew=false; state.edit=D.categories.find(c=>c.id===id); return render();
+    case 'cancel': D=S.get('sq.draft',null)||clone(window.SQ_CONTENT); state.edit=null; return render();
+    case 'dup': { const c=clone(state.edit); c.id=c.id+'-copia-'+Date.now().toString(36).slice(-4); c.status='borrador'; c.title+=' (copia)'; D.items.unshift(c); save(); state.edit=c; state.isNew=false; return render(); }
+    case 'del': {
+      if(el.dataset.confirm!=='1'){ el.dataset.confirm='1'; el.textContent='¿Seguro? Toca otra vez'; return; }
+      if(state.kind==='item') D.items=D.items.filter(i=>i!==state.edit);
+      if(state.kind==='q') D.questions=D.questions.filter(q=>q!==state.edit);
+      if(state.kind==='cat'){ if(D.items.some(i=>i.cat===state.edit.id)) return toast('No se puede: hay contenidos en esta categoría'); D.categories=D.categories.filter(c=>c!==state.edit); }
+      save(); state.edit=null; return render();
+    }
+    case 'preview': { const on=!S.get('sq.preview',false); if(on){ S.set('sq.draft',D); S.set('sq.preview',true); toast('Vista previa activada: abre la app'); } else { S.del('sq.preview'); toast('Vista previa desactivada'); } return render(); }
+    case 'export': return download('content.js',exportJs(),'text/javascript');
+    case 'json': return download(`sabiasque-backup-${today()}.json`,JSON.stringify(D,null,1),'application/json');
+    case 'copy': navigator.clipboard.writeText(exportJs()).then(()=>toast('Código copiado'),()=>toast('No se pudo copiar')); return;
+    case 'discard': if(el.dataset.confirm!=='1'){ el.dataset.confirm='1'; el.textContent='¿Seguro? Toca otra vez'; return; } S.del('sq.draft'); S.del('sq.preview'); D=clone(window.SQ_CONTENT); toast('Borrador descartado'); return render();
+    case 'pin': { const n=prompt('Nuevo PIN (mínimo 4 caracteres):'); if(n&&n.length>=4){ sha(n).then(h=>{S.set('sq.adminpin',h);toast('PIN actualizado')}); } return; }
+  }
+});
+document.addEventListener('change', e=>{
+  const f=e.target.dataset.f; if(f){ state.f[f]=e.target.value; render(); }
+  if(e.target.dataset.a==='import'){
+    const file=e.target.files[0]; if(!file) return;
+    file.text().then(t=>{ const j=JSON.parse(t); if(!Array.isArray(j.items)||!Array.isArray(j.categories)) throw 0; D=j; save(); render(); toast('Copia importada'); }).catch(()=>toast('Archivo no válido'));
+  }
+});
+document.addEventListener('input', e=>{ if(e.target.dataset.f==='q'){ state.f.q=e.target.value; clearTimeout(window._t); window._t=setTimeout(()=>{const pos=e.target.selectionStart;render();const i=document.querySelector('[data-f="q"]');i.focus();i.setSelectionRange(pos,pos)},250);} });
+document.addEventListener('submit', e=>{ e.preventDefault(); submit(e.target); });
+
+/* ---------- Acceso ---------- */
+async function gate(){
+  if(sessionStorage.getItem('sq.admin')==='1') return render();
+  const stored=S.get('sq.adminpin',null);
+  $('#root').innerHTML=`<div class="gate"><div class="logo" style="justify-content:center;font-size:26px"><i>¿</i>SABÍAS QUE<i>?</i></div>
+  <p class="muted" style="margin-top:8px">Panel de contenido</p>
+  <form id="gf"><input id="pin" type="password" inputmode="text" autocomplete="current-password" placeholder="${stored?'PIN':'Crea un PIN (mín. 4)'}" aria-label="PIN"><button class="btn ac block">Entrar</button></form>
+  <p class="note" style="margin-top:16px">El PIN evita accesos casuales en este dispositivo. No es seguridad real: el panel solo edita un borrador local y nada se publica hasta que subes el archivo exportado.</p></div>`;
+  $('#pin').focus();
+  $('#gf').addEventListener('submit', async ev=>{ ev.preventDefault(); ev.stopPropagation(); const v=$('#pin').value; if(v.length<4) return toast('Mínimo 4 caracteres'); const h=await sha(v);
+    if(!stored){ S.set('sq.adminpin',h); } else if(h!==stored){ return toast('PIN incorrecto'); }
+    sessionStorage.setItem('sq.admin','1'); render(); }, { capture:true });
+}
+gate();
+})();
+</script>
+</body>
+</html>

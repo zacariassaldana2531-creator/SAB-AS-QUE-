@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>¿SABÍAS QUE? · Cultura general con fuentes</title>
+<meta name="description" content="Curiosidades, artículos, mitos y quiz de cultura general. Contenido gratuito, claro y con fuentes verificables.">
+<meta name="theme-color" content="#07080b">
+<meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="¿Sabías que?">
+<meta property="og:title" content="¿SABÍAS QUE?">
+<meta property="og:description" content="Aprende algo que casi nadie sabe. Con fuentes.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2307080b'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='38' font-weight='700' text-anchor='middle' fill='%238f7cff'%3E%C2%BF%3F%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="app">
+  <!-- Navegación de escritorio -->
+  <aside class="side" aria-label="Navegación principal">
+    <a class="logo" href="#/"><i>¿</i>SABÍAS QUE<i>?</i></a>
+    <nav>
+      <a href="#/" data-tab="inicio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>Inicio</a>
+      <a href="#/explorar" data-tab="explorar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>Explorar</a>
+      <a href="#/quiz" data-tab="quiz"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .8-1 1.5v.2M12 17h.01"/></svg>Quiz</a>
+      <a href="#/guardados" data-tab="guardados"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z"/></svg>Guardados</a>
+      <a href="#/perfil" data-tab="perfil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Perfil</a>
+    </nav>
+    <button class="btn ac surprise-side" data-act="surprise"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>Sorpréndeme</button>
+    <div class="grow"></div>
+    <p class="note">Contenido gratuito con fuentes verificables. Pulsa <b>/</b> para buscar.</p>
+  </aside>
+
+  <div class="main">
+    <header class="top">
+      <a class="logo" href="#/" aria-label="¿SABÍAS QUE? Inicio"><i>¿</i>SABÍAS QUE<i>?</i></a>
+      <label class="searchbar top-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="topq" type="search" placeholder="Buscar artículos, curiosidades y mitos" aria-label="Buscar" autocomplete="off"></label>
+      <span class="sp"></span>
+      <a class="icon-btn search-icon" href="#/buscar" aria-label="Buscar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a>
+      <a class="avatar js-avatar" href="#/perfil" aria-label="Perfil">?</a>
+    </header>
+    <main id="view" class="view" tabindex="-1">
+      <!-- Estado de carga: se reemplaza en cuanto arranca app.js -->
+      <div class="skel" style="height:22px;width:40%;margin:12px 0 14px"></div>
+      <div class="skel" style="height:84px;margin-bottom:18px"></div>
+      <div class="skel" style="height:320px;border-radius:26px"></div>
+      <noscript><p style="padding:20px">Esta aplicación necesita JavaScript activado.</p></noscript>
+    </main>
+  </div>
+</div>
+
+<!-- Barra inferior (móvil) -->
+<nav class="tabs" aria-label="Navegación">
+  <a href="#/" data-tab="inicio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>Inicio</a>
+  <a href="#/explorar" data-tab="explorar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>Explorar</a>
+  <a href="#/quiz" data-tab="quiz"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .8-1 1.5v.2M12 17h.01"/></svg>Quiz</a>
+  <a href="#/guardados" data-tab="guardados"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z"/></svg>Guardados</a>
+  <a href="#/perfil" data-tab="perfil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Perfil</a>
+</nav>
+
+<div class="sheet" id="sheet" aria-hidden="true">
+  <div class="bd" data-act="sheet-close"></div>
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="sheet-title"></div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
