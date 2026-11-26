@@ -1,8 +1,8 @@
-/* ¿SABÍAS QUE? — Atlas del cuerpo humano (11 sistemas, 22 órganos).
+/* ¿SABÍAS QUE? — Atlas del cuerpo humano (11 sistemas, 46 órganos).
  * Textos de elaboración propia, verificados contra sus fuentes. Imágenes de Wikimedia Commons con autor y licencia.
  * Contenido educativo: no sustituye el consejo de un profesional de la salud. */
 window.SQ_ANATOMY = {
- "version": 1,
+ "version": 2,
  "updated": "2026-11-26",
  "systems": [
   {
@@ -25,7 +25,12 @@ window.SQ_ANATOMY = {
    ],
    "organs": [
     "huesos",
-    "dientes"
+    "dientes",
+    "tendones",
+    "articulaciones",
+    "columna",
+    "craneo",
+    "medula-osea"
    ],
    "sources": [
     {
@@ -64,7 +69,10 @@ window.SQ_ANATOMY = {
     "En un hombre adulto hay más de 600 músculos."
    ],
    "organs": [
-    "corazon"
+    "corazon",
+    "diafragma",
+    "musculo-esqueletico",
+    "tendones"
    ],
    "sources": [
     {
@@ -94,7 +102,10 @@ window.SQ_ANATOMY = {
     "cerebro",
     "medula-espinal",
     "ojo",
-    "oido"
+    "oido",
+    "lengua",
+    "columna",
+    "nariz"
    ],
    "sources": [
     {
@@ -135,7 +146,9 @@ window.SQ_ANATOMY = {
    "organs": [
     "corazon",
     "sangre",
-    "bazo"
+    "bazo",
+    "vasos-sanguineos",
+    "medula-osea"
    ],
    "sources": [
     {
@@ -170,7 +183,11 @@ window.SQ_ANATOMY = {
     "Respiramos de forma automática, pero también podemos controlar la respiración a voluntad."
    ],
    "organs": [
-    "pulmones"
+    "pulmones",
+    "laringe",
+    "traquea",
+    "diafragma",
+    "nariz"
    ],
    "sources": [
     {
@@ -212,7 +229,10 @@ window.SQ_ANATOMY = {
     "pancreas",
     "vesicula",
     "apendice",
-    "dientes"
+    "dientes",
+    "esofago",
+    "lengua",
+    "glandulas-salivales"
    ],
    "sources": [
     {
@@ -250,7 +270,11 @@ window.SQ_ANATOMY = {
     "hipofisis",
     "tiroides",
     "suprarrenales",
-    "pancreas"
+    "pancreas",
+    "timo",
+    "ovarios",
+    "testiculos",
+    "glandula-pineal"
    ],
    "sources": [
     {
@@ -287,7 +311,10 @@ window.SQ_ANATOMY = {
    "organs": [
     "bazo",
     "sangre",
-    "apendice"
+    "apendice",
+    "ganglios-linfaticos",
+    "timo",
+    "medula-osea"
    ],
    "sources": [
     {
@@ -322,7 +349,9 @@ window.SQ_ANATOMY = {
     "Los riñones reciben entre el 20 y el 25% de la sangre que bombea el corazón."
    ],
    "organs": [
-    "rinones"
+    "rinones",
+    "vejiga",
+    "prostata"
    ],
    "sources": [
     {
@@ -359,7 +388,12 @@ window.SQ_ANATOMY = {
     "Los ovarios y los testículos forman parte también del sistema endocrino.",
     "Las hormonas sexuales influyen en los cambios del cuerpo durante la pubertad."
    ],
-   "organs": [],
+   "organs": [
+    "ovarios",
+    "utero",
+    "testiculos",
+    "prostata"
+   ],
    "sources": [
     {
      "t": "Wikipedia — Human reproductive system",
@@ -385,7 +419,9 @@ window.SQ_ANATOMY = {
     "La melanina también ayuda a proteger el cuerpo de las quemaduras solares."
    ],
    "organs": [
-    "piel"
+    "piel",
+    "cabello",
+    "unas"
    ],
    "sources": [
     {
@@ -1317,6 +1353,1023 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Gray1003.png",
     "file": "Gray1003.png"
+   }
+  },
+  {
+   "id": "vejiga",
+   "name": "Vejiga urinaria",
+   "systems": [
+    "urinario"
+   ],
+   "where": "En la parte baja de la pelvis, detrás del hueso del pubis.",
+   "what": "Es un órgano hueco y elástico que almacena la orina que llega desde los riñones por los uréteres, hasta que se expulsa por la uretra.",
+   "facts": [
+    [
+     "Músculo de su pared",
+     "Músculo detrusor"
+    ],
+    [
+     "Conductos que llegan",
+     "Dos uréteres"
+    ]
+   ],
+   "curious": [
+    "Su pared es muy elástica: se estira a medida que se llena.",
+    "Cuando la vejiga se llena, unos receptores de estiramiento envían señales que producen las ganas de orinar."
+   ],
+   "conditions": [
+    "Infección urinaria (cistitis)",
+    "Incontinencia urinaria",
+    "Cálculos en la vejiga"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Urinary bladder",
+     "u": "https://en.wikipedia.org/wiki/Urinary_bladder"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Urinary_system.svg/960px-Urinary_system.svg.png",
+   "imgCredit": {
+    "artist": "Jordi March i Nogué",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Urinary_system.svg",
+    "file": "Urinary_system.svg"
+   }
+  },
+  {
+   "id": "laringe",
+   "name": "Laringe",
+   "systems": [
+    "respiratorio"
+   ],
+   "where": "En el cuello, por encima de la tráquea.",
+   "what": "Es el órgano de la voz. Contiene las cuerdas vocales, que vibran al paso del aire para producir sonidos. También protege la vía respiratoria al tragar.",
+   "facts": [
+    [
+     "Contiene",
+     "Las cuerdas vocales"
+    ],
+    [
+     "Cartílago más visible",
+     "El tiroides, que forma la «nuez»"
+    ]
+   ],
+   "curious": [
+    "Al tragar, la epiglotis cierra la entrada de la laringe para que la comida no pase a los pulmones.",
+    "La «nuez de Adán» es el relieve del cartílago tiroides."
+   ],
+   "conditions": [
+    "Laringitis",
+    "Ronquera",
+    "Cáncer de laringe"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Larynx",
+     "u": "https://en.wikipedia.org/wiki/Larynx"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Larynx_external_en.svg/960px-Larynx_external_en.svg.png",
+   "imgCredit": {
+    "artist": "Orem/signature2",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "page": "https://commons.wikimedia.org/wiki/File:Larynx_external_en.svg",
+    "file": "Larynx_external_en.svg"
+   }
+  },
+  {
+   "id": "traquea",
+   "name": "Tráquea",
+   "systems": [
+    "respiratorio"
+   ],
+   "where": "En el cuello y el pecho, desde la laringe hasta los bronquios.",
+   "what": "Es el tubo por el que el aire viaja hacia los pulmones. Se mantiene abierta gracias a anillos de cartílago en forma de C, y al final se divide en dos bronquios.",
+   "facts": [
+    [
+     "Refuerzo",
+     "Anillos de cartílago en forma de C"
+    ],
+    [
+     "Se divide en",
+     "Bronquio derecho e izquierdo"
+    ]
+   ],
+   "curious": [
+    "Su interior está recubierto de cilios y moco, que atrapan partículas y las empujan hacia arriba para expulsarlas."
+   ],
+   "conditions": [
+    "Traqueítis",
+    "Obstrucción de la vía aérea"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Trachea",
+     "u": "https://en.wikipedia.org/wiki/Trachea"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Illu_conducting_passages.svg/960px-Illu_conducting_passages.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Illu_conducting_passages.svg",
+    "file": "Illu_conducting_passages.svg"
+   }
+  },
+  {
+   "id": "esofago",
+   "name": "Esófago",
+   "systems": [
+    "digestivo"
+   ],
+   "where": "Detrás de la tráquea, desde la garganta hasta el estómago, atravesando el diafragma.",
+   "what": "Es el tubo muscular que lleva los alimentos desde la boca hasta el estómago mediante contracciones llamadas peristaltismo.",
+   "facts": [
+    [
+     "Longitud en adultos",
+     "Unos 25 cm"
+    ],
+    [
+     "Movimiento",
+     "Peristaltismo"
+    ]
+   ],
+   "curious": [
+    "Tiene dos anillos musculares o esfínteres, uno arriba y otro abajo; el inferior ayuda a impedir el reflujo del contenido del estómago."
+   ],
+   "conditions": [
+    "Reflujo gastroesofágico",
+    "Esofagitis",
+    "Cáncer de esófago"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Esophagus",
+     "u": "https://en.wikipedia.org/wiki/Esophagus"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Tractus_intestinalis_esophagus.svg/960px-Tractus_intestinalis_esophagus.svg.png",
+   "imgCredit": {
+    "artist": "Orem/signature2",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "page": "https://commons.wikimedia.org/wiki/File:Tractus_intestinalis_esophagus.svg",
+    "file": "Tractus_intestinalis_esophagus.svg"
+   }
+  },
+  {
+   "id": "lengua",
+   "name": "Lengua",
+   "systems": [
+    "digestivo",
+    "nervioso"
+   ],
+   "where": "En el suelo de la boca.",
+   "what": "Es un órgano muscular que mueve los alimentos al masticar y tragar, es esencial para hablar y contiene las papilas gustativas.",
+   "facts": [
+    [
+     "Sabores básicos",
+     "Dulce, salado, ácido, amargo y umami"
+    ],
+    [
+     "Receptores",
+     "Papilas gustativas"
+    ]
+   ],
+   "curious": [
+    "El llamado «mapa de la lengua», según el cual cada zona detecta en exclusiva un sabor, es un error muy extendido."
+   ],
+   "conditions": [
+    "Glositis",
+    "Pérdida del gusto"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Tongue",
+     "u": "https://en.wikipedia.org/wiki/Tongue"
+    },
+    {
+     "t": "Wikipedia — Tongue map",
+     "u": "https://en.wikipedia.org/wiki/Tongue_map"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Gray1014.png/960px-Gray1014.png",
+   "imgCredit": {
+    "artist": "Henry Gray, «Anatomía de Gray» (1918)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Gray1014.png",
+    "file": "Gray1014.png"
+   }
+  },
+  {
+   "id": "glandulas-salivales",
+   "name": "Glándulas salivales",
+   "systems": [
+    "digestivo"
+   ],
+   "where": "Alrededor de la boca: delante de las orejas (parótidas), bajo la mandíbula (submandibulares) y bajo la lengua (sublinguales).",
+   "what": "Producen la saliva, que humedece los alimentos, facilita tragar y empieza la digestión gracias a enzimas como la amilasa.",
+   "facts": [
+    [
+     "Pares principales",
+     "Parótidas, submandibulares y sublinguales"
+    ],
+    [
+     "Enzima destacada",
+     "Amilasa"
+    ]
+   ],
+   "curious": [
+    "Además de las tres parejas principales, hay entre 800 y 1.000 glándulas salivales menores repartidas por la boca.",
+    "Las paperas son una infección viral que inflama sobre todo las glándulas parótidas."
+   ],
+   "conditions": [
+    "Paperas",
+    "Cálculos salivales",
+    "Boca seca (xerostomía)"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Salivary gland",
+     "u": "https://en.wikipedia.org/wiki/Salivary_gland"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Blausen_0780_SalivaryGlands.png/960px-Blausen_0780_SalivaryGlands.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Blausen_0780_SalivaryGlands.png",
+    "file": "Blausen_0780_SalivaryGlands.png"
+   }
+  },
+  {
+   "id": "diafragma",
+   "name": "Diafragma",
+   "systems": [
+    "respiratorio",
+    "muscular"
+   ],
+   "where": "Separa el tórax del abdomen, justo debajo de los pulmones.",
+   "what": "Es un músculo en forma de cúpula. Al contraerse baja y agranda el tórax, lo que hace entrar el aire en los pulmones. Es el principal músculo de la respiración.",
+   "facts": [
+    [
+     "Forma",
+     "Cúpula"
+    ],
+    [
+     "Lo atraviesan",
+     "El esófago y grandes vasos sanguíneos"
+    ]
+   ],
+   "curious": [
+    "El hipo se produce por contracciones involuntarias y repentinas del diafragma."
+   ],
+   "conditions": [
+    "Hernia de hiato",
+    "Hipo persistente"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Thoracic diaphragm",
+     "u": "https://en.wikipedia.org/wiki/Thoracic_diaphragm"
+    },
+    {
+     "t": "Wikipedia — Hiccup",
+     "u": "https://en.wikipedia.org/wiki/Hiccup"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Respiratory_system.svg/960px-Respiratory_system.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "page": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "file": "Respiratory_system.svg"
+   }
+  },
+  {
+   "id": "musculo-esqueletico",
+   "name": "Músculos esqueléticos",
+   "systems": [
+    "muscular"
+   ],
+   "where": "Por todo el cuerpo, unidos a los huesos.",
+   "what": "Son los músculos que movemos a voluntad. Están formados por fibras largas y, al contraerse, tiran de los huesos a través de los tendones para producir el movimiento.",
+   "facts": [
+    [
+     "Control",
+     "Voluntario"
+    ],
+    [
+     "Aspecto al microscopio",
+     "Estriado (con bandas)"
+    ]
+   ],
+   "curious": [
+    "Suelen trabajar en parejas opuestas: cuando uno se contrae, el otro se relaja, como el bíceps y el tríceps."
+   ],
+   "conditions": [
+    "Distensión o desgarro muscular",
+    "Distrofias musculares",
+    "Calambres"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Skeletal muscle",
+     "u": "https://en.wikipedia.org/wiki/Skeletal_muscle"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Blausen_0801_SkeletalMuscle.png/960px-Blausen_0801_SkeletalMuscle.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Blausen_0801_SkeletalMuscle.png",
+    "file": "Blausen_0801_SkeletalMuscle.png"
+   }
+  },
+  {
+   "id": "tendones",
+   "name": "Tendones y ligamentos",
+   "systems": [
+    "muscular",
+    "esqueletico"
+   ],
+   "where": "Junto a las articulaciones de todo el cuerpo.",
+   "what": "Los tendones unen los músculos a los huesos y transmiten su fuerza. Los ligamentos unen huesos entre sí y estabilizan las articulaciones. Ambos están hechos sobre todo de colágeno.",
+   "facts": [
+    [
+     "Tendón",
+     "Une músculo con hueso"
+    ],
+    [
+     "Ligamento",
+     "Une hueso con hueso"
+    ],
+    [
+     "Material principal",
+     "Colágeno"
+    ]
+   ],
+   "curious": [
+    "El tendón de Aquiles, en la parte posterior de la pierna, es el más grueso del cuerpo humano."
+   ],
+   "conditions": [
+    "Tendinitis",
+    "Esguince (lesión de ligamento)",
+    "Rotura del tendón de Aquiles"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Tendon",
+     "u": "https://en.wikipedia.org/wiki/Tendon"
+    },
+    {
+     "t": "Wikipedia — Ligament",
+     "u": "https://en.wikipedia.org/wiki/Ligament"
+    },
+    {
+     "t": "Wikipedia — Achilles tendon",
+     "u": "https://en.wikipedia.org/wiki/Achilles_tendon"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Tendon_-_add_-_high_mag.jpg/960px-Tendon_-_add_-_high_mag.jpg",
+   "imgCredit": {
+    "artist": "Nephron",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Tendon_-_add_-_high_mag.jpg",
+    "file": "Tendon_-_add_-_high_mag.jpg"
+   }
+  },
+  {
+   "id": "articulaciones",
+   "name": "Articulaciones",
+   "systems": [
+    "esqueletico"
+   ],
+   "where": "En los puntos de unión entre huesos.",
+   "what": "Son las uniones entre huesos. Algunas son casi fijas, como las del cráneo, y otras permiten mucho movimiento, como el hombro o la rodilla. En las móviles, un cartílago y un líquido lubricante evitan el roce.",
+   "facts": [
+    [
+     "Tipos según movimiento",
+     "Fijas, semimóviles y móviles"
+    ],
+    [
+     "Lubricante",
+     "Líquido sinovial"
+    ]
+   ],
+   "curious": [
+    "El crujido de los nudillos se debe a burbujas de nitrógeno que se forman en el líquido sinovial al bajar bruscamente la presión de la articulación."
+   ],
+   "conditions": [
+    "Artrosis",
+    "Artritis reumatoide",
+    "Luxación"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Joint",
+     "u": "https://en.wikipedia.org/wiki/Joint"
+    },
+    {
+     "t": "Wikipedia — Synovial joint",
+     "u": "https://en.wikipedia.org/wiki/Synovial_joint"
+    },
+    {
+     "t": "Wikipedia — Cracking joints",
+     "u": "https://en.wikipedia.org/wiki/Cracking_joints"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Joint.svg/960px-Joint.svg.png",
+   "imgCredit": {
+    "artist": "Madhero88",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Joint.svg",
+    "file": "Joint.svg"
+   }
+  },
+  {
+   "id": "columna",
+   "name": "Columna vertebral",
+   "systems": [
+    "esqueletico",
+    "nervioso"
+   ],
+   "where": "A lo largo de la espalda, desde la base del cráneo hasta la pelvis.",
+   "what": "Es el eje del cuerpo: sostiene el tronco y la cabeza, permite doblarse y girar, y protege la médula espinal en su interior.",
+   "facts": [
+    [
+     "Regiones",
+     "Cervical, torácica, lumbar, sacro y cóccix"
+    ],
+    [
+     "Vértebras cervicales",
+     "7"
+    ],
+    [
+     "Entre vértebras",
+     "Discos intervertebrales"
+    ]
+   ],
+   "curious": [
+    "Casi todos los mamíferos tienen siete vértebras cervicales; algunas de las pocas excepciones son los perezosos y los manatíes.",
+    "Normalmente tiene 33 vértebras: las 24 superiores son móviles y las inferiores se fusionan en el sacro y el cóccix."
+   ],
+   "conditions": [
+    "Hernia de disco",
+    "Escoliosis",
+    "Lumbalgia"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Vertebral column",
+     "u": "https://en.wikipedia.org/wiki/Vertebral_column"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Illu_vertebral_column.svg/960px-Illu_vertebral_column.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Illu_vertebral_column.svg",
+    "file": "Illu_vertebral_column.svg"
+   }
+  },
+  {
+   "id": "craneo",
+   "name": "Cráneo",
+   "systems": [
+    "esqueletico"
+   ],
+   "where": "En la cabeza.",
+   "what": "Es la estructura ósea de la cabeza. Protege el encéfalo, sostiene la cara y aloja los órganos de la vista, el oído, el olfato y el gusto.",
+   "facts": [
+    [
+     "Hueso más grande de la cara",
+     "La mandíbula"
+    ],
+    [
+     "Uniones entre huesos",
+     "Suturas"
+    ]
+   ],
+   "curious": [
+    "En los bebés, los huesos del cráneo no están soldados: hay zonas blandas llamadas fontanelas que permiten el crecimiento."
+   ],
+   "conditions": [
+    "Fracturas craneales",
+    "Craneosinostosis"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Skull",
+     "u": "https://en.wikipedia.org/wiki/Skull"
+    },
+    {
+     "t": "Wikipedia — Human skull",
+     "u": "https://en.wikipedia.org/wiki/Human_skull"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Human_skull_side_simplified_%28bones%29.svg/960px-Human_skull_side_simplified_%28bones%29.svg.png",
+   "imgCredit": {
+    "artist": "LadyofHats Mariana Ruiz Villarreal",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Human_skull_side_simplified_%28bones%29.svg",
+    "file": "Human skull side simplified (bones).svg"
+   }
+  },
+  {
+   "id": "vasos-sanguineos",
+   "name": "Vasos sanguíneos",
+   "systems": [
+    "circulatorio"
+   ],
+   "where": "Por todo el cuerpo.",
+   "what": "Son los conductos por los que circula la sangre. Las arterias la llevan desde el corazón, las venas la devuelven y los capilares, finísimos, conectan unas con otras e intercambian sustancias con los tejidos.",
+   "facts": [
+    [
+     "Arteria más grande",
+     "La aorta"
+    ],
+    [
+     "Tipos",
+     "Arterias, venas y capilares"
+    ]
+   ],
+   "curious": [
+    "Muchas venas tienen válvulas que impiden que la sangre retroceda, sobre todo en las piernas."
+   ],
+   "conditions": [
+    "Aterosclerosis",
+    "Varices",
+    "Trombosis",
+    "Aneurisma"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Blood vessel",
+     "u": "https://en.wikipedia.org/wiki/Blood_vessel"
+    },
+    {
+     "t": "Wikipedia — Aorta",
+     "u": "https://en.wikipedia.org/wiki/Aorta"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Blood_vessels_%28retouched%29_-en.svg/960px-Blood_vessels_%28retouched%29_-en.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Blood_vessels_%28retouched%29_-en.svg",
+    "file": "Blood_vessels_(retouched)_-en.svg"
+   }
+  },
+  {
+   "id": "ganglios-linfaticos",
+   "name": "Ganglios linfáticos",
+   "systems": [
+    "inmunitario"
+   ],
+   "where": "Repartidos por el cuerpo, agrupados sobre todo en el cuello, las axilas y las ingles.",
+   "what": "Son pequeñas estructuras en forma de frijol que filtran la linfa. En ellos se concentran linfocitos que detectan y combaten infecciones.",
+   "facts": [
+    [
+     "Forma",
+     "De frijol"
+    ],
+    [
+     "Filtran",
+     "La linfa"
+    ]
+   ],
+   "curious": [
+    "Cuando el cuerpo combate una infección, los ganglios cercanos pueden inflamarse: son las «bolitas» que a veces se notan en el cuello."
+   ],
+   "conditions": [
+    "Linfadenopatía (ganglios inflamados)",
+    "Linfoma"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Lymph node",
+     "u": "https://en.wikipedia.org/wiki/Lymph_node"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Schematic_of_lymph_node_showing_lymph_sinuses.svg/960px-Schematic_of_lymph_node_showing_lymph_sinuses.svg.png",
+   "imgCredit": {
+    "artist": "KC Panchal",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Schematic_of_lymph_node_showing_lymph_sinuses.svg",
+    "file": "Schematic_of_lymph_node_showing_lymph_sinuses.svg"
+   }
+  },
+  {
+   "id": "timo",
+   "name": "Timo",
+   "systems": [
+    "inmunitario",
+    "endocrino"
+   ],
+   "where": "En el pecho, detrás del esternón y delante del corazón.",
+   "what": "Es el lugar donde maduran los linfocitos T, células clave de la defensa del cuerpo. Es muy activo en la infancia.",
+   "facts": [
+    [
+     "Función",
+     "Maduración de los linfocitos T"
+    ],
+    [
+     "Etapa más activa",
+     "Infancia y adolescencia"
+    ]
+   ],
+   "curious": [
+    "Después de la pubertad, el timo se va reduciendo y su tejido es sustituido en gran parte por grasa.",
+    "La «T» de los linfocitos T viene de «timo»."
+   ],
+   "conditions": [
+    "Timoma",
+    "Miastenia gravis (asociada al timo)"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Thymus",
+     "u": "https://en.wikipedia.org/wiki/Thymus"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Illu_thymus.jpg/960px-Illu_thymus.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Illu_thymus.jpg",
+    "file": "Illu_thymus.jpg"
+   }
+  },
+  {
+   "id": "medula-osea",
+   "name": "Médula ósea",
+   "systems": [
+    "esqueletico",
+    "circulatorio",
+    "inmunitario"
+   ],
+   "where": "En el interior de los huesos, sobre todo de la pelvis, el esternón, las vértebras y el cráneo en los adultos.",
+   "what": "Es el tejido blando del interior de los huesos donde se fabrican las células de la sangre: glóbulos rojos, glóbulos blancos y plaquetas.",
+   "facts": [
+    [
+     "Tipos",
+     "Roja (fabrica sangre) y amarilla (grasa)"
+    ],
+    [
+     "Proceso",
+     "Hematopoyesis"
+    ]
+   ],
+   "curious": [
+    "Al nacer, casi toda la médula es roja; con la edad, buena parte se convierte en médula amarilla.",
+    "El trasplante de médula ósea se usa para tratar algunas enfermedades de la sangre, como ciertas leucemias."
+   ],
+   "conditions": [
+    "Leucemia",
+    "Anemia aplásica"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Bone marrow",
+     "u": "https://en.wikipedia.org/wiki/Bone_marrow"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Section_of_bone_marrow_tissue_%28Prussian_blue_stain%29.jpg/960px-Section_of_bone_marrow_tissue_%28Prussian_blue_stain%29.jpg",
+   "imgCredit": {
+    "artist": "Dr. Gordon D. McLaren",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Section_of_bone_marrow_tissue_%28Prussian_blue_stain%29.jpg",
+    "file": "Section_of_bone_marrow_tissue_(Prussian_blue_stain).jpg"
+   }
+  },
+  {
+   "id": "ovarios",
+   "name": "Ovarios",
+   "systems": [
+    "reproductor",
+    "endocrino"
+   ],
+   "where": "En la pelvis, a ambos lados del útero.",
+   "what": "Son las glándulas reproductoras femeninas. Producen los óvulos y hormonas como los estrógenos y la progesterona.",
+   "facts": [
+    [
+     "Número",
+     "Dos"
+    ],
+    [
+     "Hormonas",
+     "Estrógenos y progesterona"
+    ]
+   ],
+   "curious": [
+    "Normalmente se libera un óvulo en cada ciclo menstrual, en un proceso llamado ovulación.",
+    "Al nacer quedan alrededor de un millón de folículos, de los unos 7 millones que llegan a formarse antes del nacimiento."
+   ],
+   "conditions": [
+    "Quistes ováricos",
+    "Síndrome de ovario poliquístico",
+    "Cáncer de ovario"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Ovary",
+     "u": "https://en.wikipedia.org/wiki/Ovary"
+    }
+   ]
+  },
+  {
+   "id": "utero",
+   "name": "Útero",
+   "systems": [
+    "reproductor"
+   ],
+   "where": "En la pelvis femenina, entre la vejiga y el recto.",
+   "what": "Es un órgano muscular hueco donde se desarrolla el embarazo. Su capa interna, el endometrio, se renueva en cada ciclo menstrual.",
+   "facts": [
+    [
+     "Capa interna",
+     "Endometrio"
+    ],
+    [
+     "Capa muscular",
+     "Miometrio"
+    ]
+   ],
+   "curious": [
+    "En cada ciclo menstrual, la capa funcional del endometrio se engrosa y, si no hay embarazo, se desprende."
+   ],
+   "conditions": [
+    "Miomas",
+    "Endometriosis",
+    "Cáncer de cuello uterino"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Uterus",
+     "u": "https://en.wikipedia.org/wiki/Uterus"
+    }
+   ]
+  },
+  {
+   "id": "testiculos",
+   "name": "Testículos",
+   "systems": [
+    "reproductor",
+    "endocrino"
+   ],
+   "where": "En el escroto, fuera de la cavidad abdominal.",
+   "what": "Son las glándulas reproductoras masculinas. Producen los espermatozoides y la testosterona.",
+   "facts": [
+    [
+     "Número",
+     "Dos"
+    ],
+    [
+     "Hormona principal",
+     "Testosterona"
+    ]
+   ],
+   "curious": [
+    "Están fuera del abdomen porque la producción de espermatozoides funciona mejor a una temperatura algo inferior a la del resto del cuerpo."
+   ],
+   "conditions": [
+    "Cáncer de testículo",
+    "Torsión testicular",
+    "Varicocele"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Testicle",
+     "u": "https://en.wikipedia.org/wiki/Testicle"
+    }
+   ]
+  },
+  {
+   "id": "prostata",
+   "name": "Próstata",
+   "systems": [
+    "reproductor",
+    "urinario"
+   ],
+   "where": "Debajo de la vejiga, rodeando el inicio de la uretra.",
+   "what": "Es una glándula del sistema reproductor masculino que produce parte del líquido seminal.",
+   "facts": [
+    [
+     "Tamaño aproximado",
+     "Como una nuez"
+    ],
+    [
+     "Rodea",
+     "La uretra"
+    ]
+   ],
+   "curious": [
+    "Con la edad suele aumentar de tamaño, lo que puede dificultar la salida de la orina."
+   ],
+   "conditions": [
+    "Hiperplasia benigna de próstata",
+    "Prostatitis",
+    "Cáncer de próstata"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Prostate",
+     "u": "https://en.wikipedia.org/wiki/Prostate"
+    }
+   ]
+  },
+  {
+   "id": "nariz",
+   "name": "Nariz",
+   "systems": [
+    "respiratorio",
+    "nervioso"
+   ],
+   "where": "En el centro de la cara.",
+   "what": "Es la entrada principal del aire: lo filtra, lo calienta y lo humedece. En su parte alta está el epitelio olfatorio, responsable del sentido del olfato.",
+   "facts": [
+    [
+     "Divisoria central",
+     "Tabique nasal"
+    ],
+    [
+     "Sentido",
+     "Olfato"
+    ]
+   ],
+   "curious": [
+    "El olfato es una parte importante de lo que percibimos como «sabor» de los alimentos.",
+    "Los pelos y el moco de la nariz atrapan polvo y microbios."
+   ],
+   "conditions": [
+    "Rinitis",
+    "Sinusitis",
+    "Desviación del tabique"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Human nose",
+     "u": "https://en.wikipedia.org/wiki/Human_nose"
+    },
+    {
+     "t": "Wikipedia — Sense of smell",
+     "u": "https://en.wikipedia.org/wiki/Sense_of_smell"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Gray854.png/960px-Gray854.png",
+   "imgCredit": {
+    "artist": "Henry Gray, «Anatomía de Gray» (1918)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Gray854.png",
+    "file": "Gray854.png"
+   }
+  },
+  {
+   "id": "cabello",
+   "name": "Cabello y vello",
+   "systems": [
+    "tegumentario"
+   ],
+   "where": "Crece en casi toda la piel, salvo en zonas como las palmas de las manos y las plantas de los pies.",
+   "what": "Está formado por queratina y nace en los folículos pilosos de la piel. Protege del sol, ayuda a conservar el calor y aumenta la sensibilidad al tacto.",
+   "facts": [
+    [
+     "Proteína principal",
+     "Queratina"
+    ],
+    [
+     "Nace en",
+     "Folículos pilosos"
+    ],
+    [
+     "Pigmento",
+     "Melanina"
+    ]
+   ],
+   "curious": [
+    "Las canas aparecen cuando el folículo deja de producir melanina.",
+    "La «piel de gallina» se produce cuando unos pequeños músculos erizan el vello."
+   ],
+   "conditions": [
+    "Alopecia",
+    "Caspa (dermatitis seborreica)"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Hair",
+     "u": "https://en.wikipedia.org/wiki/Hair"
+    },
+    {
+     "t": "Wikipedia — Human hair growth",
+     "u": "https://en.wikipedia.org/wiki/Human_hair_growth"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Gray945.png/960px-Gray945.png",
+   "imgCredit": {
+    "artist": "Henry Gray, «Anatomía de Gray» (1918)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Gray945.png",
+    "file": "Gray945.png"
+   }
+  },
+  {
+   "id": "unas",
+   "name": "Uñas",
+   "systems": [
+    "tegumentario"
+   ],
+   "where": "En el extremo de los dedos de las manos y los pies.",
+   "what": "Son placas de queratina que protegen la punta de los dedos y ayudan a manipular objetos pequeños. Crecen desde la matriz, una zona bajo la piel en su base.",
+   "facts": [
+    [
+     "Material",
+     "Queratina"
+    ],
+    [
+     "Zona de crecimiento",
+     "Matriz ungueal"
+    ]
+   ],
+   "curious": [
+    "Las uñas de las manos crecen hasta cuatro veces más rápido que las de los pies.",
+    "La media luna blanca de la base se llama lúnula."
+   ],
+   "conditions": [
+    "Hongos en las uñas (onicomicosis)",
+    "Uña encarnada"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Nail (anatomy)",
+     "u": "https://en.wikipedia.org/wiki/Nail_(anatomy)"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Nail_svg_hariadhi.svg/960px-Nail_svg_hariadhi.svg.png",
+   "imgCredit": {
+    "artist": "Hariadhi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Nail_svg_hariadhi.svg",
+    "file": "Nail_svg_hariadhi.svg"
+   }
+  },
+  {
+   "id": "glandula-pineal",
+   "name": "Glándula pineal",
+   "systems": [
+    "endocrino"
+   ],
+   "where": "En el centro del encéfalo, entre los dos hemisferios.",
+   "what": "Es una pequeña glándula que produce melatonina, una hormona que ayuda a regular el ciclo de sueño y vigilia según la luz y la oscuridad.",
+   "facts": [
+    [
+     "Hormona",
+     "Melatonina"
+    ],
+    [
+     "Forma",
+     "Parecida a una piña pequeña"
+    ]
+   ],
+   "curious": [
+    "Su nombre viene de su forma, parecida a la de un piñón o una piña.",
+    "El filósofo René Descartes la consideró «la sede del alma»."
+   ],
+   "conditions": [
+    "Tumores de la glándula pineal",
+    "Alteraciones del sueño"
+   ],
+   "sources": [
+    {
+     "t": "Wikipedia — Pineal gland",
+     "u": "https://en.wikipedia.org/wiki/Pineal_gland"
+    }
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Gray720.png/960px-Gray720.png",
+   "imgCredit": {
+    "artist": "Henry Gray, «Anatomía de Gray» (1918)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Gray720.png",
+    "file": "Gray720.png"
    }
   }
  ]

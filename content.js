@@ -1,4 +1,4 @@
-/* ¿SABÍAS QUE? — Base de contenido v5 (345 contenidos, 376 preguntas).
+/* ¿SABÍAS QUE? — Base de contenido v5 (345 contenidos, 400 preguntas).
  * Cada contenido tiene fuentes verificadas automáticamente contra el texto de la fuente.
  * Tipos: "articulo" | "curiosidad" | "mito". Estado: "publicado" | "borrador". Nivel: 1-3.
  * Este archivo lo puede regenerar el panel admin (admin.html → Publicar → Descargar content.js).
@@ -15558,6 +15558,414 @@ window.SQ_CONTENT = {
    ],
    "a": 1,
    "exp": "Cortan y trituran los alimentos, el primer paso de la digestión. Su capa exterior, el esmalte, es la sustancia más dura del cuerpo humano."
+  },
+  {
+   "id": "q377",
+   "cat": "cuerpo",
+   "level": 3,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/vejiga",
+   "q": "¿Cómo se llama el músculo de la pared de la vejiga?",
+   "o": [
+    "Bíceps",
+    "Detrusor",
+    "Diafragma",
+    "Esfínter anal"
+   ],
+   "a": 1,
+   "exp": "Es un órgano hueco y elástico que almacena la orina que llega desde los riñones por los uréteres, hasta que se expulsa por la uretra."
+  },
+  {
+   "id": "q378",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/laringe",
+   "q": "¿Qué estructura de la laringe produce la voz?",
+   "o": [
+    "La epiglotis",
+    "Las cuerdas vocales",
+    "Los bronquios",
+    "La tráquea"
+   ],
+   "a": 1,
+   "exp": "Es el órgano de la voz. Contiene las cuerdas vocales, que vibran al paso del aire para producir sonidos. También protege la vía respiratoria al tragar."
+  },
+  {
+   "id": "q379",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/traquea",
+   "q": "¿Qué mantiene abierta la tráquea?",
+   "o": [
+    "Músculos",
+    "Anillos de cartílago",
+    "Hueso",
+    "Grasa"
+   ],
+   "a": 1,
+   "exp": "Es el tubo por el que el aire viaja hacia los pulmones. Se mantiene abierta gracias a anillos de cartílago en forma de C, y al final se divide en dos bronquios."
+  },
+  {
+   "id": "q380",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/esofago",
+   "q": "¿Qué órgano une la garganta con el estómago?",
+   "o": [
+    "La tráquea",
+    "El esófago",
+    "El duodeno",
+    "La laringe"
+   ],
+   "a": 1,
+   "exp": "Es el tubo muscular que lleva los alimentos desde la boca hasta el estómago mediante contracciones llamadas peristaltismo."
+  },
+  {
+   "id": "q381",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/lengua",
+   "q": "¿Existe un «mapa de la lengua» con una zona para cada sabor?",
+   "o": [
+    "Sí, la punta detecta solo lo dulce",
+    "No, es un mito",
+    "Solo en niños",
+    "Sí, el amargo solo se nota atrás"
+   ],
+   "a": 1,
+   "exp": "Es un órgano muscular que mueve los alimentos al masticar y tragar, es esencial para hablar y contiene las papilas gustativas."
+  },
+  {
+   "id": "q382",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/glandulas-salivales",
+   "q": "¿Qué glándulas salivales se inflaman en las paperas?",
+   "o": [
+    "Las sublinguales",
+    "Las parótidas",
+    "La tiroides",
+    "Las suprarrenales"
+   ],
+   "a": 1,
+   "exp": "Producen la saliva, que humedece los alimentos, facilita tragar y empieza la digestión gracias a enzimas como la amilasa."
+  },
+  {
+   "id": "q383",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/diafragma",
+   "q": "¿Qué músculo causa el hipo al contraerse de forma involuntaria?",
+   "o": [
+    "El bíceps",
+    "El diafragma",
+    "El corazón",
+    "El esfínter"
+   ],
+   "a": 1,
+   "exp": "Es un músculo en forma de cúpula. Al contraerse baja y agranda el tórax, lo que hace entrar el aire en los pulmones. Es el principal músculo de la respiración."
+  },
+  {
+   "id": "q384",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/musculo-esqueletico",
+   "q": "¿Qué músculos controlamos a voluntad?",
+   "o": [
+    "Los lisos",
+    "Los esqueléticos",
+    "El cardíaco",
+    "Ninguno"
+   ],
+   "a": 1,
+   "exp": "Son los músculos que movemos a voluntad. Están formados por fibras largas y, al contraerse, tiran de los huesos a través de los tendones para producir el movimiento."
+  },
+  {
+   "id": "q385",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/tendones",
+   "q": "¿Qué une un músculo con un hueso?",
+   "o": [
+    "Un ligamento",
+    "Un tendón",
+    "Un cartílago",
+    "Un nervio"
+   ],
+   "a": 1,
+   "exp": "Los tendones unen los músculos a los huesos y transmiten su fuerza. Los ligamentos unen huesos entre sí y estabilizan las articulaciones. Ambos están hechos sobre todo de colágeno."
+  },
+  {
+   "id": "q386",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/articulaciones",
+   "q": "¿Qué líquido lubrica las articulaciones móviles?",
+   "o": [
+    "La bilis",
+    "El líquido sinovial",
+    "El plasma",
+    "La linfa"
+   ],
+   "a": 1,
+   "exp": "Son las uniones entre huesos. Algunas son casi fijas, como las del cráneo, y otras permiten mucho movimiento, como el hombro o la rodilla. En las móviles, un cartílago y un líquido lubricante evitan el roce."
+  },
+  {
+   "id": "q387",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/columna",
+   "q": "¿Cuántas vértebras tiene el cuello humano?",
+   "o": [
+    "5",
+    "7",
+    "12",
+    "24"
+   ],
+   "a": 1,
+   "exp": "Es el eje del cuerpo: sostiene el tronco y la cabeza, permite doblarse y girar, y protege la médula espinal en su interior."
+  },
+  {
+   "id": "q388",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/craneo",
+   "q": "¿Cómo se llaman las zonas blandas del cráneo de un bebé?",
+   "o": [
+    "Suturas",
+    "Fontanelas",
+    "Vértebras",
+    "Meninges"
+   ],
+   "a": 1,
+   "exp": "Es la estructura ósea de la cabeza. Protege el encéfalo, sostiene la cara y aloja los órganos de la vista, el oído, el olfato y el gusto."
+  },
+  {
+   "id": "q389",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/vasos-sanguineos",
+   "q": "¿Cuál es la arteria más grande del cuerpo?",
+   "o": [
+    "La carótida",
+    "La aorta",
+    "La femoral",
+    "La pulmonar"
+   ],
+   "a": 1,
+   "exp": "Son los conductos por los que circula la sangre. Las arterias la llevan desde el corazón, las venas la devuelven y los capilares, finísimos, conectan unas con otras e intercambian sustancias con los tejidos."
+  },
+  {
+   "id": "q390",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/ganglios-linfaticos",
+   "q": "¿Qué filtran los ganglios linfáticos?",
+   "o": [
+    "La orina",
+    "La linfa",
+    "El aire",
+    "La bilis"
+   ],
+   "a": 1,
+   "exp": "Son pequeñas estructuras en forma de frijol que filtran la linfa. En ellos se concentran linfocitos que detectan y combaten infecciones."
+  },
+  {
+   "id": "q391",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/timo",
+   "q": "¿Qué células maduran en el timo?",
+   "o": [
+    "Los glóbulos rojos",
+    "Los linfocitos T",
+    "Las neuronas",
+    "Las plaquetas"
+   ],
+   "a": 1,
+   "exp": "Es el lugar donde maduran los linfocitos T, células clave de la defensa del cuerpo. Es muy activo en la infancia."
+  },
+  {
+   "id": "q392",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/medula-osea",
+   "q": "¿Dónde se fabrican las células de la sangre?",
+   "o": [
+    "En el hígado",
+    "En la médula ósea",
+    "En el bazo",
+    "En el corazón"
+   ],
+   "a": 1,
+   "exp": "Es el tejido blando del interior de los huesos donde se fabrican las células de la sangre: glóbulos rojos, glóbulos blancos y plaquetas."
+  },
+  {
+   "id": "q393",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/ovarios",
+   "q": "¿Qué hormonas producen los ovarios?",
+   "o": [
+    "Insulina y glucagón",
+    "Estrógenos y progesterona",
+    "Adrenalina y cortisol",
+    "Tiroxina"
+   ],
+   "a": 1,
+   "exp": "Son las glándulas reproductoras femeninas. Producen los óvulos y hormonas como los estrógenos y la progesterona."
+  },
+  {
+   "id": "q394",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/utero",
+   "q": "¿Cómo se llama la capa interna del útero?",
+   "o": [
+    "Miometrio",
+    "Endometrio",
+    "Pericardio",
+    "Peritoneo"
+   ],
+   "a": 1,
+   "exp": "Es un órgano muscular hueco donde se desarrolla el embarazo. Su capa interna, el endometrio, se renueva en cada ciclo menstrual."
+  },
+  {
+   "id": "q395",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/testiculos",
+   "q": "¿Qué hormona producen los testículos?",
+   "o": [
+    "Estrógeno",
+    "Testosterona",
+    "Insulina",
+    "Melatonina"
+   ],
+   "a": 1,
+   "exp": "Son las glándulas reproductoras masculinas. Producen los espermatozoides y la testosterona."
+  },
+  {
+   "id": "q396",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/prostata",
+   "q": "¿Qué conducto rodea la próstata?",
+   "o": [
+    "El esófago",
+    "La uretra",
+    "El uréter",
+    "La tráquea"
+   ],
+   "a": 1,
+   "exp": "Es una glándula del sistema reproductor masculino que produce parte del líquido seminal."
+  },
+  {
+   "id": "q397",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/nariz",
+   "q": "¿Qué estructura divide la nariz en dos fosas?",
+   "o": [
+    "El paladar",
+    "El tabique nasal",
+    "La epiglotis",
+    "El cornete"
+   ],
+   "a": 1,
+   "exp": "Es la entrada principal del aire: lo filtra, lo calienta y lo humedece. En su parte alta está el epitelio olfatorio, responsable del sentido del olfato."
+  },
+  {
+   "id": "q398",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/cabello",
+   "q": "¿De qué proteína está hecho el cabello?",
+   "o": [
+    "Colágeno",
+    "Queratina",
+    "Hemoglobina",
+    "Insulina"
+   ],
+   "a": 1,
+   "exp": "Está formado por queratina y nace en los folículos pilosos de la piel. Protege del sol, ayuda a conservar el calor y aumenta la sensibilidad al tacto."
+  },
+  {
+   "id": "q399",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/unas",
+   "q": "¿Cómo se llama la media luna blanca de la base de la uña?",
+   "o": [
+    "Cutícula",
+    "Lúnula",
+    "Matriz",
+    "Falange"
+   ],
+   "a": 1,
+   "exp": "Son placas de queratina que protegen la punta de los dedos y ayudan a manipular objetos pequeños. Crecen desde la matriz, una zona bajo la piel en su base."
+  },
+  {
+   "id": "q400",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": null,
+   "href": "#/anatomia/glandula-pineal",
+   "q": "¿Qué hormona del sueño produce la glándula pineal?",
+   "o": [
+    "Adrenalina",
+    "Melatonina",
+    "Insulina",
+    "Cortisol"
+   ],
+   "a": 1,
+   "exp": "Es una pequeña glándula que produce melatonina, una hormona que ayuda a regular el ciclo de sueño y vigilia según la luz y la oscuridad."
   }
  ],
  "series": [
