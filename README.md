@@ -11,6 +11,8 @@ HTML + CSS + JavaScript puro. Sin dependencias ni compilación.
 | `styles.css` | Sistema de diseño |
 | `content.js` | Base de contenido: categorías, artículos, curiosidades, mitos, preguntas |
 | `admin.html` | Panel para editar contenido y exportar un `content.js` nuevo |
+| `countries.js` | 195 países: capital, moneda, idiomas, población, resumen, origen del nombre e historia (se carga solo al entrar en Países) |
+| `flags/` | 195 banderas SVG (flag-icons, licencia MIT) |
 | `schema.sql` | Base de datos para la fase con cuentas (Supabase/PostgreSQL) |
 
 ## Publicar (desde el iPhone)
@@ -24,3 +26,9 @@ HTML + CSS + JavaScript puro. Sin dependencias ni compilación.
 - Nada se publica sin al menos una fuente con URL (el panel lo bloquea).
 - Solo fuentes que respalden literalmente la afirmación.
 - Cifras discutidas se presentan como discutidas.
+
+## Fuentes de Países
+- **Wikidata**: nombres en español, capitales y población.
+- **world-countries (mledoze)**: idiomas oficiales, monedas y regiones, contrastado con Wikidata.
+- **Wikipedia en español**: resumen, origen del nombre e historia (extractos, CC BY-SA 4.0).
+- Correcciones manuales: capitales múltiples o disputadas, monedas actualizadas (Bulgaria → euro, Sierra Leona → SLE, Cuba, Zimbabue) e idiomas (Uruguay, Israel).

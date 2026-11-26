@@ -1,10 +1,10 @@
-/* ¿SABÍAS QUE? — Base de contenido v2 (168 contenidos, 166 preguntas).
+/* ¿SABÍAS QUE? — Base de contenido v3 (280 contenidos, 278 preguntas).
  * Cada contenido tiene fuentes verificadas automáticamente contra el texto de la fuente.
  * Tipos: "articulo" | "curiosidad" | "mito". Estado: "publicado" | "borrador". Nivel: 1-3.
  * Este archivo lo puede regenerar el panel admin (admin.html → Publicar → Descargar content.js).
  */
 window.SQ_CONTENT = {
- "version": 2,
+ "version": 3,
  "updated": "2026-11-26",
  "categories": [
   {
@@ -4008,6 +4008,2228 @@ window.SQ_CONTENT = {
    ],
    "status": "publicado",
    "date": "2026-11-05"
+  },
+  {
+   "id": "a-marie-curie",
+   "type": "articulo",
+   "cat": "ciencia",
+   "sub": "Grandes científicas",
+   "level": 2,
+   "title": "Marie Curie: la única persona con premios Nobel en dos ciencias distintas",
+   "subtitle": "Descubrió dos elementos, creó la palabra «radiactividad» y sus cuadernos todavía son radiactivos.",
+   "desc": "Ganó el Nobel de Física en 1903 y el de Química en 1911.",
+   "intro": "Marie Skłodowska-Curie nació en Varsovia en 1867, en una época en la que las mujeres no podían estudiar en la universidad de su ciudad. Terminó cambiando la física y la química.",
+   "sections": [
+    {
+     "h": "De Varsovia a París",
+     "p": [
+      "Se trasladó a París para estudiar en la Sorbona, donde se licenció en física y en matemáticas. Allí conoció a Pierre Curie, con quien se casó y trabajó."
+     ]
+    },
+    {
+     "h": "Dos premios Nobel",
+     "p": [
+      "En 1903 compartió el Nobel de Física con Pierre Curie y Henri Becquerel por sus investigaciones sobre la radiación. Fue la primera mujer en recibir un Nobel.",
+      "En 1911 recibió en solitario el Nobel de Química por el descubrimiento del polonio, al que bautizó en honor a Polonia, y del radio. Sigue siendo la única persona premiada en dos ciencias diferentes."
+     ]
+    },
+    {
+     "h": "El precio de la radiación",
+     "p": [
+      "En su época no se conocían los riesgos de la radiación. Marie Curie murió en 1934 de una anemia aplásica, que se atribuye a su larga exposición.",
+      "Sus papeles y cuadernos siguen siendo radiactivos, por lo que se guardan en cajas forradas de plomo."
+     ]
+    }
+   ],
+   "facts": [
+    "Su hija Irène Joliot-Curie también ganó el Nobel de Química, en 1935.",
+    "Durante la Primera Guerra Mundial organizó unidades móviles de rayos X para atender a soldados heridos."
+   ],
+   "conclusion": "Curie abrió el camino a la física nuclear y a tratamientos médicos, y lo hizo superando barreras que hoy parecen impensables.",
+   "sources": [
+    {
+     "t": "Wikipedia — Marie Curie",
+     "u": "https://en.wikipedia.org/wiki/Marie_Curie"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "a-pompeya",
+   "type": "articulo",
+   "cat": "historia",
+   "sub": "Roma antigua",
+   "level": 1,
+   "title": "Pompeya: la ciudad romana que quedó congelada en el tiempo",
+   "subtitle": "En el año 79, el Vesubio la sepultó en cenizas. Eso la conservó durante casi 1.700 años.",
+   "desc": "La erupción del Vesubio enterró Pompeya y Herculano, que hoy son una ventana única a la vida cotidiana romana.",
+   "intro": "Imagina una ciudad entera con sus calles, panaderías, pinturas y grafitis, detenida en un solo día. Eso es Pompeya.",
+   "sections": [
+    {
+     "h": "La erupción",
+     "p": [
+      "En el año 79 d. C., el volcán Vesubio, cerca de la actual Nápoles, entró en erupción. Ciudades como Pompeya y Herculano quedaron sepultadas bajo metros de ceniza y piedra pómez.",
+      "Plinio el Joven, que lo vio desde lejos, dejó un relato escrito; su tío, Plinio el Viejo, murió intentando rescatar a personas por mar."
+     ]
+    },
+    {
+     "h": "Redescubierta siglos después",
+     "p": [
+      "Las excavaciones sistemáticas comenzaron en el siglo XVIII. Bajo la ceniza aparecieron casas, tiendas, termas y anfiteatros sorprendentemente bien conservados.",
+      "En el siglo XIX, el arqueólogo Giuseppe Fiorelli ideó un método para rellenar con yeso los huecos dejados por los cuerpos, lo que permitió obtener los famosos moldes de las víctimas."
+     ]
+    },
+    {
+     "h": "Por qué es tan valiosa",
+     "p": [
+      "Pompeya muestra la vida diaria de una ciudad romana con un detalle imposible de reconstruir en otros lugares: desde anuncios electorales en las paredes hasta comida carbonizada.",
+      "Es Patrimonio de la Humanidad y uno de los sitios arqueológicos más visitados del mundo."
+     ]
+    }
+   ],
+   "facts": [
+    "Las excavaciones siguen hoy y todavía aparecen nuevos frescos y objetos.",
+    "El Vesubio es un volcán activo; su última gran erupción fue en 1944."
+   ],
+   "conclusion": "Una tragedia de hace casi dos mil años se convirtió en el mejor libro de historia de la vida cotidiana romana.",
+   "sources": [
+    {
+     "t": "Wikipedia — Pompeii",
+     "u": "https://en.wikipedia.org/wiki/Pompeii"
+    },
+    {
+     "t": "Wikipedia — Eruption of Mount Vesuvius in 79 AD",
+     "u": "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "a-milgram",
+   "type": "articulo",
+   "cat": "psicologia",
+   "sub": "Obediencia",
+   "level": 2,
+   "title": "¿Hasta dónde obedecerías una orden? El experimento de Milgram",
+   "subtitle": "En 1961, muchas personas comunes aceptaron dar lo que creían eran descargas peligrosas solo porque alguien con bata se lo pedía.",
+   "desc": "En el experimento original, el 65% de los participantes llegó hasta la descarga máxima de 450 voltios.",
+   "intro": "Tras los juicios a criminales de guerra nazis, el psicólogo Stanley Milgram se hizo una pregunta incómoda: ¿podrían personas corrientes hacer daño a otros simplemente por obedecer?",
+   "sections": [
+    {
+     "h": "Cómo era el experimento",
+     "p": [
+      "En la Universidad de Yale, a partir de 1961, los voluntarios creían participar en un estudio sobre memoria. Debían dar una descarga eléctrica a otra persona cada vez que fallaba una respuesta, aumentando el voltaje.",
+      "En realidad, la otra persona era un actor y no recibía ninguna descarga. Lo que se medía era hasta dónde llegaba el voluntario cuando un investigador le insistía en continuar."
+     ]
+    },
+    {
+     "h": "El resultado que nadie esperaba",
+     "p": [
+      "En la versión más conocida, el 65% de los participantes llegó hasta el máximo de 450 voltios, aunque muchos mostraban angustia, sudaban o protestaban.",
+      "Antes del estudio, expertos consultados habían predicho que solo una pequeña fracción llegaría tan lejos."
+     ]
+    },
+    {
+     "h": "Críticas y lecciones",
+     "p": [
+      "El experimento fue muy criticado por el estrés que causó a los participantes, y contribuyó a que se establecieran normas éticas más estrictas en la investigación con personas.",
+      "Revisiones posteriores de los archivos también han cuestionado algunos detalles del procedimiento. Aun así, el estudio se ha replicado con variantes y sigue siendo una referencia sobre la influencia de la autoridad."
+     ]
+    }
+   ],
+   "facts": [
+    "Cuando el investigador no estaba en la sala y daba las órdenes por teléfono, la obediencia bajó mucho.",
+    "Milgram publicó sus resultados en 1963."
+   ],
+   "conclusion": "El estudio no dice que las personas sean malas, sino que las situaciones y la autoridad pesan más de lo que solemos creer.",
+   "sources": [
+    {
+     "t": "Wikipedia — Milgram experiment",
+     "u": "https://en.wikipedia.org/wiki/Milgram_experiment"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "a-tunguska",
+   "type": "articulo",
+   "cat": "misterios",
+   "sub": "Fenómenos naturales",
+   "level": 2,
+   "title": "La explosión de Tunguska: algo derribó 80 millones de árboles sin dejar cráter",
+   "subtitle": "En 1908, una explosión en Siberia arrasó más de 2.000 km² de bosque.",
+   "desc": "La explicación más aceptada es un asteroide o cometa que estalló en el aire antes de tocar el suelo.",
+   "intro": "La mañana del 30 de junio de 1908, una enorme explosión sacudió una zona remota de Siberia, cerca del río Podkamennaya Tunguska. Testigos a decenas de kilómetros sintieron el calor y la onda expansiva.",
+   "sections": [
+    {
+     "h": "Lo que ocurrió",
+     "p": [
+      "La explosión derribó unos 80 millones de árboles en un área de más de 2.000 kilómetros cuadrados. Fue la mayor explosión de un impacto registrada en la historia humana.",
+      "Como la zona estaba casi deshabitada, no hay muertes confirmadas por fuentes fiables."
+     ]
+    },
+    {
+     "h": "El misterio del cráter",
+     "p": [
+      "Cuando el científico Leonid Kulik llegó a la zona en 1927, esperaba encontrar un gran cráter y restos de un meteorito. No encontró ninguno.",
+      "Los árboles del centro seguían en pie, pero sin ramas, mientras que los de alrededor habían caído en dirección contraria al centro."
+     ]
+    },
+    {
+     "h": "La explicación más aceptada",
+     "p": [
+      "La mayoría de los científicos cree que un asteroide o un cometa de decenas de metros explotó en el aire a varios kilómetros de altura. Por eso no hubo cráter: la energía se liberó antes de tocar el suelo.",
+      "Hoy la Asamblea General de la ONU dedica el 30 de junio al Día Internacional de los Asteroides, en recuerdo de este evento."
+     ]
+    }
+   ],
+   "facts": [
+    "El patrón de árboles caídos permitió estimar desde dónde y con qué ángulo llegó el objeto.",
+    "Se han propuesto explicaciones exóticas, pero no tienen respaldo científico."
+   ],
+   "conclusion": "Tunguska recuerda que la Tierra todavía recibe visitas peligrosas del espacio, y por eso hoy se vigilan los asteroides cercanos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Tunguska event",
+     "u": "https://en.wikipedia.org/wiki/Tunguska_event"
+    },
+    {
+     "t": "Wikipedia — Asteroid Day",
+     "u": "https://en.wikipedia.org/wiki/Asteroid_Day"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "a-mansa-musa",
+   "type": "articulo",
+   "cat": "economia",
+   "sub": "Historia económica",
+   "level": 2,
+   "title": "Mansa Musa: el rey que gastó tanto oro que hizo bajar su precio",
+   "subtitle": "En el siglo XIV, el gobernante del Imperio de Malí peregrinó a La Meca con tanta riqueza que alteró la economía de El Cairo.",
+   "desc": "Su peregrinación de 1324 se volvió legendaria en África, Oriente Medio y Europa.",
+   "intro": "A menudo se le menciona como una de las personas más ricas de la historia. Aunque es imposible calcular su fortuna en términos modernos, su viaje dejó huella en las crónicas.",
+   "sections": [
+    {
+     "h": "El Imperio de Malí",
+     "p": [
+      "Mansa Musa gobernó el Imperio de Malí, en África occidental, a comienzos del siglo XIV. Su territorio controlaba importantes zonas productoras de oro y rutas de comercio a través del Sahara."
+     ]
+    },
+    {
+     "h": "La peregrinación de 1324",
+     "p": [
+      "En 1324 viajó a La Meca acompañado de una enorme caravana. Según los cronistas, repartió y gastó tanto oro a su paso por El Cairo que su valor cayó allí durante años.",
+      "El episodio quedó registrado por historiadores árabes y hizo que Malí apareciera en mapas europeos, como el Atlas Catalán, donde se le dibuja con una pepita de oro."
+     ]
+    },
+    {
+     "h": "Su legado",
+     "p": [
+      "A su regreso impulsó la construcción de mezquitas y el crecimiento de Tombuctú como centro de estudio y comercio."
+     ]
+    }
+   ],
+   "facts": [
+    "Las cifras de su fortuna que circulan en internet son estimaciones sin base sólida.",
+    "El Atlas Catalán es de alrededor de 1375."
+   ],
+   "conclusion": "Mansa Musa muestra que África occidental fue una potencia económica medieval, algo que muchos libros de historia pasaron por alto.",
+   "sources": [
+    {
+     "t": "Wikipedia — Mansa Musa",
+     "u": "https://en.wikipedia.org/wiki/Mansa_Musa"
+    },
+    {
+     "t": "Wikipedia — Catalan Atlas",
+     "u": "https://en.wikipedia.org/wiki/Catalan_Atlas"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-mercurio-liquido",
+   "type": "curiosidad",
+   "cat": "ciencia",
+   "sub": "Química",
+   "level": 1,
+   "title": "El mercurio es el único metal líquido a temperatura ambiente",
+   "desc": "A presión y temperatura normales, ningún otro metal se mantiene líquido.",
+   "body": "El mercurio se funde a unos −39 °C, así que a temperatura ambiente está líquido. Por eso se usaba en termómetros. Hoy se evita porque sus vapores son tóxicos. Algunos metales como el galio se derriten con el calor de la mano, pero a temperatura ambiente normal son sólidos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Mercury (element)",
+     "u": "https://en.wikipedia.org/wiki/Mercury_(element)"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "c-protocolo-montreal",
+   "type": "curiosidad",
+   "cat": "ciencia",
+   "sub": "Medio ambiente",
+   "level": 2,
+   "title": "La humanidad logró frenar el agujero de la capa de ozono",
+   "desc": "El Protocolo de Montreal de 1987 prohibió los gases que la destruían.",
+   "body": "En los años ochenta se descubrió que ciertos gases, los CFC, usados en aerosoles y refrigeradores, estaban destruyendo el ozono que nos protege de la radiación ultravioleta. El Protocolo de Montreal, firmado en 1987, los fue eliminando. Es considerado uno de los acuerdos ambientales más exitosos, y la capa de ozono se está recuperando lentamente.",
+   "sources": [
+    {
+     "t": "Wikipedia — Montreal Protocol",
+     "u": "https://en.wikipedia.org/wiki/Montreal_Protocol"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "m-newton-manzana",
+   "type": "mito",
+   "cat": "ciencia",
+   "sub": "Historia de la ciencia",
+   "level": 1,
+   "title": "«A Newton le cayó una manzana en la cabeza»",
+   "desc": "Verdad a medias. Newton contó que ver caer una manzana lo hizo pensar, pero no dijo que le golpeara.",
+   "body": "El propio Newton, ya mayor, le contó a su biógrafo William Stukeley que la caída de una manzana en un jardín le inspiró a pensar en la gravedad. El detalle de que le cayera en la cabeza es un adorno popular posterior. El árbol, en Woolsthorpe, Inglaterra, todavía existe.",
+   "sources": [
+    {
+     "t": "Wikipedia — Isaac Newton",
+     "u": "https://en.wikipedia.org/wiki/Isaac_Newton"
+    }
+   ],
+   "verdict": "matizado",
+   "status": "publicado",
+   "date": "2026-11-13"
+  },
+  {
+   "id": "c-rontgen",
+   "type": "curiosidad",
+   "cat": "ciencia",
+   "sub": "Medicina",
+   "level": 2,
+   "title": "La primera radiografía de la historia fue la mano de una esposa",
+   "desc": "Wilhelm Röntgen descubrió los rayos X en 1895 y radiografió la mano de su esposa, Anna Bertha.",
+   "body": "Röntgen notó que una pantalla brillaba al otro lado de su laboratorio mientras experimentaba con tubos de descarga. Llamó «X» a esos rayos desconocidos. La imagen de la mano de su esposa, con su anillo, dio la vuelta al mundo. En 1901 recibió el primer Premio Nobel de Física de la historia.",
+   "sources": [
+    {
+     "t": "Wikipedia — Wilhelm Röntgen",
+     "u": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-06"
+  },
+  {
+   "id": "c-mendeleev",
+   "type": "curiosidad",
+   "cat": "ciencia",
+   "sub": "Química",
+   "level": 2,
+   "title": "Mendeléyev dejó huecos en su tabla periódica para elementos que aún no existían",
+   "desc": "Y acertó: predijo las propiedades de elementos como el galio antes de que se descubrieran.",
+   "body": "En 1869, el químico ruso Dmitri Mendeléyev ordenó los elementos conocidos según sus propiedades. Donde algo no encajaba, dejó espacios vacíos y predijo cómo serían los elementos que faltaban. Cuando se descubrieron el galio y otros, sus propiedades coincidieron con sus predicciones, lo que convenció a la comunidad científica.",
+   "sources": [
+    {
+     "t": "Wikipedia — Dmitri Mendeleev",
+     "u": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-30"
+  },
+  {
+   "id": "c-cero-absoluto",
+   "type": "curiosidad",
+   "cat": "ciencia",
+   "sub": "Física",
+   "level": 2,
+   "title": "Existe una temperatura más fría que la cual no se puede bajar",
+   "desc": "Es el cero absoluto: −273,15 °C, o 0 kelvin.",
+   "body": "La temperatura mide cuánto se mueven las partículas. En el cero absoluto, la energía térmica sería la mínima posible. No se puede alcanzar exactamente, pero en laboratorio se han logrado temperaturas de una pequeñísima fracción de grado por encima. A esas temperaturas, la materia muestra comportamientos extraños, como los superfluidos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Absolute zero",
+     "u": "https://en.wikipedia.org/wiki/Absolute_zero"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-23"
+  },
+  {
+   "id": "c-efecto-mariposa",
+   "type": "curiosidad",
+   "cat": "ciencia",
+   "sub": "Física",
+   "level": 2,
+   "title": "El «efecto mariposa» nació de un redondeo en una computadora",
+   "desc": "El meteorólogo Edward Lorenz descubrió que un cambio minúsculo podía alterar por completo un pronóstico.",
+   "body": "En los años sesenta, Lorenz repitió una simulación del clima introduciendo un número redondeado con menos decimales. El resultado final fue completamente distinto. De ahí surgió la idea de que pequeñas variaciones pueden tener grandes consecuencias en sistemas caóticos. Él mismo popularizó la imagen de una mariposa que, al batir sus alas, podría influir en un tornado lejano.",
+   "sources": [
+    {
+     "t": "Wikipedia — Butterfly effect",
+     "u": "https://en.wikipedia.org/wiki/Butterfly_effect"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "m-llantas-rayo",
+   "type": "mito",
+   "cat": "ciencia",
+   "sub": "Fenómenos naturales",
+   "level": 1,
+   "title": "«Las llantas de goma te protegen de los rayos dentro de un carro»",
+   "desc": "Falso. Lo que protege es la carrocería metálica, que conduce la corriente por fuera.",
+   "body": "Un rayo ha recorrido kilómetros de aire; unos centímetros de goma no lo detienen. Un carro con techo metálico funciona como una jaula de Faraday: la electricidad recorre la superficie exterior y llega al suelo. Por eso los convertibles o los vehículos con techo de lona no ofrecen la misma protección.",
+   "sources": [
+    {
+     "t": "Wikipedia — Faraday cage",
+     "u": "https://en.wikipedia.org/wiki/Faraday_cage"
+    },
+    {
+     "t": "NOAA / National Weather Service — Lightning Myths",
+     "u": "https://www.weather.gov/safety/lightning-myths"
+    }
+   ],
+   "verdict": "falso",
+   "status": "publicado",
+   "date": "2026-11-14"
+  },
+  {
+   "id": "c-mongoles",
+   "type": "curiosidad",
+   "cat": "historia",
+   "sub": "Edad Media",
+   "level": 2,
+   "title": "El Imperio mongol fue el mayor imperio de territorio continuo de la historia",
+   "desc": "En el siglo XIII se extendía desde Asia oriental hasta Europa del Este.",
+   "body": "Fundado por Gengis Kan a comienzos del siglo XIII, el imperio creció rápidamente gracias a su caballería y organización. En su apogeo abarcaba desde Corea hasta Hungría. Facilitó el comercio por la Ruta de la Seda, aunque sus conquistas también causaron enorme destrucción.",
+   "sources": [
+    {
+     "t": "Wikipedia — Mongol Empire",
+     "u": "https://en.wikipedia.org/wiki/Mongol_Empire"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "c-muro-berlin",
+   "type": "curiosidad",
+   "cat": "historia",
+   "sub": "Siglo XX",
+   "level": 1,
+   "title": "El Muro de Berlín duró 28 años",
+   "desc": "Se levantó en 1961 y cayó el 9 de noviembre de 1989.",
+   "body": "La Alemania oriental construyó el muro para impedir que sus ciudadanos huyeran hacia Berlín Occidental. Dividió familias durante casi tres décadas. Su caída, tras un anuncio confuso de las autoridades que hizo que miles de personas acudieran a los pasos fronterizos, se convirtió en el símbolo del fin de la Guerra Fría.",
+   "sources": [
+    {
+     "t": "Wikipedia — Berlin Wall",
+     "u": "https://en.wikipedia.org/wiki/Berlin_Wall"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-31"
+  },
+  {
+   "id": "c-tutankamon",
+   "type": "curiosidad",
+   "cat": "historia",
+   "sub": "Antiguo Egipto",
+   "level": 1,
+   "title": "Tutankamón se hizo famoso porque su tumba estaba casi intacta",
+   "desc": "Howard Carter la descubrió en 1922 en el Valle de los Reyes.",
+   "body": "Tutankamón fue un faraón joven y de reinado breve. A diferencia de otras tumbas reales, saqueadas en la Antigüedad, la suya conservaba la mayor parte de su tesoro, incluida su famosa máscara funeraria de oro. El hallazgo causó sensación mundial y alimentó leyendas como la de la «maldición del faraón», que no tiene base científica.",
+   "sources": [
+    {
+     "t": "Wikipedia — Tutankhamun",
+     "u": "https://en.wikipedia.org/wiki/Tutankhamun"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-24"
+  },
+  {
+   "id": "c-carta-magna",
+   "type": "curiosidad",
+   "cat": "historia",
+   "sub": "Edad Media",
+   "level": 2,
+   "title": "Un documento de 1215 limitó por primera vez el poder de un rey inglés",
+   "desc": "La Carta Magna obligó al rey Juan a aceptar que también estaba sujeto a la ley.",
+   "body": "Los barones ingleses, hartos de los abusos del rey Juan, lo obligaron a sellar la Carta Magna en 1215. Aunque muchas de sus cláusulas trataban asuntos feudales, estableció la idea de que nadie, ni siquiera el rey, está por encima de la ley. Inspiró documentos posteriores sobre derechos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Magna Carta",
+     "u": "https://en.wikipedia.org/wiki/Magna_Carta"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-22"
+  },
+  {
+   "id": "c-revolucion-haitiana",
+   "type": "curiosidad",
+   "cat": "historia",
+   "sub": "Caribe",
+   "level": 2,
+   "title": "Haití fue el primer país fundado por personas que habían sido esclavizadas",
+   "desc": "Declaró su independencia en 1804 tras la única revuelta de esclavizados que creó un Estado.",
+   "body": "La Revolución haitiana comenzó en 1791 en la colonia francesa de Saint-Domingue, en la parte occidental de La Española. Liderada por figuras como Toussaint Louverture y Jean-Jacques Dessalines, derrotó a las tropas francesas. Haití fue la segunda república independiente de América, después de Estados Unidos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Haitian Revolution",
+     "u": "https://en.wikipedia.org/wiki/Haitian_Revolution"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "c-independencia-rd",
+   "type": "curiosidad",
+   "cat": "historia",
+   "sub": "República Dominicana",
+   "level": 1,
+   "title": "La independencia dominicana se proclamó el 27 de febrero de 1844",
+   "desc": "Se separó de Haití tras 22 años de unificación de la isla.",
+   "body": "Desde 1822, toda la isla estaba bajo gobierno haitiano. La sociedad secreta La Trinitaria, fundada por Juan Pablo Duarte, organizó el movimiento independentista. La noche del 27 de febrero de 1844, en la Puerta del Conde de Santo Domingo, se proclamó la República Dominicana. Duarte, Francisco del Rosario Sánchez y Matías Ramón Mella son considerados los padres de la patria.",
+   "sources": [
+    {
+     "t": "Wikipedia — Dominican War of Independence",
+     "u": "https://en.wikipedia.org/wiki/Dominican_War_of_Independence"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-08"
+  },
+  {
+   "id": "m-maria-antonieta",
+   "type": "mito",
+   "cat": "historia",
+   "sub": "Revolución francesa",
+   "level": 1,
+   "title": "«María Antonieta dijo: que coman pasteles»",
+   "desc": "Falso, según los historiadores. No hay ninguna prueba de que lo dijera.",
+   "body": "La frase aparece en las Confesiones de Jean-Jacques Rousseau, escritas cuando María Antonieta era una niña que todavía vivía en Austria, atribuida a «una gran princesa» sin nombre. Se le adjudicó a la reina mucho después, como propaganda contra la monarquía.",
+   "sources": [
+    {
+     "t": "Wikipedia — Let them eat cake",
+     "u": "https://en.wikipedia.org/wiki/Let_them_eat_cake"
+    }
+   ],
+   "verdict": "falso",
+   "status": "publicado",
+   "date": "2026-11-01"
+  },
+  {
+   "id": "c-coliseo",
+   "type": "curiosidad",
+   "cat": "historia",
+   "sub": "Roma antigua",
+   "level": 1,
+   "title": "El Coliseo podía recibir a decenas de miles de espectadores",
+   "desc": "Se calcula que albergaba entre 50.000 y 80.000 personas.",
+   "body": "El Anfiteatro Flavio, conocido como Coliseo, se inauguró en el año 80 bajo el emperador Tito. Allí se celebraban combates de gladiadores, cacerías de animales y espectáculos públicos. Tenía un sistema de toldos para dar sombra al público y pasadizos subterráneos para preparar los espectáculos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Colosseum",
+     "u": "https://en.wikipedia.org/wiki/Colosseum"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-25"
+  },
+  {
+   "id": "c-sesgo-confirmacion",
+   "type": "curiosidad",
+   "cat": "psicologia",
+   "sub": "Sesgos cognitivos",
+   "level": 1,
+   "title": "Tendemos a buscar la información que nos da la razón",
+   "desc": "Se llama sesgo de confirmación y afecta incluso a personas muy preparadas.",
+   "body": "Cuando creemos algo, prestamos más atención a lo que lo confirma y descartamos lo que lo contradice. El psicólogo Peter Wason estudió este fenómeno en los años sesenta con tareas lógicas. Una forma de combatirlo es buscar a propósito argumentos que contradigan nuestra opinión.",
+   "sources": [
+    {
+     "t": "Wikipedia — Confirmation bias",
+     "u": "https://en.wikipedia.org/wiki/Confirmation_bias"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-23"
+  },
+  {
+   "id": "c-efecto-halo",
+   "type": "curiosidad",
+   "cat": "psicologia",
+   "sub": "Percepción social",
+   "level": 1,
+   "title": "Si alguien nos cae bien en algo, tendemos a creer que es bueno en todo",
+   "desc": "Es el efecto halo, descrito por Edward Thorndike en 1920.",
+   "body": "Thorndike observó que los oficiales militares que evaluaban a sus soldados tendían a calificarlos de forma similar en rasgos que no tenían relación: si uno parecía atractivo o disciplinado, lo veían también inteligente o leal. Este sesgo influye en entrevistas de trabajo, en la publicidad y en cómo juzgamos a las personas famosas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Halo effect",
+     "u": "https://en.wikipedia.org/wiki/Halo_effect"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "c-sobrecarga-eleccion",
+   "type": "curiosidad",
+   "cat": "psicologia",
+   "sub": "Decisiones",
+   "level": 2,
+   "title": "Tener demasiadas opciones puede hacer que no elijas ninguna",
+   "desc": "Se llama sobrecarga de elección. El término lo popularizó Alvin Toffler en 1970.",
+   "body": "Cuando hay muchísimas alternativas, comparar se vuelve agotador y aparece la indecisión: hay quien termina por no elegir nada o queda menos satisfecho con lo que eligió. Alvin Toffler introdujo el concepto en su libro El shock del futuro, de 1970. La investigadora Sheena Iyengar es conocida por su «estudio de las mermeladas», uno de los experimentos más citados sobre el tema. Investigaciones posteriores indican que el efecto depende del contexto y no aparece siempre.",
+   "sources": [
+    {
+     "t": "Wikipedia — Overchoice",
+     "u": "https://en.wikipedia.org/wiki/Overchoice"
+    },
+    {
+     "t": "Wikipedia — Sheena Iyengar",
+     "u": "https://en.wikipedia.org/wiki/Sheena_Iyengar"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-09"
+  },
+  {
+   "id": "c-numero-dunbar",
+   "type": "curiosidad",
+   "cat": "psicologia",
+   "sub": "Relaciones sociales",
+   "level": 2,
+   "title": "Solo podemos mantener unas 150 relaciones estables",
+   "desc": "Es el «número de Dunbar», propuesto por el antropólogo Robin Dunbar.",
+   "body": "Dunbar relacionó el tamaño del cerebro de los primates con el tamaño de sus grupos sociales y estimó que los humanos podemos mantener relaciones significativas con alrededor de 150 personas. La cifra es una estimación muy discutida: otros investigadores obtienen rangos distintos con métodos diferentes.",
+   "sources": [
+    {
+     "t": "Wikipedia — Dunbar's number",
+     "u": "https://en.wikipedia.org/wiki/Dunbar%27s_number"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-02"
+  },
+  {
+   "id": "c-deja-vu",
+   "type": "curiosidad",
+   "cat": "psicologia",
+   "sub": "Memoria",
+   "level": 1,
+   "title": "«Déjà vu» significa «ya visto» en francés",
+   "desc": "Es la sensación de haber vivido antes una situación que es nueva.",
+   "body": "Es una experiencia común, sobre todo en personas jóvenes. No se conoce del todo su causa; varias hipótesis la relacionan con pequeños desajustes en los procesos de memoria y familiaridad del cerebro. No hay evidencia de que tenga que ver con vidas pasadas o premoniciones.",
+   "sources": [
+    {
+     "t": "Wikipedia — Déjà vu",
+     "u": "https://en.wikipedia.org/wiki/D%C3%A9j%C3%A0_vu"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-26"
+  },
+  {
+   "id": "c-curva-olvido",
+   "type": "curiosidad",
+   "cat": "psicologia",
+   "sub": "Memoria",
+   "level": 2,
+   "title": "Olvidamos la mayor parte de lo aprendido en pocos días si no lo repasamos",
+   "desc": "Hermann Ebbinghaus midió la «curva del olvido» en 1885 experimentando consigo mismo.",
+   "body": "Ebbinghaus memorizó listas de sílabas sin sentido y midió cuánto recordaba con el tiempo. Vio que el olvido es muy rápido al principio y luego se estabiliza. También descubrió que repasar espaciando las sesiones ayuda a retener mucho mejor, idea en la que se basan muchas aplicaciones para aprender idiomas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Forgetting curve",
+     "u": "https://en.wikipedia.org/wiki/Forgetting_curve"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-24"
+  },
+  {
+   "id": "c-espectador",
+   "type": "curiosidad",
+   "cat": "psicologia",
+   "sub": "Comportamiento social",
+   "level": 2,
+   "title": "Cuantas más personas presencian una emergencia, menos probable es que alguien ayude",
+   "desc": "Es el efecto espectador: la responsabilidad se diluye en el grupo.",
+   "body": "Los psicólogos John Darley y Bibb Latané estudiaron el fenómeno tras el asesinato de Kitty Genovese en Nueva York en 1964. Investigaciones posteriores mostraron que la prensa exageró cuántos testigos hubo y cuánto ignoraron lo ocurrido, aunque el efecto espectador se ha observado en muchos experimentos. Pedir ayuda a una persona concreta lo contrarresta.",
+   "sources": [
+    {
+     "t": "Wikipedia — Bystander effect",
+     "u": "https://en.wikipedia.org/wiki/Bystander_effect"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-17"
+  },
+  {
+   "id": "m-memoria-fotografica",
+   "type": "mito",
+   "cat": "psicologia",
+   "sub": "Memoria",
+   "level": 2,
+   "title": "«Algunas personas tienen memoria fotográfica perfecta»",
+   "desc": "No hay pruebas sólidas de que exista una memoria que funcione como una fotografía.",
+   "body": "Hay personas con memorias extraordinarias, pero suelen usar técnicas o tener capacidades muy específicas. La memoria eidética, que permite recordar una imagen con mucho detalle por poco tiempo, aparece en un pequeño porcentaje de niños y casi nunca en adultos. Los casos famosos de memoria fotográfica no han superado pruebas rigurosas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Eidetic memory",
+     "u": "https://en.wikipedia.org/wiki/Eidetic_memory"
+    }
+   ],
+   "verdict": "falso",
+   "status": "publicado",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "c-luna-se-aleja",
+   "type": "curiosidad",
+   "cat": "universo",
+   "sub": "La Luna",
+   "level": 2,
+   "title": "La Luna se aleja de la Tierra unos 3,8 centímetros al año",
+   "desc": "Lo sabemos gracias a espejos que dejaron los astronautas del programa Apolo.",
+   "body": "Las misiones Apolo colocaron reflectores en la Luna. Desde la Tierra se les disparan rayos láser y se mide cuánto tarda la luz en volver. Así se comprobó que la Luna se aleja lentamente, por el efecto de las mareas. Al mismo tiempo, la rotación de la Tierra se va frenando un poco.",
+   "sources": [
+    {
+     "t": "Wikipedia — Lunar Laser Ranging experiments",
+     "u": "https://en.wikipedia.org/wiki/Lunar_Laser_Ranging_experiments"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "c-pluton",
+   "type": "curiosidad",
+   "cat": "universo",
+   "sub": "Planetas enanos",
+   "level": 1,
+   "title": "Plutón dejó de ser planeta en 2006",
+   "desc": "La Unión Astronómica Internacional lo reclasificó como «planeta enano».",
+   "body": "Tras descubrirse otros objetos parecidos en el cinturón de Kuiper, los astrónomos definieron qué es un planeta. Plutón cumple casi todo, pero no ha «limpiado» su órbita de otros cuerpos. Por eso la Unión Astronómica Internacional lo llamó planeta enano en 2006. La decisión todavía genera debate entre algunos científicos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Pluto",
+     "u": "https://en.wikipedia.org/wiki/Pluto"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "c-andromeda-choque",
+   "type": "curiosidad",
+   "cat": "universo",
+   "sub": "Galaxias",
+   "level": 2,
+   "title": "Nuestra galaxia chocará con Andrómeda dentro de unos 4.500 millones de años",
+   "desc": "Será un choque lento en el que muy pocas estrellas colisionarán directamente.",
+   "body": "Andrómeda se acerca a la Vía Láctea. Los cálculos indican que dentro de unos miles de millones de años ambas galaxias interactuarán y probablemente se fusionarán. Como las distancias entre estrellas son enormes, es casi imposible que dos estrellas choquen entre sí. Estudios recientes señalan que la fusión no es segura y estiman su probabilidad.",
+   "sources": [
+    {
+     "t": "Wikipedia — Andromeda–Milky Way collision",
+     "u": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "c-halley",
+   "type": "curiosidad",
+   "cat": "universo",
+   "sub": "Cometas",
+   "level": 1,
+   "title": "El cometa Halley vuelve cada 75 o 76 años",
+   "desc": "Su próxima visita será en 2061.",
+   "body": "Edmond Halley fue quien calculó que los cometas vistos en 1531, 1607 y 1682 eran el mismo objeto, y predijo su regreso. El cometa volvió en 1758, después de la muerte de Halley, y recibió su nombre. Su última aparición fue en 1986.",
+   "sources": [
+    {
+     "t": "Wikipedia — Halley's Comet",
+     "u": "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "c-gagarin",
+   "type": "curiosidad",
+   "cat": "universo",
+   "sub": "Exploración espacial",
+   "level": 1,
+   "title": "El primer viaje humano al espacio duró menos de dos horas",
+   "desc": "Yuri Gagarin dio una vuelta a la Tierra el 12 de abril de 1961.",
+   "body": "El cosmonauta soviético viajó a bordo de la nave Vostok 1. Su vuelo orbital duró unos 108 minutos. Al regresar, se eyectó de la cápsula y aterrizó en paracaídas. El 12 de abril se celebra hoy el Día Internacional de los Vuelos Espaciales Tripulados.",
+   "sources": [
+    {
+     "t": "Wikipedia — Yuri Gagarin",
+     "u": "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+    },
+    {
+     "t": "Wikipedia — Vostok 1",
+     "u": "https://en.wikipedia.org/wiki/Vostok_1"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "c-laika",
+   "type": "curiosidad",
+   "cat": "universo",
+   "sub": "Exploración espacial",
+   "level": 2,
+   "title": "Laika, una perra callejera, fue el primer animal en orbitar la Tierra",
+   "desc": "Viajó en el Sputnik 2 en 1957. No había plan para traerla de vuelta.",
+   "body": "Laika fue recogida de las calles de Moscú. Murió pocas horas después del lanzamiento, probablemente por sobrecalentamiento, aunque durante años la versión oficial soviética dio otra información. Su viaje mostró que un ser vivo podía sobrevivir al lanzamiento y la ingravidez, pero hoy se recuerda también por el debate ético que generó.",
+   "sources": [
+    {
+     "t": "Wikipedia — Laika",
+     "u": "https://en.wikipedia.org/wiki/Laika"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "c-agujero-negro-foto",
+   "type": "curiosidad",
+   "cat": "universo",
+   "sub": "Agujeros negros",
+   "level": 2,
+   "title": "La primera imagen de un agujero negro se publicó en 2019",
+   "desc": "La obtuvo el Event Horizon Telescope, una red de radiotelescopios de todo el mundo.",
+   "body": "El agujero negro fotografiado está en el centro de la galaxia M87, a unos 55 millones de años luz. Para lograr la resolución necesaria, se combinaron telescopios de varios continentes como si fueran uno del tamaño de la Tierra. La imagen muestra un anillo brillante alrededor de una sombra oscura.",
+   "sources": [
+    {
+     "t": "Wikipedia — Event Horizon Telescope",
+     "u": "https://en.wikipedia.org/wiki/Event_Horizon_Telescope"
+    },
+    {
+     "t": "Wikipedia — Messier 87",
+     "u": "https://en.wikipedia.org/wiki/Messier_87"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-28"
+  },
+  {
+   "id": "m-gravedad-iss",
+   "type": "mito",
+   "cat": "universo",
+   "sub": "Exploración espacial",
+   "level": 2,
+   "title": "«En la Estación Espacial Internacional no hay gravedad»",
+   "desc": "Falso. Allí la gravedad es casi tan fuerte como en la superficie; los astronautas flotan porque están en caída libre.",
+   "body": "La Estación orbita a unos 400 km de altura, donde la gravedad terrestre es aproximadamente un 90% de la que sentimos en el suelo. Los astronautas flotan porque la estación y todo lo que contiene caen continuamente alrededor de la Tierra a gran velocidad. Esa caída constante produce la sensación de ingravidez.",
+   "sources": [
+    {
+     "t": "Wikipedia — Weightlessness",
+     "u": "https://en.wikipedia.org/wiki/Weightlessness"
+    }
+   ],
+   "verdict": "falso",
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-primera-llamada-movil",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Telefonía",
+   "level": 1,
+   "title": "La primera llamada desde un celular fue para presumir ante la competencia",
+   "desc": "Martin Cooper, de Motorola, llamó en 1973 a un rival de los laboratorios Bell.",
+   "body": "El 3 de abril de 1973, en una calle de Nueva York, Martin Cooper usó un prototipo de teléfono móvil que pesaba alrededor de un kilo para llamar a Joel Engel, que dirigía el proyecto rival en Bell Labs. Pasaron diez años hasta que se comercializó el primer celular.",
+   "sources": [
+    {
+     "t": "Wikipedia — Martin Cooper (inventor)",
+     "u": "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "c-web-libre",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Internet",
+   "level": 2,
+   "title": "La web es gratuita porque el CERN renunció a cobrar por ella en 1993",
+   "desc": "Tim Berners-Lee la creó en 1989; en 1993 el CERN liberó su tecnología para todos.",
+   "body": "Si el CERN hubiera patentado la World Wide Web, cada sitio podría haber tenido que pagar por usarla. En abril de 1993 la puso en dominio público, lo que permitió su expansión explosiva. Tim Berners-Lee la había propuesto en 1989 como forma de compartir documentos entre científicos.",
+   "sources": [
+    {
+     "t": "Wikipedia — World Wide Web",
+     "u": "https://en.wikipedia.org/wiki/World_Wide_Web"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "c-ada-lovelace",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Historia de la informática",
+   "level": 2,
+   "title": "La primera programadora de la historia vivió en el siglo XIX",
+   "desc": "Ada Lovelace publicó en 1843 lo que se considera el primer algoritmo para una máquina.",
+   "body": "Ada Lovelace, hija del poeta Lord Byron, trabajó con Charles Babbage en su Máquina Analítica, una computadora mecánica que nunca llegó a construirse. En sus notas describió un algoritmo para calcular números de Bernoulli y anticipó que estas máquinas podrían manejar símbolos y no solo números. El lenguaje de programación Ada lleva su nombre.",
+   "sources": [
+    {
+     "t": "Wikipedia — Ada Lovelace",
+     "u": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "c-turing-enigma",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Historia de la informática",
+   "level": 2,
+   "title": "Alan Turing ayudó a descifrar los mensajes secretos nazis",
+   "desc": "En Bletchley Park desarrolló métodos para romper el cifrado de la máquina Enigma.",
+   "body": "Durante la Segunda Guerra Mundial, Turing trabajó en Bletchley Park, en Inglaterra, en el desciframiento de comunicaciones alemanas. Antes, en 1936, había publicado un trabajo que sentó las bases teóricas de la computación. Fue perseguido por su homosexualidad; en 2009 el gobierno británico pidió disculpas y en 2013 recibió un indulto póstumo.",
+   "sources": [
+    {
+     "t": "Wikipedia — Alan Turing",
+     "u": "https://en.wikipedia.org/wiki/Alan_Turing"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-29"
+  },
+  {
+   "id": "c-emoji",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Internet",
+   "level": 1,
+   "title": "Los primeros emojis famosos se crearon en Japón en 1999",
+   "desc": "Los diseñó Shigetaka Kurita para teléfonos móviles; hoy están en el MoMA de Nueva York.",
+   "body": "La palabra «emoji» viene del japonés: «e» (imagen) y «moji» (carácter). No tiene relación con la palabra «emoción». Kurita diseñó un conjunto de 176 pictogramas de 12 por 12 píxeles para el servicio móvil de NTT Docomo. El Museo de Arte Moderno de Nueva York los incluyó en su colección.",
+   "sources": [
+    {
+     "t": "Wikipedia — Emoji",
+     "u": "https://en.wikipedia.org/wiki/Emoji"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "c-hashtag",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Internet",
+   "level": 1,
+   "title": "El hashtag fue propuesto por un usuario de Twitter en 2007",
+   "desc": "Chris Messina sugirió usar el símbolo # para agrupar conversaciones.",
+   "body": "En agosto de 2007, Chris Messina publicó un mensaje proponiendo usar el signo numeral para agrupar temas. Al principio la empresa no le dio importancia, pero los usuarios lo adoptaron y se extendió a casi todas las redes sociales.",
+   "sources": [
+    {
+     "t": "Wikipedia — Hashtag",
+     "u": "https://en.wikipedia.org/wiki/Hashtag"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "c-gps-relatividad",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Ciencia aplicada",
+   "level": 3,
+   "title": "Sin la teoría de la relatividad de Einstein, el GPS fallaría",
+   "desc": "Los relojes de los satélites deben corregirse porque el tiempo pasa distinto allá arriba.",
+   "body": "Los satélites GPS llevan relojes atómicos muy precisos. Por la relatividad, el tiempo corre ligeramente distinto para ellos que para nosotros: por su velocidad y por estar más lejos de la gravedad terrestre. La diferencia es de unos 38 microsegundos al día, y si no se corrigiera los errores de posición crecerían varios kilómetros cada día.",
+   "sources": [
+    {
+     "t": "Wikipedia — Error analysis for the Global Positioning System",
+     "u": "https://en.wikipedia.org/wiki/Error_analysis_for_the_Global_Positioning_System"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-13"
+  },
+  {
+   "id": "c-engelbart-raton",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Inventos",
+   "level": 2,
+   "title": "El ratón de computadora se presentó en 1968 en «la madre de todas las demostraciones»",
+   "desc": "Douglas Engelbart mostró también videoconferencia y edición colaborativa de textos.",
+   "body": "En una presentación en San Francisco, Engelbart y su equipo mostraron un ratón de madera, ventanas, hipervínculos y edición de texto compartida a distancia. Muchas de esas ideas tardaron décadas en llegar a las computadoras personales. La presentación es conocida como «The Mother of All Demos».",
+   "sources": [
+    {
+     "t": "Wikipedia — Douglas Engelbart",
+     "u": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+    },
+    {
+     "t": "Wikipedia — The Mother of All Demos",
+     "u": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-06"
+  },
+  {
+   "id": "c-codigo-barras",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Inventos",
+   "level": 2,
+   "title": "El primer producto escaneado con código de barras fue un paquete de chicle",
+   "desc": "Ocurrió en 1974 en un supermercado de Ohio, Estados Unidos.",
+   "body": "El 26 de junio de 1974 se escaneó un paquete de chicles Wrigley en un supermercado de Troy, Ohio, con el código UPC. Ese paquete se exhibe hoy en el Museo Nacional de Historia Estadounidense del Smithsonian. El código de barras aceleró las cajas registradoras y el control de inventarios.",
+   "sources": [
+    {
+     "t": "Wikipedia — Universal Product Code",
+     "u": "https://en.wikipedia.org/wiki/Universal_Product_Code"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-30"
+  },
+  {
+   "id": "c-placebo",
+   "type": "curiosidad",
+   "cat": "cuerpo",
+   "sub": "Medicina",
+   "level": 2,
+   "title": "Una pastilla sin medicamento puede hacerte sentir mejor",
+   "desc": "Es el efecto placebo, y se tiene en cuenta en todos los ensayos clínicos.",
+   "body": "Cuando una persona cree que recibe un tratamiento, puede notar mejoría en síntomas como el dolor aunque la pastilla no tenga ningún principio activo. Por eso los ensayos médicos comparan los fármacos con un placebo, a menudo sin que pacientes ni médicos sepan quién recibe qué. El placebo no cura enfermedades, pero puede influir en cómo se perciben los síntomas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Placebo",
+     "u": "https://en.wikipedia.org/wiki/Placebo"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-23"
+  },
+  {
+   "id": "c-ritmo-cardiaco",
+   "type": "curiosidad",
+   "cat": "cuerpo",
+   "sub": "Corazón",
+   "level": 1,
+   "title": "En reposo, el corazón de un adulto late entre 60 y 100 veces por minuto",
+   "desc": "Los deportistas entrenados suelen tener frecuencias más bajas.",
+   "body": "La frecuencia cardiaca en reposo depende de la edad, la forma física y otros factores. En atletas de resistencia es común que esté por debajo de 60 porque su corazón bombea más sangre en cada latido. Durante el ejercicio, el ritmo puede aumentar mucho para llevar más oxígeno a los músculos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Heart rate",
+     "u": "https://en.wikipedia.org/wiki/Heart_rate"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "c-unas",
+   "type": "curiosidad",
+   "cat": "cuerpo",
+   "sub": "Piel y anexos",
+   "level": 1,
+   "title": "Las uñas de las manos crecen el doble de rápido que las de los pies",
+   "desc": "Las de las manos crecen unos 3,5 mm al mes; las de los pies, alrededor de la mitad.",
+   "body": "En promedio, las uñas de las manos crecen unos 3,5 milímetros al mes y las de los pies, unos 1,6. Por eso las de los pies se cortan con menos frecuencia. En los mamíferos, la velocidad de crecimiento se relaciona con la longitud del último hueso del dedo, y las uñas de los dedos más largos de la mano tienden a crecer más rápido.",
+   "sources": [
+    {
+     "t": "Wikipedia — Nail (anatomy)",
+     "u": "https://en.wikipedia.org/wiki/Nail_(anatomy)"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-14"
+  },
+  {
+   "id": "c-grupos-sanguineos",
+   "type": "curiosidad",
+   "cat": "cuerpo",
+   "sub": "Sangre",
+   "level": 2,
+   "title": "Los grupos sanguíneos se descubrieron en 1901",
+   "desc": "Karl Landsteiner identificó los grupos A, B y O, y recibió el Nobel en 1930.",
+   "body": "Antes de su descubrimiento, las transfusiones a menudo fracasaban sin que se supiera por qué. Landsteiner mostró que la sangre de distintas personas puede ser incompatible. Gracias a ello, las transfusiones se volvieron seguras. El 14 de junio, día de su nacimiento, se celebra el Día Mundial del Donante de Sangre.",
+   "sources": [
+    {
+     "t": "Wikipedia — Karl Landsteiner",
+     "u": "https://en.wikipedia.org/wiki/Karl_Landsteiner"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "c-huellas-gemelos",
+   "type": "curiosidad",
+   "cat": "cuerpo",
+   "sub": "Piel",
+   "level": 1,
+   "title": "Los gemelos idénticos tienen huellas dactilares distintas",
+   "desc": "Comparten ADN, pero las huellas se forman con influencias del entorno en el útero.",
+   "body": "Las crestas de las huellas dactilares se forman antes del nacimiento y dependen de factores como la posición en el útero y el contacto con el líquido amniótico. Por eso incluso los gemelos idénticos, con el mismo ADN, tienen huellas diferentes.",
+   "sources": [
+    {
+     "t": "Wikipedia — Fingerprint",
+     "u": "https://en.wikipedia.org/wiki/Fingerprint"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-31"
+  },
+  {
+   "id": "c-cerebro-energia",
+   "type": "curiosidad",
+   "cat": "cuerpo",
+   "sub": "Cerebro",
+   "level": 1,
+   "title": "Tu cerebro pesa alrededor del 2% del cuerpo pero gasta cerca del 20% de su energía",
+   "desc": "Es uno de los órganos que más energía consume.",
+   "body": "Aunque solo pesa alrededor de 1,4 kilos en un adulto, el cerebro consume una gran parte de la energía que usa el cuerpo en reposo. Su principal combustible es la glucosa. Esa enorme demanda es una de las razones por las que el cerebro necesita un aporte constante de sangre.",
+   "sources": [
+    {
+     "t": "Wikipedia — Human brain",
+     "u": "https://en.wikipedia.org/wiki/Human_brain"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-24"
+  },
+  {
+   "id": "c-punto-ciego",
+   "type": "curiosidad",
+   "cat": "cuerpo",
+   "sub": "Ojos",
+   "level": 2,
+   "title": "Cada ojo tiene un punto ciego que el cerebro «rellena»",
+   "desc": "Es la zona donde el nervio óptico sale del ojo y no hay células sensibles a la luz.",
+   "body": "En ese punto de la retina no hay fotorreceptores, así que no detectamos lo que cae allí. No lo notamos porque cada ojo cubre el punto ciego del otro y porque el cerebro completa la imagen con la información de alrededor. Se puede comprobar con un sencillo experimento: tapa un ojo y acerca un dibujo hasta que una parte desaparece.",
+   "sources": [
+    {
+     "t": "Wikipedia — Blind spot (vision)",
+     "u": "https://en.wikipedia.org/wiki/Blind_spot_(vision)"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-22"
+  },
+  {
+   "id": "c-higado-regenera",
+   "type": "curiosidad",
+   "cat": "cuerpo",
+   "sub": "Órganos",
+   "level": 2,
+   "title": "El hígado puede volver a crecer",
+   "desc": "Tras extirpar una parte, el hígado restante puede recuperar su tamaño.",
+   "body": "El hígado es el órgano interno con mayor capacidad de regeneración en los humanos. Por eso es posible donar una parte del hígado en vida: tanto el donante como el receptor recuperan, con el tiempo, un volumen de hígado funcional. Esta capacidad tiene límites y puede verse afectada por enfermedades.",
+   "sources": [
+    {
+     "t": "Wikipedia — Liver regeneration",
+     "u": "https://en.wikipedia.org/wiki/Liver_regeneration"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "c-salto-angel",
+   "type": "curiosidad",
+   "cat": "geografia",
+   "sub": "Extremos del planeta",
+   "level": 1,
+   "title": "La cascada más alta del mundo está en Venezuela",
+   "desc": "El Salto Ángel tiene 979 metros de altura.",
+   "body": "El Salto Ángel, llamado Kerepakupai Merú en lengua pemón, cae desde el tepuy Auyantepui, en el Parque Nacional Canaima. Su caída ininterrumpida es la más alta del mundo. Su nombre popular viene del aviador estadounidense Jimmie Angel, que lo sobrevoló en la década de 1930.",
+   "sources": [
+    {
+     "t": "Wikipedia — Angel Falls",
+     "u": "https://en.wikipedia.org/wiki/Angel_Falls"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-08"
+  },
+  {
+   "id": "c-atacama",
+   "type": "curiosidad",
+   "cat": "geografia",
+   "sub": "Climas",
+   "level": 1,
+   "title": "El desierto de Atacama es el desierto no polar más seco del mundo",
+   "desc": "Hay zonas donde nunca se ha registrado lluvia en la época moderna.",
+   "body": "Situado en el norte de Chile, el Atacama está protegido de la humedad por la cordillera de los Andes y por corrientes frías del Pacífico. Su suelo es tan seco que la NASA lo ha usado para probar instrumentos pensados para Marte. Su cielo limpio lo convierte en uno de los mejores lugares del mundo para la astronomía.",
+   "sources": [
+    {
+     "t": "Wikipedia — Atacama Desert",
+     "u": "https://en.wikipedia.org/wiki/Atacama_Desert"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-01"
+  },
+  {
+   "id": "c-groenlandia",
+   "type": "curiosidad",
+   "cat": "geografia",
+   "sub": "Islas",
+   "level": 1,
+   "title": "Groenlandia es la isla más grande del mundo",
+   "desc": "Australia es más grande, pero se considera un continente.",
+   "body": "Groenlandia tiene más de 2 millones de kilómetros cuadrados, la mayor parte cubierta por una enorme capa de hielo. Pertenece al Reino de Dinamarca, aunque tiene un amplio autogobierno. Pese a su tamaño, tiene una población muy pequeña, de alrededor de 56.000 personas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Greenland",
+     "u": "https://en.wikipedia.org/wiki/Greenland"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-25"
+  },
+  {
+   "id": "c-amazonas-caudal",
+   "type": "curiosidad",
+   "cat": "geografia",
+   "sub": "Ríos",
+   "level": 2,
+   "title": "El Amazonas lleva más agua que cualquier otro río del mundo",
+   "desc": "Su caudal es mayor que el de los siguientes varios ríos más caudalosos juntos.",
+   "body": "El Amazonas vierte al Atlántico una cantidad de agua enorme: se calcula que alrededor de una quinta parte de toda el agua dulce que los ríos llevan al mar. No tiene ningún puente que lo cruce en todo su recorrido. Si es o no el más largo del mundo, frente al Nilo, sigue siendo objeto de debate.",
+   "sources": [
+    {
+     "t": "Wikipedia — Amazon River",
+     "u": "https://en.wikipedia.org/wiki/Amazon_River"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-23"
+  },
+  {
+   "id": "c-titicaca",
+   "type": "curiosidad",
+   "cat": "geografia",
+   "sub": "Lagos",
+   "level": 2,
+   "title": "El Titicaca es uno de los lagos navegables más altos del mundo",
+   "desc": "Está a unos 3.800 metros de altura, entre Perú y Bolivia.",
+   "body": "El lago Titicaca es el más grande de Sudamérica por volumen de agua. En él viven los uros, que construyen islas flotantes con totora, un junco que crece en el lago. Para muchas culturas andinas, incluido el pueblo inca, era un lugar sagrado.",
+   "sources": [
+    {
+     "t": "Wikipedia — Lake Titicaca",
+     "u": "https://en.wikipedia.org/wiki/Lake_Titicaca"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "c-nueva-zelanda",
+   "type": "curiosidad",
+   "cat": "geografia",
+   "sub": "Países",
+   "level": 2,
+   "title": "Nueva Zelanda fue una de las últimas grandes tierras pobladas por humanos",
+   "desc": "Los polinesios llegaron alrededor del siglo XIII.",
+   "body": "Mientras otras regiones llevaban decenas de miles de años habitadas, las islas de Nueva Zelanda permanecieron sin humanos hasta que navegantes polinesios, antepasados de los maoríes, llegaron hacia el siglo XIII. La llegada humana provocó la extinción de aves gigantes como el moa.",
+   "sources": [
+    {
+     "t": "Wikipedia — New Zealand",
+     "u": "https://en.wikipedia.org/wiki/New_Zealand"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-09"
+  },
+  {
+   "id": "c-samana-ballenas",
+   "type": "curiosidad",
+   "cat": "geografia",
+   "sub": "República Dominicana",
+   "level": 1,
+   "title": "Miles de ballenas jorobadas viajan cada invierno a República Dominicana",
+   "desc": "Llegan a la bahía de Samaná y al Banco de la Plata para aparearse y tener sus crías.",
+   "body": "Cada año, entre enero y marzo aproximadamente, las ballenas jorobadas del Atlántico Norte viajan miles de kilómetros desde zonas frías hasta las aguas cálidas del noreste dominicano. La observación de ballenas en Samaná es una actividad turística importante y regulada para proteger a los animales.",
+   "sources": [
+    {
+     "t": "Wikipedia — Samaná Bay",
+     "u": "https://en.wikipedia.org/wiki/Saman%C3%A1_Bay"
+    },
+    {
+     "t": "Wikipedia — Humpback whale",
+     "u": "https://en.wikipedia.org/wiki/Humpback_whale"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-02"
+  },
+  {
+   "id": "c-nilo-paises",
+   "type": "curiosidad",
+   "cat": "geografia",
+   "sub": "Ríos",
+   "level": 2,
+   "title": "El río Nilo atraviesa o bordea 11 países",
+   "desc": "Su cuenca se reparte entre países como Egipto, Sudán, Etiopía y Uganda.",
+   "body": "El Nilo tiene dos grandes ramas: el Nilo Blanco, que nace en la región de los Grandes Lagos de África, y el Nilo Azul, que nace en Etiopía. Se unen en Jartum, la capital de Sudán. Durante miles de años, sus crecidas anuales fertilizaron las tierras de Egipto.",
+   "sources": [
+    {
+     "t": "Wikipedia — Nile",
+     "u": "https://en.wikipedia.org/wiki/Nile"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-26"
+  },
+  {
+   "id": "c-koala-huellas",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Mamíferos",
+   "level": 1,
+   "title": "Las huellas de los koalas se parecen muchísimo a las humanas",
+   "desc": "Incluso con un microscopio electrónico cuesta distinguirlas de las nuestras.",
+   "body": "Varias especies que trepan o agarran objetos húmedos tienen crestas en los dedos, como gorilas, chimpancés y koalas. En el caso del koala, el parecido con las huellas humanas es tan grande que, según un estudio, es difícil diferenciarlas incluso con un microscopio electrónico. Es un ejemplo de evolución convergente: rasgos parecidos que aparecen por separado en especies muy distintas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Fingerprint",
+     "u": "https://en.wikipedia.org/wiki/Fingerprint"
+    },
+    {
+     "t": "Wikipedia — Koala",
+     "u": "https://en.wikipedia.org/wiki/Koala"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-24"
+  },
+  {
+   "id": "c-colibri-atras",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Aves",
+   "level": 1,
+   "title": "El colibrí puede volar hacia atrás",
+   "desc": "Su forma de batir las alas le permite quedarse quieto en el aire y retroceder.",
+   "body": "Los colibríes baten sus alas muy rápido y pueden rotarlas, lo que les permite generar sustentación tanto al subir como al bajar el ala. Así se quedan suspendidos frente a las flores. Su metabolismo es altísimo: necesitan alimentarse con mucha frecuencia y, por la noche, pueden entrar en un estado de letargo para ahorrar energía.",
+   "sources": [
+    {
+     "t": "Wikipedia — Hummingbird",
+     "u": "https://en.wikipedia.org/wiki/Hummingbird"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-17"
+  },
+  {
+   "id": "c-elefante-espejo",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Inteligencia animal",
+   "level": 2,
+   "title": "Los elefantes se reconocen en un espejo",
+   "desc": "Superan la «prueba del espejo», que pocas especies logran.",
+   "body": "En la prueba, se pone una marca en el cuerpo del animal que solo puede ver en un espejo. Si se toca la marca al mirarse, se interpreta que se reconoce. Además de los humanos, la han superado grandes simios, delfines, algunas urracas y elefantes asiáticos, aunque los resultados varían entre individuos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Mirror test",
+     "u": "https://en.wikipedia.org/wiki/Mirror_test"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "c-cuervos-herramientas",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Inteligencia animal",
+   "level": 2,
+   "title": "Algunos cuervos fabrican sus propias herramientas",
+   "desc": "Los cuervos de Nueva Caledonia moldean ramas y hojas para sacar insectos.",
+   "body": "Estos cuervos tallan ganchos en ramitas y recortan hojas para crear herramientas con las que extraen larvas de agujeros. En experimentos, han resuelto problemas de varios pasos. Son considerados uno de los animales no primates más hábiles con herramientas.",
+   "sources": [
+    {
+     "t": "Wikipedia — New Caledonian crow",
+     "u": "https://en.wikipedia.org/wiki/New_Caledonian_crow"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "c-danza-abejas",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Insectos",
+   "level": 2,
+   "title": "Las abejas se indican dónde hay comida bailando",
+   "desc": "La «danza del contoneo» comunica dirección y distancia. Su descubridor ganó el Nobel en 1973.",
+   "body": "Una abeja que encuentra flores vuelve a la colmena y realiza un baile en forma de ocho. El ángulo de la danza indica la dirección respecto al Sol, y la duración del contoneo, la distancia. Karl von Frisch descifró este lenguaje y compartió el Premio Nobel de Fisiología o Medicina en 1973.",
+   "sources": [
+    {
+     "t": "Wikipedia — Waggle dance",
+     "u": "https://en.wikipedia.org/wiki/Waggle_dance"
+    },
+    {
+     "t": "Wikipedia — Karl von Frisch",
+     "u": "https://en.wikipedia.org/wiki/Karl_von_Frisch"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "c-ballena-azul",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Vida marina",
+   "level": 1,
+   "title": "La ballena azul es el animal más grande que se conoce",
+   "desc": "Puede superar los 30 metros de largo.",
+   "body": "La ballena azul supera en tamaño a cualquier dinosaurio conocido. A pesar de su enorme tamaño, se alimenta principalmente de krill, pequeños crustáceos, de los que puede comer varias toneladas al día. La caza comercial la llevó al borde de la extinción en el siglo XX; hoy está protegida.",
+   "sources": [
+    {
+     "t": "Wikipedia — Blue whale",
+     "u": "https://en.wikipedia.org/wiki/Blue_whale"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "c-nutria-piedras",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Mamíferos",
+   "level": 2,
+   "title": "Las nutrias marinas usan piedras como herramientas",
+   "desc": "Las usan para romper conchas mientras flotan boca arriba.",
+   "body": "La nutria marina coloca una piedra sobre su pecho y golpea contra ella almejas y erizos hasta abrirlos. Algunas guardan su piedra favorita en un pliegue de piel bajo el brazo. Además, tienen el pelaje más denso del reino animal, que las mantiene calientes en el agua fría.",
+   "sources": [
+    {
+     "t": "Wikipedia — Sea otter",
+     "u": "https://en.wikipedia.org/wiki/Sea_otter"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "c-hormigas-hongos",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Insectos",
+   "level": 2,
+   "title": "Las hormigas cortadoras de hojas son agricultoras",
+   "desc": "No se comen las hojas: las usan para cultivar un hongo del que se alimentan.",
+   "body": "Estas hormigas, comunes en América, cortan trozos de hojas y los llevan al hormiguero, donde los usan como abono para un jardín de hongos. Las colonias pueden tener millones de individuos con tareas especializadas. Practicaban la agricultura millones de años antes que los humanos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Leafcutter ant",
+     "u": "https://en.wikipedia.org/wiki/Leafcutter_ant"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "c-ornitorrinco",
+   "type": "curiosidad",
+   "cat": "animales",
+   "sub": "Mamíferos",
+   "level": 1,
+   "title": "El ornitorrinco es un mamífero que pone huevos",
+   "desc": "Además, detecta a sus presas por los campos eléctricos que generan.",
+   "body": "El ornitorrinco, de Australia, es uno de los pocos mamíferos que ponen huevos, junto con los equidnas. Su pico tiene receptores que detectan la electricidad de los músculos de sus presas bajo el agua. Los machos tienen un espolón venenoso en las patas traseras. Cuando se describió por primera vez en Europa, algunos científicos pensaron que era una falsificación.",
+   "sources": [
+    {
+     "t": "Wikipedia — Platypus",
+     "u": "https://en.wikipedia.org/wiki/Platypus"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "m-lemmings",
+   "type": "mito",
+   "cat": "animales",
+   "sub": "Mamíferos",
+   "level": 2,
+   "title": "«Los lemmings se suicidan en masa tirándose por acantilados»",
+   "desc": "Falso. El mito es antiguo, pero lo hizo famoso un documental de Disney de 1958 en el que la escena fue preparada.",
+   "body": "Las poblaciones de lemmings varían mucho y, en algunos años, migran en grandes números; algunos se ahogan al cruzar ríos o lagos. Pero no hay un suicidio colectivo. La idea ya circulaba en el siglo XIX, y se popularizó con White Wilderness, un documental de Disney de 1958 que ganó un Óscar: sus productores arrojaron a los lemmings por un acantilado para filmar la escena.",
+   "sources": [
+    {
+     "t": "Wikipedia — Lemming",
+     "u": "https://en.wikipedia.org/wiki/Lemming"
+    }
+   ],
+   "verdict": "falso",
+   "status": "publicado",
+   "date": "2026-10-28"
+  },
+  {
+   "id": "c-aristoteles-alejandro",
+   "type": "curiosidad",
+   "cat": "filosofia",
+   "sub": "Antigua Grecia",
+   "level": 1,
+   "title": "Aristóteles fue maestro de Alejandro Magno",
+   "desc": "Fue llamado por Filipo II de Macedonia para educar a su hijo.",
+   "body": "Aristóteles, discípulo de Platón, enseñó al joven Alejandro durante varios años. Después fundó en Atenas su propia escuela, el Liceo. Escribió sobre lógica, biología, política, ética y poesía, y su influencia en el pensamiento occidental duró casi dos mil años.",
+   "sources": [
+    {
+     "t": "Wikipedia — Aristotle",
+     "u": "https://en.wikipedia.org/wiki/Aristotle"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-sisifo-camus",
+   "type": "curiosidad",
+   "cat": "filosofia",
+   "sub": "Existencialismo",
+   "level": 2,
+   "title": "Para Camus, hay que imaginar a Sísifo feliz",
+   "desc": "En su ensayo de 1942 usó el mito griego para hablar del sentido de la vida.",
+   "body": "Según el mito, Sísifo fue condenado a empujar una roca cuesta arriba eternamente, solo para verla caer una y otra vez. Albert Camus lo convirtió en un símbolo del absurdo: la vida no tiene un sentido dado, pero podemos asumirla con lucidez y rebeldía. Su ensayo termina con la frase de que hay que imaginar a Sísifo feliz.",
+   "sources": [
+    {
+     "t": "Wikipedia — The Myth of Sisyphus",
+     "u": "https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "c-apuesta-pascal",
+   "type": "curiosidad",
+   "cat": "filosofia",
+   "sub": "Filosofía de la religión",
+   "level": 2,
+   "title": "Pascal propuso «apostar» por la existencia de Dios",
+   "desc": "Su argumento compara lo que se gana y se pierde al creer o no creer.",
+   "body": "El matemático y filósofo francés Blaise Pascal argumentó que, si Dios existe, creer trae una ganancia infinita, y si no existe, se pierde poco. Por eso, según él, lo racional sería apostar por creer. El argumento ha recibido muchas críticas, por ejemplo, que no indica en qué dios creer.",
+   "sources": [
+    {
+     "t": "Wikipedia — Pascal's wager",
+     "u": "https://en.wikipedia.org/wiki/Pascal%27s_wager"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "c-dilema-prisionero",
+   "type": "curiosidad",
+   "cat": "filosofia",
+   "sub": "Teoría de juegos",
+   "level": 3,
+   "title": "El «dilema del prisionero» muestra por qué cooperar es difícil aunque convenga",
+   "desc": "Fue formulado en 1950 en la RAND Corporation y bautizado por Albert Tucker.",
+   "body": "Dos detenidos, sin poder comunicarse, deben decidir si delatar al otro o guardar silencio. A cada uno, individualmente, le conviene delatar; pero si ambos lo hacen, terminan peor que si los dos hubieran callado. El dilema se usa para estudiar desde negociaciones hasta acuerdos entre países y comportamiento animal.",
+   "sources": [
+    {
+     "t": "Wikipedia — Prisoner's dilemma",
+     "u": "https://en.wikipedia.org/wiki/Prisoner%27s_dilemma"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-05"
+  },
+  {
+   "id": "c-tao-te-king",
+   "type": "curiosidad",
+   "cat": "filosofia",
+   "sub": "Filosofía china",
+   "level": 2,
+   "title": "El Tao Te King es uno de los libros más traducidos del mundo",
+   "desc": "Se atribuye a Laozi, figura semilegendaria de la antigua China.",
+   "body": "El texto, de unos 5.000 caracteres, es la base del taoísmo. Habla del Tao, «el camino», y de vivir en armonía con la naturaleza, con ideas como la no acción forzada (wu wei). Su autoría y fecha exactas son debatidas por los historiadores.",
+   "sources": [
+    {
+     "t": "Wikipedia — Tao Te Ching",
+     "u": "https://en.wikipedia.org/wiki/Tao_Te_Ching"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-29"
+  },
+  {
+   "id": "c-gato-schrodinger",
+   "type": "curiosidad",
+   "cat": "filosofia",
+   "sub": "Filosofía de la ciencia",
+   "level": 2,
+   "title": "El gato de Schrödinger se inventó para criticar una idea, no para defenderla",
+   "desc": "Erwin Schrödinger lo propuso en 1935 para mostrar lo absurda que le parecía cierta interpretación cuántica.",
+   "body": "Schrödinger imaginó un gato en una caja con un mecanismo que podía matarlo según un evento cuántico al azar. Según algunas interpretaciones, hasta abrir la caja el gato estaría «vivo y muerto a la vez». Su intención era señalar que aplicar esa idea a objetos cotidianos llevaba a conclusiones ridículas. Nunca se hizo con un gato real.",
+   "sources": [
+    {
+     "t": "Wikipedia — Schrödinger's cat",
+     "u": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "c-bentham-autoicono",
+   "type": "curiosidad",
+   "cat": "filosofia",
+   "sub": "Utilitarismo",
+   "level": 2,
+   "title": "El cuerpo del filósofo Jeremy Bentham se exhibe en una universidad",
+   "desc": "Él mismo pidió ser conservado y expuesto: se le llama su «auto-icono».",
+   "body": "Bentham, fundador del utilitarismo moderno, dejó instrucciones para que su esqueleto, vestido con su ropa, se conservara tras su muerte en 1832. Hoy su «auto-icono» se exhibe en el University College de Londres. La cabeza original, mal conservada, se sustituyó por una de cera.",
+   "sources": [
+    {
+     "t": "Wikipedia — Jeremy Bentham",
+     "u": "https://en.wikipedia.org/wiki/Jeremy_Bentham"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "c-montaigne-ensayo",
+   "type": "curiosidad",
+   "cat": "filosofia",
+   "sub": "Renacimiento",
+   "level": 2,
+   "title": "La palabra «ensayo» como género literario se la debemos a Montaigne",
+   "desc": "En 1580 publicó sus «Essais», que significa «intentos» en francés.",
+   "body": "Michel de Montaigne escribió reflexiones personales sobre todo tipo de temas, desde la amistad hasta la muerte, partiendo de su propia experiencia. Las llamó «essais», es decir, pruebas o intentos. Su estilo libre y escéptico inspiró a muchos escritores y dio nombre al género.",
+   "sources": [
+    {
+     "t": "Wikipedia — Michel de Montaigne",
+     "u": "https://en.wikipedia.org/wiki/Michel_de_Montaigne"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-13"
+  },
+  {
+   "id": "c-stonehenge",
+   "type": "curiosidad",
+   "cat": "misterios",
+   "sub": "Arqueología",
+   "level": 2,
+   "title": "Algunas piedras de Stonehenge viajaron más de 200 km",
+   "desc": "Las llamadas «piedras azules» proceden de Gales.",
+   "body": "Stonehenge se construyó en varias fases, aproximadamente entre el 3000 y el 2000 a. C. Las piedras azules más pequeñas se trajeron desde las colinas de Preseli, en Gales. No se sabe con certeza cómo las transportaron ni para qué servía exactamente el monumento, aunque está alineado con la salida del Sol en el solsticio de verano.",
+   "sources": [
+    {
+     "t": "Wikipedia — Stonehenge",
+     "u": "https://en.wikipedia.org/wiki/Stonehenge"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-06"
+  },
+  {
+   "id": "c-moai-caminar",
+   "type": "curiosidad",
+   "cat": "misterios",
+   "sub": "Arqueología",
+   "level": 2,
+   "title": "Los moáis de la Isla de Pascua pudieron haber «caminado» hasta su lugar",
+   "desc": "Experimentos muestran que se pueden mover balanceándolos de pie con cuerdas.",
+   "body": "Durante años se preguntó cómo se trasladaron estatuas de varias toneladas sin ruedas ni animales grandes. Investigadores mostraron que una réplica podía avanzar de pie balanceándose con ayuda de cuerdas, como coincide con relatos rapanui que dicen que los moáis «caminaban». La hipótesis tiene apoyo, aunque el debate sigue.",
+   "sources": [
+    {
+     "t": "Wikipedia — Moai",
+     "u": "https://en.wikipedia.org/wiki/Moai"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-30"
+  },
+  {
+   "id": "c-gobekli-tepe",
+   "type": "curiosidad",
+   "cat": "misterios",
+   "sub": "Arqueología",
+   "level": 2,
+   "title": "Hay un templo de piedra miles de años más antiguo que las pirámides",
+   "desc": "Göbekli Tepe, en Turquía, se construyó hacia el 9500 a. C.",
+   "body": "Sus pilares de piedra en forma de T, decorados con animales tallados, fueron levantados por grupos de cazadores-recolectores, antes de que existiera la agricultura en la zona. El hallazgo obligó a replantear la idea de que los grandes monumentos solo surgieron después de la agricultura.",
+   "sources": [
+    {
+     "t": "Wikipedia — Göbekli Tepe",
+     "u": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-23"
+  },
+  {
+   "id": "c-rayo-globular",
+   "type": "curiosidad",
+   "cat": "misterios",
+   "sub": "Fenómenos naturales",
+   "level": 2,
+   "title": "El «rayo globular» es un fenómeno real que la ciencia aún no explica del todo",
+   "desc": "Son esferas luminosas que aparecen durante tormentas.",
+   "body": "Hay muchos testimonios de bolas de luz que flotan durante segundos durante tormentas eléctricas. Durante mucho tiempo fueron difíciles de estudiar porque son raras e impredecibles. En 2012, científicos chinos registraron por casualidad el espectro de uno. Hay varias hipótesis, pero ninguna explicación definitiva.",
+   "sources": [
+    {
+     "t": "Wikipedia — Ball lightning",
+     "u": "https://en.wikipedia.org/wiki/Ball_lightning"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "c-bloop",
+   "type": "curiosidad",
+   "cat": "misterios",
+   "sub": "Misterios resueltos",
+   "level": 2,
+   "title": "El misterioso sonido submarino «Bloop» tenía una explicación helada",
+   "desc": "Se grabó en 1997 en el Pacífico; hoy se atribuye a un desprendimiento de hielo.",
+   "body": "El sonido, extremadamente potente y de baja frecuencia, fue captado por hidrófonos de la agencia estadounidense NOAA. Por su intensidad, se especuló con un animal gigante desconocido. Análisis posteriores concluyeron que coincide con los sonidos de grandes masas de hielo que se fracturan en la Antártida.",
+   "sources": [
+    {
+     "t": "Wikipedia — Bloop",
+     "u": "https://en.wikipedia.org/wiki/Bloop"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-14"
+  },
+  {
+   "id": "c-disco-festo",
+   "type": "curiosidad",
+   "cat": "misterios",
+   "sub": "Escrituras perdidas",
+   "level": 3,
+   "title": "Un disco de arcilla de Creta tiene un texto que nadie ha podido leer",
+   "desc": "El disco de Festo tiene símbolos estampados en espiral en ambas caras.",
+   "body": "Encontrado en 1908 en el palacio minoico de Festo, en Creta, el disco tiene 242 signos impresos con sellos, una especie de imprenta muy antigua. Al ser un objeto único, sin otros textos con los que compararlo, es casi imposible descifrarlo. Algunos investigadores incluso han dudado de su autenticidad.",
+   "sources": [
+    {
+     "t": "Wikipedia — Phaistos Disc",
+     "u": "https://en.wikipedia.org/wiki/Phaistos_Disc"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-07"
+  },
+  {
+   "id": "m-nessie-foto",
+   "type": "mito",
+   "cat": "misterios",
+   "sub": "Leyendas modernas",
+   "level": 1,
+   "title": "«La famosa foto del monstruo del lago Ness es real»",
+   "desc": "Falso. La «foto del cirujano» de 1934 resultó ser un montaje con un submarino de juguete.",
+   "body": "La fotografía más famosa del monstruo, publicada en 1934, se atribuyó a un médico para darle credibilidad. En 1994 se reveló que era un fraude: la figura era un modelo con un cuello de madera montado sobre un submarino de juguete. Nunca se han encontrado pruebas científicas de la existencia del monstruo.",
+   "sources": [
+    {
+     "t": "Wikipedia — Loch Ness Monster",
+     "u": "https://en.wikipedia.org/wiki/Loch_Ness_Monster"
+    }
+   ],
+   "verdict": "falso",
+   "status": "publicado",
+   "date": "2026-10-31"
+  },
+  {
+   "id": "m-roswell",
+   "type": "mito",
+   "cat": "misterios",
+   "sub": "Leyendas modernas",
+   "level": 1,
+   "title": "«En Roswell se estrelló una nave extraterrestre en 1947»",
+   "desc": "Falso. Según los informes oficiales, eran restos de un globo de un proyecto militar secreto.",
+   "body": "En 1947, cerca de Roswell, Nuevo México, se encontraron restos que el ejército describió primero como un «disco volador» y luego como un globo meteorológico. En los años noventa, la Fuerza Aérea de EE. UU. explicó que se trataba del Proyecto Mogul, globos secretos para detectar pruebas nucleares soviéticas. No hay pruebas de vida extraterrestre en el caso.",
+   "sources": [
+    {
+     "t": "Wikipedia — Roswell incident",
+     "u": "https://en.wikipedia.org/wiki/Roswell_incident"
+    }
+   ],
+   "verdict": "falso",
+   "status": "publicado",
+   "date": "2026-10-24"
+  },
+  {
+   "id": "c-primeras-monedas",
+   "type": "curiosidad",
+   "cat": "economia",
+   "sub": "Historia del dinero",
+   "level": 2,
+   "title": "Las primeras monedas se acuñaron en Lidia, en la actual Turquía",
+   "desc": "Eran de electro, una mezcla natural de oro y plata, hacia el siglo VII a. C.",
+   "body": "Antes de las monedas se usaban metales pesados al peso o el trueque. En el reino de Lidia se empezaron a fabricar piezas con un peso estándar y un sello que garantizaba su valor. Su rey más famoso, Creso, quedó como símbolo de riqueza: «ser más rico que Creso».",
+   "sources": [
+    {
+     "t": "Wikipedia — Lydia",
+     "u": "https://en.wikipedia.org/wiki/Lydia"
+    },
+    {
+     "t": "Wikipedia — Croesus",
+     "u": "https://en.wikipedia.org/wiki/Croesus"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-22"
+  },
+  {
+   "id": "c-dolar-taler",
+   "type": "curiosidad",
+   "cat": "economia",
+   "sub": "Etimología",
+   "level": 2,
+   "title": "La palabra «dólar» viene de una moneda de plata de Bohemia",
+   "desc": "Del «tálero», acuñado en el valle de Joachimsthal desde el siglo XVI.",
+   "body": "Las monedas de plata de Joachimsthal, en la actual República Checa, se llamaron «joachimsthaler» y luego simplemente «thaler». De ahí derivaron nombres en varios idiomas, incluido «dollar» en inglés. Muchas monedas de todo el mundo, como el dólar estadounidense, heredaron el nombre.",
+   "sources": [
+    {
+     "t": "Wikipedia — Thaler",
+     "u": "https://en.wikipedia.org/wiki/Thaler"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "c-signo-peso",
+   "type": "curiosidad",
+   "cat": "economia",
+   "sub": "Etimología",
+   "level": 2,
+   "title": "El signo $ probablemente nació del peso hispanoamericano",
+   "desc": "Una de las teorías más aceptadas lo deriva de la abreviatura «ps».",
+   "body": "Los pesos españoles circulaban por todo el continente americano y se usaban también en Estados Unidos. Según una explicación muy difundida, los comerciantes abreviaban «pesos» como «ps», y con la escritura rápida la «s» se fue superponiendo a la «p» hasta formar el símbolo $. Hay otras hipótesis, pero esta es de las más aceptadas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Dollar sign",
+     "u": "https://en.wikipedia.org/wiki/Dollar_sign"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-08"
+  },
+  {
+   "id": "c-voc-acciones",
+   "type": "curiosidad",
+   "cat": "economia",
+   "sub": "Historia económica",
+   "level": 2,
+   "title": "La primera empresa en ofrecer acciones al público nació en 1602",
+   "desc": "Fue la Compañía Holandesa de las Indias Orientales.",
+   "body": "La Compañía de las Indias Orientales neerlandesa (VOC) permitió que cualquiera comprara participaciones y las negociara. Para ello surgió en Ámsterdam uno de los primeros mercados de valores modernos. La compañía llegó a ser enormemente poderosa, con barcos y ejército propios, y su actividad tuvo también un lado violento y colonial.",
+   "sources": [
+    {
+     "t": "Wikipedia — Dutch East India Company",
+     "u": "https://en.wikipedia.org/wiki/Dutch_East_India_Company"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-01"
+  },
+  {
+   "id": "c-diners-club",
+   "type": "curiosidad",
+   "cat": "economia",
+   "sub": "Dinero",
+   "level": 1,
+   "title": "La tarjeta de crédito moderna nació de una cena sin cartera",
+   "desc": "Diners Club, fundada en 1950, fue la primera tarjeta de uso general.",
+   "body": "Según la historia de la empresa, Frank McNamara olvidó su cartera en una cena en Nueva York y pensó en una tarjeta para pagar en varios restaurantes. Diners Club comenzó en 1950 como una tarjeta de cartón aceptada en un puñado de locales. El relato de la cena se ha discutido, pero la empresa lo convirtió en leyenda.",
+   "sources": [
+    {
+     "t": "Wikipedia — Diners Club International",
+     "u": "https://en.wikipedia.org/wiki/Diners_Club_International"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-25"
+  },
+  {
+   "id": "c-mano-invisible",
+   "type": "curiosidad",
+   "cat": "economia",
+   "sub": "Teoría económica",
+   "level": 2,
+   "title": "Adam Smith apenas usó la famosa expresión «mano invisible»",
+   "desc": "Aparece solo una vez en La riqueza de las naciones.",
+   "body": "Hoy la «mano invisible» se asocia al libre mercado, pero Smith solo la mencionó una vez en su obra más famosa de 1776, y en contextos muy concretos en otros escritos. Gran parte de su significado actual se lo dieron economistas posteriores. Smith también escribió extensamente sobre moral y empatía.",
+   "sources": [
+    {
+     "t": "Wikipedia — Invisible hand",
+     "u": "https://en.wikipedia.org/wiki/Invisible_hand"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-23"
+  },
+  {
+   "id": "c-bien-veblen",
+   "type": "curiosidad",
+   "cat": "economia",
+   "sub": "Comportamiento económico",
+   "level": 3,
+   "title": "Hay productos que se venden más cuando suben de precio",
+   "desc": "Se llaman bienes de Veblen: su precio alto los convierte en símbolo de estatus.",
+   "body": "El economista Thorstein Veblen describió el «consumo ostentoso»: comprar cosas caras para mostrar riqueza. En artículos de lujo, como ciertos relojes o bolsos, un precio más bajo puede hacerlos menos deseables. Es una excepción a la regla general de que la demanda baja cuando sube el precio.",
+   "sources": [
+    {
+     "t": "Wikipedia — Veblen good",
+     "u": "https://en.wikipedia.org/wiki/Veblen_good"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "c-santa-sofia",
+   "type": "curiosidad",
+   "cat": "religion",
+   "sub": "Arquitectura religiosa",
+   "level": 2,
+   "title": "Santa Sofía ha sido iglesia, mezquita, museo y otra vez mezquita",
+   "desc": "Se construyó en Constantinopla en el año 537.",
+   "body": "Durante casi mil años fue la mayor catedral del mundo cristiano. Tras la conquista otomana de 1453 se convirtió en mezquita. En 1935, la Turquía republicana la transformó en museo, y en 2020 volvió a ser mezquita. Su enorme cúpula influyó en la arquitectura bizantina e islámica.",
+   "sources": [
+    {
+     "t": "Wikipedia — Hagia Sophia",
+     "u": "https://en.wikipedia.org/wiki/Hagia_Sophia"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-09"
+  },
+  {
+   "id": "c-angkor-wat",
+   "type": "curiosidad",
+   "cat": "religion",
+   "sub": "Arquitectura religiosa",
+   "level": 2,
+   "title": "El monumento religioso más grande del mundo está en Camboya",
+   "desc": "Angkor Wat se construyó como templo hindú y luego se convirtió en budista.",
+   "body": "Fue levantado en el siglo XII por el rey Suryavarman II del Imperio jemer, dedicado al dios Vishnu. Con el tiempo pasó a ser un centro budista. Es tan importante para Camboya que aparece en su bandera nacional.",
+   "sources": [
+    {
+     "t": "Wikipedia — Angkor Wat",
+     "u": "https://en.wikipedia.org/wiki/Angkor_Wat"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-02"
+  },
+  {
+   "id": "c-capitulos-biblia",
+   "type": "curiosidad",
+   "cat": "religion",
+   "sub": "Historia del libro",
+   "level": 2,
+   "title": "La Biblia no se escribió con capítulos y versículos",
+   "desc": "Los capítulos se añadieron en el siglo XIII y los versículos numerados, en el XVI.",
+   "body": "Los textos originales no tenían esas divisiones. El arzobispo de Canterbury Stephen Langton popularizó la división en capítulos hacia el siglo XIII. La numeración de versículos del Nuevo Testamento que usamos hoy se debe en gran parte al impresor francés Robert Estienne, en el siglo XVI.",
+   "sources": [
+    {
+     "t": "Wikipedia — Chapters and verses of the Bible",
+     "u": "https://en.wikipedia.org/wiki/Chapters_and_verses_of_the_Bible"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-26"
+  },
+  {
+   "id": "c-san-nicolas",
+   "type": "curiosidad",
+   "cat": "religion",
+   "sub": "Tradiciones",
+   "level": 1,
+   "title": "Santa Claus está inspirado en un obispo del siglo IV",
+   "desc": "San Nicolás de Mira, conocido por su generosidad, vivió en la actual Turquía.",
+   "body": "Las leyendas sobre San Nicolás regalando en secreto dieron origen a tradiciones en Europa. En los Países Bajos se le llama Sinterklaas, y los inmigrantes neerlandeses llevaron la tradición a Nueva York, donde evolucionó hasta el Santa Claus actual, con la ayuda de poemas e ilustraciones del siglo XIX.",
+   "sources": [
+    {
+     "t": "Wikipedia — Saint Nicholas",
+     "u": "https://en.wikipedia.org/wiki/Saint_Nicholas"
+    },
+    {
+     "t": "Wikipedia — Santa Claus",
+     "u": "https://en.wikipedia.org/wiki/Santa_Claus"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-24"
+  },
+  {
+   "id": "c-altagracia",
+   "type": "curiosidad",
+   "cat": "religion",
+   "sub": "República Dominicana",
+   "level": 1,
+   "title": "La protectora espiritual de los dominicanos es la Virgen de la Altagracia",
+   "desc": "Su fiesta es el 21 de enero, día no laborable en República Dominicana.",
+   "body": "La devoción a la Virgen de la Altagracia en La Española se remonta a comienzos del siglo XVI: según la tradición, la imagen llegó a Salvaleón de Higüey hacia el año 1500. Cada 21 de enero, fieles de todo el país viajan a la Basílica Catedral de Nuestra Señora de la Altagracia, en la provincia La Altagracia.",
+   "sources": [
+    {
+     "t": "Wikipedia — Our Lady of Altagracia",
+     "u": "https://en.wikipedia.org/wiki/Our_Lady_of_Altagracia"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-17"
+  },
+  {
+   "id": "c-langar",
+   "type": "curiosidad",
+   "cat": "religion",
+   "sub": "Sijismo",
+   "level": 2,
+   "title": "En los templos sijs cualquiera puede comer gratis",
+   "desc": "Se llama langar: una cocina comunitaria abierta a todos, sin importar religión, casta o condición.",
+   "body": "Cada gurdwara, o templo sij, tiene un langar donde se sirven comidas gratuitas a cualquier persona. Todos comen sentados en el suelo, juntos, como signo de igualdad. La cocina la mantienen voluntarios de la comunidad como forma de servicio desinteresado, llamado seva, y la comida es siempre vegetariana.",
+   "sources": [
+    {
+     "t": "Wikipedia — Langar (Sikhism)",
+     "u": "https://en.wikipedia.org/wiki/Langar_(Sikhism)"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "c-torii",
+   "type": "curiosidad",
+   "cat": "religion",
+   "sub": "Sintoísmo",
+   "level": 1,
+   "title": "Las puertas rojas de Japón marcan la entrada a un espacio sagrado",
+   "desc": "Se llaman torii y están en los santuarios sintoístas.",
+   "body": "Un torii señala el paso del mundo cotidiano a un lugar sagrado. Muchos están pintados de color bermellón. El santuario Fushimi Inari de Kioto es famoso por sus miles de torii donados por personas y empresas, que forman túneles por la montaña.",
+   "sources": [
+    {
+     "t": "Wikipedia — Torii",
+     "u": "https://en.wikipedia.org/wiki/Torii"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "c-zoroastrismo",
+   "type": "curiosidad",
+   "cat": "religion",
+   "sub": "Religiones antiguas",
+   "level": 2,
+   "title": "El zoroastrismo es una de las religiones más antiguas que siguen practicándose",
+   "desc": "Fue la religión principal de los imperios persas.",
+   "body": "Se basa en las enseñanzas de Zoroastro (Zaratustra) y en la lucha entre el bien y el mal. Sus seguidores mantienen el fuego encendido en sus templos como símbolo de pureza. Hoy quedan comunidades relativamente pequeñas, sobre todo en la India, donde se les conoce como parsis, y en Irán.",
+   "sources": [
+    {
+     "t": "Wikipedia — Zoroastrianism",
+     "u": "https://en.wikipedia.org/wiki/Zoroastrianism"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "c-ajedrez-india",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "Juegos",
+   "level": 2,
+   "title": "El ajedrez nació en la India hace unos 1.500 años",
+   "desc": "Su antepasado se llamaba chaturanga.",
+   "body": "El chaturanga se jugaba en la India alrededor del siglo VI. Pasó a Persia y al mundo árabe, y de ahí llegó a Europa a través de la península ibérica e Italia. La reina, que antes era una pieza débil, se convirtió en la más poderosa del tablero a finales del siglo XV, en España.",
+   "sources": [
+    {
+     "t": "Wikipedia — Chess",
+     "u": "https://en.wikipedia.org/wiki/Chess"
+    },
+    {
+     "t": "Wikipedia — Chaturanga",
+     "u": "https://en.wikipedia.org/wiki/Chaturanga"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "c-sandwich",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "Gastronomía",
+   "level": 1,
+   "title": "El sándwich lleva el nombre de un conde inglés",
+   "desc": "John Montagu, cuarto conde de Sandwich, popularizó comer carne entre panes en el siglo XVIII.",
+   "body": "Según la anécdota, el conde pedía carne entre dos rebanadas de pan para no tener que levantarse de la mesa de juego, o de su escritorio, según otras versiones. Comer cosas entre panes es mucho más antiguo, pero su nombre quedó unido a esta forma de comer.",
+   "sources": [
+    {
+     "t": "Wikipedia — Sandwich",
+     "u": "https://en.wikipedia.org/wiki/Sandwich"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "c-cafe-etiopia",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "Gastronomía",
+   "level": 1,
+   "title": "El café es originario de Etiopía",
+   "desc": "La leyenda cuenta que un pastor llamado Kaldi notó lo enérgicas que se ponían sus cabras.",
+   "body": "La planta del café arábica es originaria de las tierras altas de Etiopía. Las primeras pruebas fiables del consumo de café como bebida proceden de Yemen, en el siglo XV. La historia del pastor Kaldi es una leyenda que apareció mucho después.",
+   "sources": [
+    {
+     "t": "Wikipedia — History of coffee",
+     "u": "https://en.wikipedia.org/wiki/History_of_coffee"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "c-chocolate-nahuatl",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "Gastronomía",
+   "level": 1,
+   "title": "El chocolate se bebía amargo y con especias",
+   "desc": "Los mayas y los mexicas lo tomaban sin azúcar, a veces con chile.",
+   "body": "El cacao se cultivaba en Mesoamérica desde hace miles de años y sus semillas llegaron a usarse incluso como moneda. La bebida era espesa, espumosa y amarga. Los españoles la llevaron a Europa en el siglo XVI, donde se empezó a endulzar con azúcar. La palabra «chocolate» tiene origen náhuatl.",
+   "sources": [
+    {
+     "t": "Wikipedia — Chocolate",
+     "u": "https://en.wikipedia.org/wiki/Chocolate"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "c-tomate-venenoso",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "Gastronomía",
+   "level": 2,
+   "title": "En Europa hubo quien creyó que el tomate era venenoso",
+   "desc": "Llegó desde América en el siglo XVI y tardó en aceptarse como alimento en algunas regiones.",
+   "body": "El tomate pertenece a la familia de las solanáceas, como plantas venenosas conocidas en Europa, y eso generó desconfianza. Durante un tiempo se cultivó sobre todo como planta ornamental en algunos lugares. La palabra «tomate» viene del náhuatl «tomatl».",
+   "sources": [
+    {
+     "t": "Wikipedia — Tomato",
+     "u": "https://en.wikipedia.org/wiki/Tomato"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-10-28"
+  },
+  {
+   "id": "c-alfabeto-fenicio",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "Escritura",
+   "level": 2,
+   "title": "Nuestras letras descienden de un alfabeto fenicio de hace unos 3.000 años",
+   "desc": "Los griegos lo adaptaron añadiendo vocales; de ahí vino el alfabeto latino.",
+   "body": "Los fenicios, comerciantes del Mediterráneo oriental, usaban un alfabeto de consonantes. Los griegos lo adoptaron y añadieron letras para las vocales. Del alfabeto griego derivaron el etrusco y el latino, que es el que usamos hoy en español. La palabra «alfabeto» viene de las dos primeras letras griegas: alfa y beta.",
+   "sources": [
+    {
+     "t": "Wikipedia — Phoenician alphabet",
+     "u": "https://en.wikipedia.org/wiki/Phoenician_alphabet"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "c-carnaval-vega",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "República Dominicana",
+   "level": 1,
+   "title": "El Carnaval de La Vega es uno de los más antiguos y famosos del país",
+   "desc": "Sus personajes característicos son los diablos cojuelos.",
+   "body": "El carnaval dominicano se celebra durante febrero y coincide con las fiestas de la independencia. En La Vega destacan los diablos cojuelos, con máscaras elaboradas y vejigas con las que golpean a los transeúntes. Cada región tiene sus propios personajes, como los Lechones de Santiago.",
+   "sources": [
+    {
+     "t": "Wikipedia — Dominican Carnival",
+     "u": "https://en.wikipedia.org/wiki/Dominican_Carnival"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "c-gabriela-mistral",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "Literatura",
+   "level": 2,
+   "title": "El primer Nobel de Literatura de América Latina fue para una mujer",
+   "desc": "La chilena Gabriela Mistral lo recibió en 1945.",
+   "body": "Gabriela Mistral era poeta, maestra y diplomática. Su obra trata temas como el amor, la maternidad, la infancia y la identidad latinoamericana. Fue la primera persona de América Latina en ganar el Nobel de Literatura, seis años antes de que lo recibiera cualquier otro latinoamericano.",
+   "sources": [
+    {
+     "t": "Wikipedia — Gabriela Mistral",
+     "u": "https://en.wikipedia.org/wiki/Gabriela_Mistral"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "c-guernica",
+   "type": "curiosidad",
+   "cat": "cultura",
+   "sub": "Arte",
+   "level": 2,
+   "title": "Picasso pintó el «Guernica» en poco más de un mes",
+   "desc": "Es una respuesta al bombardeo de la villa vasca de Guernica en 1937.",
+   "body": "El 26 de abril de 1937, durante la Guerra Civil Española, aviones alemanes e italianos que apoyaban al bando sublevado bombardearon Guernica. Picasso pintó el enorme lienzo en blanco, negro y grises para la Exposición Internacional de París de ese año. Hoy está en el Museo Reina Sofía de Madrid.",
+   "sources": [
+    {
+     "t": "Wikipedia — Guernica (Picasso)",
+     "u": "https://en.wikipedia.org/wiki/Guernica_(Picasso)"
+    }
+   ],
+   "status": "publicado",
+   "date": "2026-11-05"
   }
  ],
  "questions": [
@@ -6666,6 +8888,1798 @@ window.SQ_CONTENT = {
    ],
    "a": 1,
    "exp": "Entre 1912 y 1948 hubo competencias de arte: arquitectura, literatura, música, pintura y escultura."
+  },
+  {
+   "id": "q167",
+   "cat": "ciencia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-marie-curie",
+   "q": "¿En qué dos ciencias ganó premios Nobel Marie Curie?",
+   "o": [
+    "Medicina y Física",
+    "Física y Química",
+    "Química y Literatura",
+    "Matemáticas y Física"
+   ],
+   "a": 1,
+   "exp": "Ganó el Nobel de Física en 1903 y el de Química en 1911."
+  },
+  {
+   "id": "q168",
+   "cat": "historia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-pompeya",
+   "q": "¿Qué volcán sepultó Pompeya en el año 79?",
+   "o": [
+    "El Etna",
+    "El Vesubio",
+    "El Estrómboli",
+    "El Teide"
+   ],
+   "a": 1,
+   "exp": "La erupción del Vesubio enterró Pompeya y Herculano, que hoy son una ventana única a la vida cotidiana romana."
+  },
+  {
+   "id": "q169",
+   "cat": "psicologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-milgram",
+   "q": "En el experimento de Milgram, ¿qué porcentaje llegó a la descarga máxima en la versión más conocida?",
+   "o": [
+    "5%",
+    "25%",
+    "65%",
+    "95%"
+   ],
+   "a": 2,
+   "exp": "En el experimento original, el 65% de los participantes llegó hasta la descarga máxima de 450 voltios."
+  },
+  {
+   "id": "q170",
+   "cat": "misterios",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-tunguska",
+   "q": "¿Por qué la explosión de Tunguska no dejó cráter?",
+   "o": [
+    "Porque cayó al agua",
+    "Porque el objeto explotó en el aire",
+    "Porque nunca ocurrió",
+    "Porque se rellenó con nieve"
+   ],
+   "a": 1,
+   "exp": "La explicación más aceptada es un asteroide o cometa que estalló en el aire antes de tocar el suelo."
+  },
+  {
+   "id": "q171",
+   "cat": "economia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-mansa-musa",
+   "q": "¿Qué ocurrió en El Cairo tras el paso de Mansa Musa en 1324?",
+   "o": [
+    "Una guerra",
+    "El precio del oro bajó",
+    "Se construyó una pirámide",
+    "Se fundó una universidad"
+   ],
+   "a": 1,
+   "exp": "Su peregrinación de 1324 se volvió legendaria en África, Oriente Medio y Europa."
+  },
+  {
+   "id": "q172",
+   "cat": "ciencia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-mercurio-liquido",
+   "q": "¿Qué metal es líquido a temperatura ambiente?",
+   "o": [
+    "Hierro",
+    "Mercurio",
+    "Aluminio",
+    "Plata"
+   ],
+   "a": 1,
+   "exp": "A presión y temperatura normales, ningún otro metal se mantiene líquido."
+  },
+  {
+   "id": "q173",
+   "cat": "ciencia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-protocolo-montreal",
+   "q": "¿Qué acuerdo de 1987 ayudó a proteger la capa de ozono?",
+   "o": [
+    "El Acuerdo de París",
+    "El Protocolo de Montreal",
+    "El Protocolo de Kioto",
+    "El Tratado de Roma"
+   ],
+   "a": 1,
+   "exp": "El Protocolo de Montreal de 1987 prohibió los gases que la destruían."
+  },
+  {
+   "id": "q174",
+   "cat": "ciencia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-newton-manzana",
+   "q": "Según el propio Newton, ¿qué hizo la manzana?",
+   "o": [
+    "Le golpeó la cabeza",
+    "Cayó y le hizo pensar en la gravedad",
+    "Se la comió",
+    "Nada, es un invento total"
+   ],
+   "a": 1,
+   "exp": "Verdad a medias. Newton contó que ver caer una manzana lo hizo pensar, pero no dijo que le golpeara."
+  },
+  {
+   "id": "q175",
+   "cat": "ciencia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-rontgen",
+   "q": "¿Quién recibió el primer Premio Nobel de Física, en 1901?",
+   "o": [
+    "Albert Einstein",
+    "Wilhelm Röntgen",
+    "Marie Curie",
+    "Max Planck"
+   ],
+   "a": 1,
+   "exp": "Wilhelm Röntgen descubrió los rayos X en 1895 y radiografió la mano de su esposa, Anna Bertha."
+  },
+  {
+   "id": "q176",
+   "cat": "ciencia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-mendeleev",
+   "q": "¿Qué hizo Mendeléyev en su tabla periódica de 1869?",
+   "o": [
+    "Ordenó los elementos por color",
+    "Dejó huecos y predijo elementos aún no descubiertos",
+    "Inventó los nombres en latín",
+    "Copió una tabla anterior"
+   ],
+   "a": 1,
+   "exp": "Y acertó: predijo las propiedades de elementos como el galio antes de que se descubrieran."
+  },
+  {
+   "id": "q177",
+   "cat": "ciencia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-cero-absoluto",
+   "q": "¿A cuántos grados Celsius equivale el cero absoluto?",
+   "o": [
+    "−100 °C",
+    "−273,15 °C",
+    "−459 °C",
+    "0 °C"
+   ],
+   "a": 1,
+   "exp": "Es el cero absoluto: −273,15 °C, o 0 kelvin."
+  },
+  {
+   "id": "q178",
+   "cat": "ciencia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-efecto-mariposa",
+   "q": "¿Qué científico popularizó la idea del «efecto mariposa»?",
+   "o": [
+    "Albert Einstein",
+    "Edward Lorenz",
+    "Stephen Hawking",
+    "Nikola Tesla"
+   ],
+   "a": 1,
+   "exp": "El meteorólogo Edward Lorenz descubrió que un cambio minúsculo podía alterar por completo un pronóstico."
+  },
+  {
+   "id": "q179",
+   "cat": "ciencia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-llantas-rayo",
+   "q": "¿Qué te protege de un rayo dentro de un carro cerrado?",
+   "o": [
+    "Las llantas de goma",
+    "La carrocería metálica",
+    "Los cristales",
+    "El aire acondicionado"
+   ],
+   "a": 1,
+   "exp": "Falso. Lo que protege es la carrocería metálica, que conduce la corriente por fuera."
+  },
+  {
+   "id": "q180",
+   "cat": "historia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-mongoles",
+   "q": "¿Quién fundó el Imperio mongol?",
+   "o": [
+    "Kublai Kan",
+    "Gengis Kan",
+    "Atila",
+    "Tamerlán"
+   ],
+   "a": 1,
+   "exp": "En el siglo XIII se extendía desde Asia oriental hasta Europa del Este."
+  },
+  {
+   "id": "q181",
+   "cat": "historia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-muro-berlin",
+   "q": "¿En qué año cayó el Muro de Berlín?",
+   "o": [
+    "1961",
+    "1975",
+    "1989",
+    "1991"
+   ],
+   "a": 2,
+   "exp": "Se levantó en 1961 y cayó el 9 de noviembre de 1989."
+  },
+  {
+   "id": "q182",
+   "cat": "historia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-tutankamon",
+   "q": "¿Quién descubrió la tumba de Tutankamón en 1922?",
+   "o": [
+    "Howard Carter",
+    "Jean-François Champollion",
+    "Heinrich Schliemann",
+    "Indiana Jones"
+   ],
+   "a": 0,
+   "exp": "Howard Carter la descubrió en 1922 en el Valle de los Reyes."
+  },
+  {
+   "id": "q183",
+   "cat": "historia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-carta-magna",
+   "q": "¿En qué año se selló la Carta Magna?",
+   "o": [
+    "1066",
+    "1215",
+    "1492",
+    "1776"
+   ],
+   "a": 1,
+   "exp": "La Carta Magna obligó al rey Juan a aceptar que también estaba sujeto a la ley."
+  },
+  {
+   "id": "q184",
+   "cat": "historia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-revolucion-haitiana",
+   "q": "¿En qué año declaró Haití su independencia?",
+   "o": [
+    "1776",
+    "1804",
+    "1844",
+    "1898"
+   ],
+   "a": 1,
+   "exp": "Declaró su independencia en 1804 tras la única revuelta de esclavizados que creó un Estado."
+  },
+  {
+   "id": "q185",
+   "cat": "historia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-independencia-rd",
+   "q": "¿Dónde se proclamó la independencia dominicana el 27 de febrero de 1844?",
+   "o": [
+    "En el Alcázar de Colón",
+    "En la Puerta del Conde",
+    "En Santiago",
+    "En La Romana"
+   ],
+   "a": 1,
+   "exp": "Se separó de Haití tras 22 años de unificación de la isla."
+  },
+  {
+   "id": "q186",
+   "cat": "historia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "m-maria-antonieta",
+   "q": "¿En qué obra aparece por primera vez la frase «que coman pasteles»?",
+   "o": [
+    "En una carta de María Antonieta",
+    "En las Confesiones de Rousseau",
+    "En un periódico de 1789",
+    "En la Biblia"
+   ],
+   "a": 1,
+   "exp": "Falso, según los historiadores. No hay ninguna prueba de que lo dijera."
+  },
+  {
+   "id": "q187",
+   "cat": "historia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-coliseo",
+   "q": "¿Cómo se llamaba oficialmente el Coliseo?",
+   "o": [
+    "Circo Máximo",
+    "Anfiteatro Flavio",
+    "Panteón",
+    "Foro Romano"
+   ],
+   "a": 1,
+   "exp": "Se calcula que albergaba entre 50.000 y 80.000 personas."
+  },
+  {
+   "id": "q188",
+   "cat": "psicologia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-sesgo-confirmacion",
+   "q": "¿Qué es el sesgo de confirmación?",
+   "o": [
+    "Olvidar lo que leemos",
+    "Buscar y valorar más la información que confirma lo que ya creemos",
+    "Confiar en los expertos",
+    "Dudar de todo"
+   ],
+   "a": 1,
+   "exp": "Se llama sesgo de confirmación y afecta incluso a personas muy preparadas."
+  },
+  {
+   "id": "q189",
+   "cat": "psicologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-efecto-halo",
+   "q": "¿Quién describió el efecto halo en 1920?",
+   "o": [
+    "Sigmund Freud",
+    "Edward Thorndike",
+    "Iván Pávlov",
+    "Carl Jung"
+   ],
+   "a": 1,
+   "exp": "Es el efecto halo, descrito por Edward Thorndike en 1920."
+  },
+  {
+   "id": "q190",
+   "cat": "psicologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-sobrecarga-eleccion",
+   "q": "¿Quién introdujo el concepto de «sobrecarga de elección» en 1970?",
+   "o": [
+    "Daniel Kahneman",
+    "Alvin Toffler",
+    "Sigmund Freud",
+    "Adam Smith"
+   ],
+   "a": 1,
+   "exp": "Se llama sobrecarga de elección. El término lo popularizó Alvin Toffler en 1970."
+  },
+  {
+   "id": "q191",
+   "cat": "psicologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-numero-dunbar",
+   "q": "¿Cuántas relaciones estables propone el número de Dunbar?",
+   "o": [
+    "Unas 15",
+    "Unas 150",
+    "Unas 1.500",
+    "Unas 15.000"
+   ],
+   "a": 1,
+   "exp": "Es el «número de Dunbar», propuesto por el antropólogo Robin Dunbar."
+  },
+  {
+   "id": "q192",
+   "cat": "psicologia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-deja-vu",
+   "q": "¿Qué significa «déjà vu»?",
+   "o": [
+    "Nunca visto",
+    "Ya visto",
+    "Visto en sueños",
+    "Mal visto"
+   ],
+   "a": 1,
+   "exp": "Es la sensación de haber vivido antes una situación que es nueva."
+  },
+  {
+   "id": "q193",
+   "cat": "psicologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-curva-olvido",
+   "q": "¿Quién describió la curva del olvido?",
+   "o": [
+    "Hermann Ebbinghaus",
+    "Jean Piaget",
+    "B. F. Skinner",
+    "William James"
+   ],
+   "a": 0,
+   "exp": "Hermann Ebbinghaus midió la «curva del olvido» en 1885 experimentando consigo mismo."
+  },
+  {
+   "id": "q194",
+   "cat": "psicologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-espectador",
+   "q": "¿Cómo se puede contrarrestar el efecto espectador en una emergencia?",
+   "o": [
+    "Gritando más fuerte",
+    "Pidiendo ayuda a una persona concreta",
+    "Esperando",
+    "Llamando a muchos a la vez sin señalar a nadie"
+   ],
+   "a": 1,
+   "exp": "Es el efecto espectador: la responsabilidad se diluye en el grupo."
+  },
+  {
+   "id": "q195",
+   "cat": "psicologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "m-memoria-fotografica",
+   "q": "¿Existe evidencia sólida de la memoria fotográfica perfecta en adultos?",
+   "o": [
+    "Sí, en muchos casos",
+    "No, no se ha demostrado",
+    "Solo en genios",
+    "Solo en músicos"
+   ],
+   "a": 1,
+   "exp": "No hay pruebas sólidas de que exista una memoria que funcione como una fotografía."
+  },
+  {
+   "id": "q196",
+   "cat": "universo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-luna-se-aleja",
+   "q": "¿Cómo se mide que la Luna se aleja de la Tierra?",
+   "o": [
+    "Con telescopios ópticos",
+    "Con láseres y reflectores dejados por el Apolo",
+    "Con satélites GPS",
+    "Midiendo las mareas"
+   ],
+   "a": 1,
+   "exp": "Lo sabemos gracias a espejos que dejaron los astronautas del programa Apolo."
+  },
+  {
+   "id": "q197",
+   "cat": "universo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-pluton",
+   "q": "¿En qué año dejó Plutón de ser considerado planeta?",
+   "o": [
+    "1930",
+    "1999",
+    "2006",
+    "2015"
+   ],
+   "a": 2,
+   "exp": "La Unión Astronómica Internacional lo reclasificó como «planeta enano»."
+  },
+  {
+   "id": "q198",
+   "cat": "universo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-andromeda-choque",
+   "q": "¿Con qué galaxia podría fusionarse la Vía Láctea en el futuro?",
+   "o": [
+    "La Nube de Magallanes",
+    "Andrómeda",
+    "La galaxia del Triángulo",
+    "Ninguna"
+   ],
+   "a": 1,
+   "exp": "Será un choque lento en el que muy pocas estrellas colisionarán directamente."
+  },
+  {
+   "id": "q199",
+   "cat": "universo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-halley",
+   "q": "¿Cuándo volverá a verse el cometa Halley?",
+   "o": [
+    "2030",
+    "2046",
+    "2061",
+    "2099"
+   ],
+   "a": 2,
+   "exp": "Su próxima visita será en 2061."
+  },
+  {
+   "id": "q200",
+   "cat": "universo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-gagarin",
+   "q": "¿Quién fue el primer ser humano en viajar al espacio?",
+   "o": [
+    "Neil Armstrong",
+    "Yuri Gagarin",
+    "Valentina Tereshkova",
+    "John Glenn"
+   ],
+   "a": 1,
+   "exp": "Yuri Gagarin dio una vuelta a la Tierra el 12 de abril de 1961."
+  },
+  {
+   "id": "q201",
+   "cat": "universo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-laika",
+   "q": "¿En qué nave viajó la perra Laika?",
+   "o": [
+    "Apolo 11",
+    "Sputnik 2",
+    "Vostok 1",
+    "Soyuz"
+   ],
+   "a": 1,
+   "exp": "Viajó en el Sputnik 2 en 1957. No había plan para traerla de vuelta."
+  },
+  {
+   "id": "q202",
+   "cat": "universo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-agujero-negro-foto",
+   "q": "¿De qué galaxia era el primer agujero negro fotografiado?",
+   "o": [
+    "Vía Láctea",
+    "M87",
+    "Andrómeda",
+    "Sombrero"
+   ],
+   "a": 1,
+   "exp": "La obtuvo el Event Horizon Telescope, una red de radiotelescopios de todo el mundo."
+  },
+  {
+   "id": "q203",
+   "cat": "universo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "m-gravedad-iss",
+   "q": "¿Por qué flotan los astronautas en la Estación Espacial?",
+   "o": [
+    "Porque no hay gravedad",
+    "Porque están en caída libre continua",
+    "Porque usan imanes",
+    "Porque el aire los sostiene"
+   ],
+   "a": 1,
+   "exp": "Falso. Allí la gravedad es casi tan fuerte como en la superficie; los astronautas flotan porque están en caída libre."
+  },
+  {
+   "id": "q204",
+   "cat": "tecnologia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-primera-llamada-movil",
+   "q": "¿Quién hizo la primera llamada desde un teléfono móvil, en 1973?",
+   "o": [
+    "Steve Jobs",
+    "Martin Cooper",
+    "Alexander Graham Bell",
+    "Bill Gates"
+   ],
+   "a": 1,
+   "exp": "Martin Cooper, de Motorola, llamó en 1973 a un rival de los laboratorios Bell."
+  },
+  {
+   "id": "q205",
+   "cat": "tecnologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-web-libre",
+   "q": "¿Qué decidió el CERN en 1993 sobre la web?",
+   "o": [
+    "Cobrar por su uso",
+    "Liberarla para que cualquiera pudiera usarla",
+    "Cerrarla",
+    "Venderla a una empresa"
+   ],
+   "a": 1,
+   "exp": "Tim Berners-Lee la creó en 1989; en 1993 el CERN liberó su tecnología para todos."
+  },
+  {
+   "id": "q206",
+   "cat": "tecnologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-ada-lovelace",
+   "q": "¿Con qué máquina trabajó Ada Lovelace?",
+   "o": [
+    "El telar de Jacquard",
+    "La Máquina Analítica de Babbage",
+    "El ENIAC",
+    "La máquina Enigma"
+   ],
+   "a": 1,
+   "exp": "Ada Lovelace publicó en 1843 lo que se considera el primer algoritmo para una máquina."
+  },
+  {
+   "id": "q207",
+   "cat": "tecnologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-turing-enigma",
+   "q": "¿En qué lugar trabajó Alan Turing para descifrar Enigma?",
+   "o": [
+    "Los Álamos",
+    "Bletchley Park",
+    "Silicon Valley",
+    "El CERN"
+   ],
+   "a": 1,
+   "exp": "En Bletchley Park desarrolló métodos para romper el cifrado de la máquina Enigma."
+  },
+  {
+   "id": "q208",
+   "cat": "tecnologia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-emoji",
+   "q": "¿De qué idioma viene la palabra «emoji»?",
+   "o": [
+    "Inglés",
+    "Japonés",
+    "Latín",
+    "Coreano"
+   ],
+   "a": 1,
+   "exp": "Los diseñó Shigetaka Kurita para teléfonos móviles; hoy están en el MoMA de Nueva York."
+  },
+  {
+   "id": "q209",
+   "cat": "tecnologia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-hashtag",
+   "q": "¿Quién propuso usar el hashtag en Twitter?",
+   "o": [
+    "Jack Dorsey",
+    "Chris Messina",
+    "Mark Zuckerberg",
+    "Elon Musk"
+   ],
+   "a": 1,
+   "exp": "Chris Messina sugirió usar el símbolo # para agrupar conversaciones."
+  },
+  {
+   "id": "q210",
+   "cat": "tecnologia",
+   "level": 3,
+   "status": "publicado",
+   "ref": "c-gps-relatividad",
+   "q": "¿Qué teoría hay que tener en cuenta para que el GPS funcione con precisión?",
+   "o": [
+    "La evolución",
+    "La relatividad",
+    "La deriva continental",
+    "El Big Bang"
+   ],
+   "a": 1,
+   "exp": "Los relojes de los satélites deben corregirse porque el tiempo pasa distinto allá arriba."
+  },
+  {
+   "id": "q211",
+   "cat": "tecnologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-engelbart-raton",
+   "q": "¿Quién presentó el ratón de computadora en 1968?",
+   "o": [
+    "Steve Jobs",
+    "Douglas Engelbart",
+    "Bill Gates",
+    "Tim Berners-Lee"
+   ],
+   "a": 1,
+   "exp": "Douglas Engelbart mostró también videoconferencia y edición colaborativa de textos."
+  },
+  {
+   "id": "q212",
+   "cat": "tecnologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-codigo-barras",
+   "q": "¿Cuál fue el primer producto escaneado con código de barras?",
+   "o": [
+    "Una lata de sopa",
+    "Un paquete de chicle",
+    "Una botella de leche",
+    "Un periódico"
+   ],
+   "a": 1,
+   "exp": "Ocurrió en 1974 en un supermercado de Ohio, Estados Unidos."
+  },
+  {
+   "id": "q213",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-placebo",
+   "q": "¿Por qué los ensayos clínicos usan placebos?",
+   "o": [
+    "Para ahorrar medicamentos",
+    "Para comparar el efecto real del fármaco con el efecto de la expectativa",
+    "Para engañar a los médicos",
+    "No los usan"
+   ],
+   "a": 1,
+   "exp": "Es el efecto placebo, y se tiene en cuenta en todos los ensayos clínicos."
+  },
+  {
+   "id": "q214",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-ritmo-cardiaco",
+   "q": "¿Cuál es el rango normal de pulsaciones en reposo de un adulto?",
+   "o": [
+    "20–40",
+    "60–100",
+    "120–160",
+    "200–220"
+   ],
+   "a": 1,
+   "exp": "Los deportistas entrenados suelen tener frecuencias más bajas."
+  },
+  {
+   "id": "q215",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-unas",
+   "q": "¿Qué uñas crecen más rápido?",
+   "o": [
+    "Las de los pies",
+    "Las de las manos",
+    "Crecen igual",
+    "Depende del zapato"
+   ],
+   "a": 1,
+   "exp": "Las de las manos crecen unos 3,5 mm al mes; las de los pies, alrededor de la mitad."
+  },
+  {
+   "id": "q216",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-grupos-sanguineos",
+   "q": "¿Quién descubrió los grupos sanguíneos?",
+   "o": [
+    "Louis Pasteur",
+    "Karl Landsteiner",
+    "Alexander Fleming",
+    "Robert Koch"
+   ],
+   "a": 1,
+   "exp": "Karl Landsteiner identificó los grupos A, B y O, y recibió el Nobel en 1930."
+  },
+  {
+   "id": "q217",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-huellas-gemelos",
+   "q": "¿Tienen los gemelos idénticos las mismas huellas dactilares?",
+   "o": [
+    "Sí, exactamente iguales",
+    "No, son distintas",
+    "Solo en la mano derecha",
+    "Solo al nacer"
+   ],
+   "a": 1,
+   "exp": "Comparten ADN, pero las huellas se forman con influencias del entorno en el útero."
+  },
+  {
+   "id": "q218",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-cerebro-energia",
+   "q": "¿Qué porcentaje aproximado de la energía del cuerpo usa el cerebro?",
+   "o": [
+    "2%",
+    "20%",
+    "50%",
+    "80%"
+   ],
+   "a": 1,
+   "exp": "Es uno de los órganos que más energía consume."
+  },
+  {
+   "id": "q219",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-punto-ciego",
+   "q": "¿Por qué existe el punto ciego del ojo?",
+   "o": [
+    "Por una lesión",
+    "Porque allí sale el nervio óptico y no hay células sensibles a la luz",
+    "Por la falta de vitaminas",
+    "Por la edad"
+   ],
+   "a": 1,
+   "exp": "Es la zona donde el nervio óptico sale del ojo y no hay células sensibles a la luz."
+  },
+  {
+   "id": "q220",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-higado-regenera",
+   "q": "¿Qué órgano puede volver a crecer después de que se le quita una parte?",
+   "o": [
+    "El corazón",
+    "El hígado",
+    "El cerebro",
+    "Los pulmones"
+   ],
+   "a": 1,
+   "exp": "Tras extirpar una parte, el hígado restante puede recuperar su tamaño."
+  },
+  {
+   "id": "q221",
+   "cat": "geografia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-salto-angel",
+   "q": "¿En qué país está la cascada más alta del mundo?",
+   "o": [
+    "Brasil",
+    "Venezuela",
+    "Estados Unidos",
+    "Noruega"
+   ],
+   "a": 1,
+   "exp": "El Salto Ángel tiene 979 metros de altura."
+  },
+  {
+   "id": "q222",
+   "cat": "geografia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-atacama",
+   "q": "¿En qué país está el desierto de Atacama?",
+   "o": [
+    "Perú",
+    "Chile",
+    "Argentina",
+    "Bolivia"
+   ],
+   "a": 1,
+   "exp": "Hay zonas donde nunca se ha registrado lluvia en la época moderna."
+  },
+  {
+   "id": "q223",
+   "cat": "geografia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-groenlandia",
+   "q": "¿A qué reino pertenece Groenlandia?",
+   "o": [
+    "Noruega",
+    "Dinamarca",
+    "Canadá",
+    "Islandia"
+   ],
+   "a": 1,
+   "exp": "Australia es más grande, pero se considera un continente."
+  },
+  {
+   "id": "q224",
+   "cat": "geografia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-amazonas-caudal",
+   "q": "¿Qué río lleva más agua al océano?",
+   "o": [
+    "El Nilo",
+    "El Amazonas",
+    "El Misisipi",
+    "El Yangtsé"
+   ],
+   "a": 1,
+   "exp": "Su caudal es mayor que el de los siguientes varios ríos más caudalosos juntos."
+  },
+  {
+   "id": "q225",
+   "cat": "geografia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-titicaca",
+   "q": "¿Entre qué países está el lago Titicaca?",
+   "o": [
+    "Chile y Argentina",
+    "Perú y Bolivia",
+    "Ecuador y Colombia",
+    "Brasil y Paraguay"
+   ],
+   "a": 1,
+   "exp": "Está a unos 3.800 metros de altura, entre Perú y Bolivia."
+  },
+  {
+   "id": "q226",
+   "cat": "geografia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-nueva-zelanda",
+   "q": "¿Qué ave gigante se extinguió tras la llegada de humanos a Nueva Zelanda?",
+   "o": [
+    "El dodo",
+    "El moa",
+    "El kiwi",
+    "El emú"
+   ],
+   "a": 1,
+   "exp": "Los polinesios llegaron alrededor del siglo XIII."
+  },
+  {
+   "id": "q227",
+   "cat": "geografia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-samana-ballenas",
+   "q": "¿Qué animales llegan cada invierno a la bahía de Samaná?",
+   "o": [
+    "Tiburones blancos",
+    "Ballenas jorobadas",
+    "Delfines rosados",
+    "Pingüinos"
+   ],
+   "a": 1,
+   "exp": "Llegan a la bahía de Samaná y al Banco de la Plata para aparearse y tener sus crías."
+  },
+  {
+   "id": "q228",
+   "cat": "geografia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-nilo-paises",
+   "q": "¿En qué ciudad se unen el Nilo Blanco y el Nilo Azul?",
+   "o": [
+    "El Cairo",
+    "Jartum",
+    "Adís Abeba",
+    "Kampala"
+   ],
+   "a": 1,
+   "exp": "Su cuenca se reparte entre países como Egipto, Sudán, Etiopía y Uganda."
+  },
+  {
+   "id": "q229",
+   "cat": "animales",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-koala-huellas",
+   "q": "¿Qué animal tiene huellas dactilares muy parecidas a las humanas?",
+   "o": [
+    "El perro",
+    "El koala",
+    "El canguro",
+    "El gato"
+   ],
+   "a": 1,
+   "exp": "Incluso con un microscopio electrónico cuesta distinguirlas de las nuestras."
+  },
+  {
+   "id": "q230",
+   "cat": "animales",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-colibri-atras",
+   "q": "¿Qué ave puede volar hacia atrás?",
+   "o": [
+    "El águila",
+    "El colibrí",
+    "La paloma",
+    "El loro"
+   ],
+   "a": 1,
+   "exp": "Su forma de batir las alas le permite quedarse quieto en el aire y retroceder."
+  },
+  {
+   "id": "q231",
+   "cat": "animales",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-elefante-espejo",
+   "q": "¿Qué evalúa la «prueba del espejo»?",
+   "o": [
+    "La vista",
+    "Si un animal se reconoce a sí mismo",
+    "El oído",
+    "La velocidad"
+   ],
+   "a": 1,
+   "exp": "Superan la «prueba del espejo», que pocas especies logran."
+  },
+  {
+   "id": "q232",
+   "cat": "animales",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-cuervos-herramientas",
+   "q": "¿Qué hacen los cuervos de Nueva Caledonia?",
+   "o": [
+    "Cantan como humanos",
+    "Fabrican herramientas",
+    "Migran al polo",
+    "Viven bajo el agua"
+   ],
+   "a": 1,
+   "exp": "Los cuervos de Nueva Caledonia moldean ramas y hojas para sacar insectos."
+  },
+  {
+   "id": "q233",
+   "cat": "animales",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-danza-abejas",
+   "q": "¿Qué comunica la danza de las abejas?",
+   "o": [
+    "Peligro de lluvia",
+    "La dirección y distancia de la comida",
+    "El nacimiento de una reina",
+    "Nada, es un juego"
+   ],
+   "a": 1,
+   "exp": "La «danza del contoneo» comunica dirección y distancia. Su descubridor ganó el Nobel en 1973."
+  },
+  {
+   "id": "q234",
+   "cat": "animales",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-ballena-azul",
+   "q": "¿De qué se alimenta principalmente la ballena azul?",
+   "o": [
+    "De peces grandes",
+    "De krill",
+    "De algas",
+    "De focas"
+   ],
+   "a": 1,
+   "exp": "Puede superar los 30 metros de largo."
+  },
+  {
+   "id": "q235",
+   "cat": "animales",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-nutria-piedras",
+   "q": "¿Para qué usan piedras las nutrias marinas?",
+   "o": [
+    "Para construir nidos",
+    "Para abrir conchas",
+    "Para jugar",
+    "Para defenderse"
+   ],
+   "a": 1,
+   "exp": "Las usan para romper conchas mientras flotan boca arriba."
+  },
+  {
+   "id": "q236",
+   "cat": "animales",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-hormigas-hongos",
+   "q": "¿Qué hacen las hormigas cortadoras con las hojas?",
+   "o": [
+    "Se las comen",
+    "Cultivan hongos con ellas",
+    "Construyen techos",
+    "Las regalan a la reina"
+   ],
+   "a": 1,
+   "exp": "No se comen las hojas: las usan para cultivar un hongo del que se alimentan."
+  },
+  {
+   "id": "q237",
+   "cat": "animales",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-ornitorrinco",
+   "q": "¿Qué tiene de especial el ornitorrinco entre los mamíferos?",
+   "o": [
+    "Vuela",
+    "Pone huevos",
+    "Vive en el desierto",
+    "No tiene pelo"
+   ],
+   "a": 1,
+   "exp": "Además, detecta a sus presas por los campos eléctricos que generan."
+  },
+  {
+   "id": "q238",
+   "cat": "animales",
+   "level": 2,
+   "status": "publicado",
+   "ref": "m-lemmings",
+   "q": "¿Qué popularizó el mito del suicidio de los lemmings?",
+   "o": [
+    "Un libro de biología",
+    "Un documental de Disney de 1958",
+    "Una leyenda vikinga",
+    "Un videojuego"
+   ],
+   "a": 1,
+   "exp": "Falso. El mito es antiguo, pero lo hizo famoso un documental de Disney de 1958 en el que la escena fue preparada."
+  },
+  {
+   "id": "q239",
+   "cat": "filosofia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-aristoteles-alejandro",
+   "q": "¿De quién fue maestro Aristóteles?",
+   "o": [
+    "Julio César",
+    "Alejandro Magno",
+    "Cleopatra",
+    "Pericles"
+   ],
+   "a": 1,
+   "exp": "Fue llamado por Filipo II de Macedonia para educar a su hijo."
+  },
+  {
+   "id": "q240",
+   "cat": "filosofia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-sisifo-camus",
+   "q": "¿Qué filósofo escribió «El mito de Sísifo»?",
+   "o": [
+    "Jean-Paul Sartre",
+    "Albert Camus",
+    "Friedrich Nietzsche",
+    "Søren Kierkegaard"
+   ],
+   "a": 1,
+   "exp": "En su ensayo de 1942 usó el mito griego para hablar del sentido de la vida."
+  },
+  {
+   "id": "q241",
+   "cat": "filosofia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-apuesta-pascal",
+   "q": "¿Quién formuló la famosa «apuesta» sobre la existencia de Dios?",
+   "o": [
+    "René Descartes",
+    "Blaise Pascal",
+    "Voltaire",
+    "Tomás de Aquino"
+   ],
+   "a": 1,
+   "exp": "Su argumento compara lo que se gana y se pierde al creer o no creer."
+  },
+  {
+   "id": "q242",
+   "cat": "filosofia",
+   "level": 3,
+   "status": "publicado",
+   "ref": "c-dilema-prisionero",
+   "q": "¿Qué muestra el dilema del prisionero?",
+   "o": [
+    "Que mentir siempre es malo",
+    "Que la cooperación puede fallar aunque convenga a ambos",
+    "Que las cárceles no funcionan",
+    "Que el azar decide todo"
+   ],
+   "a": 1,
+   "exp": "Fue formulado en 1950 en la RAND Corporation y bautizado por Albert Tucker."
+  },
+  {
+   "id": "q243",
+   "cat": "filosofia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-tao-te-king",
+   "q": "¿A quién se atribuye el Tao Te King?",
+   "o": [
+    "Confucio",
+    "Laozi",
+    "Buda",
+    "Mencio"
+   ],
+   "a": 1,
+   "exp": "Se atribuye a Laozi, figura semilegendaria de la antigua China."
+  },
+  {
+   "id": "q244",
+   "cat": "filosofia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-gato-schrodinger",
+   "q": "¿Para qué propuso Schrödinger el experimento del gato?",
+   "o": [
+    "Para defender la física cuántica",
+    "Para criticar una interpretación que le parecía absurda",
+    "Para un experimento real",
+    "Para estudiar a los gatos"
+   ],
+   "a": 1,
+   "exp": "Erwin Schrödinger lo propuso en 1935 para mostrar lo absurda que le parecía cierta interpretación cuántica."
+  },
+  {
+   "id": "q245",
+   "cat": "filosofia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-bentham-autoicono",
+   "q": "¿Qué es el «auto-icono» de Jeremy Bentham?",
+   "o": [
+    "Un libro",
+    "Su cuerpo conservado y exhibido",
+    "Un retrato",
+    "Una estatua de bronce"
+   ],
+   "a": 1,
+   "exp": "Él mismo pidió ser conservado y expuesto: se le llama su «auto-icono»."
+  },
+  {
+   "id": "q246",
+   "cat": "filosofia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-montaigne-ensayo",
+   "q": "¿Quién dio nombre al ensayo como género literario?",
+   "o": [
+    "Cervantes",
+    "Michel de Montaigne",
+    "Erasmo",
+    "Voltaire"
+   ],
+   "a": 1,
+   "exp": "En 1580 publicó sus «Essais», que significa «intentos» en francés."
+  },
+  {
+   "id": "q247",
+   "cat": "misterios",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-stonehenge",
+   "q": "¿De dónde proceden las «piedras azules» de Stonehenge?",
+   "o": [
+    "De Escocia",
+    "De Gales",
+    "De Francia",
+    "De Irlanda"
+   ],
+   "a": 1,
+   "exp": "Las llamadas «piedras azules» proceden de Gales."
+  },
+  {
+   "id": "q248",
+   "cat": "misterios",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-moai-caminar",
+   "q": "Según una hipótesis respaldada por experimentos, ¿cómo se movieron los moáis?",
+   "o": [
+    "Con grúas",
+    "Balanceándolos de pie con cuerdas",
+    "Con ruedas",
+    "No se movieron"
+   ],
+   "a": 1,
+   "exp": "Experimentos muestran que se pueden mover balanceándolos de pie con cuerdas."
+  },
+  {
+   "id": "q249",
+   "cat": "misterios",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-gobekli-tepe",
+   "q": "¿Quiénes construyeron Göbekli Tepe?",
+   "o": [
+    "Los romanos",
+    "Cazadores-recolectores",
+    "Los egipcios",
+    "Los incas"
+   ],
+   "a": 1,
+   "exp": "Göbekli Tepe, en Turquía, se construyó hacia el 9500 a. C."
+  },
+  {
+   "id": "q250",
+   "cat": "misterios",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-rayo-globular",
+   "q": "¿Qué es el rayo globular?",
+   "o": [
+    "Un tipo de granizo",
+    "Una esfera luminosa que aparece en tormentas",
+    "Una estrella fugaz",
+    "Un efecto óptico de las gafas"
+   ],
+   "a": 1,
+   "exp": "Son esferas luminosas que aparecen durante tormentas."
+  },
+  {
+   "id": "q251",
+   "cat": "misterios",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-bloop",
+   "q": "¿A qué se atribuye hoy el sonido «Bloop»?",
+   "o": [
+    "A un calamar gigante",
+    "A hielo que se fractura",
+    "A un submarino",
+    "A un volcán"
+   ],
+   "a": 1,
+   "exp": "Se grabó en 1997 en el Pacífico; hoy se atribuye a un desprendimiento de hielo."
+  },
+  {
+   "id": "q252",
+   "cat": "misterios",
+   "level": 3,
+   "status": "publicado",
+   "ref": "c-disco-festo",
+   "q": "¿Dónde se encontró el disco de Festo?",
+   "o": [
+    "En Egipto",
+    "En Creta",
+    "En México",
+    "En Irlanda"
+   ],
+   "a": 1,
+   "exp": "El disco de Festo tiene símbolos estampados en espiral en ambas caras."
+  },
+  {
+   "id": "q253",
+   "cat": "misterios",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-nessie-foto",
+   "q": "¿Qué era en realidad la famosa foto de 1934 del monstruo del lago Ness?",
+   "o": [
+    "Un tronco",
+    "Un modelo sobre un submarino de juguete",
+    "Una nutria",
+    "Un pez gigante"
+   ],
+   "a": 1,
+   "exp": "Falso. La «foto del cirujano» de 1934 resultó ser un montaje con un submarino de juguete."
+  },
+  {
+   "id": "q254",
+   "cat": "misterios",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-roswell",
+   "q": "¿Qué era, según los informes oficiales, el objeto de Roswell?",
+   "o": [
+    "Un avión espía",
+    "Un globo del Proyecto Mogul",
+    "Un meteorito",
+    "Una nave extraterrestre"
+   ],
+   "a": 1,
+   "exp": "Falso. Según los informes oficiales, eran restos de un globo de un proyecto militar secreto."
+  },
+  {
+   "id": "q255",
+   "cat": "economia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-primeras-monedas",
+   "q": "¿Dónde se acuñaron las primeras monedas?",
+   "o": [
+    "Egipto",
+    "Lidia",
+    "China",
+    "Roma"
+   ],
+   "a": 1,
+   "exp": "Eran de electro, una mezcla natural de oro y plata, hacia el siglo VII a. C."
+  },
+  {
+   "id": "q256",
+   "cat": "economia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-dolar-taler",
+   "q": "¿De qué moneda deriva el nombre «dólar»?",
+   "o": [
+    "Del denario romano",
+    "Del tálero de Bohemia",
+    "Del peso español",
+    "De la libra inglesa"
+   ],
+   "a": 1,
+   "exp": "Del «tálero», acuñado en el valle de Joachimsthal desde el siglo XVI."
+  },
+  {
+   "id": "q257",
+   "cat": "economia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-signo-peso",
+   "q": "Según una teoría muy aceptada, ¿de qué abreviatura viene el signo $?",
+   "o": [
+    "De «US»",
+    "De «ps», por pesos",
+    "De «S» de silver",
+    "De «dollars»"
+   ],
+   "a": 1,
+   "exp": "Una de las teorías más aceptadas lo deriva de la abreviatura «ps»."
+  },
+  {
+   "id": "q258",
+   "cat": "economia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-voc-acciones",
+   "q": "¿Qué empresa ofreció por primera vez acciones al público, en 1602?",
+   "o": [
+    "La Compañía Holandesa de las Indias Orientales",
+    "El Banco de Inglaterra",
+    "La Ford",
+    "La East India Company británica"
+   ],
+   "a": 0,
+   "exp": "Fue la Compañía Holandesa de las Indias Orientales."
+  },
+  {
+   "id": "q259",
+   "cat": "economia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-diners-club",
+   "q": "¿Cuál fue la primera tarjeta de pago de uso general?",
+   "o": [
+    "Visa",
+    "Diners Club",
+    "American Express",
+    "Mastercard"
+   ],
+   "a": 1,
+   "exp": "Diners Club, fundada en 1950, fue la primera tarjeta de uso general."
+  },
+  {
+   "id": "q260",
+   "cat": "economia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-mano-invisible",
+   "q": "¿Cuántas veces aparece la «mano invisible» en La riqueza de las naciones?",
+   "o": [
+    "Una vez",
+    "Diez veces",
+    "Cien veces",
+    "Ninguna"
+   ],
+   "a": 0,
+   "exp": "Aparece solo una vez en La riqueza de las naciones."
+  },
+  {
+   "id": "q261",
+   "cat": "economia",
+   "level": 3,
+   "status": "publicado",
+   "ref": "c-bien-veblen",
+   "q": "¿Qué es un bien de Veblen?",
+   "o": [
+    "Un bien gratuito",
+    "Un producto cuya demanda aumenta con el precio por ser símbolo de estatus",
+    "Un producto de primera necesidad",
+    "Un bien público"
+   ],
+   "a": 1,
+   "exp": "Se llaman bienes de Veblen: su precio alto los convierte en símbolo de estatus."
+  },
+  {
+   "id": "q262",
+   "cat": "religion",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-santa-sofia",
+   "q": "¿En qué ciudad está Santa Sofía?",
+   "o": [
+    "Atenas",
+    "Estambul (Constantinopla)",
+    "Roma",
+    "Jerusalén"
+   ],
+   "a": 1,
+   "exp": "Se construyó en Constantinopla en el año 537."
+  },
+  {
+   "id": "q263",
+   "cat": "religion",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-angkor-wat",
+   "q": "¿Qué monumento aparece en la bandera de Camboya?",
+   "o": [
+    "Borobudur",
+    "Angkor Wat",
+    "El Taj Mahal",
+    "La Gran Pagoda"
+   ],
+   "a": 1,
+   "exp": "Angkor Wat se construyó como templo hindú y luego se convirtió en budista."
+  },
+  {
+   "id": "q264",
+   "cat": "religion",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-capitulos-biblia",
+   "q": "¿Quién popularizó la división de la Biblia en capítulos?",
+   "o": [
+    "Martín Lutero",
+    "Stephen Langton",
+    "San Jerónimo",
+    "Gutenberg"
+   ],
+   "a": 1,
+   "exp": "Los capítulos se añadieron en el siglo XIII y los versículos numerados, en el XVI."
+  },
+  {
+   "id": "q265",
+   "cat": "religion",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-san-nicolas",
+   "q": "¿De qué figura histórica deriva Santa Claus?",
+   "o": [
+    "Un rey vikingo",
+    "San Nicolás, obispo de Mira",
+    "Un comerciante inglés",
+    "San Francisco de Asís"
+   ],
+   "a": 1,
+   "exp": "San Nicolás de Mira, conocido por su generosidad, vivió en la actual Turquía."
+  },
+  {
+   "id": "q266",
+   "cat": "religion",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-altagracia",
+   "q": "¿Qué día se celebra a la Virgen de la Altagracia?",
+   "o": [
+    "27 de febrero",
+    "21 de enero",
+    "24 de septiembre",
+    "8 de diciembre"
+   ],
+   "a": 1,
+   "exp": "Su fiesta es el 21 de enero, día no laborable en República Dominicana."
+  },
+  {
+   "id": "q267",
+   "cat": "religion",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-langar",
+   "q": "¿Qué es el «langar» en el sijismo?",
+   "o": [
+    "Una oración",
+    "Una cocina comunitaria gratuita para todos",
+    "Un libro sagrado",
+    "Una danza"
+   ],
+   "a": 1,
+   "exp": "Se llama langar: una cocina comunitaria abierta a todos, sin importar religión, casta o condición."
+  },
+  {
+   "id": "q268",
+   "cat": "religion",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-torii",
+   "q": "¿A qué religión pertenecen los torii?",
+   "o": [
+    "Budismo",
+    "Sintoísmo",
+    "Hinduismo",
+    "Confucianismo"
+   ],
+   "a": 1,
+   "exp": "Se llaman torii y están en los santuarios sintoístas."
+  },
+  {
+   "id": "q269",
+   "cat": "religion",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-zoroastrismo",
+   "q": "¿Cómo se llama a los seguidores del zoroastrismo en la India?",
+   "o": [
+    "Sijs",
+    "Parsis",
+    "Jainistas",
+    "Brahmanes"
+   ],
+   "a": 1,
+   "exp": "Fue la religión principal de los imperios persas."
+  },
+  {
+   "id": "q270",
+   "cat": "cultura",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-ajedrez-india",
+   "q": "¿Cómo se llamaba el antepasado indio del ajedrez?",
+   "o": [
+    "Go",
+    "Chaturanga",
+    "Mahjong",
+    "Senet"
+   ],
+   "a": 1,
+   "exp": "Su antepasado se llamaba chaturanga."
+  },
+  {
+   "id": "q271",
+   "cat": "cultura",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-sandwich",
+   "q": "¿De quién toma su nombre el sándwich?",
+   "o": [
+    "De un chef francés",
+    "De un conde inglés",
+    "De una ciudad alemana",
+    "De un panadero italiano"
+   ],
+   "a": 1,
+   "exp": "John Montagu, cuarto conde de Sandwich, popularizó comer carne entre panes en el siglo XVIII."
+  },
+  {
+   "id": "q272",
+   "cat": "cultura",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-cafe-etiopia",
+   "q": "¿De qué país es originaria la planta del café?",
+   "o": [
+    "Brasil",
+    "Etiopía",
+    "Colombia",
+    "Indonesia"
+   ],
+   "a": 1,
+   "exp": "La leyenda cuenta que un pastor llamado Kaldi notó lo enérgicas que se ponían sus cabras."
+  },
+  {
+   "id": "q273",
+   "cat": "cultura",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-chocolate-nahuatl",
+   "q": "¿Cómo tomaban originalmente el chocolate los pueblos mesoamericanos?",
+   "o": [
+    "Dulce y en tabletas",
+    "Como bebida amarga",
+    "Congelado",
+    "Con leche"
+   ],
+   "a": 1,
+   "exp": "Los mayas y los mexicas lo tomaban sin azúcar, a veces con chile."
+  },
+  {
+   "id": "q274",
+   "cat": "cultura",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-tomate-venenoso",
+   "q": "¿De qué idioma viene la palabra «tomate»?",
+   "o": [
+    "Latín",
+    "Náhuatl",
+    "Árabe",
+    "Quechua"
+   ],
+   "a": 1,
+   "exp": "Llegó desde América en el siglo XVI y tardó en aceptarse como alimento en algunas regiones."
+  },
+  {
+   "id": "q275",
+   "cat": "cultura",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-alfabeto-fenicio",
+   "q": "¿Qué añadieron los griegos al alfabeto fenicio?",
+   "o": [
+    "Números",
+    "Vocales",
+    "Signos de puntuación",
+    "Mayúsculas"
+   ],
+   "a": 1,
+   "exp": "Los griegos lo adaptaron añadiendo vocales; de ahí vino el alfabeto latino."
+  },
+  {
+   "id": "q276",
+   "cat": "cultura",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-carnaval-vega",
+   "q": "¿Qué personaje es emblema del Carnaval de La Vega?",
+   "o": [
+    "El Gigante",
+    "El diablo cojuelo",
+    "El Rey Momo",
+    "La Calavera"
+   ],
+   "a": 1,
+   "exp": "Sus personajes característicos son los diablos cojuelos."
+  },
+  {
+   "id": "q277",
+   "cat": "cultura",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-gabriela-mistral",
+   "q": "¿Quién fue la primera persona latinoamericana en ganar el Nobel de Literatura?",
+   "o": [
+    "Pablo Neruda",
+    "Gabriela Mistral",
+    "Gabriel García Márquez",
+    "Octavio Paz"
+   ],
+   "a": 1,
+   "exp": "La chilena Gabriela Mistral lo recibió en 1945."
+  },
+  {
+   "id": "q278",
+   "cat": "cultura",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-guernica",
+   "q": "¿Dónde se exhibe hoy el Guernica de Picasso?",
+   "o": [
+    "En el Louvre",
+    "En el Museo Reina Sofía de Madrid",
+    "En el MoMA",
+    "En el Prado"
+   ],
+   "a": 1,
+   "exp": "Es una respuesta al bombardeo de la villa vasca de Guernica en 1937."
   }
  ]
 };

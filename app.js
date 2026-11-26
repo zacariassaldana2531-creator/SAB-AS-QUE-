@@ -230,7 +230,7 @@ const catChip = item => { const c = ContentRepo.cat(item.cat); return c ? `<span
 const lvlBars = n => `<span class="lvl" title="Nivel ${LEVEL[n] || ''}">${[1, 2, 3].map(k => `<b class="${k <= n ? 'on' : ''}"></b>`).join('')}</span>`;
 const metaLine = (i, extra = '') => `<div class="meta"><span>${ICON.clock}${i.read} min</span><span>${lvlBars(i.level || 1)} ${LEVEL[i.level || 1]}</span>${extra}</div>`;
 const kindColor = t => t === 'mito' ? '#ffb08a' : t === 'curiosidad' ? 'var(--ac2)' : 'var(--tx3)';
-const href = i => i.type === 'articulo' ? `#/articulo/${i.id}` : `#/dato/${i.id}`;
+const href = i => i.type === 'articulo' ? `#/articulo/${i.id}` : i.type === 'pais' ? `#/pais/${i.iso.toLowerCase()}` : `#/dato/${i.id}`;
 
 /* Tarjeta de descubrimiento rápido: muestra la afirmación y abre la explicación en una hoja */
 const quickCard = i => {
@@ -364,6 +364,7 @@ Views.home = () => {
 
   <div class="sec"><div><h2>Explorar categorías</h2><p>13 áreas del conocimiento</p></div><a class="more" href="#/explorar">Ver todo</a></div>
   ${catsGrid()}
+  <div style="margin-top:12px">${countriesBanner()}</div>
 
   <div class="sec"><div><h2>Artículos destacados</h2><p>Lecturas para entender el porqué de las cosas</p></div><a class="more" href="#/explorar?tipo=articulo">Ver todos</a></div>
   <div class="editorial">
@@ -396,7 +397,7 @@ Views.explore = (p, q) => {
   <a class="searchbar" href="#/buscar" style="margin-bottom:14px">${ICON.search}<span>Buscar en todo el catálogo…</span></a>
   ${typeSeg(tipo, '#/explorar')}
   ${list ? `<div class="sec"><div><h2>${TYPE[tipo]}${tipo === 'mito' ? '' : 's'}</h2><p>${plural(list.length, 'resultado', 'resultados')}</p></div></div><div class="list two">${list.map(rowCard).join('')}</div>`
-      : `<div style="margin-top:16px">${catsGrid()}</div>`}`;
+      : `<div style="margin-top:16px">${countriesBanner()}</div><div style="margin-top:12px">${catsGrid()}</div>`}`;
 };
 
 Views.category = ([id], q) => {
@@ -429,8 +430,11 @@ function searchResults(term) {
       <div class="sec"><div><h2>Explora por tema</h2></div></div>${catsGrid()}`;
   }
   const r = ContentRepo.search(term);
+  const pc = Countries.search(term).slice(0, 8);
+  const pcBlock = pc.length ? `<div class="sec" style="margin-top:4px"><div><h2>Países</h2></div></div><div class="list two" style="margin-bottom:8px">${pc.map(countryRow).join('')}</div>` : '';
+  if (!r.length && pc.length) return pcBlock;
   if (!r.length) return emptyState('🔍', 'Sin resultados', `No encontramos nada para «${esc(term)}». Prueba con otra palabra o explora por categorías.`, '<a class="btn" href="#/explorar">Explorar categorías</a>');
-  return `<div class="faint" style="font-size:13px;margin-bottom:10px">${plural(r.length, 'resultado', 'resultados')}</div><div class="list two">${r.map(rowCard).join('')}</div>`;
+  return `${pcBlock}<div class="faint" style="font-size:13px;margin-bottom:10px">${plural(r.length, 'resultado', 'resultados')}${pc.length ? ' en artículos y curiosidades' : ''}</div><div class="list two">${r.map(rowCard).join('')}</div>`;
 }
 
 Views.article = ([id]) => {
@@ -488,12 +492,14 @@ Views.fact = ([id]) => {
 
 Views.saved = (p, q) => {
   const tab = q.get('tab') || 'todo';
-  const favs = UserRepo.get().favs.map(ContentRepo.get).filter(Boolean);
-  const list = favs.filter(i => tab === 'todo' || (tab === 'articulo' ? i.type === 'articulo' : i.type !== 'articulo'));
+  const ids = UserRepo.get().favs;
+  if (ids.some(x => x.startsWith('pais-')) && !Countries.data) return needCountries();
+  const favs = ids.map(id => id.startsWith('pais-') ? Countries.get(id) : ContentRepo.get(id)).filter(Boolean);
+  const list = favs.filter(i => tab === 'todo' || (tab === 'articulo' ? i.type === 'articulo' : tab === 'paises' ? i.type === 'pais' : i.type !== 'articulo' && i.type !== 'pais'));
   return `
   <div class="sec" style="margin-top:8px"><div><h1 class="h1">Guardados</h1><p>Tu biblioteca personal${favs.length ? ' · ' + plural(favs.length, 'elemento', 'elementos') : ''}</p></div></div>
-  ${favs.length ? `<div class="seg">${[['todo', 'Todo'], ['articulo', 'Artículos'], ['datos', 'Curiosidades y mitos']].map(([v, l]) => `<button class="${tab === v ? 'on' : ''}" data-act="nav" data-to="#/guardados${v === 'todo' ? '' : '?tab=' + v}">${l}</button>`).join('')}</div>` : ''}
-  <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(rowCard).join('')}</div>`
+  ${favs.length ? `<div class="seg">${[['todo', 'Todo'], ['articulo', 'Artículos'], ['datos', 'Curiosidades y mitos'], ['paises', 'Países']].map(([v, l]) => `<button class="${tab === v ? 'on' : ''}" data-act="nav" data-to="#/guardados${v === 'todo' ? '' : '?tab=' + v}">${l}</button>`).join('')}</div>` : ''}
+  <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(i => i.type === 'pais' ? countryRow(i) : rowCard(i)).join('')}</div>`
       : favs.length ? emptyState('🗂️', 'Nada en esta pestaña', 'Lo que guardes de este tipo aparecerá aquí.')
         : emptyState('🔖', 'Tu biblioteca está vacía', 'Toca «Guardar» en cualquier artículo o curiosidad y lo tendrás aquí siempre, incluso sin conexión.', '<button class="btn ac" data-act="surprise">' + ICON.shuffle + ' Descubrir algo ahora</button>')}</div>`;
 };
@@ -505,7 +511,7 @@ Views.quiz = () => {
   if (Quiz.list.length && Quiz.i >= Quiz.list.length) return quizResult();
   const best = UserRepo.get().quiz.best;
   const levels = [[0, '🎲', 'Mixto', 'Todos los niveles'], [1, '🌱', 'Fácil', 'Cultura general básica'], [2, '🔥', 'Medio', 'Para curiosos'], [3, '🧠', 'Difícil', 'Solo para expertos']];
-  const avail = Services.buildQuiz(Quiz.level, Quiz.cat, 999).length;
+  const avail = Quiz.cat === 'paises' ? 10 : Services.buildQuiz(Quiz.level, Quiz.cat, 999).length;
   return `<div class="quiz-wrap">
     <div class="sec" style="margin-top:8px"><div><h1 class="h1">Quiz</h1><p>${plural(ContentRepo.questions().length, 'pregunta', 'preguntas')} con explicación y fuente. Las que no has visto salen primero.</p></div></div>
     <div class="eyebrow">Dificultad</div>
@@ -513,6 +519,7 @@ Views.quiz = () => {
     <div class="eyebrow" style="margin-top:16px">Tema</div>
     <div class="seg" style="flex-wrap:wrap;margin-top:10px">
       <button class="${Quiz.cat === 'all' ? 'on' : ''}" data-act="q-cat" data-v="all">Todos</button>
+      <button class="${Quiz.cat === 'paises' ? 'on' : ''}" data-act="q-cat" data-v="paises">🌎 Banderas y capitales</button>
       ${ContentRepo.categories().filter(c => ContentRepo.questions().some(q => q.cat === c.id)).map(c => `<button class="${Quiz.cat === c.id ? 'on' : ''}" data-act="q-cat" data-v="${c.id}">${c.icon} ${esc(c.name)}</button>`).join('')}
     </div>
     <div style="margin-top:22px">${avail ? `<button class="btn ac block" data-act="q-start">Empezar · ${Math.min(10, avail)} preguntas</button>`
@@ -523,7 +530,7 @@ function quizQuestion() {
   const q = Quiz.list[Quiz.i], n = Quiz.list.length;
   return `<div class="quiz-wrap">
     <div class="qbar"><button class="icon-btn" data-act="q-quit" aria-label="Salir del quiz">${ICON.close}</button><div class="track"><i style="width:${Quiz.i / n * 100}%"></i></div><span>${Quiz.i + 1}/${n}</span></div>
-    <div class="card qcard">${catChip(q)} <span class="chip">${LEVEL[q.level]}</span><h2>${esc(q.q)}</h2></div>
+    <div class="card qcard">${q.cat === 'paises' ? '<span class="chip" style="color:var(--ac2)"><span class="dot"></span>Países</span>' : catChip(q)} <span class="chip">${LEVEL[q.level]}</span><h2>${esc(q.q)}</h2>${q.img ? `<img class="qflag" src="${q.img}" alt="Bandera para adivinar">` : ''}</div>
     <div id="answers">${q.opts.map((o, k) => `<button class="ans" data-act="q-ans" data-i="${k}"><span class="k">${'ABCD'[k]}</span><span>${esc(o.t)}</span></button>`).join('')}</div>
     <div id="fb"></div>
   </div>`;
@@ -542,7 +549,7 @@ function quizAnswer(k) {
   const last = Quiz.i === Quiz.list.length - 1;
   $('#fb').innerHTML = `<div class="feedback"><b class="${ok ? 'ok' : 'bad'}">${ok ? '¡Correcto! +' + 10 * q.level + ' XP' : 'No era esa'}</b><p>${esc(q.exp)}</p>
     <div class="row"><button class="btn ac" data-act="q-next">${last ? 'Ver resultado' : 'Siguiente'} ${ICON.arrow}</button>
-    ${ref ? `<a class="btn sm" href="${href(ref)}" ${ref.type !== 'articulo' ? `data-act="open" data-id="${ref.id}"` : ''}>Saber más</a>` : ''}</div></div>`;
+    ${q.href ? `<a class="btn sm" href="${q.href}">Ver país</a>` : ref ? `<a class="btn sm" href="${href(ref)}" ${ref.type !== 'articulo' ? `data-act="open" data-id="${ref.id}"` : ''}>Saber más</a>` : ''}</div></div>`;
   $('#fb').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 function quizResult() {
@@ -561,7 +568,8 @@ function quizResult() {
   </div>`;
 }
 function quizStart() {
-  Object.assign(Quiz, { list: Services.buildQuiz(Quiz.level, Quiz.cat, 10), i: 0, correct: 0, xp: 0, wrong: [], answered: false, saved: false, isBest: false });
+  if (Quiz.cat === 'paises' && !Countries.data) { $('#view').innerHTML = loadingView('Preparando banderas…'); Countries.load().then(quizStart).catch(() => { toast('No se pudieron cargar los países'); render(); }); return; }
+  Object.assign(Quiz, { list: Quiz.cat === 'paises' ? Countries.buildQuiz(Quiz.level, 10) : Services.buildQuiz(Quiz.level, Quiz.cat, 10), i: 0, correct: 0, xp: 0, wrong: [], answered: false, saved: false, isBest: false });
   render();
 }
 
@@ -570,7 +578,7 @@ Views.profile = () => {
   const u = UserRepo.get(), lv = Services.level(u.xp), st = UserRepo.streak();
   const arts = ContentRepo.byType('articulo');
   const readN = arts.filter(a => u.read[a.id]).length;
-  const seenN = ContentRepo.all().filter(i => i.type !== 'articulo' && u.seen[i.id]).length;
+  const seenN = ContentRepo.all().filter(i => i.type !== 'articulo' && u.seen[i.id]).length; // los países se cuentan aparte
   const acc = u.quiz.answered ? Math.round(u.quiz.correct / u.quiz.answered * 100) : 0;
   const t = dayKey();
   const week = Array.from({ length: 7 }, (_, k) => u.days[t - 6 + k] ? 'on' : '');
@@ -590,6 +598,7 @@ Views.profile = () => {
     <div class="stat"><b>${readN}<span class="faint" style="font-size:16px">/${arts.length}</span></b><span>Artículos leídos</span></div>
     <div class="stat"><b>${seenN}</b><span>Datos descubiertos</span></div>
     <div class="stat"><b>${u.quiz.played}</b><span>Quizzes jugados</span></div>
+    <div class="stat"><b>${Object.keys(u.seen).filter(k => k.startsWith('pais-')).length}<span class="faint" style="font-size:16px">/195</span></b><span>Países explorados</span></div>
     <div class="stat"><b>${acc}%</b><span>Acierto en quiz</span></div>
   </div>
   <div class="sec"><div><h2>Récords por nivel</h2></div></div>
@@ -604,6 +613,126 @@ Views.profile = () => {
     <div style="margin-top:12px" id="resetbox"><button class="btn sm" data-act="reset">Borrar mi progreso</button></div></div>`;
 };
 
+/* ================= PAÍSES DEL MUNDO =================
+ * Datos: countries.js (Wikidata + world-countries + Wikipedia en español), cargado bajo demanda.
+ * Banderas: flags/xx.svg (flag-icons, licencia MIT). */
+const REGIONS = ['África', 'América', 'Asia', 'Europa', 'Oceanía'];
+const Countries = {
+  data: null, map: {}, loading: null,
+  load() {
+    if (this.data) return Promise.resolve(this.data);
+    if (!this.loading) this.loading = new Promise((res, rej) => {
+      const s = document.createElement('script'); s.src = 'countries.js'; s.async = true;
+      s.onload = () => {
+        this.data = (window.SQ_COUNTRIES || []).map(c => ({ ...c, id: 'pais-' + c.iso.toLowerCase(), type: 'pais', title: c.name, _s: norm([c.name, c.capital, c.official, c.region, c.subregion, ...(c.languages || []), ...(c.currencies || []).map(x => x.n)].join(' ')) }));
+        this.map = Object.fromEntries(this.data.map(c => [c.iso.toLowerCase(), c]));
+        res(this.data);
+      };
+      s.onerror = () => { this.loading = null; rej(new Error('No se pudo cargar')); };
+      document.head.appendChild(s);
+    });
+    return this.loading;
+  },
+  get(iso) { return this.map[String(iso || '').replace(/^pais-/, '').toLowerCase()]; },
+  search(q) { const t = norm(q).split(/\s+/).filter(x => x.length > 1); return t.length && this.data ? this.data.filter(c => t.every(x => c._s.includes(x))).sort((a, b) => (norm(a.name).startsWith(t[0]) ? -1 : 0) - (norm(b.name).startsWith(t[0]) ? -1 : 0)) : []; },
+  flag: iso => `flags/${String(iso).toLowerCase()}.svg`,
+  simpleCapital: c => c.capital && !/[(;]|\by\b/.test(c.capital),
+  buildQuiz(level, n = 10) {
+    const seen = UserRepo.get().quiz.qSeen;
+    const lvOf = c => (c.pop || 0) >= 30e6 ? 1 : (c.pop || 0) >= 3e6 ? 2 : 3;
+    let pool = this.data.filter(c => !level || lvOf(c) === level);
+    pool = [...shuffle(pool.filter(c => !seen['p-' + c.iso])), ...shuffle(pool.filter(c => seen['p-' + c.iso]))].slice(0, n);
+    const distract = (c, key, ok) => {
+      const same = shuffle(this.data.filter(x => x !== c && x.region === c.region && key(x) && key(x) !== ok));
+      const other = shuffle(this.data.filter(x => x !== c && key(x) && key(x) !== ok));
+      const out = []; for (const x of [...same, ...other]) { const v = key(x); if (!out.includes(v)) out.push(v); if (out.length === 3) break; }
+      return out;
+    };
+    return pool.map(c => {
+      const kinds = ['flag', 'flag'];
+      if (this.simpleCapital(c)) kinds.push('capital', 'capital-of');
+      if (level !== 1 && c.currencies && c.currencies.length === 1) kinds.push('currency');
+      const kind = kinds[Math.floor(Math.random() * kinds.length)];
+      let q, ok, key, img = null, exp;
+      if (kind === 'flag') { q = '¿De qué país es esta bandera?'; ok = c.name; key = x => x.name; img = this.flag(c.iso); exp = `Es la bandera de ${c.name}. Su capital es ${c.capital}.`; }
+      else if (kind === 'capital') { q = `¿Cuál es la capital de ${c.name}?`; ok = c.capital; key = x => this.simpleCapital(x) ? x.capital : null; exp = `La capital de ${c.name} es ${c.capital}.`; }
+      else if (kind === 'capital-of') { q = `${c.capital} es la capital de…`; ok = c.name; key = x => x.name; exp = `${c.capital} es la capital de ${c.name}.`; }
+      else { q = `¿Qué moneda se usa en ${c.name}?`; ok = c.currencies[0].n; key = x => x.currencies && x.currencies.length === 1 ? x.currencies[0].n : null; exp = `En ${c.name} se usa el ${c.currencies[0].n} (${c.currencies[0].c}).`; }
+      const o = shuffle([ok, ...distract(c, key, ok)]);
+      return { id: 'p-' + c.iso, cat: 'paises', level: level || lvOf(c), q, img, o, a: o.indexOf(ok), opts: o.map(t => ({ t, ok: t === ok })), exp, href: '#/pais/' + c.iso.toLowerCase() };
+    });
+  }
+};
+const fmtNum = n => n == null ? '—' : Number(n).toLocaleString('es-DO');
+const flagImg = (iso, cls = 'flag') => `<img class="${cls}" src="${Countries.flag(iso)}" alt="" loading="lazy" decoding="async" width="40" height="30">`;
+const countryCard = c => `<a class="ctry" href="#/pais/${c.iso.toLowerCase()}" data-s="${esc(c._s)}" data-r="${esc(c.region)}">${flagImg(c.iso)}<span><b>${esc(c.name)}</b><small>${esc(Countries.simpleCapital(c) ? c.capital : c.capital.split(/[(;]/)[0].replace(/ y .*/, '').trim())}</small></span></a>`;
+const countryRow = c => `<a class="rowc" href="#/pais/${c.iso.toLowerCase()}"><div class="flagbox">${flagImg(c.iso, 'flag lg')}</div><div><span class="kind" style="color:var(--ac2)">País · ${esc(c.region)}</span><h4>${esc(c.name)}</h4><div class="meta"><span>Capital: ${esc(c.capital.split(/[(;]/)[0].trim())}</span></div></div></a>`;
+const loadingView = (msg = 'Cargando…') => `<div style="padding-top:12px"><div class="skel" style="height:26px;width:45%;margin-bottom:16px"></div><div class="skel" style="height:48px;margin-bottom:16px"></div><div class="ctry-grid">${'<div class="skel" style="height:64px"></div>'.repeat(9)}</div><p class="faint" style="text-align:center;margin-top:16px">${msg}</p></div>`;
+const needCountries = () => { Countries.load().then(() => render(true)).catch(() => toast('No se pudieron cargar los países. Revisa tu conexión.')); return loadingView('Cargando 195 países…'); };
+
+const countriesBanner = () => `<a class="ctry-banner" href="#/paises">
+  <div class="mosaic">${['do', 'jp', 'br', 'za', 'ca', 'in', 'mx', 'fr', 'kr', 'eg', 'au', 'es'].map(i => `<img src="flags/${i}.svg" alt="" loading="lazy" decoding="async">`).join('')}</div>
+  <div class="txt"><span class="eyebrow" style="color:var(--ac2)">Nuevo</span><b>Países del mundo</b><span>Los 195 países: bandera, capital, moneda, idiomas, origen del nombre e historia.</span><span class="go">Explorar países ${ICON.arrow}</span></div></a>`;
+
+Views.countries = (p, q) => {
+  if (!Countries.data) return needCountries();
+  const reg = q.get('region') || '';
+  const list = Countries.data.filter(c => !reg || c.region === reg);
+  return `
+  <button class="back" data-act="back">${ICON.back} Volver</button>
+  <header class="cat-hero" style="--cc:#5b8cff"><div class="gl">🌎</div><h1 class="h1">Países del mundo</h1><p>Los 193 Estados miembros de la ONU y los 2 Estados observadores. Bandera, capital, moneda, idiomas e historia de cada uno.</p></header>
+  <label class="searchbar" for="cq" style="margin-bottom:12px">${ICON.search}<input id="cq" type="search" autocomplete="off" placeholder="Busca un país o una capital…" value="${esc(q.get('q') || '')}"></label>
+  <div class="seg">${[['', 'Todos'], ...REGIONS.map(r => [r, r])].map(([v, l]) => `<button class="${reg === v ? 'on' : ''}" data-act="nav" data-to="#/paises${v ? '?region=' + encodeURIComponent(v) : ''}">${l}</button>`).join('')}</div>
+  <div class="faint" id="ccount" style="font-size:13px;margin:12px 2px 10px">${plural(list.length, 'país', 'países')}</div>
+  <div class="ctry-grid" id="cgrid">${list.map(countryCard).join('')}</div>
+  <div id="cempty" hidden>${emptyState('🧭', 'Ningún país coincide', 'Prueba con otro nombre o capital.')}</div>
+  <p class="foot-note">Datos: Wikidata y Wikipedia en español (CC BY-SA), contrastados con la base world-countries. Banderas: flag-icons (MIT).</p>`;
+};
+
+Views.country = ([iso]) => {
+  if (!Countries.data) return needCountries();
+  const c = Countries.get(iso);
+  if (!c) return Views.notFound();
+  if (UserRepo.markSeen(c.id)) renderAvatar();
+  const same = Countries.data.filter(x => x.subregion === c.subregion && x !== c).slice(0, 6);
+  const kv = (k, v, note = '') => v ? `<div class="kv"><span>${k}</span><b>${v}</b>${note ? `<small>${esc(note)}</small>` : ''}</div>` : '';
+  const txt = (h, t) => t ? `<h2>${h}</h2>${t.split(/\n+/).map(p => `<p>${esc(p)}</p>`).join('')}` : '';
+  return `<article class="art country">
+    <div class="art-top"><button class="back" data-act="back">${ICON.back} Volver</button>
+      <div style="display:flex;gap:8px">${favBtn(c.id, false)}<button class="btn sm" data-act="share" data-id="${c.id}" aria-label="Compartir">${ICON.share}</button></div></div>
+    <div class="flag-hero"><img src="${Countries.flag(c.iso)}" alt="Bandera de ${esc(c.name)}" decoding="async"></div>
+    <header class="art-head" style="margin-top:20px">
+      <span class="chip" style="color:var(--ac2)"><span class="dot"></span>${esc(c.region)} · ${esc(c.subregion)}</span>
+      <h1 style="margin-top:12px">${esc(c.name)}</h1>
+      ${c.official && norm(c.official) !== norm(c.name) ? `<p class="sub">Nombre oficial en su idioma: ${esc(c.official)}</p>` : ''}
+    </header>
+    <div class="kvs">
+      ${kv('Capital', esc(c.capital))}
+      ${kv(c.currencies.length > 1 ? 'Monedas' : 'Moneda', c.currencies.map(x => `${esc(x.n)} <span class="faint">(${esc(x.c)})</span>`).join('<br>'))}
+      ${kv(c.languages.length > 1 ? 'Idiomas oficiales' : 'Idioma oficial', esc(c.languages.join(', ')), c.langNote)}
+      ${kv('Continente', esc(c.trans || c.region))}
+      ${kv('Superficie', c.area ? fmtNum(c.area) + ' km²' : '', 'Según Wikidata.')}
+      ${kv('Población', c.pop ? fmtNum(c.pop) : '', c.popYear ? `Dato de ${c.popYear}, según Wikidata.` : '')}
+      ${c.landlocked ? kv('Geografía', 'Sin salida al mar') : ''}
+      ${c.observer ? kv('Estatus', 'Estado observador de la ONU') : ''}
+    </div>
+    <div class="art-actions">${favBtn(c.id)}<button class="btn sm" data-act="share" data-id="${c.id}">${ICON.share}<span>Compartir</span></button></div>
+    <div class="prose">
+      ${txt('Resumen', c.lead)}
+      ${txt('Origen del nombre', c.name_origin)}
+      ${txt('Un poco de historia', c.history)}
+    </div>
+    <div class="sources"><h3>Fuentes</h3><ol>
+      ${c.wiki ? `<li><a href="${esc(c.wiki)}" target="_blank" rel="noopener noreferrer">Wikipedia en español — ${esc(c.name)} (textos extraídos, licencia CC BY-SA 4.0)</a></li>` : ''}
+      <li><a href="${esc(c.wikidata)}" target="_blank" rel="noopener noreferrer">Wikidata — datos de capital y población</a></li>
+      <li><a href="https://github.com/mledoze/countries" target="_blank" rel="noopener noreferrer">world-countries (mledoze) — idiomas, monedas y regiones</a></li>
+      <li><a href="https://github.com/lipis/flag-icons" target="_blank" rel="noopener noreferrer">flag-icons — imagen de la bandera (licencia MIT)</a></li>
+    </ol></div>
+    <p class="verify">Los textos son extractos de Wikipedia. Capital, moneda e idiomas se contrastaron entre dos bases de datos independientes.</p>
+    ${same.length ? `<div class="sec"><div><h2>Más países de ${esc(c.subregion)}</h2></div></div><div class="ctry-grid">${same.map(countryCard).join('')}</div>` : ''}
+  </article>`;
+};
+
 Views.notFound = () => emptyState('🧭', 'No encontramos esa página', 'Puede que el enlace esté mal o que el contenido ya no esté publicado.', '<a class="btn ac" href="#/">Ir al inicio</a>');
 
 /* ================= 7. ROUTER ================= */
@@ -614,6 +743,8 @@ const ROUTES = [
   [/^\/buscar$/, 'search', Views.search, 'explorar'],
   [/^\/articulo\/([\w-]+)$/, 'article', Views.article, ''],
   [/^\/dato\/([\w-]+)$/, 'fact', Views.fact, ''],
+  [/^\/paises$/, 'countries', Views.countries, 'explorar'],
+  [/^\/pais\/([a-z]{2})$/, 'country', Views.country, 'explorar'],
   [/^\/quiz$/, 'quiz', Views.quiz, 'quiz'],
   [/^\/guardados$/, 'saved', Views.saved, 'guardados'],
   [/^\/perfil$/, 'profile', Views.profile, 'perfil']
@@ -644,6 +775,12 @@ function render() {
 
 function afterRender(name) {
   $('#progress').style.width = '0';
+  if (name === 'search' && !Countries.data) Countries.load().then(() => { const inp = $('#q'); if (current.name === 'search' && inp && inp.value.trim()) $('#results').innerHTML = searchResults(inp.value); }).catch(() => {});
+  if (name === 'countries' && $('#cq')) {
+    const inp = $('#cq'), cards = $$('#cgrid .ctry');
+    const apply = () => { const t = norm(inp.value).split(/\s+/).filter(Boolean); let n = 0; cards.forEach(el => { const ok = t.every(x => el.dataset.s.includes(x)); el.hidden = !ok; if (ok) n++; }); $('#ccount').textContent = plural(n, 'país', 'países'); $('#cempty').hidden = n > 0; };
+    inp.addEventListener('input', apply); if (inp.value) apply();
+  }
   if (name === 'search') {
     const inp = $('#q');
     if (inp) {
@@ -722,7 +859,7 @@ document.addEventListener('click', e => {
       if (current.name === 'saved') render();
       break;
     }
-    case 'share': { const i = ContentRepo.get(id); if (i) share(i); break; }
+    case 'share': { const i = id.startsWith('pais-') ? Countries.get(id) : ContentRepo.get(id); if (i) share(i.type === 'pais' ? { ...i, title: `${i.name}: capital ${i.capital}` } : i); break; }
     case 'back':
       if (sessionStorage.getItem('sq.nav')) history.back(); // hubo navegación interna en esta sesión
       else location.hash = '#/';                            // llegó por enlace directo: volver al inicio
