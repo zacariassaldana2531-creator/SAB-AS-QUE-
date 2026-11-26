@@ -214,7 +214,7 @@ function editItem(){
        +fld('Conclusión',`<textarea name="conclusion">${esc(i.conclusion)}</textarea>`)
       :fld('Explicación completa',`<textarea class="big" name="body" style="font-family:var(--sans)">${esc(i.body)}</textarea>`)}
   ${fld('Fuentes y referencias',`<textarea name="sources">${esc(sourcesToText(i.sources))}</textarea>`,'Una por línea: <b>Título de la fuente | https://url</b>. Solo fuentes reales que hayas abierto y que respalden lo que dices.')}
-  ${fld('Imagen (opcional)',`<input name="img" value="${esc(i.img||'')}" placeholder="https://… (vacío = ilustración automática)">`,'Usa imágenes con licencia libre (p. ej., Wikimedia Commons) e indica el crédito en las fuentes.')}
+  ${fld('Imagen (opcional)',`<input name="img" value="${esc(i.img||'')}" placeholder="https://… (vacío = ilustración automática)">`,'Solo imágenes con licencia libre (p. ej., Wikimedia Commons). Si cambias la imagen, se borra el crédito anterior: añade el autor y la licencia en las fuentes.')}
   ${fld('Identificador',`<input name="id" value="${esc(i.id)}" ${state.isNew?'':'readonly'}>`, state.isNew?'Se genera del título si lo dejas vacío. No se puede cambiar después.':'No editable: lo usan enlaces y favoritos.')}
   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">
     <button class="btn ac" type="submit">Guardar</button>
@@ -257,7 +257,7 @@ function submit(form){
     const i=state.edit;
     Object.assign(i,{title:v.title.trim(),desc:v.desc.trim(),cat:v.cat,sub:v.sub.trim(),level:+v.level,status:v.status,date:v.date||today(),sources:textToSources(v.sources)});
     v.read?i.read=+v.read:delete i.read;
-    v.img.trim()?i.img=v.img.trim():delete i.img;
+    { const ni=v.img.trim(); if(ni!==(i.img||'')){ delete i.imgCredit; } ni?i.img=ni:delete i.img; }  // si cambia la imagen, el crédito anterior ya no aplica
     if(i.type==='articulo'){ Object.assign(i,{subtitle:v.subtitle.trim(),intro:v.intro.trim(),sections:textToSections(v.sections),facts:lines(v.facts),conclusion:v.conclusion.trim()}); }
     else { i.body=v.body.trim(); if(i.type==='mito') i.verdict=v.verdict; }
     if(state.isNew){

@@ -1,10 +1,11 @@
-/* ¿SABÍAS QUE? — Base de contenido v3 (280 contenidos, 278 preguntas).
+/* ¿SABÍAS QUE? — Base de contenido v4 (280 contenidos, 278 preguntas, 7 dosieres).
  * Cada contenido tiene fuentes verificadas automáticamente contra el texto de la fuente.
+ * Imágenes: Wikimedia Commons, solo licencias libres, con autor y licencia (img, imgCredit).
  * Tipos: "articulo" | "curiosidad" | "mito". Estado: "publicado" | "borrador". Nivel: 1-3.
  * Este archivo lo puede regenerar el panel admin (admin.html → Publicar → Descargar content.js).
  */
 window.SQ_CONTENT = {
- "version": 3,
+ "version": 4,
  "updated": "2026-11-26",
  "categories": [
   {
@@ -12,91 +13,195 @@ window.SQ_CONTENT = {
    "name": "Ciencia",
    "icon": "⚗️",
    "color": "#7c6cff",
-   "desc": "Química, física y fenómenos de la naturaleza."
+   "desc": "Química, física y fenómenos de la naturaleza.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/250_mL_Erlenmeyer_flask.jpg/960px-250_mL_Erlenmeyer_flask.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imgCredit": {
+    "artist": "Pilarbini",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:250_mL_Erlenmeyer_flask.jpg",
+    "file": "250_mL_Erlenmeyer_flask.jpg"
+   }
   },
   {
    "id": "historia",
    "name": "Historia",
    "icon": "🏛️",
    "color": "#c8a46a",
-   "desc": "Lo que pasó y casi nadie te contó."
+   "desc": "Lo que pasó y casi nadie te contó.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/960px-The_Parthenon_in_Athens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imgCredit": {
+    "artist": "Steve Swayne",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg",
+    "file": "The_Parthenon_in_Athens.jpg"
+   }
   },
   {
    "id": "psicologia",
    "name": "Psicología",
    "icon": "🧠",
    "color": "#e07aa8",
-   "desc": "Cómo piensa, decide y se engaña la mente."
+   "desc": "Cómo piensa, decide y se engaña la mente.",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/7/70/Rorschach_blot_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "imgCredit": {
+    "artist": "Hermann Rorschach (died 1922)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Rorschach_blot_01.jpg",
+    "file": "Rorschach_blot_01.jpg"
+   }
   },
   {
    "id": "universo",
    "name": "Universo",
    "icon": "🪐",
    "color": "#5b8cff",
-   "desc": "Planetas, estrellas y la escala del cosmos."
+   "desc": "Planetas, estrellas y la escala del cosmos.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-33a-07.jpg/960px-ESO-VLT-Laser-phot-33a-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imgCredit": {
+    "artist": "ESO/Y. Beletsky",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ESO-VLT-Laser-phot-33a-07.jpg",
+    "file": "ESO-VLT-Laser-phot-33a-07.jpg"
+   }
   },
   {
    "id": "tecnologia",
    "name": "Tecnología",
    "icon": "💡",
    "color": "#4cc9d8",
-   "desc": "Inventos, internet y la historia digital."
+   "desc": "Inventos, internet y la historia digital.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/EPROM_Microchip_SuperMacro.jpg/960px-EPROM_Microchip_SuperMacro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imgCredit": {
+    "artist": "Zephyris",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EPROM_Microchip_SuperMacro.jpg",
+    "file": "EPROM_Microchip_SuperMacro.jpg"
+   }
   },
   {
    "id": "cuerpo",
    "name": "Cuerpo humano",
    "icon": "🫀",
    "color": "#ff7a6b",
-   "desc": "La máquina que llevas puesta."
+   "desc": "La máquina que llevas puesta.",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Heart_anterior_exterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "imgCredit": {
+    "artist": "Jerm",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Heart_anterior_exterior_view.png",
+    "file": "Heart_anterior_exterior_view.png"
+   }
   },
   {
    "id": "geografia",
    "name": "Geografía",
    "icon": "🌎",
    "color": "#4fbf8f",
-   "desc": "Países, extremos y formas del planeta."
+   "desc": "Países, extremos y formas del planeta.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/960px-The_Blue_Marble%2C_AS17-148-22727.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imgCredit": {
+    "artist": "Harrison Schmitt / Apollo 17",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble,_AS17-148-22727.jpg",
+    "file": "The_Blue_Marble,_AS17-148-22727.jpg"
+   }
   },
   {
    "id": "animales",
    "name": "Animales",
    "icon": "🐙",
    "color": "#8fcf5a",
-   "desc": "Las rarezas del reino animal."
+   "desc": "Las rarezas del reino animal.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg/960px-African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imgCredit": {
+    "artist": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:African_Elephant_(Loxodonta_africana)_male_(17289351322).jpg",
+    "file": "African_Elephant_(Loxodonta_africana)_male_(17289351322).jpg"
+   }
   },
   {
    "id": "filosofia",
    "name": "Filosofía",
    "icon": "🏺",
    "color": "#b89cff",
-   "desc": "Las preguntas que llevan siglos sin cerrarse."
+   "desc": "Las preguntas que llevan siglos sin cerrarse.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Ancientlibraryalex.jpg/960px-Ancientlibraryalex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imgCredit": {
+    "artist": "O. Von Corven",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Ancientlibraryalex.jpg",
+    "file": "Ancientlibraryalex.jpg"
+   }
   },
   {
    "id": "misterios",
    "name": "Misterios",
    "icon": "🔍",
    "color": "#9aa3b8",
-   "desc": "Enigmas reales que siguen abiertos."
+   "desc": "Enigmas reales que siguen abiertos.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/960px-Stonehenge2007_07_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imgCredit": {
+    "artist": "garethwiscombe",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stonehenge2007_07_30.jpg",
+    "file": "Stonehenge2007_07_30.jpg"
+   }
   },
   {
    "id": "economia",
    "name": "Economía",
    "icon": "📈",
    "color": "#f2b84b",
-   "desc": "El dinero, los precios y sus historias."
+   "desc": "El dinero, los precios y sus historias.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Kiloware.JPG/960px-Kiloware.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imgCredit": {
+    "artist": "Michael Sander",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kiloware.JPG",
+    "file": "Kiloware.JPG"
+   }
   },
   {
    "id": "religion",
    "name": "Religión",
    "icon": "📜",
    "color": "#d9a679",
-   "desc": "Historia de las creencias y sus textos."
+   "desc": "Historia de las creencias y sus textos.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/960px-Hagia_Sophia_%28228968325%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imgCredit": {
+    "artist": "Adli Wahid",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_(228968325).jpeg",
+    "file": "Hagia_Sophia_(228968325).jpeg"
+   }
   },
   {
    "id": "cultura",
    "name": "Cultura general",
    "icon": "🎭",
    "color": "#ef8a5c",
-   "desc": "Idioma, tradiciones y República Dominicana."
+   "desc": "Idioma, tradiciones y República Dominicana.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg/960px-Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imgCredit": {
+    "artist": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg",
+    "file": "Basílica_Menor_de_Santa_María_CCSD_07_2017_4676.jpg"
+   }
   }
  ],
  "items": [
@@ -10680,6 +10785,252 @@ window.SQ_CONTENT = {
    ],
    "a": 1,
    "exp": "Es una respuesta al bombardeo de la villa vasca de Guernica en 1937."
+  }
+ ],
+ "series": [
+  {
+   "id": "grandes-enigmas",
+   "title": "Grandes enigmas",
+   "desc": "Escrituras que nadie lee, señales del espacio y desapariciones que la ciencia todavía investiga.",
+   "ids": [
+    "a-voynich",
+    "a-wow-signal",
+    "a-nazca",
+    "a-tunguska",
+    "c-anticitera",
+    "c-dyatlov",
+    "c-roanoke",
+    "c-rongorongo",
+    "c-mary-celeste",
+    "c-lineal-a",
+    "m-triangulo-bermudas",
+    "c-piedras-moviles",
+    "c-stonehenge",
+    "c-moai-caminar",
+    "c-gobekli-tepe",
+    "c-rayo-globular",
+    "c-bloop",
+    "c-disco-festo",
+    "m-nessie-foto",
+    "m-roswell"
+   ]
+  },
+  {
+   "id": "mitos-que-creimos",
+   "title": "Mitos que todos creímos",
+   "desc": "Lo que «todo el mundo sabe»… y resulta ser falso o, como mucho, una verdad a medias.",
+   "ids": [
+    "m-cerebro-10",
+    "m-muralla",
+    "m-vikingos",
+    "m-rayo-dos-veces",
+    "m-sangre-azul",
+    "m-murcielagos",
+    "m-toros-rojo",
+    "m-chicle",
+    "m-napoleon",
+    "m-avestruz",
+    "m-camaleon",
+    "m-vidrio-liquido",
+    "m-tierra-plana-medieval",
+    "m-cerebro-izq-der",
+    "m-estilos-aprendizaje",
+    "m-lado-oscuro-luna",
+    "m-mapa-lengua",
+    "m-cinco-sentidos",
+    "m-nudillos",
+    "m-vaca-estomagos",
+    "m-memoria-pez",
+    "m-camello-agua",
+    "m-epicureismo",
+    "m-triangulo-bermudas",
+    "m-salario-sal",
+    "m-buda-gordo",
+    "m-newton-manzana",
+    "m-llantas-rayo",
+    "m-maria-antonieta",
+    "m-memoria-fotografica",
+    "m-gravedad-iss",
+    "m-lemmings",
+    "m-nessie-foto",
+    "m-roswell"
+   ]
+  },
+  {
+   "id": "como-nos-engana-la-mente",
+   "title": "Cómo nos engaña la mente",
+   "desc": "Sesgos, memorias falsas y experimentos que revelan lo poco que controlamos nuestras decisiones.",
+   "ids": [
+    "a-dunning-kruger",
+    "a-asch",
+    "a-milgram",
+    "c-mera-exposicion",
+    "c-ilusion-frecuencia",
+    "c-numero-siete",
+    "c-gorila-invisible",
+    "c-efecto-ancla",
+    "c-pareidolia",
+    "c-efecto-foco",
+    "c-memorias-falsas",
+    "m-cerebro-izq-der",
+    "m-estilos-aprendizaje",
+    "c-efecto-ikea",
+    "c-sesgo-confirmacion",
+    "c-efecto-halo",
+    "c-sobrecarga-eleccion",
+    "c-numero-dunbar",
+    "c-deja-vu",
+    "c-curva-olvido",
+    "c-espectador",
+    "m-memoria-fotografica"
+   ]
+  },
+  {
+   "id": "viaje-al-cosmos",
+   "title": "Viaje al cosmos",
+   "desc": "De la Luna a los agujeros negros: la escala del universo explicada con datos.",
+   "ids": [
+    "a-venus-dia",
+    "a-luz-pasado",
+    "a-cara-luna",
+    "c-estrella-neutrones",
+    "c-dia-marte",
+    "c-saturno-densidad",
+    "c-olympus-mons",
+    "c-voyager-1",
+    "c-masa-sol",
+    "c-ganimedes",
+    "m-lado-oscuro-luna",
+    "c-luna-se-aleja",
+    "c-pluton",
+    "c-andromeda-choque",
+    "c-halley",
+    "c-gagarin",
+    "c-laika",
+    "c-agujero-negro-foto",
+    "m-gravedad-iss"
+   ]
+  },
+  {
+   "id": "inventos-que-cambiaron-el-mundo",
+   "title": "Inventos que cambiaron el mundo",
+   "desc": "De la imprenta al código QR: las ideas que transformaron la vida cotidiana.",
+   "ids": [
+    "a-primer-bug",
+    "a-primer-email",
+    "c-primer-sms",
+    "c-youtube-zoo",
+    "c-symbolics",
+    "c-captcha",
+    "c-bluetooth",
+    "c-computadora-apolo",
+    "c-spam-monty",
+    "c-wifi-nombre",
+    "c-qr-toyota",
+    "c-primera-llamada-movil",
+    "c-web-libre",
+    "c-ada-lovelace",
+    "c-turing-enigma",
+    "c-emoji",
+    "c-hashtag",
+    "c-gps-relatividad",
+    "c-engelbart-raton",
+    "c-codigo-barras",
+    "c-penicilina",
+    "c-rontgen",
+    "c-biblia-gutenberg",
+    "c-jiaozi"
+   ]
+  },
+  {
+   "id": "republica-dominicana-y-el-caribe",
+   "title": "República Dominicana y el Caribe",
+   "desc": "Taínos, merengue, la primera catedral de América y los extremos geográficos de nuestra isla.",
+   "ids": [
+    "a-ciudad-colonial",
+    "c-merengue",
+    "c-bandera-biblia",
+    "c-pico-duarte",
+    "c-enriquillo",
+    "c-larimar",
+    "c-la-espanola",
+    "c-cemies",
+    "c-guira",
+    "c-bachata-unesco",
+    "c-beisbol-rd",
+    "c-faro-colon",
+    "c-revolucion-haitiana",
+    "c-independencia-rd",
+    "c-samana-ballenas",
+    "c-altagracia",
+    "c-carnaval-vega",
+    "c-taino"
+   ]
+  },
+  {
+   "id": "el-mundo-antiguo",
+   "title": "El mundo antiguo",
+   "desc": "Pirámides, filósofos griegos, Roma y monumentos más antiguos que la escritura.",
+   "ids": [
+    "a-cleopatra-luna",
+    "a-nazca",
+    "a-pompeya",
+    "c-vespasiano-orina",
+    "c-socrates-no-escribio",
+    "c-diogenes",
+    "c-hipatia",
+    "c-anticitera",
+    "c-tutankamon",
+    "c-coliseo",
+    "c-aristoteles-alejandro",
+    "c-stonehenge",
+    "c-moai-caminar",
+    "c-gobekli-tepe"
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "id": "a-cleopatra-luna",
+   "date": "2026-11-26",
+   "before": "La Gran Pirámide se terminó hacia el año 2560 a. C.",
+   "after": "La Gran Pirámide se construyó hacia el año 2600 a. C.",
+   "why": "Corregido para coincidir con la fecha que da la fuente citada."
+  },
+  {
+   "id": "a-cleopatra-luna",
+   "date": "2026-11-26",
+   "before": "Fue la estructura más alta construida por el ser humano durante más de 3.800 años.",
+   "after": "Fue la estructura más alta construida por el ser humano durante más de 3.700 años.",
+   "why": "La fuente indica «más de 3.700 años»."
+  },
+  {
+   "id": "a-luz-pasado",
+   "date": "2026-11-26",
+   "before": "La luz del Sol tarda unos 8 minutos y 20 segundos en llegar a la Tierra.",
+   "after": "La luz del Sol tarda unos 8 minutos y 19 segundos en llegar a la Tierra.",
+   "why": "Ajustado a la cifra de la fuente (unos 499 segundos). La fuente anterior no mencionaba el dato y se sustituyó."
+  },
+  {
+   "id": "c-tiburones-arboles",
+   "date": "2026-11-26",
+   "before": "Los tiburones aparecieron hace unos 450 millones de años.",
+   "after": "Hay escamas parecidas a las de tiburones de hace 458–444 millones de años y parientes cercanos de hace unos 439 millones; los tiburones modernos aparecieron después, en el Jurásico.",
+   "why": "La afirmación original era imprecisa."
+  },
+  {
+   "id": "m-vikingos",
+   "date": "2026-11-26",
+   "before": "Atribuía la imagen de los cascos con cuernos al vestuario de Carl Emil Doepler sin una fuente que lo respaldara.",
+   "after": "Se añadió una fuente que documenta el vestuario de Doepler para la ópera de Wagner en 1876.",
+   "why": "Afirmación correcta, pero sin respaldo en las fuentes citadas."
+  },
+  {
+   "id": "c-desierto-antartida",
+   "date": "2026-11-26",
+   "before": "La única fuente era una lista en formato de tabla.",
+   "after": "Se añadió el artículo general sobre desiertos, que afirma explícitamente que la Antártida es el mayor desierto frío.",
+   "why": "Reforzar el respaldo documental."
   }
  ]
 };

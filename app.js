@@ -69,6 +69,9 @@ const ContentRepo = (() => {
     byType: t => items.filter(i => i.type === t),
     byCat: (c, t) => items.filter(i => i.cat === c && (!t || t === 'todo' || i.type === t)),
     questions: () => questions,
+    series: () => (src.series || []).map(x => ({ ...x, items: (x.ids || []).map(id => map[id]).filter(Boolean) })).filter(x => x.items.length),
+    corrections: () => (src.corrections || []).slice().sort((a, b) => (b.date || '').localeCompare(a.date || '')),
+    catImage: id => (catMap[id] || {}).img || null,
     search(q) {
       const terms = norm(q).split(/\s+/).filter(t => t.length > 1);
       if (!terms.length) return [];
@@ -186,13 +189,18 @@ const ICON = {
   arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
   clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
   check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg>',
-  spark: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>'
+  spark: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>',
+  image: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>',
+  sound: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>',
+  stop: '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>',
+  quote: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h4v4c0 3-2 5-4 6M15 7h4v4c0 3-2 5-4 6"/></svg>',
+  calendar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>'
 };
 
 /* Portadas ilustradas generadas en código: sin peticiones de red, únicas por contenido. */
 let svgUid = 0;
 function cover(item, { w = 800, h = 500, glyph = true } = {}) {
-  if (item.img) return `<img src="${esc(item.img)}" alt="" loading="lazy" decoding="async">`;
+  if (item.img) return `<img src="${esc(item.img)}" alt="${esc(item.imgAlt || '')}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
   const cat = ContentRepo.cat(item.cat) || { color: '#8f7cff', icon: '✦', name: '' };
   const r = rng(hash(item.id)), c = cat.color, id = 'g' + (++svgUid);
   const cx = 25 + r() * 50, cy = 20 + r() * 45;
@@ -251,7 +259,19 @@ const featCard = i => `<a class="card feat" href="#/articulo/${i.id}">
   <div class="in">${catChip(i)}<h3>${esc(i.title)}</h3><p>${esc(i.desc)}</p>${metaLine(i, `<span>${fmtDate(i.date)}</span>`)}</div></a>`;
 const emptyState = (ic, h, p, cta = '') => `<div class="empty"><div class="art-ic">${ic}</div><h3>${h}</h3><p>${p}</p>${cta}</div>`;
 const favBtn = (id, label = true) => { const on = UserRepo.isFav(id); return `<button class="btn sm" data-act="fav" data-id="${id}" aria-pressed="${on}">${on ? ICON.bookmarkFill : ICON.bookmark}${label ? `<span>${on ? 'Guardado' : 'Guardar'}</span>` : ''}</button>`; };
-const sourcesBlock = srcs => (srcs && srcs.length) ? `<div class="sources"><h3>Fuentes consultadas</h3><ol>${srcs.map(s => `<li><a href="${esc(s.u)}" target="_blank" rel="noopener noreferrer">${esc(s.t)}</a></li>`).join('')}</ol></div>` : '';
+const sourcesBlock = srcs => (srcs && srcs.length) ? `<div class="sources"><h3>Fuentes consultadas</h3><ol>${srcs.map((s, k) => `<li id="src-${k + 1}"><a href="${esc(s.u)}" target="_blank" rel="noopener noreferrer">${esc(s.t)}</a></li>`).join('')}</ol></div>` : '';
+const refMarks = srcs => (srcs && srcs.length) ? `<p class="refs">Fuentes de este texto: ${srcs.map((s, k) => `<button class="ref" data-act="toref" data-n="${k + 1}" aria-label="Ir a la fuente ${k + 1}">[${k + 1}]</button>`).join(' ')}</p>` : '';
+/* Dirección pública: páginas estáticas indexables con vista previa al compartir (las genera tools/build-pages.js) */
+const SITE = /vercel\.app$|sabiasque/i.test(location.hostname) ? location.origin : 'https://cultura-khaki.vercel.app';
+const publicUrl = i => i.type === 'pais' ? `${SITE}/pais/${i.iso.toLowerCase()}/` : `${SITE}/${i.type === 'articulo' ? 'articulo' : 'dato'}/${i.id}/`;
+const credit = (x, cls = 'credit') => x && x.imgCredit ? `<figcaption class="${cls}">Imagen: ${esc(x.imgCredit.artist)} · <a href="${esc(x.imgCredit.page)}" target="_blank" rel="noopener noreferrer">${esc(x.imgCredit.license)} · Wikimedia Commons</a></figcaption>` : '';
+const MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+const LAUNCH = Date.UTC(2026, 10, 25);
+const edition = () => { const d = new Date(); return { n: Math.max(1, Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - LAUNCH) / 864e5) + 1), date: d.toLocaleDateString('es-DO', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) }; };
+const apa = i => { const d = new Date((i.date || '2026-11-25') + 'T12:00:00'); return `Redacción ¿Sabías que? (${d.getFullYear()}, ${d.getDate()} de ${MONTHS[d.getMonth()]}). ${i.title}. ¿SABÍAS QUE? ${publicUrl(i)}`; };
+const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || [])]), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, i.body, i.lead, i.name_origin, i.history].filter(Boolean).join('. ').replace(/\.\./g, '.');
+const toolBtns = (id, extra = '') => `<div class="art-actions">${favBtn(id)}<button class="btn sm" data-act="share" data-id="${id}">${ICON.share}<span>Compartir</span></button><button class="btn sm" data-act="card" data-id="${id}">${ICON.image}<span>Imagen</span></button><button class="btn sm" data-act="listen" data-id="${id}">${ICON.sound}<span>Escuchar</span></button><button class="btn sm" data-act="cite" data-id="${id}">${ICON.quote}<span>Citar</span></button>${extra}</div>`;
+const getAny = id => String(id).startsWith('pais-') ? Countries.get(id) : ContentRepo.get(id);
 
 function toast(msg) {
   const t = $('#toast'); t.textContent = msg; t.classList.add('on');
@@ -259,7 +279,7 @@ function toast(msg) {
 }
 
 async function share(i) {
-  const url = location.href.split('#')[0] + href(i);
+  const url = publicUrl(i);
   const text = `¿Sabías que…? ${i.title}`;
   try {
     if (navigator.share) { await navigator.share({ title: i.title, text, url }); return; }
@@ -284,7 +304,7 @@ const Sheet = {
       <div class="grab"></div>
       <button class="icon-btn x" data-act="sheet-close" aria-label="Cerrar">${ICON.close}</button>
       ${surprise ? `<div class="eyebrow" style="color:var(--ac2);margin-bottom:10px">✦ Sorpréndeme · ${TYPE[i.type]}</div>` : ''}
-      <div class="cover mini-cover">${cover(i, { w: 800, h: 260 })}</div>
+      <figure><div class="cover mini-cover">${cover(i, { w: 800, h: 260 })}</div>${credit(i, 'credit sm')}</figure>
       <div style="margin-top:14px">${head}</div>
       <h2 class="claim" id="sheet-title">${esc(i.title)}</h2>
       <p class="lede">${esc(i.desc)}</p>
@@ -300,6 +320,12 @@ const Sheet = {
     const s = $('#sheet'); s.classList.add('open'); s.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
     $('#sheet .panel').scrollTop = 0;
+    setTimeout(() => $('#sheet .x').focus({ preventScroll: true }), 50);
+  },
+  custom(html) {
+    this.lastFocus = document.activeElement;
+    $('#sheet .panel').innerHTML = `<div class="grab"></div><button class="icon-btn x" data-act="sheet-close" aria-label="Cerrar">${ICON.close}</button>${html}`;
+    const s = $('#sheet'); s.classList.add('open'); s.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden'; $('#sheet .panel').scrollTop = 0;
     setTimeout(() => $('#sheet .x').focus({ preventScroll: true }), 50);
   },
   close() {
@@ -331,7 +357,10 @@ Views.home = () => {
   const recent = ContentRepo.all().slice(0, 6);
   const total = ContentRepo.all().length;
   const st = UserRepo.streak();
+  const ed = edition();
+  const series = ContentRepo.series();
   return `
+  <div class="masthead"><span>Edición n.º ${ed.n}</span><span class="md">${esc(ed.date)}</span><span>Edición digital</span></div>
   <section class="welcome">
     <div class="eyebrow">${saludo}${name ? ', ' + esc(name) : ''}${st.cur > 1 ? ` · 🔥 ${st.cur} días seguidos` : ''}</div>
     <h1 class="h-display">Hoy vas a saber algo que <em>casi nadie sabe.</em></h1>
@@ -359,12 +388,17 @@ Views.home = () => {
     <span class="arr">${ICON.arrow}</span>
   </button>
 
+  <section class="otd card" id="otd-home"><div class="otd-head"><span class="eyebrow">${ICON.calendar} Hoy en la historia</span><a class="more" href="#/hoy">Ver todo</a></div><div class="otd-body">${otdSkeleton()}</div></section>
+
   <div class="sec"><div><h2>Descubrimientos rápidos</h2><p>Lee la afirmación. Toca para saber por qué es cierta (o falsa).</p></div></div>
   <div class="rail">${quick.map(quickCard).join('')}</div>
 
   <div class="sec"><div><h2>Explorar categorías</h2><p>13 áreas del conocimiento</p></div><a class="more" href="#/explorar">Ver todo</a></div>
   ${catsGrid()}
   <div style="margin-top:12px">${countriesBanner()}</div>
+
+  ${series.length ? `<div class="sec"><div><h2>Dosieres</h2><p>Series temáticas para leer de principio a fin</p></div><a class="more" href="#/dosieres">Ver todos</a></div>
+  <div class="rail">${series.map(seriesCard).join('')}</div>` : ''}
 
   <div class="sec"><div><h2>Artículos destacados</h2><p>Lecturas para entender el porqué de las cosas</p></div><a class="more" href="#/explorar?tipo=articulo">Ver todos</a></div>
   <div class="editorial">
@@ -375,13 +409,15 @@ Views.home = () => {
   <div class="sec"><div><h2>Recién publicado</h2><p>Lo último que añadimos</p></div></div>
   <div class="list two">${recent.map(rowCard).join('')}</div>
 
-  <p class="foot-note">¿SABÍAS QUE? · Contenido educativo gratuito.<br>Cada dato incluye sus fuentes para que puedas comprobarlo.</p>`;
+  ${footNote()}`;
 };
+const footNote = () => `<footer class="foot-note">¿SABÍAS QUE? · Contenido educativo gratuito.<br>Cada dato incluye sus fuentes para que puedas comprobarlo.<br><a href="#/metodologia">Cómo verificamos</a> · <a href="#/erratas">Fe de erratas</a> · <a href="#/dosieres">Dosieres</a> · <a href="#/hoy">Hoy en la historia</a></footer>`;
 
 function catsGrid() {
   return `<div class="cats">${ContentRepo.categories().map(c => {
     const n = ContentRepo.byCat(c.id).length;
-    return `<a class="cat" href="#/categoria/${c.id}" style="--cc:${c.color}">
+    return `<a class="cat${c.img ? ' has-img' : ''}" href="#/categoria/${c.id}" style="--cc:${c.color}">
+      ${c.img ? `<img class="cat-bg" src="${esc(c.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : ''}
       <span class="gl">${c.icon}</span><span><b>${esc(c.name)}</b><small>${plural(n, 'contenido', 'contenidos')}</small></span></a>`;
   }).join('')}</div>`;
 }
@@ -407,7 +443,8 @@ Views.category = ([id], q) => {
   const list = ContentRepo.byCat(id, tipo);
   return `
   <button class="back" data-act="back">${ICON.back} Volver</button>
-  <header class="cat-hero" style="--cc:${c.color}"><div class="gl">${c.icon}</div><h1 class="h1">${esc(c.name)}</h1><p>${esc(c.desc)}</p></header>
+  <header class="cat-hero${c.img ? ' has-img' : ''}" style="--cc:${c.color}">${c.img ? `<img class="cat-bg" src="${esc(c.img)}" alt="" decoding="async" referrerpolicy="no-referrer">` : ''}<div class="gl">${c.icon}</div><h1 class="h1">${esc(c.name)}</h1><p>${esc(c.desc)}</p></header>
+  ${c.imgCredit ? credit(c, 'credit sm') : ''}
   ${typeSeg(tipo, '#/categoria/' + id)}
   <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(rowCard).join('')}</div>`
       : emptyState(c.icon, 'Nada por aquí todavía', 'No hay contenidos de este tipo en esta categoría. Prueba con otro filtro.', `<a class="btn" href="#/categoria/${id}">Ver todo en ${esc(c.name)}</a>`)}</div>`;
@@ -454,16 +491,17 @@ Views.article = ([id]) => {
       <p class="sub">${esc(i.subtitle || i.desc)}</p>
       ${metaLine(i, `<span>${esc(i.sub || '')}</span><span>${fmtDate(i.date)}</span>`)}
     </header>
-    <div class="cover art-hero">${cover(i, { w: 1200, h: 675 })}</div>
-    <div class="art-actions">${favBtn(i.id)}<button class="btn sm" data-act="share" data-id="${i.id}">${ICON.share}<span>Compartir</span></button></div>
+    <figure class="art-fig"><div class="cover art-hero">${cover(i, { w: 1200, h: 675 })}</div>${credit(i)}</figure>
+    ${toolBtns(i.id)}
     <div class="prose">
       <p class="lead">${esc(i.intro)}</p>
       ${(i.sections || []).map((s, k) => `<h2><span class="n">${String(k + 1).padStart(2, '0')}</span>${esc(s.h)}</h2>${(s.p || []).map(t => `<p>${esc(t)}</p>`).join('')}`).join('')}
       ${(i.facts || []).length ? `<aside class="box"><h3>Datos complementarios</h3><ul>${i.facts.map(f => `<li>${esc(f)}</li>`).join('')}</ul></aside>` : ''}
       ${i.conclusion ? `<h2><span class="n">EN RESUMEN</span>Conclusión</h2><p class="conclusion">${esc(i.conclusion)}</p>` : ''}
+      ${refMarks(i.sources)}
     </div>
     ${sourcesBlock(i.sources)}
-    <p class="verify">¿Encontraste un error? Revisa las fuentes enlazadas: toda afirmación de este artículo debería poder comprobarse en ellas.</p>
+    <p class="verify">¿Encontraste un error? Toda afirmación de este artículo debería poder comprobarse en sus fuentes. Consulta <a href="#/metodologia">cómo verificamos</a> y nuestra <a href="#/erratas">fe de erratas</a>.</p>
     <div class="endread ${read ? 'done' : ''}" id="endread">${read ? `${ICON.check} Artículo leído · +20 XP` : 'Llega al final para marcarlo como leído'}</div>
     ${related.length ? `<div class="sec"><div><h2>Más de ${esc(c.name)}</h2></div></div><div class="list">${related.map(rowCard).join('')}</div>` : ''}
   </article>`;
@@ -478,13 +516,13 @@ Views.fact = ([id]) => {
   const related = ContentRepo.byCat(i.cat).filter(x => x.id !== i.id).slice(0, 4);
   return `<article class="art">
     <div class="art-top"><button class="back" data-act="back">${ICON.back} Volver</button></div>
-    <div class="cover art-hero" style="margin-top:0">${cover(i, { w: 1200, h: 520 })}</div>
+    <figure class="art-fig" style="margin-top:0"><div class="cover art-hero" style="margin-top:0">${cover(i, { w: 1200, h: 520 })}</div>${credit(i)}</figure>
     <header class="art-head" style="margin-top:22px">
       ${i.type === 'mito' ? `<span class="verdict ${i.verdict === 'matizado' ? 'matizado' : 'falso'}" style="margin-bottom:14px">${i.verdict === 'matizado' ? 'Verdad a medias' : 'Mito · Falso'}</span>` : catChip(i)}
       <h1>${esc(i.title)}</h1><p class="sub">${esc(i.desc)}</p>${metaLine(i)}
     </header>
-    <div class="prose"><p>${esc(i.body)}</p></div>
-    <div class="art-actions">${favBtn(i.id)}<button class="btn sm" data-act="share" data-id="${i.id}">${ICON.share}<span>Compartir</span></button><button class="btn sm" data-act="surprise">${ICON.shuffle}<span>Sorpréndeme</span></button></div>
+    <div class="prose"><p>${esc(i.body)}</p>${refMarks(i.sources)}</div>
+    ${toolBtns(i.id, `<button class="btn sm" data-act="surprise">${ICON.shuffle}<span>Sorpréndeme</span></button>`)}
     ${sourcesBlock(i.sources)}
     ${related.length ? `<div class="sec"><div><h2>Relacionado</h2></div></div><div class="list">${related.map(rowCard).join('')}</div>` : ''}
   </article>`;
@@ -716,7 +754,7 @@ Views.country = ([iso]) => {
       ${c.landlocked ? kv('Geografía', 'Sin salida al mar') : ''}
       ${c.observer ? kv('Estatus', 'Estado observador de la ONU') : ''}
     </div>
-    <div class="art-actions">${favBtn(c.id)}<button class="btn sm" data-act="share" data-id="${c.id}">${ICON.share}<span>Compartir</span></button></div>
+    ${toolBtns(c.id)}
     <div class="prose">
       ${txt('Resumen', c.lead)}
       ${txt('Origen del nombre', c.name_origin)}
@@ -733,6 +771,143 @@ Views.country = ([iso]) => {
   </article>`;
 };
 
+/* ================= SECCIONES EDITORIALES ================= */
+
+/* Hoy en la historia: efemérides seleccionadas por Wikipedia en español (se actualiza sola cada día). */
+const OTD = {
+  cache: null,
+  async get() {
+    if (this.cache) return this.cache;
+    const d = new Date(), mm = String(d.getMonth() + 1).padStart(2, '0'), dd = String(d.getDate()).padStart(2, '0'), key = `sq.otd.${mm}${dd}`;
+    try { const c = sessionStorage.getItem(key); if (c) return (this.cache = JSON.parse(c)); } catch { }
+    const url = `https://es.wikipedia.org/api/rest_v1/feed/onthisday/selected/${mm}/${dd}`;
+    let r = await fetch(url).catch(() => null);
+    if (!r || !r.ok) { await new Promise(ok => setTimeout(ok, 1800)); r = await fetch(url); }   // un reintento
+    if (!r.ok) throw new Error('otd');
+    const j = await r.json();
+    const ev = (j.selected || []).map(e => {
+      const pg = (e.pages || [])[0] || {};
+      return { year: e.year, text: String(e.text || '').replace(/\s*\((?:en la|véase la) imagen[^)]*\)/gi, '').trim(), page: (pg.titles && pg.titles.normalized) || '', url: pg.content_urls && pg.content_urls.desktop && pg.content_urls.desktop.page };
+    }).filter(e => e.text).sort((a, b) => b.year - a.year);
+    this.cache = { day: `${d.getDate()} de ${MONTHS[d.getMonth()]}`, ev };
+    try { sessionStorage.setItem(key, JSON.stringify(this.cache)); } catch { }
+    return this.cache;
+  }
+};
+const otdSkeleton = () => '<div class="skel" style="height:16px;width:70%;margin:6px 0 10px"></div><div class="skel" style="height:16px;width:90%;margin-bottom:10px"></div><div class="skel" style="height:16px;width:60%"></div>';
+const otdItem = e => `<li><span class="yr">${esc(e.year)}</span><span>${esc(e.text)}${e.url ? ` <a class="src" href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">Fuente</a>` : ''}</span></li>`;
+function fillOtd(sel, n) {
+  const box = $(sel); if (!box) return;
+  OTD.get().then(d => {
+    const el = $(sel); if (!el) return;
+    el.innerHTML = d.ev.length ? `<p class="otd-day">${esc(d.day)}</p><ol class="otd-list">${d.ev.slice(0, n).map(otdItem).join('')}</ol>` : '<p class="faint">Hoy no hay efemérides seleccionadas.</p>';
+  }).catch(() => { const el = $(sel); if (el) el.innerHTML = '<p class="faint">No se pudieron cargar las efemérides. Revisa tu conexión.</p>'; });
+}
+Views.otd = () => `
+  <button class="back" data-act="back">${ICON.back} Volver</button>
+  <header class="cat-hero" style="--cc:#c8a46a"><div class="gl">📅</div><h1 class="h1">Hoy en la historia</h1><p>Acontecimientos que ocurrieron un día como hoy, seleccionados por la comunidad de Wikipedia en español.</p></header>
+  <section class="otd card"><div class="otd-body" id="otd-full">${otdSkeleton()}</div></section>
+  <p class="verify">Fuente: Wikipedia en español, sección de efemérides seleccionadas (CC BY-SA 4.0). Cada acontecimiento enlaza a su artículo.</p>`;
+
+/* Dosieres: series temáticas definidas en content.js (series) */
+const seriesCard = x => { const first = x.items.find(i => i.img) || x.items[0]; return `<a class="dossier" href="#/dosier/${x.id}"><div class="cover">${cover(first, { w: 600, h: 400 })}</div><div class="in"><span class="eyebrow" style="color:var(--ac2)">Dosier · ${x.items.length} piezas</span><b>${esc(x.title)}</b><span>${esc(x.desc)}</span></div></a>`; };
+Views.series = () => `
+  <button class="back" data-act="back">${ICON.back} Volver</button>
+  <div class="sec" style="margin-top:6px"><div><h1 class="h1">Dosieres</h1><p>Series temáticas: lecturas agrupadas para entender un tema a fondo.</p></div></div>
+  <div class="dossier-grid">${ContentRepo.series().map(seriesCard).join('')}</div>${footNote()}`;
+Views.dossier = ([id]) => {
+  const x = ContentRepo.series().find(s => s.id === id);
+  if (!x) return Views.notFound();
+  const arts = x.items.filter(i => i.type === 'articulo'), rest = x.items.filter(i => i.type !== 'articulo');
+  return `
+  <button class="back" data-act="back">${ICON.back} Volver</button>
+  <header class="dossier-hero"><div class="cover">${cover(x.items.find(i => i.img) || x.items[0], { w: 1200, h: 600 })}</div><div class="in"><span class="eyebrow" style="color:var(--ac2)">Dosier</span><h1 class="h1">${esc(x.title)}</h1><p>${esc(x.desc)}</p><div class="meta"><span>${plural(x.items.length, 'pieza', 'piezas')}</span><span>${ICON.clock}${x.items.reduce((n, i) => n + (i.read || 1), 0)} min de lectura</span></div></div></header>
+  ${arts.length ? `<div class="sec"><div><h2>Para leer a fondo</h2></div></div><div class="list">${arts.map(rowCard).join('')}</div>` : ''}
+  ${rest.length ? `<div class="sec"><div><h2>En pocas palabras</h2></div></div><div class="list two">${rest.map(rowCard).join('')}</div>` : ''}`;
+};
+
+/* Cómo verificamos */
+Views.method = () => {
+  const all = ContentRepo.all(), srcs = new Set(all.flatMap(i => i.sources.map(s => s.u)));
+  return `<article class="art">
+  <button class="back" data-act="back">${ICON.back} Volver</button>
+  <header class="art-head"><span class="chip" style="color:var(--ac2)"><span class="dot"></span>Transparencia</span><h1 style="margin-top:12px">Cómo verificamos</h1><p class="sub">Nuestro compromiso es simple: nada se publica sin una fuente que cualquiera pueda consultar.</p></header>
+  <div class="kvs"><div class="kv"><span>Contenidos</span><b>${all.length}</b></div><div class="kv"><span>Fuentes enlazadas</span><b>${srcs.size}</b></div><div class="kv"><span>Correcciones publicadas</span><b>${ContentRepo.corrections().length}</b></div></div>
+  <div class="prose">
+    <h2><span class="n">01</span>Toda afirmación tiene fuente</h2><p>Cada artículo, curiosidad y mito enlaza las fuentes en las que se basa: enciclopedias, organismos científicos, instituciones culturales y publicaciones académicas. El panel editorial impide publicar un contenido sin al menos una fuente con dirección web válida.</p>
+    <h2><span class="n">02</span>Verificación contra el texto original</h2><p>Antes de publicar, un proceso automático descarga el texto completo de cada fuente y comprueba que los datos clave del contenido (cifras, fechas y nombres) aparezcan realmente en ella. Lo que no coincide no se publica: se corrige o se elimina.</p>
+    <h2><span class="n">03</span>Dos bases de datos para los países</h2><p>Las capitales, monedas e idiomas se contrastan entre Wikidata y una segunda base independiente. Las discrepancias se revisan una por una, y los casos complejos, como capitales múltiples o disputadas, se explican en lugar de simplificarse.</p>
+    <h2><span class="n">04</span>Lo que no sabemos, lo decimos</h2><p>Cuando una cifra varía según la fuente o un tema sigue en debate, lo señalamos. Preferimos un «no se sabe con certeza» a una afirmación tajante sin respaldo.</p>
+    <h2><span class="n">05</span>Corregimos en público</h2><p>Si detectamos un error después de publicar, lo corregimos y lo registramos en la <a href="#/erratas">fe de erratas</a>, con la fecha y el cambio realizado.</p>
+    <h2><span class="n">06</span>Imágenes con licencia libre</h2><p>Las fotografías proceden de Wikimedia Commons y tienen licencias libres (dominio público o Creative Commons). Cada imagen indica su autor y su licencia. No usamos fotografías de personas reales.</p>
+    <h2><span class="n">07</span>Límites</h2><p>La verificación automática confirma que los datos están en la fuente, pero no sustituye a la lectura experta. Muchas de nuestras fuentes son enciclopedias de referencia; con el tiempo incorporaremos más fuentes primarias, como estudios, museos y organismos oficiales.</p>
+  </div>${footNote()}</article>`;
+};
+
+/* Fe de erratas */
+Views.errata = () => {
+  const list = ContentRepo.corrections();
+  return `<article class="art">
+  <button class="back" data-act="back">${ICON.back} Volver</button>
+  <header class="art-head"><span class="chip" style="color:var(--ac2)"><span class="dot"></span>Transparencia</span><h1 style="margin-top:12px">Fe de erratas</h1><p class="sub">Registro público de las correcciones hechas después de publicar.</p></header>
+  <div class="errata">${list.length ? list.map(c => { const i = ContentRepo.get(c.id); return `<div class="err"><div class="meta"><span>${fmtDate(c.date)}</span></div><h3>${i ? `<a href="${href(i)}">${esc(i.title)}</a>` : esc(c.id)}</h3><p><b>Decía:</b> ${esc(c.before)}</p><p><b>Ahora dice:</b> ${esc(c.after)}</p>${c.why ? `<p class="faint">${esc(c.why)}</p>` : ''}</div>`; }).join('') : emptyState('✅', 'Sin correcciones', 'Todavía no ha sido necesario corregir nada.')}</div>
+  ${footNote()}</article>`;
+};
+
+/* Lectura en voz alta (Web Speech API, sin coste ni servidor) */
+const Speech = {
+  id: null,
+  supported: () => 'speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined',
+  start(i) {
+    if (!this.supported()) return toast('Tu navegador no puede leer en voz alta');
+    speechSynthesis.cancel();
+    const voices = speechSynthesis.getVoices(), voice = voices.find(v => /^es(-|_)(DO|US|MX|419)/i.test(v.lang)) || voices.find(v => /^es/i.test(v.lang));
+    const parts = readText(i).match(/[^.!?]+[.!?]*/g) || [];
+    parts.forEach((t, k) => { const u = new SpeechSynthesisUtterance(t.trim()); u.lang = voice ? voice.lang : 'es-ES'; if (voice) u.voice = voice; u.rate = 1; if (k === parts.length - 1) u.onend = () => this.stop(); speechSynthesis.speak(u); });
+    this.id = i.id; this.paint();
+  },
+  stop() { if (this.supported()) speechSynthesis.cancel(); this.id = null; this.paint(); },
+  paint() { $$('[data-act="listen"]').forEach(b => { const on = b.dataset.id === this.id; b.setAttribute('aria-pressed', on); b.innerHTML = (on ? ICON.stop : ICON.sound) + `<span>${on ? 'Detener' : 'Escuchar'}</span>`; }); }
+};
+
+/* Imagen para redes (1080×1350) generada en el teléfono con canvas */
+async function makeCard(i) {
+  const W = 1080, H = 1350, cv = document.createElement('canvas'); cv.width = W; cv.height = H;
+  const x = cv.getContext('2d');
+  const cat = i.type === 'pais' ? { name: 'Países del mundo', color: '#5b8cff', icon: '🌎' } : (ContentRepo.cat(i.cat) || { name: '', color: '#8f7cff', icon: '✦' });
+  x.fillStyle = '#07080b'; x.fillRect(0, 0, W, H);
+  const imgUrl = i.type === 'pais' ? Countries.flag(i.iso) : i.img;
+  let drew = false;
+  if (imgUrl) {
+    try {
+      const im = await new Promise((ok, ko) => { const m = new Image(); m.crossOrigin = 'anonymous'; m.referrerPolicy = 'no-referrer'; m.onload = () => ok(m); m.onerror = ko; m.src = imgUrl; });
+      const ih = 700, r = Math.max(W / im.width, ih / im.height), w = im.width * r, h = im.height * r;
+      x.drawImage(im, (W - w) / 2, (ih - h) / 2, w, h); drew = true;
+      const g = x.createLinearGradient(0, 300, 0, 720); g.addColorStop(0, 'rgba(7,8,11,0)'); g.addColorStop(1, 'rgba(7,8,11,1)'); x.fillStyle = g; x.fillRect(0, 300, W, 420);
+    } catch { drew = false; }
+  }
+  if (!drew) { const g = x.createRadialGradient(780, 260, 20, 780, 260, 700); g.addColorStop(0, cat.color + 'aa'); g.addColorStop(1, 'rgba(7,8,11,0)'); x.fillStyle = g; x.fillRect(0, 0, W, H); x.font = '220px serif'; x.textAlign = 'center'; x.fillText(cat.icon, 780, 330); x.textAlign = 'left'; }
+  const wrap = (text, font, maxW, lh, y, max) => { x.font = font; const words = String(text).split(' '); let line = '', n = 0; for (const w of words) { const t = line ? line + ' ' + w : w; if (x.measureText(t).width > maxW && line) { if (n === max - 1) { x.fillText(line + '…', 80, y); return y + lh; } x.fillText(line, 80, y); y += lh; n++; line = w; } else line = t; } x.fillText(line, 80, y); return y + lh; };
+  let y = 790;
+  x.fillStyle = cat.color; x.font = '700 30px -apple-system, system-ui, sans-serif'; x.fillText((i.type === 'mito' ? 'MITO O REALIDAD · ' : '') + cat.name.toUpperCase(), 80, y); y += 70;
+  x.fillStyle = '#f3eee6'; y = wrap(i.title, '700 62px Georgia, "Times New Roman", serif', W - 160, 74, y, 5);
+  x.fillStyle = '#b9b4ab'; y = wrap(i.desc || (i.type === 'pais' ? `Capital: ${i.capital}` : ''), '400 34px -apple-system, system-ui, sans-serif', W - 160, 46, y + 16, 3);
+  x.fillStyle = 'rgba(255,255,255,.12)'; x.fillRect(80, H - 150, W - 160, 2);
+  x.font = '700 44px Georgia, serif'; x.fillStyle = '#8f7cff'; x.fillText('¿', 80, H - 80); const w1 = x.measureText('¿').width;
+  x.fillStyle = '#f3eee6'; x.fillText('SABÍAS QUE', 80 + w1, H - 80); const w2 = x.measureText('SABÍAS QUE').width; x.fillStyle = '#8f7cff'; x.fillText('?', 80 + w1 + w2, H - 80);
+  x.font = '500 28px -apple-system, system-ui, sans-serif'; x.fillStyle = '#7d7a74'; x.textAlign = 'right'; x.fillText(SITE.replace(/^https?:\/\//, ''), W - 80, H - 84); x.textAlign = 'left';
+  return new Promise(ok => cv.toBlob(ok, 'image/png'));
+}
+async function shareCard(i) {
+  toast('Creando imagen…');
+  let blob; try { blob = await makeCard(i); } catch { blob = null; }
+  if (!blob) return toast('No se pudo crear la imagen');
+  const file = new File([blob], `sabiasque-${i.id}.png`, { type: 'image/png' });
+  try { if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], title: i.title, text: publicUrl(i) }); return; } } catch (e) { if (e && e.name === 'AbortError') return; }
+  const url = URL.createObjectURL(blob);
+  Sheet.custom(`<h2 class="claim" id="sheet-title">Imagen para compartir</h2><p class="faint">Mantén pulsada la imagen para guardarla en Fotos, o descárgala.</p><img class="card-preview" src="${url}" alt="Vista previa de la imagen para redes"><div class="acts"><a class="btn ac" href="${url}" download="sabiasque-${esc(i.id)}.png">Descargar</a></div>`);
+}
+
 Views.notFound = () => emptyState('🧭', 'No encontramos esa página', 'Puede que el enlace esté mal o que el contenido ya no esté publicado.', '<a class="btn ac" href="#/">Ir al inicio</a>');
 
 /* ================= 7. ROUTER ================= */
@@ -745,6 +920,11 @@ const ROUTES = [
   [/^\/dato\/([\w-]+)$/, 'fact', Views.fact, ''],
   [/^\/paises$/, 'countries', Views.countries, 'explorar'],
   [/^\/pais\/([a-z]{2})$/, 'country', Views.country, 'explorar'],
+  [/^\/hoy$/, 'otd', Views.otd, 'inicio'],
+  [/^\/dosieres$/, 'series', Views.series, 'explorar'],
+  [/^\/dosier\/([\w-]+)$/, 'dossier', Views.dossier, 'explorar'],
+  [/^\/metodologia$/, 'method', Views.method, ''],
+  [/^\/erratas$/, 'errata', Views.errata, ''],
   [/^\/quiz$/, 'quiz', Views.quiz, 'quiz'],
   [/^\/guardados$/, 'saved', Views.saved, 'guardados'],
   [/^\/perfil$/, 'profile', Views.profile, 'perfil']
@@ -774,6 +954,9 @@ function render() {
 }
 
 function afterRender(name) {
+  if (name === 'home') fillOtd('#otd-home .otd-body', 3);
+  if (name === 'otd') fillOtd('#otd-full', 40);
+  if (Speech.id) Speech.paint();
   $('#progress').style.width = '0';
   if (name === 'search' && !Countries.data) Countries.load().then(() => { const inp = $('#q'); if (current.name === 'search' && inp && inp.value.trim()) $('#results').innerHTML = searchResults(inp.value); }).catch(() => {});
   if (name === 'countries' && $('#cq')) {
@@ -859,6 +1042,16 @@ document.addEventListener('click', e => {
       if (current.name === 'saved') render();
       break;
     }
+    case 'listen': { const i = getAny(id); if (!i) break; if (Speech.id === i.id) Speech.stop(); else Speech.start(i); break; }
+    case 'card': { const i = getAny(id); if (i) shareCard(i.type === 'pais' ? { ...i, title: i.name, desc: `Capital: ${i.capital}` } : i); break; }
+    case 'cite': {
+      const i = getAny(id); if (!i) break;
+      const ref = apa(i.type === 'pais' ? { ...i, title: i.name, date: '2026-11-26' } : i);
+      Sheet.custom(`<h2 class="claim" id="sheet-title">Citar este contenido</h2><p class="faint">Formato APA (7.ª edición), listo para trabajos escolares y universitarios.</p><div class="cite-box" id="cite-text">${esc(ref)}</div><div class="acts"><button class="btn ac" data-act="copy-cite">Copiar cita</button></div><p class="faint" style="font-size:13px;margin-top:14px">Para trabajos académicos, consulta también las fuentes originales enlazadas en el contenido.</p>`);
+      break;
+    }
+    case 'copy-cite': { const t = $('#cite-text'); if (t) navigator.clipboard.writeText(t.textContent).then(() => toast('Cita copiada'), () => toast('Selecciona el texto y cópialo')); break; }
+    case 'toref': { const li = $('#src-' + el.dataset.n); if (li) { li.scrollIntoView({ behavior: 'smooth', block: 'center' }); li.classList.add('flash'); setTimeout(() => li.classList.remove('flash'), 1400); } break; }
     case 'share': { const i = id.startsWith('pais-') ? Countries.get(id) : ContentRepo.get(id); if (i) share(i.type === 'pais' ? { ...i, title: `${i.name}: capital ${i.capital}` } : i); break; }
     case 'back':
       if (sessionStorage.getItem('sq.nav')) history.back(); // hubo navegación interna en esta sesión
@@ -891,7 +1084,7 @@ document.addEventListener('keydown', e => {
 $('#topq').addEventListener('keydown', e => {
   if (e.key === 'Enter' && e.target.value.trim()) { UserRepo.pushRecent(e.target.value); location.hash = '#/buscar?q=' + encodeURIComponent(e.target.value.trim()); e.target.value = ''; e.target.blur(); }
 });
-window.addEventListener('hashchange', () => { sessionStorage.setItem('sq.nav', '1'); if (Sheet.isOpen()) Sheet.close(); render(); });
+window.addEventListener('hashchange', () => { if (Speech.id) Speech.stop(); sessionStorage.setItem('sq.nav', '1'); if (Sheet.isOpen()) Sheet.close(); render(); });
 window.addEventListener('scroll', onScroll, { passive: true });
 
 /* ================= ARRANQUE ================= */
