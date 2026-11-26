@@ -1,10 +1,10 @@
-/* ¿SABÍAS QUE? — Base de contenido v5 (345 contenidos, 400 preguntas).
+/* ¿SABÍAS QUE? — Base de contenido v6 (345 contenidos, 400 preguntas).
  * Cada contenido tiene fuentes verificadas automáticamente contra el texto de la fuente.
  * Tipos: "articulo" | "curiosidad" | "mito". Estado: "publicado" | "borrador". Nivel: 1-3.
  * Este archivo lo puede regenerar el panel admin (admin.html → Publicar → Descargar content.js).
  */
 window.SQ_CONTENT = {
- "version": 5,
+ "version": 6,
  "updated": "2026-11-26",
  "categories": [
   {
@@ -262,15 +262,28 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "NOAA / National Weather Service — Understanding Lightning: Thunder",
-     "u": "https://www.weather.gov/safety/lightning-science-thunder"
+     "org": "Servicio Meteorológico Nacional de EE. UU. (NOAA)",
+     "title": "Understanding Lightning: Thunder",
+     "u": "https://www.weather.gov/safety/lightning-science-thunder",
+     "kind": "institucional",
+     "accessed": "2026-11-24"
     },
     {
      "t": "NOAA / National Weather Service — Lightning Myths",
-     "u": "https://www.weather.gov/safety/lightning-myths"
+     "org": "Servicio Meteorológico Nacional de EE. UU. (NOAA)",
+     "title": "Lightning Myths",
+     "u": "https://www.weather.gov/safety/lightning-myths",
+     "kind": "institucional",
+     "accessed": "2026-11-24"
     },
     {
      "t": "Wikipedia — Fotosfera",
-     "u": "https://es.wikipedia.org/wiki/Fotosfera"
+     "org": "Wikipedia en español",
+     "title": "Fotosfera",
+     "u": "https://es.wikipedia.org/wiki/Fotosfera",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Sun920607.jpg/960px-Sun920607.jpg",
@@ -280,7 +293,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Sun920607.jpg",
     "file": "Sun920607.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-diamante-grafito",
@@ -330,15 +360,29 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Allotropes of carbon",
-     "u": "https://en.wikipedia.org/wiki/Allotropes_of_carbon"
+     "org": "Wikipedia en inglés",
+     "title": "Allotropes of carbon",
+     "u": "https://en.wikipedia.org/wiki/Allotropes_of_carbon",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Pencil",
-     "u": "https://en.wikipedia.org/wiki/Pencil"
+     "org": "Wikipedia en inglés",
+     "title": "Pencil",
+     "u": "https://en.wikipedia.org/wiki/Pencil",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "NobelPrize.org — The Nobel Prize in Physics 2010",
-     "u": "https://www.nobelprize.org/prizes/physics/2010/summary/"
+     "org": "Fundación Nobel",
+     "title": "The Nobel Prize in Physics 2010",
+     "u": "https://www.nobelprize.org/prizes/physics/2010/summary/",
+     "kind": "institucional",
+     "accessed": "2026-11-20"
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Eight_Allotropes_of_Carbon.svg/960px-Eight_Allotropes_of_Carbon.svg.png",
@@ -348,7 +392,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Eight_Allotropes_of_Carbon.svg",
     "file": "Eight_Allotropes_of_Carbon.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-cleopatra-luna",
@@ -393,15 +454,30 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Great Pyramid of Giza",
-     "u": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+     "org": "Wikipedia en inglés",
+     "title": "Great Pyramid of Giza",
+     "u": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Cleopatra",
-     "u": "https://en.wikipedia.org/wiki/Cleopatra"
+     "org": "Wikipedia en inglés",
+     "title": "Cleopatra",
+     "u": "https://en.wikipedia.org/wiki/Cleopatra",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Woolly mammoth (supervivencia en la isla de Wrangel)",
-     "u": "https://en.wikipedia.org/wiki/Woolly_mammoth"
+     "org": "Wikipedia en inglés",
+     "title": "Woolly mammoth (supervivencia en la isla de Wrangel)",
+     "u": "https://en.wikipedia.org/wiki/Woolly_mammoth",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/960px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
@@ -411,7 +487,32 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
     "file": "Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Corrección registrada en la fe de erratas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Corrección registrada en la fe de erratas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-guerra-zanzibar",
@@ -455,7 +556,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Anglo-Zanzibar War",
-     "u": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
+     "org": "Wikipedia en inglés",
+     "title": "Anglo-Zanzibar War",
+     "u": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/AngloZanzibarWar.jpg/960px-AngloZanzibarWar.jpg",
@@ -465,7 +571,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:AngloZanzibarWar.jpg",
     "file": "AngloZanzibarWar.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-dunning-kruger",
@@ -510,11 +633,38 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Kruger & Dunning (1999), Journal of Personality and Social Psychology",
-     "u": "https://doi.org/10.1037/0022-3514.77.6.1121"
+     "org": "Journal of Personality and Social Psychology (Asociación Estadounidense de Psicología)",
+     "title": "Kruger & Dunning (1999), Journal of Personality and Social Psychology",
+     "u": "https://doi.org/10.1037/0022-3514.77.6.1121",
+     "kind": "academica",
+     "accessed": "2026-11-23",
+     "date": "1999"
     },
     {
      "t": "Wikipedia — Dunning–Kruger effect",
-     "u": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+     "org": "Wikipedia en inglés",
+     "title": "Dunning–Kruger effect",
+     "u": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -561,11 +711,20 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "NASA Science — Venus",
-     "u": "https://science.nasa.gov/venus/"
+     "org": "NASA",
+     "title": "Venus",
+     "u": "https://science.nasa.gov/venus/",
+     "kind": "institucional",
+     "accessed": "2026-11-25"
     },
     {
      "t": "Wikipedia — Venus",
-     "u": "https://en.wikipedia.org/wiki/Venus"
+     "org": "Wikipedia en inglés",
+     "title": "Venus",
+     "u": "https://en.wikipedia.org/wiki/Venus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Venus_from_Mariner_10.jpg/960px-Venus_from_Mariner_10.jpg",
@@ -575,7 +734,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Venus_from_Mariner_10.jpg",
     "file": "Venus_from_Mariner_10.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-luz-pasado",
@@ -621,15 +797,30 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Astronomical unit",
-     "u": "https://en.wikipedia.org/wiki/Astronomical_unit"
+     "org": "Wikipedia en inglés",
+     "title": "Astronomical unit",
+     "u": "https://en.wikipedia.org/wiki/Astronomical_unit",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Light-year",
-     "u": "https://en.wikipedia.org/wiki/Light-year"
+     "org": "Wikipedia en inglés",
+     "title": "Light-year",
+     "u": "https://en.wikipedia.org/wiki/Light-year",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Andromeda Galaxy",
-     "u": "https://en.wikipedia.org/wiki/Andromeda_Galaxy"
+     "org": "Wikipedia en inglés",
+     "title": "Andromeda Galaxy",
+     "u": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Astronomical_unit_svg.svg/960px-Astronomical_unit_svg.svg.png",
@@ -639,7 +830,28 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Astronomical_unit_svg.svg",
     "file": "Astronomical_unit_svg.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Corrección registrada en la fe de erratas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-primer-bug",
@@ -684,11 +896,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Software bug (historia del término)",
-     "u": "https://en.wikipedia.org/wiki/Software_bug"
+     "org": "Wikipedia en inglés",
+     "title": "Software bug (historia del término)",
+     "u": "https://en.wikipedia.org/wiki/Software_bug",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Grace Hopper",
-     "u": "https://en.wikipedia.org/wiki/Grace_Hopper"
+     "org": "Wikipedia en inglés",
+     "title": "Grace Hopper",
+     "u": "https://en.wikipedia.org/wiki/Grace_Hopper",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/First_Computer_Bug%2C_1947.jpg/960px-First_Computer_Bug%2C_1947.jpg",
@@ -698,7 +920,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:First_Computer_Bug%2C_1947.jpg",
     "file": "First_Computer_Bug,_1947.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-chimborazo",
@@ -742,11 +981,20 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "NOAA Ocean Service — What is the highest point on Earth as measured from Earth's center?",
-     "u": "https://oceanservice.noaa.gov/facts/highestpoint.html"
+     "org": "Servicio Oceánico Nacional de EE. UU. (NOAA)",
+     "title": "What is the highest point on Earth as measured from Earth's center?",
+     "u": "https://oceanservice.noaa.gov/facts/highestpoint.html",
+     "kind": "institucional",
+     "accessed": "2026-11-10"
     },
     {
      "t": "Wikipedia — Chimborazo",
-     "u": "https://en.wikipedia.org/wiki/Chimborazo"
+     "org": "Wikipedia en inglés",
+     "title": "Chimborazo",
+     "u": "https://en.wikipedia.org/wiki/Chimborazo",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Chimborazo%2C_aspecto_norte%2C_Ecuador._%2826354503702%29.jpg/960px-Chimborazo%2C_aspecto_norte%2C_Ecuador._%2826354503702%29.jpg",
@@ -756,7 +1004,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Chimborazo%2C_aspecto_norte%2C_Ecuador._%2826354503702%29.jpg",
     "file": "Chimborazo,_aspecto_norte,_Ecuador._(26354503702).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-10",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-huesos-bebe",
@@ -801,11 +1066,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Human skeleton",
-     "u": "https://en.wikipedia.org/wiki/Human_skeleton"
+     "org": "Wikipedia en inglés",
+     "title": "Human skeleton",
+     "u": "https://en.wikipedia.org/wiki/Human_skeleton",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Fontanelle",
-     "u": "https://en.wikipedia.org/wiki/Fontanelle"
+     "org": "Wikipedia en inglés",
+     "title": "Fontanelle",
+     "u": "https://en.wikipedia.org/wiki/Fontanelle",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Human-Skeleton.jpg/960px-Human-Skeleton.jpg",
@@ -815,7 +1090,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Human-Skeleton.jpg",
     "file": "Human-Skeleton.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-pulpo",
@@ -860,11 +1152,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Octopus",
-     "u": "https://en.wikipedia.org/wiki/Octopus"
+     "org": "Wikipedia en inglés",
+     "title": "Octopus",
+     "u": "https://en.wikipedia.org/wiki/Octopus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Hemocyanin",
-     "u": "https://en.wikipedia.org/wiki/Hemocyanin"
+     "org": "Wikipedia en inglés",
+     "title": "Hemocyanin",
+     "u": "https://en.wikipedia.org/wiki/Hemocyanin",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/960px-Octopus2.jpg",
@@ -874,7 +1176,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg",
     "file": "Octopus2.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-barco-teseo",
@@ -919,11 +1238,20 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Ship of Theseus",
-     "u": "https://en.wikipedia.org/wiki/Ship_of_Theseus"
+     "org": "Wikipedia en inglés",
+     "title": "Ship of Theseus",
+     "u": "https://en.wikipedia.org/wiki/Ship_of_Theseus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Stanford Encyclopedia of Philosophy — Identity Over Time",
-     "u": "https://plato.stanford.edu/entries/identity-time/"
+     "org": "Stanford Encyclopedia of Philosophy (Universidad de Stanford)",
+     "title": "Identity Over Time",
+     "u": "https://plato.stanford.edu/entries/identity-time/",
+     "kind": "academica",
+     "accessed": "2026-11-16"
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ship_of_Theseus.svg/960px-Ship_of_Theseus.svg.png",
@@ -933,7 +1261,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Ship_of_Theseus.svg",
     "file": "Ship_of_Theseus.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "debate",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-voynich",
@@ -978,7 +1323,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Voynich manuscript",
-     "u": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+     "org": "Wikipedia en inglés",
+     "title": "Voynich manuscript",
+     "u": "https://en.wikipedia.org/wiki/Voynich_manuscript",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Voynich_Manuscript_%2832%29.jpg/960px-Voynich_Manuscript_%2832%29.jpg",
@@ -988,7 +1338,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_%2832%29.jpg",
     "file": "Voynich_Manuscript_(32).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-wow-signal",
@@ -1033,7 +1400,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Wow! signal",
-     "u": "https://en.wikipedia.org/wiki/Wow!_signal"
+     "org": "Wikipedia en inglés",
+     "title": "Wow! signal",
+     "u": "https://en.wikipedia.org/wiki/Wow!_signal",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Wow_signal.jpg/960px-Wow_signal.jpg",
@@ -1043,7 +1415,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Wow_signal.jpg",
     "file": "Wow_signal.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-08",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-monopoly",
@@ -1088,11 +1477,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — The Landlord's Game",
-     "u": "https://en.wikipedia.org/wiki/The_Landlord%27s_Game"
+     "org": "Wikipedia en inglés",
+     "title": "The Landlord's Game",
+     "u": "https://en.wikipedia.org/wiki/The_Landlord%27s_Game",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Lizzie Magie",
-     "u": "https://en.wikipedia.org/wiki/Lizzie_Magie"
+     "org": "Wikipedia en inglés",
+     "title": "Lizzie Magie",
+     "u": "https://en.wikipedia.org/wiki/Lizzie_Magie",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Landlords_board_game_cover.jpg/960px-Landlords_board_game_cover.jpg",
@@ -1102,7 +1501,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Landlords_board_game_cover.jpg",
     "file": "Landlords_board_game_cover.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-ano-cero",
@@ -1147,15 +1563,48 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Anno Domini",
-     "u": "https://en.wikipedia.org/wiki/Anno_Domini"
+     "org": "Wikipedia en inglés",
+     "title": "Anno Domini",
+     "u": "https://en.wikipedia.org/wiki/Anno_Domini",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Dionysius Exiguus",
-     "u": "https://en.wikipedia.org/wiki/Dionysius_Exiguus"
+     "org": "Wikipedia en inglés",
+     "title": "Dionysius Exiguus",
+     "u": "https://en.wikipedia.org/wiki/Dionysius_Exiguus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Chronology of Jesus",
-     "u": "https://en.wikipedia.org/wiki/Chronology_of_Jesus"
+     "org": "Wikipedia en inglés",
+     "title": "Chronology of Jesus",
+     "u": "https://en.wikipedia.org/wiki/Chronology_of_Jesus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "claimNote": "La ausencia del año cero es un hecho. La fecha del nacimiento de Jesús es una estimación de los historiadores.",
+   "history": [
+    {
+     "date": "2026-11-11",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -1202,11 +1651,20 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "UNESCO World Heritage Centre — Colonial City of Santo Domingo",
-     "u": "https://whc.unesco.org/en/list/526"
+     "org": "UNESCO",
+     "title": "Colonial City of Santo Domingo",
+     "u": "https://whc.unesco.org/en/list/526",
+     "kind": "institucional",
+     "accessed": "2026-11-25"
     },
     {
      "t": "Wikipedia — Cathedral of Santa María la Menor",
-     "u": "https://en.wikipedia.org/wiki/Cathedral_of_Santo_Domingo"
+     "org": "Wikipedia en inglés",
+     "title": "Cathedral of Santa María la Menor",
+     "u": "https://en.wikipedia.org/wiki/Cathedral_of_Santo_Domingo",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg/960px-Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg",
@@ -1216,7 +1674,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg",
     "file": "Basílica_Menor_de_Santa_María_CCSD_07_2017_4676.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-platano",
@@ -1232,7 +1707,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Banana equivalent dose",
-     "u": "https://en.wikipedia.org/wiki/Banana_equivalent_dose"
+     "org": "Wikipedia en inglés",
+     "title": "Banana equivalent dose",
+     "u": "https://en.wikipedia.org/wiki/Banana_equivalent_dose",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/960px-Banana-Single.jpg",
@@ -1242,7 +1722,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Banana-Single.jpg",
     "file": "Banana-Single.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-miel",
@@ -1258,7 +1755,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Honey (conservación)",
-     "u": "https://en.wikipedia.org/wiki/Honey"
+     "org": "Wikipedia en inglés",
+     "title": "Honey (conservación)",
+     "u": "https://en.wikipedia.org/wiki/Honey",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Runny_hunny.jpg/960px-Runny_hunny.jpg",
@@ -1268,7 +1770,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Runny_hunny.jpg",
     "file": "Runny_hunny.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-oxigeno-mar",
@@ -1284,7 +1803,28 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "NOAA Ocean Service — How much oxygen comes from the ocean?",
-     "u": "https://oceanservice.noaa.gov/facts/ocean-oxygen.html"
+     "org": "Servicio Oceánico Nacional de EE. UU. (NOAA)",
+     "title": "How much oxygen comes from the ocean?",
+     "u": "https://oceanservice.noaa.gov/facts/ocean-oxygen.html",
+     "kind": "institucional",
+     "accessed": "2026-11-21"
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-21",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-21",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -1302,7 +1842,29 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Neutron star",
-     "u": "https://en.wikipedia.org/wiki/Neutron_star"
+     "org": "Wikipedia en inglés",
+     "title": "Neutron star",
+     "u": "https://en.wikipedia.org/wiki/Neutron_star",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -1320,11 +1882,20 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "NASA Science — Moon Facts",
-     "u": "https://science.nasa.gov/moon/facts/"
+     "org": "NASA",
+     "title": "Moon Facts",
+     "u": "https://science.nasa.gov/moon/facts/",
+     "kind": "institucional",
+     "accessed": "2026-11-19"
     },
     {
      "t": "Wikipedia — Australia",
-     "u": "https://en.wikipedia.org/wiki/Australia"
+     "org": "Wikipedia en inglés",
+     "title": "Australia",
+     "u": "https://en.wikipedia.org/wiki/Australia",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/960px-Flag_of_Australia_%28converted%29.svg.png",
@@ -1334,7 +1905,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia_%28converted%29.svg",
     "file": "Flag_of_Australia_(converted).svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-francia-husos",
@@ -1350,7 +1938,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Time in France",
-     "u": "https://en.wikipedia.org/wiki/Time_in_France"
+     "org": "Wikipedia en inglés",
+     "title": "Time in France",
+     "u": "https://en.wikipedia.org/wiki/Time_in_France",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/France-Constituent-Lands.png/960px-France-Constituent-Lands.png",
@@ -1360,7 +1953,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:France-Constituent-Lands.png",
     "file": "France-Constituent-Lands.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-desierto-antartida",
@@ -1376,11 +1986,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Desert",
-     "u": "https://en.wikipedia.org/wiki/Desert"
+     "org": "Wikipedia en inglés",
+     "title": "Desert",
+     "u": "https://en.wikipedia.org/wiki/Desert",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — List of deserts by area",
-     "u": "https://en.wikipedia.org/wiki/List_of_deserts_by_area"
+     "org": "Wikipedia en inglés",
+     "title": "List of deserts by area",
+     "u": "https://en.wikipedia.org/wiki/List_of_deserts_by_area",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Antarctica_6400px_from_Blue_Marble.jpg/960px-Antarctica_6400px_from_Blue_Marble.jpg",
@@ -1390,7 +2010,28 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Antarctica_6400px_from_Blue_Marble.jpg",
     "file": "Antarctica_6400px_from_Blue_Marble.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Corrección registrada en la fe de erratas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-tiburones-arboles",
@@ -1406,11 +2047,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Shark (evolución)",
-     "u": "https://en.wikipedia.org/wiki/Shark"
+     "org": "Wikipedia en inglés",
+     "title": "Shark (evolución)",
+     "u": "https://en.wikipedia.org/wiki/Shark",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Tree (evolución)",
-     "u": "https://en.wikipedia.org/wiki/Tree"
+     "org": "Wikipedia en inglés",
+     "title": "Tree (evolución)",
+     "u": "https://en.wikipedia.org/wiki/Tree",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Corl0207_%2828225976491%29.jpg/960px-Corl0207_%2828225976491%29.jpg",
@@ -1420,7 +2071,28 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Corl0207_%2828225976491%29.jpg",
     "file": "Corl0207_(28225976491).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Corrección registrada en la fe de erratas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-wombat",
@@ -1436,11 +2108,20 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Wombat",
-     "u": "https://en.wikipedia.org/wiki/Wombat"
+     "org": "Wikipedia en inglés",
+     "title": "Wombat",
+     "u": "https://en.wikipedia.org/wiki/Wombat",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Improbable Research — Ig Nobel Prize winners",
-     "u": "https://improbable.com/ig/winners/"
+     "org": "Improbable Research (organizadores de los premios Ig Nobel)",
+     "title": "Ig Nobel Prize winners",
+     "u": "https://improbable.com/ig/winners/",
+     "kind": "otra",
+     "accessed": "2026-11-15"
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/960px-Vombatus_ursinus_-Maria_Island_National_Park.jpg",
@@ -1450,7 +2131,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Vombatus_ursinus_-Maria_Island_National_Park.jpg",
     "file": "Vombatus_ursinus_-Maria_Island_National_Park.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-flamencos",
@@ -1466,7 +2164,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Flamingo",
-     "u": "https://en.wikipedia.org/wiki/Flamingo"
+     "org": "Wikipedia en inglés",
+     "title": "Flamingo",
+     "u": "https://en.wikipedia.org/wiki/Flamingo",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Flamingos_Laguna_Colorada.jpg/960px-Flamingos_Laguna_Colorada.jpg",
@@ -1476,7 +2179,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Flamingos_Laguna_Colorada.jpg",
     "file": "Flamingos_Laguna_Colorada.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cornea",
@@ -1492,7 +2212,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Cornea",
-     "u": "https://en.wikipedia.org/wiki/Cornea"
+     "org": "Wikipedia en inglés",
+     "title": "Cornea",
+     "u": "https://en.wikipedia.org/wiki/Cornea",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Cornea.png/960px-Cornea.png",
@@ -1502,7 +2227,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Cornea.png",
     "file": "Cornea.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-estribo",
@@ -1518,7 +2260,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Stapes",
-     "u": "https://en.wikipedia.org/wiki/Stapes"
+     "org": "Wikipedia en inglés",
+     "title": "Stapes",
+     "u": "https://en.wikipedia.org/wiki/Stapes",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Stapes_bone_svg_hariadhi.svg/960px-Stapes_bone_svg_hariadhi.svg.png",
@@ -1528,7 +2275,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Stapes_bone_svg_hariadhi.svg",
     "file": "Stapes_bone_svg_hariadhi.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-primer-sms",
@@ -1544,7 +2308,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — SMS (historia)",
-     "u": "https://en.wikipedia.org/wiki/SMS"
+     "org": "Wikipedia en inglés",
+     "title": "SMS (historia)",
+     "u": "https://en.wikipedia.org/wiki/SMS",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Party_SMS.jpg/960px-Party_SMS.jpg",
@@ -1554,7 +2323,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Party_SMS.jpg",
     "file": "Party_SMS.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-youtube-zoo",
@@ -1570,7 +2356,29 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Me at the zoo",
-     "u": "https://en.wikipedia.org/wiki/Me_at_the_zoo"
+     "org": "Wikipedia en inglés",
+     "title": "Me at the zoo",
+     "u": "https://en.wikipedia.org/wiki/Me_at_the_zoo",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-11",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -1588,11 +2396,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — University of Oxford",
-     "u": "https://en.wikipedia.org/wiki/University_of_Oxford"
+     "org": "Wikipedia en inglés",
+     "title": "University of Oxford",
+     "u": "https://en.wikipedia.org/wiki/University_of_Oxford",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Tenochtitlan",
-     "u": "https://en.wikipedia.org/wiki/Tenochtitlan"
+     "org": "Wikipedia en inglés",
+     "title": "Tenochtitlan",
+     "u": "https://en.wikipedia.org/wiki/Tenochtitlan",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Arms_of_University_of_Oxford.svg/960px-Arms_of_University_of_Oxford.svg.png",
@@ -1602,7 +2420,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Arms_of_University_of_Oxford.svg",
     "file": "Arms_of_University_of_Oxford.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-10",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-ojala",
@@ -1618,7 +2453,28 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "RAE — Diccionario de la lengua española: ojalá",
-     "u": "https://dle.rae.es/ojal%C3%A1"
+     "org": "Real Academia Española",
+     "title": "Diccionario de la lengua española: ojalá",
+     "u": "https://dle.rae.es/ojal%C3%A1",
+     "kind": "institucional",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-09",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-09",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-09",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -1636,11 +2492,37 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "RAE — Diccionario de la lengua española: huracán",
-     "u": "https://dle.rae.es/hurac%C3%A1n"
+     "org": "Real Academia Española",
+     "title": "Diccionario de la lengua española: huracán",
+     "u": "https://dle.rae.es/hurac%C3%A1n",
+     "kind": "institucional",
+     "accessed": "2026-11-08"
     },
     {
      "t": "Wikipedia — Taíno language",
-     "u": "https://en.wikipedia.org/wiki/Ta%C3%ADno_language"
+     "org": "Wikipedia en inglés",
+     "title": "Taíno language",
+     "u": "https://en.wikipedia.org/wiki/Ta%C3%ADno_language",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-08",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -1658,7 +2540,28 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "UNESCO — Music and dance of Dominican merengue",
-     "u": "https://ich.unesco.org/en/RL/music-and-dance-of-dominican-merengue-01162"
+     "org": "UNESCO",
+     "title": "Music and dance of Dominican merengue",
+     "u": "https://ich.unesco.org/en/RL/music-and-dance-of-dominican-merengue-01162",
+     "kind": "institucional",
+     "accessed": "2026-11-07"
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-07",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-07",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-07",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -1676,7 +2579,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Flag of the Dominican Republic",
-     "u": "https://en.wikipedia.org/wiki/Flag_of_the_Dominican_Republic"
+     "org": "Wikipedia en inglés",
+     "title": "Flag of the Dominican Republic",
+     "u": "https://en.wikipedia.org/wiki/Flag_of_the_Dominican_Republic",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/960px-Flag_of_the_Dominican_Republic.svg.png",
@@ -1686,7 +2594,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg",
     "file": "Flag_of_the_Dominican_Republic.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-06",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-pico-duarte",
@@ -1702,7 +2627,29 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Pico Duarte",
-     "u": "https://en.wikipedia.org/wiki/Pico_Duarte"
+     "org": "Wikipedia en inglés",
+     "title": "Pico Duarte",
+     "u": "https://en.wikipedia.org/wiki/Pico_Duarte",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-05",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -1720,7 +2667,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Lake Enriquillo",
-     "u": "https://en.wikipedia.org/wiki/Lake_Enriquillo"
+     "org": "Wikipedia en inglés",
+     "title": "Lake Enriquillo",
+     "u": "https://en.wikipedia.org/wiki/Lake_Enriquillo",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Lake_Enriquillo_Dominican_Republic_2.jpg/960px-Lake_Enriquillo_Dominican_Republic_2.jpg",
@@ -1730,7 +2682,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Lake_Enriquillo_Dominican_Republic_2.jpg",
     "file": "Lake_Enriquillo_Dominican_Republic_2.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-04",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-larimar",
@@ -1746,7 +2715,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Larimar",
-     "u": "https://en.wikipedia.org/wiki/Larimar"
+     "org": "Wikipedia en inglés",
+     "title": "Larimar",
+     "u": "https://en.wikipedia.org/wiki/Larimar",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Larimar.jpg/960px-Larimar.jpg",
@@ -1756,7 +2730,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Larimar.jpg",
     "file": "Larimar.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-03",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-mera-exposicion",
@@ -1772,7 +2763,29 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Mere-exposure effect",
-     "u": "https://en.wikipedia.org/wiki/Mere-exposure_effect"
+     "org": "Wikipedia en inglés",
+     "title": "Mere-exposure effect",
+     "u": "https://en.wikipedia.org/wiki/Mere-exposure_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -1790,7 +2803,29 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Frequency illusion",
-     "u": "https://en.wikipedia.org/wiki/Frequency_illusion"
+     "org": "Wikipedia en inglés",
+     "title": "Frequency illusion",
+     "u": "https://en.wikipedia.org/wiki/Frequency_illusion",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -1808,11 +2843,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hungarian pengő",
-     "u": "https://en.wikipedia.org/wiki/Hungarian_peng%C5%91"
+     "org": "Wikipedia en inglés",
+     "title": "Hungarian pengő",
+     "u": "https://en.wikipedia.org/wiki/Hungarian_peng%C5%91",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Hyperinflation",
-     "u": "https://en.wikipedia.org/wiki/Hyperinflation"
+     "org": "Wikipedia en inglés",
+     "title": "Hyperinflation",
+     "u": "https://en.wikipedia.org/wiki/Hyperinflation",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/HUP_100MB_1946_obverse.jpg/960px-HUP_100MB_1946_obverse.jpg",
@@ -1822,7 +2867,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:HUP_100MB_1946_obverse.jpg",
     "file": "HUP_100MB_1946_obverse.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-zimbabue-billete",
@@ -1838,7 +2900,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hyperinflation in Zimbabwe",
-     "u": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe"
+     "org": "Wikipedia en inglés",
+     "title": "Hyperinflation in Zimbabwe",
+     "u": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Zimbabwe_Hyperinflation_2008_notes.jpg/960px-Zimbabwe_Hyperinflation_2008_notes.jpg",
@@ -1848,7 +2915,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Hyperinflation_2008_notes.jpg",
     "file": "Zimbabwe_Hyperinflation_2008_notes.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-09",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-caverna",
@@ -1864,7 +2948,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Allegory of the cave",
-     "u": "https://en.wikipedia.org/wiki/Allegory_of_the_cave"
+     "org": "Wikipedia en inglés",
+     "title": "Allegory of the cave",
+     "u": "https://en.wikipedia.org/wiki/Allegory_of_the_cave",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Platon_Cave_Sanraedam_1604.jpg/960px-Platon_Cave_Sanraedam_1604.jpg",
@@ -1874,7 +2963,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Platon_Cave_Sanraedam_1604.jpg",
     "file": "Platon_Cave_Sanraedam_1604.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-arameo",
@@ -1890,7 +2996,30 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Language of Jesus",
-     "u": "https://en.wikipedia.org/wiki/Language_of_Jesus"
+     "org": "Wikipedia en inglés",
+     "title": "Language of Jesus",
+     "u": "https://en.wikipedia.org/wiki/Language_of_Jesus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "interpretacion",
+   "claimNote": "Es el consenso de los especialistas, que consideran probable que además conociera el hebreo y algo de griego.",
+   "history": [
+    {
+     "date": "2026-11-10",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -1909,7 +3038,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Ten percent of the brain myth",
-     "u": "https://en.wikipedia.org/wiki/Ten_percent_of_the_brain_myth"
+     "org": "Wikipedia en inglés",
+     "title": "Ten percent of the brain myth",
+     "u": "https://en.wikipedia.org/wiki/Ten_percent_of_the_brain_myth",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Skull_and_brain_normal_human.svg/960px-Skull_and_brain_normal_human.svg.png",
@@ -1919,7 +3053,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Skull_and_brain_normal_human.svg",
     "file": "Skull_and_brain_normal_human.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-muralla",
@@ -1936,7 +3087,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Great Wall of China (visibilidad desde el espacio)",
-     "u": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+     "org": "Wikipedia en inglés",
+     "title": "Great Wall of China (visibilidad desde el espacio)",
+     "u": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/960px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
@@ -1946,7 +3102,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
     "file": "The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-vikingos",
@@ -1963,15 +3136,30 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Gjermundbu helmet",
-     "u": "https://en.wikipedia.org/wiki/Gjermundbu_helmet"
+     "org": "Wikipedia en inglés",
+     "title": "Gjermundbu helmet",
+     "u": "https://en.wikipedia.org/wiki/Gjermundbu_helmet",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Horned helmet",
-     "u": "https://en.wikipedia.org/wiki/Horned_helmet"
+     "org": "Wikipedia en inglés",
+     "title": "Horned helmet",
+     "u": "https://en.wikipedia.org/wiki/Horned_helmet",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Carl Emil Doepler",
-     "u": "https://en.wikipedia.org/wiki/Carl_Emil_Doepler"
+     "org": "Wikipedia en inglés",
+     "title": "Carl Emil Doepler",
+     "u": "https://en.wikipedia.org/wiki/Carl_Emil_Doepler",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Gjermundbu_helmet_-_cropped.jpg/960px-Gjermundbu_helmet_-_cropped.jpg",
@@ -1981,7 +3169,28 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Gjermundbu_helmet_-_cropped.jpg",
     "file": "Gjermundbu_helmet_-_cropped.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Corrección registrada en la fe de erratas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-rayo-dos-veces",
@@ -1998,7 +3207,28 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "NOAA / National Weather Service — Lightning Myths",
-     "u": "https://www.weather.gov/safety/lightning-myths"
+     "org": "Servicio Meteorológico Nacional de EE. UU. (NOAA)",
+     "title": "Lightning Myths",
+     "u": "https://www.weather.gov/safety/lightning-myths",
+     "kind": "institucional",
+     "accessed": "2026-11-21"
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-21",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-21",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -2017,7 +3247,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Blood (color)",
-     "u": "https://en.wikipedia.org/wiki/Blood"
+     "org": "Wikipedia en inglés",
+     "title": "Blood (color)",
+     "u": "https://en.wikipedia.org/wiki/Blood",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Venous_and_arterial_blood.jpg/960px-Venous_and_arterial_blood.jpg",
@@ -2027,7 +3262,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Venous_and_arterial_blood.jpg",
     "file": "Venous_and_arterial_blood.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-murcielagos",
@@ -2044,7 +3296,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Bat (sentidos)",
-     "u": "https://en.wikipedia.org/wiki/Bat"
+     "org": "Wikipedia en inglés",
+     "title": "Bat (sentidos)",
+     "u": "https://en.wikipedia.org/wiki/Bat",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Big-eared-townsend-fledermaus.jpg/960px-Big-eared-townsend-fledermaus.jpg",
@@ -2054,7 +3311,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Big-eared-townsend-fledermaus.jpg",
     "file": "Big-eared-townsend-fledermaus.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-toros-rojo",
@@ -2071,7 +3345,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Cattle (visión)",
-     "u": "https://en.wikipedia.org/wiki/Cattle"
+     "org": "Wikipedia en inglés",
+     "title": "Cattle (visión)",
+     "u": "https://en.wikipedia.org/wiki/Cattle",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/960px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg",
@@ -2081,7 +3360,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg",
     "file": "Cow_(Fleckvieh_breed)_Oeschinensee_Slaunger_2009-07-07.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-chicle",
@@ -2098,7 +3394,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Chewing gum",
-     "u": "https://en.wikipedia.org/wiki/Chewing_gum"
+     "org": "Wikipedia en inglés",
+     "title": "Chewing gum",
+     "u": "https://en.wikipedia.org/wiki/Chewing_gum",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Chewing_gum_stick.jpg/960px-Chewing_gum_stick.jpg",
@@ -2108,7 +3409,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Chewing_gum_stick.jpg",
     "file": "Chewing_gum_stick.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-napoleon",
@@ -2125,7 +3443,29 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Napoleon complex",
-     "u": "https://en.wikipedia.org/wiki/Napoleon_complex"
+     "org": "Wikipedia en inglés",
+     "title": "Napoleon complex",
+     "u": "https://en.wikipedia.org/wiki/Napoleon_complex",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -2144,7 +3484,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Common ostrich (comportamiento)",
-     "u": "https://en.wikipedia.org/wiki/Common_ostrich"
+     "org": "Wikipedia en inglés",
+     "title": "Common ostrich (comportamiento)",
+     "u": "https://en.wikipedia.org/wiki/Common_ostrich",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/960px-Struthio_camelus_-_Etosha_2014_%283%29.jpg",
@@ -2154,7 +3499,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Struthio_camelus_-_Etosha_2014_%283%29.jpg",
     "file": "Struthio_camelus_-_Etosha_2014_(3).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-camaleon",
@@ -2171,7 +3533,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Chameleon (cambio de color)",
-     "u": "https://en.wikipedia.org/wiki/Chameleon"
+     "org": "Wikipedia en inglés",
+     "title": "Chameleon (cambio de color)",
+     "u": "https://en.wikipedia.org/wiki/Chameleon",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Panther_Chameleon_738367_%28cropped%29.jpg/960px-Panther_Chameleon_738367_%28cropped%29.jpg",
@@ -2181,7 +3548,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Panther_Chameleon_738367_%28cropped%29.jpg",
     "file": "Panther_Chameleon_738367_(cropped).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-hielo-flota",
@@ -2195,7 +3579,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Ice",
-     "u": "https://en.wikipedia.org/wiki/Ice"
+     "org": "Wikipedia en inglés",
+     "title": "Ice",
+     "u": "https://en.wikipedia.org/wiki/Ice",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2207,7 +3596,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Ice_Block%2C_Canal_Park%2C_Duluth_%2832752478892%29.jpg",
     "file": "Ice_Block,_Canal_Park,_Duluth_(32752478892).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-sonido-agua",
@@ -2221,11 +3627,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Speed of sound",
-     "u": "https://en.wikipedia.org/wiki/Speed_of_sound"
+     "org": "Wikipedia en inglés",
+     "title": "Speed of sound",
+     "u": "https://en.wikipedia.org/wiki/Speed_of_sound",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-19"
+   "date": "2026-11-19",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-vidrio-liquido",
@@ -2240,7 +3668,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Glass",
-     "u": "https://en.wikipedia.org/wiki/Glass"
+     "org": "Wikipedia en inglés",
+     "title": "Glass",
+     "u": "https://en.wikipedia.org/wiki/Glass",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2252,7 +3685,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Fassade_Wilhelmstrasse_65%2C_Berlin-Mitte%2C_160417%2C_ako.jpg",
     "file": "Fassade_Wilhelmstrasse_65,_Berlin-Mitte,_160417,_ako.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-helio-sol",
@@ -2266,11 +3716,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Helium",
-     "u": "https://en.wikipedia.org/wiki/Helium"
+     "org": "Wikipedia en inglés",
+     "title": "Helium",
+     "u": "https://en.wikipedia.org/wiki/Helium",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-05",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cebolla",
@@ -2284,7 +3756,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Onion",
-     "u": "https://en.wikipedia.org/wiki/Onion"
+     "org": "Wikipedia en inglés",
+     "title": "Onion",
+     "u": "https://en.wikipedia.org/wiki/Onion",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2296,7 +3773,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Mixed_onions.jpg",
     "file": "Mixed_onions.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-29",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-penicilina",
@@ -2310,11 +3804,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Alexander Fleming",
-     "u": "https://en.wikipedia.org/wiki/Alexander_Fleming"
+     "org": "Wikipedia en inglés",
+     "title": "Alexander Fleming",
+     "u": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Penicillin",
-     "u": "https://en.wikipedia.org/wiki/Penicillin"
+     "org": "Wikipedia en inglés",
+     "title": "Penicillin",
+     "u": "https://en.wikipedia.org/wiki/Penicillin",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2326,7 +3830,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Penicillin_Core_v2.svg",
     "file": "Penicillin_Core_v2.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-arcoiris-circulo",
@@ -2340,11 +3861,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Rainbow",
-     "u": "https://en.wikipedia.org/wiki/Rainbow"
+     "org": "Wikipedia en inglés",
+     "title": "Rainbow",
+     "u": "https://en.wikipedia.org/wiki/Rainbow",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-20"
+   "date": "2026-11-20",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cielo-azul",
@@ -2358,7 +3901,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Rayleigh scattering",
-     "u": "https://en.wikipedia.org/wiki/Rayleigh_scattering"
+     "org": "Wikipedia en inglés",
+     "title": "Rayleigh scattering",
+     "u": "https://en.wikipedia.org/wiki/Rayleigh_scattering",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2370,7 +3918,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Golden_clouds_against_a_blue_sky.jpg",
     "file": "Golden_clouds_against_a_blue_sky.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-guerra-emus",
@@ -2384,11 +3949,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Emu War",
-     "u": "https://en.wikipedia.org/wiki/Emu_War"
+     "org": "Wikipedia en inglés",
+     "title": "Emu War",
+     "u": "https://en.wikipedia.org/wiki/Emu_War",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-06",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-guerra-cien-anos",
@@ -2402,7 +3989,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hundred Years' War",
-     "u": "https://en.wikipedia.org/wiki/Hundred_Years%27_War"
+     "org": "Wikipedia en inglés",
+     "title": "Hundred Years' War",
+     "u": "https://en.wikipedia.org/wiki/Hundred_Years%27_War",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2414,7 +4006,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Schlacht_von_Azincourt.jpg",
     "file": "Schlacht_von_Azincourt.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-30",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-onoda",
@@ -2428,11 +4037,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hiroo Onoda",
-     "u": "https://en.wikipedia.org/wiki/Hiroo_Onoda"
+     "org": "Wikipedia en inglés",
+     "title": "Hiroo Onoda",
+     "u": "https://en.wikipedia.org/wiki/Hiroo_Onoda",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-23"
+   "date": "2026-10-23",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-vespasiano-orina",
@@ -2446,11 +4077,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Pecunia non olet",
-     "u": "https://en.wikipedia.org/wiki/Pecunia_non_olet"
+     "org": "Wikipedia en inglés",
+     "title": "Pecunia non olet",
+     "u": "https://en.wikipedia.org/wiki/Pecunia_non_olet",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-guillotina-1977",
@@ -2464,11 +4117,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hamida Djandoubi",
-     "u": "https://en.wikipedia.org/wiki/Hamida_Djandoubi"
+     "org": "Wikipedia en inglés",
+     "title": "Hamida Djandoubi",
+     "u": "https://en.wikipedia.org/wiki/Hamida_Djandoubi",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-14"
+   "date": "2026-11-14",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-calendario-1582",
@@ -2482,11 +4157,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Gregorian calendar",
-     "u": "https://en.wikipedia.org/wiki/Gregorian_calendar"
+     "org": "Wikipedia en inglés",
+     "title": "Gregorian calendar",
+     "u": "https://en.wikipedia.org/wiki/Gregorian_calendar",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-07",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-tierra-plana-medieval",
@@ -2501,7 +4198,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Myth of the flat Earth",
-     "u": "https://en.wikipedia.org/wiki/Myth_of_the_flat_Earth"
+     "org": "Wikipedia en inglés",
+     "title": "Myth of the flat Earth",
+     "u": "https://en.wikipedia.org/wiki/Myth_of_the_flat_Earth",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2513,7 +4215,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Flammarion.jpg",
     "file": "Flammarion.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-31",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-asch",
@@ -2556,11 +4275,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Asch conformity experiments",
-     "u": "https://en.wikipedia.org/wiki/Asch_conformity_experiments"
+     "org": "Wikipedia en inglés",
+     "title": "Asch conformity experiments",
+     "u": "https://en.wikipedia.org/wiki/Asch_conformity_experiments",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-numero-siete",
@@ -2574,11 +4315,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — The Magical Number Seven, Plus or Minus Two",
-     "u": "https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two"
+     "org": "Wikipedia en inglés",
+     "title": "The Magical Number Seven, Plus or Minus Two",
+     "u": "https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-gorila-invisible",
@@ -2592,11 +4355,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Inattentional blindness",
-     "u": "https://en.wikipedia.org/wiki/Inattentional_blindness"
+     "org": "Wikipedia en inglés",
+     "title": "Inattentional blindness",
+     "u": "https://en.wikipedia.org/wiki/Inattentional_blindness",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-efecto-ancla",
@@ -2610,11 +4395,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Anchoring effect",
-     "u": "https://en.wikipedia.org/wiki/Anchoring_effect"
+     "org": "Wikipedia en inglés",
+     "title": "Anchoring effect",
+     "u": "https://en.wikipedia.org/wiki/Anchoring_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-08",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-pareidolia",
@@ -2628,7 +4435,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Pareidolia",
-     "u": "https://en.wikipedia.org/wiki/Pareidolia"
+     "org": "Wikipedia en inglés",
+     "title": "Pareidolia",
+     "u": "https://en.wikipedia.org/wiki/Pareidolia",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2640,7 +4452,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Felsengesicht_von_Dwejra_%28Gozo%2C_Malta%29.jpg",
     "file": "Felsengesicht_von_Dwejra_(Gozo,_Malta).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-01",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-efecto-foco",
@@ -2654,11 +4483,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Spotlight effect",
-     "u": "https://en.wikipedia.org/wiki/Spotlight_effect"
+     "org": "Wikipedia en inglés",
+     "title": "Spotlight effect",
+     "u": "https://en.wikipedia.org/wiki/Spotlight_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-25"
+   "date": "2026-10-25",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-10-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-memorias-falsas",
@@ -2672,11 +4523,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Lost in the mall technique",
-     "u": "https://en.wikipedia.org/wiki/Lost_in_the_mall_technique"
+     "org": "Wikipedia en inglés",
+     "title": "Lost in the mall technique",
+     "u": "https://en.wikipedia.org/wiki/Lost_in_the_mall_technique",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-23"
+   "date": "2026-11-23",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-cerebro-izq-der",
@@ -2691,11 +4564,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Lateralization of brain function",
-     "u": "https://en.wikipedia.org/wiki/Lateralization_of_brain_function"
+     "org": "Wikipedia en inglés",
+     "title": "Lateralization of brain function",
+     "u": "https://en.wikipedia.org/wiki/Lateralization_of_brain_function",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-estilos-aprendizaje",
@@ -2710,11 +4605,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Learning styles",
-     "u": "https://en.wikipedia.org/wiki/Learning_styles"
+     "org": "Wikipedia en inglés",
+     "title": "Learning styles",
+     "u": "https://en.wikipedia.org/wiki/Learning_styles",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-09",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-efecto-ikea",
@@ -2728,11 +4645,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — IKEA effect",
-     "u": "https://en.wikipedia.org/wiki/IKEA_effect"
+     "org": "Wikipedia en inglés",
+     "title": "IKEA effect",
+     "u": "https://en.wikipedia.org/wiki/IKEA_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-02"
+   "date": "2026-11-02",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-02",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-cara-luna",
@@ -2774,11 +4713,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Tidal locking",
-     "u": "https://en.wikipedia.org/wiki/Tidal_locking"
+     "org": "Wikipedia en inglés",
+     "title": "Tidal locking",
+     "u": "https://en.wikipedia.org/wiki/Tidal_locking",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Far side of the Moon",
-     "u": "https://en.wikipedia.org/wiki/Far_side_of_the_Moon"
+     "org": "Wikipedia en inglés",
+     "title": "Far side of the Moon",
+     "u": "https://en.wikipedia.org/wiki/Far_side_of_the_Moon",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2790,7 +4739,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Far_side_of_the_Moon.png",
     "file": "Far_side_of_the_Moon.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-dia-marte",
@@ -2804,11 +4770,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Mars",
-     "u": "https://en.wikipedia.org/wiki/Mars"
+     "org": "Wikipedia en inglés",
+     "title": "Mars",
+     "u": "https://en.wikipedia.org/wiki/Mars",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Timekeeping on Mars",
-     "u": "https://en.wikipedia.org/wiki/Timekeeping_on_Mars"
+     "org": "Wikipedia en inglés",
+     "title": "Timekeeping on Mars",
+     "u": "https://en.wikipedia.org/wiki/Timekeeping_on_Mars",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2820,7 +4796,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
     "file": "Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-saturno-densidad",
@@ -2834,7 +4827,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Saturn",
-     "u": "https://en.wikipedia.org/wiki/Saturn"
+     "org": "Wikipedia en inglés",
+     "title": "Saturn",
+     "u": "https://en.wikipedia.org/wiki/Saturn",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2846,7 +4844,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png",
     "file": "Saturn_global_view_from_Cassini,_rings_open_Better_Colour.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-olympus-mons",
@@ -2860,7 +4875,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Olympus Mons",
-     "u": "https://en.wikipedia.org/wiki/Olympus_Mons"
+     "org": "Wikipedia en inglés",
+     "title": "Olympus Mons",
+     "u": "https://en.wikipedia.org/wiki/Olympus_Mons",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2872,7 +4892,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Olympus_Mons_-_ESA_Mars_Express_-_Flickr_-_Andrea_Luck.png",
     "file": "Olympus_Mons_-_ESA_Mars_Express_-_Flickr_-_Andrea_Luck.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-10",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-voyager-1",
@@ -2886,11 +4923,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Voyager 1",
-     "u": "https://en.wikipedia.org/wiki/Voyager_1"
+     "org": "Wikipedia en inglés",
+     "title": "Voyager 1",
+     "u": "https://en.wikipedia.org/wiki/Voyager_1",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Voyager Golden Record",
-     "u": "https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+     "org": "Wikipedia en inglés",
+     "title": "Voyager Golden Record",
+     "u": "https://en.wikipedia.org/wiki/Voyager_Golden_Record",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2902,7 +4949,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
     "file": "Voyager_spacecraft_model.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-03",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-masa-sol",
@@ -2916,7 +4980,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Sun",
-     "u": "https://en.wikipedia.org/wiki/Sun"
+     "org": "Wikipedia en inglés",
+     "title": "Sun",
+     "u": "https://en.wikipedia.org/wiki/Sun",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2928,7 +4997,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:The_Sun_in_white_light.jpg",
     "file": "The_Sun_in_white_light.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-27",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-ganimedes",
@@ -2942,7 +5028,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Ganymede",
-     "u": "https://en.wikipedia.org/wiki/Ganymede_(moon)"
+     "org": "Wikipedia en inglés",
+     "title": "Ganymede",
+     "u": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2954,7 +5045,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Ganymede_-_Perijove_34_Composite.png",
     "file": "Ganymede_-_Perijove_34_Composite.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-lado-oscuro-luna",
@@ -2969,7 +5077,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Far side of the Moon",
-     "u": "https://en.wikipedia.org/wiki/Far_side_of_the_Moon"
+     "org": "Wikipedia en inglés",
+     "title": "Far side of the Moon",
+     "u": "https://en.wikipedia.org/wiki/Far_side_of_the_Moon",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -2981,7 +5094,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Far_side_of_the_Moon.png",
     "file": "Far_side_of_the_Moon.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-primer-email",
@@ -3022,15 +5152,42 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Ray Tomlinson",
-     "u": "https://en.wikipedia.org/wiki/Ray_Tomlinson"
+     "org": "Wikipedia en inglés",
+     "title": "Ray Tomlinson",
+     "u": "https://en.wikipedia.org/wiki/Ray_Tomlinson",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — At sign",
-     "u": "https://en.wikipedia.org/wiki/At_sign"
+     "org": "Wikipedia en inglés",
+     "title": "At sign",
+     "u": "https://en.wikipedia.org/wiki/At_sign",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-symbolics",
@@ -3044,11 +5201,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Symbolics",
-     "u": "https://en.wikipedia.org/wiki/Symbolics"
+     "org": "Wikipedia en inglés",
+     "title": "Symbolics",
+     "u": "https://en.wikipedia.org/wiki/Symbolics",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-04",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-captcha",
@@ -3062,11 +5241,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — CAPTCHA",
-     "u": "https://en.wikipedia.org/wiki/CAPTCHA"
+     "org": "Wikipedia en inglés",
+     "title": "CAPTCHA",
+     "u": "https://en.wikipedia.org/wiki/CAPTCHA",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — reCAPTCHA",
-     "u": "https://en.wikipedia.org/wiki/ReCAPTCHA"
+     "org": "Wikipedia en inglés",
+     "title": "reCAPTCHA",
+     "u": "https://en.wikipedia.org/wiki/ReCAPTCHA",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3078,7 +5267,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:RecaptchaLogo.svg",
     "file": "RecaptchaLogo.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-28",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-bluetooth",
@@ -3092,7 +5298,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Bluetooth",
-     "u": "https://en.wikipedia.org/wiki/Bluetooth"
+     "org": "Wikipedia en inglés",
+     "title": "Bluetooth",
+     "u": "https://en.wikipedia.org/wiki/Bluetooth",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3104,7 +5315,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Plantronics_Voyager_Legend.JPG",
     "file": "Plantronics_Voyager_Legend.JPG"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-computadora-apolo",
@@ -3118,11 +5346,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Apollo Guidance Computer",
-     "u": "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer"
+     "org": "Wikipedia en inglés",
+     "title": "Apollo Guidance Computer",
+     "u": "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-19"
+   "date": "2026-11-19",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-spam-monty",
@@ -3136,11 +5386,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Spamming",
-     "u": "https://en.wikipedia.org/wiki/Spamming"
+     "org": "Wikipedia en inglés",
+     "title": "Spamming",
+     "u": "https://en.wikipedia.org/wiki/Spamming",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-12"
+   "date": "2026-11-12",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-wifi-nombre",
@@ -3154,7 +5426,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Wi-Fi",
-     "u": "https://en.wikipedia.org/wiki/Wi-Fi"
+     "org": "Wikipedia en inglés",
+     "title": "Wi-Fi",
+     "u": "https://en.wikipedia.org/wiki/Wi-Fi",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3166,7 +5443,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg",
     "file": "WiFi_Logo.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-05",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-qr-toyota",
@@ -3180,7 +5474,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — QR code",
-     "u": "https://en.wikipedia.org/wiki/QR_code"
+     "org": "Wikipedia en inglés",
+     "title": "QR code",
+     "u": "https://en.wikipedia.org/wiki/QR_code",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3192,7 +5491,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:QR_code_for_mobile_English_Wikipedia.svg",
     "file": "QR_code_for_mobile_English_Wikipedia.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-29",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-acido-estomago",
@@ -3206,7 +5522,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Gastric acid",
-     "u": "https://en.wikipedia.org/wiki/Gastric_acid"
+     "org": "Wikipedia en inglés",
+     "title": "Gastric acid",
+     "u": "https://en.wikipedia.org/wiki/Gastric_acid",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3218,7 +5539,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Determinants_of_Gastric_Acid_Secretion.svg",
     "file": "Determinants_of_Gastric_Acid_Secretion.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-huesos-manos-pies",
@@ -3232,15 +5570,42 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hand",
-     "u": "https://en.wikipedia.org/wiki/Hand"
+     "org": "Wikipedia en inglés",
+     "title": "Hand",
+     "u": "https://en.wikipedia.org/wiki/Hand",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Foot",
-     "u": "https://en.wikipedia.org/wiki/Foot"
+     "org": "Wikipedia en inglés",
+     "title": "Foot",
+     "u": "https://en.wikipedia.org/wiki/Foot",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-20"
+   "date": "2026-11-20",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-rotula-bebes",
@@ -3254,7 +5619,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Patella",
-     "u": "https://en.wikipedia.org/wiki/Patella"
+     "org": "Wikipedia en inglés",
+     "title": "Patella",
+     "u": "https://en.wikipedia.org/wiki/Patella",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3266,7 +5636,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Knee_diagram.svg",
     "file": "Knee_diagram.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-mapa-lengua",
@@ -3281,7 +5668,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Tongue map",
-     "u": "https://en.wikipedia.org/wiki/Tongue_map"
+     "org": "Wikipedia en inglés",
+     "title": "Tongue map",
+     "u": "https://en.wikipedia.org/wiki/Tongue_map",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3293,7 +5685,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Taste_buds.svg",
     "file": "Taste_buds.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-06",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-cinco-sentidos",
@@ -3308,7 +5717,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Sense",
-     "u": "https://en.wikipedia.org/wiki/Sense"
+     "org": "Wikipedia en inglés",
+     "title": "Sense",
+     "u": "https://en.wikipedia.org/wiki/Sense",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3320,7 +5734,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:XBio_illustration_%E2%80%93_The_Five_Senses.png",
     "file": "XBio_illustration_–_The_Five_Senses.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-30",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-hipo-record",
@@ -3334,11 +5765,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Charles Osborne (hiccups)",
-     "u": "https://en.wikipedia.org/wiki/Charles_Osborne_(hiccups)"
+     "org": "Wikipedia en inglés",
+     "title": "Charles Osborne (hiccups)",
+     "u": "https://en.wikipedia.org/wiki/Charles_Osborne_(hiccups)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-23"
+   "date": "2026-10-23",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-nudillos",
@@ -3353,7 +5806,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Cracking joints",
-     "u": "https://en.wikipedia.org/wiki/Cracking_joints"
+     "org": "Wikipedia en inglés",
+     "title": "Cracking joints",
+     "u": "https://en.wikipedia.org/wiki/Cracking_joints",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3365,7 +5823,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Cracking_knuckles.jpg",
     "file": "Cracking_knuckles.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-bostezo-contagioso",
@@ -3379,11 +5854,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Yawn",
-     "u": "https://en.wikipedia.org/wiki/Yawn"
+     "org": "Wikipedia en inglés",
+     "title": "Yawn",
+     "u": "https://en.wikipedia.org/wiki/Yawn",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-14"
+   "date": "2026-11-14",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-diomedes",
@@ -3397,7 +5894,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Diomede Islands",
-     "u": "https://en.wikipedia.org/wiki/Diomede_Islands"
+     "org": "Wikipedia en inglés",
+     "title": "Diomede Islands",
+     "u": "https://en.wikipedia.org/wiki/Diomede_Islands",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3409,7 +5911,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:BeringSt-close-VE.jpg",
     "file": "BeringSt-close-VE.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-07",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-baikal",
@@ -3423,7 +5942,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Lake Baikal",
-     "u": "https://en.wikipedia.org/wiki/Lake_Baikal"
+     "org": "Wikipedia en inglés",
+     "title": "Lake Baikal",
+     "u": "https://en.wikipedia.org/wiki/Lake_Baikal",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3435,7 +5959,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Baikal.A2001296.0420.250m-NASA.jpg",
     "file": "Baikal.A2001296.0420.250m-NASA.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-31",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-mar-muerto",
@@ -3449,7 +5990,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Dead Sea",
-     "u": "https://en.wikipedia.org/wiki/Dead_Sea"
+     "org": "Wikipedia en inglés",
+     "title": "Dead Sea",
+     "u": "https://en.wikipedia.org/wiki/Dead_Sea",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3461,7 +6007,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Dead_Sea_beach_00.JPG",
     "file": "Dead_Sea_beach_00.JPG"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-vaticano",
@@ -3475,7 +6038,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Vatican City",
-     "u": "https://en.wikipedia.org/wiki/Vatican_City"
+     "org": "Wikipedia en inglés",
+     "title": "Vatican City",
+     "u": "https://en.wikipedia.org/wiki/Vatican_City",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3487,7 +6055,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Vatican_City_%282023%E2%80%93present%29.svg",
     "file": "Flag_of_Vatican_City_(2023–present).svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-mercator",
@@ -3501,7 +6086,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Mercator projection",
-     "u": "https://en.wikipedia.org/wiki/Mercator_projection"
+     "org": "Wikipedia en inglés",
+     "title": "Mercator projection",
+     "u": "https://en.wikipedia.org/wiki/Mercator_projection",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3513,7 +6103,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Mercator_projection_Square.JPG",
     "file": "Mercator_projection_Square.JPG"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-la-espanola",
@@ -3527,7 +6134,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hispaniola",
-     "u": "https://en.wikipedia.org/wiki/Hispaniola"
+     "org": "Wikipedia en inglés",
+     "title": "Hispaniola",
+     "u": "https://en.wikipedia.org/wiki/Hispaniola",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3539,7 +6151,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:ISS027-E-17333_-_View_of_Dominican_Republic.jpg",
     "file": "ISS027-E-17333_-_View_of_Dominican_Republic.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-08",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-pacifico",
@@ -3553,7 +6182,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Pacific Ocean",
-     "u": "https://en.wikipedia.org/wiki/Pacific_Ocean"
+     "org": "Wikipedia en inglés",
+     "title": "Pacific Ocean",
+     "u": "https://en.wikipedia.org/wiki/Pacific_Ocean",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3565,7 +6199,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Pacific_Ocean_-_en.png",
     "file": "Pacific_Ocean_-_en.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-01",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-punto-nemo",
@@ -3579,11 +6230,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Point Nemo",
-     "u": "https://en.wikipedia.org/wiki/Point_Nemo"
+     "org": "Wikipedia en inglés",
+     "title": "Point Nemo",
+     "u": "https://en.wikipedia.org/wiki/Point_Nemo",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-25"
+   "date": "2026-10-25",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-tardigrados",
@@ -3597,7 +6270,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Tardigrade",
-     "u": "https://en.wikipedia.org/wiki/Tardigrade"
+     "org": "Wikipedia en inglés",
+     "title": "Tardigrade",
+     "u": "https://en.wikipedia.org/wiki/Tardigrade",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3609,7 +6287,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png",
     "file": "SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_(white_background).png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-medusa-inmortal",
@@ -3623,7 +6318,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Turritopsis dohrnii",
-     "u": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii"
+     "org": "Wikipedia en inglés",
+     "title": "Turritopsis dohrnii",
+     "u": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3635,7 +6335,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Turritopsis_dohrnii.jpg",
     "file": "Turritopsis_dohrnii.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-jirafa-cuello",
@@ -3649,11 +6366,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Giraffe",
-     "u": "https://en.wikipedia.org/wiki/Giraffe"
+     "org": "Wikipedia en inglés",
+     "title": "Giraffe",
+     "u": "https://en.wikipedia.org/wiki/Giraffe",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-09",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-ajolote",
@@ -3667,7 +6406,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Axolotl",
-     "u": "https://en.wikipedia.org/wiki/Axolotl"
+     "org": "Wikipedia en inglés",
+     "title": "Axolotl",
+     "u": "https://en.wikipedia.org/wiki/Axolotl",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3679,7 +6423,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Axolotl_ganz.jpg",
     "file": "Axolotl_ganz.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-02",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-pez-payaso",
@@ -3693,7 +6454,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Amphiprioninae",
-     "u": "https://en.wikipedia.org/wiki/Amphiprioninae"
+     "org": "Wikipedia en inglés",
+     "title": "Amphiprioninae",
+     "u": "https://en.wikipedia.org/wiki/Amphiprioninae",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3705,7 +6471,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg",
     "file": "Amphiprion_ocellaris_(Clown_anemonefish)_by_Nick_Hobgood.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-vaca-estomagos",
@@ -3720,7 +6503,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Ruminant",
-     "u": "https://en.wikipedia.org/wiki/Ruminant"
+     "org": "Wikipedia en inglés",
+     "title": "Ruminant",
+     "u": "https://en.wikipedia.org/wiki/Ruminant",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3732,7 +6520,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Ruminantia.jpg",
     "file": "Ruminantia.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-memoria-pez",
@@ -3747,7 +6552,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Goldfish",
-     "u": "https://en.wikipedia.org/wiki/Goldfish"
+     "org": "Wikipedia en inglés",
+     "title": "Goldfish",
+     "u": "https://en.wikipedia.org/wiki/Goldfish",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3759,7 +6569,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Gold_fish1.jpg",
     "file": "Gold_fish1.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-camello-agua",
@@ -3774,11 +6601,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Camel",
-     "u": "https://en.wikipedia.org/wiki/Camel"
+     "org": "Wikipedia en inglés",
+     "title": "Camel",
+     "u": "https://en.wikipedia.org/wiki/Camel",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-10",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-tranvia",
@@ -3821,11 +6670,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Trolley problem",
-     "u": "https://en.wikipedia.org/wiki/Trolley_problem"
+     "org": "Wikipedia en inglés",
+     "title": "Trolley problem",
+     "u": "https://en.wikipedia.org/wiki/Trolley_problem",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Moral Machine",
-     "u": "https://en.wikipedia.org/wiki/Moral_Machine"
+     "org": "Wikipedia en inglés",
+     "title": "Moral Machine",
+     "u": "https://en.wikipedia.org/wiki/Moral_Machine",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3837,7 +6696,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Trolley_Problem.svg",
     "file": "Trolley_Problem.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "debate",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-socrates-no-escribio",
@@ -3851,11 +6727,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Socrates",
-     "u": "https://en.wikipedia.org/wiki/Socrates"
+     "org": "Wikipedia en inglés",
+     "title": "Socrates",
+     "u": "https://en.wikipedia.org/wiki/Socrates",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-27"
+   "date": "2026-10-27",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-27",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-diogenes",
@@ -3869,11 +6767,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Diogenes",
-     "u": "https://en.wikipedia.org/wiki/Diogenes"
+     "org": "Wikipedia en inglés",
+     "title": "Diogenes",
+     "u": "https://en.wikipedia.org/wiki/Diogenes",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-25"
+   "date": "2026-11-25",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-navaja-ockham",
@@ -3887,11 +6807,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Occam's razor",
-     "u": "https://en.wikipedia.org/wiki/Occam%27s_razor"
+     "org": "Wikipedia en inglés",
+     "title": "Occam's razor",
+     "u": "https://en.wikipedia.org/wiki/Occam%27s_razor",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-18"
+   "date": "2026-11-18",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cogito",
@@ -3905,11 +6847,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Cogito, ergo sum",
-     "u": "https://en.wikipedia.org/wiki/Cogito,_ergo_sum"
+     "org": "Wikipedia en inglés",
+     "title": "Cogito, ergo sum",
+     "u": "https://en.wikipedia.org/wiki/Cogito,_ergo_sum",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-11",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-zenon",
@@ -3923,11 +6887,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Zeno's paradoxes",
-     "u": "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes"
+     "org": "Wikipedia en inglés",
+     "title": "Zeno's paradoxes",
+     "u": "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-04",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-hipatia",
@@ -3941,11 +6927,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hypatia",
-     "u": "https://en.wikipedia.org/wiki/Hypatia"
+     "org": "Wikipedia en inglés",
+     "title": "Hypatia",
+     "u": "https://en.wikipedia.org/wiki/Hypatia",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-28",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-meditaciones",
@@ -3959,7 +6967,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Meditations",
-     "u": "https://en.wikipedia.org/wiki/Meditations"
+     "org": "Wikipedia en inglés",
+     "title": "Meditations",
+     "u": "https://en.wikipedia.org/wiki/Meditations",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -3971,7 +6984,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius._De_seipso%2C_seu_vita_sua_%28Xylander%2C_1558%29.jpg",
     "file": "Marcus_Aurelius._De_seipso,_seu_vita_sua_(Xylander,_1558).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-regla-oro",
@@ -3985,11 +7015,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Golden Rule",
-     "u": "https://en.wikipedia.org/wiki/Golden_Rule"
+     "org": "Wikipedia en inglés",
+     "title": "Golden Rule",
+     "u": "https://en.wikipedia.org/wiki/Golden_Rule",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-19"
+   "date": "2026-11-19",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-epicureismo",
@@ -4004,11 +7056,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Epicurus",
-     "u": "https://en.wikipedia.org/wiki/Epicurus"
+     "org": "Wikipedia en inglés",
+     "title": "Epicurus",
+     "u": "https://en.wikipedia.org/wiki/Epicurus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-12"
+   "date": "2026-11-12",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-nazca",
@@ -4051,7 +7125,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Nazca Lines",
-     "u": "https://en.wikipedia.org/wiki/Nazca_Lines"
+     "org": "Wikipedia en inglés",
+     "title": "Nazca Lines",
+     "u": "https://en.wikipedia.org/wiki/Nazca_Lines",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4063,7 +7142,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_49.JPG",
     "file": "Líneas_de_Nazca,_Nazca,_Perú,_2015-07-29,_DD_49.JPG"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-anticitera",
@@ -4077,7 +7173,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Antikythera mechanism",
-     "u": "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+     "org": "Wikipedia en inglés",
+     "title": "Antikythera mechanism",
+     "u": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4089,7 +7190,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Antikythera_Fragment_A_%28Front%29.webp",
     "file": "Antikythera_Fragment_A_(Front).webp"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-29",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-dyatlov",
@@ -4103,11 +7221,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Dyatlov Pass incident",
-     "u": "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident"
+     "org": "Wikipedia en inglés",
+     "title": "Dyatlov Pass incident",
+     "u": "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-22"
+   "date": "2026-10-22",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hipotesis",
+   "history": [
+    {
+     "date": "2026-10-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-roanoke",
@@ -4121,11 +7261,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Roanoke Colony",
-     "u": "https://en.wikipedia.org/wiki/Roanoke_Colony"
+     "org": "Wikipedia en inglés",
+     "title": "Roanoke Colony",
+     "u": "https://en.wikipedia.org/wiki/Roanoke_Colony",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-20"
+   "date": "2026-11-20",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-rongorongo",
@@ -4139,7 +7301,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Rongorongo",
-     "u": "https://en.wikipedia.org/wiki/Rongorongo"
+     "org": "Wikipedia en inglés",
+     "title": "Rongorongo",
+     "u": "https://en.wikipedia.org/wiki/Rongorongo",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4151,7 +7318,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Rongorongo_B-v_Aruku-Kurenga_%28color%29_edit1.jpg",
     "file": "Rongorongo_B-v_Aruku-Kurenga_(color)_edit1.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-mary-celeste",
@@ -4165,7 +7349,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Mary Celeste",
-     "u": "https://en.wikipedia.org/wiki/Mary_Celeste"
+     "org": "Wikipedia en inglés",
+     "title": "Mary Celeste",
+     "u": "https://en.wikipedia.org/wiki/Mary_Celeste",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4177,7 +7366,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Mary_Celeste_as_Amazon_in_1861_%28cropped%29.jpg",
     "file": "Mary_Celeste_as_Amazon_in_1861_(cropped).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-06",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-lineal-a",
@@ -4191,11 +7397,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Linear A",
-     "u": "https://en.wikipedia.org/wiki/Linear_A"
+     "org": "Wikipedia en inglés",
+     "title": "Linear A",
+     "u": "https://en.wikipedia.org/wiki/Linear_A",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Linear B",
-     "u": "https://en.wikipedia.org/wiki/Linear_B"
+     "org": "Wikipedia en inglés",
+     "title": "Linear B",
+     "u": "https://en.wikipedia.org/wiki/Linear_B",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4207,7 +7423,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Linear_A_cup.png",
     "file": "Linear_A_cup.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-10-30",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-triangulo-bermudas",
@@ -4222,11 +7455,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Bermuda Triangle",
-     "u": "https://en.wikipedia.org/wiki/Bermuda_Triangle"
+     "org": "Wikipedia en inglés",
+     "title": "Bermuda Triangle",
+     "u": "https://en.wikipedia.org/wiki/Bermuda_Triangle",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-23"
+   "date": "2026-10-23",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-piedras-moviles",
@@ -4240,11 +7495,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Sailing stones",
-     "u": "https://en.wikipedia.org/wiki/Sailing_stones"
+     "org": "Wikipedia en inglés",
+     "title": "Sailing stones",
+     "u": "https://en.wikipedia.org/wiki/Sailing_stones",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-agua-diamante",
@@ -4285,7 +7562,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Paradox of value",
-     "u": "https://en.wikipedia.org/wiki/Paradox_of_value"
+     "org": "Wikipedia en inglés",
+     "title": "Paradox of value",
+     "u": "https://en.wikipedia.org/wiki/Paradox_of_value",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4297,7 +7579,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Water_Diamonds.jpg",
     "file": "Water_Diamonds.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-jiaozi",
@@ -4311,7 +7610,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Jiaozi",
-     "u": "https://en.wikipedia.org/wiki/Jiaozi_(currency)"
+     "org": "Wikipedia en inglés",
+     "title": "Jiaozi",
+     "u": "https://en.wikipedia.org/wiki/Jiaozi_(currency)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4323,7 +7627,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Hue-tzu_%28Song_Dynasty_government_issue%29%2C_1023_-_John_E._Sandrock.jpg",
     "file": "Hue-tzu_(Song_Dynasty_government_issue),_1023_-_John_E._Sandrock.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-07",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-tulipomania",
@@ -4337,7 +7658,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Tulip mania",
-     "u": "https://en.wikipedia.org/wiki/Tulip_mania"
+     "org": "Wikipedia en inglés",
+     "title": "Tulip mania",
+     "u": "https://en.wikipedia.org/wiki/Tulip_mania",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4349,7 +7675,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Jan_Brueghel_the_Younger%2C_Satire_on_Tulip_Mania%2C_c._1640.jpg",
     "file": "Jan_Brueghel_the_Younger,_Satire_on_Tulip_Mania,_c._1640.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-31",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-big-mac",
@@ -4363,7 +7706,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Big Mac Index",
-     "u": "https://en.wikipedia.org/wiki/Big_Mac_Index"
+     "org": "Wikipedia en inglés",
+     "title": "Big Mac Index",
+     "u": "https://en.wikipedia.org/wiki/Big_Mac_Index",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4375,7 +7723,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:McDonalds-Big-Mac-Price-World-Map-2022.png",
     "file": "McDonalds-Big-Mac-Price-World-Map-2022.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-piedras-yap",
@@ -4389,11 +7754,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Rai stones",
-     "u": "https://en.wikipedia.org/wiki/Rai_stones"
+     "org": "Wikipedia en inglés",
+     "title": "Rai stones",
+     "u": "https://en.wikipedia.org/wiki/Rai_stones",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-pizza-bitcoin",
@@ -4407,7 +7794,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — History of bitcoin",
-     "u": "https://en.wikipedia.org/wiki/History_of_bitcoin"
+     "org": "Wikipedia en inglés",
+     "title": "History of bitcoin",
+     "u": "https://en.wikipedia.org/wiki/History_of_bitcoin",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4419,7 +7811,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Bitcoin_transactions_per_month.svg",
     "file": "Bitcoin_transactions_per_month.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-salario-sal",
@@ -4434,11 +7843,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Salary",
-     "u": "https://en.wikipedia.org/wiki/Salary"
+     "org": "Wikipedia en inglés",
+     "title": "Salary",
+     "u": "https://en.wikipedia.org/wiki/Salary",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-08",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-ley-gresham",
@@ -4452,11 +7883,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Gresham's law",
-     "u": "https://en.wikipedia.org/wiki/Gresham%27s_law"
+     "org": "Wikipedia en inglés",
+     "title": "Gresham's law",
+     "u": "https://en.wikipedia.org/wiki/Gresham%27s_law",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-01",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-weimar",
@@ -4470,11 +7923,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hyperinflation in the Weimar Republic",
-     "u": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic"
+     "org": "Wikipedia en inglés",
+     "title": "Hyperinflation in the Weimar Republic",
+     "u": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-25"
+   "date": "2026-10-25",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-rollos-mar-muerto",
@@ -4517,15 +7992,42 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Dead Sea Scrolls",
-     "u": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls"
+     "org": "Wikipedia en inglés",
+     "title": "Dead Sea Scrolls",
+     "u": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Great Isaiah Scroll",
-     "u": "https://en.wikipedia.org/wiki/Great_Isaiah_Scroll"
+     "org": "Wikipedia en inglés",
+     "title": "Great Isaiah Scroll",
+     "u": "https://en.wikipedia.org/wiki/Great_Isaiah_Scroll",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-biblia-gutenberg",
@@ -4539,7 +8041,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Gutenberg Bible",
-     "u": "https://en.wikipedia.org/wiki/Gutenberg_Bible"
+     "org": "Wikipedia en inglés",
+     "title": "Gutenberg Bible",
+     "u": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4551,7 +8058,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
     "file": "Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-navidad-336",
@@ -4565,7 +8089,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Christmas",
-     "u": "https://en.wikipedia.org/wiki/Christmas"
+     "org": "Wikipedia en inglés",
+     "title": "Christmas",
+     "u": "https://en.wikipedia.org/wiki/Christmas",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4577,7 +8106,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:NativityChristmasLights2.jpg",
     "file": "NativityChristmasLights2.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-09",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-calendario-islamico",
@@ -4591,11 +8137,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Islamic calendar",
-     "u": "https://en.wikipedia.org/wiki/Islamic_calendar"
+     "org": "Wikipedia en inglés",
+     "title": "Islamic calendar",
+     "u": "https://en.wikipedia.org/wiki/Islamic_calendar",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-02"
+   "date": "2026-11-02",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-02",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-buda-gordo",
@@ -4610,7 +8178,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Budai",
-     "u": "https://en.wikipedia.org/wiki/Budai"
+     "org": "Wikipedia en inglés",
+     "title": "Budai",
+     "u": "https://en.wikipedia.org/wiki/Budai",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4622,7 +8195,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Budai%2C_British_Museum.jpg",
     "file": "Budai,_British_Museum.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-rigveda",
@@ -4636,7 +8226,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Rigveda",
-     "u": "https://en.wikipedia.org/wiki/Rigveda"
+     "org": "Wikipedia en inglés",
+     "title": "Rigveda",
+     "u": "https://en.wikipedia.org/wiki/Rigveda",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4648,7 +8243,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Rigveda_MS2097.jpg",
     "file": "Rigveda_MS2097.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-pascua-fecha",
@@ -4662,11 +8274,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Easter",
-     "u": "https://en.wikipedia.org/wiki/Easter"
+     "org": "Wikipedia en inglés",
+     "title": "Easter",
+     "u": "https://en.wikipedia.org/wiki/Easter",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Date of Easter",
-     "u": "https://en.wikipedia.org/wiki/Date_of_Easter"
+     "org": "Wikipedia en inglés",
+     "title": "Date of Easter",
+     "u": "https://en.wikipedia.org/wiki/Date_of_Easter",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4678,7 +8300,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Chora_Anastasis2.jpg",
     "file": "Chora_Anastasis2.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cemies",
@@ -4692,7 +8331,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Zemi",
-     "u": "https://en.wikipedia.org/wiki/Zemi"
+     "org": "Wikipedia en inglés",
+     "title": "Zemi",
+     "u": "https://en.wikipedia.org/wiki/Zemi",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4704,7 +8348,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Deity_Figure_%28Zem%C3%AD%29_MET_DP295635.jpg",
     "file": "Deity_Figure_(Zemí)_MET_DP295635.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-10",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-aleluya",
@@ -4718,7 +8379,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hallelujah",
-     "u": "https://en.wikipedia.org/wiki/Hallelujah"
+     "org": "Wikipedia en inglés",
+     "title": "Hallelujah",
+     "u": "https://en.wikipedia.org/wiki/Hallelujah",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4730,7 +8396,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Hallelu_Yah.JPG",
     "file": "Hallelu_Yah.JPG"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-03",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-ok-origen",
@@ -4744,7 +8427,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — OK",
-     "u": "https://en.wikipedia.org/wiki/OK"
+     "org": "Wikipedia en inglés",
+     "title": "OK",
+     "u": "https://en.wikipedia.org/wiki/OK",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4756,7 +8444,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:OK-button_-_Macro_photography_of_a_remote_control.jpg",
     "file": "OK-button_-_Macro_photography_of_a_remote_control.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-27",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-mona-lisa-robo",
@@ -4770,7 +8475,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Mona Lisa",
-     "u": "https://en.wikipedia.org/wiki/Mona_Lisa"
+     "org": "Wikipedia en inglés",
+     "title": "Mona Lisa",
+     "u": "https://en.wikipedia.org/wiki/Mona_Lisa",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4782,7 +8492,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
     "file": "Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cervantes-shakespeare",
@@ -4796,15 +8523,42 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Miguel de Cervantes",
-     "u": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes"
+     "org": "Wikipedia en inglés",
+     "title": "Miguel de Cervantes",
+     "u": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — William Shakespeare",
-     "u": "https://en.wikipedia.org/wiki/William_Shakespeare"
+     "org": "Wikipedia en inglés",
+     "title": "William Shakespeare",
+     "u": "https://en.wikipedia.org/wiki/William_Shakespeare",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-18"
+   "date": "2026-11-18",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-letra-n",
@@ -4818,7 +8572,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Ñ",
-     "u": "https://en.wikipedia.org/wiki/%C3%91"
+     "org": "Wikipedia en inglés",
+     "title": "Ñ",
+     "u": "https://en.wikipedia.org/wiki/%C3%91",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4830,7 +8589,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Latin_alphabet_%C3%91%C3%B1.svg",
     "file": "Latin_alphabet_Ññ.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-11",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-guira",
@@ -4844,7 +8620,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Güira",
-     "u": "https://en.wikipedia.org/wiki/G%C3%BCira"
+     "org": "Wikipedia en inglés",
+     "title": "Güira",
+     "u": "https://en.wikipedia.org/wiki/G%C3%BCira",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4856,7 +8637,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Guira_from_Dominican_Repub.jpg",
     "file": "Guira_from_Dominican_Repub.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-04",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-bachata-unesco",
@@ -4870,15 +8668,41 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "UNESCO — La bachata dominicana (Patrimonio Cultural Inmaterial)",
-     "u": "https://ich.unesco.org/es/RL/la-bachata-dominicana-01514"
+     "org": "UNESCO",
+     "title": "La bachata dominicana (Patrimonio Cultural Inmaterial)",
+     "u": "https://ich.unesco.org/es/RL/la-bachata-dominicana-01514",
+     "kind": "institucional",
+     "accessed": "2026-10-28"
     },
     {
      "t": "Wikipedia — Bachata (music)",
-     "u": "https://en.wikipedia.org/wiki/Bachata_(music)"
+     "org": "Wikipedia en inglés",
+     "title": "Bachata (music)",
+     "u": "https://en.wikipedia.org/wiki/Bachata_(music)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-28",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-beisbol-rd",
@@ -4892,7 +8716,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Baseball in the Dominican Republic",
-     "u": "https://en.wikipedia.org/wiki/Baseball_in_the_Dominican_Republic"
+     "org": "Wikipedia en inglés",
+     "title": "Baseball in the Dominican Republic",
+     "u": "https://en.wikipedia.org/wiki/Baseball_in_the_Dominican_Republic",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4904,7 +8733,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Estadio_quisqueya_santo_domingo_dominican_republic_1.jpg",
     "file": "Estadio_quisqueya_santo_domingo_dominican_republic_1.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-faro-colon",
@@ -4918,7 +8764,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Columbus Lighthouse",
-     "u": "https://en.wikipedia.org/wiki/Columbus_Lighthouse"
+     "org": "Wikipedia en inglés",
+     "title": "Columbus Lighthouse",
+     "u": "https://en.wikipedia.org/wiki/Columbus_Lighthouse",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4930,7 +8781,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Santo_Domingo.El_Faro_a_Col%C3%B3n.20170402.jpg",
     "file": "Santo_Domingo.El_Faro_a_Colón.20170402.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-sombrero-panama",
@@ -4944,11 +8812,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Panama hat",
-     "u": "https://en.wikipedia.org/wiki/Panama_hat"
+     "org": "Wikipedia en inglés",
+     "title": "Panama hat",
+     "u": "https://en.wikipedia.org/wiki/Panama_hat",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-12"
+   "date": "2026-11-12",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-olimpiadas-arte",
@@ -4962,7 +8852,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Art competitions at the Summer Olympics",
-     "u": "https://en.wikipedia.org/wiki/Art_competitions_at_the_Summer_Olympics"
+     "org": "Wikipedia en inglés",
+     "title": "Art competitions at the Summer Olympics",
+     "u": "https://en.wikipedia.org/wiki/Art_competitions_at_the_Summer_Olympics",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -4974,7 +8869,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Museum_-_The_Noun_Project.svg",
     "file": "Museum_-_The_Noun_Project.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-05",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-marie-curie",
@@ -5016,11 +8928,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Marie Curie",
-     "u": "https://en.wikipedia.org/wiki/Marie_Curie"
+     "org": "Wikipedia en inglés",
+     "title": "Marie Curie",
+     "u": "https://en.wikipedia.org/wiki/Marie_Curie",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-pompeya",
@@ -5063,11 +8997,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Pompeii",
-     "u": "https://en.wikipedia.org/wiki/Pompeii"
+     "org": "Wikipedia en inglés",
+     "title": "Pompeii",
+     "u": "https://en.wikipedia.org/wiki/Pompeii",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Eruption of Mount Vesuvius in 79 AD",
-     "u": "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"
+     "org": "Wikipedia en inglés",
+     "title": "Eruption of Mount Vesuvius in 79 AD",
+     "u": "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5079,7 +9023,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg",
     "file": "Aerial_image_of_Pompeii_and_Mount_Vesuvius_(view_from_the_southeast).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-milgram",
@@ -5122,7 +9083,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Milgram experiment",
-     "u": "https://en.wikipedia.org/wiki/Milgram_experiment"
+     "org": "Wikipedia en inglés",
+     "title": "Milgram experiment",
+     "u": "https://en.wikipedia.org/wiki/Milgram_experiment",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5134,7 +9100,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Milgram_experiment_v2.svg",
     "file": "Milgram_experiment_v2.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-tunguska",
@@ -5177,11 +9160,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Tunguska event",
-     "u": "https://en.wikipedia.org/wiki/Tunguska_event"
+     "org": "Wikipedia en inglés",
+     "title": "Tunguska event",
+     "u": "https://en.wikipedia.org/wiki/Tunguska_event",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Asteroid Day",
-     "u": "https://en.wikipedia.org/wiki/Asteroid_Day"
+     "org": "Wikipedia en inglés",
+     "title": "Asteroid Day",
+     "u": "https://en.wikipedia.org/wiki/Asteroid_Day",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5193,7 +9186,25 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Tunguska_Ereignis-1.jpg",
     "file": "Tunguska_Ereignis-1.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "claimNote": "Es la explicación más aceptada, pero todavía se debate si el objeto era un asteroide o un cometa.",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-mansa-musa",
@@ -5234,15 +9245,42 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Mansa Musa",
-     "u": "https://en.wikipedia.org/wiki/Mansa_Musa"
+     "org": "Wikipedia en inglés",
+     "title": "Mansa Musa",
+     "u": "https://en.wikipedia.org/wiki/Mansa_Musa",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Catalan Atlas",
-     "u": "https://en.wikipedia.org/wiki/Catalan_Atlas"
+     "org": "Wikipedia en inglés",
+     "title": "Catalan Atlas",
+     "u": "https://en.wikipedia.org/wiki/Catalan_Atlas",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-mercurio-liquido",
@@ -5256,7 +9294,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Mercury (element)",
-     "u": "https://en.wikipedia.org/wiki/Mercury_(element)"
+     "org": "Wikipedia en inglés",
+     "title": "Mercury (element)",
+     "u": "https://en.wikipedia.org/wiki/Mercury_(element)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5268,7 +9311,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Pouring_liquid_mercury_bionerd.jpg",
     "file": "Pouring_liquid_mercury_bionerd.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-protocolo-montreal",
@@ -5282,7 +9342,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Montreal Protocol",
-     "u": "https://en.wikipedia.org/wiki/Montreal_Protocol"
+     "org": "Wikipedia en inglés",
+     "title": "Montreal Protocol",
+     "u": "https://en.wikipedia.org/wiki/Montreal_Protocol",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5294,7 +9359,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Ozone_Hole_2024_Update.webp",
     "file": "Ozone_Hole_2024_Update.webp"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-newton-manzana",
@@ -5308,12 +9390,34 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Isaac Newton",
-     "u": "https://en.wikipedia.org/wiki/Isaac_Newton"
+     "org": "Wikipedia en inglés",
+     "title": "Isaac Newton",
+     "u": "https://en.wikipedia.org/wiki/Isaac_Newton",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "matizado",
    "status": "publicado",
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-rontgen",
@@ -5327,11 +9431,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Wilhelm Röntgen",
-     "u": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"
+     "org": "Wikipedia en inglés",
+     "title": "Wilhelm Röntgen",
+     "u": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-06",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-mendeleev",
@@ -5345,11 +9471,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Dmitri Mendeleev",
-     "u": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev"
+     "org": "Wikipedia en inglés",
+     "title": "Dmitri Mendeleev",
+     "u": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-30"
+   "date": "2026-10-30",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-30",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cero-absoluto",
@@ -5363,7 +9511,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Absolute zero",
-     "u": "https://en.wikipedia.org/wiki/Absolute_zero"
+     "org": "Wikipedia en inglés",
+     "title": "Absolute zero",
+     "u": "https://en.wikipedia.org/wiki/Absolute_zero",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5375,7 +9528,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:CelsiusKelvin.svg",
     "file": "CelsiusKelvin.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-efecto-mariposa",
@@ -5389,11 +9559,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Butterfly effect",
-     "u": "https://en.wikipedia.org/wiki/Butterfly_effect"
+     "org": "Wikipedia en inglés",
+     "title": "Butterfly effect",
+     "u": "https://en.wikipedia.org/wiki/Butterfly_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-llantas-rayo",
@@ -5407,11 +9599,20 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Faraday cage",
-     "u": "https://en.wikipedia.org/wiki/Faraday_cage"
+     "org": "Wikipedia en inglés",
+     "title": "Faraday cage",
+     "u": "https://en.wikipedia.org/wiki/Faraday_cage",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "NOAA / National Weather Service — Lightning Myths",
-     "u": "https://www.weather.gov/safety/lightning-myths"
+     "org": "Servicio Meteorológico Nacional de EE. UU. (NOAA)",
+     "title": "Lightning Myths",
+     "u": "https://www.weather.gov/safety/lightning-myths",
+     "kind": "institucional",
+     "accessed": "2026-11-14"
     }
    ],
    "verdict": "falso",
@@ -5424,7 +9625,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Cage_de_Faraday.jpg",
     "file": "Cage_de_Faraday.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-mongoles",
@@ -5438,11 +9656,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Mongol Empire",
-     "u": "https://en.wikipedia.org/wiki/Mongol_Empire"
+     "org": "Wikipedia en inglés",
+     "title": "Mongol Empire",
+     "u": "https://en.wikipedia.org/wiki/Mongol_Empire",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-07",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-muro-berlin",
@@ -5456,11 +9696,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Berlin Wall",
-     "u": "https://en.wikipedia.org/wiki/Berlin_Wall"
+     "org": "Wikipedia en inglés",
+     "title": "Berlin Wall",
+     "u": "https://en.wikipedia.org/wiki/Berlin_Wall",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-31",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-tutankamon",
@@ -5474,7 +9736,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Tutankhamun",
-     "u": "https://en.wikipedia.org/wiki/Tutankhamun"
+     "org": "Wikipedia en inglés",
+     "title": "Tutankhamun",
+     "u": "https://en.wikipedia.org/wiki/Tutankhamun",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5486,7 +9753,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
     "file": "CairoEgMuseumTaaMaskMostlyPhotographed.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-carta-magna",
@@ -5500,7 +9784,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Magna Carta",
-     "u": "https://en.wikipedia.org/wiki/Magna_Carta"
+     "org": "Wikipedia en inglés",
+     "title": "Magna Carta",
+     "u": "https://en.wikipedia.org/wiki/Magna_Carta",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5512,7 +9801,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg",
     "file": "Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-revolucion-haitiana",
@@ -5526,11 +9832,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Haitian Revolution",
-     "u": "https://en.wikipedia.org/wiki/Haitian_Revolution"
+     "org": "Wikipedia en inglés",
+     "title": "Haitian Revolution",
+     "u": "https://en.wikipedia.org/wiki/Haitian_Revolution",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-independencia-rd",
@@ -5544,7 +9872,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Dominican War of Independence",
-     "u": "https://en.wikipedia.org/wiki/Dominican_War_of_Independence"
+     "org": "Wikipedia en inglés",
+     "title": "Dominican War of Independence",
+     "u": "https://en.wikipedia.org/wiki/Dominican_War_of_Independence",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5556,7 +9889,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Goletaseparacion.jpg",
     "file": "Goletaseparacion.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-08",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-maria-antonieta",
@@ -5570,12 +9920,34 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Let them eat cake",
-     "u": "https://en.wikipedia.org/wiki/Let_them_eat_cake"
+     "org": "Wikipedia en inglés",
+     "title": "Let them eat cake",
+     "u": "https://en.wikipedia.org/wiki/Let_them_eat_cake",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "falso",
    "status": "publicado",
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-01",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-coliseo",
@@ -5589,7 +9961,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Colosseum",
-     "u": "https://en.wikipedia.org/wiki/Colosseum"
+     "org": "Wikipedia en inglés",
+     "title": "Colosseum",
+     "u": "https://en.wikipedia.org/wiki/Colosseum",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5601,7 +9978,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
     "file": "Colosseo_2020.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-sesgo-confirmacion",
@@ -5615,11 +10009,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Confirmation bias",
-     "u": "https://en.wikipedia.org/wiki/Confirmation_bias"
+     "org": "Wikipedia en inglés",
+     "title": "Confirmation bias",
+     "u": "https://en.wikipedia.org/wiki/Confirmation_bias",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-23"
+   "date": "2026-11-23",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-efecto-halo",
@@ -5633,11 +10049,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Halo effect",
-     "u": "https://en.wikipedia.org/wiki/Halo_effect"
+     "org": "Wikipedia en inglés",
+     "title": "Halo effect",
+     "u": "https://en.wikipedia.org/wiki/Halo_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-sobrecarga-eleccion",
@@ -5651,15 +10089,42 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Overchoice",
-     "u": "https://en.wikipedia.org/wiki/Overchoice"
+     "org": "Wikipedia en inglés",
+     "title": "Overchoice",
+     "u": "https://en.wikipedia.org/wiki/Overchoice",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Sheena Iyengar",
-     "u": "https://en.wikipedia.org/wiki/Sheena_Iyengar"
+     "org": "Wikipedia en inglés",
+     "title": "Sheena Iyengar",
+     "u": "https://en.wikipedia.org/wiki/Sheena_Iyengar",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-09",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-numero-dunbar",
@@ -5673,11 +10138,34 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Dunbar's number",
-     "u": "https://en.wikipedia.org/wiki/Dunbar%27s_number"
+     "org": "Wikipedia en inglés",
+     "title": "Dunbar's number",
+     "u": "https://en.wikipedia.org/wiki/Dunbar%27s_number",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-02"
+   "date": "2026-11-02",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hipotesis",
+   "claimNote": "Es una propuesta teórica: otros investigadores, como Bernard y Killworth, han obtenido cifras distintas, y su análisis ha recibido críticas.",
+   "history": [
+    {
+     "date": "2026-11-02",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-deja-vu",
@@ -5691,11 +10179,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Déjà vu",
-     "u": "https://en.wikipedia.org/wiki/D%C3%A9j%C3%A0_vu"
+     "org": "Wikipedia en inglés",
+     "title": "Déjà vu",
+     "u": "https://en.wikipedia.org/wiki/D%C3%A9j%C3%A0_vu",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-26"
+   "date": "2026-10-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-curva-olvido",
@@ -5709,7 +10219,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Forgetting curve",
-     "u": "https://en.wikipedia.org/wiki/Forgetting_curve"
+     "org": "Wikipedia en inglés",
+     "title": "Forgetting curve",
+     "u": "https://en.wikipedia.org/wiki/Forgetting_curve",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5721,7 +10236,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Forgetting_curve_decline.svg",
     "file": "Forgetting_curve_decline.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-espectador",
@@ -5735,11 +10267,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Bystander effect",
-     "u": "https://en.wikipedia.org/wiki/Bystander_effect"
+     "org": "Wikipedia en inglés",
+     "title": "Bystander effect",
+     "u": "https://en.wikipedia.org/wiki/Bystander_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-memoria-fotografica",
@@ -5753,12 +10307,34 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Eidetic memory",
-     "u": "https://en.wikipedia.org/wiki/Eidetic_memory"
+     "org": "Wikipedia en inglés",
+     "title": "Eidetic memory",
+     "u": "https://en.wikipedia.org/wiki/Eidetic_memory",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "falso",
    "status": "publicado",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-10",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-luna-se-aleja",
@@ -5772,7 +10348,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Lunar Laser Ranging experiments",
-     "u": "https://en.wikipedia.org/wiki/Lunar_Laser_Ranging_experiments"
+     "org": "Wikipedia en inglés",
+     "title": "Lunar Laser Ranging experiments",
+     "u": "https://en.wikipedia.org/wiki/Lunar_Laser_Ranging_experiments",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5784,7 +10365,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Apollo_11_Lunar_Laser_Ranging_Experiment.jpg",
     "file": "Apollo_11_Lunar_Laser_Ranging_Experiment.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-03",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-pluton",
@@ -5798,7 +10396,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Pluto",
-     "u": "https://en.wikipedia.org/wiki/Pluto"
+     "org": "Wikipedia en inglés",
+     "title": "Pluto",
+     "u": "https://en.wikipedia.org/wiki/Pluto",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5810,7 +10413,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png",
     "file": "Pluto_in_True_Color_-_High-Res.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-27",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-andromeda-choque",
@@ -5824,11 +10444,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Andromeda–Milky Way collision",
-     "u": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision"
+     "org": "Wikipedia en inglés",
+     "title": "Andromeda–Milky Way collision",
+     "u": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-25"
+   "date": "2026-11-25",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-halley",
@@ -5842,7 +10484,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Halley's Comet",
-     "u": "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+     "org": "Wikipedia en inglés",
+     "title": "Halley's Comet",
+     "u": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5854,7 +10501,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Lspn_comet_halley.jpg",
     "file": "Lspn_comet_halley.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-gagarin",
@@ -5868,15 +10532,42 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Yuri Gagarin",
-     "u": "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+     "org": "Wikipedia en inglés",
+     "title": "Yuri Gagarin",
+     "u": "https://en.wikipedia.org/wiki/Yuri_Gagarin",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Vostok 1",
-     "u": "https://en.wikipedia.org/wiki/Vostok_1"
+     "org": "Wikipedia en inglés",
+     "title": "Vostok 1",
+     "u": "https://en.wikipedia.org/wiki/Vostok_1",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-11",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-laika",
@@ -5890,11 +10581,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Laika",
-     "u": "https://en.wikipedia.org/wiki/Laika"
+     "org": "Wikipedia en inglés",
+     "title": "Laika",
+     "u": "https://en.wikipedia.org/wiki/Laika",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-04",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-agujero-negro-foto",
@@ -5908,11 +10621,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Event Horizon Telescope",
-     "u": "https://en.wikipedia.org/wiki/Event_Horizon_Telescope"
+     "org": "Wikipedia en inglés",
+     "title": "Event Horizon Telescope",
+     "u": "https://en.wikipedia.org/wiki/Event_Horizon_Telescope",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Messier 87",
-     "u": "https://en.wikipedia.org/wiki/Messier_87"
+     "org": "Wikipedia en inglés",
+     "title": "Messier 87",
+     "u": "https://en.wikipedia.org/wiki/Messier_87",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -5924,7 +10647,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Messier_87_Hubble_WikiSky.jpg",
     "file": "Messier_87_Hubble_WikiSky.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-28",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-gravedad-iss",
@@ -5938,12 +10678,34 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Weightlessness",
-     "u": "https://en.wikipedia.org/wiki/Weightlessness"
+     "org": "Wikipedia en inglés",
+     "title": "Weightlessness",
+     "u": "https://en.wikipedia.org/wiki/Weightlessness",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "falso",
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-primera-llamada-movil",
@@ -5957,11 +10719,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Martin Cooper (inventor)",
-     "u": "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)"
+     "org": "Wikipedia en inglés",
+     "title": "Martin Cooper (inventor)",
+     "u": "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-19"
+   "date": "2026-11-19",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-web-libre",
@@ -5975,11 +10759,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — World Wide Web",
-     "u": "https://en.wikipedia.org/wiki/World_Wide_Web"
+     "org": "Wikipedia en inglés",
+     "title": "World Wide Web",
+     "u": "https://en.wikipedia.org/wiki/World_Wide_Web",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-12"
+   "date": "2026-11-12",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-ada-lovelace",
@@ -5993,11 +10799,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Ada Lovelace",
-     "u": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+     "org": "Wikipedia en inglés",
+     "title": "Ada Lovelace",
+     "u": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-05",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-turing-enigma",
@@ -6011,11 +10839,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Alan Turing",
-     "u": "https://en.wikipedia.org/wiki/Alan_Turing"
+     "org": "Wikipedia en inglés",
+     "title": "Alan Turing",
+     "u": "https://en.wikipedia.org/wiki/Alan_Turing",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-29",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-emoji",
@@ -6029,11 +10879,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Emoji",
-     "u": "https://en.wikipedia.org/wiki/Emoji"
+     "org": "Wikipedia en inglés",
+     "title": "Emoji",
+     "u": "https://en.wikipedia.org/wiki/Emoji",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-22"
+   "date": "2026-10-22",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-hashtag",
@@ -6047,7 +10919,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hashtag",
-     "u": "https://en.wikipedia.org/wiki/Hashtag"
+     "org": "Wikipedia en inglés",
+     "title": "Hashtag",
+     "u": "https://en.wikipedia.org/wiki/Hashtag",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6059,7 +10936,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:WikiProject_Writing_%28%40WP_Writing%29_Tweet_-_Why_edit_Wikipedia%3F.jpg",
     "file": "WikiProject_Writing_(@WP_Writing)_Tweet_-_Why_edit_Wikipedia?.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-gps-relatividad",
@@ -6073,7 +10967,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Error analysis for the Global Positioning System",
-     "u": "https://en.wikipedia.org/wiki/Error_analysis_for_the_Global_Positioning_System"
+     "org": "Wikipedia en inglés",
+     "title": "Error analysis for the Global Positioning System",
+     "u": "https://en.wikipedia.org/wiki/Error_analysis_for_the_Global_Positioning_System",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6085,7 +10984,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:GPS_Satellite_NASA_art-iif.jpg",
     "file": "GPS_Satellite_NASA_art-iif.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-engelbart-raton",
@@ -6099,15 +11015,42 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Douglas Engelbart",
-     "u": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+     "org": "Wikipedia en inglés",
+     "title": "Douglas Engelbart",
+     "u": "https://en.wikipedia.org/wiki/Douglas_Engelbart",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — The Mother of All Demos",
-     "u": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos"
+     "org": "Wikipedia en inglés",
+     "title": "The Mother of All Demos",
+     "u": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-06",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-codigo-barras",
@@ -6121,7 +11064,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Universal Product Code",
-     "u": "https://en.wikipedia.org/wiki/Universal_Product_Code"
+     "org": "Wikipedia en inglés",
+     "title": "Universal Product Code",
+     "u": "https://en.wikipedia.org/wiki/Universal_Product_Code",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6133,7 +11081,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:UPC-A-036000291452.svg",
     "file": "UPC-A-036000291452.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-30",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-placebo",
@@ -6147,7 +11112,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Placebo",
-     "u": "https://en.wikipedia.org/wiki/Placebo"
+     "org": "Wikipedia en inglés",
+     "title": "Placebo",
+     "u": "https://en.wikipedia.org/wiki/Placebo",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6159,7 +11129,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Cebocap.jpg",
     "file": "Cebocap.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-ritmo-cardiaco",
@@ -6173,7 +11160,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Heart rate",
-     "u": "https://en.wikipedia.org/wiki/Heart_rate"
+     "org": "Wikipedia en inglés",
+     "title": "Heart rate",
+     "u": "https://en.wikipedia.org/wiki/Heart_rate",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6185,7 +11177,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Normal_electrocardiogram.jpg",
     "file": "Normal_electrocardiogram.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-unas",
@@ -6199,7 +11208,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Nail (anatomy)",
-     "u": "https://en.wikipedia.org/wiki/Nail_(anatomy)"
+     "org": "Wikipedia en inglés",
+     "title": "Nail (anatomy)",
+     "u": "https://en.wikipedia.org/wiki/Nail_(anatomy)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6211,7 +11225,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Nail_svg_hariadhi.svg",
     "file": "Nail_svg_hariadhi.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-grupos-sanguineos",
@@ -6225,11 +11256,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Karl Landsteiner",
-     "u": "https://en.wikipedia.org/wiki/Karl_Landsteiner"
+     "org": "Wikipedia en inglés",
+     "title": "Karl Landsteiner",
+     "u": "https://en.wikipedia.org/wiki/Karl_Landsteiner",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-07",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-huellas-gemelos",
@@ -6243,11 +11296,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Fingerprint",
-     "u": "https://en.wikipedia.org/wiki/Fingerprint"
+     "org": "Wikipedia en inglés",
+     "title": "Fingerprint",
+     "u": "https://en.wikipedia.org/wiki/Fingerprint",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-31",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cerebro-energia",
@@ -6261,7 +11336,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Human brain",
-     "u": "https://en.wikipedia.org/wiki/Human_brain"
+     "org": "Wikipedia en inglés",
+     "title": "Human brain",
+     "u": "https://en.wikipedia.org/wiki/Human_brain",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6273,7 +11353,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Skull_and_brain_normal_human.svg",
     "file": "Skull_and_brain_normal_human.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-punto-ciego",
@@ -6287,7 +11384,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Blind spot (vision)",
-     "u": "https://en.wikipedia.org/wiki/Blind_spot_(vision)"
+     "org": "Wikipedia en inglés",
+     "title": "Blind spot (vision)",
+     "u": "https://en.wikipedia.org/wiki/Blind_spot_(vision)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6299,7 +11401,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Evolution_eye_2.svg",
     "file": "Evolution_eye_2.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-higado-regenera",
@@ -6313,11 +11432,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Liver regeneration",
-     "u": "https://en.wikipedia.org/wiki/Liver_regeneration"
+     "org": "Wikipedia en inglés",
+     "title": "Liver regeneration",
+     "u": "https://en.wikipedia.org/wiki/Liver_regeneration",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-salto-angel",
@@ -6331,7 +11472,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Angel Falls",
-     "u": "https://en.wikipedia.org/wiki/Angel_Falls"
+     "org": "Wikipedia en inglés",
+     "title": "Angel Falls",
+     "u": "https://en.wikipedia.org/wiki/Angel_Falls",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6343,7 +11489,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:SaltoAngel1.jpg",
     "file": "SaltoAngel1.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-08",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-atacama",
@@ -6357,7 +11520,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Atacama Desert",
-     "u": "https://en.wikipedia.org/wiki/Atacama_Desert"
+     "org": "Wikipedia en inglés",
+     "title": "Atacama Desert",
+     "u": "https://en.wikipedia.org/wiki/Atacama_Desert",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6369,7 +11537,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Atacama.png",
     "file": "Atacama.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-01",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-groenlandia",
@@ -6383,7 +11568,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Greenland",
-     "u": "https://en.wikipedia.org/wiki/Greenland"
+     "org": "Wikipedia en inglés",
+     "title": "Greenland",
+     "u": "https://en.wikipedia.org/wiki/Greenland",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6395,7 +11585,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Greenland.svg",
     "file": "Flag_of_Greenland.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-amazonas-caudal",
@@ -6409,11 +11616,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Amazon River",
-     "u": "https://en.wikipedia.org/wiki/Amazon_River"
+     "org": "Wikipedia en inglés",
+     "title": "Amazon River",
+     "u": "https://en.wikipedia.org/wiki/Amazon_River",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-23"
+   "date": "2026-11-23",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-titicaca",
@@ -6427,11 +11656,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Lake Titicaca",
-     "u": "https://en.wikipedia.org/wiki/Lake_Titicaca"
+     "org": "Wikipedia en inglés",
+     "title": "Lake Titicaca",
+     "u": "https://en.wikipedia.org/wiki/Lake_Titicaca",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-nueva-zelanda",
@@ -6445,7 +11696,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — New Zealand",
-     "u": "https://en.wikipedia.org/wiki/New_Zealand"
+     "org": "Wikipedia en inglés",
+     "title": "New Zealand",
+     "u": "https://en.wikipedia.org/wiki/New_Zealand",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6457,7 +11713,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg",
     "file": "Flag_of_New_Zealand.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-09",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-samana-ballenas",
@@ -6471,11 +11744,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Samaná Bay",
-     "u": "https://en.wikipedia.org/wiki/Saman%C3%A1_Bay"
+     "org": "Wikipedia en inglés",
+     "title": "Samaná Bay",
+     "u": "https://en.wikipedia.org/wiki/Saman%C3%A1_Bay",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Humpback whale",
-     "u": "https://en.wikipedia.org/wiki/Humpback_whale"
+     "org": "Wikipedia en inglés",
+     "title": "Humpback whale",
+     "u": "https://en.wikipedia.org/wiki/Humpback_whale",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6487,7 +11770,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:View_of_Saman%C3%A1_Bay_from_the_Top_1.jpg",
     "file": "View_of_Samaná_Bay_from_the_Top_1.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-02",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-nilo-paises",
@@ -6501,7 +11801,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Nile",
-     "u": "https://en.wikipedia.org/wiki/Nile"
+     "org": "Wikipedia en inglés",
+     "title": "Nile",
+     "u": "https://en.wikipedia.org/wiki/Nile",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6513,7 +11818,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Beautiful_nature_along_Nile_River_01.jpg",
     "file": "Beautiful_nature_along_Nile_River_01.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-koala-huellas",
@@ -6527,11 +11849,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Fingerprint",
-     "u": "https://en.wikipedia.org/wiki/Fingerprint"
+     "org": "Wikipedia en inglés",
+     "title": "Fingerprint",
+     "u": "https://en.wikipedia.org/wiki/Fingerprint",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Koala",
-     "u": "https://en.wikipedia.org/wiki/Koala"
+     "org": "Wikipedia en inglés",
+     "title": "Koala",
+     "u": "https://en.wikipedia.org/wiki/Koala",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6543,7 +11875,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg",
     "file": "Koala_climbing_tree.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-colibri-atras",
@@ -6557,7 +11906,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hummingbird",
-     "u": "https://en.wikipedia.org/wiki/Hummingbird"
+     "org": "Wikipedia en inglés",
+     "title": "Hummingbird",
+     "u": "https://en.wikipedia.org/wiki/Hummingbird",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6569,7 +11923,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Trinidad_and_Tobago_hummingbirds_composite.jpg",
     "file": "Trinidad_and_Tobago_hummingbirds_composite.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-elefante-espejo",
@@ -6583,7 +11954,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Mirror test",
-     "u": "https://en.wikipedia.org/wiki/Mirror_test"
+     "org": "Wikipedia en inglés",
+     "title": "Mirror test",
+     "u": "https://en.wikipedia.org/wiki/Mirror_test",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6595,7 +11971,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Mirror_test_with_a_Baboon.JPG",
     "file": "Mirror_test_with_a_Baboon.JPG"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-10",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cuervos-herramientas",
@@ -6609,7 +12002,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — New Caledonian crow",
-     "u": "https://en.wikipedia.org/wiki/New_Caledonian_crow"
+     "org": "Wikipedia en inglés",
+     "title": "New Caledonian crow",
+     "u": "https://en.wikipedia.org/wiki/New_Caledonian_crow",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6621,7 +12019,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Corvus_moneduloides_718440887.jpg",
     "file": "Corvus_moneduloides_718440887.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-03",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-danza-abejas",
@@ -6635,11 +12050,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Waggle dance",
-     "u": "https://en.wikipedia.org/wiki/Waggle_dance"
+     "org": "Wikipedia en inglés",
+     "title": "Waggle dance",
+     "u": "https://en.wikipedia.org/wiki/Waggle_dance",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Karl von Frisch",
-     "u": "https://en.wikipedia.org/wiki/Karl_von_Frisch"
+     "org": "Wikipedia en inglés",
+     "title": "Karl von Frisch",
+     "u": "https://en.wikipedia.org/wiki/Karl_von_Frisch",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6651,7 +12076,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Bee_dance.svg",
     "file": "Bee_dance.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-27",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-ballena-azul",
@@ -6665,7 +12107,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Blue whale",
-     "u": "https://en.wikipedia.org/wiki/Blue_whale"
+     "org": "Wikipedia en inglés",
+     "title": "Blue whale",
+     "u": "https://en.wikipedia.org/wiki/Blue_whale",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6677,7 +12124,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
     "file": "Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-nutria-piedras",
@@ -6691,7 +12155,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Sea otter",
-     "u": "https://en.wikipedia.org/wiki/Sea_otter"
+     "org": "Wikipedia en inglés",
+     "title": "Sea otter",
+     "u": "https://en.wikipedia.org/wiki/Sea_otter",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6703,7 +12172,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg",
     "file": "Sea_Otter_(Enhydra_lutris)_(25169790524)_crop.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-hormigas-hongos",
@@ -6717,7 +12203,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Leafcutter ant",
-     "u": "https://en.wikipedia.org/wiki/Leafcutter_ant"
+     "org": "Wikipedia en inglés",
+     "title": "Leafcutter ant",
+     "u": "https://en.wikipedia.org/wiki/Leafcutter_ant",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6729,7 +12220,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Atta_cephalotes-pjt.jpg",
     "file": "Atta_cephalotes-pjt.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-11",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-ornitorrinco",
@@ -6743,7 +12251,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Platypus",
-     "u": "https://en.wikipedia.org/wiki/Platypus"
+     "org": "Wikipedia en inglés",
+     "title": "Platypus",
+     "u": "https://en.wikipedia.org/wiki/Platypus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6755,7 +12268,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg",
     "file": "Duck-billed_platypus_(Ornithorhynchus_anatinus)_Scottsdale.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-04",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-lemmings",
@@ -6769,7 +12299,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Lemming",
-     "u": "https://en.wikipedia.org/wiki/Lemming"
+     "org": "Wikipedia en inglés",
+     "title": "Lemming",
+     "u": "https://en.wikipedia.org/wiki/Lemming",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "falso",
@@ -6782,7 +12317,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Tunturisopuli_Lemmus_Lemmus.jpg",
     "file": "Tunturisopuli_Lemmus_Lemmus.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-28",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-aristoteles-alejandro",
@@ -6796,11 +12348,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Aristotle",
-     "u": "https://en.wikipedia.org/wiki/Aristotle"
+     "org": "Wikipedia en inglés",
+     "title": "Aristotle",
+     "u": "https://en.wikipedia.org/wiki/Aristotle",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-sisifo-camus",
@@ -6814,11 +12388,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — The Myth of Sisyphus",
-     "u": "https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus"
+     "org": "Wikipedia en inglés",
+     "title": "The Myth of Sisyphus",
+     "u": "https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-19"
+   "date": "2026-11-19",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-apuesta-pascal",
@@ -6832,11 +12428,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Pascal's wager",
-     "u": "https://en.wikipedia.org/wiki/Pascal%27s_wager"
+     "org": "Wikipedia en inglés",
+     "title": "Pascal's wager",
+     "u": "https://en.wikipedia.org/wiki/Pascal%27s_wager",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-12"
+   "date": "2026-11-12",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "debate",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-dilema-prisionero",
@@ -6850,11 +12468,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Prisoner's dilemma",
-     "u": "https://en.wikipedia.org/wiki/Prisoner%27s_dilemma"
+     "org": "Wikipedia en inglés",
+     "title": "Prisoner's dilemma",
+     "u": "https://en.wikipedia.org/wiki/Prisoner%27s_dilemma",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-05",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-tao-te-king",
@@ -6868,7 +12508,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Tao Te Ching",
-     "u": "https://en.wikipedia.org/wiki/Tao_Te_Ching"
+     "org": "Wikipedia en inglés",
+     "title": "Tao Te Ching",
+     "u": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6880,7 +12525,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Mawangdui_LaoTsu_Ms2.JPG",
     "file": "Mawangdui_LaoTsu_Ms2.JPG"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-29",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-gato-schrodinger",
@@ -6894,7 +12556,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Schrödinger's cat",
-     "u": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat"
+     "org": "Wikipedia en inglés",
+     "title": "Schrödinger's cat",
+     "u": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6906,7 +12573,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Schrodingers_cat.svg",
     "file": "Schrodingers_cat.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-bentham-autoicono",
@@ -6920,11 +12604,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Jeremy Bentham",
-     "u": "https://en.wikipedia.org/wiki/Jeremy_Bentham"
+     "org": "Wikipedia en inglés",
+     "title": "Jeremy Bentham",
+     "u": "https://en.wikipedia.org/wiki/Jeremy_Bentham",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-20"
+   "date": "2026-11-20",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-montaigne-ensayo",
@@ -6938,11 +12644,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Michel de Montaigne",
-     "u": "https://en.wikipedia.org/wiki/Michel_de_Montaigne"
+     "org": "Wikipedia en inglés",
+     "title": "Michel de Montaigne",
+     "u": "https://en.wikipedia.org/wiki/Michel_de_Montaigne",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-stonehenge",
@@ -6956,7 +12684,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Stonehenge",
-     "u": "https://en.wikipedia.org/wiki/Stonehenge"
+     "org": "Wikipedia en inglés",
+     "title": "Stonehenge",
+     "u": "https://en.wikipedia.org/wiki/Stonehenge",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6968,7 +12701,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Stonehenge2007_07_30.jpg",
     "file": "Stonehenge2007_07_30.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-06",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-moai-caminar",
@@ -6982,7 +12732,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Moai",
-     "u": "https://en.wikipedia.org/wiki/Moai"
+     "org": "Wikipedia en inglés",
+     "title": "Moai",
+     "u": "https://en.wikipedia.org/wiki/Moai",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -6994,7 +12749,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:AhuTongariki.JPG",
     "file": "AhuTongariki.JPG"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hipotesis",
+   "history": [
+    {
+     "date": "2026-10-30",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-gobekli-tepe",
@@ -7008,7 +12780,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Göbekli Tepe",
-     "u": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+     "org": "Wikipedia en inglés",
+     "title": "Göbekli Tepe",
+     "u": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7020,7 +12797,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe%2C_Urfa.jpg",
     "file": "Göbekli_Tepe,_Urfa.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-rayo-globular",
@@ -7034,7 +12828,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Ball lightning",
-     "u": "https://en.wikipedia.org/wiki/Ball_lightning"
+     "org": "Wikipedia en inglés",
+     "title": "Ball lightning",
+     "u": "https://en.wikipedia.org/wiki/Ball_lightning",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7046,7 +12845,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Ball_lightning.png",
     "file": "Ball_lightning.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-bloop",
@@ -7060,7 +12876,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Bloop",
-     "u": "https://en.wikipedia.org/wiki/Bloop"
+     "org": "Wikipedia en inglés",
+     "title": "Bloop",
+     "u": "https://en.wikipedia.org/wiki/Bloop",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7072,7 +12893,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Bloop.jpg",
     "file": "Bloop.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-disco-festo",
@@ -7086,7 +12924,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Phaistos Disc",
-     "u": "https://en.wikipedia.org/wiki/Phaistos_Disc"
+     "org": "Wikipedia en inglés",
+     "title": "Phaistos Disc",
+     "u": "https://en.wikipedia.org/wiki/Phaistos_Disc",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7098,7 +12941,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Phaistos_Disc_%E2%80%94_Side_A.jpg",
     "file": "Phaistos_Disc_—_Side_A.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-07",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-nessie-foto",
@@ -7112,7 +12972,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Loch Ness Monster",
-     "u": "https://en.wikipedia.org/wiki/Loch_Ness_Monster"
+     "org": "Wikipedia en inglés",
+     "title": "Loch Ness Monster",
+     "u": "https://en.wikipedia.org/wiki/Loch_Ness_Monster",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "falso",
@@ -7125,7 +12990,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Loch_Ness_Monster_Surgeon%27s_photograph.jpg",
     "file": "Loch_Ness_Monster_Surgeon's_photograph.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-31",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-roswell",
@@ -7139,7 +13021,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Roswell incident",
-     "u": "https://en.wikipedia.org/wiki/Roswell_incident"
+     "org": "Wikipedia en inglés",
+     "title": "Roswell incident",
+     "u": "https://en.wikipedia.org/wiki/Roswell_incident",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "falso",
@@ -7152,7 +13039,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Roswell_Daily_Record._July_8%2C_1947._RAAF_Captures_Flying_Saucer_On_Ranch_in_Roswell_Region._Top_of_front_page.jpg",
     "file": "Roswell_Daily_Record._July_8,_1947._RAAF_Captures_Flying_Saucer_On_Ranch_in_Roswell_Region._Top_of_front_page.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-primeras-monedas",
@@ -7166,11 +13070,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Lydia",
-     "u": "https://en.wikipedia.org/wiki/Lydia"
+     "org": "Wikipedia en inglés",
+     "title": "Lydia",
+     "u": "https://en.wikipedia.org/wiki/Lydia",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Croesus",
-     "u": "https://en.wikipedia.org/wiki/Croesus"
+     "org": "Wikipedia en inglés",
+     "title": "Croesus",
+     "u": "https://en.wikipedia.org/wiki/Croesus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7182,7 +13096,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Kingdom_of_Lydia.png",
     "file": "Kingdom_of_Lydia.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-dolar-taler",
@@ -7196,11 +13127,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Thaler",
-     "u": "https://en.wikipedia.org/wiki/Thaler"
+     "org": "Wikipedia en inglés",
+     "title": "Thaler",
+     "u": "https://en.wikipedia.org/wiki/Thaler",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-signo-peso",
@@ -7214,7 +13167,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Dollar sign",
-     "u": "https://en.wikipedia.org/wiki/Dollar_sign"
+     "org": "Wikipedia en inglés",
+     "title": "Dollar sign",
+     "u": "https://en.wikipedia.org/wiki/Dollar_sign",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7226,7 +13184,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Dollar_sign_fonts.svg",
     "file": "Dollar_sign_fonts.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hipotesis",
+   "history": [
+    {
+     "date": "2026-11-08",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-voc-acciones",
@@ -7240,7 +13215,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Dutch East India Company",
-     "u": "https://en.wikipedia.org/wiki/Dutch_East_India_Company"
+     "org": "Wikipedia en inglés",
+     "title": "Dutch East India Company",
+     "u": "https://en.wikipedia.org/wiki/Dutch_East_India_Company",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7252,7 +13232,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dutch_East_India_Company.svg",
     "file": "Flag_of_the_Dutch_East_India_Company.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-01",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-diners-club",
@@ -7266,11 +13263,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Diners Club International",
-     "u": "https://en.wikipedia.org/wiki/Diners_Club_International"
+     "org": "Wikipedia en inglés",
+     "title": "Diners Club International",
+     "u": "https://en.wikipedia.org/wiki/Diners_Club_International",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-25"
+   "date": "2026-10-25",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-mano-invisible",
@@ -7284,11 +13303,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Invisible hand",
-     "u": "https://en.wikipedia.org/wiki/Invisible_hand"
+     "org": "Wikipedia en inglés",
+     "title": "Invisible hand",
+     "u": "https://en.wikipedia.org/wiki/Invisible_hand",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-23"
+   "date": "2026-11-23",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-bien-veblen",
@@ -7302,7 +13343,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Veblen good",
-     "u": "https://en.wikipedia.org/wiki/Veblen_good"
+     "org": "Wikipedia en inglés",
+     "title": "Veblen good",
+     "u": "https://en.wikipedia.org/wiki/Veblen_good",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7314,7 +13360,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:SC06_2006_Rolls-Royce_Phantom.jpg",
     "file": "SC06_2006_Rolls-Royce_Phantom.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-santa-sofia",
@@ -7328,7 +13391,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hagia Sophia",
-     "u": "https://en.wikipedia.org/wiki/Hagia_Sophia"
+     "org": "Wikipedia en inglés",
+     "title": "Hagia Sophia",
+     "u": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7340,7 +13408,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_%28228968325%29.jpeg",
     "file": "Hagia_Sophia_(228968325).jpeg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-09",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-angkor-wat",
@@ -7354,11 +13439,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Angkor Wat",
-     "u": "https://en.wikipedia.org/wiki/Angkor_Wat"
+     "org": "Wikipedia en inglés",
+     "title": "Angkor Wat",
+     "u": "https://en.wikipedia.org/wiki/Angkor_Wat",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-02"
+   "date": "2026-11-02",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-02",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-capitulos-biblia",
@@ -7372,7 +13479,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Chapters and verses of the Bible",
-     "u": "https://en.wikipedia.org/wiki/Chapters_and_verses_of_the_Bible"
+     "org": "Wikipedia en inglés",
+     "title": "Chapters and verses of the Bible",
+     "u": "https://en.wikipedia.org/wiki/Chapters_and_verses_of_the_Bible",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7384,7 +13496,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:John_1.jpg",
     "file": "John_1.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-san-nicolas",
@@ -7398,15 +13527,43 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Saint Nicholas",
-     "u": "https://en.wikipedia.org/wiki/Saint_Nicholas"
+     "org": "Wikipedia en inglés",
+     "title": "Saint Nicholas",
+     "u": "https://en.wikipedia.org/wiki/Saint_Nicholas",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Santa Claus",
-     "u": "https://en.wikipedia.org/wiki/Santa_Claus"
+     "org": "Wikipedia en inglés",
+     "title": "Santa Claus",
+     "u": "https://en.wikipedia.org/wiki/Santa_Claus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-24"
+   "date": "2026-11-24",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "claimNote": "Se sabe poco del San Nicolás histórico: los primeros relatos de su vida se escribieron siglos después de su muerte, y su fama de dar regalos en secreto es legendaria.",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-altagracia",
@@ -7420,7 +13577,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Our Lady of Altagracia",
-     "u": "https://en.wikipedia.org/wiki/Our_Lady_of_Altagracia"
+     "org": "Wikipedia en inglés",
+     "title": "Our Lady of Altagracia",
+     "u": "https://en.wikipedia.org/wiki/Our_Lady_of_Altagracia",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7432,7 +13594,25 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Altagracia_oficial.jpg",
     "file": "Altagracia_oficial.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "claimNote": "Su papel como protectora es una creencia religiosa y una tradición; la fecha de la fiesta es un hecho.",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-langar",
@@ -7446,11 +13626,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Langar (Sikhism)",
-     "u": "https://en.wikipedia.org/wiki/Langar_(Sikhism)"
+     "org": "Wikipedia en inglés",
+     "title": "Langar (Sikhism)",
+     "u": "https://en.wikipedia.org/wiki/Langar_(Sikhism)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-10",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-torii",
@@ -7464,11 +13666,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Torii",
-     "u": "https://en.wikipedia.org/wiki/Torii"
+     "org": "Wikipedia en inglés",
+     "title": "Torii",
+     "u": "https://en.wikipedia.org/wiki/Torii",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-03"
+   "date": "2026-11-03",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-03",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-zoroastrismo",
@@ -7482,7 +13706,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Zoroastrianism",
-     "u": "https://en.wikipedia.org/wiki/Zoroastrianism"
+     "org": "Wikipedia en inglés",
+     "title": "Zoroastrianism",
+     "u": "https://en.wikipedia.org/wiki/Zoroastrianism",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7494,7 +13723,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Faravahar_on_Fire_Temple%2C_Yazd.jpg",
     "file": "Faravahar_on_Fire_Temple,_Yazd.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-27",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-ajedrez-india",
@@ -7508,11 +13754,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Chess",
-     "u": "https://en.wikipedia.org/wiki/Chess"
+     "org": "Wikipedia en inglés",
+     "title": "Chess",
+     "u": "https://en.wikipedia.org/wiki/Chess",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Chaturanga",
-     "u": "https://en.wikipedia.org/wiki/Chaturanga"
+     "org": "Wikipedia en inglés",
+     "title": "Chaturanga",
+     "u": "https://en.wikipedia.org/wiki/Chaturanga",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7524,7 +13780,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Radha-Krishna_chess.jpg",
     "file": "Radha-Krishna_chess.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-sandwich",
@@ -7538,11 +13811,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Sandwich",
-     "u": "https://en.wikipedia.org/wiki/Sandwich"
+     "org": "Wikipedia en inglés",
+     "title": "Sandwich",
+     "u": "https://en.wikipedia.org/wiki/Sandwich",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-18"
+   "date": "2026-11-18",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cafe-etiopia",
@@ -7556,11 +13851,34 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — History of coffee",
-     "u": "https://en.wikipedia.org/wiki/History_of_coffee"
+     "org": "Wikipedia en inglés",
+     "title": "History of coffee",
+     "u": "https://en.wikipedia.org/wiki/History_of_coffee",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "claimNote": "El origen etíope del café es un hecho. La historia del pastor Kaldi es una leyenda.",
+   "history": [
+    {
+     "date": "2026-11-11",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-chocolate-nahuatl",
@@ -7574,7 +13892,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Chocolate",
-     "u": "https://en.wikipedia.org/wiki/Chocolate"
+     "org": "Wikipedia en inglés",
+     "title": "Chocolate",
+     "u": "https://en.wikipedia.org/wiki/Chocolate",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
@@ -7586,7 +13909,24 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Three_Bars_%281%29.jpg",
     "file": "Three_Bars_(1).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-04",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-tomate-venenoso",
@@ -7600,11 +13940,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Tomato",
-     "u": "https://en.wikipedia.org/wiki/Tomato"
+     "org": "Wikipedia en inglés",
+     "title": "Tomato",
+     "u": "https://en.wikipedia.org/wiki/Tomato",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-10-28",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-alfabeto-fenicio",
@@ -7618,11 +13980,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Phoenician alphabet",
-     "u": "https://en.wikipedia.org/wiki/Phoenician_alphabet"
+     "org": "Wikipedia en inglés",
+     "title": "Phoenician alphabet",
+     "u": "https://en.wikipedia.org/wiki/Phoenician_alphabet",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-carnaval-vega",
@@ -7636,11 +14020,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Dominican Carnival",
-     "u": "https://en.wikipedia.org/wiki/Dominican_Carnival"
+     "org": "Wikipedia en inglés",
+     "title": "Dominican Carnival",
+     "u": "https://en.wikipedia.org/wiki/Dominican_Carnival",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-19"
+   "date": "2026-11-19",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-gabriela-mistral",
@@ -7654,11 +14060,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Gabriela Mistral",
-     "u": "https://en.wikipedia.org/wiki/Gabriela_Mistral"
+     "org": "Wikipedia en inglés",
+     "title": "Gabriela Mistral",
+     "u": "https://en.wikipedia.org/wiki/Gabriela_Mistral",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-12"
+   "date": "2026-11-12",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-guernica",
@@ -7672,11 +14100,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Guernica (Picasso)",
-     "u": "https://en.wikipedia.org/wiki/Guernica_(Picasso)"
+     "org": "Wikipedia en inglés",
+     "title": "Guernica (Picasso)",
+     "u": "https://en.wikipedia.org/wiki/Guernica_(Picasso)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-05",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-viruela",
@@ -7718,11 +14168,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Smallpox",
-     "u": "https://en.wikipedia.org/wiki/Smallpox"
+     "org": "Wikipedia en inglés",
+     "title": "Smallpox",
+     "u": "https://en.wikipedia.org/wiki/Smallpox",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Edward Jenner",
-     "u": "https://en.wikipedia.org/wiki/Edward_Jenner"
+     "org": "Wikipedia en inglés",
+     "title": "Edward Jenner",
+     "u": "https://en.wikipedia.org/wiki/Edward_Jenner",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Smallpox_vaccine.jpg/960px-Smallpox_vaccine.jpg",
@@ -7734,7 +14194,24 @@ window.SQ_CONTENT = {
     "file": "Smallpox_vaccine.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-semmelweis",
@@ -7776,7 +14253,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Ignaz Semmelweis",
-     "u": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+     "org": "Wikipedia en inglés",
+     "title": "Ignaz Semmelweis",
+     "u": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/OCD_handwash.jpg/960px-OCD_handwash.jpg",
@@ -7788,7 +14270,24 @@ window.SQ_CONTENT = {
     "file": "OCD_handwash.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-anestesia",
@@ -7829,11 +14328,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — William T. G. Morton",
-     "u": "https://en.wikipedia.org/wiki/William_T._G._Morton"
+     "org": "Wikipedia en inglés",
+     "title": "William T. G. Morton",
+     "u": "https://en.wikipedia.org/wiki/William_T._G._Morton",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Ether Dome",
-     "u": "https://en.wikipedia.org/wiki/Ether_Dome"
+     "org": "Wikipedia en inglés",
+     "title": "Ether Dome",
+     "u": "https://en.wikipedia.org/wiki/Ether_Dome",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Inside_the_Ether_Dome_at_Massachusetts_General_Hospital.jpg/960px-Inside_the_Ether_Dome_at_Massachusetts_General_Hospital.jpg",
@@ -7845,7 +14354,24 @@ window.SQ_CONTENT = {
     "file": "Inside_the_Ether_Dome_at_Massachusetts_General_Hospital.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "a-insulina",
@@ -7886,11 +14412,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Insulin",
-     "u": "https://en.wikipedia.org/wiki/Insulin"
+     "org": "Wikipedia en inglés",
+     "title": "Insulin",
+     "u": "https://en.wikipedia.org/wiki/Insulin",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Frederick Banting",
-     "u": "https://en.wikipedia.org/wiki/Frederick_Banting"
+     "org": "Wikipedia en inglés",
+     "title": "Frederick Banting",
+     "u": "https://en.wikipedia.org/wiki/Frederick_Banting",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Inzul%C3%ADn.jpg/960px-Inzul%C3%ADn.jpg",
@@ -7902,7 +14438,24 @@ window.SQ_CONTENT = {
     "file": "Inzulín.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-estetoscopio",
@@ -7916,11 +14469,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — René Laennec",
-     "u": "https://en.wikipedia.org/wiki/Ren%C3%A9_Laennec"
+     "org": "Wikipedia en inglés",
+     "title": "René Laennec",
+     "u": "https://en.wikipedia.org/wiki/Ren%C3%A9_Laennec",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Stethoscope",
-     "u": "https://en.wikipedia.org/wiki/Stethoscope"
+     "org": "Wikipedia en inglés",
+     "title": "Stethoscope",
+     "u": "https://en.wikipedia.org/wiki/Stethoscope",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Stethoscope-2.png/960px-Stethoscope-2.png",
@@ -7932,7 +14495,24 @@ window.SQ_CONTENT = {
     "file": "Stethoscope-2.png"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-harvey-circulacion",
@@ -7946,7 +14526,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — William Harvey",
-     "u": "https://en.wikipedia.org/wiki/William_Harvey"
+     "org": "Wikipedia en inglés",
+     "title": "William Harvey",
+     "u": "https://en.wikipedia.org/wiki/William_Harvey",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/William_Harvey_%281578-1657%29_Venenbild.jpg/960px-William_Harvey_%281578-1657%29_Venenbild.jpg",
@@ -7958,7 +14543,24 @@ window.SQ_CONTENT = {
     "file": "William Harvey (1578-1657) Venenbild.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-aspirina-sauce",
@@ -7972,7 +14574,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Aspirin",
-     "u": "https://en.wikipedia.org/wiki/Aspirin"
+     "org": "Wikipedia en inglés",
+     "title": "Aspirin",
+     "u": "https://en.wikipedia.org/wiki/Aspirin",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Salix_alba_leaves.jpg/960px-Salix_alba_leaves.jpg",
@@ -7984,7 +14591,24 @@ window.SQ_CONTENT = {
     "file": "Salix_alba_leaves.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-foto-51",
@@ -7998,11 +14622,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Photo 51",
-     "u": "https://en.wikipedia.org/wiki/Photo_51"
+     "org": "Wikipedia en inglés",
+     "title": "Photo 51",
+     "u": "https://en.wikipedia.org/wiki/Photo_51",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-trasplante-corazon",
@@ -8016,7 +14662,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Heart transplantation",
-     "u": "https://en.wikipedia.org/wiki/Heart_transplantation"
+     "org": "Wikipedia en inglés",
+     "title": "Heart transplantation",
+     "u": "https://en.wikipedia.org/wiki/Heart_transplantation",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Groote_Schuur_Hospital%2C_Observatory%2C_Cape_Town%2C_Western_Cape._05.JPG/960px-Groote_Schuur_Hospital%2C_Observatory%2C_Cape_Town%2C_Western_Cape._05.JPG",
@@ -8028,7 +14679,24 @@ window.SQ_CONTENT = {
     "file": "Groote_Schuur_Hospital,_Observatory,_Cape_Town,_Western_Cape._05.JPG"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-juramento-hipocratico",
@@ -8042,7 +14710,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Hippocratic Oath",
-     "u": "https://en.wikipedia.org/wiki/Hippocratic_Oath"
+     "org": "Wikipedia en inglés",
+     "title": "Hippocratic Oath",
+     "u": "https://en.wikipedia.org/wiki/Hippocratic_Oath",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/HippocraticOath.jpg/960px-HippocraticOath.jpg",
@@ -8054,7 +14727,24 @@ window.SQ_CONTENT = {
     "file": "HippocraticOath.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-pasteur-rabia",
@@ -8068,7 +14758,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Louis Pasteur",
-     "u": "https://en.wikipedia.org/wiki/Louis_Pasteur"
+     "org": "Wikipedia en inglés",
+     "title": "Louis Pasteur",
+     "u": "https://en.wikipedia.org/wiki/Louis_Pasteur",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Rabies_Virus_%2851706598561%29.jpg/960px-Rabies_Virus_%2851706598561%29.jpg",
@@ -8080,7 +14775,24 @@ window.SQ_CONTENT = {
     "file": "Rabies_Virus_(51706598561).jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-koch-tuberculosis",
@@ -8094,11 +14806,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Robert Koch",
-     "u": "https://en.wikipedia.org/wiki/Robert_Koch"
+     "org": "Wikipedia en inglés",
+     "title": "Robert Koch",
+     "u": "https://en.wikipedia.org/wiki/Robert_Koch",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — World Tuberculosis Day",
-     "u": "https://en.wikipedia.org/wiki/World_Tuberculosis_Day"
+     "org": "Wikipedia en inglés",
+     "title": "World Tuberculosis Day",
+     "u": "https://en.wikipedia.org/wiki/World_Tuberculosis_Day",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/TB_Culture.jpg/960px-TB_Culture.jpg",
@@ -8110,7 +14832,24 @@ window.SQ_CONTENT = {
     "file": "TB_Culture.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-lister-antisepsia",
@@ -8124,7 +14863,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Joseph Lister",
-     "u": "https://en.wikipedia.org/wiki/Joseph_Lister"
+     "org": "Wikipedia en inglés",
+     "title": "Joseph Lister",
+     "u": "https://en.wikipedia.org/wiki/Joseph_Lister",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Phenol_2_grams.jpg/960px-Phenol_2_grams.jpg",
@@ -8136,7 +14880,24 @@ window.SQ_CONTENT = {
     "file": "Phenol_2_grams.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-temperatura-37",
@@ -8150,7 +14911,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Human body temperature",
-     "u": "https://en.wikipedia.org/wiki/Human_body_temperature"
+     "org": "Wikipedia en inglés",
+     "title": "Human body temperature",
+     "u": "https://en.wikipedia.org/wiki/Human_body_temperature",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Fieberthermometer.jpg/960px-Fieberthermometer.jpg",
@@ -8162,7 +14928,24 @@ window.SQ_CONTENT = {
     "file": "Fieberthermometer.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-nocebo",
@@ -8176,7 +14959,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Nocebo",
-     "u": "https://en.wikipedia.org/wiki/Nocebo"
+     "org": "Wikipedia en inglés",
+     "title": "Nocebo",
+     "u": "https://en.wikipedia.org/wiki/Nocebo",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Cebocap.jpg/960px-Cebocap.jpg",
@@ -8188,7 +14976,24 @@ window.SQ_CONTENT = {
     "file": "Cebocap.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-vacunas-arnm",
@@ -8202,7 +15007,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — mRNA vaccine",
-     "u": "https://en.wikipedia.org/wiki/MRNA_vaccine"
+     "org": "Wikipedia en inglés",
+     "title": "mRNA vaccine",
+     "u": "https://en.wikipedia.org/wiki/MRNA_vaccine",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/MRNA-interaction.svg/960px-MRNA-interaction.svg.png",
@@ -8214,7 +15024,24 @@ window.SQ_CONTENT = {
     "file": "MRNA-interaction.svg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cirugia-despierto",
@@ -8228,7 +15055,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Awake craniotomy",
-     "u": "https://en.wikipedia.org/wiki/Awake_craniotomy"
+     "org": "Wikipedia en inglés",
+     "title": "Awake craniotomy",
+     "u": "https://en.wikipedia.org/wiki/Awake_craniotomy",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Gray728.svg/960px-Gray728.svg.png",
@@ -8240,7 +15072,24 @@ window.SQ_CONTENT = {
     "file": "Gray728.svg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-donante-universal",
@@ -8254,7 +15103,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Blood type",
-     "u": "https://en.wikipedia.org/wiki/Blood_type"
+     "org": "Wikipedia en inglés",
+     "title": "Blood type",
+     "u": "https://en.wikipedia.org/wiki/Blood_type",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Blood_donation_pictogram.svg/960px-Blood_donation_pictogram.svg.png",
@@ -8266,7 +15120,24 @@ window.SQ_CONTENT = {
     "file": "Blood_donation_pictogram.svg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-polio",
@@ -8280,7 +15151,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Polio eradication",
-     "u": "https://en.wikipedia.org/wiki/Polio_eradication"
+     "org": "Wikipedia en inglés",
+     "title": "Polio eradication",
+     "u": "https://en.wikipedia.org/wiki/Polio_eradication",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Polio_EM_PHIL_1875_lores.PNG/960px-Polio_EM_PHIL_1875_lores.PNG",
@@ -8292,7 +15168,24 @@ window.SQ_CONTENT = {
     "file": "Polio EM PHIL 1875 lores.PNG"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-oms-1948",
@@ -8306,7 +15199,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — World Health Organization",
-     "u": "https://en.wikipedia.org/wiki/World_Health_Organization"
+     "org": "Wikipedia en inglés",
+     "title": "World Health Organization",
+     "u": "https://en.wikipedia.org/wiki/World_Health_Organization",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg/960px-World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg",
@@ -8318,7 +15216,24 @@ window.SQ_CONTENT = {
     "file": "World_Health_Organization_@_Pregny-Chambésy_(50636746028).jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cruz-roja",
@@ -8332,11 +15247,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — International Committee of the Red Cross",
-     "u": "https://en.wikipedia.org/wiki/International_Committee_of_the_Red_Cross"
+     "org": "Wikipedia en inglés",
+     "title": "International Committee of the Red Cross",
+     "u": "https://en.wikipedia.org/wiki/International_Committee_of_the_Red_Cross",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Henry Dunant",
-     "u": "https://en.wikipedia.org/wiki/Henry_Dunant"
+     "org": "Wikipedia en inglés",
+     "title": "Henry Dunant",
+     "u": "https://en.wikipedia.org/wiki/Henry_Dunant",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Movement-6-4.svg/960px-Movement-6-4.svg.png",
@@ -8348,7 +15273,24 @@ window.SQ_CONTENT = {
     "file": "Movement-6-4.svg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-quinina",
@@ -8362,7 +15304,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Quinine",
-     "u": "https://en.wikipedia.org/wiki/Quinine"
+     "org": "Wikipedia en inglés",
+     "title": "Quinine",
+     "u": "https://en.wikipedia.org/wiki/Quinine",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Starr_020501-0057_Cinchona_pubescens.jpg/960px-Starr_020501-0057_Cinchona_pubescens.jpg",
@@ -8374,7 +15321,24 @@ window.SQ_CONTENT = {
     "file": "Starr_020501-0057_Cinchona_pubescens.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-malaria-mosquito",
@@ -8388,7 +15352,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Malaria",
-     "u": "https://en.wikipedia.org/wiki/Malaria"
+     "org": "Wikipedia en inglés",
+     "title": "Malaria",
+     "u": "https://en.wikipedia.org/wiki/Malaria",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Anopheles_stephensi.jpeg/960px-Anopheles_stephensi.jpeg",
@@ -8400,7 +15369,24 @@ window.SQ_CONTENT = {
     "file": "Anopheles_stephensi.jpeg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-microbiota",
@@ -8414,7 +15400,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Human microbiome",
-     "u": "https://en.wikipedia.org/wiki/Human_microbiome"
+     "org": "Wikipedia en inglés",
+     "title": "Human microbiome",
+     "u": "https://en.wikipedia.org/wiki/Human_microbiome",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/E_coli_at_10000x%2C_original.jpg/960px-E_coli_at_10000x%2C_original.jpg",
@@ -8426,7 +15417,24 @@ window.SQ_CONTENT = {
     "file": "E_coli_at_10000x,_original.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-resonancia",
@@ -8440,7 +15448,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Magnetic resonance imaging",
-     "u": "https://en.wikipedia.org/wiki/Magnetic_resonance_imaging"
+     "org": "Wikipedia en inglés",
+     "title": "Magnetic resonance imaging",
+     "u": "https://en.wikipedia.org/wiki/Magnetic_resonance_imaging",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Modern_3T_MRI.JPG/960px-Modern_3T_MRI.JPG",
@@ -8452,7 +15465,24 @@ window.SQ_CONTENT = {
     "file": "Modern_3T_MRI.JPG"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-resistencia-antibioticos",
@@ -8466,7 +15496,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Antimicrobial resistance",
-     "u": "https://en.wikipedia.org/wiki/Antimicrobial_resistance"
+     "org": "Wikipedia en inglés",
+     "title": "Antimicrobial resistance",
+     "u": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Penicillin_Core_v2.svg/960px-Penicillin_Core_v2.svg.png",
@@ -8478,7 +15513,24 @@ window.SQ_CONTENT = {
     "file": "Penicillin_Core_v2.svg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-antibioticos-gripe",
@@ -8492,7 +15544,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Antibiotic",
-     "u": "https://en.wikipedia.org/wiki/Antibiotic"
+     "org": "Wikipedia en inglés",
+     "title": "Antibiotic",
+     "u": "https://en.wikipedia.org/wiki/Antibiotic",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "falso",
@@ -8505,7 +15562,24 @@ window.SQ_CONTENT = {
     "file": "Staphylococcus_aureus_(AB_Test).jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-vacunas-autismo",
@@ -8519,7 +15593,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — MMR vaccine and autism",
-     "u": "https://en.wikipedia.org/wiki/MMR_vaccine_and_autism"
+     "org": "Wikipedia en inglés",
+     "title": "MMR vaccine and autism",
+     "u": "https://en.wikipedia.org/wiki/MMR_vaccine_and_autism",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "falso",
@@ -8532,7 +15611,24 @@ window.SQ_CONTENT = {
     "file": "MMR_vaccine.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-frio-resfriado",
@@ -8546,7 +15642,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Common cold",
-     "u": "https://en.wikipedia.org/wiki/Common_cold"
+     "org": "Wikipedia en inglés",
+     "title": "Common cold",
+     "u": "https://en.wikipedia.org/wiki/Common_cold",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "matizado",
@@ -8559,7 +15660,24 @@ window.SQ_CONTENT = {
     "file": "Rhinovirus_isosurface.png"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-vitamina-c",
@@ -8573,7 +15691,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Vitamin C and the common cold",
-     "u": "https://en.wikipedia.org/wiki/Vitamin_C_and_the_common_cold"
+     "org": "Wikipedia en inglés",
+     "title": "Vitamin C and the common cold",
+     "u": "https://en.wikipedia.org/wiki/Vitamin_C_and_the_common_cold",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "matizado",
@@ -8586,7 +15709,24 @@ window.SQ_CONTENT = {
     "file": "Oranges_-_whole-halved-segment.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-velocidad-luz",
@@ -8600,7 +15740,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Speed of light",
-     "u": "https://en.wikipedia.org/wiki/Speed_of_light"
+     "org": "Wikipedia en inglés",
+     "title": "Speed of light",
+     "u": "https://en.wikipedia.org/wiki/Speed_of_light",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Earth_to_Sun_-_en.png/960px-Earth_to_Sun_-_en.png",
@@ -8612,7 +15757,24 @@ window.SQ_CONTENT = {
     "file": "Earth_to_Sun_-_en.png"
    },
    "status": "publicado",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-118-elementos",
@@ -8626,11 +15788,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Periodic table",
-     "u": "https://en.wikipedia.org/wiki/Periodic_table"
+     "org": "Wikipedia en inglés",
+     "title": "Periodic table",
+     "u": "https://en.wikipedia.org/wiki/Periodic_table",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Oganesson",
-     "u": "https://en.wikipedia.org/wiki/Oganesson"
+     "org": "Wikipedia en inglés",
+     "title": "Oganesson",
+     "u": "https://en.wikipedia.org/wiki/Oganesson",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Colour_18-col_PT_with_labels.svg/960px-Colour_18-col_PT_with_labels.svg.png",
@@ -8642,7 +15814,24 @@ window.SQ_CONTENT = {
     "file": "Colour_18-col_PT_with_labels.svg"
    },
    "status": "publicado",
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-ebullicion-altura",
@@ -8656,7 +15845,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Boiling point",
-     "u": "https://en.wikipedia.org/wiki/Boiling_point"
+     "org": "Wikipedia en inglés",
+     "title": "Boiling point",
+     "u": "https://en.wikipedia.org/wiki/Boiling_point",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Boilingkettle.jpg/960px-Boilingkettle.jpg",
@@ -8668,7 +15862,24 @@ window.SQ_CONTENT = {
     "file": "Boilingkettle.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-10",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-esfinge-nariz",
@@ -8682,7 +15893,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Great Sphinx of Giza",
-     "u": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza"
+     "org": "Wikipedia en inglés",
+     "title": "Great Sphinx of Giza",
+     "u": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "falso",
@@ -8695,7 +15911,24 @@ window.SQ_CONTENT = {
     "file": "Sphinx_with_the_third_pyramid.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-07",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-titanic",
@@ -8709,7 +15942,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Titanic",
-     "u": "https://en.wikipedia.org/wiki/Titanic"
+     "org": "Wikipedia en inglés",
+     "title": "Titanic",
+     "u": "https://en.wikipedia.org/wiki/Titanic",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/RMS_Titanic_3_%28cropped_to_ship%29.jpg/960px-RMS_Titanic_3_%28cropped_to_ship%29.jpg",
@@ -8721,7 +15959,24 @@ window.SQ_CONTENT = {
     "file": "RMS_Titanic_3_(cropped_to_ship).jpg"
    },
    "status": "publicado",
-   "date": "2026-11-24"
+   "date": "2026-11-24",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-cadena-montaje",
@@ -8735,11 +15990,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Assembly line",
-     "u": "https://en.wikipedia.org/wiki/Assembly_line"
+     "org": "Wikipedia en inglés",
+     "title": "Assembly line",
+     "u": "https://en.wikipedia.org/wiki/Assembly_line",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Ford Model T",
-     "u": "https://en.wikipedia.org/wiki/Ford_Model_T"
+     "org": "Wikipedia en inglés",
+     "title": "Ford Model T",
+     "u": "https://en.wikipedia.org/wiki/Ford_Model_T",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/1925_Ford_Model_T_touring.jpg/960px-1925_Ford_Model_T_touring.jpg",
@@ -8751,7 +16016,24 @@ window.SQ_CONTENT = {
     "file": "1925 Ford Model T touring.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-efecto-pigmalion",
@@ -8765,7 +16047,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Pygmalion effect",
-     "u": "https://en.wikipedia.org/wiki/Pygmalion_effect"
+     "org": "Wikipedia en inglés",
+     "title": "Pygmalion effect",
+     "u": "https://en.wikipedia.org/wiki/Pygmalion_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Pygmalion_%28Raoux%29.jpg/960px-Pygmalion_%28Raoux%29.jpg",
@@ -8777,7 +16064,25 @@ window.SQ_CONTENT = {
     "file": "Pygmalion_(Raoux).jpg"
    },
    "status": "publicado",
-   "date": "2026-11-18"
+   "date": "2026-11-18",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hipotesis",
+   "claimNote": "El estudio original ha sido criticado y los intentos de replicarlo han dado resultados variables.",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-disonancia-cognitiva",
@@ -8791,7 +16096,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Cognitive dissonance",
-     "u": "https://en.wikipedia.org/wiki/Cognitive_dissonance"
+     "org": "Wikipedia en inglés",
+     "title": "Cognitive dissonance",
+     "u": "https://en.wikipedia.org/wiki/Cognitive_dissonance",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Greek_uc_psi_icon.svg/960px-Greek_uc_psi_icon.svg.png",
@@ -8803,7 +16113,24 @@ window.SQ_CONTENT = {
     "file": "Greek_uc_psi_icon.svg"
    },
    "status": "publicado",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "teoria",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-sueno-rem",
@@ -8817,11 +16144,33 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Rapid eye movement sleep",
-     "u": "https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep"
+     "org": "Wikipedia en inglés",
+     "title": "Rapid eye movement sleep",
+     "u": "https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "status": "publicado",
-   "date": "2026-11-12"
+   "date": "2026-11-12",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "m-estrella-polar",
@@ -8835,11 +16184,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Polaris",
-     "u": "https://en.wikipedia.org/wiki/Polaris"
+     "org": "Wikipedia en inglés",
+     "title": "Polaris",
+     "u": "https://en.wikipedia.org/wiki/Polaris",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Sirius",
-     "u": "https://en.wikipedia.org/wiki/Sirius"
+     "org": "Wikipedia en inglés",
+     "title": "Sirius",
+     "u": "https://en.wikipedia.org/wiki/Sirius",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "verdict": "falso",
@@ -8852,7 +16211,24 @@ window.SQ_CONTENT = {
     "file": "Ursa_Minor_constellation_map.svg"
    },
    "status": "publicado",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-09",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-terremotos-luna",
@@ -8866,7 +16242,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Moonquake",
-     "u": "https://en.wikipedia.org/wiki/Moonquake"
+     "org": "Wikipedia en inglés",
+     "title": "Moonquake",
+     "u": "https://en.wikipedia.org/wiki/Moonquake",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Apollo_12_ALSEP.jpg/960px-Apollo_12_ALSEP.jpg",
@@ -8878,7 +16259,24 @@ window.SQ_CONTENT = {
     "file": "Apollo 12 ALSEP.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-iss-velocidad",
@@ -8892,7 +16290,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — International Space Station",
-     "u": "https://en.wikipedia.org/wiki/International_Space_Station"
+     "org": "Wikipedia en inglés",
+     "title": "International Space Station",
+     "u": "https://en.wikipedia.org/wiki/International_Space_Station",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg/960px-The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg",
@@ -8904,7 +16307,24 @@ window.SQ_CONTENT = {
     "file": "The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-23"
+   "date": "2026-11-23",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-eniac",
@@ -8918,7 +16338,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — ENIAC",
-     "u": "https://en.wikipedia.org/wiki/ENIAC"
+     "org": "Wikipedia en inglés",
+     "title": "ENIAC",
+     "u": "https://en.wikipedia.org/wiki/ENIAC",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/ENIAC_at_Moore_School_of_Electrical_Engineering_%282026-09-21%29.webp/960px-ENIAC_at_Moore_School_of_Electrical_Engineering_%282026-09-21%29.webp",
@@ -8930,7 +16355,24 @@ window.SQ_CONTENT = {
     "file": "ENIAC_at_Moore_School_of_Electrical_Engineering_(2026-09-21).webp"
    },
    "status": "publicado",
-   "date": "2026-11-20"
+   "date": "2026-11-20",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-linux",
@@ -8944,11 +16386,21 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Linux",
-     "u": "https://en.wikipedia.org/wiki/Linux"
+     "org": "Wikipedia en inglés",
+     "title": "Linux",
+     "u": "https://en.wikipedia.org/wiki/Linux",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Linus Torvalds",
-     "u": "https://en.wikipedia.org/wiki/Linus_Torvalds"
+     "org": "Wikipedia en inglés",
+     "title": "Linus Torvalds",
+     "u": "https://en.wikipedia.org/wiki/Linus_Torvalds",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/960px-Tux.svg.png",
@@ -8960,7 +16412,24 @@ window.SQ_CONTENT = {
     "file": "Tux.svg"
    },
    "status": "publicado",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-arpanet-lo",
@@ -8974,7 +16443,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — ARPANET",
-     "u": "https://en.wikipedia.org/wiki/ARPANET"
+     "org": "Wikipedia en inglés",
+     "title": "ARPANET",
+     "u": "https://en.wikipedia.org/wiki/ARPANET",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Arpanet_logical_map%2C_march_1977.png/960px-Arpanet_logical_map%2C_march_1977.png",
@@ -8986,7 +16460,24 @@ window.SQ_CONTENT = {
     "file": "Arpanet logical map, march 1977.png"
    },
    "status": "publicado",
-   "date": "2026-11-14"
+   "date": "2026-11-14",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-everest-altura",
@@ -9000,7 +16491,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Mount Everest",
-     "u": "https://en.wikipedia.org/wiki/Mount_Everest"
+     "org": "Wikipedia en inglés",
+     "title": "Mount Everest",
+     "u": "https://en.wikipedia.org/wiki/Mount_Everest",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/960px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg",
@@ -9012,7 +16508,24 @@ window.SQ_CONTENT = {
     "file": "Mt._Everest_from_Gokyo_Ri_November_5,_2012.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-11",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-sahara-verde",
@@ -9026,7 +16539,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — African humid period",
-     "u": "https://en.wikipedia.org/wiki/African_humid_period"
+     "org": "Wikipedia en inglés",
+     "title": "African humid period",
+     "u": "https://en.wikipedia.org/wiki/African_humid_period",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Sahara_satellite_hires.jpg/960px-Sahara_satellite_hires.jpg",
@@ -9038,7 +16556,24 @@ window.SQ_CONTENT = {
     "file": "Sahara_satellite_hires.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-08",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-monaco-densidad",
@@ -9052,7 +16587,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Monaco",
-     "u": "https://en.wikipedia.org/wiki/Monaco"
+     "org": "Wikipedia en inglés",
+     "title": "Monaco",
+     "u": "https://en.wikipedia.org/wiki/Monaco",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/960px-Flag_of_Monaco.svg.png",
@@ -9064,7 +16604,24 @@ window.SQ_CONTENT = {
     "file": "Flag_of_Monaco.svg"
    },
    "status": "publicado",
-   "date": "2026-11-25"
+   "date": "2026-11-25",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-25",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-delfines-duermen",
@@ -9078,7 +16635,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Unihemispheric slow-wave sleep",
-     "u": "https://en.wikipedia.org/wiki/Unihemispheric_slow-wave_sleep"
+     "org": "Wikipedia en inglés",
+     "title": "Unihemispheric slow-wave sleep",
+     "u": "https://en.wikipedia.org/wiki/Unihemispheric_slow-wave_sleep",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Half_Sleeping_Bird.jpg/960px-Half_Sleeping_Bird.jpg",
@@ -9090,7 +16652,24 @@ window.SQ_CONTENT = {
     "file": "Half_Sleeping_Bird.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-perezoso",
@@ -9104,7 +16683,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Sloth",
-     "u": "https://en.wikipedia.org/wiki/Sloth"
+     "org": "Wikipedia en inglés",
+     "title": "Sloth",
+     "u": "https://en.wikipedia.org/wiki/Sloth",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Bicho-pregui%C3%A7a_3.jpg/960px-Bicho-pregui%C3%A7a_3.jpg",
@@ -9116,7 +16700,24 @@ window.SQ_CONTENT = {
     "file": "Bicho-preguiça_3.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-19"
+   "date": "2026-11-19",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-pinguino-emperador",
@@ -9130,7 +16731,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Emperor penguin",
-     "u": "https://en.wikipedia.org/wiki/Emperor_penguin"
+     "org": "Wikipedia en inglés",
+     "title": "Emperor penguin",
+     "u": "https://en.wikipedia.org/wiki/Emperor_penguin",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/960px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
@@ -9142,7 +16748,24 @@ window.SQ_CONTENT = {
     "file": "Aptenodytes_forsteri_-Snow_Hill_Island,_Antarctica_-adults_and_juvenile-8.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-epicteto",
@@ -9156,7 +16779,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Epictetus",
-     "u": "https://en.wikipedia.org/wiki/Epictetus"
+     "org": "Wikipedia en inglés",
+     "title": "Epictetus",
+     "u": "https://en.wikipedia.org/wiki/Epictetus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Epictetus_Enchiridion_1683_page1.jpg/960px-Epictetus_Enchiridion_1683_page1.jpg",
@@ -9168,7 +16796,24 @@ window.SQ_CONTENT = {
     "file": "Epictetus_Enchiridion_1683_page1.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-dios-ha-muerto",
@@ -9182,7 +16827,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — God is dead",
-     "u": "https://en.wikipedia.org/wiki/God_is_dead"
+     "org": "Wikipedia en inglés",
+     "title": "God is dead",
+     "u": "https://en.wikipedia.org/wiki/God_is_dead",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/FW82.jpg/960px-FW82.jpg",
@@ -9194,7 +16844,24 @@ window.SQ_CONTENT = {
     "file": "FW82.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-10",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-principe-maquiavelo",
@@ -9208,7 +16875,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — The Prince",
-     "u": "https://en.wikipedia.org/wiki/The_Prince"
+     "org": "Wikipedia en inglés",
+     "title": "The Prince",
+     "u": "https://en.wikipedia.org/wiki/The_Prince",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Nicolo_Machiavelli%2C_Il_Principe%2C_1550%2C_title_page.jpg/960px-Nicolo_Machiavelli%2C_Il_Principe%2C_1550%2C_title_page.jpg",
@@ -9220,7 +16892,24 @@ window.SQ_CONTENT = {
     "file": "Nicolo_Machiavelli,_Il_Principe,_1550,_title_page.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-07",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-copiale",
@@ -9234,7 +16923,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Copiale cipher",
-     "u": "https://en.wikipedia.org/wiki/Copiale_cipher"
+     "org": "Wikipedia en inglés",
+     "title": "Copiale cipher",
+     "u": "https://en.wikipedia.org/wiki/Copiale_cipher",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Copiale-cipher09s.png/960px-Copiale-cipher09s.png",
@@ -9246,7 +16940,24 @@ window.SQ_CONTENT = {
     "file": "Copiale-cipher09s.png"
    },
    "status": "publicado",
-   "date": "2026-11-24"
+   "date": "2026-11-24",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-sabana-turin",
@@ -9260,7 +16971,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Shroud of Turin",
-     "u": "https://en.wikipedia.org/wiki/Shroud_of_Turin"
+     "org": "Wikipedia en inglés",
+     "title": "Shroud of Turin",
+     "u": "https://en.wikipedia.org/wiki/Shroud_of_Turin",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Turin_shroud_positive_and_negative_displaying_original_color_information_708_x_465_pixels_94_KB.jpg/960px-Turin_shroud_positive_and_negative_displaying_original_color_information_708_x_465_pixels_94_KB.jpg",
@@ -9272,7 +16988,25 @@ window.SQ_CONTENT = {
     "file": "Turin_shroud_positive_and_negative_displaying_original_color_information_708_x_465_pixels_94_KB.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "claimNote": "La datación de 1988 es un hecho documentado. Su autenticidad sigue siendo objeto de debate y de fe para muchos creyentes.",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-banco-antiguo",
@@ -9286,7 +17020,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Banca Monte dei Paschi di Siena",
-     "u": "https://en.wikipedia.org/wiki/Banca_Monte_dei_Paschi_di_Siena"
+     "org": "Wikipedia en inglés",
+     "title": "Banca Monte dei Paschi di Siena",
+     "u": "https://en.wikipedia.org/wiki/Banca_Monte_dei_Paschi_di_Siena",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Palazzo_Salimbeni%2C_Siena%2C_Headquarters_of_Monte_dei_Paschi_di_Siena%2C_the_worlds_oldest_surviving_bank.jpg/960px-Palazzo_Salimbeni%2C_Siena%2C_Headquarters_of_Monte_dei_Paschi_di_Siena%2C_the_worlds_oldest_surviving_bank.jpg",
@@ -9298,7 +17037,24 @@ window.SQ_CONTENT = {
     "file": "Palazzo_Salimbeni,_Siena,_Headquarters_of_Monte_dei_Paschi_di_Siena,_the_worlds_oldest_surviving_bank.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-18"
+   "date": "2026-11-18",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-18",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-crack-1929",
@@ -9312,7 +17068,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Wall Street crash of 1929",
-     "u": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929"
+     "org": "Wikipedia en inglés",
+     "title": "Wall Street crash of 1929",
+     "u": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/NYSE127.jpg/960px-NYSE127.jpg",
@@ -9324,7 +17085,24 @@ window.SQ_CONTENT = {
     "file": "NYSE127.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-billetes-euro",
@@ -9338,7 +17116,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Euro banknotes",
-     "u": "https://en.wikipedia.org/wiki/Euro_banknotes"
+     "org": "Wikipedia en inglés",
+     "title": "Euro banknotes",
+     "u": "https://en.wikipedia.org/wiki/Euro_banknotes",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Euro_banknotes%2C_Europa_series.png/960px-Euro_banknotes%2C_Europa_series.png",
@@ -9350,7 +17133,24 @@ window.SQ_CONTENT = {
     "file": "Euro_banknotes,_Europa_series.png"
    },
    "status": "publicado",
-   "date": "2026-11-12"
+   "date": "2026-11-12",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-mezquita-cordoba",
@@ -9364,7 +17164,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Mosque–Cathedral of Córdoba",
-     "u": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba"
+     "org": "Wikipedia en inglés",
+     "title": "Mosque–Cathedral of Córdoba",
+     "u": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg/960px-Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg",
@@ -9376,7 +17181,24 @@ window.SQ_CONTENT = {
     "file": "Mezquita de Córdoba desde el aire (Córdoba, España).jpg"
    },
    "status": "publicado",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-09",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-borobudur",
@@ -9390,7 +17212,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Borobudur",
-     "u": "https://en.wikipedia.org/wiki/Borobudur"
+     "org": "Wikipedia en inglés",
+     "title": "Borobudur",
+     "u": "https://en.wikipedia.org/wiki/Borobudur",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Pradaksina.jpg/960px-Pradaksina.jpg",
@@ -9402,7 +17229,24 @@ window.SQ_CONTENT = {
     "file": "Pradaksina.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-coran-suras",
@@ -9416,7 +17260,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Quran",
-     "u": "https://en.wikipedia.org/wiki/Quran"
+     "org": "Wikipedia en inglés",
+     "title": "Quran",
+     "u": "https://en.wikipedia.org/wiki/Quran",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Birmingham_Quran_manuscript_full.jpg/960px-Birmingham_Quran_manuscript_full.jpg",
@@ -9428,7 +17277,25 @@ window.SQ_CONTENT = {
     "file": "Birmingham_Quran_manuscript_full.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-23"
+   "date": "2026-11-23",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "claimNote": "La división en 114 suras es un hecho. Que el Corán fue revelado a Mahoma es una creencia de la fe islámica.",
+   "history": [
+    {
+     "date": "2026-11-23",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-don-quijote",
@@ -9442,7 +17309,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Don Quixote",
-     "u": "https://en.wikipedia.org/wiki/Don_Quixote"
+     "org": "Wikipedia en inglés",
+     "title": "Don Quixote",
+     "u": "https://en.wikipedia.org/wiki/Don_Quixote",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Title_page_first_edition_Don_Quijote.jpg/960px-Title_page_first_edition_Don_Quijote.jpg",
@@ -9454,7 +17326,24 @@ window.SQ_CONTENT = {
     "file": "Title_page_first_edition_Don_Quijote.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-20"
+   "date": "2026-11-20",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-tango-unesco",
@@ -9468,7 +17357,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Tango",
-     "u": "https://en.wikipedia.org/wiki/Tango"
+     "org": "Wikipedia en inglés",
+     "title": "Tango",
+     "u": "https://en.wikipedia.org/wiki/Tango",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Bandoneon.jpg/960px-Bandoneon.jpg",
@@ -9480,7 +17374,24 @@ window.SQ_CONTENT = {
     "file": "Bandoneon.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "c-dia-muertos",
@@ -9494,7 +17405,12 @@ window.SQ_CONTENT = {
    "sources": [
     {
      "t": "Wikipedia — Day of the Dead",
-     "u": "https://en.wikipedia.org/wiki/Day_of_the_Dead"
+     "org": "Wikipedia en inglés",
+     "title": "Day of the Dead",
+     "u": "https://en.wikipedia.org/wiki/Day_of_the_Dead",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Tagetes_erecta_chendumalli_chedi.jpg/960px-Tagetes_erecta_chendumalli_chedi.jpg",
@@ -9506,7 +17422,24 @@ window.SQ_CONTENT = {
     "file": "Tagetes erecta chendumalli chedi.jpg"
    },
    "status": "publicado",
-   "date": "2026-11-14"
+   "date": "2026-11-14",
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   }
  ],
  "questions": [

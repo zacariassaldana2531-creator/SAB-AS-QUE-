@@ -2,7 +2,7 @@
  * Textos de elaboración propia, verificados contra sus fuentes. Imágenes de Wikimedia Commons con autor y licencia.
  * Contenido educativo: no sustituye el consejo de un profesional de la salud. */
 window.SQ_ANATOMY = {
- "version": 2,
+ "version": 3,
  "updated": "2026-11-26",
  "systems": [
   {
@@ -35,11 +35,21 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Human skeleton",
-     "u": "https://en.wikipedia.org/wiki/Human_skeleton"
+     "org": "Wikipedia en inglés",
+     "title": "Human skeleton",
+     "u": "https://en.wikipedia.org/wiki/Human_skeleton",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Ear",
-     "u": "https://en.wikipedia.org/wiki/Ear"
+     "org": "Wikipedia en inglés",
+     "title": "Ear",
+     "u": "https://en.wikipedia.org/wiki/Ear",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Human-Skeleton.jpg/960px-Human-Skeleton.jpg",
@@ -49,7 +59,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Human-Skeleton.jpg",
     "file": "Human-Skeleton.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "muscular",
@@ -77,7 +104,29 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Muscular system",
-     "u": "https://en.wikipedia.org/wiki/Muscular_system"
+     "org": "Wikipedia en inglés",
+     "title": "Muscular system",
+     "u": "https://en.wikipedia.org/wiki/Muscular_system",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -110,11 +159,21 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Nervous system",
-     "u": "https://en.wikipedia.org/wiki/Nervous_system"
+     "org": "Wikipedia en inglés",
+     "title": "Nervous system",
+     "u": "https://en.wikipedia.org/wiki/Nervous_system",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Spinal cord",
-     "u": "https://en.wikipedia.org/wiki/Spinal_cord"
+     "org": "Wikipedia en inglés",
+     "title": "Spinal cord",
+     "u": "https://en.wikipedia.org/wiki/Spinal_cord",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/960px-TE-Nervous_system_diagram.svg.png",
@@ -124,7 +183,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:TE-Nervous_system_diagram.svg",
     "file": "TE-Nervous_system_diagram.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "circulatorio",
@@ -153,7 +229,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Circulatory system",
-     "u": "https://en.wikipedia.org/wiki/Circulatory_system"
+     "org": "Wikipedia en inglés",
+     "title": "Circulatory system",
+     "u": "https://en.wikipedia.org/wiki/Circulatory_system",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Circulatory_System_en.svg/960px-Circulatory_System_en.svg.png",
@@ -163,7 +244,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Circulatory_System_en.svg",
     "file": "Circulatory_System_en.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "respiratorio",
@@ -192,7 +290,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Respiratory system",
-     "u": "https://en.wikipedia.org/wiki/Respiratory_system"
+     "org": "Wikipedia en inglés",
+     "title": "Respiratory system",
+     "u": "https://en.wikipedia.org/wiki/Respiratory_system",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Respiratory_system_complete_en.svg/960px-Respiratory_system_complete_en.svg.png",
@@ -202,7 +305,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg",
     "file": "Respiratory_system_complete_en.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "digestivo",
@@ -237,7 +357,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Human digestive system",
-     "u": "https://en.wikipedia.org/wiki/Human_digestive_system"
+     "org": "Wikipedia en inglés",
+     "title": "Human digestive system",
+     "u": "https://en.wikipedia.org/wiki/Human_digestive_system",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Digestive_system_diagram_en.svg/960px-Digestive_system_diagram_en.svg.png",
@@ -247,7 +372,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Digestive_system_diagram_en.svg",
     "file": "Digestive_system_diagram_en.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "endocrino",
@@ -279,7 +421,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Endocrine system",
-     "u": "https://en.wikipedia.org/wiki/Endocrine_system"
+     "org": "Wikipedia en inglés",
+     "title": "Endocrine system",
+     "u": "https://en.wikipedia.org/wiki/Endocrine_system",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Endocrine_English.svg/960px-Endocrine_English.svg.png",
@@ -289,7 +436,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Endocrine_English.svg",
     "file": "Endocrine_English.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "inmunitario",
@@ -319,7 +483,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Immune system",
-     "u": "https://en.wikipedia.org/wiki/Immune_system"
+     "org": "Wikipedia en inglés",
+     "title": "Immune system",
+     "u": "https://en.wikipedia.org/wiki/Immune_system",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Neutrophil_with_anthrax_copy.jpg/960px-Neutrophil_with_anthrax_copy.jpg",
@@ -329,7 +498,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Neutrophil_with_anthrax_copy.jpg",
     "file": "Neutrophil_with_anthrax_copy.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "urinario",
@@ -356,11 +542,21 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Urinary system",
-     "u": "https://en.wikipedia.org/wiki/Urinary_system"
+     "org": "Wikipedia en inglés",
+     "title": "Urinary system",
+     "u": "https://en.wikipedia.org/wiki/Urinary_system",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Kidney",
-     "u": "https://en.wikipedia.org/wiki/Kidney"
+     "org": "Wikipedia en inglés",
+     "title": "Kidney",
+     "u": "https://en.wikipedia.org/wiki/Kidney",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Urinary_system.svg/960px-Urinary_system.svg.png",
@@ -370,7 +566,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Urinary_system.svg",
     "file": "Urinary_system.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "reproductor",
@@ -397,7 +610,29 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Human reproductive system",
-     "u": "https://en.wikipedia.org/wiki/Human_reproductive_system"
+     "org": "Wikipedia en inglés",
+     "title": "Human reproductive system",
+     "u": "https://en.wikipedia.org/wiki/Human_reproductive_system",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -426,11 +661,21 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Integumentary system",
-     "u": "https://en.wikipedia.org/wiki/Integumentary_system"
+     "org": "Wikipedia en inglés",
+     "title": "Integumentary system",
+     "u": "https://en.wikipedia.org/wiki/Integumentary_system",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Human skin",
-     "u": "https://en.wikipedia.org/wiki/Human_skin"
+     "org": "Wikipedia en inglés",
+     "title": "Human skin",
+     "u": "https://en.wikipedia.org/wiki/Human_skin",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Human_skin_structure.svg/960px-Human_skin_structure.svg.png",
@@ -440,7 +685,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Human_skin_structure.svg",
     "file": "Human_skin_structure.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   }
  ],
  "organs": [
@@ -479,7 +741,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Human brain",
-     "u": "https://en.wikipedia.org/wiki/Human_brain"
+     "org": "Wikipedia en inglés",
+     "title": "Human brain",
+     "u": "https://en.wikipedia.org/wiki/Human_brain",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Gray728.svg/960px-Gray728.svg.png",
@@ -489,7 +756,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Gray728.svg",
     "file": "Gray728.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "medula-espinal",
@@ -519,7 +803,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Spinal cord",
-     "u": "https://en.wikipedia.org/wiki/Spinal_cord"
+     "org": "Wikipedia en inglés",
+     "title": "Spinal cord",
+     "u": "https://en.wikipedia.org/wiki/Spinal_cord",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Blausen_0822_SpinalCord.png/960px-Blausen_0822_SpinalCord.png",
@@ -529,7 +818,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Blausen_0822_SpinalCord.png",
     "file": "Blausen_0822_SpinalCord.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "corazon",
@@ -567,7 +873,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Heart",
-     "u": "https://en.wikipedia.org/wiki/Heart"
+     "org": "Wikipedia en inglés",
+     "title": "Heart",
+     "u": "https://en.wikipedia.org/wiki/Heart",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Heart_anterior_exterior_view.png/960px-Heart_anterior_exterior_view.png",
@@ -577,7 +888,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Heart_anterior_exterior_view.png",
     "file": "Heart_anterior_exterior_view.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "pulmones",
@@ -610,7 +938,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Lung",
-     "u": "https://en.wikipedia.org/wiki/Lung"
+     "org": "Wikipedia en inglés",
+     "title": "Lung",
+     "u": "https://en.wikipedia.org/wiki/Lung",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Lungs_diagram_detailed.svg/960px-Lungs_diagram_detailed.svg.png",
@@ -620,7 +953,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Lungs_diagram_detailed.svg",
     "file": "Lungs_diagram_detailed.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "higado",
@@ -651,7 +1001,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Liver",
-     "u": "https://en.wikipedia.org/wiki/Liver"
+     "org": "Wikipedia en inglés",
+     "title": "Liver",
+     "u": "https://en.wikipedia.org/wiki/Liver",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Liver_%28organ%29.png/960px-Liver_%28organ%29.png",
@@ -661,7 +1016,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Liver_%28organ%29.png",
     "file": "Liver (organ).png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "estomago",
@@ -692,7 +1064,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Stomach",
-     "u": "https://en.wikipedia.org/wiki/Stomach"
+     "org": "Wikipedia en inglés",
+     "title": "Stomach",
+     "u": "https://en.wikipedia.org/wiki/Stomach",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gray1046.svg/960px-Gray1046.svg.png",
@@ -702,7 +1079,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Gray1046.svg",
     "file": "Gray1046.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "intestino-delgado",
@@ -732,7 +1126,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Small intestine",
-     "u": "https://en.wikipedia.org/wiki/Small_intestine"
+     "org": "Wikipedia en inglés",
+     "title": "Small intestine",
+     "u": "https://en.wikipedia.org/wiki/Small_intestine",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Tractus_intestinalis_intestinum_tenue.svg/960px-Tractus_intestinalis_intestinum_tenue.svg.png",
@@ -742,7 +1141,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Tractus_intestinalis_intestinum_tenue.svg",
     "file": "Tractus_intestinalis_intestinum_tenue.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "intestino-grueso",
@@ -773,7 +1189,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Large intestine",
-     "u": "https://en.wikipedia.org/wiki/Large_intestine"
+     "org": "Wikipedia en inglés",
+     "title": "Large intestine",
+     "u": "https://en.wikipedia.org/wiki/Large_intestine",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Tractus_intestinalis_intestinum_crassum.svg/960px-Tractus_intestinalis_intestinum_crassum.svg.png",
@@ -783,7 +1204,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Tractus_intestinalis_intestinum_crassum.svg",
     "file": "Tractus_intestinalis_intestinum_crassum.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "pancreas",
@@ -815,7 +1253,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Pancreas",
-     "u": "https://en.wikipedia.org/wiki/Pancreas"
+     "org": "Wikipedia en inglés",
+     "title": "Pancreas",
+     "u": "https://en.wikipedia.org/wiki/Pancreas",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Blausen_0699_PancreasAnatomy2.png/960px-Blausen_0699_PancreasAnatomy2.png",
@@ -825,7 +1268,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Blausen_0699_PancreasAnatomy2.png",
     "file": "Blausen_0699_PancreasAnatomy2.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "vesicula",
@@ -851,7 +1311,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Gallbladder",
-     "u": "https://en.wikipedia.org/wiki/Gallbladder"
+     "org": "Wikipedia en inglés",
+     "title": "Gallbladder",
+     "u": "https://en.wikipedia.org/wiki/Gallbladder",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Gallbladder_%28organ%29.png/960px-Gallbladder_%28organ%29.png",
@@ -861,7 +1326,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Gallbladder_%28organ%29.png",
     "file": "Gallbladder_(organ).png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "apendice",
@@ -887,7 +1369,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Appendix (anatomy)",
-     "u": "https://en.wikipedia.org/wiki/Appendix_(anatomy)"
+     "org": "Wikipedia en inglés",
+     "title": "Appendix (anatomy)",
+     "u": "https://en.wikipedia.org/wiki/Appendix_(anatomy)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Tractus_intestinalis_appendix_vermiformis.svg/960px-Tractus_intestinalis_appendix_vermiformis.svg.png",
@@ -897,7 +1384,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Tractus_intestinalis_appendix_vermiformis.svg",
     "file": "Tractus_intestinalis_appendix_vermiformis.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "rinones",
@@ -928,7 +1432,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Kidney",
-     "u": "https://en.wikipedia.org/wiki/Kidney"
+     "org": "Wikipedia en inglés",
+     "title": "Kidney",
+     "u": "https://en.wikipedia.org/wiki/Kidney",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Blausen_0592_KidneyAnatomy_01.png/960px-Blausen_0592_KidneyAnatomy_01.png",
@@ -938,7 +1447,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Blausen_0592_KidneyAnatomy_01.png",
     "file": "Blausen_0592_KidneyAnatomy_01.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "bazo",
@@ -965,7 +1491,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Spleen",
-     "u": "https://en.wikipedia.org/wiki/Spleen"
+     "org": "Wikipedia en inglés",
+     "title": "Spleen",
+     "u": "https://en.wikipedia.org/wiki/Spleen",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Diagram_showing_the_position_of_the_spleen_CRUK_417.svg/960px-Diagram_showing_the_position_of_the_spleen_CRUK_417.svg.png",
@@ -975,7 +1506,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_position_of_the_spleen_CRUK_417.svg",
     "file": "Diagram_showing_the_position_of_the_spleen_CRUK_417.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "tiroides",
@@ -1006,7 +1554,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Thyroid",
-     "u": "https://en.wikipedia.org/wiki/Thyroid"
+     "org": "Wikipedia en inglés",
+     "title": "Thyroid",
+     "u": "https://en.wikipedia.org/wiki/Thyroid",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Anterior_thyroid.jpg/960px-Anterior_thyroid.jpg",
@@ -1016,7 +1569,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Anterior_thyroid.jpg",
     "file": "Anterior_thyroid.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "hipofisis",
@@ -1050,7 +1620,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Pituitary gland",
-     "u": "https://en.wikipedia.org/wiki/Pituitary_gland"
+     "org": "Wikipedia en inglés",
+     "title": "Pituitary gland",
+     "u": "https://en.wikipedia.org/wiki/Pituitary_gland",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Hypophyse.png/960px-Hypophyse.png",
@@ -1060,7 +1635,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Hypophyse.png",
     "file": "Hypophyse.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "suprarrenales",
@@ -1090,7 +1682,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Adrenal gland",
-     "u": "https://en.wikipedia.org/wiki/Adrenal_gland"
+     "org": "Wikipedia en inglés",
+     "title": "Adrenal gland",
+     "u": "https://en.wikipedia.org/wiki/Adrenal_gland",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Adrenal_Gland_detail_-_English.png/960px-Adrenal_Gland_detail_-_English.png",
@@ -1100,7 +1697,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Adrenal_Gland_detail_-_English.png",
     "file": "Adrenal_Gland_detail_-_English.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "ojo",
@@ -1132,7 +1746,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Human eye",
-     "u": "https://en.wikipedia.org/wiki/Human_eye"
+     "org": "Wikipedia en inglés",
+     "title": "Human eye",
+     "u": "https://en.wikipedia.org/wiki/Human_eye",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Schematic_diagram_of_the_human_eye_en.svg/960px-Schematic_diagram_of_the_human_eye_en.svg.png",
@@ -1142,7 +1761,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Schematic_diagram_of_the_human_eye_en.svg",
     "file": "Schematic diagram of the human eye en.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "oido",
@@ -1173,7 +1809,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Ear",
-     "u": "https://en.wikipedia.org/wiki/Ear"
+     "org": "Wikipedia en inglés",
+     "title": "Ear",
+     "u": "https://en.wikipedia.org/wiki/Ear",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Anatomy_of_the_Human_Ear.svg/960px-Anatomy_of_the_Human_Ear.svg.png",
@@ -1183,7 +1824,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear.svg",
     "file": "Anatomy of the Human Ear.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "piel",
@@ -1214,11 +1872,21 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Skin",
-     "u": "https://en.wikipedia.org/wiki/Skin"
+     "org": "Wikipedia en inglés",
+     "title": "Skin",
+     "u": "https://en.wikipedia.org/wiki/Skin",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Human skin",
-     "u": "https://en.wikipedia.org/wiki/Human_skin"
+     "org": "Wikipedia en inglés",
+     "title": "Human skin",
+     "u": "https://en.wikipedia.org/wiki/Human_skin",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Skin_layers.png/960px-Skin_layers.png",
@@ -1228,7 +1896,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Skin_layers.png",
     "file": "Skin layers.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "huesos",
@@ -1259,7 +1944,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Bone",
-     "u": "https://en.wikipedia.org/wiki/Bone"
+     "org": "Wikipedia en inglés",
+     "title": "Bone",
+     "u": "https://en.wikipedia.org/wiki/Bone",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Bone_cross-section.svg/960px-Bone_cross-section.svg.png",
@@ -1269,7 +1959,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Bone_cross-section.svg",
     "file": "Bone cross-section.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "sangre",
@@ -1302,7 +2009,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Blood",
-     "u": "https://en.wikipedia.org/wiki/Blood"
+     "org": "Wikipedia en inglés",
+     "title": "Blood",
+     "u": "https://en.wikipedia.org/wiki/Blood",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Red_White_Blood_cells.jpg/960px-Red_White_Blood_cells.jpg",
@@ -1312,7 +2024,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
     "file": "Red White Blood cells.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "dientes",
@@ -1343,7 +2072,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Human tooth",
-     "u": "https://en.wikipedia.org/wiki/Human_tooth"
+     "org": "Wikipedia en inglés",
+     "title": "Human tooth",
+     "u": "https://en.wikipedia.org/wiki/Human_tooth",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Gray1003.png/960px-Gray1003.png",
@@ -1353,7 +2087,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Gray1003.png",
     "file": "Gray1003.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "vejiga",
@@ -1385,7 +2136,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Urinary bladder",
-     "u": "https://en.wikipedia.org/wiki/Urinary_bladder"
+     "org": "Wikipedia en inglés",
+     "title": "Urinary bladder",
+     "u": "https://en.wikipedia.org/wiki/Urinary_bladder",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Urinary_system.svg/960px-Urinary_system.svg.png",
@@ -1395,7 +2151,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Urinary_system.svg",
     "file": "Urinary_system.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "laringe",
@@ -1427,7 +2200,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Larynx",
-     "u": "https://en.wikipedia.org/wiki/Larynx"
+     "org": "Wikipedia en inglés",
+     "title": "Larynx",
+     "u": "https://en.wikipedia.org/wiki/Larynx",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Larynx_external_en.svg/960px-Larynx_external_en.svg.png",
@@ -1437,7 +2215,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Larynx_external_en.svg",
     "file": "Larynx_external_en.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "traquea",
@@ -1467,7 +2262,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Trachea",
-     "u": "https://en.wikipedia.org/wiki/Trachea"
+     "org": "Wikipedia en inglés",
+     "title": "Trachea",
+     "u": "https://en.wikipedia.org/wiki/Trachea",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Illu_conducting_passages.svg/960px-Illu_conducting_passages.svg.png",
@@ -1477,7 +2277,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Illu_conducting_passages.svg",
     "file": "Illu_conducting_passages.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "esofago",
@@ -1508,7 +2325,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Esophagus",
-     "u": "https://en.wikipedia.org/wiki/Esophagus"
+     "org": "Wikipedia en inglés",
+     "title": "Esophagus",
+     "u": "https://en.wikipedia.org/wiki/Esophagus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Tractus_intestinalis_esophagus.svg/960px-Tractus_intestinalis_esophagus.svg.png",
@@ -1518,7 +2340,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Tractus_intestinalis_esophagus.svg",
     "file": "Tractus_intestinalis_esophagus.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "lengua",
@@ -1549,11 +2388,21 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Tongue",
-     "u": "https://en.wikipedia.org/wiki/Tongue"
+     "org": "Wikipedia en inglés",
+     "title": "Tongue",
+     "u": "https://en.wikipedia.org/wiki/Tongue",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Tongue map",
-     "u": "https://en.wikipedia.org/wiki/Tongue_map"
+     "org": "Wikipedia en inglés",
+     "title": "Tongue map",
+     "u": "https://en.wikipedia.org/wiki/Tongue_map",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Gray1014.png/960px-Gray1014.png",
@@ -1563,7 +2412,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Gray1014.png",
     "file": "Gray1014.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "glandulas-salivales",
@@ -1595,7 +2461,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Salivary gland",
-     "u": "https://en.wikipedia.org/wiki/Salivary_gland"
+     "org": "Wikipedia en inglés",
+     "title": "Salivary gland",
+     "u": "https://en.wikipedia.org/wiki/Salivary_gland",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Blausen_0780_SalivaryGlands.png/960px-Blausen_0780_SalivaryGlands.png",
@@ -1605,7 +2476,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Blausen_0780_SalivaryGlands.png",
     "file": "Blausen_0780_SalivaryGlands.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "diafragma",
@@ -1636,11 +2524,21 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Thoracic diaphragm",
-     "u": "https://en.wikipedia.org/wiki/Thoracic_diaphragm"
+     "org": "Wikipedia en inglés",
+     "title": "Thoracic diaphragm",
+     "u": "https://en.wikipedia.org/wiki/Thoracic_diaphragm",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Hiccup",
-     "u": "https://en.wikipedia.org/wiki/Hiccup"
+     "org": "Wikipedia en inglés",
+     "title": "Hiccup",
+     "u": "https://en.wikipedia.org/wiki/Hiccup",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Respiratory_system.svg/960px-Respiratory_system.svg.png",
@@ -1650,7 +2548,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
     "file": "Respiratory_system.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "musculo-esqueletico",
@@ -1681,7 +2596,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Skeletal muscle",
-     "u": "https://en.wikipedia.org/wiki/Skeletal_muscle"
+     "org": "Wikipedia en inglés",
+     "title": "Skeletal muscle",
+     "u": "https://en.wikipedia.org/wiki/Skeletal_muscle",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Blausen_0801_SkeletalMuscle.png/960px-Blausen_0801_SkeletalMuscle.png",
@@ -1691,7 +2611,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Blausen_0801_SkeletalMuscle.png",
     "file": "Blausen_0801_SkeletalMuscle.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "tendones",
@@ -1727,15 +2664,30 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Tendon",
-     "u": "https://en.wikipedia.org/wiki/Tendon"
+     "org": "Wikipedia en inglés",
+     "title": "Tendon",
+     "u": "https://en.wikipedia.org/wiki/Tendon",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Ligament",
-     "u": "https://en.wikipedia.org/wiki/Ligament"
+     "org": "Wikipedia en inglés",
+     "title": "Ligament",
+     "u": "https://en.wikipedia.org/wiki/Ligament",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Achilles tendon",
-     "u": "https://en.wikipedia.org/wiki/Achilles_tendon"
+     "org": "Wikipedia en inglés",
+     "title": "Achilles tendon",
+     "u": "https://en.wikipedia.org/wiki/Achilles_tendon",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Tendon_-_add_-_high_mag.jpg/960px-Tendon_-_add_-_high_mag.jpg",
@@ -1745,7 +2697,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Tendon_-_add_-_high_mag.jpg",
     "file": "Tendon_-_add_-_high_mag.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "articulaciones",
@@ -1776,15 +2745,30 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Joint",
-     "u": "https://en.wikipedia.org/wiki/Joint"
+     "org": "Wikipedia en inglés",
+     "title": "Joint",
+     "u": "https://en.wikipedia.org/wiki/Joint",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Synovial joint",
-     "u": "https://en.wikipedia.org/wiki/Synovial_joint"
+     "org": "Wikipedia en inglés",
+     "title": "Synovial joint",
+     "u": "https://en.wikipedia.org/wiki/Synovial_joint",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Cracking joints",
-     "u": "https://en.wikipedia.org/wiki/Cracking_joints"
+     "org": "Wikipedia en inglés",
+     "title": "Cracking joints",
+     "u": "https://en.wikipedia.org/wiki/Cracking_joints",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Joint.svg/960px-Joint.svg.png",
@@ -1794,7 +2778,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Joint.svg",
     "file": "Joint.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "columna",
@@ -1831,7 +2832,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Vertebral column",
-     "u": "https://en.wikipedia.org/wiki/Vertebral_column"
+     "org": "Wikipedia en inglés",
+     "title": "Vertebral column",
+     "u": "https://en.wikipedia.org/wiki/Vertebral_column",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Illu_vertebral_column.svg/960px-Illu_vertebral_column.svg.png",
@@ -1841,7 +2847,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Illu_vertebral_column.svg",
     "file": "Illu_vertebral_column.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "craneo",
@@ -1871,11 +2894,21 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Skull",
-     "u": "https://en.wikipedia.org/wiki/Skull"
+     "org": "Wikipedia en inglés",
+     "title": "Skull",
+     "u": "https://en.wikipedia.org/wiki/Skull",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Human skull",
-     "u": "https://en.wikipedia.org/wiki/Human_skull"
+     "org": "Wikipedia en inglés",
+     "title": "Human skull",
+     "u": "https://en.wikipedia.org/wiki/Human_skull",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Human_skull_side_simplified_%28bones%29.svg/960px-Human_skull_side_simplified_%28bones%29.svg.png",
@@ -1885,7 +2918,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Human_skull_side_simplified_%28bones%29.svg",
     "file": "Human skull side simplified (bones).svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "vasos-sanguineos",
@@ -1917,11 +2967,21 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Blood vessel",
-     "u": "https://en.wikipedia.org/wiki/Blood_vessel"
+     "org": "Wikipedia en inglés",
+     "title": "Blood vessel",
+     "u": "https://en.wikipedia.org/wiki/Blood_vessel",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Aorta",
-     "u": "https://en.wikipedia.org/wiki/Aorta"
+     "org": "Wikipedia en inglés",
+     "title": "Aorta",
+     "u": "https://en.wikipedia.org/wiki/Aorta",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Blood_vessels_%28retouched%29_-en.svg/960px-Blood_vessels_%28retouched%29_-en.svg.png",
@@ -1931,7 +2991,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Blood_vessels_%28retouched%29_-en.svg",
     "file": "Blood_vessels_(retouched)_-en.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "ganglios-linfaticos",
@@ -1961,7 +3038,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Lymph node",
-     "u": "https://en.wikipedia.org/wiki/Lymph_node"
+     "org": "Wikipedia en inglés",
+     "title": "Lymph node",
+     "u": "https://en.wikipedia.org/wiki/Lymph_node",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Schematic_of_lymph_node_showing_lymph_sinuses.svg/960px-Schematic_of_lymph_node_showing_lymph_sinuses.svg.png",
@@ -1971,7 +3053,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Schematic_of_lymph_node_showing_lymph_sinuses.svg",
     "file": "Schematic_of_lymph_node_showing_lymph_sinuses.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "timo",
@@ -2003,7 +3102,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Thymus",
-     "u": "https://en.wikipedia.org/wiki/Thymus"
+     "org": "Wikipedia en inglés",
+     "title": "Thymus",
+     "u": "https://en.wikipedia.org/wiki/Thymus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Illu_thymus.jpg/960px-Illu_thymus.jpg",
@@ -2013,7 +3117,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Illu_thymus.jpg",
     "file": "Illu_thymus.jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "medula-osea",
@@ -2046,7 +3167,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Bone marrow",
-     "u": "https://en.wikipedia.org/wiki/Bone_marrow"
+     "org": "Wikipedia en inglés",
+     "title": "Bone marrow",
+     "u": "https://en.wikipedia.org/wiki/Bone_marrow",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Section_of_bone_marrow_tissue_%28Prussian_blue_stain%29.jpg/960px-Section_of_bone_marrow_tissue_%28Prussian_blue_stain%29.jpg",
@@ -2056,7 +3182,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Section_of_bone_marrow_tissue_%28Prussian_blue_stain%29.jpg",
     "file": "Section_of_bone_marrow_tissue_(Prussian_blue_stain).jpg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "ovarios",
@@ -2089,7 +3232,29 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Ovary",
-     "u": "https://en.wikipedia.org/wiki/Ovary"
+     "org": "Wikipedia en inglés",
+     "title": "Ovary",
+     "u": "https://en.wikipedia.org/wiki/Ovary",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -2122,7 +3287,29 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Uterus",
-     "u": "https://en.wikipedia.org/wiki/Uterus"
+     "org": "Wikipedia en inglés",
+     "title": "Uterus",
+     "u": "https://en.wikipedia.org/wiki/Uterus",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -2156,7 +3343,29 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Testicle",
-     "u": "https://en.wikipedia.org/wiki/Testicle"
+     "org": "Wikipedia en inglés",
+     "title": "Testicle",
+     "u": "https://en.wikipedia.org/wiki/Testicle",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -2190,7 +3399,29 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Prostate",
-     "u": "https://en.wikipedia.org/wiki/Prostate"
+     "org": "Wikipedia en inglés",
+     "title": "Prostate",
+     "u": "https://en.wikipedia.org/wiki/Prostate",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
     }
    ]
   },
@@ -2225,11 +3456,21 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Human nose",
-     "u": "https://en.wikipedia.org/wiki/Human_nose"
+     "org": "Wikipedia en inglés",
+     "title": "Human nose",
+     "u": "https://en.wikipedia.org/wiki/Human_nose",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Sense of smell",
-     "u": "https://en.wikipedia.org/wiki/Sense_of_smell"
+     "org": "Wikipedia en inglés",
+     "title": "Sense of smell",
+     "u": "https://en.wikipedia.org/wiki/Sense_of_smell",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Gray854.png/960px-Gray854.png",
@@ -2239,7 +3480,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Gray854.png",
     "file": "Gray854.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "cabello",
@@ -2274,11 +3532,21 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Hair",
-     "u": "https://en.wikipedia.org/wiki/Hair"
+     "org": "Wikipedia en inglés",
+     "title": "Hair",
+     "u": "https://en.wikipedia.org/wiki/Hair",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     },
     {
      "t": "Wikipedia — Human hair growth",
-     "u": "https://en.wikipedia.org/wiki/Human_hair_growth"
+     "org": "Wikipedia en inglés",
+     "title": "Human hair growth",
+     "u": "https://en.wikipedia.org/wiki/Human_hair_growth",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Gray945.png/960px-Gray945.png",
@@ -2288,7 +3556,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Gray945.png",
     "file": "Gray945.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "unas",
@@ -2319,7 +3604,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Nail (anatomy)",
-     "u": "https://en.wikipedia.org/wiki/Nail_(anatomy)"
+     "org": "Wikipedia en inglés",
+     "title": "Nail (anatomy)",
+     "u": "https://en.wikipedia.org/wiki/Nail_(anatomy)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Nail_svg_hariadhi.svg/960px-Nail_svg_hariadhi.svg.png",
@@ -2329,7 +3619,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Nail_svg_hariadhi.svg",
     "file": "Nail_svg_hariadhi.svg"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   },
   {
    "id": "glandula-pineal",
@@ -2360,7 +3667,12 @@ window.SQ_ANATOMY = {
    "sources": [
     {
      "t": "Wikipedia — Pineal gland",
-     "u": "https://en.wikipedia.org/wiki/Pineal_gland"
+     "org": "Wikipedia en inglés",
+     "title": "Pineal gland",
+     "u": "https://en.wikipedia.org/wiki/Pineal_gland",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Gray720.png/960px-Gray720.png",
@@ -2370,7 +3682,24 @@ window.SQ_ANATOMY = {
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Gray720.png",
     "file": "Gray720.png"
-   }
+   },
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Verificación de datos contra las fuentes"
+    }
+   ]
   }
  ]
 };

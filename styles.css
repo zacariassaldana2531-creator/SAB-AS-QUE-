@@ -228,6 +228,7 @@ input{font:inherit;color:inherit}
 .verify{font-size:12.5px;color:var(--tx3);margin-top:12px;line-height:1.5}
 .endread{display:flex;align-items:center;gap:10px;justify-content:center;margin:26px 0 0;font-size:13px;color:var(--tx3)}
 .endread.done{color:var(--ok)}
+.endread svg{width:18px;height:18px;flex:none}
 
 /* ---------- Hoja inferior (sheet) ---------- */
 .sheet{position:fixed;inset:0;z-index:80;display:none}
@@ -479,3 +480,22 @@ input{font:inherit;color:inherit}
 .med-note{margin:18px 0;padding:14px 16px;border-radius:var(--r1);background:rgba(63,193,160,.08);border:1px solid rgba(63,193,160,.3);color:var(--tx2);font-size:14px;line-height:1.5}
 .med-note b{color:#7fe0c4;margin-right:4px}
 .med-note.sm{font-size:13px;padding:10px 12px;margin:12px 0}
+
+/* ===== Regla de veracidad: tipo de afirmación, referencias y verificación ===== */
+.claim-row{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+.claim-b{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:99px;font-size:12.5px;font-weight:700;letter-spacing:.2px;color:var(--k);background:color-mix(in srgb,var(--k) 12%,transparent);border:1px solid color-mix(in srgb,var(--k) 35%,transparent)}
+.claim-b i,.claims-dl dt i{width:8px;height:8px;border-radius:50%;background:var(--k);flex:none}
+.claim-b::after{content:"?";font-size:11px;opacity:.7;margin-left:2px}
+.claim-note{margin-top:12px;padding:10px 14px;border-left:3px solid var(--warn);background:rgba(242,184,75,.07);border-radius:0 10px 10px 0;font-size:14.5px;color:var(--tx2);line-height:1.5}
+.claim-note b{color:var(--tx)}
+.claims-dl{display:grid;gap:4px;margin:12px 0 16px}
+.claims-dl dt{display:flex;align-items:center;gap:8px;font-weight:700;color:var(--k);margin-top:10px;font-family:var(--sans);font-size:15px}
+.claims-dl dd{color:var(--tx2);font-size:14px;line-height:1.5;margin-left:16px;font-family:var(--sans)}
+.sources li .sk{display:inline-block;margin-bottom:4px;font-size:10.5px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--tx3);border:1px solid var(--line2);border-radius:6px;padding:1px 6px;margin-right:8px;vertical-align:1px}
+.sources li .faint{font-size:13px}
+.verif{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--tx3);padding-top:12px;border-top:1px solid var(--line)}
+.verif .ok{display:inline-flex;align-items:center;gap:5px;color:var(--ok);font-weight:700}
+.verif .ok svg{width:14px;height:14px}
+.fb-ans{margin-top:6px}
+.fb-src{margin-top:8px;font-size:13.5px;color:var(--tx3)}
+.fb-src a{color:var(--ac2);text-decoration:underline;text-underline-offset:2px}

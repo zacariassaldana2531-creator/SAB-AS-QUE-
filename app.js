@@ -55,7 +55,7 @@ const ContentRepo = (() => {
       _title: norm(i.title)
     };
   };
-  const items = (src.items || []).filter(i => i.status === 'publicado').map(enrich)
+  const items = (src.items || []).filter(i => i.status === 'publicado' && (!i.verif || i.verif.status === 'verificado')).map(enrich)
     .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   const map = Object.fromEntries(items.map(i => [i.id, i]));
   const questions = (src.questions || []).filter(q => q.status !== 'borrador' && Array.isArray(q.o) && q.o.length >= 2);
@@ -259,7 +259,26 @@ const featCard = i => `<a class="card feat" href="#/articulo/${i.id}">
   <div class="in">${catChip(i)}<h3>${esc(i.title)}</h3><p>${esc(i.desc)}</p>${metaLine(i, `<span>${fmtDate(i.date)}</span>`)}</div></a>`;
 const emptyState = (ic, h, p, cta = '') => `<div class="empty"><div class="art-ic">${ic}</div><h3>${h}</h3><p>${p}</p>${cta}</div>`;
 const favBtn = (id, label = true) => { const on = UserRepo.isFav(id); return `<button class="btn sm" data-act="fav" data-id="${id}" aria-pressed="${on}">${on ? ICON.bookmarkFill : ICON.bookmark}${label ? `<span>${on ? 'Guardado' : 'Guardar'}</span>` : ''}</button>`; };
-const sourcesBlock = srcs => (srcs && srcs.length) ? `<div class="sources"><h3>Fuentes consultadas</h3><ol>${srcs.map((s, k) => `<li id="src-${k + 1}"><a href="${esc(s.u)}" target="_blank" rel="noopener noreferrer">${esc(s.t)}</a></li>`).join('')}</ol></div>` : '';
+/* Regla de veracidad: referencias completas, estado de verificación y tipo de afirmación */
+const fmtLong = d => { try { const x = new Date(d + 'T12:00:00'); return `${x.getDate()} de ${MONTHS[x.getMonth()]} de ${x.getFullYear()}`; } catch { return d; } };
+const SRC_KIND = { institucional: 'Institución oficial', academica: 'Fuente académica', enciclopedia: 'Enciclopedia', otra: 'Otra fuente' };
+const CLAIMS = {
+  hecho: ['Hecho comprobado', '#53d39a', 'Afirmación documentada en las fuentes citadas y comprobada contra su texto.'],
+  teoria: ['Teoría científica respaldada', '#7fc4e8', 'Explicación aceptada por la comunidad científica y apoyada por estudios, que puede matizarse con nuevas investigaciones.'],
+  hipotesis: ['Hipótesis', '#f2b84b', 'Explicación propuesta que todavía no está confirmada o que es objeto de debate entre especialistas.'],
+  interpretacion: ['Interpretación histórica', '#c8a46a', 'Conclusión de los historiadores a partir de las pruebas disponibles; no es un dato documentado de forma directa.'],
+  creencia: ['Creencia religiosa', '#b48ce6', 'Afirmación propia de una fe o tradición religiosa. Se presenta como lo que creen sus fieles, no como un hecho comprobado.'],
+  leyenda: ['Leyenda', '#e07aa8', 'Relato tradicional sin respaldo documental suficiente para considerarlo un hecho.'],
+  especulacion: ['Especulación', '#ff9a8a', 'Idea sin pruebas sólidas. Solo se menciona para explicar por qué no se sostiene o qué se sabe realmente.'],
+  misterio: ['Misterio sin resolver', '#ff6f9a', 'Los hechos están documentados, pero la explicación sigue sin conocerse con certeza.'],
+  debate: ['Debate filosófico abierto', '#9fa8ff', 'Pregunta sin una única respuesta correcta: se presentan las distintas posturas.']
+};
+const claimBadge = i => { const c = CLAIMS[i.claim]; return c ? `<button class="claim-b" data-act="claims" style="--k:${c[1]}" aria-label="Tipo de afirmación: ${c[0]}. Ver qué significa"><i></i>${c[0]}</button>` : ''; };
+const claimNote = i => i.claimNote ? `<p class="claim-note"><b>Ten en cuenta:</b> ${esc(i.claimNote)}</p>` : '';
+const verifBox = i => { const v = i && i.verif; if (!v) return ''; return `<div class="verif"><span class="ok">${ICON.check} Verificado</span><span>Última revisión: ${fmtLong(v.reviewed)}</span><span>${v.level === 'institucional' ? 'Incluye fuentes institucionales o académicas' : 'Fuentes de consulta enciclopédica · incorporación de fuentes institucionales en curso'}</span></div>`; };
+const srcLine = (s, k) => `<li id="src-${k + 1}"><div><span class="sk">${SRC_KIND[s.kind] || 'Fuente'}</span><b>${esc(s.org || '')}</b>${s.org ? ' — ' : ''}<a href="${esc(s.u)}" target="_blank" rel="noopener noreferrer">«${esc(s.title || s.t)}»</a>${s.date ? ` (${esc(s.date)})` : ''}.${s.note ? ` <span class="faint">${esc(s.note)}</span>` : ''}${s.accessed ? ` <span class="faint">Consultado el ${fmtLong(s.accessed)}.</span>` : ''}</div></li>`;
+const sourcesBlock = (srcs, i) => (srcs && srcs.length) ? `<div class="sources"><h3>Fuentes y referencias</h3><ol>${srcs.map(srcLine).join('')}</ol>${verifBox(i)}</div>` : '';
+const firstSrc = x => x && x.sources && x.sources[0];
 const refMarks = srcs => (srcs && srcs.length) ? `<p class="refs">Fuentes de este texto: ${srcs.map((s, k) => `<button class="ref" data-act="toref" data-n="${k + 1}" aria-label="Ir a la fuente ${k + 1}">[${k + 1}]</button>`).join(' ')}</p>` : '';
 /* Dirección pública: páginas estáticas indexables con vista previa al compartir (las genera tools/build-pages.js) */
 const SITE = /vercel\.app$|sabiasque/i.test(location.hostname) ? location.origin : 'https://cultura-khaki.vercel.app';
@@ -308,9 +327,10 @@ const Sheet = {
       <div style="margin-top:14px">${head}</div>
       <h2 class="claim" id="sheet-title">${esc(i.title)}</h2>
       <p class="lede">${esc(i.desc)}</p>
+      <div class="claim-row">${claimBadge(i)}</div>${claimNote(i)}
       ${isArt ? `<p class="full">${esc(i.intro)}</p>${metaLine(i)}` : `<p class="full">${esc(i.body)}</p>`}
       ${i.cat === 'medicina' ? medNote('sm') : ''}
-      ${isArt ? '' : sourcesBlock(i.sources)}
+      ${isArt ? '' : sourcesBlock(i.sources, i)}
       <div class="acts">
         ${isArt ? `<a class="btn pri" href="#/articulo/${i.id}" data-act="sheet-close-nav">Leer artículo ${ICON.arrow}</a>` : ''}
         ${surprise ? `<button class="btn ${isArt ? '' : 'ac'}" data-act="surprise">${ICON.shuffle} Otro</button>` : ''}
@@ -493,6 +513,7 @@ Views.article = ([id]) => {
       <h1>${esc(i.title)}</h1>
       <p class="sub">${esc(i.subtitle || i.desc)}</p>
       ${metaLine(i, `<span>${esc(i.sub || '')}</span><span>${fmtDate(i.date)}</span>`)}
+      <div class="claim-row">${claimBadge(i)}</div>${claimNote(i)}
     </header>
     <figure class="art-fig"><div class="cover art-hero">${cover(i, { w: 1200, h: 675 })}</div>${credit(i)}</figure>
     ${toolBtns(i.id)}
@@ -504,7 +525,7 @@ Views.article = ([id]) => {
       ${refMarks(i.sources)}
     </div>
     ${i.cat === 'medicina' ? medNote() : ''}
-    ${sourcesBlock(i.sources)}
+    ${sourcesBlock(i.sources, i)}
     <p class="verify">¿Encontraste un error? Toda afirmación de este artículo debería poder comprobarse en sus fuentes. Consulta <a href="#/metodologia">cómo verificamos</a> y nuestra <a href="#/erratas">fe de erratas</a>.</p>
     <div class="endread ${read ? 'done' : ''}" id="endread">${read ? `${ICON.check} Artículo leído · +20 XP` : 'Llega al final para marcarlo como leído'}</div>
     ${related.length ? `<div class="sec"><div><h2>Más de ${esc(c.name)}</h2></div></div><div class="list">${related.map(rowCard).join('')}</div>` : ''}
@@ -524,11 +545,12 @@ Views.fact = ([id]) => {
     <header class="art-head" style="margin-top:22px">
       ${i.type === 'mito' ? `<span class="verdict ${i.verdict === 'matizado' ? 'matizado' : 'falso'}" style="margin-bottom:14px">${i.verdict === 'matizado' ? 'Verdad a medias' : 'Mito · Falso'}</span>` : catChip(i)}
       <h1>${esc(i.title)}</h1><p class="sub">${esc(i.desc)}</p>${metaLine(i)}
+      <div class="claim-row">${claimBadge(i)}</div>${claimNote(i)}
     </header>
     <div class="prose"><p>${esc(i.body)}</p>${refMarks(i.sources)}</div>
     ${i.cat === 'medicina' ? medNote() : ''}
     ${toolBtns(i.id, `<button class="btn sm" data-act="surprise">${ICON.shuffle}<span>Sorpréndeme</span></button>`)}
-    ${sourcesBlock(i.sources)}
+    ${sourcesBlock(i.sources, i)}
     ${related.length ? `<div class="sec"><div><h2>Relacionado</h2></div></div><div class="list">${related.map(rowCard).join('')}</div>` : ''}
   </article>`;
 };
@@ -589,8 +611,9 @@ function quizAnswer(k) {
     if (q.opts[j].ok) b.classList.add('ok'); else if (j === k) b.classList.add('bad'); else b.classList.add('dim');
   });
   const ref = q.ref && ContentRepo.get(q.ref);
+  const refSrc = firstSrc(ref) || (q.href && q.href.startsWith('#/anatomia/') && firstSrc(Anatomy.get(q.href.split('/').pop()))) || (q.cat === 'paises' && Countries.get(q.id.slice(2)) ? { org: 'Wikidata', title: Countries.get(q.id.slice(2)).name, u: Countries.get(q.id.slice(2)).wikidata } : null);
   const last = Quiz.i === Quiz.list.length - 1;
-  $('#fb').innerHTML = `<div class="feedback"><b class="${ok ? 'ok' : 'bad'}">${ok ? '¡Correcto! +' + 10 * q.level + ' XP' : 'No era esa'}</b><p>${esc(q.exp)}</p>
+  $('#fb').innerHTML = `<div class="feedback"><b class="${ok ? 'ok' : 'bad'}">${ok ? '¡Correcto! +' + 10 * q.level + ' XP' : 'No era esa'}</b>${ok ? '' : `<p class="fb-ans">Respuesta correcta: <b>${esc(q.opts.find(o => o.ok).t)}</b></p>`}<p>${esc(q.exp)}</p>${refSrc ? `<p class="fb-src">Fuente: <a href="${esc(refSrc.u)}" target="_blank" rel="noopener noreferrer">${esc(refSrc.org ? refSrc.org + ' — ' : '')}${esc(refSrc.title || refSrc.t)}</a></p>` : ''}
     <div class="row"><button class="btn ac" data-act="q-next">${last ? 'Ver resultado' : 'Siguiente'} ${ICON.arrow}</button>
     ${q.href ? `<a class="btn sm" href="${q.href}">${q.href.startsWith('#/anatomia') ? 'Ver en el atlas' : 'Ver país'}</a>` : ref ? `<a class="btn sm" href="${href(ref)}" ${ref.type !== 'articulo' ? `data-act="open" data-id="${ref.id}"` : ''}>Saber más</a>` : ''}</div></div>`;
   $('#fb').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -786,8 +809,9 @@ const Anatomy = {
   _all: null, _map: null,
   build() {
     const A = window.SQ_ANATOMY || { systems: [], organs: [] };
-    const sys = A.systems.map(s => ({ ...s, kind: 'sistema', type: 'anat', id: 'anat-' + s.id, slug: s.id, title: s.name, cat: 'cuerpo' }));
-    const org = A.organs.map(o => ({ ...o, kind: 'organo', type: 'anat', id: 'anat-' + o.id, slug: o.id, title: o.name, cat: 'cuerpo', desc: o.desc || o.what }));
+    const okv = x => !x.verif || x.verif.status === 'verificado';
+    const sys = A.systems.filter(okv).map(s => ({ ...s, kind: 'sistema', type: 'anat', id: 'anat-' + s.id, slug: s.id, title: s.name, cat: 'cuerpo' }));
+    const org = A.organs.filter(okv).map(o => ({ ...o, kind: 'organo', type: 'anat', id: 'anat-' + o.id, slug: o.id, title: o.name, cat: 'cuerpo', desc: o.desc || o.what }));
     this._all = [...sys, ...org];
     this._map = Object.fromEntries(this._all.map(x => [x.slug, x]));
     this._all.forEach(x => { x._s = norm([x.name, x.desc, x.intro, x.what, x.where, ...(x.facts || []).flat(), ...(x.conditions || [])].filter(Boolean).join(' ')); });
@@ -845,6 +869,7 @@ Views.anatItem = ([slug]) => {
       <a class="chip" href="#/anatomia" style="color:#ff9a8a"><span class="dot"></span>Atlas del cuerpo · ${isSys ? 'Sistema' : 'Órgano'}</a>
       <h1 style="margin-top:12px">${x.icon && isSys ? x.icon + ' ' : ''}${esc(x.name)}</h1>
       <p class="sub">${esc(isSys ? x.desc : x.what)}</p>
+      <div class="claim-row">${claimBadge(x)}</div>
     </header>
     ${toolBtns(x.id)}
     <div class="prose">
@@ -860,7 +885,7 @@ Views.anatItem = ([slug]) => {
     ${isSys ? medNote() : ''}
     ${parents.length ? `<div class="sec"><div><h2>Forma parte de</h2></div></div><div class="anat-grid">${parents.map(anatCard).join('')}</div>` : ''}
     ${kids.length ? `<div class="sec"><div><h2>Órganos de este sistema</h2></div></div><div class="list two">${kids.map(anatRow).join('')}</div>` : ''}
-    ${sourcesBlock(x.sources)}
+    ${sourcesBlock(x.sources, x)}
     <p class="verify">Cada dato de esta ficha se comprobó contra el texto de sus fuentes. Consulta <a href="#/metodologia">cómo verificamos</a>.</p>
     ${siblings.length ? `<div class="sec"><div><h2>${isSys ? 'Otros sistemas' : 'Órganos relacionados'}</h2></div></div><div class="list two">${siblings.map(anatRow).join('')}</div>` : ''}
   </article>`;
@@ -923,19 +948,26 @@ Views.dossier = ([id]) => {
 
 /* Cómo verificamos */
 Views.method = () => {
-  const all = ContentRepo.all(), srcs = new Set(all.flatMap(i => i.sources.map(s => s.u)));
+  const all = [...ContentRepo.all(), ...Anatomy.all()], srcs = all.flatMap(i => i.sources);
+  const uniq = new Set(srcs.map(s => s.u)), inst = all.filter(i => i.verif && i.verif.level === 'institucional').length;
+  const kinds = srcs.reduce((m, s) => (m[s.kind || 'otra'] = (m[s.kind || 'otra'] || 0) + 1, m), {});
+  const pct = n => Math.round(n / srcs.length * 100) + '%';
   return `<article class="art">
   <button class="back" data-act="back">${ICON.back} Volver</button>
-  <header class="art-head"><span class="chip" style="color:var(--ac2)"><span class="dot"></span>Transparencia</span><h1 style="margin-top:12px">Cómo verificamos</h1><p class="sub">Nuestro compromiso es simple: nada se publica sin una fuente que cualquiera pueda consultar.</p></header>
-  <div class="kvs"><div class="kv"><span>Contenidos</span><b>${all.length}</b></div><div class="kv"><span>Fuentes enlazadas</span><b>${srcs.size}</b></div><div class="kv"><span>Correcciones publicadas</span><b>${ContentRepo.corrections().length}</b></div></div>
+  <header class="art-head"><span class="chip" style="color:var(--ac2)"><span class="dot"></span>Transparencia</span><h1 style="margin-top:12px">Cómo verificamos</h1><p class="sub">Nuestra regla fundamental: todo lo que publicamos debe ser verídico, contrastable y estar respaldado por fuentes que cualquiera pueda consultar. Preferimos menos contenido y más confianza.</p></header>
+  <div class="kvs"><div class="kv"><span>Contenidos verificados</span><b>${all.length}</b></div><div class="kv"><span>Fuentes enlazadas</span><b>${uniq.size}</b></div><div class="kv"><span>Correcciones publicadas</span><b>${ContentRepo.corrections().length}</b></div></div>
   <div class="prose">
-    <h2><span class="n">01</span>Toda afirmación tiene fuente</h2><p>Cada artículo, curiosidad y mito enlaza las fuentes en las que se basa: enciclopedias, organismos científicos, instituciones culturales y publicaciones académicas. El panel editorial impide publicar un contenido sin al menos una fuente con dirección web válida.</p>
-    <h2><span class="n">02</span>Verificación contra el texto original</h2><p>Antes de publicar, un proceso automático descarga el texto completo de cada fuente y comprueba que los datos clave del contenido (cifras, fechas y nombres) aparezcan realmente en ella. Lo que no coincide no se publica: se corrige o se elimina.</p>
-    <h2><span class="n">03</span>Dos bases de datos para los países</h2><p>Las capitales, monedas e idiomas se contrastan entre Wikidata y una segunda base independiente. Las discrepancias se revisan una por una, y los casos complejos, como capitales múltiples o disputadas, se explican en lugar de simplificarse.</p>
-    <h2><span class="n">04</span>Lo que no sabemos, lo decimos</h2><p>Cuando una cifra varía según la fuente o un tema sigue en debate, lo señalamos. Preferimos un «no se sabe con certeza» a una afirmación tajante sin respaldo.</p>
-    <h2><span class="n">05</span>Corregimos en público</h2><p>Si detectamos un error después de publicar, lo corregimos y lo registramos en la <a href="#/erratas">fe de erratas</a>, con la fecha y el cambio realizado.</p>
-    <h2><span class="n">06</span>Imágenes con licencia libre</h2><p>Las fotografías proceden de Wikimedia Commons y tienen licencias libres (dominio público o Creative Commons). Cada imagen indica su autor y su licencia. No usamos fotografías de personas reales.</p>
-    <h2><span class="n">07</span>Límites</h2><p>La verificación automática confirma que los datos están en la fuente, pero no sustituye a la lectura experta. Muchas de nuestras fuentes son enciclopedias de referencia; con el tiempo incorporaremos más fuentes primarias, como estudios, museos y organismos oficiales.</p>
+    <h2><span class="n">01</span>Toda afirmación tiene fuente</h2><p>Cada artículo, curiosidad, mito, ficha del atlas y pregunta del quiz enlaza las fuentes en las que se basa. La sección «Fuentes y referencias» indica la institución o el autor, el título, la fecha de publicación cuando existe y la fecha en que la consultamos. El panel editorial impide publicar un contenido sin fuentes verificadas.</p>
+    <h2><span class="n">02</span>Verificación contra el texto original</h2><p>Antes de publicar, descargamos el texto completo de cada fuente y comprobamos que los datos clave (cifras, fechas y nombres) aparecen realmente en ella. Además revisamos las afirmaciones que una búsqueda automática no cubre. Lo que no se puede comprobar no se presenta como hecho: se corrige, se matiza o se elimina. No inventamos investigaciones, autores, estadísticas, fechas, citas ni enlaces.</p>
+    <h2><span class="n">03</span>Hechos, teorías y creencias, por separado</h2><p>Cada contenido indica qué tipo de afirmación hace:</p>
+    <dl class="claims-dl">${Object.values(CLAIMS).map(([n, c, d]) => `<dt style="--k:${c}"><i></i>${n}</dt><dd>${d}</dd>`).join('')}</dl>
+    <p>Cuando un contenido mezcla tipos (por ejemplo, un dato histórico sobre una creencia religiosa), lo explicamos con una nota «Ten en cuenta».</p>
+    <h2><span class="n">04</span>El quiz también cita</h2><p>Después de cada respuesta mostramos la respuesta correcta, una explicación y la fuente para profundizar.</p>
+    <h2><span class="n">05</span>Dos bases de datos para los países</h2><p>Capitales, monedas e idiomas se contrastan entre Wikidata y una segunda base independiente. Los casos complejos, como capitales múltiples o disputadas, se explican en lugar de simplificarse.</p>
+    <h2><span class="n">06</span>Fechas de revisión</h2><p>Cada contenido muestra su fecha de última revisión. Los datos que cambian con el tiempo, como estadísticas, tecnología o economía, se revisan de nuevo y se actualizan con fuentes recientes.</p>
+    <h2><span class="n">07</span>Corregimos en público</h2><p>Si detectamos un error después de publicar, lo corregimos y lo registramos en la <a href="#/erratas">fe de erratas</a>. Cada contenido guarda además su historial de cambios.</p>
+    <h2><span class="n">08</span>Imágenes con licencia libre</h2><p>Las imágenes proceden de Wikimedia Commons con licencias libres (dominio público o Creative Commons) y cada una indica su autor y su licencia. No usamos fotografías de personas reales.</p>
+    <h2><span class="n">09</span>Dónde estamos todavía: nuestras fuentes hoy</h2><p>Queremos priorizar universidades, revistas científicas revisadas por pares, organismos oficiales (NASA, OMS, UNESCO…), museos y archivos. Hoy la mayoría de nuestras referencias son enciclopédicas: ${pct(kinds.enciclopedia || 0)} de las fuentes son enciclopedias de consulta, ${pct((kinds.institucional || 0) + (kinds.academica || 0))} son instituciones oficiales o fuentes académicas y ${pct(kinds.otra || 0)} son de otro tipo. Solo ${inst} de ${all.length} contenidos incluyen ya una fuente institucional o académica.</p><p>Estamos incorporando esas fuentes por lotes, empezando por Medicina y el Atlas del cuerpo humano. Cada contenido indica en su sección de fuentes en qué punto está.</p>
   </div>${footNote()}</article>`;
 };
 
@@ -1131,6 +1163,7 @@ document.addEventListener('click', e => {
       break;
     }
     case 'sheet-close': Sheet.close(); break;
+    case 'claims': e.preventDefault(); Sheet.custom(`<h2 class="claim" id="sheet-title">Tipos de afirmación</h2><p class="faint">Cada contenido indica qué tipo de afirmación hace, para no presentar una teoría, una creencia o un misterio como si fueran hechos demostrados.</p><dl class="claims-dl">${Object.values(CLAIMS).map(([n, c, d]) => `<dt style="--k:${c}"><i></i>${n}</dt><dd>${d}</dd>`).join('')}</dl><p class="faint" style="font-size:13px">Más detalles en <a href="#/metodologia" data-act="sheet-close">Cómo verificamos</a>.</p>`); break;
     case 'sheet-close-nav': Sheet.close(); break;
     case 'fav': {
       const on = UserRepo.toggleFav(id);

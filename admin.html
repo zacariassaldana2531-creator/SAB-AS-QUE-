@@ -68,13 +68,18 @@ function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clea
 async function sha(s){ if(!crypto.subtle) return s; const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)); return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join(''); }
 
 let D = S.get('sq.draft', null) || clone(window.SQ_CONTENT);
-let state = { tab:'resumen', edit:null, kind:null, f:{type:'',status:'',cat:'',q:''} };
+let state = { tab:'resumen', edit:null, kind:null, f:{type:'',status:'',cat:'',q:'',verif:''} };
 const dirty = () => S.get('sq.draft', null) !== null;
 const save = () => { D.updated = today(); S.set('sq.draft', D) ? toast('Borrador guardado') : toast('No se pudo guardar (almacenamiento lleno)'); };
 const catName = id => (D.categories.find(c=>c.id===id)||{}).name || id;
 
 /* ---------- Validación: lo que no cumple no se puede publicar ---------- */
 const isUrl = u => /^https?:\/\/[^\s]+\.[^\s]+/.test(u||'');
+const isDate = d => /^\d{4}-\d{2}-\d{2}$/.test(d||'');
+const CLAIMS = { hecho:'Hecho comprobado', teoria:'Teoría científica respaldada', hipotesis:'Hipótesis', interpretacion:'Interpretación histórica', creencia:'Creencia religiosa', leyenda:'Leyenda', especulacion:'Especulación', misterio:'Misterio sin resolver', debate:'Debate filosófico abierto' };
+const VSTATUS = { verificado:'Verificado', 'en-revision':'Pendiente de revisión (se retira de la app)', pendiente:'Sin verificar (no se muestra)' };
+const ORGS = [[/en\.wikipedia\.org/,'enciclopedia'],[/es\.wikipedia\.org/,'enciclopedia'],[/britannica\.com/,'enciclopedia'],[/doi\.org|pubmed|ncbi\.nlm|nature\.com|science\.org|thelancet|nejm|jstor|plato\.stanford/,'academica'],[/\.gov(\/|$)|\.gob\.|who\.int|unesco\.org|nasa|nobelprize|rae\.es|europa\.eu|un\.org|si\.edu|\.edu(\/|$)|museum|museo/,'institucional']];
+const kindOf = u => (ORGS.find(([re])=>re.test(u||''))||[0,'otra'])[1];
 function validateItem(i){
   const e=[];
   if(!i.id) e.push('Falta el identificador');
@@ -82,7 +87,10 @@ function validateItem(i){
   if(!D.categories.some(c=>c.id===i.cat)) e.push('Categoría inválida');
   if(!i.desc) e.push('Falta la descripción breve');
   if(!(i.sources||[]).length) e.push('Debe tener al menos una fuente');
-  (i.sources||[]).forEach((s,k)=>{ if(!isUrl(s.u)) e.push(`Fuente ${k+1}: URL no válida`); if(!s.t) e.push(`Fuente ${k+1}: falta título`); });
+  (i.sources||[]).forEach((s,k)=>{ if(!isUrl(s.u)) e.push(`Fuente ${k+1}: URL no válida`); if(!s.org) e.push(`Fuente ${k+1}: falta la institución o el autor`); if(!(s.title||s.t)) e.push(`Fuente ${k+1}: falta el título del documento`); if(!isDate(s.accessed)) e.push(`Fuente ${k+1}: falta la fecha de consulta (AAAA-MM-DD)`); });
+  if(!i.verif||i.verif.status!=='verificado') e.push('No está verificado: marca «Verificado» solo después de comprobar cada afirmación en sus fuentes');
+  if(!i.verif||!isDate(i.verif.reviewed)) e.push('Falta la fecha de última revisión');
+  if(!CLAIMS[i.claim]) e.push('Falta el tipo de afirmación (hecho, teoría, creencia…)');
   if(i.type==='articulo'){
     if(!i.intro) e.push('Falta la introducción');
     if(!(i.sections||[]).length) e.push('Debe tener al menos un apartado');
@@ -98,6 +106,7 @@ function validateQ(q){
   if(!(q.a>=0&&q.a<=3)) e.push('Respuesta correcta inválida');
   if(!q.exp) e.push('Falta la explicación');
   if(q.ref && !D.items.some(i=>i.id===q.ref)) e.push('El contenido relacionado no existe');
+  if(!q.ref && !q.href) e.push('Falta la referencia: relaciona la pregunta con un contenido que tenga fuentes');
   return e;
 }
 const allIssues = () => [
@@ -115,8 +124,11 @@ function textToSections(t){
   });
   return out;
 }
-const sourcesToText = ss => (ss||[]).map(s=>`${s.t} | ${s.u}`).join('\n');
-const textToSources = t => String(t||'').split('\n').map(l=>l.trim()).filter(Boolean).map(l=>{const k=l.lastIndexOf('|');return k<0?{t:'',u:l}:{t:l.slice(0,k).trim(),u:l.slice(k+1).trim()}});
+const sourcesToText = ss => (ss||[]).map(s=>[s.org||'', s.title||s.t||'', s.date||'', s.u, s.accessed||''].join(' | ')).join('\n');
+const textToSources = t => String(t||'').split('\n').map(l=>l.trim()).filter(Boolean).map(l=>{
+  const p=l.split('|').map(x=>x.trim()); const k=p.findIndex(x=>/^https?:\/\//.test(x)); if(k<0) return {t:l,u:''};
+  const [org='',title='',date='']=k>=3?p.slice(0,3):k===2?[p[0],p[1],'']:['',p[0]||'',''];
+  const s={t:(org?org+' — ':'')+title,org,title,u:p[k],kind:kindOf(p[k]),accessed:p[k+1]||''}; if(date) s.date=date; if(s.kind==='enciclopedia') s.note='Obra de consulta colaborativa de edición continua (sin fecha única de publicación).'; return s; });
 const lines = t => String(t||'').split('\n').map(l=>l.trim()).filter(Boolean);
 
 /* ---------- Render ---------- */
@@ -147,23 +159,25 @@ function resumen(){
     <div class="stat"><b>${D.questions.length}</b><span>Preguntas</span></div></div>
   <div class="panel-card" style="margin-top:12px"><b>${pub}</b> publicados · <b>${D.items.length-pub}</b> borradores · ${D.categories.length} categorías<br>
   <span class="note">Última actualización: ${esc(D.updated||'—')}</span></div>
+  <div class="panel-card"><b>Verificación</b><div style="margin-top:8px;display:grid;gap:4px;font-size:14px">${Object.entries(VSTATUS).map(([k,l])=>`<div style="display:flex;justify-content:space-between"><span>${esc(l)}</span><b>${D.items.filter(i=>(i.verif||{}).status===k).length}</b></div>`).join('')}<div style="display:flex;justify-content:space-between"><span>Con fuente institucional o académica</span><b>${D.items.filter(i=>(i.verif||{}).level==='institucional').length}</b></div></div><span class="note">Nada se muestra en la app si no está verificado.</span></div>
   <div class="panel-card"><b>Contenido por categoría</b><div style="margin-top:10px;display:grid;gap:6px">${D.categories.map(k=>{const n=D.items.filter(i=>i.cat===k.id).length;const nq=D.questions.filter(q=>q.cat===k.id).length;return `<div style="display:flex;justify-content:space-between;font-size:14px"><span>${k.icon} ${esc(k.name)}</span><span class="faint">${n} contenidos · ${nq} preguntas${n<3?' <span class="badge dr">poco contenido</span>':''}</span></div>`}).join('')}</div></div>
   ${iss.length?`<div class="issues"><b>${iss.length} elemento(s) publicados con problemas</b><ul>${iss.map(x=>`<li><a href="#" data-a="edit-${x.kind}" data-id="${x.id}" style="text-decoration:underline">${esc(x.t)}</a>: ${x.e.join(', ')}</li>`).join('')}</ul></div>`:'<div class="panel-card" style="color:var(--ok)">✓ Todo el contenido publicado pasa la validación.</div>'}
   <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn ac" data-a="new-item" data-t="articulo">+ Artículo</button><button class="btn" data-a="new-item" data-t="curiosidad">+ Curiosidad</button><button class="btn" data-a="new-item" data-t="mito">+ Mito</button><button class="btn" data-a="new-q">+ Pregunta</button></div>`;
 }
 function contenidos(){
   const f=state.f, q=slug(f.q).replace(/-/g,' ');
-  const list=D.items.filter(i=>(!f.type||i.type===f.type)&&(!f.status||i.status===f.status)&&(!f.cat||i.cat===f.cat)&&(!q||slug(i.title+' '+i.id).replace(/-/g,' ').includes(q)))
+  const list=D.items.filter(i=>(!f.type||i.type===f.type)&&(!f.status||i.status===f.status)&&(!f.cat||i.cat===f.cat)&&(!f.verif||(i.verif||{}).status===f.verif)&&(!q||slug(i.title+' '+i.id).replace(/-/g,' ').includes(q)))
     .sort((a,b)=>(b.date||'').localeCompare(a.date||''));
   return `<div class="filters">
     <input placeholder="Buscar…" value="${esc(f.q)}" data-f="q">
     <select data-f="type"><option value="">Todos los tipos</option>${Object.entries(TYPE).map(([k,v])=>`<option value="${k}" ${f.type===k?'selected':''}>${v}</option>`).join('')}</select>
     <select data-f="cat"><option value="">Todas las categorías</option>${D.categories.map(c=>`<option value="${c.id}" ${f.cat===c.id?'selected':''}>${esc(c.name)}</option>`).join('')}</select>
+    <select data-f="verif"><option value="">Toda verificación</option>${Object.entries(VSTATUS).map(([k,l])=>`<option value="${k}" ${f.verif===k?'selected':''}>${esc(l.split(' (')[0])}</option>`).join('')}</select>
     <select data-f="status"><option value="">Todo estado</option><option value="publicado" ${f.status==='publicado'?'selected':''}>Publicado</option><option value="borrador" ${f.status==='borrador'?'selected':''}>Borrador</option></select>
   </div>
   <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap"><button class="btn sm ac" data-a="new-item" data-t="articulo">+ Artículo</button><button class="btn sm" data-a="new-item" data-t="curiosidad">+ Curiosidad</button><button class="btn sm" data-a="new-item" data-t="mito">+ Mito</button></div>
   <div class="faint" style="font-size:13px;margin-bottom:8px">${list.length} resultado(s)</div>
-  <div class="tbl">${list.map(i=>{const e=validateItem(i);return `<div class="it"><div><span class="badge ${i.status==='publicado'?'pub':'dr'}">${i.status}</span><span class="badge">${TYPE[i.type]}</span>${e.length?'<span class="badge err">'+e.length+' problema(s)</span>':''}<b style="margin-top:6px">${esc(i.title)}</b><small>${esc(catName(i.cat))} · ${esc(i.sub||'')} · ${esc(i.date||'')} · ${(i.sources||[]).length} fuente(s)</small></div>
+  <div class="tbl">${list.map(i=>{const e=validateItem(i);return `<div class="it"><div><span class="badge ${i.status==='publicado'?'pub':'dr'}">${i.status}</span><span class="badge">${TYPE[i.type]}</span><span class="badge ${(i.verif||{}).status==='verificado'?'pub':'err'}">${esc((VSTATUS[(i.verif||{}).status]||'Sin verificar').split(' (')[0])}</span>${e.length?'<span class="badge err">'+e.length+' problema(s)</span>':''}<b style="margin-top:6px">${esc(i.title)}</b><small>${esc(catName(i.cat))} · ${esc(i.sub||'')} · ${esc(i.date||'')} · ${(i.sources||[]).length} fuente(s) · revisado ${esc((i.verif||{}).reviewed||'—')}</small></div>
   <button class="btn sm" data-a="edit-item" data-id="${i.id}">Editar</button></div>`}).join('')||'<p class="faint">Sin resultados.</p>'}</div>`;
 }
 function preguntas(){
@@ -213,7 +227,16 @@ function editItem(){
        +fld('Datos complementarios',`<textarea name="facts">${esc((i.facts||[]).join('\n'))}</textarea>`,'Uno por línea.')
        +fld('Conclusión',`<textarea name="conclusion">${esc(i.conclusion)}</textarea>`)
       :fld('Explicación completa',`<textarea class="big" name="body" style="font-family:var(--sans)">${esc(i.body)}</textarea>`)}
-  ${fld('Fuentes y referencias',`<textarea name="sources">${esc(sourcesToText(i.sources))}</textarea>`,'Una por línea: <b>Título de la fuente | https://url</b>. Solo fuentes reales que hayas abierto y que respalden lo que dices.')}
+  ${fld('Fuentes y referencias (obligatorio)',`<textarea name="sources" class="big" style="min-height:140px">${esc(sourcesToText(i.sources))}</textarea>`,'Una por línea: <b>Institución o autor | Título del documento | Fecha de publicación (si existe) | https://enlace | Fecha de consulta AAAA-MM-DD</b>. Prioriza universidades, revistas revisadas por pares, organismos oficiales (NASA, OMS, UNESCO), museos y archivos. Nunca blogs anónimos ni redes sociales. Solo fuentes reales que hayas abierto y que respalden cada afirmación.')}
+  <div class="row2 row3">
+    ${fld('Tipo de afirmación',`<select name="claim">${Object.entries(CLAIMS).map(([k,l])=>opt(k,i.claim||'',l)).join('')}</select>`,'No presentes una teoría, una creencia o una leyenda como hecho.')}
+    ${fld('Estado de verificación',`<select name="vstatus">${Object.entries(VSTATUS).map(([k,l])=>opt(k,(i.verif||{}).status||'pendiente',l)).join('')}</select>`,'«Verificado» solo si cada afirmación importante está en una fuente que habla de ese asunto.')}
+    ${fld('Fecha de última revisión',`<input type="date" name="reviewed" value="${esc((i.verif||{}).reviewed||'')}">`)}
+  </div>
+  ${fld('Nota aclaratoria (opcional)',`<textarea name="claimNote">${esc(i.claimNote||'')}</textarea>`,'Se muestra como «Ten en cuenta». Úsala cuando el contenido mezcle hechos con teorías, creencias o incertidumbre.')}
+  ${state.isNew?'':`<div class="panel-card"><b>Registrar una corrección (opcional)</b><p class="note" style="margin:6px 0 10px">Si corriges un error de algo ya publicado, quedará en la fe de erratas pública.</p>${fld('Decía',`<textarea name="cBefore"></textarea>`)}${fld('Ahora dice',`<textarea name="cAfter"></textarea>`)}${fld('Motivo',`<input name="cWhy">`)}</div>`}
+  ${fld('Descripción del cambio',`<input name="change" placeholder="Ej.: se añadió una fuente de la OMS">`,'Se guarda en el historial de cambios.')}
+  ${(i.history||[]).length?`<div class="panel-card"><b>Historial de cambios</b><ul style="margin:8px 0 0 18px;font-size:14px">${i.history.slice().reverse().map(h=>`<li>${esc(h.date)} · ${esc(h.note)}</li>`).join('')}</ul></div>`:''}
   ${fld('Imagen (opcional)',`<input name="img" value="${esc(i.img||'')}" placeholder="https://… (vacío = ilustración automática)">`,'Solo imágenes con licencia libre (p. ej., Wikimedia Commons). Si cambias la imagen, se borra el crédito anterior: añade el autor y la licencia en las fuentes.')}
   ${fld('Identificador',`<input name="id" value="${esc(i.id)}" ${state.isNew?'':'readonly'}>`, state.isNew?'Se genera del título si lo dejas vacío. No se puede cambiar después.':'No editable: lo usan enlaces y favoritos.')}
   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">
@@ -258,6 +281,11 @@ function submit(form){
     Object.assign(i,{title:v.title.trim(),desc:v.desc.trim(),cat:v.cat,sub:v.sub.trim(),level:+v.level,status:v.status,date:v.date||today(),sources:textToSources(v.sources)});
     v.read?i.read=+v.read:delete i.read;
     { const ni=v.img.trim(); if(ni!==(i.img||'')){ delete i.imgCredit; } ni?i.img=ni:delete i.img; }  // si cambia la imagen, el crédito anterior ya no aplica
+    i.claim=v.claim; v.claimNote.trim()?i.claimNote=v.claimNote.trim():delete i.claimNote;
+    const inst=(i.sources||[]).some(s=>s.kind==='institucional'||s.kind==='academica');
+    i.verif={...(i.verif||{}),status:v.vstatus,reviewed:v.reviewed||'',level:inst?'institucional':'enciclopedica',method:(i.verif||{}).method||'Afirmaciones comprobadas contra el texto de las fuentes en el panel editorial.'};
+    i.history=[...(i.history||[]),{date:today(),note:v.change.trim()||(state.isNew?'Creación en el panel':'Edición en el panel')}];
+    if(v.cBefore&&v.cBefore.trim()&&v.cAfter&&v.cAfter.trim()){ (D.corrections=D.corrections||[]).push({id:i.id||slug(i.title),date:today(),before:v.cBefore.trim(),after:v.cAfter.trim(),why:(v.cWhy||'').trim()}); i.history.push({date:today(),note:'Corrección registrada en la fe de erratas'}); }
     if(i.type==='articulo'){ Object.assign(i,{subtitle:v.subtitle.trim(),intro:v.intro.trim(),sections:textToSections(v.sections),facts:lines(v.facts),conclusion:v.conclusion.trim()}); }
     else { i.body=v.body.trim(); if(i.type==='mito') i.verdict=v.verdict; }
     if(state.isNew){
@@ -270,6 +298,7 @@ function submit(form){
     const q=state.edit;
     Object.assign(q,{q:v.q.trim(),o:[v.o0,v.o1,v.o2,v.o3].map(x=>x.trim()),a:+v.a,level:+v.level,cat:v.cat,exp:v.exp.trim(),status:v.status});
     v.ref?q.ref=v.ref:delete q.ref;
+    q.reviewed=today();
     if(q.status==='publicado'&&validateQ(q).length){ q.status='borrador'; toast('Guardada como borrador: tiene problemas'); }
     if(state.isNew){ q.id='q'+Date.now().toString(36); D.questions.push(q); }
   } else if(state.kind==='cat'){
@@ -293,14 +322,14 @@ document.addEventListener('click', e=>{
   if(a==='tab'){ state.tab=el.dataset.v; state.edit=null; return render(); }
   e.preventDefault();
   switch(a){
-    case 'new-item': { const t=el.dataset.t; state.kind='item'; state.isNew=true; state.edit={id:'',type:t,status:'borrador',date:today(),level:1,cat:D.categories[0].id,sub:'',title:'',desc:'',sources:[],...(t==='articulo'?{subtitle:'',intro:'',sections:[],facts:[],conclusion:''}:{body:''}),...(t==='mito'?{verdict:'falso'}:{})}; return render(); }
+    case 'new-item': { const t=el.dataset.t; state.kind='item'; state.isNew=true; state.edit={id:'',type:t,status:'borrador',date:today(),level:1,cat:D.categories[0].id,sub:'',title:'',desc:'',sources:[],...(t==='articulo'?{subtitle:'',intro:'',sections:[],facts:[],conclusion:''}:{body:''}),...(t==='mito'?{verdict:'falso'}:{}),claim:'hecho',verif:{status:'pendiente',reviewed:''},history:[]}; return render(); }
     case 'edit-item': state.kind='item'; state.isNew=false; state.edit=D.items.find(i=>i.id===id); return render();
     case 'new-q': state.kind='q'; state.isNew=true; state.edit={q:'',o:['','','',''],a:0,level:1,cat:D.categories[0].id,exp:'',status:'borrador'}; return render();
     case 'edit-q': state.kind='q'; state.isNew=false; state.edit=D.questions.find(q=>q.id===id); return render();
     case 'new-cat': state.kind='cat'; state.isNew=true; state.edit={id:'',name:'',icon:'✦',color:'#8f7cff',desc:''}; return render();
     case 'edit-cat': state.kind='cat'; state.isNew=false; state.edit=D.categories.find(c=>c.id===id); return render();
     case 'cancel': D=S.get('sq.draft',null)||clone(window.SQ_CONTENT); state.edit=null; return render();
-    case 'dup': { const c=clone(state.edit); c.id=c.id+'-copia-'+Date.now().toString(36).slice(-4); c.status='borrador'; c.title+=' (copia)'; D.items.unshift(c); save(); state.edit=c; state.isNew=false; return render(); }
+    case 'dup': { const c=clone(state.edit); c.id=c.id+'-copia-'+Date.now().toString(36).slice(-4); c.status='borrador'; c.title+=' (copia)'; c.verif={...(c.verif||{}),status:'pendiente'}; c.history=[{date:today(),note:'Duplicado de '+state.edit.id}]; D.items.unshift(c); save(); state.edit=c; state.isNew=false; return render(); }
     case 'del': {
       if(el.dataset.confirm!=='1'){ el.dataset.confirm='1'; el.textContent='¿Seguro? Toca otra vez'; return; }
       if(state.kind==='item') D.items=D.items.filter(i=>i!==state.edit);
