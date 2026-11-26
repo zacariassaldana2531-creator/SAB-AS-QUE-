@@ -14,7 +14,7 @@ window.SQ_CONTENT = {
    "icon": "⚗️",
    "color": "#7c6cff",
    "desc": "Química, física y fenómenos de la naturaleza.",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/250_mL_Erlenmeyer_flask.jpg/960px-250_mL_Erlenmeyer_flask.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/250_mL_Erlenmeyer_flask.jpg/960px-250_mL_Erlenmeyer_flask.jpg",
    "imgCredit": {
     "artist": "Pilarbini",
     "license": "CC BY-SA 4.0",
@@ -29,7 +29,7 @@ window.SQ_CONTENT = {
    "icon": "🏛️",
    "color": "#c8a46a",
    "desc": "Lo que pasó y casi nadie te contó.",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/960px-The_Parthenon_in_Athens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/960px-The_Parthenon_in_Athens.jpg",
    "imgCredit": {
     "artist": "Steve Swayne",
     "license": "CC BY 2.0",
@@ -44,7 +44,7 @@ window.SQ_CONTENT = {
    "icon": "🧠",
    "color": "#e07aa8",
    "desc": "Cómo piensa, decide y se engaña la mente.",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/7/70/Rorschach_blot_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/7/70/Rorschach_blot_01.jpg",
    "imgCredit": {
     "artist": "Hermann Rorschach (died 1922)",
     "license": "Public domain",
@@ -59,7 +59,7 @@ window.SQ_CONTENT = {
    "icon": "🪐",
    "color": "#5b8cff",
    "desc": "Planetas, estrellas y la escala del cosmos.",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-33a-07.jpg/960px-ESO-VLT-Laser-phot-33a-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-33a-07.jpg/960px-ESO-VLT-Laser-phot-33a-07.jpg",
    "imgCredit": {
     "artist": "ESO/Y. Beletsky",
     "license": "CC BY 4.0",
@@ -74,7 +74,7 @@ window.SQ_CONTENT = {
    "icon": "💡",
    "color": "#4cc9d8",
    "desc": "Inventos, internet y la historia digital.",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/EPROM_Microchip_SuperMacro.jpg/960px-EPROM_Microchip_SuperMacro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/EPROM_Microchip_SuperMacro.jpg/960px-EPROM_Microchip_SuperMacro.jpg",
    "imgCredit": {
     "artist": "Zephyris",
     "license": "CC BY-SA 3.0",
@@ -89,7 +89,7 @@ window.SQ_CONTENT = {
    "icon": "🫀",
    "color": "#ff7a6b",
    "desc": "La máquina que llevas puesta.",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Heart_anterior_exterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Heart_anterior_exterior_view.png",
    "imgCredit": {
     "artist": "Jerm",
     "license": "CC BY 2.5",
@@ -104,7 +104,7 @@ window.SQ_CONTENT = {
    "icon": "🌎",
    "color": "#4fbf8f",
    "desc": "Países, extremos y formas del planeta.",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/960px-The_Blue_Marble%2C_AS17-148-22727.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/960px-The_Blue_Marble%2C_AS17-148-22727.jpg",
    "imgCredit": {
     "artist": "Harrison Schmitt / Apollo 17",
     "license": "Public domain",
@@ -119,7 +119,7 @@ window.SQ_CONTENT = {
    "icon": "🐙",
    "color": "#8fcf5a",
    "desc": "Las rarezas del reino animal.",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg/960px-African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg/960px-African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg",
    "imgCredit": {
     "artist": "Bernard DUPONT from FRANCE",
     "license": "CC BY-SA 2.0",
@@ -134,7 +134,7 @@ window.SQ_CONTENT = {
    "icon": "🏺",
    "color": "#b89cff",
    "desc": "Las preguntas que llevan siglos sin cerrarse.",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Ancientlibraryalex.jpg/960px-Ancientlibraryalex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Ancientlibraryalex.jpg/960px-Ancientlibraryalex.jpg",
    "imgCredit": {
     "artist": "O. Von Corven",
     "license": "Public domain",
@@ -149,7 +149,7 @@ window.SQ_CONTENT = {
    "icon": "🔍",
    "color": "#9aa3b8",
    "desc": "Enigmas reales que siguen abiertos.",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/960px-Stonehenge2007_07_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/960px-Stonehenge2007_07_30.jpg",
    "imgCredit": {
     "artist": "garethwiscombe",
     "license": "CC BY 2.0",
@@ -164,7 +164,7 @@ window.SQ_CONTENT = {
    "icon": "📈",
    "color": "#f2b84b",
    "desc": "El dinero, los precios y sus historias.",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Kiloware.JPG/960px-Kiloware.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Kiloware.JPG/960px-Kiloware.JPG",
    "imgCredit": {
     "artist": "Michael Sander",
     "license": "CC BY-SA 4.0",
@@ -179,7 +179,7 @@ window.SQ_CONTENT = {
    "icon": "📜",
    "color": "#d9a679",
    "desc": "Historia de las creencias y sus textos.",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/960px-Hagia_Sophia_%28228968325%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/960px-Hagia_Sophia_%28228968325%29.jpeg",
    "imgCredit": {
     "artist": "Adli Wahid",
     "license": "CC BY-SA 3.0",
@@ -194,7 +194,7 @@ window.SQ_CONTENT = {
    "icon": "🎭",
    "color": "#ef8a5c",
    "desc": "Idioma, tradiciones y República Dominicana.",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg/960px-Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg/960px-Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg",
    "imgCredit": {
     "artist": "Mariordo (Mario Roberto Durán Ortiz)",
     "license": "CC BY-SA 4.0",
@@ -258,7 +258,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Fotosfera",
      "u": "https://es.wikipedia.org/wiki/Fotosfera"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Sun920607.jpg/960px-Sun920607.jpg",
+   "imgCredit": {
+    "artist": "NASA",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Sun920607.jpg",
+    "file": "Sun920607.jpg"
+   }
   },
   {
    "id": "a-diamante-grafito",
@@ -318,7 +326,15 @@ window.SQ_CONTENT = {
      "t": "NobelPrize.org — The Nobel Prize in Physics 2010",
      "u": "https://www.nobelprize.org/prizes/physics/2010/summary/"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Eight_Allotropes_of_Carbon.svg/960px-Eight_Allotropes_of_Carbon.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Eight_Allotropes_of_Carbon.svg",
+    "file": "Eight_Allotropes_of_Carbon.svg"
+   }
   },
   {
    "id": "a-cleopatra-luna",
@@ -373,7 +389,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Woolly mammoth (supervivencia en la isla de Wrangel)",
      "u": "https://en.wikipedia.org/wiki/Woolly_mammoth"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/960px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
+   "imgCredit": {
+    "artist": "Douwe C. van der Zee",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
+    "file": "Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
+   }
   },
   {
    "id": "a-guerra-zanzibar",
@@ -419,7 +443,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Anglo-Zanzibar War",
      "u": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/AngloZanzibarWar.jpg/960px-AngloZanzibarWar.jpg",
+   "imgCredit": {
+    "artist": "Richard Mohun",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:AngloZanzibarWar.jpg",
+    "file": "AngloZanzibarWar.jpg"
+   }
   },
   {
    "id": "a-dunning-kruger",
@@ -521,7 +553,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Venus",
      "u": "https://en.wikipedia.org/wiki/Venus"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Venus_from_Mariner_10.jpg/960px-Venus_from_Mariner_10.jpg",
+   "imgCredit": {
+    "artist": "NASA/JPL-Caltech",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Venus_from_Mariner_10.jpg",
+    "file": "Venus_from_Mariner_10.jpg"
+   }
   },
   {
    "id": "a-luz-pasado",
@@ -577,7 +617,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Andromeda Galaxy",
      "u": "https://en.wikipedia.org/wiki/Andromeda_Galaxy"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Astronomical_unit_svg.svg/960px-Astronomical_unit_svg.svg.png",
+   "imgCredit": {
+    "artist": "Bertrand rodruiguez",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Astronomical_unit_svg.svg",
+    "file": "Astronomical_unit_svg.svg"
+   }
   },
   {
    "id": "a-primer-bug",
@@ -628,7 +676,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Grace Hopper",
      "u": "https://en.wikipedia.org/wiki/Grace_Hopper"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/First_Computer_Bug%2C_1947.jpg/960px-First_Computer_Bug%2C_1947.jpg",
+   "imgCredit": {
+    "artist": "Courtesy of the Naval Surface Warfare Center, Dahlgren, VA., 1988",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:First_Computer_Bug%2C_1947.jpg",
+    "file": "First_Computer_Bug,_1947.jpg"
+   }
   },
   {
    "id": "a-chimborazo",
@@ -678,7 +734,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Chimborazo",
      "u": "https://en.wikipedia.org/wiki/Chimborazo"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Chimborazo%2C_aspecto_norte%2C_Ecuador._%2826354503702%29.jpg/960px-Chimborazo%2C_aspecto_norte%2C_Ecuador._%2826354503702%29.jpg",
+   "imgCredit": {
+    "artist": "Dick Culbert from Gibsons, B.C., Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Chimborazo%2C_aspecto_norte%2C_Ecuador._%2826354503702%29.jpg",
+    "file": "Chimborazo,_aspecto_norte,_Ecuador._(26354503702).jpg"
+   }
   },
   {
    "id": "a-huesos-bebe",
@@ -729,7 +793,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Fontanelle",
      "u": "https://en.wikipedia.org/wiki/Fontanelle"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Human-Skeleton.jpg/960px-Human-Skeleton.jpg",
+   "imgCredit": {
+    "artist": "Sklmsta",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Human-Skeleton.jpg",
+    "file": "Human-Skeleton.jpg"
+   }
   },
   {
    "id": "a-pulpo",
@@ -780,7 +852,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Hemocyanin",
      "u": "https://en.wikipedia.org/wiki/Hemocyanin"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/960px-Octopus2.jpg",
+   "imgCredit": {
+    "artist": "albert kok",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg",
+    "file": "Octopus2.jpg"
+   }
   },
   {
    "id": "a-barco-teseo",
@@ -831,7 +911,15 @@ window.SQ_CONTENT = {
      "t": "Stanford Encyclopedia of Philosophy — Identity Over Time",
      "u": "https://plato.stanford.edu/entries/identity-time/"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ship_of_Theseus.svg/960px-Ship_of_Theseus.svg.png",
+   "imgCredit": {
+    "artist": "Ship outline by Yosemite, edited and coloured by Belbury",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Ship_of_Theseus.svg",
+    "file": "Ship_of_Theseus.svg"
+   }
   },
   {
    "id": "a-voynich",
@@ -878,7 +966,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Voynich manuscript",
      "u": "https://en.wikipedia.org/wiki/Voynich_manuscript"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Voynich_Manuscript_%2832%29.jpg/960px-Voynich_Manuscript_%2832%29.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_%2832%29.jpg",
+    "file": "Voynich_Manuscript_(32).jpg"
+   }
   },
   {
    "id": "a-wow-signal",
@@ -925,7 +1021,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Wow! signal",
      "u": "https://en.wikipedia.org/wiki/Wow!_signal"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Wow_signal.jpg/960px-Wow_signal.jpg",
+   "imgCredit": {
+    "artist": "Credit: Big Ear Radio Observatory and North American AstroPhysical Observatory (NAAPO)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Wow_signal.jpg",
+    "file": "Wow_signal.jpg"
+   }
   },
   {
    "id": "a-monopoly",
@@ -976,7 +1080,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Lizzie Magie",
      "u": "https://en.wikipedia.org/wiki/Lizzie_Magie"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Landlords_board_game_cover.jpg/960px-Landlords_board_game_cover.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Landlords_board_game_cover.jpg",
+    "file": "Landlords_board_game_cover.jpg"
+   }
   },
   {
    "id": "a-ano-cero",
@@ -1082,7 +1194,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Cathedral of Santa María la Menor",
      "u": "https://en.wikipedia.org/wiki/Cathedral_of_Santo_Domingo"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg/960px-Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg",
+   "imgCredit": {
+    "artist": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg",
+    "file": "Basílica_Menor_de_Santa_María_CCSD_07_2017_4676.jpg"
+   }
   },
   {
    "id": "c-platano",
@@ -1100,7 +1220,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Banana equivalent dose",
      "u": "https://en.wikipedia.org/wiki/Banana_equivalent_dose"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/960px-Banana-Single.jpg",
+   "imgCredit": {
+    "artist": "Evan-Amos",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Banana-Single.jpg",
+    "file": "Banana-Single.jpg"
+   }
   },
   {
    "id": "c-miel",
@@ -1118,7 +1246,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Honey (conservación)",
      "u": "https://en.wikipedia.org/wiki/Honey"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Runny_hunny.jpg/960px-Runny_hunny.jpg",
+   "imgCredit": {
+    "artist": "Scott Bauer, USDA ARS",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Runny_hunny.jpg",
+    "file": "Runny_hunny.jpg"
+   }
   },
   {
    "id": "c-oxigeno-mar",
@@ -1176,7 +1312,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Australia",
      "u": "https://en.wikipedia.org/wiki/Australia"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/960px-Flag_of_Australia_%28converted%29.svg.png",
+   "imgCredit": {
+    "artist": "Unknown (Vector graphics image by Ian Fieggen) (only minor code changes by uploader.)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia_%28converted%29.svg",
+    "file": "Flag_of_Australia_(converted).svg"
+   }
   },
   {
    "id": "c-francia-husos",
@@ -1194,7 +1338,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Time in France",
      "u": "https://en.wikipedia.org/wiki/Time_in_France"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/France-Constituent-Lands.png/960px-France-Constituent-Lands.png",
+   "imgCredit": {
+    "artist": "Godefroy",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:France-Constituent-Lands.png",
+    "file": "France-Constituent-Lands.png"
+   }
   },
   {
    "id": "c-desierto-antartida",
@@ -1216,7 +1368,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — List of deserts by area",
      "u": "https://en.wikipedia.org/wiki/List_of_deserts_by_area"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Antarctica_6400px_from_Blue_Marble.jpg/960px-Antarctica_6400px_from_Blue_Marble.jpg",
+   "imgCredit": {
+    "artist": "Dave Pape",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Antarctica_6400px_from_Blue_Marble.jpg",
+    "file": "Antarctica_6400px_from_Blue_Marble.jpg"
+   }
   },
   {
    "id": "c-tiburones-arboles",
@@ -1238,7 +1398,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Tree (evolución)",
      "u": "https://en.wikipedia.org/wiki/Tree"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Corl0207_%2828225976491%29.jpg/960px-Corl0207_%2828225976491%29.jpg",
+   "imgCredit": {
+    "artist": "NOAA Photo Library",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Corl0207_%2828225976491%29.jpg",
+    "file": "Corl0207_(28225976491).jpg"
+   }
   },
   {
    "id": "c-wombat",
@@ -1260,7 +1428,15 @@ window.SQ_CONTENT = {
      "t": "Improbable Research — Ig Nobel Prize winners",
      "u": "https://improbable.com/ig/winners/"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/960px-Vombatus_ursinus_-Maria_Island_National_Park.jpg",
+   "imgCredit": {
+    "artist": "JJ Harrison ([mailto:jjharrison89@facebook.com jjharrison89@facebook.com])",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Vombatus_ursinus_-Maria_Island_National_Park.jpg",
+    "file": "Vombatus_ursinus_-Maria_Island_National_Park.jpg"
+   }
   },
   {
    "id": "c-flamencos",
@@ -1278,7 +1454,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Flamingo",
      "u": "https://en.wikipedia.org/wiki/Flamingo"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Flamingos_Laguna_Colorada.jpg/960px-Flamingos_Laguna_Colorada.jpg",
+   "imgCredit": {
+    "artist": "Valdiney Pimenta",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Flamingos_Laguna_Colorada.jpg",
+    "file": "Flamingos_Laguna_Colorada.jpg"
+   }
   },
   {
    "id": "c-cornea",
@@ -1296,7 +1480,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Cornea",
      "u": "https://en.wikipedia.org/wiki/Cornea"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Cornea.png/960px-Cornea.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Cornea.png",
+    "file": "Cornea.png"
+   }
   },
   {
    "id": "c-estribo",
@@ -1314,7 +1506,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Stapes",
      "u": "https://en.wikipedia.org/wiki/Stapes"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Stapes_bone_svg_hariadhi.svg/960px-Stapes_bone_svg_hariadhi.svg.png",
+   "imgCredit": {
+    "artist": "Hariadhi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Stapes_bone_svg_hariadhi.svg",
+    "file": "Stapes_bone_svg_hariadhi.svg"
+   }
   },
   {
    "id": "c-primer-sms",
@@ -1332,7 +1532,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — SMS (historia)",
      "u": "https://en.wikipedia.org/wiki/SMS"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Party_SMS.jpg/960px-Party_SMS.jpg",
+   "imgCredit": {
+    "artist": "Thomas van de Weerd from Utrecht, The Netherlands",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Party_SMS.jpg",
+    "file": "Party_SMS.jpg"
+   }
   },
   {
    "id": "c-youtube-zoo",
@@ -1372,7 +1580,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Tenochtitlan",
      "u": "https://en.wikipedia.org/wiki/Tenochtitlan"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Arms_of_University_of_Oxford.svg/960px-Arms_of_University_of_Oxford.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Arms_of_University_of_Oxford.svg",
+    "file": "Arms_of_University_of_Oxford.svg"
+   }
   },
   {
    "id": "c-ojala",
@@ -1448,7 +1664,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Flag of the Dominican Republic",
      "u": "https://en.wikipedia.org/wiki/Flag_of_the_Dominican_Republic"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/960px-Flag_of_the_Dominican_Republic.svg.png",
+   "imgCredit": {
+    "artist": "Juan Pablo Duarte",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg",
+    "file": "Flag_of_the_Dominican_Republic.svg"
+   }
   },
   {
    "id": "c-pico-duarte",
@@ -1484,7 +1708,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Lake Enriquillo",
      "u": "https://en.wikipedia.org/wiki/Lake_Enriquillo"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Lake_Enriquillo_Dominican_Republic_2.jpg/960px-Lake_Enriquillo_Dominican_Republic_2.jpg",
+   "imgCredit": {
+    "artist": "Sanjuanero88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Lake_Enriquillo_Dominican_Republic_2.jpg",
+    "file": "Lake_Enriquillo_Dominican_Republic_2.jpg"
+   }
   },
   {
    "id": "c-larimar",
@@ -1502,7 +1734,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Larimar",
      "u": "https://en.wikipedia.org/wiki/Larimar"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Larimar.jpg/960px-Larimar.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Larimar.jpg",
+    "file": "Larimar.jpg"
+   }
   },
   {
    "id": "c-mera-exposicion",
@@ -1560,7 +1800,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Hyperinflation",
      "u": "https://en.wikipedia.org/wiki/Hyperinflation"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/HUP_100MB_1946_obverse.jpg/960px-HUP_100MB_1946_obverse.jpg",
+   "imgCredit": {
+    "artist": "Magyar Nemzeti Bank (Hungarian National Bank)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:HUP_100MB_1946_obverse.jpg",
+    "file": "HUP_100MB_1946_obverse.jpg"
+   }
   },
   {
    "id": "c-zimbabue-billete",
@@ -1578,7 +1826,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Hyperinflation in Zimbabwe",
      "u": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Zimbabwe_Hyperinflation_2008_notes.jpg/960px-Zimbabwe_Hyperinflation_2008_notes.jpg",
+   "imgCredit": {
+    "artist": ":en:User:Discott",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Hyperinflation_2008_notes.jpg",
+    "file": "Zimbabwe_Hyperinflation_2008_notes.jpg"
+   }
   },
   {
    "id": "c-caverna",
@@ -1596,7 +1852,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Allegory of the cave",
      "u": "https://en.wikipedia.org/wiki/Allegory_of_the_cave"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Platon_Cave_Sanraedam_1604.jpg/960px-Platon_Cave_Sanraedam_1604.jpg",
+   "imgCredit": {
+    "artist": "Jan SaenredamCornelis Cornelisz. van Haarlem",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Platon_Cave_Sanraedam_1604.jpg",
+    "file": "Platon_Cave_Sanraedam_1604.jpg"
+   }
   },
   {
    "id": "c-arameo",
@@ -1633,7 +1897,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Ten percent of the brain myth",
      "u": "https://en.wikipedia.org/wiki/Ten_percent_of_the_brain_myth"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Skull_and_brain_normal_human.svg/960px-Skull_and_brain_normal_human.svg.png",
+   "imgCredit": {
+    "artist": "Patrick J. Lynch, medical illustrator",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "page": "https://commons.wikimedia.org/wiki/File:Skull_and_brain_normal_human.svg",
+    "file": "Skull_and_brain_normal_human.svg"
+   }
   },
   {
    "id": "m-muralla",
@@ -1652,7 +1924,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Great Wall of China (visibilidad desde el espacio)",
      "u": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/960px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+   "imgCredit": {
+    "artist": "Severin.stalder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+    "file": "The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+   }
   },
   {
    "id": "m-vikingos",
@@ -1679,7 +1959,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Carl Emil Doepler",
      "u": "https://en.wikipedia.org/wiki/Carl_Emil_Doepler"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Gjermundbu_helmet_-_cropped.jpg/960px-Gjermundbu_helmet_-_cropped.jpg",
+   "imgCredit": {
+    "artist": "NTNU Vitenskapsmuseet",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Gjermundbu_helmet_-_cropped.jpg",
+    "file": "Gjermundbu_helmet_-_cropped.jpg"
+   }
   },
   {
    "id": "m-rayo-dos-veces",
@@ -1717,7 +2005,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Blood (color)",
      "u": "https://en.wikipedia.org/wiki/Blood"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Venous_and_arterial_blood.jpg/960px-Venous_and_arterial_blood.jpg",
+   "imgCredit": {
+    "artist": "Wesalius",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Venous_and_arterial_blood.jpg",
+    "file": "Venous_and_arterial_blood.jpg"
+   }
   },
   {
    "id": "m-murcielagos",
@@ -1736,7 +2032,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Bat (sentidos)",
      "u": "https://en.wikipedia.org/wiki/Bat"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Big-eared-townsend-fledermaus.jpg/960px-Big-eared-townsend-fledermaus.jpg",
+   "imgCredit": {
+    "artist": "PD-USGov, exact author unknown",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Big-eared-townsend-fledermaus.jpg",
+    "file": "Big-eared-townsend-fledermaus.jpg"
+   }
   },
   {
    "id": "m-toros-rojo",
@@ -1755,7 +2059,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Cattle (visión)",
      "u": "https://en.wikipedia.org/wiki/Cattle"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/960px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg",
+   "imgCredit": {
+    "artist": "Kim Hansen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg",
+    "file": "Cow_(Fleckvieh_breed)_Oeschinensee_Slaunger_2009-07-07.jpg"
+   }
   },
   {
    "id": "m-chicle",
@@ -1774,7 +2086,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Chewing gum",
      "u": "https://en.wikipedia.org/wiki/Chewing_gum"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Chewing_gum_stick.jpg/960px-Chewing_gum_stick.jpg",
+   "imgCredit": {
+    "artist": "Lusheeta",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Chewing_gum_stick.jpg",
+    "file": "Chewing_gum_stick.jpg"
+   }
   },
   {
    "id": "m-napoleon",
@@ -1812,7 +2132,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Common ostrich (comportamiento)",
      "u": "https://en.wikipedia.org/wiki/Common_ostrich"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/960px-Struthio_camelus_-_Etosha_2014_%283%29.jpg",
+   "imgCredit": {
+    "artist": "Yathin S Krishnappa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Struthio_camelus_-_Etosha_2014_%283%29.jpg",
+    "file": "Struthio_camelus_-_Etosha_2014_(3).jpg"
+   }
   },
   {
    "id": "m-camaleon",
@@ -1831,7 +2159,15 @@ window.SQ_CONTENT = {
      "t": "Wikipedia — Chameleon (cambio de color)",
      "u": "https://en.wikipedia.org/wiki/Chameleon"
     }
-   ]
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Panther_Chameleon_738367_%28cropped%29.jpg/960px-Panther_Chameleon_738367_%28cropped%29.jpg",
+   "imgCredit": {
+    "artist": "Rod Waddington",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Panther_Chameleon_738367_%28cropped%29.jpg",
+    "file": "Panther_Chameleon_738367_(cropped).jpg"
+   }
   },
   {
    "id": "c-hielo-flota",
@@ -1849,7 +2185,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Ice_Block%2C_Canal_Park%2C_Duluth_%2832752478892%29.jpg/960px-Ice_Block%2C_Canal_Park%2C_Duluth_%2832752478892%29.jpg",
+   "imgCredit": {
+    "artist": "Sharon Mollerus",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Ice_Block%2C_Canal_Park%2C_Duluth_%2832752478892%29.jpg",
+    "file": "Ice_Block,_Canal_Park,_Duluth_(32752478892).jpg"
+   }
   },
   {
    "id": "c-sonido-agua",
@@ -1886,7 +2230,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-12"
+   "date": "2026-11-12",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Fassade_Wilhelmstrasse_65%2C_Berlin-Mitte%2C_160417%2C_ako.jpg/960px-Fassade_Wilhelmstrasse_65%2C_Berlin-Mitte%2C_160417%2C_ako.jpg",
+   "imgCredit": {
+    "artist": "Ansgar Koreng",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Fassade_Wilhelmstrasse_65%2C_Berlin-Mitte%2C_160417%2C_ako.jpg",
+    "file": "Fassade_Wilhelmstrasse_65,_Berlin-Mitte,_160417,_ako.jpg"
+   }
   },
   {
    "id": "c-helio-sol",
@@ -1922,7 +2274,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/960px-Mixed_onions.jpg",
+   "imgCredit": {
+    "artist": "Colin",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mixed_onions.jpg",
+    "file": "Mixed_onions.jpg"
+   }
   },
   {
    "id": "c-penicilina",
@@ -1944,7 +2304,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-22"
+   "date": "2026-10-22",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Penicillin_Core_v2.svg/960px-Penicillin_Core_v2.svg.png",
+   "imgCredit": {
+    "artist": "User:Innerstream",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Penicillin_Core_v2.svg",
+    "file": "Penicillin_Core_v2.svg"
+   }
   },
   {
    "id": "c-arcoiris-circulo",
@@ -1980,7 +2348,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Golden_clouds_against_a_blue_sky.jpg/960px-Golden_clouds_against_a_blue_sky.jpg",
+   "imgCredit": {
+    "artist": "Goose Green Photography",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Golden_clouds_against_a_blue_sky.jpg",
+    "file": "Golden_clouds_against_a_blue_sky.jpg"
+   }
   },
   {
    "id": "c-guerra-emus",
@@ -2016,7 +2392,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-30"
+   "date": "2026-10-30",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Schlacht_von_Azincourt.jpg/960px-Schlacht_von_Azincourt.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Schlacht_von_Azincourt.jpg",
+    "file": "Schlacht_von_Azincourt.jpg"
+   }
   },
   {
    "id": "c-onoda",
@@ -2107,7 +2491,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Flammarion.jpg/960px-Flammarion.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Flammarion.jpg",
+    "file": "Flammarion.jpg"
+   }
   },
   {
    "id": "a-asch",
@@ -2226,7 +2618,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Felsengesicht_von_Dwejra_%28Gozo%2C_Malta%29.jpg/960px-Felsengesicht_von_Dwejra_%28Gozo%2C_Malta%29.jpg",
+   "imgCredit": {
+    "artist": "Merlingenial",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Felsengesicht_von_Dwejra_%28Gozo%2C_Malta%29.jpg",
+    "file": "Felsengesicht_von_Dwejra_(Gozo,_Malta).jpg"
+   }
   },
   {
    "id": "c-efecto-foco",
@@ -2368,7 +2768,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Far_side_of_the_Moon.png/960px-Far_side_of_the_Moon.png",
+   "imgCredit": {
+    "artist": "NASA",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Far_side_of_the_Moon.png",
+    "file": "Far_side_of_the_Moon.png"
+   }
   },
   {
    "id": "c-dia-marte",
@@ -2390,7 +2798,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-24"
+   "date": "2026-11-24",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/960px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+   "imgCredit": {
+    "artist": "Kevin Gill from Los Angeles, CA, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+    "file": "Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
+   }
   },
   {
    "id": "c-saturno-densidad",
@@ -2408,7 +2824,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png/960px-Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png",
+   "imgCredit": {
+    "artist": "NASA / JPL-Caltech / SSI / color composite by Gordan Ugarkovic",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png",
+    "file": "Saturn_global_view_from_Cassini,_rings_open_Better_Colour.png"
+   }
   },
   {
    "id": "c-olympus-mons",
@@ -2426,7 +2850,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Olympus_Mons_-_ESA_Mars_Express_-_Flickr_-_Andrea_Luck.png/960px-Olympus_Mons_-_ESA_Mars_Express_-_Flickr_-_Andrea_Luck.png",
+   "imgCredit": {
+    "artist": "ESA/DLR/FUBerlin/AndreaLuck",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Olympus_Mons_-_ESA_Mars_Express_-_Flickr_-_Andrea_Luck.png",
+    "file": "Olympus_Mons_-_ESA_Mars_Express_-_Flickr_-_Andrea_Luck.png"
+   }
   },
   {
    "id": "c-voyager-1",
@@ -2448,7 +2880,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-03"
+   "date": "2026-11-03",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/960px-Voyager_spacecraft_model.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+    "file": "Voyager_spacecraft_model.png"
+   }
   },
   {
    "id": "c-masa-sol",
@@ -2466,7 +2906,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-27"
+   "date": "2026-10-27",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/The_Sun_in_white_light.jpg/960px-The_Sun_in_white_light.jpg",
+   "imgCredit": {
+    "artist": "Matúš Motlo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Sun_in_white_light.jpg",
+    "file": "The_Sun_in_white_light.jpg"
+   }
   },
   {
    "id": "c-ganimedes",
@@ -2484,7 +2932,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-25"
+   "date": "2026-11-25",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Ganymede_-_Perijove_34_Composite.png/960px-Ganymede_-_Perijove_34_Composite.png",
+   "imgCredit": {
+    "artist": "NASA/JPL-Caltech/SwRI/MSSS/Kevin M. Gill",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Ganymede_-_Perijove_34_Composite.png",
+    "file": "Ganymede_-_Perijove_34_Composite.png"
+   }
   },
   {
    "id": "m-lado-oscuro-luna",
@@ -2503,7 +2959,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-18"
+   "date": "2026-11-18",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Far_side_of_the_Moon.png/960px-Far_side_of_the_Moon.png",
+   "imgCredit": {
+    "artist": "NASA",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Far_side_of_the_Moon.png",
+    "file": "Far_side_of_the_Moon.png"
+   }
   },
   {
    "id": "a-primer-email",
@@ -2592,7 +3056,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/960px-RecaptchaLogo.svg.png",
+   "imgCredit": {
+    "artist": "Google",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:RecaptchaLogo.svg",
+    "file": "RecaptchaLogo.svg"
+   }
   },
   {
    "id": "c-bluetooth",
@@ -2610,7 +3082,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Plantronics_Voyager_Legend.JPG/960px-Plantronics_Voyager_Legend.JPG",
+   "imgCredit": {
+    "artist": "CIA MAN275",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Plantronics_Voyager_Legend.JPG",
+    "file": "Plantronics_Voyager_Legend.JPG"
+   }
   },
   {
    "id": "c-computadora-apolo",
@@ -2664,7 +3144,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/WiFi_Logo.svg/960px-WiFi_Logo.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg",
+    "file": "WiFi_Logo.svg"
+   }
   },
   {
    "id": "c-qr-toyota",
@@ -2682,7 +3170,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/960px-QR_code_for_mobile_English_Wikipedia.svg.png",
+   "imgCredit": {
+    "artist": "Brdall",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:QR_code_for_mobile_English_Wikipedia.svg",
+    "file": "QR_code_for_mobile_English_Wikipedia.svg"
+   }
   },
   {
    "id": "c-acido-estomago",
@@ -2700,7 +3196,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-22"
+   "date": "2026-10-22",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Determinants_of_Gastric_Acid_Secretion.svg/960px-Determinants_of_Gastric_Acid_Secretion.svg.png",
+   "imgCredit": {
+    "artist": "Adam L. VanWert, Pharm.D., Ph.D",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Determinants_of_Gastric_Acid_Secretion.svg",
+    "file": "Determinants_of_Gastric_Acid_Secretion.svg"
+   }
   },
   {
    "id": "c-huesos-manos-pies",
@@ -2740,7 +3244,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Knee_diagram.svg/960px-Knee_diagram.svg.png",
+   "imgCredit": {
+    "artist": "Mysid",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Knee_diagram.svg",
+    "file": "Knee_diagram.svg"
+   }
   },
   {
    "id": "m-mapa-lengua",
@@ -2759,7 +3271,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Taste_buds.svg/960px-Taste_buds.svg.png",
+   "imgCredit": {
+    "artist": "MesserWoland",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Taste_buds.svg",
+    "file": "Taste_buds.svg"
+   }
   },
   {
    "id": "m-cinco-sentidos",
@@ -2778,7 +3298,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-30"
+   "date": "2026-10-30",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/XBio_illustration_%E2%80%93_The_Five_Senses.png/960px-XBio_illustration_%E2%80%93_The_Five_Senses.png",
+   "imgCredit": {
+    "artist": "explorebiology",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:XBio_illustration_%E2%80%93_The_Five_Senses.png",
+    "file": "XBio_illustration_–_The_Five_Senses.png"
+   }
   },
   {
    "id": "c-hipo-record",
@@ -2815,7 +3343,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Cracking_knuckles.jpg/960px-Cracking_knuckles.jpg",
+   "imgCredit": {
+    "artist": "Jaysin Trevino from Evanston, IL, US",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Cracking_knuckles.jpg",
+    "file": "Cracking_knuckles.jpg"
+   }
   },
   {
    "id": "c-bostezo-contagioso",
@@ -2851,7 +3387,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/BeringSt-close-VE.jpg/960px-BeringSt-close-VE.jpg",
+   "imgCredit": {
+    "artist": "NASA",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:BeringSt-close-VE.jpg",
+    "file": "BeringSt-close-VE.jpg"
+   }
   },
   {
    "id": "c-baikal",
@@ -2869,7 +3413,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Baikal.A2001296.0420.250m-NASA.jpg/960px-Baikal.A2001296.0420.250m-NASA.jpg",
+   "imgCredit": {
+    "artist": "Jacques Descloitres, MODIS Land Rapid Response Team, NASA/GSFC",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Baikal.A2001296.0420.250m-NASA.jpg",
+    "file": "Baikal.A2001296.0420.250m-NASA.jpg"
+   }
   },
   {
    "id": "c-mar-muerto",
@@ -2887,7 +3439,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-24"
+   "date": "2026-10-24",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Dead_Sea_beach_00.JPG/960px-Dead_Sea_beach_00.JPG",
+   "imgCredit": {
+    "artist": "لا روسا",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Dead_Sea_beach_00.JPG",
+    "file": "Dead_Sea_beach_00.JPG"
+   }
   },
   {
    "id": "c-vaticano",
@@ -2905,7 +3465,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/960px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png",
+   "imgCredit": {
+    "artist": "Goran_tek-en",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Vatican_City_%282023%E2%80%93present%29.svg",
+    "file": "Flag_of_Vatican_City_(2023–present).svg"
+   }
   },
   {
    "id": "c-mercator",
@@ -2923,7 +3491,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Mercator_projection_Square.JPG/960px-Mercator_projection_Square.JPG",
+   "imgCredit": {
+    "artist": "Strebe",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercator_projection_Square.JPG",
+    "file": "Mercator_projection_Square.JPG"
+   }
   },
   {
    "id": "c-la-espanola",
@@ -2941,7 +3517,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/ISS027-E-17333_-_View_of_Dominican_Republic.jpg/960px-ISS027-E-17333_-_View_of_Dominican_Republic.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:ISS027-E-17333_-_View_of_Dominican_Republic.jpg",
+    "file": "ISS027-E-17333_-_View_of_Dominican_Republic.jpg"
+   }
   },
   {
    "id": "c-pacifico",
@@ -2959,7 +3543,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Pacific_Ocean_-_en.png/960px-Pacific_Ocean_-_en.png",
+   "imgCredit": {
+    "artist": "CIA World Factbook",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Pacific_Ocean_-_en.png",
+    "file": "Pacific_Ocean_-_en.png"
+   }
   },
   {
    "id": "c-punto-nemo",
@@ -2995,7 +3587,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-23"
+   "date": "2026-11-23",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png/960px-SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png",
+   "imgCredit": {
+    "artist": "Schokraie E, Warnken U, Hotz-Wagenblatt A, Grohme MA, Hengherr S, et al. (2012)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "page": "https://commons.wikimedia.org/wiki/File:SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png",
+    "file": "SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_(white_background).png"
+   }
   },
   {
    "id": "c-medusa-inmortal",
@@ -3013,7 +3613,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Turritopsis_dohrnii.jpg/960px-Turritopsis_dohrnii.jpg",
+   "imgCredit": {
+    "artist": "Bachware",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Turritopsis_dohrnii.jpg",
+    "file": "Turritopsis_dohrnii.jpg"
+   }
   },
   {
    "id": "c-jirafa-cuello",
@@ -3049,7 +3657,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-02"
+   "date": "2026-11-02",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Axolotl_ganz.jpg/960px-Axolotl_ganz.jpg",
+   "imgCredit": {
+    "artist": "LoKiLeCh",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Axolotl_ganz.jpg",
+    "file": "Axolotl_ganz.jpg"
+   }
   },
   {
    "id": "c-pez-payaso",
@@ -3067,7 +3683,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-26"
+   "date": "2026-10-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg/960px-Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg",
+   "imgCredit": {
+    "artist": "Nick Hobgood",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg",
+    "file": "Amphiprion_ocellaris_(Clown_anemonefish)_by_Nick_Hobgood.jpg"
+   }
   },
   {
    "id": "m-vaca-estomagos",
@@ -3086,7 +3710,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-24"
+   "date": "2026-11-24",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ruminantia.jpg/960px-Ruminantia.jpg",
+   "imgCredit": {
+    "artist": "* :File:Bison bonasus (Linnaeus 1758).jpg (Michael Gäbler)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Ruminantia.jpg",
+    "file": "Ruminantia.jpg"
+   }
   },
   {
    "id": "m-memoria-pez",
@@ -3105,7 +3737,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Gold_fish1.jpg/960px-Gold_fish1.jpg",
+   "imgCredit": {
+    "artist": "לינה אבוגוש",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Gold_fish1.jpg",
+    "file": "Gold_fish1.jpg"
+   }
   },
   {
    "id": "m-camello-agua",
@@ -3175,7 +3815,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Trolley_Problem.svg/960px-Trolley_Problem.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Trolley_Problem.svg",
+    "file": "Trolley_Problem.svg"
+   }
   },
   {
    "id": "c-socrates-no-escribio",
@@ -3301,7 +3949,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Marcus_Aurelius._De_seipso%2C_seu_vita_sua_%28Xylander%2C_1558%29.jpg/960px-Marcus_Aurelius._De_seipso%2C_seu_vita_sua_%28Xylander%2C_1558%29.jpg",
+   "imgCredit": {
+    "artist": "Marcus Aurelius|City=Zürich|Date=1558|Description=M. Antonini Imperatoris Romani, Et Philo",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius._De_seipso%2C_seu_vita_sua_%28Xylander%2C_1558%29.jpg",
+    "file": "Marcus_Aurelius._De_seipso,_seu_vita_sua_(Xylander,_1558).jpg"
+   }
   },
   {
    "id": "c-regla-oro",
@@ -3385,7 +4041,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_49.JPG/960px-L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_49.JPG",
+   "imgCredit": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_49.JPG",
+    "file": "Líneas_de_Nazca,_Nazca,_Perú,_2015-07-29,_DD_49.JPG"
+   }
   },
   {
    "id": "c-anticitera",
@@ -3403,7 +4067,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Antikythera_Fragment_A_%28Front%29.webp/960px-Antikythera_Fragment_A_%28Front%29.webp",
+   "imgCredit": {
+    "artist": "Hubcapp/author",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Antikythera_Fragment_A_%28Front%29.webp",
+    "file": "Antikythera_Fragment_A_(Front).webp"
+   }
   },
   {
    "id": "c-dyatlov",
@@ -3457,7 +4129,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Rongorongo_B-v_Aruku-Kurenga_%28color%29_edit1.jpg/960px-Rongorongo_B-v_Aruku-Kurenga_%28color%29_edit1.jpg",
+   "imgCredit": {
+    "artist": "*Rongorongo_B-v_Aruku-Kurenga_(color).jpg: unknown",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Rongorongo_B-v_Aruku-Kurenga_%28color%29_edit1.jpg",
+    "file": "Rongorongo_B-v_Aruku-Kurenga_(color)_edit1.jpg"
+   }
   },
   {
    "id": "c-mary-celeste",
@@ -3475,7 +4155,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Mary_Celeste_as_Amazon_in_1861_%28cropped%29.jpg/960px-Mary_Celeste_as_Amazon_in_1861_%28cropped%29.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Mary_Celeste_as_Amazon_in_1861_%28cropped%29.jpg",
+    "file": "Mary_Celeste_as_Amazon_in_1861_(cropped).jpg"
+   }
   },
   {
    "id": "c-lineal-a",
@@ -3497,7 +4185,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-30"
+   "date": "2026-10-30",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Linear_A_cup.png/960px-Linear_A_cup.png",
+   "imgCredit": {
+    "artist": "Evans, Arthur, Sir (1851-1941)",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Linear_A_cup.png",
+    "file": "Linear_A_cup.png"
+   }
   },
   {
    "id": "m-triangulo-bermudas",
@@ -3579,7 +4275,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Water_Diamonds.jpg/960px-Water_Diamonds.jpg",
+   "imgCredit": {
+    "artist": "Paul Sapiano",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Water_Diamonds.jpg",
+    "file": "Water_Diamonds.jpg"
+   }
   },
   {
    "id": "c-jiaozi",
@@ -3597,7 +4301,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Hue-tzu_%28Song_Dynasty_government_issue%29%2C_1023_-_John_E._Sandrock.jpg/960px-Hue-tzu_%28Song_Dynasty_government_issue%29%2C_1023_-_John_E._Sandrock.jpg",
+   "imgCredit": {
+    "artist": "John E. Sandrock",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Hue-tzu_%28Song_Dynasty_government_issue%29%2C_1023_-_John_E._Sandrock.jpg",
+    "file": "Hue-tzu_(Song_Dynasty_government_issue),_1023_-_John_E._Sandrock.jpg"
+   }
   },
   {
    "id": "c-tulipomania",
@@ -3615,7 +4327,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jan_Brueghel_the_Younger%2C_Satire_on_Tulip_Mania%2C_c._1640.jpg/960px-Jan_Brueghel_the_Younger%2C_Satire_on_Tulip_Mania%2C_c._1640.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Jan_Brueghel_the_Younger%2C_Satire_on_Tulip_Mania%2C_c._1640.jpg",
+    "file": "Jan_Brueghel_the_Younger,_Satire_on_Tulip_Mania,_c._1640.jpg"
+   }
   },
   {
    "id": "c-big-mac",
@@ -3633,7 +4353,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-24"
+   "date": "2026-10-24",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/McDonalds-Big-Mac-Price-World-Map-2022.png/960px-McDonalds-Big-Mac-Price-World-Map-2022.png",
+   "imgCredit": {
+    "artist": "CashNetUsa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:McDonalds-Big-Mac-Price-World-Map-2022.png",
+    "file": "McDonalds-Big-Mac-Price-World-Map-2022.png"
+   }
   },
   {
    "id": "c-piedras-yap",
@@ -3669,7 +4397,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Bitcoin_transactions_per_month.svg/960px-Bitcoin_transactions_per_month.svg.png",
+   "imgCredit": {
+    "artist": "FrankAndProust",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bitcoin_transactions_per_month.svg",
+    "file": "Bitcoin_transactions_per_month.svg"
+   }
   },
   {
    "id": "m-salario-sal",
@@ -3793,7 +4529,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/960px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
+   "imgCredit": {
+    "artist": "NYC Wanderer (Kevin Eng)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
+    "file": "Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg"
+   }
   },
   {
    "id": "c-navidad-336",
@@ -3811,7 +4555,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/NativityChristmasLights2.jpg/960px-NativityChristmasLights2.jpg",
+   "imgCredit": {
+    "artist": "* File:NativityChristmasLights.jpg:",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:NativityChristmasLights2.jpg",
+    "file": "NativityChristmasLights2.jpg"
+   }
   },
   {
    "id": "c-calendario-islamico",
@@ -3848,7 +4600,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-26"
+   "date": "2026-10-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Budai%2C_British_Museum.jpg/960px-Budai%2C_British_Museum.jpg",
+   "imgCredit": {
+    "artist": "Mike Peel/Attribution",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Budai%2C_British_Museum.jpg",
+    "file": "Budai,_British_Museum.jpg"
+   }
   },
   {
    "id": "c-rigveda",
@@ -3866,7 +4626,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-24"
+   "date": "2026-11-24",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Rigveda_MS2097.jpg/960px-Rigveda_MS2097.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Rigveda_MS2097.jpg",
+    "file": "Rigveda_MS2097.jpg"
+   }
   },
   {
    "id": "c-pascua-fecha",
@@ -3888,7 +4656,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Chora_Anastasis2.jpg/960px-Chora_Anastasis2.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Chora_Anastasis2.jpg",
+    "file": "Chora_Anastasis2.jpg"
+   }
   },
   {
    "id": "c-cemies",
@@ -3906,7 +4682,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Deity_Figure_%28Zem%C3%AD%29_MET_DP295635.jpg/960px-Deity_Figure_%28Zem%C3%AD%29_MET_DP295635.jpg",
+   "imgCredit": {
+    "artist": "|title = Deity Figure (Zemí)",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Deity_Figure_%28Zem%C3%AD%29_MET_DP295635.jpg",
+    "file": "Deity_Figure_(Zemí)_MET_DP295635.jpg"
+   }
   },
   {
    "id": "c-aleluya",
@@ -3924,7 +4708,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-03"
+   "date": "2026-11-03",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Hallelu_Yah.JPG/960px-Hallelu_Yah.JPG",
+   "imgCredit": {
+    "artist": "Blue62",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Hallelu_Yah.JPG",
+    "file": "Hallelu_Yah.JPG"
+   }
   },
   {
    "id": "c-ok-origen",
@@ -3942,7 +4734,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-27"
+   "date": "2026-10-27",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/OK-button_-_Macro_photography_of_a_remote_control.jpg/960px-OK-button_-_Macro_photography_of_a_remote_control.jpg",
+   "imgCredit": {
+    "artist": "Maximilian Schönherr",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:OK-button_-_Macro_photography_of_a_remote_control.jpg",
+    "file": "OK-button_-_Macro_photography_of_a_remote_control.jpg"
+   }
   },
   {
    "id": "c-mona-lisa-robo",
@@ -3960,7 +4760,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-25"
+   "date": "2026-11-25",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "file": "Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg"
+   }
   },
   {
    "id": "c-cervantes-shakespeare",
@@ -4000,7 +4808,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Latin_alphabet_%C3%91%C3%B1.svg/960px-Latin_alphabet_%C3%91%C3%B1.svg.png",
+   "imgCredit": {
+    "artist": "Eirik1231",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Latin_alphabet_%C3%91%C3%B1.svg",
+    "file": "Latin_alphabet_Ññ.svg"
+   }
   },
   {
    "id": "c-guira",
@@ -4018,7 +4834,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Guira_from_Dominican_Repub.jpg/960px-Guira_from_Dominican_Repub.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Guira_from_Dominican_Repub.jpg",
+    "file": "Guira_from_Dominican_Repub.jpg"
+   }
   },
   {
    "id": "c-bachata-unesco",
@@ -4058,7 +4882,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Estadio_quisqueya_santo_domingo_dominican_republic_1.jpg/960px-Estadio_quisqueya_santo_domingo_dominican_republic_1.jpg",
+   "imgCredit": {
+    "artist": "Calt2001",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_quisqueya_santo_domingo_dominican_republic_1.jpg",
+    "file": "Estadio_quisqueya_santo_domingo_dominican_republic_1.jpg"
+   }
   },
   {
    "id": "c-faro-colon",
@@ -4076,7 +4908,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-19"
+   "date": "2026-11-19",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Santo_Domingo.El_Faro_a_Col%C3%B3n.20170402.jpg/960px-Santo_Domingo.El_Faro_a_Col%C3%B3n.20170402.jpg",
+   "imgCredit": {
+    "artist": "Epizentrum",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Santo_Domingo.El_Faro_a_Col%C3%B3n.20170402.jpg",
+    "file": "Santo_Domingo.El_Faro_a_Colón.20170402.jpg"
+   }
   },
   {
    "id": "c-sombrero-panama",
@@ -4112,7 +4952,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Museum_-_The_Noun_Project.svg/960px-Museum_-_The_Noun_Project.svg.png",
+   "imgCredit": {
+    "artist": "Iconathon",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Museum_-_The_Noun_Project.svg",
+    "file": "Museum_-_The_Noun_Project.svg"
+   }
   },
   {
    "id": "a-marie-curie",
@@ -4209,7 +5057,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg/960px-Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg",
+   "imgCredit": {
+    "artist": "Carsten Steger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg",
+    "file": "Aerial_image_of_Pompeii_and_Mount_Vesuvius_(view_from_the_southeast).jpg"
+   }
   },
   {
    "id": "a-milgram",
@@ -4256,7 +5112,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Milgram_experiment_v2.svg/960px-Milgram_experiment_v2.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Milgram_experiment_v2.svg",
+    "file": "Milgram_experiment_v2.svg"
+   }
   },
   {
    "id": "a-tunguska",
@@ -4307,7 +5171,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-26"
+   "date": "2026-11-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Tunguska_Ereignis-1.jpg/960px-Tunguska_Ereignis-1.jpg",
+   "imgCredit": {
+    "artist": "Leonid Kulik, the expedition to the Tunguska event",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Tunguska_Ereignis-1.jpg",
+    "file": "Tunguska_Ereignis-1.jpg"
+   }
   },
   {
    "id": "a-mansa-musa",
@@ -4374,7 +5246,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-22"
+   "date": "2026-10-22",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pouring_liquid_mercury_bionerd.jpg/960px-Pouring_liquid_mercury_bionerd.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Pouring_liquid_mercury_bionerd.jpg",
+    "file": "Pouring_liquid_mercury_bionerd.jpg"
+   }
   },
   {
    "id": "c-protocolo-montreal",
@@ -4392,7 +5272,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-20"
+   "date": "2026-11-20",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Ozone_Hole_2024_Update.webp/960px-Ozone_Hole_2024_Update.webp",
+   "imgCredit": {
+    "artist": "NASA",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Ozone_Hole_2024_Update.webp",
+    "file": "Ozone_Hole_2024_Update.webp"
+   }
   },
   {
    "id": "m-newton-manzana",
@@ -4465,7 +5353,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-23"
+   "date": "2026-10-23",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/CelsiusKelvin.svg/960px-CelsiusKelvin.svg.png",
+   "imgCredit": {
+    "artist": "*Celsius_kelvin_estandar_1954.png: Homo logos",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:CelsiusKelvin.svg",
+    "file": "CelsiusKelvin.svg"
+   }
   },
   {
    "id": "c-efecto-mariposa",
@@ -4506,7 +5402,15 @@ window.SQ_CONTENT = {
    ],
    "verdict": "falso",
    "status": "publicado",
-   "date": "2026-11-14"
+   "date": "2026-11-14",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Cage_de_Faraday.jpg/960px-Cage_de_Faraday.jpg",
+   "imgCredit": {
+    "artist": "Antoine Taveneaux",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Cage_de_Faraday.jpg",
+    "file": "Cage_de_Faraday.jpg"
+   }
   },
   {
    "id": "c-mongoles",
@@ -4560,7 +5464,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-24"
+   "date": "2026-10-24",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CairoEgMuseumTaaMaskMostlyPhotographed.jpg/960px-CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
+   "imgCredit": {
+    "artist": "Roland Unger",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
+    "file": "CairoEgMuseumTaaMaskMostlyPhotographed.jpg"
+   }
   },
   {
    "id": "c-carta-magna",
@@ -4578,7 +5490,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg/960px-Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg",
+   "imgCredit": {
+    "artist": "Original authors were the barons and King John of England. Uploaded by Earthsound",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg",
+    "file": "Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg"
+   }
   },
   {
    "id": "c-revolucion-haitiana",
@@ -4614,7 +5534,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Goletaseparacion.jpg/960px-Goletaseparacion.jpg",
+   "imgCredit": {
+    "artist": "Adolfo García Obregón",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Goletaseparacion.jpg",
+    "file": "Goletaseparacion.jpg"
+   }
   },
   {
    "id": "m-maria-antonieta",
@@ -4651,7 +5579,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-25"
+   "date": "2026-10-25",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg",
+   "imgCredit": {
+    "artist": "FeaturedPics",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+    "file": "Colosseo_2020.jpg"
+   }
   },
   {
    "id": "c-sesgo-confirmacion",
@@ -4763,7 +5699,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-24"
+   "date": "2026-11-24",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Forgetting_curve_decline.svg/960px-Forgetting_curve_decline.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Forgetting_curve_decline.svg",
+    "file": "Forgetting_curve_decline.svg"
+   }
   },
   {
    "id": "c-espectador",
@@ -4818,7 +5762,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-03"
+   "date": "2026-11-03",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Apollo_11_Lunar_Laser_Ranging_Experiment.jpg/960px-Apollo_11_Lunar_Laser_Ranging_Experiment.jpg",
+   "imgCredit": {
+    "artist": "NASA",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Apollo_11_Lunar_Laser_Ranging_Experiment.jpg",
+    "file": "Apollo_11_Lunar_Laser_Ranging_Experiment.jpg"
+   }
   },
   {
    "id": "c-pluton",
@@ -4836,7 +5788,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-27"
+   "date": "2026-10-27",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/960px-Pluto_in_True_Color_-_High-Res.png",
+   "imgCredit": {
+    "artist": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png",
+    "file": "Pluto_in_True_Color_-_High-Res.png"
+   }
   },
   {
    "id": "c-andromeda-choque",
@@ -4872,7 +5832,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-18"
+   "date": "2026-11-18",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Lspn_comet_halley.jpg/960px-Lspn_comet_halley.jpg",
+   "imgCredit": {
+    "artist": "NASA/W. Liller",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Lspn_comet_halley.jpg",
+    "file": "Lspn_comet_halley.jpg"
+   }
   },
   {
    "id": "c-gagarin",
@@ -4934,7 +5902,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Messier_87_Hubble_WikiSky.jpg/960px-Messier_87_Hubble_WikiSky.jpg",
+   "imgCredit": {
+    "artist": ":en:NASA, :en:STScI, :en:WikiSky",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Messier_87_Hubble_WikiSky.jpg",
+    "file": "Messier_87_Hubble_WikiSky.jpg"
+   }
   },
   {
    "id": "m-gravedad-iss",
@@ -5061,7 +6037,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-20"
+   "date": "2026-11-20",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/WikiProject_Writing_%28%40WP_Writing%29_Tweet_-_Why_edit_Wikipedia%3F.jpg/960px-WikiProject_Writing_%28%40WP_Writing%29_Tweet_-_Why_edit_Wikipedia%3F.jpg",
+   "imgCredit": {
+    "artist": "Breadyornot",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:WikiProject_Writing_%28%40WP_Writing%29_Tweet_-_Why_edit_Wikipedia%3F.jpg",
+    "file": "WikiProject_Writing_(@WP_Writing)_Tweet_-_Why_edit_Wikipedia?.jpg"
+   }
   },
   {
    "id": "c-gps-relatividad",
@@ -5079,7 +6063,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/GPS_Satellite_NASA_art-iif.jpg/960px-GPS_Satellite_NASA_art-iif.jpg",
+   "imgCredit": {
+    "artist": "NASA",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:GPS_Satellite_NASA_art-iif.jpg",
+    "file": "GPS_Satellite_NASA_art-iif.jpg"
+   }
   },
   {
    "id": "c-engelbart-raton",
@@ -5119,7 +6111,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-30"
+   "date": "2026-10-30",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/UPC-A-036000291452.svg/960px-UPC-A-036000291452.svg.png",
+   "imgCredit": {
+    "artist": "toguro",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:UPC-A-036000291452.svg",
+    "file": "UPC-A-036000291452.svg"
+   }
   },
   {
    "id": "c-placebo",
@@ -5137,7 +6137,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-23"
+   "date": "2026-10-23",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Cebocap.jpg/960px-Cebocap.jpg",
+   "imgCredit": {
+    "artist": "NIH, objects donated by Elaine and Arthur Shapiro",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Cebocap.jpg",
+    "file": "Cebocap.jpg"
+   }
   },
   {
    "id": "c-ritmo-cardiaco",
@@ -5155,7 +6163,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Normal_electrocardiogram.jpg/960px-Normal_electrocardiogram.jpg",
+   "imgCredit": {
+    "artist": "medipics1066",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Normal_electrocardiogram.jpg",
+    "file": "Normal_electrocardiogram.jpg"
+   }
   },
   {
    "id": "c-unas",
@@ -5173,7 +6189,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-14"
+   "date": "2026-11-14",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Nail_svg_hariadhi.svg/960px-Nail_svg_hariadhi.svg.png",
+   "imgCredit": {
+    "artist": "Hariadhi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Nail_svg_hariadhi.svg",
+    "file": "Nail_svg_hariadhi.svg"
+   }
   },
   {
    "id": "c-grupos-sanguineos",
@@ -5227,7 +6251,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-24"
+   "date": "2026-10-24",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Skull_and_brain_normal_human.svg/960px-Skull_and_brain_normal_human.svg.png",
+   "imgCredit": {
+    "artist": "Patrick J. Lynch, medical illustrator",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "page": "https://commons.wikimedia.org/wiki/File:Skull_and_brain_normal_human.svg",
+    "file": "Skull_and_brain_normal_human.svg"
+   }
   },
   {
    "id": "c-punto-ciego",
@@ -5245,7 +6277,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Evolution_eye_2.svg/960px-Evolution_eye_2.svg.png",
+   "imgCredit": {
+    "artist": "Caerbannog svg version, based on Jerry Crimson Mann png version",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Evolution_eye_2.svg",
+    "file": "Evolution_eye_2.svg"
+   }
   },
   {
    "id": "c-higado-regenera",
@@ -5281,7 +6321,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/SaltoAngel1.jpg/960px-SaltoAngel1.jpg",
+   "imgCredit": {
+    "artist": "Rich Childs",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:SaltoAngel1.jpg",
+    "file": "SaltoAngel1.jpg"
+   }
   },
   {
    "id": "c-atacama",
@@ -5299,7 +6347,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Atacama.png/960px-Atacama.png",
+   "imgCredit": {
+    "artist": "NASA",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Atacama.png",
+    "file": "Atacama.png"
+   }
   },
   {
    "id": "c-groenlandia",
@@ -5317,7 +6373,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-25"
+   "date": "2026-10-25",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Greenland.svg/960px-Flag_of_Greenland.svg.png",
+   "imgCredit": {
+    "artist": "Jeffrey Connell ()",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Greenland.svg",
+    "file": "Flag_of_Greenland.svg"
+   }
   },
   {
    "id": "c-amazonas-caudal",
@@ -5371,7 +6435,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/960px-Flag_of_New_Zealand.svg.png",
+   "imgCredit": {
+    "artist": "{{AutVec|o=|v=, , s. }}",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg",
+    "file": "Flag_of_New_Zealand.svg"
+   }
   },
   {
    "id": "c-samana-ballenas",
@@ -5393,7 +6465,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-02"
+   "date": "2026-11-02",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/View_of_Saman%C3%A1_Bay_from_the_Top_1.jpg/960px-View_of_Saman%C3%A1_Bay_from_the_Top_1.jpg",
+   "imgCredit": {
+    "artist": "Danu Widjajanto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_Saman%C3%A1_Bay_from_the_Top_1.jpg",
+    "file": "View_of_Samaná_Bay_from_the_Top_1.jpg"
+   }
   },
   {
    "id": "c-nilo-paises",
@@ -5411,7 +6491,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-26"
+   "date": "2026-10-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Beautiful_nature_along_Nile_River_01.jpg/960px-Beautiful_nature_along_Nile_River_01.jpg",
+   "imgCredit": {
+    "artist": "Fiktube",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Beautiful_nature_along_Nile_River_01.jpg",
+    "file": "Beautiful_nature_along_Nile_River_01.jpg"
+   }
   },
   {
    "id": "c-koala-huellas",
@@ -5433,7 +6521,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-24"
+   "date": "2026-11-24",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/960px-Koala_climbing_tree.jpg",
+   "imgCredit": {
+    "artist": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg",
+    "file": "Koala_climbing_tree.jpg"
+   }
   },
   {
    "id": "c-colibri-atras",
@@ -5451,7 +6547,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Trinidad_and_Tobago_hummingbirds_composite.jpg/960px-Trinidad_and_Tobago_hummingbirds_composite.jpg",
+   "imgCredit": {
+    "artist": "Charles J Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Trinidad_and_Tobago_hummingbirds_composite.jpg",
+    "file": "Trinidad_and_Tobago_hummingbirds_composite.jpg"
+   }
   },
   {
    "id": "c-elefante-espejo",
@@ -5469,7 +6573,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Mirror_test_with_a_Baboon.JPG/960px-Mirror_test_with_a_Baboon.JPG",
+   "imgCredit": {
+    "artist": "Moshe Blank",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mirror_test_with_a_Baboon.JPG",
+    "file": "Mirror_test_with_a_Baboon.JPG"
+   }
   },
   {
    "id": "c-cuervos-herramientas",
@@ -5487,7 +6599,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-03"
+   "date": "2026-11-03",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Corvus_moneduloides_718440887.jpg/960px-Corvus_moneduloides_718440887.jpg",
+   "imgCredit": {
+    "artist": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Corvus_moneduloides_718440887.jpg",
+    "file": "Corvus_moneduloides_718440887.jpg"
+   }
   },
   {
    "id": "c-danza-abejas",
@@ -5509,7 +6629,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-27"
+   "date": "2026-10-27",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Bee_dance.svg/960px-Bee_dance.svg.png",
+   "imgCredit": {
+    "artist": "Own work",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bee_dance.svg",
+    "file": "Bee_dance.svg"
+   }
   },
   {
    "id": "c-ballena-azul",
@@ -5527,7 +6655,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-25"
+   "date": "2026-11-25",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg/960px-Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
+   "imgCredit": {
+    "artist": "NOAA Photo Library",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "file": "Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg"
+   }
   },
   {
    "id": "c-nutria-piedras",
@@ -5545,7 +6681,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-18"
+   "date": "2026-11-18",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg/960px-Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg",
+   "imgCredit": {
+    "artist": "Marshal Hedin from San Diego",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg",
+    "file": "Sea_Otter_(Enhydra_lutris)_(25169790524)_crop.jpg"
+   }
   },
   {
    "id": "c-hormigas-hongos",
@@ -5563,7 +6707,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Atta_cephalotes-pjt.jpg/960px-Atta_cephalotes-pjt.jpg",
+   "imgCredit": {
+    "artist": "Pjt56",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Atta_cephalotes-pjt.jpg",
+    "file": "Atta_cephalotes-pjt.jpg"
+   }
   },
   {
    "id": "c-ornitorrinco",
@@ -5581,7 +6733,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg/960px-Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg",
+   "imgCredit": {
+    "artist": "Charles J Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg",
+    "file": "Duck-billed_platypus_(Ornithorhynchus_anatinus)_Scottsdale.jpg"
+   }
   },
   {
    "id": "m-lemmings",
@@ -5600,7 +6760,15 @@ window.SQ_CONTENT = {
    ],
    "verdict": "falso",
    "status": "publicado",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Tunturisopuli_Lemmus_Lemmus.jpg/960px-Tunturisopuli_Lemmus_Lemmus.jpg",
+   "imgCredit": {
+    "artist": "Argus fin",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Tunturisopuli_Lemmus_Lemmus.jpg",
+    "file": "Tunturisopuli_Lemmus_Lemmus.jpg"
+   }
   },
   {
    "id": "c-aristoteles-alejandro",
@@ -5690,7 +6858,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Mawangdui_LaoTsu_Ms2.JPG/960px-Mawangdui_LaoTsu_Ms2.JPG",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Mawangdui_LaoTsu_Ms2.JPG",
+    "file": "Mawangdui_LaoTsu_Ms2.JPG"
+   }
   },
   {
    "id": "c-gato-schrodinger",
@@ -5708,7 +6884,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-22"
+   "date": "2026-10-22",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Schrodingers_cat.svg/960px-Schrodingers_cat.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Schrodingers_cat.svg",
+    "file": "Schrodingers_cat.svg"
+   }
   },
   {
    "id": "c-bentham-autoicono",
@@ -5762,7 +6946,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/960px-Stonehenge2007_07_30.jpg",
+   "imgCredit": {
+    "artist": "garethwiscombe",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Stonehenge2007_07_30.jpg",
+    "file": "Stonehenge2007_07_30.jpg"
+   }
   },
   {
    "id": "c-moai-caminar",
@@ -5780,7 +6972,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-30"
+   "date": "2026-10-30",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/AhuTongariki.JPG/960px-AhuTongariki.JPG",
+   "imgCredit": {
+    "artist": "Ian Sewell",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:AhuTongariki.JPG",
+    "file": "AhuTongariki.JPG"
+   }
   },
   {
    "id": "c-gobekli-tepe",
@@ -5798,7 +6998,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-23"
+   "date": "2026-10-23",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/G%C3%B6bekli_Tepe%2C_Urfa.jpg/960px-G%C3%B6bekli_Tepe%2C_Urfa.jpg",
+   "imgCredit": {
+    "artist": "Teomancimit",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe%2C_Urfa.jpg",
+    "file": "Göbekli_Tepe,_Urfa.jpg"
+   }
   },
   {
    "id": "c-rayo-globular",
@@ -5816,7 +7024,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Ball_lightning.png/960px-Ball_lightning.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Ball_lightning.png",
+    "file": "Ball_lightning.png"
+   }
   },
   {
    "id": "c-bloop",
@@ -5834,7 +7050,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-14"
+   "date": "2026-11-14",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Bloop.jpg/960px-Bloop.jpg",
+   "imgCredit": {
+    "artist": "National Oceanic and Atmospheric Administration",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Bloop.jpg",
+    "file": "Bloop.jpg"
+   }
   },
   {
    "id": "c-disco-festo",
@@ -5852,7 +7076,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Phaistos_Disc_%E2%80%94_Side_A.jpg/960px-Phaistos_Disc_%E2%80%94_Side_A.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Phaistos_Disc_%E2%80%94_Side_A.jpg",
+    "file": "Phaistos_Disc_—_Side_A.jpg"
+   }
   },
   {
    "id": "m-nessie-foto",
@@ -5871,7 +7103,15 @@ window.SQ_CONTENT = {
    ],
    "verdict": "falso",
    "status": "publicado",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Loch_Ness_Monster_Surgeon%27s_photograph.jpg/960px-Loch_Ness_Monster_Surgeon%27s_photograph.jpg",
+   "imgCredit": {
+    "artist": "M. A. Wetherell",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Loch_Ness_Monster_Surgeon%27s_photograph.jpg",
+    "file": "Loch_Ness_Monster_Surgeon's_photograph.jpg"
+   }
   },
   {
    "id": "m-roswell",
@@ -5890,7 +7130,15 @@ window.SQ_CONTENT = {
    ],
    "verdict": "falso",
    "status": "publicado",
-   "date": "2026-10-24"
+   "date": "2026-10-24",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Roswell_Daily_Record._July_8%2C_1947._RAAF_Captures_Flying_Saucer_On_Ranch_in_Roswell_Region._Top_of_front_page.jpg/960px-Roswell_Daily_Record._July_8%2C_1947._RAAF_Captures_Flying_Saucer_On_Ranch_in_Roswell_Region._Top_of_front_page.jpg",
+   "imgCredit": {
+    "artist": "Roswell Daily Record",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Roswell_Daily_Record._July_8%2C_1947._RAAF_Captures_Flying_Saucer_On_Ranch_in_Roswell_Region._Top_of_front_page.jpg",
+    "file": "Roswell_Daily_Record._July_8,_1947._RAAF_Captures_Flying_Saucer_On_Ranch_in_Roswell_Region._Top_of_front_page.jpg"
+   }
   },
   {
    "id": "c-primeras-monedas",
@@ -5912,7 +7160,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Kingdom_of_Lydia.png/960px-Kingdom_of_Lydia.png",
+   "imgCredit": {
+    "artist": "Ennomus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Kingdom_of_Lydia.png",
+    "file": "Kingdom_of_Lydia.png"
+   }
   },
   {
    "id": "c-dolar-taler",
@@ -5948,7 +7204,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Dollar_sign_fonts.svg/960px-Dollar_sign_fonts.svg.png",
+   "imgCredit": {
+    "artist": "Kes47",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Dollar_sign_fonts.svg",
+    "file": "Dollar_sign_fonts.svg"
+   }
   },
   {
    "id": "c-voc-acciones",
@@ -5966,7 +7230,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Flag_of_the_Dutch_East_India_Company.svg/960px-Flag_of_the_Dutch_East_India_Company.svg.png",
+   "imgCredit": {
+    "artist": "Himasaram",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dutch_East_India_Company.svg",
+    "file": "Flag_of_the_Dutch_East_India_Company.svg"
+   }
   },
   {
    "id": "c-diners-club",
@@ -6020,7 +7292,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/SC06_2006_Rolls-Royce_Phantom.jpg/960px-SC06_2006_Rolls-Royce_Phantom.jpg",
+   "imgCredit": {
+    "artist": "Brett Weinstein (Wikipedia User: Nrbelex)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "page": "https://commons.wikimedia.org/wiki/File:SC06_2006_Rolls-Royce_Phantom.jpg",
+    "file": "SC06_2006_Rolls-Royce_Phantom.jpg"
+   }
   },
   {
    "id": "c-santa-sofia",
@@ -6038,7 +7318,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/960px-Hagia_Sophia_%28228968325%29.jpeg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_%28228968325%29.jpeg",
+    "file": "Hagia_Sophia_(228968325).jpeg"
+   }
   },
   {
    "id": "c-angkor-wat",
@@ -6074,7 +7362,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-26"
+   "date": "2026-10-26",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/John_1.jpg/960px-John_1.jpg",
+   "imgCredit": {
+    "artist": "John Snyder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:John_1.jpg",
+    "file": "John_1.jpg"
+   }
   },
   {
    "id": "c-san-nicolas",
@@ -6114,7 +7410,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Altagracia_oficial.jpg/960px-Altagracia_oficial.jpg",
+   "imgCredit": {
+    "artist": "IacobusL",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Altagracia_oficial.jpg",
+    "file": "Altagracia_oficial.jpg"
+   }
   },
   {
    "id": "c-langar",
@@ -6168,7 +7472,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-10-27"
+   "date": "2026-10-27",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Faravahar_on_Fire_Temple%2C_Yazd.jpg/960px-Faravahar_on_Fire_Temple%2C_Yazd.jpg",
+   "imgCredit": {
+    "artist": "Bernard Gagnon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Faravahar_on_Fire_Temple%2C_Yazd.jpg",
+    "file": "Faravahar_on_Fire_Temple,_Yazd.jpg"
+   }
   },
   {
    "id": "c-ajedrez-india",
@@ -6190,7 +7502,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-25"
+   "date": "2026-11-25",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Radha-Krishna_chess.jpg/960px-Radha-Krishna_chess.jpg",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Radha-Krishna_chess.jpg",
+    "file": "Radha-Krishna_chess.jpg"
+   }
   },
   {
    "id": "c-sandwich",
@@ -6244,7 +7564,15 @@ window.SQ_CONTENT = {
     }
    ],
    "status": "publicado",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Three_Bars_%281%29.jpg/960px-Three_Bars_%281%29.jpg",
+   "imgCredit": {
+    "artist": "Lynnereal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Three_Bars_%281%29.jpg",
+    "file": "Three_Bars_(1).jpg"
+   }
   },
   {
    "id": "c-tomate-venenoso",
