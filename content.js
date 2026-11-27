@@ -3003,7 +3003,8 @@ window.SQ_CONTENT = {
    "sub": "República Dominicana",
    "title": "El merengue es Patrimonio Cultural Inmaterial de la Humanidad",
    "desc": "La UNESCO lo inscribió en 2016.",
-   "body": "La UNESCO incluyó «la música y el baile del merengue en la República Dominicana» en su Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad en 2016. La bachata recibió el mismo reconocimiento en 2019. El merengue se considera un elemento central de la identidad dominicana.",
+   "body": "La UNESCO incluyó «la música y el baile del merengue en la República Dominicana» en su Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad en 2016. La bachata recibió el mismo reconocimiento en 2019. El merengue se considera parte de la identidad nacional dominicana y, según la UNESCO, está presente en muchos aspectos de la vida diaria: desde la educación hasta las reuniones sociales, las celebraciones e incluso las campañas políticas.\n\nSe baila en pareja, con gestos de coqueteo, mientras los bailarines se mueven en círculos al ritmo de instrumentos como el acordeón, la tambora y el saxofón. Normalmente se aprende desde pequeño, observando, participando e imitando. En 2005, un decreto presidencial declaró el 26 de noviembre Día Nacional del Merengue, y cada año se celebran festivales de merengue en ciudades como Santo Domingo y Puerto Plata.",
+   "deep": "La UNESCO destaca que el merengue atrae a personas de distintas clases sociales, lo que ayuda a promover el respeto y la convivencia entre individuos, grupos y comunidades. Considera el norte del país como la cuna de esta práctica, cuya influencia se extiende a Puerto Rico, Estados Unidos y toda la región del Caribe. Además, el merengue es popular en otros países de América Latina, como Venezuela y Colombia, donde han surgido variantes propias, y en Centroamérica. Según la UNESCO, los conocimientos sobre el merengue se transmiten de generación en generación, observando, participando e imitando.",
    "sources": [
     {
      "t": "UNESCO — Music and dance of Dominican merengue",
@@ -3017,7 +3018,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-07",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -3029,6 +3030,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-07",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3042,7 +3047,8 @@ window.SQ_CONTENT = {
    "sub": "República Dominicana",
    "title": "La bandera dominicana es la única con una Biblia",
    "desc": "Su escudo muestra una Biblia abierta, algo que no aparece en ninguna otra bandera nacional.",
-   "body": "El escudo en el centro de la bandera de la República Dominicana incluye una Biblia abierta, una cruz, lanzas y banderas, junto al lema «Dios, Patria, Libertad». Se considera la única bandera nacional del mundo que representa una Biblia.",
+   "body": "El escudo en el centro de la bandera de la República Dominicana incluye una Biblia abierta, una cruz, lanzas y banderas, junto al lema «Dios, Patria, Libertad». Se considera la única bandera nacional del mundo que representa una Biblia. La Biblia aparece abierta en el Evangelio de Juan, capítulo 8, versículos 31 y 32, un pasaje que habla de la verdad y la libertad.\n\nLa bandera la diseñó Juan Pablo Duarte, el padre de la patria. Según la Constitución dominicana, está formada por los colores azul ultramar y rojo bermellón, en cuarteles alternos, separados por una cruz blanca, con el escudo nacional en el centro. El azul representa la libertad, el blanco la salvación y el rojo la sangre de los héroes. La bandera mercante es igual, pero sin el escudo.",
+   "deep": "El diseño tiene una historia ligada a la independencia. Entre 1822 y 1844 toda la isla estuvo unida bajo la República de Haití, y la sociedad secreta La Trinitaria, fundada por Duarte en 1838, luchó por la independencia. El escudo, con la Biblia sobre la cruz y el lema «Dios, Patria, Libertad», refleja los ideales cristianos de Duarte. La bandera es uno de los tres símbolos patrios oficiales de la nación, junto con el escudo y el himno nacional, y su descripción oficial figura en el artículo 31 de la Constitución, lo que muestra la importancia que el país le concede como emblema nacional.",
    "sources": [
     {
      "t": "Wikipedia — Flag of the Dominican Republic",
@@ -3065,7 +3071,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -3077,6 +3083,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3188,7 +3198,8 @@ window.SQ_CONTENT = {
    "sub": "República Dominicana",
    "title": "El larimar solo se encuentra en República Dominicana",
    "desc": "Esta piedra azul celeste se extrae en la provincia de Barahona.",
-   "body": "El larimar es una variedad azul del mineral pectolita. Hasta donde se conoce, solo se extrae de forma comercial en la República Dominicana, en la zona montañosa de Barahona. Su nombre lo dio Miguel Méndez, que combinó el nombre de su hija Larissa con la palabra «mar».",
+   "body": "El larimar es una variedad azul y rara del mineral pectolita. Hasta donde se conoce, solo se encuentra en la República Dominicana, en la zona de Barahona. Su color puede ir del blanco azulado y el azul claro al verde azulado, el turquesa y el azul profundo. Ese color azul, que lo distingue de otras pectolitas, se debe a que en su estructura hay cobre que sustituye al calcio.\n\nSu nombre lo dio Miguel Méndez, que redescubrió la piedra en 1974 junto con Norman Rilling, un voluntario del Cuerpo de Paz, en una playa al pie de la sierra de Bahoruco, en la provincia de Barahona. Méndez combinó el nombre de su hija Larissa con la palabra «mar», para evocar los colores del mar Caribe donde se encontró. Los lugareños creían que la piedra venía del mar y la llamaban «piedra azul».",
+   "deep": "Sin embargo, ya se conocía antes: según los registros del Ministerio de Minas dominicano, el 22 de noviembre de 1916 el padre Miguel Domingo Fuertes Loren, de la parroquia de Barahona, pidió permiso para explorar y explotar una mina de cierta roca azul que había descubierto. Como las pectolitas aún no se conocían en el país, la solicitud fue rechazada. Las pocas piedras que encontraron Méndez y Rilling eran sedimentos arrastrados hasta el mar por el río Bahoruco, y buscando río arriba se hallaron los afloramientos en la sierra, donde pronto se abrió la mina de Los Chupaderos. El larimar se formó en rocas volcánicas que hicieron erupción entre las calizas de la costa sur del país.",
    "sources": [
     {
      "t": "Wikipedia — Larimar",
@@ -3211,7 +3222,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -3223,6 +3234,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10506,7 +10521,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La Mona Lisa se hizo mundialmente famosa después de que la robaran",
    "desc": "En 1911, un empleado del Louvre se la llevó escondida bajo su ropa.",
-   "body": "Vincenzo Peruggia, un italiano que había trabajado en el museo, robó la pintura en 1911. Estuvo desaparecida más de dos años, y la noticia apareció en periódicos de todo el mundo. Se recuperó en 1913 en Florencia. El caso convirtió la obra de Leonardo da Vinci en una celebridad.",
+   "body": "El 21 de agosto de 1911, la Mona Lisa fue robada del Museo del Louvre, en París. En esa época, la pintura todavía no era popular entre el gran público. El ladrón fue Vincenzo Peruggia, un italiano que había trabajado en el museo y que justificó el robo con su patriotismo: creía que la obra debía estar en Italia. El Louvre cerró una semana para investigar.\n\nLas sospechas recayeron incluso sobre artistas famosos: el poeta francés Guillaume Apollinaire fue arrestado, y él implicó a su amigo Pablo Picasso, que fue interrogado; ambos quedaron libres de culpa. Peruggia guardó la pintura en su apartamento durante dos años, hasta que intentó vendérsela al director de la Galería de los Uffizi, en Florencia, y fue descubierto. La obra se recuperó en diciembre de 1913.",
+   "deep": "Tras exhibirse en los Uffizi durante más de dos semanas, la Mona Lisa volvió al Louvre el 4 de enero de 1914. El robo y su recuperación generaron una publicidad sin precedentes para una obra de arte, y en parte por eso la pintura de Leonardo da Vinci es hoy, según muchos, la obra de arte más conocida, más visitada y más parodiada del mundo. Leonardo la pintó entre 1503 y 1506, aunque quizá siguió trabajando en ella hasta 1517. Se cree que retrata a Lisa del Giocondo, una noble florentina. Hoy se exhibe protegida por un vidrio antibalas, en una vitrina con clima controlado.",
    "sources": [
     {
      "t": "Wikipedia — Mona Lisa",
@@ -10531,7 +10547,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -10543,6 +10559,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10681,7 +10701,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El sonido metálico del merengue viene de la güira",
    "desc": "Es un raspador de metal que se toca con un cepillo de púas.",
-   "body": "Junto con la tambora y el acordeón, la güira forma el trío básico del merengue típico dominicano. Es un cilindro de metal con relieves que se raspa con un cepillo de púas metálicas, marcando el ritmo constante del baile. Se cree que tiene antecedentes en el güiro de origen taíno, hecho con calabaza.",
+   "body": "Junto con la tambora y el acordeón, la güira forma el trío básico del merengue típico dominicano. Es un instrumento de percusión de la República Dominicana que se usa sobre todo en el merengue y la bachata, y en menor medida en otros géneros como la cumbia. Está hecha de una lámina de metal, normalmente acero, con relieves, y se raspa con un cepillo rígido, marcando el ritmo constante del baile.\n\nSe parece al graj haitiano, un cilindro de metal perforado que se raspa con un palo, y al guayo y el güiro cubanos, este último hecho con una calabaza. Se cree que tiene antecedentes en el güiro de origen taíno. Todos cumplen una función parecida a la de las maracas o el charles de una batería: aportar un ritmo complementario.",
+   "deep": "Quienes la tocan se llaman güireros, y en los conjuntos de merengue típico suelen dirigir la sección de percusión junto a los tamboreros, que tocan la tambora, un tambor pequeño que se coloca en horizontal y se toca con un palo y una mano. Sus ritmos entrelazados, de raíz africana, son la base musical sobre la que se baila. La güira se sostiene con una mano, por un mango redondeado que reduce el cansancio, y se raspa con la otra, la dominante. Dominar las técnicas de interpretación correctas se considera muy difícil, y los güireros usan distintas técnicas para tocar ritmos variados.",
    "sources": [
     {
      "t": "Wikipedia — Güira",
@@ -10706,7 +10727,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -10718,6 +10739,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10729,7 +10754,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La bachata también es Patrimonio Cultural Inmaterial de la Humanidad",
    "desc": "La UNESCO la reconoció en 2019, tres años después del merengue.",
-   "body": "Según la UNESCO, la bachata nació de la fusión del bolero con otros géneros afroantillanos como el son cubano, el chachachá y el merengue. La palabra «bachata» se supone de origen africano y al principio no designaba un género musical, sino una reunión o fiesta animada. Tradicionalmente se toca con una o dos guitarras, y sus letras hablan de amor, pasión y nostalgia. Fue inscrita en la lista de Patrimonio Cultural Inmaterial en 2019.",
+   "body": "Según la UNESCO, la bachata nació de la fusión del bolero con otros géneros afroantillanos como el son cubano, el chachachá y el merengue. La palabra «bachata» se supone de origen africano y al principio no designaba un género musical, sino una reunión o fiesta animada. Tradicionalmente se toca con una o dos guitarras, y sus letras hablan de amor, pasión y nostalgia. Fue inscrita en la lista de Patrimonio Cultural Inmaterial en 2019.\n\nSe baila en pareja, con movimientos sensuales de las caderas. Según la UNESCO, se aprende de forma espontánea desde la infancia, pero el país tiene además más de cien academias, estudios y escuelas dedicadas a enseñarla. Además de las guitarras, hoy muy a menudo eléctricas, se usan un contrabajo, bongos, maracas y güiro.",
+   "deep": "Durante mucho tiempo, la bachata se llamó «amargue», por la «música amarga» de sus letras, hasta que se impuso el nombre más neutro de bachata. La primera bachata grabada que se reconoce es «Borracho de amor», compuesta por José Manuel Calderón en 1962. Al principio era música de los barrios pobres y de las zonas rurales, y se la llegó a comparar con el blues por surgir entre personas en los márgenes de la sociedad. En los años noventa cambió su sonido, con la guitarra eléctrica y la güira, y en el siglo XXI grupos como Monchy y Alexandra o Aventura crearon la bachata urbana, que la convirtió en un fenómeno internacional.",
    "sources": [
     {
      "t": "UNESCO — La bachata dominicana (Patrimonio Cultural Inmaterial)",
@@ -10754,7 +10780,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -10766,6 +10792,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10777,7 +10807,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "República Dominicana es el país que más peloteros aporta a las Grandes Ligas después de EE. UU.",
    "desc": "Cada temporada, más de cien dominicanos juegan en la MLB.",
-   "body": "El béisbol es el deporte más popular del país. República Dominicana ha producido más jugadores de Grandes Ligas que cualquier otro país fuera de Estados Unidos. Muchos equipos de la MLB tienen academias de formación en territorio dominicano.",
+   "body": "El béisbol es, con mucha diferencia, el deporte más popular de la República Dominicana. Llegó a finales del siglo XIX a San Pedro de Macorís de la mano de inmigrantes cubanos que habían huido de la Guerra de los Diez Años en su país. Los primeros clubes fueron Ozama y Nuevo, y el 7 de noviembre de 1907 se fundó en Santo Domingo el club Licey.\n\nDespués de Estados Unidos, la República Dominicana es el país que más jugadores aporta a las Grandes Ligas de Estados Unidos, la MLB. Hoy los treinta equipos de la MLB tienen presencia en la isla con academias de formación, un modelo que se creó en parte para reducir el choque cultural que sufrían los jóvenes peloteros al mudarse a Estados Unidos sin hablar inglés.",
+   "deep": "El país tiene su propia liga profesional, la Liga de Béisbol Profesional de la República Dominicana, conocida como LIDOM, y la Liga Dominicana de Verano, una liga de academias organizada por la MLB. La selección nacional ganó la Copa Mundial de Béisbol en 1948 y el Clásico Mundial de Béisbol en 2013. Durante la dictadura de Rafael Trujillo, el béisbol se convirtió en pasatiempo nacional, y llegaron a jugar en el país estrellas de las ligas negras estadounidenses como el lanzador Satchel Paige. En la época de Trujillo, la capital pasó a llamarse Ciudad Trujillo, y el béisbol se usó también como herramienta de propaganda. Hoy varios peloteros dominicanos forman parte del Salón de la Fama del béisbol.",
    "sources": [
     {
      "t": "Universidad (origins.osu.edu) — The Dominican Republic and the United States: A Baseball History",
@@ -10810,7 +10841,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -10826,6 +10857,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10885,7 +10920,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El sombrero de Panamá se fabrica en Ecuador",
    "desc": "Su nombre se popularizó porque se exportaba a través de Panamá.",
-   "body": "Este sombrero se teje con fibra de la palma toquilla en Ecuador. Muchos se vendían en Panamá a viajeros y a los trabajadores del Canal, y de ahí el nombre equivocado. El tejido tradicional del sombrero de paja toquilla fue declarado Patrimonio Cultural Inmaterial por la UNESCO en 2012.",
+   "body": "Este sombrero se teje en Ecuador con la fibra de la paja toquilla, una planta parecida a una palmera, aunque no es una palmera verdadera, característica de la costa ecuatoriana. Cuando los conquistadores españoles llegaron a Ecuador, en 1526, ya vieron a los habitantes de la costa usar un sombrero tejido con esa fibra. El nombre equivocado vino después: muchos se vendían en Panamá a viajeros, y los compradores decían que los habían conseguido allí.\n\nEl negocio creció con la fiebre del oro de California, a mediados del siglo XIX, porque muchos buscadores viajaban por mar y cruzaban el istmo de Panamá, donde compraban estos sombreros. En 1906, el presidente estadounidense Theodore Roosevelt visitó las obras del Canal de Panamá y fue fotografiado con uno puesto, lo que aumentó aún más su popularidad y fijó el nombre.",
+   "deep": "El tejido tradicional del sombrero de paja toquilla ecuatoriano fue declarado Patrimonio Cultural Inmaterial por la UNESCO el 5 de diciembre de 2012. Según la UNESCO, los campesinos de la costa cultivan la planta y cosechan los tallos; la fibra se hierve para quitarle la clorofila, se seca y se blanquea con azufre sobre un fuego de leña. Después, los tejedores, en su mayoría familias campesinas, tejen la copa y el ala. Tejer un sombrero puede llevar desde un día hasta ocho meses, según su calidad y finura. En Pile, una comunidad costera, se tejen sombreros extrafinos que requieren condiciones climáticas especiales.",
    "sources": [
     {
      "t": "UNESCO — Traditional weaving of the Ecuadorian toquilla straw hat",
@@ -10910,7 +10946,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -10926,6 +10962,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10937,7 +10977,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Hubo una época en que los Juegos Olímpicos daban medallas por pintar y escribir",
    "desc": "Entre 1912 y 1948 hubo competencias de arte: arquitectura, literatura, música, pintura y escultura.",
-   "body": "El fundador de los Juegos modernos, Pierre de Coubertin, quería unir deporte y arte. Las obras debían estar inspiradas en el deporte. Las competencias se eliminaron después de 1948, en parte porque los artistas eran profesionales y los Juegos de entonces eran solo para aficionados.",
+   "body": "Entre 1912 y 1948, los Juegos Olímpicos modernos entregaron medallas por obras de arte. El fundador de los Juegos modernos, el barón Pierre de Coubertin, quería unir deporte y arte, educar a la vez la mente y el cuerpo. Las obras debían estar inspiradas en el deporte y se dividían en cinco categorías: arquitectura, literatura, música, pintura y escultura. Por eso se le llamó el «pentatlón de las musas».\n\nLa primera edición fue en los Juegos de Estocolmo de 1912. Al principio los suecos se opusieron, porque no les gustaba la idea de mezclar el arte con la competición, pero acabaron cediendo, aunque solo se conocen 35 artistas participantes. El interés creció con los años: en los Juegos de Ámsterdam de 1928 se expusieron más de 1100 obras de arte en el museo municipal de la ciudad.",
+   "deep": "Las competencias se eliminaron por una decisión del Comité Olímpico Internacional de 1949: como la mayoría de los participantes eran artistas profesionales, se consideró que contradecían el espíritu olímpico de competencia entre aficionados, que entonces se aplicaba con rigor a los atletas. Después se organizaron exposiciones de arte y, desde 1956, los países anfitriones organizan Olimpiadas Culturales a su criterio. Solo dos personas han ganado medallas olímpicas en deporte y en arte: el estadounidense Walter Winans, campeón de tiro en 1908 y medallista de oro en escultura en 1912, y el húngaro Alfréd Hajós, campeón de natación en 1896.",
    "sources": [
     {
      "t": "Smithsonian Magazine (Smithsonian Institution) — When the Olympics Gave Out Medals for Art",
@@ -10970,7 +11011,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -10986,6 +11027,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17311,7 +17356,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El ajedrez nació en la India hace unos 1.500 años",
    "desc": "Su antepasado se llamaba chaturanga.",
-   "body": "El chaturanga se jugaba en la India alrededor del siglo VI. Pasó a Persia y al mundo árabe, y de ahí llegó a Europa a través de la península ibérica e Italia. La reina, que antes era una pieza débil, se convirtió en la más poderosa del tablero a finales del siglo XV, en España.",
+   "body": "El antecesor del ajedrez, el chaturanga, surgió en la India: la opinión más aceptada lo sitúa hacia el siglo VI, y los primeros textos que lo mencionan son del siglo VII. Su nombre, en sánscrito, significa «de cuatro partes» y se refiere a las cuatro divisiones de un ejército antiguo: elefantes, carros, caballería e infantería, una formación que se menciona en la gran epopeya india del Mahabharata. Las piezas del juego representaban, por tanto, un pequeño ejército.\n\nEl juego pasó a Persia, donde se llamó chatrang o shatranj, y tras la conquista islámica de Persia lo adoptó el mundo árabe. De ahí llegó a Europa a finales de la Edad Media. La reina, que antes era una pieza débil, el visir o consejero, que solo avanzaba una casilla, se convirtió en la más poderosa del tablero a finales del siglo XV.",
+   "deep": "Las reglas modernas del ajedrez surgieron en Europa a finales del siglo XV y se estandarizaron hasta lograr aceptación universal a finales del siglo XIX. Del chaturanga descienden también otros juegos de estrategia de Asia: el xiangqi chino, el janggi coreano, el shogi japonés o el makruk tailandés. El primer libro árabe sobre el juego, el «Libro del ajedrez» de al-Adli, del siglo IX, se ha perdido, pero se cita en obras posteriores. Hoy el ajedrez es uno de los juegos más populares del mundo, con millones de jugadores, y sus competiciones internacionales las organiza la FIDE, la Federación Internacional de Ajedrez.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Chess: History",
@@ -17354,7 +17400,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "interpretacion",
@@ -17370,6 +17416,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Fuentes reforzadas en la revisión de contenidos con respaldo débil"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ],
    "claimNote": "El origen exacto del ajedrez se debate; la opinión más aceptada lo sitúa en la India hacia el siglo VI."
@@ -17382,7 +17432,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El sándwich lleva el nombre de un conde inglés",
    "desc": "John Montagu, cuarto conde de Sandwich, popularizó comer carne entre panes en el siglo XVIII.",
-   "body": "Según la anécdota, el conde pedía carne entre dos rebanadas de pan para no tener que levantarse de la mesa de juego, o de su escritorio, según otras versiones. Comer cosas entre panes es mucho más antiguo, pero su nombre quedó unido a esta forma de comer.",
+   "body": "El sándwich lleva el nombre de John Montagu, cuarto conde de Sandwich, un aristócrata inglés del siglo XVIII. Según la anécdota, el conde pedía carne asada entre dos rebanadas de pan para no tener que levantarse de la mesa de juego, o de su escritorio, según otras versiones. La historia en su forma conocida apareció en un libro de viajes del francés Pierre-Jean Grosley, publicado en 1770.\n\nComer cosas entre panes es mucho más antiguo, pero su nombre quedó unido a esta forma de comer. Al principio se veía como una comida que los hombres compartían de noche mientras jugaban y bebían, y poco a poco empezó a aparecer en la buena sociedad como cena tardía de la aristocracia. Hoy está presente en casi todo el mundo, como comida práctica y fácil de llevar.",
+   "deep": "Uno de los ejemplos más antiguos de algo parecido se atribuye al sabio judío Hillel el Viejo, que, según la tradición, en el siglo I antes de Cristo envolvía carne del cordero pascual y hierbas amargas en un pan plano sin levadura durante la Pascua judía. En los siglos XVI y XVII, en el teatro inglés aparecen a menudo menciones al pan con queso o con carne. El diario The Wall Street Journal llegó a describir el sándwich como la mayor contribución de Gran Bretaña a la gastronomía. Incluso hoy se discute qué cuenta como sándwich: si un perro caliente, una hamburguesa o un burrito entran o no en la definición.",
    "sources": [
     {
      "t": "Wikipedia — Sandwich",
@@ -17399,7 +17450,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -17411,6 +17462,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17422,7 +17477,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El café es originario de Etiopía",
    "desc": "La leyenda cuenta que un pastor llamado Kaldi notó lo enérgicas que se ponían sus cabras.",
-   "body": "La planta del café arábica es originaria de las tierras altas de Etiopía. Las primeras pruebas fiables del consumo de café como bebida proceden de Yemen, en el siglo XV. La historia del pastor Kaldi es una leyenda que apareció mucho después.",
+   "body": "La planta del café arábica es originaria de las tierras altas de Etiopía, donde crecían las plantas silvestres. Pero la bebida tiene sus raíces en Yemen: las primeras pruebas fiables de su consumo proceden de allí, en el siglo XV, donde se recolectaba, tostaba y preparaba. Los místicos sufíes de Yemen lo usaban para mantenerse despiertos y concentrados durante las largas oraciones nocturnas.\n\nCon los comerciantes y peregrinos, la costumbre se extendió desde Yemen a La Meca y al resto de la península arábiga, y a principios del siglo XVI ya había llegado a El Cairo, Damasco y Estambul. Hubo debates sobre si era lícito beberlo, pero pronto se convirtió en una parte central de la vida social de las ciudades. A mediados del siglo XVI entró en Europa a través de Italia y otras regiones del Mediterráneo.",
+   "deep": "La historia del pastor Kaldi, que habría notado el efecto energizante del café al ver a sus cabras comer los frutos rojos de un arbusto, es una leyenda. No aparece en ningún texto antes de 1671, cuando la contó Antoine Faustus Nairon, un profesor maronita de lenguas orientales, así que probablemente es inventada. Hasta finales del siglo XVII, el puerto yemení de Moca fue la única puerta de salida del café al mundo, y de ahí viene el nombre de la bebida «moca». A finales de ese siglo ya había cafeterías en Holanda, Inglaterra y Alemania, y después el cultivo se extendió a otras partes del mundo.",
    "sources": [
     {
      "t": "Scientific Reports — A single polyploidization event at the origin of the tetraploid genome of Coffea arabica is responsible for the extremely low genetic variat",
@@ -17447,7 +17503,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -17464,6 +17520,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17475,7 +17535,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El chocolate se bebía amargo y con especias",
    "desc": "Los mayas y los mexicas lo tomaban sin azúcar, a veces con chile.",
-   "body": "El cacao se cultivaba en Mesoamérica desde hace miles de años y sus semillas llegaron a usarse incluso como moneda. La bebida era espesa, espumosa y amarga. Los españoles la llevaron a Europa en el siglo XVI, donde se empezó a endulzar con azúcar. La palabra «chocolate» tiene origen náhuatl.",
+   "body": "El cacao se cultivaba en Mesoamérica desde hace miles de años. Hay pruebas de que los olmecas, la primera gran civilización conocida de Mesoamérica, fermentaban la pulpa dulce que rodea las semillas del cacao para hacer una bebida alcohólica. Los mayas y los aztecas lo consideraban un regalo de los dioses, y sus semillas se usaban como moneda, en ceremonias, como tributo a gobernantes y dioses, e incluso como medicina.\n\nLa bebida era espesa, espumosa y amarga. El conquistador Hernán Cortés quizá fue el primer europeo en conocer el chocolate, cuando lo vio en la corte de Moctezuma II en 1520. Al principio a los europeos les costó acostumbrarse a su sabor. Los españoles lo llevaron a Europa en el siglo XVI, donde se empezó a endulzar con azúcar. La palabra «chocolate» tiene origen náhuatl.",
+   "deep": "El primer envío oficial registrado de chocolate a Europa no llegó hasta 1585. En el siglo XIX la fabricación cambió por completo: en 1828, el holandés Coenraad Johannes van Houten patentó una prensa hidráulica que separaba la manteca de cacao del licor de cacao, lo que permitió producir chocolate en masa. El origen exacto de la palabra se discute: una propuesta es que viene de una supuesta palabra náhuatl, «xocoatl», que significaría «bebida amarga», aunque los estudiosos Michael y Sophie Coe lo consideran poco probable. Hoy el chocolate es uno de los alimentos y sabores más populares del mundo.",
    "sources": [
     {
      "t": "Smithsonian Magazine (Smithsonian Institution) — A Brief History of Chocolate",
@@ -17508,7 +17569,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -17524,6 +17585,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17535,7 +17600,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En Europa hubo quien creyó que el tomate era venenoso",
    "desc": "Llegó desde América en el siglo XVI y tardó en aceptarse como alimento en algunas regiones.",
-   "body": "El tomate pertenece a la familia de las solanáceas, como plantas venenosas conocidas en Europa, y eso generó desconfianza. Durante un tiempo se cultivó sobre todo como planta ornamental en algunos lugares. La palabra «tomate» viene del náhuatl «tomatl».",
+   "body": "El tomate es originario del oeste de Sudamérica, y pudo domesticarse allí, en México o en Centroamérica. Los españoles lo llevaron a Europa y Asia en el siglo XVI, como parte del intercambio colombino. En España pronto empezó a usarse en la cocina, pero en otras partes de Europa su primer uso fue ornamental, en buena parte porque se sabía que era pariente de las solanáceas y se suponía que era venenoso.\n\nEl tomate pertenece a la familia de las solanáceas, igual que plantas venenosas conocidas en Europa, y eso generó desconfianza. Su nombre científico refleja ese recelo: el nombre de la especie, «lycopersicum», significa «melocotón de lobo». Según una leyenda alemana, las brujas usaban sus frutos en pociones para convertirse en hombres lobo. La palabra «tomate» viene del náhuatl «tomatl».",
+   "deep": "Una de las primeras descripciones europeas aparece en el herbario de 1544 del italiano Pietro Andrea Mattioli, que pensó que se trataba de un nuevo tipo de berenjena llegado a Italia, rojo como la sangre o dorado al madurar. Los franceses lo llamaron «pomme d'amour», manzana del amor, porque creían que era afrodisíaco. Hoy el tomate es pariente cercano de plantas de uso diario como la papa, el ají y el tabaco, todas de la misma familia. Con el tiempo se convirtió en un ingrediente básico de cocinas de todo el mundo, en salsas para pasta y pizza, en el gazpacho, en ensaladas y en el kétchup.",
    "sources": [
     {
      "t": "Universidad (plants.ces.ncsu.edu) — Solanum lycopersicum (Tomato, Tomatoes)",
@@ -17560,7 +17626,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -17576,6 +17642,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17648,7 +17718,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El Carnaval de La Vega es uno de los más antiguos y famosos del país",
    "desc": "Sus personajes característicos son los diablos cojuelos.",
-   "body": "El carnaval dominicano se celebra durante febrero y coincide con las fiestas de la independencia. En La Vega destacan los diablos cojuelos, con máscaras elaboradas y vejigas con las que golpean a los transeúntes. Cada región tiene sus propios personajes, como los Lechones de Santiago.",
+   "body": "El carnaval dominicano se celebra en la mayoría de las ciudades y pueblos del país durante el mes de febrero, y coincide con las fiestas patrias: el 26 de enero, nacimiento de Juan Pablo Duarte, y el 27 de febrero, Día de la Independencia. Con el tiempo, sus fechas se separaron de su origen religioso, ligado al periodo de Cuaresma. Sus rasgos más conocidos son los disfraces llamativos y las máscaras tradicionales.\n\nEl de La Vega es uno de los más grandes del país. Allí destacan los diablos cojuelos, con máscaras elaboradas y vejigas con las que golpean a los transeúntes. Cada región tiene sus propios personajes, como los Lechones de Santiago, el Califé o los Guloyas. Según algunas fuentes, en Santo Domingo se celebraron los primeros carnavales de América, a principios del siglo XVI.",
+   "deep": "La temporada de carnaval suele arrancar con una gala bajo techo en Santiago de los Caballeros, mientras que el resto de los eventos se celebran al aire libre durante todo febrero. El 27 de febrero, en Santo Domingo, las celebraciones incluyen un gran desfile militar con la fuerza aérea, la marina y el ejército, y el desfile nacional de carnaval. Los disfraces representan personajes religiosos y tradicionales dominicanos, y cada pueblo añade su propio toque a la fiesta, con tradiciones como «Roba la gallina». El de La Vega y el desfile nacional de Santo Domingo están entre los más conocidos y concurridos del país.",
    "sources": [
     {
      "t": "Wikipedia — Dominican Carnival",
@@ -17665,7 +17736,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -17677,6 +17748,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17749,7 +17824,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Picasso pintó el «Guernica» en poco más de un mes",
    "desc": "Es una respuesta al bombardeo de la villa vasca de Guernica en 1937.",
-   "body": "El 26 de abril de 1937, durante la Guerra Civil Española, aviones alemanes e italianos que apoyaban al bando sublevado bombardearon Guernica. Picasso pintó el enorme lienzo en blanco, negro y grises para la Exposición Internacional de París de ese año. Hoy está en el Museo Reina Sofía de Madrid.",
+   "body": "El 26 de abril de 1937, durante la Guerra Civil Española, aviones de la Legión Cóndor de la Alemania nazi y de la Italia fascista, que apoyaban a las tropas del general Franco, bombardearon Guernica, un pueblo del País Vasco. En cuanto se conoció la noticia, el poeta Juan Larrea visitó a Picasso en su casa de París para animarlo a pintar el bombardeo, y el 1 de mayo Picasso leyó el relato de un testigo publicado en la prensa.\n\nPicasso pintó el enorme lienzo, de 3,49 metros de alto y 7,76 de ancho, en blanco, negro y grises, para el pabellón español de la Exposición Internacional de París de ese año, en un estudio que le había encontrado la fotógrafa Dora Maar. En él aparecen mujeres que gritan y lloran, un caballo herido, un toro, una paloma muerta, un bebé muerto, un soldado despedazado y llamas.",
+   "deep": "Después de París, la obra recorrió el mundo para recaudar fondos para las víctimas de la guerra y ayudó a llamar la atención internacional sobre el conflicto. Tras la victoria de Franco, se envió a Estados Unidos, y Picasso dejó claro que no debía volver a España hasta que se hubieran restablecido la libertad y la democracia. Permaneció en el Museo de Arte Moderno de Nueva York hasta 1981. Hoy está en el Museo Reina Sofía de Madrid, y muchos críticos lo consideran la pintura antibélica más conmovedora de la historia. Se cuenta que un oficial alemán, al ver una foto del cuadro, le preguntó «¿Usted hizo esto?», y Picasso respondió: «No, ustedes».",
    "sources": [
     {
      "t": "Wikipedia — Guernica (Picasso)",
@@ -17766,7 +17842,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -17778,6 +17854,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22133,7 +22213,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El tango es Patrimonio Cultural Inmaterial de la Humanidad desde 2009",
    "desc": "Nació en la región del Río de la Plata, entre Argentina y Uruguay.",
-   "body": "Surgió a finales del siglo XIX en los barrios populares de Buenos Aires y Montevideo, con influencias africanas, europeas y criollas. Argentina y Uruguay presentaron juntos la candidatura a la UNESCO, que lo inscribió en 2009.",
+   "body": "El tango es un baile social y en pareja que surgió en la década de 1880 a orillas del Río de la Plata, la frontera natural entre Argentina y Uruguay. Nació en las zonas portuarias pobres de Buenos Aires y Montevideo, de la mezcla de la milonga argentina, la habanera hispanocubana y el candombe uruguayo, y en sus comienzos se bailaba a menudo en bares y prostíbulos de los puertos.\n\nSegún la UNESCO, lo desarrollaron las clases populares urbanas, en una mezcla de inmigrantes europeos, descendientes de africanos esclavizados y criollos, cuyas costumbres se fundieron en una identidad cultural propia. Argentina y Uruguay presentaron juntos la candidatura, y la UNESCO lo inscribió como Patrimonio Cultural Inmaterial de la Humanidad el 31 de agosto de 2009.",
+   "deep": "A principios del siglo XX, bailarines y orquestas de Buenos Aires viajaron a Europa, y la primera fiebre del tango estalló en París, seguida de Londres, Berlín y otras capitales. Uno de sus grandes mitos es Carlos Gardel, que murió en 1935 en un accidente de avión en Medellín. Más tarde, el compositor Ástor Piazzolla, virtuoso del bandoneón, renovó la música tradicional del tango. El origen de la palabra no está claro: una teoría la relaciona con Shangó, el dios del trueno de la religión yoruba, y otra con la palabra española «tambor». Hoy el tango se practica en todo el mundo, en sus diversas variantes.",
    "sources": [
     {
      "t": "UNESCO — Tango",
@@ -22166,7 +22247,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -22182,6 +22263,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22193,7 +22278,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El Día de Muertos mexicano es Patrimonio Cultural Inmaterial",
    "desc": "La UNESCO lo reconoció en 2008 dentro de las fiestas indígenas dedicadas a los muertos.",
-   "body": "Se celebra principalmente el 1 y 2 de noviembre. Las familias construyen altares, u ofrendas, con fotografías, flores de cempasúchil, velas y comida para recordar a sus seres queridos. Combina tradiciones indígenas mesoamericanas con el calendario católico.",
+   "body": "El Día de Muertos se celebra principalmente el 1 y 2 de noviembre. Según la UNESCO, conmemora el regreso temporal a la Tierra de familiares y seres queridos fallecidos. Las familias construyen altares, u ofrendas, con fotografías, flores de cempasúchil, velas y la comida y bebida favoritas de sus difuntos, y colocan pétalos de flores y velas en el camino que va del cementerio a sus casas, para guiar a las almas.\n\nCombina tradiciones indígenas mesoamericanas con el calendario católico: la Iglesia, al no poder frenar la costumbre, la integró y la hizo coincidir con el Día de Todos los Santos. La UNESCO la inscribió en 2008 en su Lista Representativa del Patrimonio Cultural Inmaterial, después de haberla proclamado en 2003. Para la UNESCO, la fiesta coincide además con el final del ciclo anual de cultivo del maíz.",
+   "deep": "Los aztecas ya cultivaban la flor de cempasúchil, cuyo nombre se ha interpretado como «flor de 400 vidas» y que se asocia a esta celebración. Uno de los símbolos más populares de la fiesta, la Calavera Catrina, la creó el grabador mexicano José Guadalupe Posada. Según la UNESCO, en las comunidades indígenas se cuida mucho cada detalle de los preparativos, porque se cree que los muertos pueden traer prosperidad o desgracia a sus familias según cómo se cumplan los rituales. Para la UNESCO, la fusión de ritos religiosos prehispánicos con fiestas católicas hace de esta celebración un elemento de gran importancia en la vida de las comunidades indígenas de México, porque afirma el papel del individuo en la sociedad.",
    "sources": [
     {
      "t": "UNESCO — Indigenous festivity dedicated to the dead",
@@ -22234,7 +22320,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -22250,6 +22336,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
