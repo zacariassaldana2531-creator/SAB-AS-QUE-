@@ -1,4 +1,4 @@
-/* ¿SABÍAS QUE? — Atlas del cuerpo humano (11 sistemas, 46 órganos).
+/* Lumbrario — Atlas del cuerpo humano (11 sistemas, 46 órganos).
  * Textos de elaboración propia, verificados contra sus fuentes. Imágenes de Wikimedia Commons con autor y licencia.
  * Contenido educativo: no sustituye el consejo de un profesional de la salud. */
 window.SQ_ANATOMY = {

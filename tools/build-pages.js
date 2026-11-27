@@ -1,4 +1,4 @@
-/* ¿SABÍAS QUE? — Generador de páginas estáticas indexables.
+/* Lumbrario — Generador de páginas estáticas indexables.
  * Crea una página HTML real por artículo, dato y país, con título, descripción,
  * vista previa para redes (Open Graph) y datos estructurados (JSON-LD), más sitemap.xml y robots.txt.
  * Uso:  node tools/build-pages.js            (desde la carpeta del proyecto)
@@ -28,11 +28,11 @@ function page({ url, appUrl, title, desc, image, type, jsonld, body }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>${esc(title)} · ¿SABÍAS QUE?</title>
+<title>${esc(title)} · Lumbrario</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${url}">
 <meta name="theme-color" content="#07080b">
-<meta property="og:site_name" content="¿SABÍAS QUE?">
+<meta property="og:site_name" content="Lumbrario">
 <meta property="og:locale" content="es_ES">
 <meta property="og:type" content="${type}">
 <meta property="og:title" content="${esc(title)}">
@@ -51,10 +51,10 @@ function page({ url, appUrl, title, desc, image, type, jsonld, body }) {
 <style>body{padding-bottom:40px}.sp-top{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:760px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 14px) 18px 10px}.sp-cta{margin:26px 0 8px;display:flex;gap:10px;flex-wrap:wrap}.view{animation:none}</style>
 </head>
 <body>
-<header class="sp-top"><a class="logo" href="/"><i>¿</i>SABÍAS QUE<i>?</i></a><a class="btn sm ac" href="${appUrl}">Abrir en la app</a></header>
+<header class="sp-top"><a class="logo" href="/"><i>✦</i>Lumbrario</a><a class="btn sm ac" href="${appUrl}">Abrir en la app</a></header>
 <main class="view"><article class="art">${body}
 <div class="sp-cta"><a class="btn ac" href="${appUrl}">Leer en la app</a><a class="btn" href="/#/quiz">Jugar al quiz</a><a class="btn" href="/#/metodologia">Cómo verificamos</a></div>
-<p class="foot-note">¿SABÍAS QUE? · Cultura general gratuita y con fuentes verificables.</p>
+<p class="foot-note">Lumbrario · Cultura general gratuita y con fuentes verificables.</p>
 </article></main>
 </body>
 </html>
@@ -82,12 +82,12 @@ for (const i of items) {
   const url = `${SITE}/${kind}/${i.id}/`, appUrl = `/#/${kind}/${i.id}`;
   const cat = cats[i.cat] || {};
   const desc = clip(i.desc, 200);
-  const head = `<header class="art-head"><span class="chip" style="color:${esc(cat.color || '#b3a6ff')}"><span class="dot"></span>${esc(cat.name || '')} · ${TYPE[i.type]}</span><h1 style="margin-top:12px">${esc(i.title)}</h1><p class="sub">${esc(i.subtitle || i.desc)}</p><div class="meta"><span>Redacción ¿Sabías que?</span><span>${fdate(i.date)}</span></div>${claimLine(i)}</header>`;
+  const head = `<header class="art-head"><span class="chip" style="color:${esc(cat.color || '#b3a6ff')}"><span class="dot"></span>${esc(cat.name || '')} · ${TYPE[i.type]}</span><h1 style="margin-top:12px">${esc(i.title)}</h1><p class="sub">${esc(i.subtitle || i.desc)}</p><div class="meta"><span>Redacción Lumbrario</span><span>${fdate(i.date)}</span></div>${claimLine(i)}</header>`;
   const body = i.type === 'articulo'
     ? `${head}${figure(i, i.title)}<div class="prose"><p class="lead">${esc(i.intro)}</p>${(i.sections || []).map(s => `<h2>${esc(s.h)}</h2>${(s.p || []).map(t => `<p>${esc(t)}</p>`).join('')}${secFig(s.img)}${s.example ? `<aside class="ex"><b>Ejemplo</b><p>${esc(s.example)}</p></aside>` : ''}${refs(s.src)}`).join('')}${(i.timeline || []).length ? `<h2>${esc(i.timelineTitle || 'Línea de tiempo')}</h2><ol class="tl">${i.timeline.map(e => `<li><span class="tl-y">${esc(e.y)}</span><div><p>${esc(e.t)}</p>${refs(e.src)}</div></li>`).join('')}</ol>` : ''}${(i.facts || []).length ? `<aside class="box"><h3>Datos complementarios</h3><ul>${i.facts.map(f => `<li>${esc(f)}</li>`).join('')}</ul></aside>` : ''}${i.conclusion ? `<h2>Conclusión</h2><p class="conclusion">${esc(i.conclusion)}</p>` : ''}${conceptsBox(i)}</div>${sources(i.sources, i)}`
     : `${head}${figure(i, i.title)}<div class="prose"><p>${esc(i.body)}</p></div>${sources(i.sources, i)}`;
   const bodyFull = (i.cat === 'medicina' ? body.replace('<div class="sources">', medNote + '<div class="sources">') : body) + recoBlock(i);
-  const jsonld = { '@context': 'https://schema.org', '@type': i.type === 'articulo' ? 'Article' : 'CreativeWork', headline: clip(i.title, 110), description: desc, datePublished: i.date, dateModified: C.updated || i.date, inLanguage: 'es', url, image: i.img || `${SITE}/og-default.png`, author: { '@type': 'Organization', name: 'Redacción ¿Sabías que?' }, publisher: { '@type': 'Organization', name: '¿SABÍAS QUE?', logo: { '@type': 'ImageObject', url: `${SITE}/icons/icon-512.png` } }, citation: (i.sources || []).map(s => s.u), isAccessibleForFree: true };
+  const jsonld = { '@context': 'https://schema.org', '@type': i.type === 'articulo' ? 'Article' : 'CreativeWork', headline: clip(i.title, 110), description: desc, datePublished: i.date, dateModified: C.updated || i.date, inLanguage: 'es', url, image: i.img || `${SITE}/og-default.png`, author: { '@type': 'Organization', name: 'Redacción Lumbrario' }, publisher: { '@type': 'Organization', name: 'Lumbrario', logo: { '@type': 'ImageObject', url: `${SITE}/icons/icon-512.png` } }, citation: (i.sources || []).map(s => s.u), isAccessibleForFree: true };
   write(`${kind}/${i.id}`, page({ url, appUrl, title: i.title, desc, image: i.img || `${SITE}/og-default.png`, type: 'article', jsonld, body: bodyFull }));
   urls.push({ loc: url, pri: i.type === 'articulo' ? '0.8' : '0.6', mod: i.date });
 }
@@ -120,8 +120,8 @@ for (const x of [...AN.systems, ...AN.organs]) {
   const desc = clip(isSys ? `${x.desc} ${x.intro}` : `${x.what} ${x.where}`, 200);
   const rel = isSys ? (x.organs || []).map(o => anMap[o]).filter(Boolean) : (x.systems || []).map(s => anMap[s]).filter(Boolean);
   const body = `<header class="art-head"><span class="chip" style="color:#ff9a8a"><span class="dot"></span>Atlas del cuerpo · ${isSys ? 'Sistema' : 'Órgano'}</span><h1 style="margin-top:12px">${esc(x.name)}</h1><p class="sub">${esc(isSys ? x.desc : x.what)}</p></header>${figure(x, x.name)}
-<div class="prose">${isSys ? `<p class="lead">${esc(x.intro)}</p><h2>Para qué sirve</h2>${ul(x.functions)}${(x.curious || []).length ? `<h2>¿Sabías que…?</h2>${ul(x.curious)}` : ''}`
-    : `<h2>Dónde está</h2><p>${esc(x.where)}</p>${(x.facts || []).length ? `<h2>En datos</h2><div class="kvs">${x.facts.map(([k, v]) => `<div class="kv"><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}</div>` : ''}${(x.curious || []).length ? `<h2>¿Sabías que…?</h2>${ul(x.curious)}` : ''}${(x.conditions || []).length ? `<h2>Cuando algo falla</h2><p>Algunas afecciones conocidas relacionadas con este órgano:</p>${ul(x.conditions)}` : ''}`}
+<div class="prose">${isSys ? `<p class="lead">${esc(x.intro)}</p><h2>Para qué sirve</h2>${ul(x.functions)}${(x.curious || []).length ? `<h2>Curiosidades</h2>${ul(x.curious)}` : ''}`
+    : `<h2>Dónde está</h2><p>${esc(x.where)}</p>${(x.facts || []).length ? `<h2>En datos</h2><div class="kvs">${x.facts.map(([k, v]) => `<div class="kv"><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}</div>` : ''}${(x.curious || []).length ? `<h2>Curiosidades</h2>${ul(x.curious)}` : ''}${(x.conditions || []).length ? `<h2>Cuando algo falla</h2><p>Algunas afecciones conocidas relacionadas con este órgano:</p>${ul(x.conditions)}` : ''}`}
 ${rel.length ? `<h2>${isSys ? 'Órganos de este sistema' : 'Forma parte de'}</h2><ul class="anat-list">${rel.map(r => `<li><a href="/anatomia/${r.id}/">${esc(r.name)}</a></li>`).join('')}</ul>` : ''}</div>${medNote}${sources(x.sources, x)}`;
   const jsonld = { '@context': 'https://schema.org', '@type': 'MedicalWebPage', name: x.name, description: desc, inLanguage: 'es', url, about: { '@type': 'AnatomicalStructure', name: x.name }, citation: (x.sources || []).map(s => s.u), isAccessibleForFree: true };
   write(`anatomia/${x.id}`, page({ url, appUrl, title: `${x.name}: qué es, dónde está y qué hace`, desc, image: x.img || `${SITE}/og-default.png`, type: 'article', jsonld, body }));

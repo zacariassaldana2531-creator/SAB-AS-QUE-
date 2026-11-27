@@ -1,4 +1,4 @@
-# ¿SABÍAS QUE? — v1
+# Lumbrario — v1
 
 Plataforma gratuita de cultura general con fuentes verificables.
 HTML + CSS + JavaScript puro. Sin dependencias ni compilación.

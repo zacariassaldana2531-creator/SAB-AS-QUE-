@@ -1,4 +1,4 @@
-/* ¿SABÍAS QUE? — Sistema de diseño v1 */
+/* Lumbrario — Sistema de diseño v1 */
 :root{
   --ink:#07080b; --g1:#0e1015; --g2:#14171e; --g3:#1b1f28; --g4:#252a36;
   --line:rgba(255,255,255,.07); --line2:rgba(255,255,255,.12);
@@ -30,7 +30,7 @@ input{font:inherit;color:inherit}
 .top{position:sticky;top:0;z-index:30;display:flex;align-items:center;gap:12px;padding:calc(var(--sat) + 10px) 18px 10px;background:linear-gradient(var(--ink) 55%,rgba(7,8,11,0));}
 .top.scrolled{background:rgba(7,8,11,.82);backdrop-filter:saturate(1.4) blur(18px);-webkit-backdrop-filter:saturate(1.4) blur(18px);border-bottom:1px solid var(--line)}
 .logo{font-family:var(--serif);font-weight:700;font-size:21px;letter-spacing:-.3px;white-space:nowrap;display:flex;align-items:baseline}
-.logo i{font-style:normal;color:var(--ac)}
+.logo i{font-style:normal;color:var(--ac);margin-right:.18em;font-size:.85em}
 .logo small{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:1.6px;color:var(--tx3);margin-left:8px;text-transform:uppercase}
 .top .sp{flex:1}
 .icon-btn{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--g2);border:1px solid var(--line);transition:background .2s}

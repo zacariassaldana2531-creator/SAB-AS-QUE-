@@ -1,4 +1,4 @@
-/* ¿SABÍAS QUE? — Motor de la app v1
+/* Lumbrario — Motor de la app v1
  * Capas:
  *   1. Utils           utilidades puras
  *   2. Storage         acceso seguro a localStorage
@@ -294,13 +294,13 @@ const sourcesBlock = (srcs, i) => (srcs && srcs.length) ? `<div class="sources">
 const firstSrc = x => x && x.sources && x.sources[0];
 const refMarks = srcs => (srcs && srcs.length) ? `<p class="refs">Fuentes de este texto: ${srcs.map((s, k) => `<button class="ref" data-act="toref" data-n="${k + 1}" aria-label="Ir a la fuente ${k + 1}">[${k + 1}]</button>`).join(' ')}</p>` : '';
 /* Dirección pública: páginas estáticas indexables con vista previa al compartir (las genera tools/build-pages.js) */
-const SITE = /vercel\.app$|sabiasque/i.test(location.hostname) ? location.origin : 'https://cultura-khaki.vercel.app';
+const SITE = /vercel\.app$|sabiasque|lumbrario/i.test(location.hostname) ? location.origin : 'https://cultura-khaki.vercel.app';
 const publicUrl = i => i.type === 'pais' ? `${SITE}/pais/${i.iso.toLowerCase()}/` : i.type === 'anat' ? `${SITE}/anatomia/${i.slug}/` : `${SITE}/${i.type === 'articulo' ? 'articulo' : 'dato'}/${i.id}/`;
 const credit = (x, cls = 'credit') => x && x.imgCredit ? `<figcaption class="${cls}">Imagen: ${esc(x.imgCredit.artist)} · <a href="${esc(x.imgCredit.page)}" target="_blank" rel="noopener noreferrer">${esc(x.imgCredit.license)} · Wikimedia Commons</a></figcaption>` : '';
 const MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
 const LAUNCH = Date.UTC(2026, 10, 25);
 const edition = () => { const d = new Date(); return { n: Math.max(1, Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - LAUNCH) / 864e5) + 1), date: d.toLocaleDateString('es-DO', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) }; };
-const apa = i => { const d = new Date((i.date || '2026-11-25') + 'T12:00:00'); return `Redacción ¿Sabías que? (${d.getFullYear()}, ${d.getDate()} de ${MONTHS[d.getMonth()]}). ${i.title}. ¿SABÍAS QUE? ${publicUrl(i)}`; };
+const apa = i => { const d = new Date((i.date || '2026-11-25') + 'T12:00:00'); return `Redacción Lumbrario (${d.getFullYear()}, ${d.getDate()} de ${MONTHS[d.getMonth()]}). ${i.title}. Lumbrario ${publicUrl(i)}`; };
 const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || []), s.example && 'Ejemplo. ' + s.example]), ...(i.timeline || []).map(e => `${e.y}: ${e.t}`), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, i.body, i.lead, i.name_origin, i.history, i.where && 'Dónde está. ' + i.where, i.what !== i.desc && i.what, ...(i.functions || []), ...(i.curious || [])].filter(Boolean).join('. ').replace(/\.\./g, '.');
 const toolBtns = (id, extra = '') => `<div class="art-actions">${favBtn(id)}<button class="btn sm" data-act="share" data-id="${id}">${ICON.share}<span>Compartir</span></button><button class="btn sm" data-act="card" data-id="${id}">${ICON.image}<span>Imagen</span></button><button class="btn sm" data-act="listen" data-id="${id}">${ICON.sound}<span>Escuchar</span></button><button class="btn sm" data-act="cite" data-id="${id}">${ICON.quote}<span>Citar</span></button>${extra}</div>`;
 const getAny = id => String(id).startsWith('pais-') ? Countries.get(id) : String(id).startsWith('anat-') ? Anatomy.get(id) : ContentRepo.get(id);
@@ -312,7 +312,7 @@ function toast(msg) {
 
 async function share(i) {
   const url = publicUrl(i);
-  const text = `¿Sabías que…? ${i.title}`;
+  const text = `Dato de Lumbrario: ${i.title}`;
   try {
     if (navigator.share) { await navigator.share({ title: i.title, text, url }); return; }
   } catch (e) { if (e && e.name === 'AbortError') return; }
@@ -447,7 +447,7 @@ Views.home = () => {
 
   ${footNote()}`;
 };
-const footNote = () => `<footer class="foot-note">¿SABÍAS QUE? · Contenido educativo gratuito.<br>Cada dato incluye sus fuentes para que puedas comprobarlo.<br><a href="#/metodologia">Cómo verificamos</a> · <a href="#/erratas">Fe de erratas</a> · <a href="#/dosieres">Dosieres</a> · <a href="#/lo-que-pocos-saben">Lo que pocos saben</a> · <a href="#/diccionario">Diccionario</a> · <a href="#/hoy">Hoy en la historia</a></footer>`;
+const footNote = () => `<footer class="foot-note">Lumbrario · Contenido educativo gratuito.<br>Cada dato incluye sus fuentes para que puedas comprobarlo.<br><a href="#/metodologia">Cómo verificamos</a> · <a href="#/erratas">Fe de erratas</a> · <a href="#/dosieres">Dosieres</a> · <a href="#/lo-que-pocos-saben">Lo que pocos saben</a> · <a href="#/diccionario">Diccionario</a> · <a href="#/hoy">Hoy en la historia</a></footer>`;
 
 function catsGrid() {
   return `<div class="cats">${ContentRepo.categories().map(c => {
@@ -903,10 +903,10 @@ Views.anatItem = ([slug]) => {
     <div class="prose">
       ${isSys ? `<p class="lead">${esc(x.intro)}</p>
         <h2><span class="n">01</span>Para qué sirve</h2><ul class="anat-list">${li(x.functions)}</ul>
-        ${(x.curious || []).length ? `<h2><span class="n">02</span>¿Sabías que…?</h2><ul class="anat-list">${li(x.curious)}</ul>` : ''}`
+        ${(x.curious || []).length ? `<h2><span class="n">02</span>Curiosidades</h2><ul class="anat-list">${li(x.curious)}</ul>` : ''}`
       : `<h2><span class="n">01</span>Dónde está</h2><p>${esc(x.where)}</p>
         ${(x.facts || []).length ? `<h2><span class="n">02</span>En datos</h2><div class="kvs">${x.facts.map(([k, v]) => `<div class="kv"><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}</div>` : ''}
-        ${(x.curious || []).length ? `<h2><span class="n">03</span>¿Sabías que…?</h2><ul class="anat-list">${li(x.curious)}</ul>` : ''}
+        ${(x.curious || []).length ? `<h2><span class="n">03</span>Curiosidades</h2><ul class="anat-list">${li(x.curious)}</ul>` : ''}
         ${(x.conditions || []).length ? `<h2><span class="n">04</span>Cuando algo falla</h2><p>Algunas afecciones conocidas relacionadas con este órgano:</p><ul class="anat-list cond">${li(x.conditions)}</ul>${medNote('sm')}` : ''}`}
       ${refMarks(x.sources)}
     </div>
@@ -1077,8 +1077,8 @@ async function makeCard(i) {
   x.fillStyle = '#f3eee6'; y = wrap(i.title, '700 62px Georgia, "Times New Roman", serif', W - 160, 74, y, 5);
   x.fillStyle = '#b9b4ab'; y = wrap(i.desc || (i.type === 'pais' ? `Capital: ${i.capital}` : ''), '400 34px -apple-system, system-ui, sans-serif', W - 160, 46, y + 16, 3);
   x.fillStyle = 'rgba(255,255,255,.12)'; x.fillRect(80, H - 150, W - 160, 2);
-  x.font = '700 44px Georgia, serif'; x.fillStyle = '#8f7cff'; x.fillText('¿', 80, H - 80); const w1 = x.measureText('¿').width;
-  x.fillStyle = '#f3eee6'; x.fillText('SABÍAS QUE', 80 + w1, H - 80); const w2 = x.measureText('SABÍAS QUE').width; x.fillStyle = '#8f7cff'; x.fillText('?', 80 + w1 + w2, H - 80);
+  x.font = '700 44px Georgia, serif'; x.fillStyle = '#8f7cff'; x.fillText('✦ ', 80, H - 80); const w1 = x.measureText('✦ ').width;
+  x.fillStyle = '#f3eee6'; x.fillText('Lumbrario', 80 + w1, H - 80);
   x.font = '500 28px -apple-system, system-ui, sans-serif'; x.fillStyle = '#7d7a74'; x.textAlign = 'right'; x.fillText(SITE.replace(/^https?:\/\//, ''), W - 80, H - 84); x.textAlign = 'left';
   return new Promise(ok => cv.toBlob(ok, 'image/png'));
 }
@@ -1086,10 +1086,10 @@ async function shareCard(i) {
   toast('Creando imagen…');
   let blob; try { blob = await makeCard(i); } catch { blob = null; }
   if (!blob) return toast('No se pudo crear la imagen');
-  const file = new File([blob], `sabiasque-${i.id}.png`, { type: 'image/png' });
+  const file = new File([blob], `lumbrario-${i.id}.png`, { type: 'image/png' });
   try { if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], title: i.title, text: publicUrl(i) }); return; } } catch (e) { if (e && e.name === 'AbortError') return; }
   const url = URL.createObjectURL(blob);
-  Sheet.custom(`<h2 class="claim" id="sheet-title">Imagen para compartir</h2><p class="faint">Mantén pulsada la imagen para guardarla en Fotos, o descárgala.</p><img class="card-preview" src="${url}" alt="Vista previa de la imagen para redes"><div class="acts"><a class="btn ac" href="${url}" download="sabiasque-${esc(i.id)}.png">Descargar</a></div>`);
+  Sheet.custom(`<h2 class="claim" id="sheet-title">Imagen para compartir</h2><p class="faint">Mantén pulsada la imagen para guardarla en Fotos, o descárgala.</p><img class="card-preview" src="${url}" alt="Vista previa de la imagen para redes"><div class="acts"><a class="btn ac" href="${url}" download="lumbrario-${esc(i.id)}.png">Descargar</a></div>`);
 }
 
 Views.notFound = () => emptyState('🧭', 'No encontramos esa página', 'Puede que el enlace esté mal o que el contenido ya no esté publicado.', '<a class="btn ac" href="#/">Ir al inicio</a>');
@@ -1138,7 +1138,7 @@ function render() {
   $$('[data-tab]').forEach(a => a.classList.toggle('on', a.dataset.tab === match.tab));
   $$('[data-tab]').forEach(a => a.dataset.tab === match.tab ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const titleEl = $('h1', view);
-  document.title = (match.name === 'home' ? '' : (titleEl ? titleEl.textContent.trim() + ' · ' : '')) + '¿SABÍAS QUE?';
+  document.title = (match.name === 'home' ? '' : (titleEl ? titleEl.textContent.trim() + ' · ' : '')) + 'Lumbrario';
   afterRender(match.name);
 }
 

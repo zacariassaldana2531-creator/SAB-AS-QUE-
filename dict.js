@@ -1,4 +1,4 @@
-/* ¿SABÍAS QUE? — Diccionario contextual.
+/* Lumbrario — Diccionario contextual.
  * Al seleccionar una palabra (o una expresión corta) en cualquier texto que se esté leyendo,
  * aparece un botón «¿Qué significa?». Al tocarlo se muestra:
  *   1. la frase del propio texto donde aparece la palabra (el ejemplo en su contexto),
@@ -20,7 +20,7 @@
     if (cache.has(title)) return cache.get(title);
     const p = (async () => {
       try {
-        const r = await fetch(API + encodeURIComponent(title.replace(/ /g, '_')), { headers: { 'Api-User-Agent': 'SabiasQueApp/1.0 (https://cultura-khaki.vercel.app)' } });
+        const r = await fetch(API + encodeURIComponent(title.replace(/ /g, '_')), { headers: { 'Api-User-Agent': 'LumbrarioApp/1.0 (https://cultura-khaki.vercel.app)' } });
         if (!r.ok) return null;
         return await r.text();
       } catch { return null; }

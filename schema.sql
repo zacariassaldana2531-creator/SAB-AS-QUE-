@@ -1,4 +1,4 @@
--- ¿SABÍAS QUE? — Esquema de base de datos (PostgreSQL / Supabase)
+-- Lumbrario — Esquema de base de datos (PostgreSQL / Supabase)
 -- Fase siguiente: cuando la app tenga cuentas de usuario y panel admin seguro.
 -- Ejecutar en Supabase → SQL Editor. Refleja exactamente la estructura de content.js.
 

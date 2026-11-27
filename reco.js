@@ -1,4 +1,4 @@
-/* ¿SABÍAS QUE? — Motor de recomendaciones (compartido por la app y por tools/build-pages.js).
+/* Lumbrario — Motor de recomendaciones (compartido por la app y por tools/build-pages.js).
  * Para cada contenido elige 3 relacionados de la biblioteca publicada:
  *   1. enlaces editoriales explícitos (campo "related" y "concepts" del contenido),
  *   2. series compartidas, 3. mismo subtema, 4. palabras clave en común, 5. misma categoría.

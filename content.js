@@ -1,4 +1,4 @@
-/* ¿SABÍAS QUE? — Base de contenido v6 (368 contenidos, 418 preguntas).
+/* Lumbrario — Base de contenido v6 (368 contenidos, 418 preguntas).
  * Cada contenido tiene fuentes verificadas automáticamente contra el texto de la fuente.
  * Tipos: "articulo" | "curiosidad" | "mito". Estado: "publicado" | "borrador". Nivel: 1-3.
  * Este archivo lo puede regenerar el panel admin (admin.html → Publicar → Descargar content.js).

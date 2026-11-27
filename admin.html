@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
-<title>Panel admin · ¿SABÍAS QUE?</title>
+<title>Panel admin · Lumbrario</title>
 <meta name="theme-color" content="#07080b">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2307080b'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='38' font-weight='700' text-anchor='middle' fill='%238f7cff'%3E%C2%BF%3F%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="styles.css">
@@ -49,7 +49,7 @@ body{padding:calc(env(safe-area-inset-top) + 12px) 0 calc(env(safe-area-inset-bo
 <div class="toast" id="toast" role="status" aria-live="polite" style="bottom:24px"></div>
 <script src="content.js"></script>
 <script>
-/* Panel admin de ¿SABÍAS QUE?
+/* Panel admin de Lumbrario
  * Edita una copia (borrador) del contenido guardada en este navegador.
  * Para publicar: Exportar → descarga content.js → súbelo a GitHub reemplazando el anterior.
  * IMPORTANTE: el PIN solo evita accesos casuales. En un sitio estático no hay seguridad real:
@@ -158,7 +158,7 @@ const lines = t => String(t||'').split('\n').map(l=>l.trim()).filter(Boolean);
 function shell(body){
   const iss = allIssues().length;
   return `<header class="ah">
-    <a class="logo" href="index.html"><i>¿</i>SABÍAS QUE<i>?</i><small>Admin</small></a><span class="sp"></span>
+    <a class="logo" href="index.html"><i>✦</i>Lumbrario<small>Admin</small></a><span class="sp"></span>
     ${dirty()?'<span class="dirty">● Borrador sin publicar</span>':''}
     <a class="btn sm" href="index.html" target="_blank">Ver app</a></header>
   <div class="seg" style="margin:0 0 16px;padding:0">${[['resumen','Resumen'],['contenidos','Contenidos'],['preguntas','Preguntas'],['categorias','Categorías'],['publicar','Publicar'+(iss?` (${iss}⚠)`:'')]].map(([v,l])=>`<button class="${state.tab===v&&!state.edit?'on':''}" data-a="tab" data-v="${v}">${l}</button>`).join('')}</div>
@@ -337,7 +337,7 @@ function submit(form){
 /* ---------- Exportar ---------- */
 function exportJs(){
   const out=clone(D); out.version=(window.SQ_CONTENT.version||1); out.updated=today();
-  return `/* ¿SABÍAS QUE? — Base de contenido. Generado por admin.html el ${today()}. */\nwindow.SQ_CONTENT = ${JSON.stringify(out,null,1)};\n`;
+  return `/* Lumbrario — Base de contenido. Generado por admin.html el ${today()}. */\nwindow.SQ_CONTENT = ${JSON.stringify(out,null,1)};\n`;
 }
 function download(name,text,type){ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([text],{type})); a.download=name; document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500); }
 
@@ -365,7 +365,7 @@ document.addEventListener('click', e=>{
     }
     case 'preview': { const on=!S.get('sq.preview',false); if(on){ S.set('sq.draft',D); S.set('sq.preview',true); toast('Vista previa activada: abre la app'); } else { S.del('sq.preview'); toast('Vista previa desactivada'); } return render(); }
     case 'export': return download('content.js',exportJs(),'text/javascript');
-    case 'json': return download(`sabiasque-backup-${today()}.json`,JSON.stringify(D,null,1),'application/json');
+    case 'json': return download(`lumbrario-backup-${today()}.json`,JSON.stringify(D,null,1),'application/json');
     case 'copy': navigator.clipboard.writeText(exportJs()).then(()=>toast('Código copiado'),()=>toast('No se pudo copiar')); return;
     case 'discard': if(el.dataset.confirm!=='1'){ el.dataset.confirm='1'; el.textContent='¿Seguro? Toca otra vez'; return; } S.del('sq.draft'); S.del('sq.preview'); D=clone(window.SQ_CONTENT); toast('Borrador descartado'); return render();
     case 'pin': { const n=prompt('Nuevo PIN (mínimo 4 caracteres):'); if(n&&n.length>=4){ sha(n).then(h=>{S.set('sq.adminpin',h);toast('PIN actualizado')}); } return; }
@@ -385,7 +385,7 @@ document.addEventListener('submit', e=>{ e.preventDefault(); submit(e.target); }
 async function gate(){
   if(sessionStorage.getItem('sq.admin')==='1') return render();
   const stored=S.get('sq.adminpin',null);
-  $('#root').innerHTML=`<div class="gate"><div class="logo" style="justify-content:center;font-size:26px"><i>¿</i>SABÍAS QUE<i>?</i></div>
+  $('#root').innerHTML=`<div class="gate"><div class="logo" style="justify-content:center;font-size:26px"><i>✦</i>Lumbrario</div>
   <p class="muted" style="margin-top:8px">Panel de contenido</p>
   <form id="gf"><input id="pin" type="password" inputmode="text" autocomplete="current-password" placeholder="${stored?'PIN':'Crea un PIN (mín. 4)'}" aria-label="PIN"><button class="btn ac block">Entrar</button></form>
   <p class="note" style="margin-top:16px">El PIN evita accesos casuales en este dispositivo. No es seguridad real: el panel solo edita un borrador local y nada se publica hasta que subes el archivo exportado.</p></div>`;
