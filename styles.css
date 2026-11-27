@@ -635,3 +635,11 @@ input{font:inherit;color:inherit}
 .prose .kvs,.prose .kv{font-family:var(--sans)}
 .el-tile b{margin-top:12px}
 .kv b sup{font-size:.7em}
+
+/* Bloque «A fondo»: la explicación más avanzada de cada curiosidad y mito */
+.prose .deep{margin:1.6em 0 1.2em;padding:18px 20px;border-radius:var(--r2);background:linear-gradient(180deg,rgba(143,124,255,.10),rgba(143,124,255,.03));border:1px solid rgba(143,124,255,.22)}
+.prose .deep .deep-h{display:inline-flex;align-items:center;gap:6px;font-family:var(--sans);font-size:11px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:var(--ac2);margin-bottom:8px}
+.prose .deep p{font-size:.96em;color:var(--tx)}
+.prose .deep p+p{margin-top:.8em}
+.more-link{margin-top:10px}
+.prose .deep .deep-h svg{width:12px;height:12px}

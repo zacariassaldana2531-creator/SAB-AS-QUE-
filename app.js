@@ -43,7 +43,7 @@ const ContentRepo = (() => {
   }
   const cats = src.categories || [];
   const catMap = Object.fromEntries(cats.map(c => [c.id, c]));
-  const textOf = i => [i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || []), s.example]), ...(i.timeline || []).map(e => e.y + ' ' + e.t), ...(i.concepts || []).map(c => c.t + ' ' + (c.d || '')), ...(i.facts || []), i.conclusion, i.desc, i.body].filter(Boolean).join(' ');
+  const textOf = i => [i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || []), s.example]), ...(i.timeline || []).map(e => e.y + ' ' + e.t), ...(i.concepts || []).map(c => c.t + ' ' + (c.d || '')), ...(i.facts || []), i.conclusion, i.desc, i.body, i.deep].filter(Boolean).join(' ');
   const enrich = i => {
     const text = textOf(i);
     const words = text.split(/\s+/).filter(Boolean).length;
@@ -249,6 +249,8 @@ ${glyph ? `<text x="${gx}%" y="${gy}%" font-size="${h * .34}" text-anchor="middl
 
 const catChip = item => { const c = ContentRepo.cat(item.cat); return c ? `<span class="chip" style="color:${c.color}"><span class="dot"></span>${esc(c.name)}</span>` : ''; };
 const lvlBars = n => `<span class="lvl" title="Nivel ${LEVEL[n] || ''}">${[1, 2, 3].map(k => `<b class="${k <= n ? 'on' : ''}"></b>`).join('')}</span>`;
+const paras = t => String(t || '').split(/\n\s*\n/).map(x => x.trim()).filter(Boolean).map(x => `<p>${esc(x)}</p>`).join('');
+const deepBlock = i => i.deep ? `<aside class="deep"><span class="deep-h">${ICON.spark || '✦'} A fondo</span>${paras(i.deep)}</aside>` : '';
 const metaLine = (i, extra = '') => `<div class="meta"><span>${ICON.clock}${i.read} min</span><span>${lvlBars(i.level || 1)} ${LEVEL[i.level || 1]}</span>${extra}</div>`;
 const kindColor = t => t === 'mito' ? '#ffb08a' : t === 'curiosidad' ? 'var(--ac2)' : 'var(--tx3)';
 const href = i => i.type === 'articulo' ? `#/articulo/${i.id}` : i.type === 'pais' ? `#/pais/${i.iso.toLowerCase()}` : i.type === 'anat' ? `#/anatomia/${i.slug}` : i.type === 'elem' ? `#/quimica/elemento/${i.slug}` : i.type === 'quim' ? `#/quimica/tema/${i.slug}` : `#/dato/${i.id}`;
@@ -301,7 +303,7 @@ const MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 
 const LAUNCH = Date.UTC(2026, 10, 25);
 const edition = () => { const d = new Date(); return { n: Math.max(1, Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - LAUNCH) / 864e5) + 1), date: d.toLocaleDateString('es-DO', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) }; };
 const apa = i => { const d = new Date((i.date || '2026-11-25') + 'T12:00:00'); return `Redacción Lumbrario (${d.getFullYear()}, ${d.getDate()} de ${MONTHS[d.getMonth()]}). ${i.title}. Lumbrario ${publicUrl(i)}`; };
-const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || []), s.example && 'Ejemplo. ' + s.example]), ...(i.timeline || []).map(e => `${e.y}: ${e.t}`), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, i.body, i.lead, i.name_origin, i.history, i.where && 'Dónde está. ' + i.where, i.what !== i.desc && i.what, ...(i.functions || []), ...(Array.isArray(i.curious) ? i.curious : [i.curious]), i.uses && 'Para qué sirve. ' + i.uses.join('. '), i.disc, i.origin].filter(Boolean).join('. ').replace(/\.\./g, '.');
+const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || []), s.example && 'Ejemplo. ' + s.example]), ...(i.timeline || []).map(e => `${e.y}: ${e.t}`), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, ...String(i.body || '').split(/\n\s*\n/), i.deep && 'A fondo. ' + i.deep, i.lead, i.name_origin, i.history, i.where && 'Dónde está. ' + i.where, i.what !== i.desc && i.what, ...(i.functions || []), ...(Array.isArray(i.curious) ? i.curious : [i.curious]), i.uses && 'Para qué sirve. ' + i.uses.join('. '), i.disc, i.origin].filter(Boolean).join('. ').replace(/\.\./g, '.');
 const toolBtns = (id, extra = '') => `<div class="art-actions">${favBtn(id)}<button class="btn sm" data-act="share" data-id="${id}">${ICON.share}<span>Compartir</span></button><button class="btn sm" data-act="card" data-id="${id}">${ICON.image}<span>Imagen</span></button><button class="btn sm" data-act="listen" data-id="${id}">${ICON.sound}<span>Escuchar</span></button><button class="btn sm" data-act="cite" data-id="${id}">${ICON.quote}<span>Citar</span></button>${extra}</div>`;
 const getAny = id => String(id).startsWith('pais-') ? Countries.get(id) : String(id).startsWith('anat-') ? Anatomy.get(id) : /^(elem|quim)-/.test(String(id)) ? Chem.get(id) : ContentRepo.get(id);
 
@@ -341,7 +343,7 @@ const Sheet = {
       <h2 class="claim" id="sheet-title">${esc(i.title)}</h2>
       <p class="lede">${esc(i.desc)}</p>
       <div class="claim-row">${claimBadge(i)}</div>${claimNote(i)}
-      ${isArt ? `<p class="full">${esc(i.intro)}</p>${metaLine(i)}` : `<p class="full">${esc(i.body)}</p>`}
+      ${isArt ? `<p class="full">${esc(i.intro)}</p>${metaLine(i)}` : `<p class="full">${esc(String(i.body || '').split(/\n\s*\n/)[0])}</p>${/\n\s*\n/.test(i.body || '') || i.deep ? `<a class="btn sm more-link" href="#/dato/${i.id}" data-act="sheet-close-nav">Seguir leyendo · ${i.read} min ${ICON.arrow}</a>` : ''}`}
       ${i.cat === 'medicina' ? medNote('sm') : ''}
       ${isArt ? '' : sourcesBlock(i.sources, i)}
       <div class="acts">
@@ -576,7 +578,7 @@ Views.fact = ([id]) => {
       ${rareBadge(i)}<h1>${esc(i.title)}</h1><p class="sub">${esc(i.desc)}</p>${metaLine(i)}
       <div class="claim-row">${claimBadge(i)}</div>${claimNote(i)}
     </header>
-    <div class="prose"><p>${esc(i.body)}</p>${refMarks(i.sources)}</div>
+    <div class="prose">${paras(i.body)}${deepBlock(i)}${refMarks(i.sources)}</div>
     ${i.cat === 'medicina' ? medNote() : ''}
     ${toolBtns(i.id, `<button class="btn sm" data-act="surprise">${ICON.shuffle}<span>Sorpréndeme</span></button>`)}
     ${sourcesBlock(i.sources, i)}

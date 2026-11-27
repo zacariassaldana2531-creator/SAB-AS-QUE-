@@ -252,7 +252,7 @@ function editItem(){
        +fld('Conceptos relacionados (opcional)',`<textarea name="concepts">${esc(conceptsToText(i.concepts))}</textarea>`,'Uno por línea: «Concepto | Definición breve | id de un contenido de la biblioteca (opcional)».')
        +fld('Recomendaciones fijas (opcional)',`<input name="related" value="${esc((i.related||[]).join(', '))}">`,'Ids de contenidos, separados por comas. Si se deja vacío, se eligen automáticamente.')
        +fld('Conclusión',`<textarea name="conclusion">${esc(i.conclusion)}</textarea>`)
-      :fld('Explicación completa',`<textarea class="big" name="body" style="font-family:var(--sans)">${esc(i.body)}</textarea>`)}
+      :fld('Explicación completa',`<textarea class="big" name="body" style="font-family:var(--sans)">${esc(i.body)}</textarea>`,'Separa los párrafos con una línea en blanco. Lo ideal: unas 200 palabras (1 minuto de lectura).')+fld('A fondo (opcional)',`<textarea name="deep" style="font-family:var(--sans)">${esc(i.deep||'')}</textarea>`,'Explicación más avanzada: mecanismo, contexto o datos. Debe estar respaldada por las fuentes.')}
   ${fld('Fuentes y referencias (obligatorio)',`<textarea name="sources" class="big" style="min-height:140px">${esc(sourcesToText(i.sources))}</textarea>`,'Una por línea: <b>Institución o autor | Título del documento | Fecha de publicación (si existe) | https://enlace | Fecha de consulta AAAA-MM-DD</b>. Prioriza universidades, revistas revisadas por pares, organismos oficiales (NASA, OMS, UNESCO), museos y archivos. Nunca blogs anónimos ni redes sociales. Solo fuentes reales que hayas abierto y que respalden cada afirmación.')}
   <div class="row2 row3">
     ${fld('Tipo de afirmación',`<select name="claim">${Object.entries(CLAIMS).map(([k,l])=>opt(k,i.claim||'',l)).join('')}</select>`,'No presentes una teoría, una creencia o una leyenda como hecho.')}
@@ -313,7 +313,7 @@ function submit(form){
     i.history=[...(i.history||[]),{date:today(),note:v.change.trim()||(state.isNew?'Creación en el panel':'Edición en el panel')}];
     if(v.cBefore&&v.cBefore.trim()&&v.cAfter&&v.cAfter.trim()){ (D.corrections=D.corrections||[]).push({id:i.id||slug(i.title),date:today(),before:v.cBefore.trim(),after:v.cAfter.trim(),why:(v.cWhy||'').trim()}); i.history.push({date:today(),note:'Corrección registrada en la fe de erratas'}); }
     if(i.type==='articulo'){ Object.assign(i,{subtitle:v.subtitle.trim(),intro:v.intro.trim(),sections:textToSections(v.sections),facts:lines(v.facts),conclusion:v.conclusion.trim(),timeline:textToTimeline(v.timeline),concepts:textToConcepts(v.concepts),related:String(v.related||'').split(/[,\s]+/).filter(Boolean)}); ['timeline','concepts','related'].forEach(k=>{ if(!i[k].length) delete i[k]; }); }
-    else { i.body=v.body.trim(); if(i.type==='mito') i.verdict=v.verdict; }
+    else { i.body=v.body.trim(); const dp=String(v.deep||'').trim(); if(dp) i.deep=dp; else delete i.deep; if(i.type==='mito') i.verdict=v.verdict; }
     if(state.isNew){
       i.id=slug(v.id||'')||(i.type[0]+'-'+slug(i.title));
       if(D.items.some(x=>x.id===i.id)) return toast('Ya existe un contenido con ese identificador');

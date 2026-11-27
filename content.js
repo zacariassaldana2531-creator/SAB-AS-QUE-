@@ -3477,7 +3477,8 @@ window.SQ_CONTENT = {
    "verdict": "falso",
    "title": "«Solo usamos el 10% del cerebro»",
    "desc": "Falso. Prácticamente todas las regiones del cerebro tienen funciones conocidas.",
-   "body": "Las técnicas de imagen cerebral muestran actividad en todas las zonas del cerebro a lo largo del día, aunque no todas a la vez. Además, una lesión en casi cualquier parte del cerebro produce algún efecto, lo que no ocurriría si el 90% no se usara. El cerebro consume alrededor del 20% de la energía del cuerpo: sería un desperdicio enorme mantener sin uso la mayor parte.",
+   "body": "La idea de que solo usamos el 10 % del cerebro es muy popular, pero no resiste las pruebas. Las técnicas de imagen cerebral muestran que todas las zonas tienen actividad a lo largo del día, aunque no todas a la vez. Incluso durante el sueño, todas las partes del cerebro mantienen algún nivel de actividad.\n\nOtra prueba sencilla viene de las lesiones: un daño en casi cualquier parte del cerebro produce algún efecto en la persona. Si el 90 % no se usara, la mayoría de las lesiones no tendrían consecuencias. Además, el cerebro puede consumir hasta el 20 % de la energía del cuerpo, más que cualquier otro órgano, aunque solo representa el 2 % del peso corporal. Mantener sin uso la mayor parte de un órgano tan caro sería un enorme desperdicio.",
+   "deep": "El neurocientífico Barry Beyerstein resumió varias líneas de evidencia contra el mito. Una de las más claras tiene que ver con la «poda» de las neuronas: las células cerebrales que no se usan tienden a degenerar. Si la mayor parte del cerebro estuviera inactiva, las autopsias de cerebros adultos normales mostrarían una degeneración a gran escala, y no es así. El mito sigue vivo en la cultura popular: películas como «Lucy» o «Sin límites» lo usan como punto de partida de sus historias.",
    "sources": [
     {
      "t": "Universidad de Washington — Neuroscience For Kids - 10% of the Brain Myth",
@@ -3508,7 +3509,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -3524,6 +3525,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3538,7 +3543,8 @@ window.SQ_CONTENT = {
    "verdict": "falso",
    "title": "«La Gran Muralla China se ve desde el espacio a simple vista»",
    "desc": "Falso. Es muy larga, pero demasiado estrecha y del color del terreno.",
-   "body": "La muralla mide miles de kilómetros de largo, pero en general solo unos pocos metros de ancho y se confunde con el paisaje. Astronautas, incluido el primer astronauta chino, Yang Liwei, han dicho que no pudieron verla a simple vista desde la órbita. Con cámaras y lentes de aumento sí se puede fotografiar.",
+   "body": "La Gran Muralla China es enorme en longitud: sus distintos tramos suman miles de kilómetros. Pero en la mayor parte de su recorrido solo tiene unos pocos metros de ancho y está hecha de materiales del mismo color que el terreno que la rodea. Por eso, vista desde muy lejos, se confunde con el paisaje.\n\nEl primer astronauta de China, Yang Liwei, dijo que no había podido verla a simple vista desde la órbita. Otros astronautas han dado testimonios distintos, y con cámaras y lentes de aumento sí se ha fotografiado desde el espacio. Lo que es seguro es que desde la Luna, a unos 384 000 kilómetros, no se puede ver a simple vista: a esa distancia ni siquiera se distinguen los continentes con detalle.",
+   "deep": "Lo que permite ver un objeto desde lejos no es su longitud, sino su anchura y su contraste con lo que lo rodea. Una carretera o una pista de aterrizaje pueden ser más fáciles de distinguir que la muralla porque contrastan más con el suelo. La muralla que se visita hoy, como el tramo de Badaling, pertenece sobre todo a la dinastía Ming, aunque se construyeron fortificaciones durante muchos siglos antes.",
    "sources": [
     {
      "t": "Wikipedia — Great Wall of China (visibilidad desde el espacio)",
@@ -3561,7 +3567,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -3573,6 +3579,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3587,7 +3597,8 @@ window.SQ_CONTENT = {
    "verdict": "falso",
    "title": "«Los vikingos usaban cascos con cuernos»",
    "desc": "Falso. No hay evidencia arqueológica de que los usaran en combate.",
-   "body": "El único casco vikingo casi completo encontrado, el de Gjermundbu (Noruega), es redondo y no tiene cuernos. La imagen popular se difundió en el siglo XIX, especialmente con el vestuario diseñado por Carl Emil Doepler para la ópera El anillo del nibelungo de Wagner, en 1876. Unos cuernos serían, además, poco prácticos en una pelea.",
+   "body": "En películas, cómics y disfraces, los vikingos casi siempre llevan cascos con cuernos. Sin embargo, no hay pruebas arqueológicas de que los guerreros vikingos los usaran. El único casco vikingo casi completo que se ha encontrado, el de Gjermundbu, en Noruega, es redondo y no tiene cuernos.\n\nLa imagen moderna nació en el siglo XIX. Se popularizó sobre todo con las óperas de Richard Wagner: para el estreno de «El anillo del nibelungo», en 1876, el diseñador Carl Emil Doepler creó vestuarios con cascos de cuernos y de alas. Desde entonces, la idea se repitió en pinturas, ilustraciones y, más tarde, en el cine.",
+   "deep": "Sí existieron cascos con cuernos en Europa, pero mucho antes de los vikingos y probablemente con un uso ceremonial, no para la batalla. En combate, unos cuernos serían poco prácticos: ofrecerían al enemigo un punto donde agarrar o golpear. El casco de Gjermundbu, de la era vikinga, tiene una forma redondeada con una protección para los ojos, y es una pieza única porque los cascos de hierro eran caros y escasos: muchos guerreros probablemente combatían sin casco o con protecciones más simples.",
    "sources": [
     {
      "t": "National Geographic — These 6 Viking myths are compelling, but are they true?",
@@ -3636,7 +3647,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -3656,6 +3667,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3670,7 +3685,8 @@ window.SQ_CONTENT = {
    "verdict": "falso",
    "title": "«Un rayo nunca cae dos veces en el mismo lugar»",
    "desc": "Falso. Los lugares altos y aislados reciben rayos una y otra vez.",
-   "body": "Los rayos buscan el camino más fácil hacia el suelo, así que los objetos altos, puntiagudos y aislados reciben muchos impactos. Según NOAA, el Empire State Building recibe en promedio unos 23 rayos al año. Por eso, durante una tormenta, no es seguro refugiarse bajo un árbol solitario.",
+   "body": "El refrán dice que un rayo nunca cae dos veces en el mismo lugar, pero la realidad es la contraria. Según el Servicio Meteorológico Nacional de Estados Unidos, los rayos caen a menudo en el mismo lugar una y otra vez, sobre todo si se trata de un objeto alto, puntiagudo y aislado. Esos puntos siguen siendo los mismos tormenta tras tormenta.\n\nEl ejemplo más famoso es el Empire State Building, en Nueva York, que recibe en promedio unos 23 rayos al año. Por la misma razón, refugiarse bajo un árbol aislado durante una tormenta es peligroso: es justo el tipo de lugar que atrae las descargas. Lo más seguro es entrar en un edificio cerrado o en un vehículo con techo de metal.",
+   "deep": "Otro mito relacionado dice que los rayos buscan el metal. Según el mismo servicio, la presencia de metal no cambia en absoluto dónde cae un rayo: lo que importa es la altura, la forma y el aislamiento del objeto. Por eso los árboles y las montañas, que casi no tienen metal, reciben rayos muchas veces al año. El metal sí conduce la electricidad, así que tocar objetos metálicos durante una tormenta puede ser peligroso si el rayo cae cerca.",
    "sources": [
     {
      "t": "NOAA / National Weather Service — Lightning Myths",
@@ -3684,7 +3700,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-21",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -3696,6 +3712,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-21",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3710,7 +3730,8 @@ window.SQ_CONTENT = {
    "verdict": "falso",
    "title": "«La sangre de las venas es azul»",
    "desc": "Falso. La sangre humana siempre es roja, más oscura cuando lleva menos oxígeno.",
-   "body": "La hemoglobina le da a la sangre su color rojo: rojo brillante cuando está cargada de oxígeno y rojo oscuro cuando tiene menos. Las venas se ven azuladas a través de la piel por la forma en que la piel absorbe y refleja las distintas longitudes de onda de la luz, no porque la sangre sea azul.",
+   "body": "Muchas personas creen que la sangre de las venas es azul y que solo se vuelve roja al contacto con el aire. No es así: la sangre humana siempre es roja. Su color se debe a la hemoglobina, la proteína de los glóbulos rojos que transporta el oxígeno. Cuando está cargada de oxígeno es de un rojo brillante; cuando ha cedido parte del oxígeno, es de un rojo más oscuro.\n\nEntonces, ¿por qué las venas se ven azuladas? Por cómo la piel y los tejidos absorben y reflejan la luz. La luz roja penetra más profundamente en la piel y se absorbe en parte, mientras que la luz azul se refleja más cerca de la superficie. El resultado, a nuestros ojos, es un tono azulado sobre las venas, aunque la sangre que contienen sea roja.",
+   "deep": "La hemoglobina contiene hierro, y es la unión del oxígeno a ese hierro lo que cambia ligeramente el tono de la sangre. Alrededor del 55 % de la sangre es plasma, un líquido que por sí solo es de color amarillo pajizo; el color rojo lo aportan los glóbulos rojos. En otros animales la historia es distinta: algunos, como ciertos moluscos y crustáceos, usan hemocianina, una proteína con cobre que hace que su sangre sea azulada.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Why Is Blood Red?",
@@ -3742,7 +3763,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -3758,6 +3779,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3772,7 +3797,8 @@ window.SQ_CONTENT = {
    "verdict": "falso",
    "title": "«Los murciélagos son ciegos»",
    "desc": "Falso. Todas las especies de murciélagos pueden ver.",
-   "body": "Todos los murciélagos tienen ojos funcionales. Muchas especies, además, usan la ecolocalización: emiten sonidos y escuchan el eco para orientarse y cazar en la oscuridad. Algunos murciélagos frugívoros grandes no usan ecolocalización y dependen sobre todo de la vista y del olfato.",
+   "body": "«Ciego como un murciélago» es una expresión muy extendida, pero injusta. Todos los murciélagos tienen ojos funcionales y pueden ver. Lo que ocurre es que muchas especies cazan de noche y han desarrollado además un sistema extraordinario para orientarse a oscuras: la ecolocalización.\n\nCon la ecolocalización, el murciélago emite sonidos muy agudos y escucha el eco que rebota en los objetos y en sus presas. Por el tiempo que tarda el eco y por cómo suena, su cerebro calcula la distancia y el movimiento de lo que tiene delante. Sus orejas son tan sensibles que también captan los sonidos de sus presas, como el aleteo de una polilla. Algunos murciélagos frugívoros grandes no usan ecolocalización y dependen sobre todo de la vista y del olfato.",
+   "deep": "Los murciélagos son los únicos mamíferos capaces de un vuelo verdadero y sostenido, a diferencia de las ardillas voladoras, que solo planean. Su papel en los ecosistemas es enorme. La mayoría, sobre todo en zonas templadas, come insectos; muchos de los demás se alimentan de fruta o de néctar. Por eso muchas plantas de las selvas tropicales y del Mediterráneo dependen de ellos para la polinización, y muchas otras para dispersar sus semillas.",
    "sources": [
     {
      "t": "Servicio Geológico de EE. UU. (USGS) — Are bats blind?",
@@ -3803,7 +3829,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -3819,6 +3845,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3833,7 +3863,8 @@ window.SQ_CONTENT = {
    "verdict": "falso",
    "title": "«Los toros se enfurecen con el color rojo»",
    "desc": "Falso. Los toros no distinguen bien el rojo; reaccionan al movimiento.",
-   "body": "El ganado vacuno es dicromático: no percibe el rojo como lo vemos nosotros. En las corridas, lo que provoca la embestida es el movimiento del capote o la muleta. Se usa el color rojo por tradición, y según una explicación común porque disimula las manchas de sangre.",
+   "body": "En las corridas de toros, la muleta del torero es roja, y de ahí nace la creencia de que ese color enfurece al animal. Pero el ganado vacuno es dicromático: tiene solo dos tipos de conos en la retina, frente a los tres de los humanos, y no distingue el rojo como lo vemos nosotros.\n\nLo que provoca la embestida es el movimiento: el toro reacciona a la tela que se agita frente a él. El rojo de la muleta se mantiene por tradición, y según una explicación común, porque disimula las manchas de sangre. Si el torero agitara una tela de otro color, el toro la atacaría igual.",
+   "deep": "La visión de vacas, cabras y ovejas se ha estudiado midiendo directamente la respuesta de su retina a distintos colores de luz, con una técnica llamada electrorretinografía. En las tres especies se identificaron solo dos mecanismos de conos: uno sensible a longitudes de onda cortas, en la zona del azul, y otro a longitudes medias y largas. Con esa combinación, colores que para nosotros son muy distintos, como el rojo y el verde, se parecen mucho. Muchos mamíferos comparten este tipo de visión; la visión de tres colores de los humanos y otros primates es más bien la excepción.",
    "sources": [
     {
      "t": "Visual Neuroscience — Photopigment basis for dichromatic color vision in cows, goats, and sheep",
@@ -3864,7 +3895,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -3880,6 +3911,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3894,7 +3929,8 @@ window.SQ_CONTENT = {
    "verdict": "falso",
    "title": "«Un chicle tragado se queda siete años en el estómago»",
    "desc": "Falso. El cuerpo no lo digiere, pero lo expulsa en pocos días.",
-   "body": "La base del chicle no se digiere del todo, pero el sistema digestivo la mueve como a cualquier otra cosa no digerible y sale de forma natural, normalmente en unos días. Solo tragar grandes cantidades de forma repetida, sobre todo en niños pequeños, ha causado obstrucciones en casos raros.",
+   "body": "Se dice que un chicle tragado se queda siete años en el estómago porque no se puede digerir. La primera parte es cierta a medias: la goma base del chicle, hecha de polímeros, no se digiere del todo. Pero eso no significa que se quede atrapada.\n\nEl aparato digestivo mueve todo lo que no puede digerir, como hace con las semillas o la fibra, y lo expulsa de forma natural, normalmente en unos días. Tragarse un chicle de vez en cuando no causa ningún problema. Solo se han descrito obstrucciones en casos raros, sobre todo en niños pequeños que tragaban grandes cantidades de chicle de forma repetida, a veces junto con otros objetos.",
+   "deep": "El chicle moderno nació a partir del chicle natural, la resina del árbol tropical Manilkara chicle, que se masticaba desde hace siglos en Mesoamérica. Con el tiempo, la industria sustituyó esa resina por gomas sintéticas. Los polímeros que forman la goma base son hidrófobos, es decir, repelen el agua, y por eso no se disuelven en la saliva ni en los jugos del estómago. Lo que sí se absorbe son los azúcares y edulcorantes que lleva añadidos.",
    "sources": [
     {
      "t": "Mayo Clinic — Swallowing gum: Is it harmful?",
@@ -3927,7 +3963,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -3943,6 +3979,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Fuentes reforzadas en la revisión de contenidos con respaldo débil"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3957,7 +3997,8 @@ window.SQ_CONTENT = {
    "verdict": "falso",
    "title": "«Napoleón era muy bajito»",
    "desc": "Falso. Medía entre 1,67 y 1,70 m, una estatura cercana al promedio de su época.",
-   "body": "La confusión vino en parte de las unidades: su estatura se registró como 5 pies y 2 pulgadas en medidas francesas, que eran más largas que las inglesas. Convertida correctamente, equivale a unos 1,67 m; otros historiadores estiman 1,70 m. También influyeron las caricaturas británicas, como las de James Gillray, que lo dibujaban pequeño para ridiculizarlo.",
+   "body": "Napoleón Bonaparte pasó a la historia como un hombre muy bajo, tanto que hoy se habla del «complejo de Napoleón». Pero los historiadores calculan que medía alrededor de 1,67 a 1,70 m, una estatura cercana a la media de su época.\n\nParte de la confusión viene de las unidades. En su autopsia se anotó una estatura de 5 pies y 2 pulgadas, pero en el sistema de medidas francés anterior a la Revolución. La pulgada francesa, el «pouce», equivalía a 1,06 pulgadas inglesas, así que leída en medidas inglesas su estatura parecía mucho menor de lo que era. También influyó la propaganda: el caricaturista británico James Gillray lo dibujaba diminuto y rabioso para ridiculizarlo, y esa imagen se popularizó.",
+   "deep": "Los historiadores señalan otro detalle: Napoleón solía aparecer en público acompañado de los granaderos de la Vieja Guardia, a los que se exigía ser físicamente grandes y que llevaban uniformes que podían hacer que el emperador pareciera menudo a su lado. El llamado «complejo de Napoleón» describe a personas de baja estatura que, supuestamente, compensan con un comportamiento agresivo o dominante. Es una idea popular más que un diagnóstico médico.",
    "sources": [
     {
      "t": "National Geographic — Was Napoleon even short? Inside the history of discrimination against short men",
@@ -3980,7 +4021,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -3996,6 +4037,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4010,7 +4055,8 @@ window.SQ_CONTENT = {
    "verdict": "falso",
    "title": "«Los avestruces esconden la cabeza en la tierra»",
    "desc": "Falso. Nunca lo hacen.",
-   "body": "Los avestruces ponen sus huevos en un hoyo en el suelo y bajan la cabeza para darles vuelta con el pico. Desde lejos parece que la tienen enterrada. Ante el peligro, lo que hacen es huir corriendo, y son muy rápidos, o tumbarse pegados al suelo para pasar desapercibidos.",
+   "body": "Se dice que el avestruz esconde la cabeza en la arena cuando tiene miedo, y la expresión se usa para hablar de quien no quiere ver un problema. Pero los avestruces no hacen eso. La confusión probablemente viene de su forma de cuidar los huevos.\n\nEl avestruz pone los huevos en un hoyo que excava en el suelo y, de vez en cuando, baja la cabeza para darles vuelta con el pico. Desde lejos parece que la tuviera enterrada. Ante un peligro, su reacción es huir corriendo, y es muy rápido, o tumbarse pegado al suelo con el cuello estirado para pasar desapercibido.",
+   "deep": "El avestruz común es el ave viva más grande del mundo y no puede volar. Vive en zonas de África y es un corredor excepcional, con patas largas y potentes. También puede defenderse con patadas muy fuertes: en la zona de Oudtshoorn, en Sudáfrica, donde hay muchas granjas de avestruces, se ha estimado que cada año se producen dos o tres ataques con heridas graves o muertes. Pertenece al grupo de las ratites, aves no voladoras como el emú y el kiwi.",
    "sources": [
     {
      "t": "Smithsonian Institution — Ostrich",
@@ -4041,7 +4087,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -4057,6 +4103,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4071,7 +4121,8 @@ window.SQ_CONTENT = {
    "verdict": "matizado",
    "title": "«Los camaleones cambian de color para camuflarse»",
    "desc": "Solo en parte. Lo hacen sobre todo para comunicarse y regular su temperatura.",
-   "body": "Los camaleones ya tienen colores que les ayudan a pasar desapercibidos. Sus cambios de color más llamativos están relacionados con su estado: para mostrarse ante rivales o parejas, indicar estrés, o para absorber o reflejar más calor. Lo consiguen reorganizando unos nanocristales en células de su piel, que cambian cómo reflejan la luz.",
+   "body": "La creencia más extendida es que los camaleones cambian de color para camuflarse con lo que los rodea. En realidad, sus colores habituales ya les ayudan a pasar desapercibidos, y sus cambios más llamativos tienen otras funciones.\n\nLos camaleones cambian de color sobre todo para comunicarse. El color indica a otros camaleones su estado físico y sus intenciones: se ponen más vistosos para enfrentarse a un rival o atraer a una pareja, y cambian también cuando están estresados. Además, el color les ayuda a regular su temperatura, porque los tonos oscuros absorben más calor que los claros.",
+   "deep": "El mecanismo es sorprendente y se describió en la revista Nature Communications en 2015. En la piel del camaleón hay una capa de células llamadas iridóforos que contienen una red de nanocristales de guanina. El animal ajusta activamente la distancia entre esos cristales, y con ello cambia la longitud de onda de la luz que reflejan: es un color estructural, como el de algunas mariposas, más que un simple cambio de pigmentos. Debajo hay otra capa de iridóforos con cristales más grandes que refleja una parte importante de la luz del sol, sobre todo del infrarrojo cercano, lo que podría ayudarles a protegerse del calor.",
    "sources": [
     {
      "t": "Nature Communications — Photonic crystals cause active colour change in chameleons",
@@ -4102,7 +4153,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -4118,6 +4169,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4230,7 +4285,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«El vidrio es un líquido que fluye muy lentamente»",
    "desc": "Falso. Las ventanas antiguas más gruesas abajo se deben a cómo se fabricaban.",
-   "body": "Se suele decir que los vitrales medievales son más gruesos en la parte inferior porque el vidrio «se escurrió» durante siglos. En realidad, las técnicas de la época producían láminas irregulares, y muchas se instalaban con el lado grueso hacia abajo. Los cálculos indican que el vidrio a temperatura ambiente tardaría muchísimo más que la edad del universo en fluir de forma visible.",
+   "body": "Se dice que el vidrio es un líquido que fluye muy despacio, y como prueba se citan los vitrales de las catedrales medievales, más gruesos en la parte de abajo. La explicación es otra: las técnicas de la época producían láminas de grosor irregular, y muchas se instalaban con el lado más grueso hacia abajo.\n\nHay una prueba sencilla contra el mito: vidrios mucho más antiguos que los vitrales no muestran esa deformación. Las vasijas de vidrio del antiguo Egipto, por ejemplo, no tienen ningún «escurrimiento». Si el vidrio fluyera de verdad a temperatura ambiente, los objetos más antiguos serían los más deformados, y no es así. En la práctica, el vidrio se comporta como un sólido.",
+   "deep": "El vidrio es un sólido amorfo: sus átomos no forman una red ordenada como en un cristal, sino una estructura desordenada parecida a la de un líquido. Por eso a veces se le ha llamado «líquido sobreenfriado». Pero, aunque su estructura a escala atómica se parezca a la de un líquido, tiene todas las propiedades mecánicas de un sólido. El vidrio de ventanas más común es el sodocálcico, que se funde en hornos industriales y se fabrica en grandes cantidades. Los primeros objetos de vidrio conocidos, cuentas de mediados del tercer milenio antes de Cristo, quizá se crearon por accidente.",
    "sources": [
     {
      "t": "Scientific American — Fact or Fiction?: Glass Is a (Supercooled) Liquid",
@@ -4263,7 +4319,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -4279,6 +4335,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4883,7 +4943,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«En la Edad Media creían que la Tierra era plana»",
    "desc": "Falso. Las personas educadas sabían que la Tierra es esférica desde la Antigüedad griega.",
-   "body": "Ya en el siglo III a. C., Eratóstenes calculó la circunferencia de la Tierra con bastante precisión. Los eruditos medievales conocían y enseñaban la forma esférica. La idea de que Colón tuvo que demostrar que la Tierra era redonda se popularizó en el siglo XIX; la discusión real era sobre su tamaño.",
+   "body": "Una idea muy repetida dice que en la Edad Media la gente creía que la Tierra era plana y que Cristóbal Colón tuvo que demostrar que era redonda. Es un error histórico. La forma esférica de la Tierra ya era conocida en la Grecia antigua, y los eruditos medievales la conocían y la enseñaban.\n\nHacia el año 240 a. C., Eratóstenes incluso calculó la circunferencia de la Tierra con bastante precisión. Cuando Colón presentó su proyecto, nadie discutía la forma del planeta: la discusión era sobre su tamaño. Sus críticos pensaban, con razón, que Asia estaba mucho más lejos de lo que él calculaba. Colón llegó a América porque se interpuso un continente que no esperaba.",
+   "deep": "Los historiadores atribuyen la difusión del mito al siglo XIX. Contribuyeron la biografía novelada de Colón escrita por Washington Irving y las obras de John William Draper y Andrew Dickson White, que presentaban la historia como una lucha entre ciencia y religión. A veces se citan como prueba de una creencia medieval en la Tierra plana unas pocas obras aisladas, como la de Cosmas Indicopleustes, que tuvieron muy poca influencia.",
    "sources": [
     {
      "t": "Wikipedia — Myth of the flat Earth",
@@ -4908,7 +4969,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -4920,6 +4981,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5323,7 +5388,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Hay personas de cerebro izquierdo (lógicas) y de cerebro derecho (creativas)»",
    "desc": "Falso. Algunas funciones se concentran más en un hemisferio, pero ambos trabajan juntos.",
-   "body": "Es cierto que ciertas funciones, como gran parte del lenguaje, dependen más de un hemisferio. Pero no existen personas que «usen» uno más que otro. Un estudio de la Universidad de Utah publicado en 2013, que analizó escáneres de más de mil personas, no encontró que la gente tuviera un hemisferio dominante en general.",
+   "body": "Se dice que hay personas de «cerebro izquierdo», lógicas y analíticas, y de «cerebro derecho», creativas e intuitivas. Es una simplificación que no se sostiene. Es cierto que el cerebro tiene cierta especialización por hemisferios, lo que se llama lateralización, pero eso no divide a las personas en dos tipos.\n\nAlgunas funciones dependen más de un lado: por ejemplo, el lenguaje está lateralizado en el hemisferio izquierdo en el 96 % de los diestros y en el 60 % de los zurdos. Pero las tareas complejas usan redes de ambos hemisferios que trabajan juntas. Un estudio de la Universidad de Utah publicado en 2013 analizó escáneres cerebrales y encontró una actividad similar en los dos lados del cerebro, sin importar la personalidad de cada persona.",
+   "deep": "El mito tiene un origen científico real. En los años sesenta, Michael Gazzaniga y Roger Sperry estudiaron a pacientes de «cerebro dividido», a los que se había cortado el cuerpo calloso, el puente de fibras que une los dos hemisferios. Esos pacientes permitieron ver qué aportaba cada hemisferio a distintas tareas de percepción y razonamiento. La divulgación posterior exageró y simplificó esos resultados hasta convertirlos en supuestos tipos de personalidad.",
    "sources": [
     {
      "t": "Publicación académica (DOI) (doi.org) — Frontiers",
@@ -5356,7 +5422,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -5372,6 +5438,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5384,7 +5454,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Aprendes mejor si te enseñan según tu estilo: visual, auditivo o kinestésico»",
    "desc": "No hay evidencia sólida de que adaptar la enseñanza a un «estilo» mejore el aprendizaje.",
-   "body": "Muchas personas tienen preferencias sobre cómo estudiar. Pero las revisiones de la investigación no han encontrado pruebas de que enseñar a cada quien según su supuesto estilo mejore los resultados. Lo que sí ayuda a casi todo el mundo es combinar formatos, practicar recordando lo aprendido y repasar espaciando el tiempo.",
+   "body": "Mucha gente se describe como «visual», «auditiva» o «kinestésica» y cree que aprende mejor si le enseñan en ese formato. Es cierto que las personas tienen preferencias sobre cómo estudiar. El problema es la segunda parte de la idea: que adaptar la enseñanza a ese estilo mejore los resultados.\n\nLas revisiones de la investigación no han encontrado pruebas consistentes de que identificar el estilo de cada estudiante y enseñarle según ese estilo mejore lo que aprende. Lo que sí funciona para casi todo el mundo está bien estudiado: combinar palabras e imágenes, practicar recordando lo aprendido en lugar de solo releer, y repasar espaciando el tiempo entre sesiones.",
+   "deep": "Para comprobar de verdad la teoría haría falta un tipo concreto de experimento: clasificar a los estudiantes por estilo, enseñar a cada grupo con métodos distintos y comprobar si cada grupo aprende más con «su» método. Los pocos estudios con ese diseño no han encontrado el efecto esperado. Un metaanálisis de 2025 concluyó que no se deben seguir difundiendo los mitos y las afirmaciones sin respaldo sobre los estilos de aprendizaje, y que conviene distinguir estilos de estrategias de estudio.",
    "sources": [
     {
      "t": "Publicación académica (DOI) (doi.org) — Frontiers",
@@ -5409,7 +5480,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -5425,6 +5496,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5982,7 +6057,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«La cara oculta de la Luna siempre está a oscuras»",
    "desc": "Falso. Recibe luz solar igual que la cara visible; simplemente no la vemos desde la Tierra.",
-   "body": "La Luna gira, así que todos sus lados tienen día y noche, que duran unas dos semanas cada uno. La cara oculta se llama así porque nunca mira hacia la Tierra, no porque esté a oscuras. Durante la luna nueva, cuando nosotros no vemos la cara visible iluminada, la cara oculta está en pleno día.",
+   "body": "Se suele hablar del «lado oscuro de la Luna» como si una mitad estuviera siempre a oscuras. No es así. La Luna gira sobre sí misma, así que todos sus lados tienen día y noche, que duran unas dos semanas cada uno. Lo que ocurre es que siempre nos muestra la misma cara.\n\nEsa cara que nunca vemos se llama mejor «cara oculta». Durante la luna nueva, cuando desde la Tierra no vemos iluminada la cara visible, la cara oculta está en pleno día. Gracias a pequeños balanceos de la Luna, llamados libraciones, a lo largo del tiempo podemos llegar a ver en total cerca del 59 % de su superficie.",
+   "deep": "La Luna muestra siempre la misma cara porque tarda lo mismo en girar sobre sí misma que en dar una vuelta alrededor de la Tierra, un fenómeno llamado rotación sincrónica. Antes de la era espacial, los astrónomos esperaban que la cara oculta se pareciera a la visible. Las primeras imágenes revelaron otra cosa: la cara oculta tiene muy pocos «mares», las grandes llanuras oscuras de lava, y es más reflectante que la cara visible.",
    "sources": [
     {
      "t": "Smithsonian Institution — Is the “Dark Side of the Moon” Actually Dark?",
@@ -6015,7 +6091,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -6031,6 +6107,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6700,7 +6780,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Cada zona de la lengua detecta un sabor distinto»",
    "desc": "Falso. Todas las zonas de la lengua con papilas pueden detectar todos los sabores básicos.",
-   "body": "El famoso mapa con lo dulce en la punta y lo amargo al fondo viene de una mala interpretación de un estudio alemán de 1901, de David Hänig, que solo encontró pequeñas diferencias de sensibilidad. Hoy se sabe que todas las zonas de la lengua con papilas gustativas pueden percibir todos los sabores básicos.",
+   "body": "Durante décadas, los libros de texto mostraron un mapa de la lengua con lo dulce en la punta, lo salado y lo ácido a los lados y lo amargo al fondo. Ese mapa es un error. Todas las zonas de la lengua que tienen papilas gustativas pueden percibir todos los sabores básicos.\n\nEl mapa nació de una mala interpretación de un estudio alemán de 1901, de David Hänig. Hänig midió pequeñas diferencias en la sensibilidad de distintas zonas de la lengua, es decir, cuánta concentración de un sabor hacía falta para notarlo. Esas diferencias mínimas se sacaron de contexto y los libros de texto las transformaron en zonas exclusivas para cada sabor.",
+   "deep": "Algunas partes de la lengua pueden detectar un sabor un poco antes que otras, pero todas son igualmente capaces de transmitir todos los sabores. El error se mantuvo tanto tiempo porque se repitió de libro en libro sin volver a comprobarlo: un buen ejemplo de cómo un dato mal citado puede convertirse en «verdad» durante generaciones. Lo que llamamos «sabor» en la vida diaria, además, no depende solo de la lengua: combina el gusto con el olfato, la textura y la temperatura de los alimentos.",
    "sources": [
     {
      "t": "Sociedad Max Planck — VL Library Item: lit4562, p0576",
@@ -6733,7 +6814,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -6749,6 +6830,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6761,7 +6846,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Los seres humanos tenemos solo cinco sentidos»",
    "desc": "Es una simplificación. Además de los cinco clásicos, tenemos equilibrio, propiocepción y otros.",
-   "body": "La lista de vista, oído, olfato, gusto y tacto es muy antigua: en la época de Shakespeare ya se hablaba de los «cinco sentidos». Pero también percibimos el equilibrio, gracias al oído interno; la posición de nuestro cuerpo sin mirarlo, llamada propiocepción; la temperatura y el dolor. Según cómo se cuenten, los científicos hablan de muchos más de cinco sentidos.",
+   "body": "Desde hace siglos se habla de cinco sentidos: vista, oído, olfato, gusto y tacto. En la época de Shakespeare ya se contaban cinco «ingenios» o sentidos exteriores, y esa idea tradicional sigue siendo común hoy. Pero los científicos reconocen bastantes más formas de percibir el mundo y nuestro propio cuerpo.\n\nPor ejemplo, el sentido del equilibrio, gracias al sistema vestibular del oído interno, nos informa de la orientación del cuerpo, la dirección y la aceleración. La propiocepción nos permite saber dónde están nuestras manos sin mirarlas. También percibimos la temperatura con receptores específicos que se activan cuando la temperatura local difiere de la del cuerpo, además del dolor y de señales internas como el hambre. Según cómo se cuenten, la lista puede alargarse mucho.",
+   "deep": "La percepción de las señales que vienen del interior del cuerpo se llama interocepción: es cualquier sentido que normalmente se estimula desde dentro, como la sensación de llenado del estómago o de la vejiga. Lo que define un sentido es la existencia de receptores especializados que captan un tipo de estímulo y lo convierten en señales nerviosas. Por eso el «tacto» clásico se divide en realidad en varios sentidos distintos: presión, temperatura y dolor dependen de receptores diferentes.",
    "sources": [
     {
      "t": "Wikipedia — Sense",
@@ -6786,7 +6872,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -6798,6 +6884,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6850,7 +6940,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Tronarse los dedos causa artritis»",
    "desc": "Falso, según los estudios disponibles. Un médico lo comprobó en sí mismo durante 60 años.",
-   "body": "El chasquido se relaciona con burbujas de gas en el líquido de la articulación. El médico Donald Unger se tronó los dedos de una sola mano durante unos 60 años y no de la otra, y no encontró artritis en ninguna. Ganó un premio Ig Nobel en 2009. Estudios con más personas tampoco han encontrado relación con la artritis.",
+   "body": "Muchos padres advierten a sus hijos que tronarse los dedos causa artritis. Los estudios no lo confirman. El chasquido se relaciona con el gas disuelto en el líquido sinovial, el líquido que lubrica las articulaciones, cuando la articulación se estira de golpe.\n\nHay incluso un experimento casero famoso: el médico estadounidense Donald Unger se tronó los nudillos de la mano izquierda todos los días durante más de cincuenta años, y no los de la derecha. Al final, no encontró artritis ni otros problemas en ninguna de las dos manos. Publicó el resultado en 2004 y recibió por ello el premio Ig Nobel de Medicina de 2009. Estudios con más personas tampoco han encontrado que tronarse los nudillos cause artrosis en las manos.",
+   "deep": "Durante décadas se discutió el mecanismo exacto del sonido. Según una explicación, al estirar la articulación se libera nitrógeno disuelto en el líquido sinovial y se forman burbujas de cavitación; el nitrógeno tarda unos 20 minutos en volver a disolverse, y por eso hay que esperar antes de poder tronar de nuevo el mismo dedo. En 2015, una investigación observó que las burbujas seguían en el líquido después del chasquido, lo que sugiere que el sonido se produce al formarse la burbuja y no al estallar.",
    "sources": [
     {
      "t": "Wikipedia — Cracking joints",
@@ -6875,7 +6966,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -6887,6 +6978,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7687,7 +7782,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Las vacas tienen cuatro estómagos»",
    "desc": "Verdad a medias. Tienen un solo estómago dividido en cuatro compartimentos.",
-   "body": "Las vacas son rumiantes. Su estómago tiene cuatro cavidades: rumen, retículo, omaso y abomaso. En el rumen, microbios fermentan la hierba; luego la vaca regurgita el bolo y lo vuelve a masticar, lo que llamamos rumiar. El abomaso es el compartimento que funciona como nuestro estómago.",
+   "body": "Se suele decir que las vacas tienen cuatro estómagos. Es una forma sencilla de explicarlo, pero no del todo exacta: las vacas tienen un solo estómago, dividido en cuatro compartimentos, cada uno con una función distinta. Son rumiantes, como las cabras, las ovejas o los ciervos.\n\nLos dos primeros compartimentos son el rumen y el retículo. En el rumen, enormes poblaciones de microbios fermentan la hierba y descomponen la celulosa, algo que la vaca no podría hacer por sí sola. Después, la vaca regurgita el bolo, lo vuelve a masticar con calma y lo traga de nuevo: eso es rumiar. Luego el alimento pasa al omaso, que absorbe agua y nutrientes, y al abomaso, que es el «estómago verdadero» y funciona de forma parecida al nuestro.",
+   "deep": "La fermentación del rumen produce grandes cantidades de ácidos orgánicos, los ácidos grasos volátiles, que son la principal fuente de energía de la vaca. Mantener el pH adecuado del rumen es fundamental para que los microbios trabajen bien. En el abomaso, la vaca digiere además los propios microbios que crecieron en el rumen, que le aportan proteínas. La fermentación también produce metano, que la vaca expulsa, sobre todo al eructar.",
    "sources": [
     {
      "t": "Fort Lewis College — Ruminant digestion (material docente)",
@@ -7720,7 +7816,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7736,6 +7832,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7748,7 +7848,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Los peces dorados tienen memoria de tres segundos»",
    "desc": "Falso. Pueden recordar cosas durante meses y aprender a responder a señales.",
-   "body": "En experimentos, los peces dorados han aprendido a asociar sonidos o colores con la comida y a recordarlo durante meses. También pueden aprender a empujar palancas. El mito de los tres segundos no tiene base científica.",
+   "body": "«Tienes memoria de pez» se dice de quien olvida todo enseguida, y la idea se apoya en un supuesto dato: que los peces dorados solo recuerdan las cosas durante tres segundos. Ese dato no tiene ninguna base científica.\n\nEn experimentos, los peces dorados han aprendido a asociar un sonido, una luz o un color con la llegada de la comida, y han recordado esa asociación durante meses. También pueden aprender a empujar una palanca para obtener alimento y a reconocer a la persona que suele alimentarlos. Quien ha tenido peces lo habrá notado: muchos se acercan al cristal cuando alguien se aproxima a la pecera a la hora de comer.",
+   "deep": "El pez dorado, Carassius auratus, es un pez de agua dulce de la familia de las carpas, los ciprínidos. Fue domesticado en China hace siglos, y las primeras variedades con colas ornamentales se registraron durante la dinastía Ming. Hoy existen decenas de variedades, como el cometa o el shubunkin. Su capacidad de aprendizaje lo ha convertido en un animal útil en laboratorio para estudiar la memoria y el condicionamiento, es decir, cómo un animal aprende a asociar un estímulo con una recompensa.",
    "sources": [
     {
      "t": "Wikipedia — Goldfish",
@@ -7773,7 +7874,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -7785,6 +7886,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7797,7 +7902,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Los camellos guardan agua en la joroba»",
    "desc": "Falso. La joroba almacena grasa, no agua.",
-   "body": "La joroba es una reserva de grasa que el camello puede usar como energía cuando escasea la comida. Concentrar la grasa en un solo lugar también le ayuda a disipar el calor por el resto del cuerpo. Resisten la sed por otras adaptaciones, como producir orina muy concentrada y tolerar una gran pérdida de agua.",
+   "body": "Durante mucho tiempo se creyó que los camellos almacenaban agua en la joroba, y por eso podían cruzar el desierto sin beber. No es así: la joroba es una reserva de grasa. Cuando escasea la comida, el camello puede usar esa grasa como fuente de energía. Concentrar la grasa en un solo lugar también le ayuda a disipar el calor por el resto del cuerpo.\n\nSu resistencia a la sed se debe a otras adaptaciones. Sus riñones limitan al máximo el volumen de orina, que sale espesa como un jarabe, y sus heces son tan secas que pueden usarse directamente como combustible. Un camello puede perder hasta el 25 % de su peso corporal en agua, una deshidratación que sería mortal para la mayoría de los mamíferos. Cuando por fin encuentra agua, la absorbe como una esponja: un animal muy sediento puede beber unos 110 litros en solo 13 minutos.",
+   "deep": "Hay dos especies principales de camellos domésticos: el dromedario, con una joroba, y el camello bactriano, con dos. El dromedario puede pasar hasta diez días sin beber incluso con mucho calor. El camello bactriano salvaje es una especie distinta y no es el antepasado del doméstico; está en peligro de extinción, con alrededor de mil ejemplares y una población en descenso. Los camellos se crían por su leche, su carne y como animales de carga, y su resistencia los ha hecho clave para cruzar desiertos durante milenios.",
    "sources": [
     {
      "t": "National Geographic — Bactrian Camel",
@@ -7822,7 +7928,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7838,6 +7944,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -8380,7 +8490,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Epicuro defendía una vida de excesos y placeres»",
    "desc": "Falso. Para Epicuro, el placer era sobre todo la ausencia de dolor y de inquietud.",
-   "body": "Hoy «epicúreo» se asocia con la buena comida y los lujos, pero Epicuro proponía una vida sencilla, con amigos, prudencia y pocos deseos. Su meta era la ataraxia, la tranquilidad del alma, y la ausencia de dolor físico. Los excesos, según él, terminan trayendo más sufrimiento que placer.",
+   "body": "Hoy la palabra «epicúreo» se asocia con la buena mesa, el vino y los lujos. Pero el filósofo griego Epicuro proponía algo casi opuesto: una vida sencilla, rodeada de amigos, guiada por la prudencia y con pocos deseos.\n\nPara Epicuro, el placer era el bien principal, pero entendía el placer sobre todo como ausencia de dolor en el cuerpo y de perturbación en el alma. Su meta era la ataraxia, la tranquilidad del ánimo. Los excesos, según él, acaban trayendo más sufrimiento que placer. Por eso distinguía los deseos naturales y necesarios, fáciles de satisfacer, de los deseos vanos, que nunca pueden saciarse porque no tienen un objeto real.",
+   "deep": "Epicuro murió en el año 270 a. C., con unos setenta años. En Atenas compró una propiedad conocida como «el Jardín», nombre que pasó a designar su escuela, donde sus seguidores comían sencillo y discutían de todo tipo de temas filosóficos. Enseñaba que los dioses existen, pero no intervienen en los asuntos humanos, y consideraba que el miedo a la muerte y al castigo después de ella era la principal causa de ansiedad de las personas. En 1887, Hermann Usener reunió los textos, fragmentos y testimonios conservados de Epicuro en una colección llamada «Epicurea».",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Epicurus",
@@ -8405,7 +8516,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -8421,6 +8532,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -8875,7 +8990,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«En el Triángulo de las Bermudas desaparecen más barcos y aviones que en otros lugares»",
    "desc": "Falso, según las agencias que lo han analizado: no hay más incidentes de lo esperable en una zona tan transitada.",
-   "body": "El Triángulo de las Bermudas es una zona del Atlántico con mucho tráfico marítimo y aéreo, y con tormentas frecuentes. Organismos como la Guardia Costera de Estados Unidos no lo reconocen como una zona de riesgo especial. Varios de los casos famosos fueron exagerados o mal contados en libros y revistas.",
+   "body": "El Triángulo de las Bermudas, también llamado Triángulo del Diablo, es una zona del Atlántico Norte de límites imprecisos, entre Florida, las Bermudas y Puerto Rico. Se le atribuyen desapariciones misteriosas de barcos y aviones, pero los datos no muestran que allí ocurran más accidentes que en otras zonas con un tráfico parecido.\n\nEs una región con mucho tráfico marítimo y aéreo, con huracanes y tormentas repentinas, y con la corriente del Golfo, que puede causar cambios bruscos del tiempo. La Armada y la Guardia Costera de Estados Unidos sostienen que no hay explicaciones sobrenaturales para los desastres en el mar allí. Cuando se preguntó al mercado de seguros marítimos Lloyd's de Londres, determinó que no se habían hundido en la zona un número inusual de barcos, y no cobra tarifas más altas por cruzarla.",
+   "deep": "La fama del Triángulo nació en los años sesenta y setenta con artículos y libros sensacionalistas, como «El Triángulo de las Bermudas», de Charles Berlitz, publicado en 1974, que fue un gran éxito de ventas. Investigadores posteriores revisaron los casos y encontraron errores: barcos que en realidad se hundieron en otras zonas, tormentas que los libros omitían o accidentes exagerados. La cultura popular amplificó el mito con películas, canciones y hasta juegos de mesa.",
    "sources": [
     {
      "t": "NOAA (EE. UU.) — What is the Bermuda Triangle?",
@@ -8900,7 +9016,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -8916,6 +9032,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9323,7 +9443,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«A los soldados romanos se les pagaba con sal, y de ahí viene “salario”»",
    "desc": "Verdad a medias. La palabra sí se relaciona con «sal», pero no hay pruebas de que se pagara con sal.",
-   "body": "«Salario» viene del latín «salarium», relacionado con «sal». Sin embargo, no hay evidencia de que los soldados romanos cobraran en sal. Una hipótesis es que el salarium fuera una asignación para comprarla, pero el origen exacto del término sigue discutido.",
+   "body": "Se repite a menudo que a los soldados romanos se les pagaba con sal y que de ahí viene la palabra «salario». La parte de la etimología es cierta: «salario» viene del latín salarium, que significa «relativo a la sal», de sal, «sal». Lo que no está demostrado es el pago en sal.\n\nNo hay evidencia de que las legiones romanas cobraran en sal, y los estudiosos consideran infundada esa afirmación moderna, aunque se repita mucho. La conexión exacta entre el salarium y la sal no se conoce. Una hipótesis es que el término nombrara una asignación de dinero destinada a comprar sal, un producto valioso en la Antigüedad, pero no está confirmada.",
+   "deep": "La sal fue durante milenios un bien muy apreciado: servía para conservar alimentos antes de que existiera la refrigeración, y su producción y comercio dieron lugar a rutas, impuestos y ciudades. Por eso es fácil que surgieran historias que la relacionaran con el dinero. El caso del salario es un buen ejemplo de etimología popular: una explicación atractiva que se repite tanto que parece un hecho, aunque los documentos no la respalden. Hoy la palabra se usa para la paga fija, normalmente mensual o anual, que recibe un trabajador, a diferencia de un pago por horas.",
    "sources": [
     {
      "t": "Wikipedia — Salary",
@@ -9340,7 +9461,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -9352,6 +9473,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9702,7 +9827,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Buda era un hombre gordo y sonriente»",
    "desc": "Falso. Esa figura es Budai, un monje chino del folclore, no Siddhartha Gautama.",
-   "body": "La estatua del monje barrigón y risueño representa a Budai, un personaje del folclore chino asociado con la alegría y la abundancia. El Buda histórico, Siddhartha Gautama, vivió en la India antigua y suele representarse delgado, sereno y en meditación.",
+   "body": "En muchos restaurantes y tiendas aparece la figura de un monje calvo, barrigón y risueño, y mucha gente cree que representa a Buda. En realidad representa a Budai, un personaje del folclore chino asociado con la alegría, la abundancia y la buena suerte. En Occidente se le confunde tanto con Buda que lo llaman «el Buda gordo».\n\nEl Buda histórico, Siddhartha Gautama, vivió en la India antigua y fundó el budismo. Las representaciones tradicionales lo muestran delgado, sereno y en meditación, a menudo sentado en la postura del loto. Su enseñanza hablaba precisamente de un camino medio entre los excesos y la mortificación extrema.",
+   "deep": "Budai se basa en un monje chino que, según la tradición, vivió hace más de mil años y llevaba siempre un saco de tela: su nombre significa precisamente «saco de tela». Se le representa con un vientre enorme, posible símbolo de abundancia o de generosidad, y muchas historias sobre él hablan de su gusto por la comida y la bebida. En la tradición budista china se le identifica con Maitreya, el Buda del futuro, y en Japón forma parte de los siete dioses de la fortuna. Los artistas zen lo han dibujado divirtiendo a los transeúntes o meditando sobre su saco.",
    "sources": [
     {
      "t": "Wikipedia — Budai",
@@ -9727,7 +9853,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -9739,6 +9865,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -11177,7 +11307,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«A Newton le cayó una manzana en la cabeza»",
    "desc": "Verdad a medias. Newton contó que ver caer una manzana lo hizo pensar, pero no dijo que le golpeara.",
-   "body": "El propio Newton, ya mayor, le contó a su biógrafo William Stukeley que la caída de una manzana en un jardín le inspiró a pensar en la gravedad. El detalle de que le cayera en la cabeza es un adorno popular posterior. El árbol, en Woolsthorpe, Inglaterra, todavía existe.",
+   "body": "La historia de Isaac Newton y la manzana es una de las más famosas de la ciencia. La versión popular dice que una manzana le cayó en la cabeza y así descubrió la gravedad. Lo que el propio Newton contó es algo más modesto: que ver caer una manzana en un jardín le hizo pensar en la gravedad.\n\nYa mayor, Newton le relató esa escena a su biógrafo William Stukeley. Voltaire también la recogió en 1727: escribió que Newton, paseando por sus jardines, tuvo la primera idea de su sistema de gravitación al ver caer una manzana de un árbol. Aunque algunos dudan de la historia, los conocidos de Newton la atribuían al propio científico, pero no la versión apócrifa de que la manzana le golpeara la cabeza. El árbol, en Woolsthorpe, Inglaterra, todavía existe.",
+   "deep": "La idea que la manzana le inspiró desembocó en su obra más famosa, los «Principia Mathematica», publicada por primera vez en 1687. En ella Newton formuló las leyes del movimiento y la ley de la gravitación universal, que fueron la visión científica dominante durante siglos: la misma fuerza que hace caer una manzana mantiene a los planetas en sus órbitas. Con ella explicó también fenómenos como las mareas y la precesión de los equinoccios, causada por la atracción de la Luna sobre el abultamiento de la Tierra.",
    "sources": [
     {
      "t": "Royal Society — Newton’s apple tree",
@@ -11203,7 +11334,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -11219,6 +11350,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -11446,7 +11581,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Las llantas de goma te protegen de los rayos dentro de un carro»",
    "desc": "Falso. Lo que protege es la carrocería metálica, que conduce la corriente por fuera.",
-   "body": "Un rayo ha recorrido kilómetros de aire; unos centímetros de goma no lo detienen. Un carro con techo metálico funciona como una jaula de Faraday: la electricidad recorre la superficie exterior y llega al suelo. Por eso los convertibles o los vehículos con techo de lona no ofrecen la misma protección.",
+   "body": "Mucha gente cree que dentro de un carro estás a salvo de los rayos porque las llantas de goma aíslan del suelo. Lo de estar a salvo es cierto en la mayoría de los carros, pero la razón es otra. Un rayo ha recorrido kilómetros de aire, que es muy buen aislante; unos centímetros de goma no lo van a detener.\n\nLo que protege es la carrocería de metal. Un carro con techo metálico funciona como una jaula de Faraday: la corriente del rayo recorre la superficie exterior del vehículo y llega al suelo sin atravesar el interior. Por eso los convertibles, los vehículos con techo de lona o de fibra de vidrio, las motos y las bicicletas no ofrecen la misma protección. Durante una tormenta conviene no tocar las partes metálicas del interior.",
+   "deep": "La jaula de Faraday debe su nombre al científico británico Michael Faraday, que la estudió en el siglo XIX. Es un recinto conductor que reparte las cargas eléctricas por su exterior, de modo que en su interior no hay campo eléctrico. El mismo principio protege a personas y equipos contra rayos y descargas electrostáticas, y se usa para blindar aparatos frente a interferencias: por ejemplo, algunas guitarras eléctricas llevan láminas de cobre o aluminio que protegen sus pastillas del ruido de amplificadores y luces.",
    "sources": [
     {
      "t": "Wikipedia — Faraday cage",
@@ -11480,7 +11616,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -11492,6 +11628,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -11815,7 +11955,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«María Antonieta dijo: que coman pasteles»",
    "desc": "Falso, según los historiadores. No hay ninguna prueba de que lo dijera.",
-   "body": "La frase aparece en las Confesiones de Jean-Jacques Rousseau, escritas cuando María Antonieta era una niña que todavía vivía en Austria, atribuida a «una gran princesa» sin nombre. Se le adjudicó a la reina mucho después, como propaganda contra la monarquía.",
+   "body": "«Si no tienen pan, que coman pasteles» es quizá la frase más famosa atribuida a María Antonieta, la última reina de Francia antes de la Revolución. Sirve para retratarla como una aristócrata cruel e ignorante del hambre del pueblo. Pero no hay pruebas de que ella la dijera.\n\nLa frase aparece en las «Confesiones» de Jean-Jacques Rousseau, que la atribuye a «una gran princesa» sin nombre. Rousseau escribió ese pasaje cuando María Antonieta era todavía una niña que vivía en Austria, años antes de llegar a Francia. Además, la anécdota de la princesa que no entiende el hambre ya circulaba mucho antes: según la historiadora Antonia Fraser, se contó un siglo antes sobre María Teresa, la esposa de Luis XIV.",
+   "deep": "La frase se le adjudicó a María Antonieta mucho después, cuando era muy impopular, como parte de la propaganda contra la monarquía. En el texto francés original no se habla de «pasteles» sino de «brioche», un pan dulce enriquecido con huevo y mantequilla. Los historiadores señalan que, según los testimonios de su época, la reina se interesaba por obras de caridad. La anécdota muestra cómo una frase atribuida sin pruebas puede fijar para siempre la imagen de un personaje histórico.",
    "sources": [
     {
      "t": "Wikipedia — Let them eat cake",
@@ -11833,7 +11974,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -11845,6 +11986,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12274,7 +12419,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Algunas personas tienen memoria fotográfica perfecta»",
    "desc": "No hay pruebas sólidas de que exista una memoria que funcione como una fotografía.",
-   "body": "Hay personas con memorias extraordinarias, pero suelen usar técnicas o tener capacidades muy específicas. La memoria eidética, que permite recordar una imagen con mucho detalle por poco tiempo, aparece en un pequeño porcentaje de niños y casi nunca en adultos. Los casos famosos de memoria fotográfica no han superado pruebas rigurosas.",
+   "body": "En películas y series aparecen personajes que miran una página un segundo y la recuerdan entera, como si hubieran tomado una foto. Esa «memoria fotográfica» perfecta no se ha demostrado nunca en pruebas rigurosas. Hay personas con memorias extraordinarias, pero lo consiguen con técnicas de memorización o tienen capacidades muy específicas, por ejemplo para fechas o números.\n\nLo más parecido que existe es la memoria eidética: la capacidad de seguir «viendo» una imagen con mucho detalle durante un breve tiempo después de dejar de mirarla. Aparece en un pequeño porcentaje de niños y casi nunca en adultos. Incluso en esos niños, la imagen no es una copia exacta: contiene errores y se desvanece en poco tiempo.",
+   "deep": "Una revisión publicada en la revista Behavioral and Brain Sciences repasó veinte años de investigación sobre la memoria eidética y cuestionó cuánto de ella es realmente una imagen visual y cuánto es memoria normal. Los casos más famosos de supuesta memoria fotográfica en adultos no han superado pruebas controladas o no se han podido repetir. La memoria humana, además, no funciona como una cámara que graba: reconstruye los recuerdos cada vez que los evoca, y por eso puede cambiar detalles sin que nos demos cuenta.",
    "sources": [
     {
      "t": "Behavioral and Brain Sciences — Twenty years of haunting eidetic imagery: where's the ghost?",
@@ -12300,7 +12446,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12316,6 +12462,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12737,7 +12887,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«En la Estación Espacial Internacional no hay gravedad»",
    "desc": "Falso. Allí la gravedad es casi tan fuerte como en la superficie; los astronautas flotan porque están en caída libre.",
-   "body": "La Estación orbita a unos 400 km de altura, donde la gravedad terrestre es aproximadamente un 90% de la que sentimos en el suelo. Los astronautas flotan porque la estación y todo lo que contiene caen continuamente alrededor de la Tierra a gran velocidad. Esa caída constante produce la sensación de ingravidez.",
+   "body": "Al ver a los astronautas flotar en la Estación Espacial Internacional, es natural pensar que allí no hay gravedad. Pero la estación orbita a unos 400 kilómetros de altura, y a esa distancia la gravedad terrestre sigue siendo aproximadamente un 90 % de la que sentimos en el suelo.\n\nLos astronautas flotan porque la estación y todo lo que hay dentro están en caída libre: caen continuamente hacia la Tierra, pero a la vez avanzan tan rápido que la superficie del planeta se curva por debajo de ellos al mismo ritmo. Nunca llegan al suelo: caen «alrededor» de la Tierra. Como todo cae a la vez, nada pesa sobre nada, y eso produce la sensación de ingravidez.",
+   "deep": "Por eso los científicos prefieren hablar de «microgravedad» y no de «gravedad cero»; su símbolo, μg, apareció en las insignias de misiones del transbordador dedicadas a investigar en órbita baja. La misma sensación se puede producir en la Tierra durante poco tiempo: desde 1959 se usan aviones que vuelan en parábolas para entrenar a astronautas, investigar y hasta rodar películas. Una campaña típica de vuelos parabólicos suma unos 10 minutos de ingravidez. La microgravedad prolongada tiene efectos serios: los más importantes son la pérdida de masa muscular y el deterioro de los huesos.",
    "sources": [
     {
      "t": "Springer Nature Link — The 2.5 s Microgravity Drop Tower at National Centre for Combustion Research and Development (NCCRD), Indian Institute of Technology Madras ",
@@ -12771,7 +12922,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12787,6 +12938,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14734,7 +14889,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Los lemmings se suicidan en masa tirándose por acantilados»",
    "desc": "Falso. El mito es antiguo, pero lo hizo famoso un documental de Disney de 1958 en el que la escena fue preparada.",
-   "body": "Las poblaciones de lemmings varían mucho y, en algunos años, migran en grandes números; algunos se ahogan al cruzar ríos o lagos. Pero no hay un suicidio colectivo. La idea ya circulaba en el siglo XIX, y se popularizó con White Wilderness, un documental de Disney de 1958 que ganó un Óscar: sus productores arrojaron a los lemmings por un acantilado para filmar la escena.",
+   "body": "Se dice que los lemmings, pequeños roedores del Ártico, se suicidan en masa lanzándose por los acantilados. No es cierto. Lo que sí ocurre es que sus poblaciones varían muchísimo de un año a otro y, cuando hay demasiados, migran en grandes números en busca de nuevos territorios. Al cruzar ríos o lagos, algunos se ahogan.\n\nLa idea del suicidio colectivo ya circulaba en el siglo XIX, pero su difusión masiva vino del cine. En 1958, el documental de Disney «White Wilderness», que ganó un Óscar, mostró a lemmings arrojándose al mar. Los productores habían fingido la escena: arrojaron ellos mismos a los animales por un acantilado para simular un «suicidio en masa», y también montaron escenas falsas de migración.",
+   "deep": "Las grandes oscilaciones de las poblaciones de lemmings han intrigado a los biólogos durante mucho tiempo. En algunas especies, como el lemming noruego, los números se disparan cada pocos años y luego se desploman. Entre las explicaciones propuestas están la disponibilidad de alimento, la presión de los depredadores y las condiciones de la nieve en invierno, que les protege. La expresión «como lemmings» se usa hoy para hablar de personas que siguen a la multitud sin pensar, aunque se basa en un comportamiento que los lemmings no tienen.",
    "sources": [
     {
      "t": "Departamento de Pesca y Caza de Alaska (EE. UU.) — Lemming Suicide Myth, Alaska Department of Fish and Game",
@@ -14768,7 +14924,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14784,6 +14940,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -15623,7 +15783,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«La famosa foto del monstruo del lago Ness es real»",
    "desc": "Falso. La «foto del cirujano» de 1934 resultó ser un montaje con un submarino de juguete.",
-   "body": "La fotografía más famosa del monstruo, publicada en 1934, se atribuyó a un médico para darle credibilidad. En 1994 se reveló que era un fraude: la figura era un modelo con un cuello de madera montado sobre un submarino de juguete. Nunca se han encontrado pruebas científicas de la existencia del monstruo.",
+   "body": "La foto más famosa del monstruo del lago Ness, en Escocia, muestra una cabeza y un cuello largo saliendo del agua. Se publicó en 1934 y se la conoce como «la foto del cirujano», porque se atribuyó a un médico para darle credibilidad. Durante décadas se consideró la mejor prueba de la existencia del monstruo.\n\nEn 1994 se reveló que era un fraude: la figura era un modelo con un cuello de madera montado sobre un submarino de juguete. Nunca se han encontrado pruebas científicas de que exista un animal desconocido en el lago. Los avistamientos se explican como olas, troncos, aves, nutrias u otros animales conocidos, además de engaños deliberados.",
+   "deep": "El interés por el monstruo se disparó en 1933. Se ha señalado que los avistamientos aumentaron después de que se construyera ese año una carretera a lo largo del lago, que llevó trabajadores y turistas a una zona antes aislada. En 1938, el jefe de policía de Inverness-shire escribió una carta preocupado por un grupo de cazadores que había llegado con un arpón dispuesto a capturar al monstruo «vivo o muerto». Estudios recientes del ADN presente en el agua del lago no han encontrado rastros de reptiles; sí, en cambio, mucho ADN de anguila.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Loch Ness monster",
@@ -15658,7 +15819,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -15674,6 +15835,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Fuentes reforzadas en la revisión de contenidos con respaldo débil"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -15685,7 +15850,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«En Roswell se estrelló una nave extraterrestre en 1947»",
    "desc": "Falso. Según los informes oficiales, eran restos de un globo de un proyecto militar secreto.",
-   "body": "En 1947, cerca de Roswell, Nuevo México, se encontraron restos que el ejército describió primero como un «disco volador» y luego como un globo meteorológico. En los años noventa, la Fuerza Aérea de EE. UU. explicó que se trataba del Proyecto Mogul, globos secretos para detectar pruebas nucleares soviéticas. No hay pruebas de vida extraterrestre en el caso.",
+   "body": "En 1947, cerca de Roswell, en Nuevo México, se encontraron unos restos que el ejército de Estados Unidos describió primero como un «disco volador» y, poco después, como un globo meteorológico. Durante décadas, ese cambio de versión alimentó la sospecha de que se había estrellado una nave extraterrestre y de que el gobierno lo ocultaba.\n\nEn los años noventa, la Fuerza Aérea de Estados Unidos publicó informes que explicaban el caso: los restos pertenecían al Proyecto Mogul, un programa secreto de globos que llevaban micrófonos a gran altura para detectar pruebas nucleares soviéticas. Por eso se ocultó su verdadero origen en 1947. Un informe de 1994 identificó el objeto como un dispositivo del Proyecto Mogul. No hay ninguna prueba de vida extraterrestre en el caso.",
+   "deep": "El caso Roswell estuvo casi olvidado durante treinta años. El interés renació a finales de los setenta, y en 1980 se publicó el primer libro conspirativo, «The Roswell Incident», de Charles Berlitz y William Moore. A partir de ahí surgieron testimonios cada vez más llamativos, recogidos décadas después de los hechos. Los Archivos Nacionales de Estados Unidos señalan que no han encontrado documentos sobre el incidente de 1947 entre los registros del Proyecto Libro Azul, el programa oficial de la Fuerza Aérea que investigó los avistamientos de ovnis.",
    "sources": [
     {
      "t": "Archivos Nacionales de EE. UU. — Project BLUE BOOK - Unidentified Flying Objects",
@@ -15719,7 +15885,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -15735,6 +15901,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19094,7 +19264,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Los antibióticos curan la gripe y los resfriados»",
    "desc": "Falso. Los antibióticos actúan contra bacterias, no contra virus.",
-   "body": "La gripe y el resfriado común están causados por virus, así que los antibióticos no sirven para curarlos. Tomarlos sin necesidad no ayuda y favorece la aparición de bacterias resistentes. Ante cualquier duda, la indicación debe darla un profesional de la salud.",
+   "body": "Cuando una gripe o un resfriado se alarga, mucha gente piensa en tomar antibióticos. Pero la gripe y el resfriado común los causan virus, y los antibióticos solo actúan contra bacterias. Contra un virus no sirven: no curan la enfermedad ni la acortan.\n\nTomarlos sin necesidad tiene además un coste. Cada uso innecesario favorece la aparición de bacterias resistentes, que dejan de responder a esos medicamentos. La resistencia a los antibióticos aparece cuando las bacterias cambian y se vuelven capaces de resistir sus efectos, y es uno de los grandes problemas de salud del mundo. A veces una infección viral se complica con una infección bacteriana; decidir si hacen falta antibióticos le corresponde a un profesional de la salud.",
+   "deep": "Los antibióticos actúan sobre funciones o estructuras propias de las bacterias. Algunos, como las penicilinas y las cefalosporinas, atacan la pared celular bacteriana; otros dañan su membrana o bloquean enzimas esenciales para ellas. Los virus no tienen esas estructuras: se reproducen dentro de nuestras propias células, y por eso los antibióticos no les afectan. MedlinePlus, de la Biblioteca Nacional de Medicina de EE. UU., insiste en no pedir antibióticos para resfriados ni mocos, aunque sean espesos o de color amarillo o verde. Usarlos bien es una de las medidas clave contra la resistencia, junto con la higiene y las vacunas.",
    "sources": [
     {
      "t": "MedlinePlus (Biblioteca Nacional de Medicina de EE. UU.) — Antibiotics",
@@ -19128,7 +19299,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19144,6 +19315,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19155,7 +19330,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Las vacunas causan autismo»",
    "desc": "Falso. El estudio de 1998 que lo sugirió era fraudulento y fue retractado en 2010.",
-   "body": "El artículo de Andrew Wakefield, publicado en The Lancet, relacionaba la vacuna triple vírica con el autismo. Se descubrió que los datos habían sido manipulados; la revista lo retractó y Wakefield fue expulsado del registro médico británico en 2010. Numerosos estudios con millones de niños no han encontrado ninguna relación.",
+   "body": "La idea de que las vacunas causan autismo nació de un artículo de 1998 del médico británico Andrew Wakefield, publicado en la revista The Lancet, que relacionaba la vacuna triple vírica, contra el sarampión, la parotiditis y la rubéola, con el autismo. Ese artículo resultó ser fraudulento.\n\nUna investigación periodística descubrió que los datos habían sido manipulados y que Wakefield tenía conflictos de interés que no había declarado. The Lancet retractó el artículo parcialmente en 2004 y por completo en 2010; su director lo calificó de «completamente falso» y dijo que la revista había sido engañada. Ese mismo año, Wakefield perdió su licencia para ejercer la medicina en el Reino Unido. Desde entonces, numerosos estudios con millones de niños no han encontrado ninguna relación entre las vacunas y el autismo.",
+   "deep": "El daño del fraude fue real: las tasas de vacunación bajaron en varios países y hubo brotes de sarampión, una enfermedad que puede ser grave. Una de las razones por las que la idea prendió es la coincidencia temporal: los primeros signos del autismo suelen notarse a la edad en que se aplican varias vacunas infantiles, y coincidir en el tiempo no significa que una cosa cause la otra. La Organización Mundial de la Salud señala que los datos disponibles no muestran relación entre la vacuna triple vírica y el autismo.",
    "sources": [
     {
      "t": "Organización Mundial de la Salud (OMS) — Autism (nota descriptiva)",
@@ -19197,7 +19373,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19213,6 +19389,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19224,7 +19404,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Salir con el pelo mojado o pasar frío te resfría»",
    "desc": "Verdad a medias. Los resfriados los causan virus; el frío por sí solo no los produce.",
-   "body": "El resfriado común lo causan virus, sobre todo los rinovirus. Es más frecuente en épocas frías, entre otras razones porque pasamos más tiempo en espacios cerrados con otras personas. Algunos estudios sugieren que el frío podría influir en las defensas, pero sin virus no hay resfriado.",
+   "body": "Desde niños oímos que salir con el pelo mojado o pasar frío nos va a resfriar. La explicación científica es otra: el resfriado común lo causan virus, y sin virus no hay resfriado. Se conocen más de 200 tipos de virus capaces de causarlo; los más comunes son los rinovirus.\n\nEl resfriado es más frecuente en las épocas frías, y eso alimenta la creencia. Entre las razones está que pasamos más tiempo en espacios cerrados y cerca de otras personas, lo que facilita el contagio a través del aire y del contacto. Algunos estudios sugieren que el frío podría influir en las defensas de la nariz y que ciertos virus se transmiten mejor con aire frío y seco, pero el frío por sí solo no causa la enfermedad.",
+   "deep": "El resfriado común es la enfermedad más frecuente en los seres humanos y afecta a personas en todo el mundo. Además de los rinovirus, pueden causarlo coronavirus y adenovirus, entre otros. Como son tantos virus distintos, no existe una vacuna contra el resfriado y uno puede contraerlo muchas veces en la vida. Lavarse las manos con frecuencia, ventilar los espacios y taparse al toser o estornudar son las medidas que más ayudan a reducir el contagio.",
    "sources": [
     {
      "t": "MedlinePlus (Biblioteca Nacional de Medicina de EE. UU.) — Common Cold",
@@ -19266,7 +19447,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19282,6 +19463,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19293,7 +19478,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«La vitamina C previene los resfriados»",
    "desc": "Verdad a medias. En la población general no los previene, aunque tomarla a diario puede acortarlos un poco.",
-   "body": "Las revisiones de estudios indican que tomar suplementos de vitamina C de forma regular no reduce cuántos resfriados se tienen en la población general, aunque se asocia con una ligera reducción de su duración. Tomarla solo cuando ya han aparecido los síntomas no ha mostrado un beneficio claro.",
+   "body": "Muchas personas toman vitamina C en cuanto sienten el primer estornudo, convencidas de que evita los resfriados. Las revisiones de los estudios matizan esa creencia: en la población general, tomar suplementos de vitamina C de forma regular no reduce cuántos resfriados se tienen.\n\nLo que sí se ha observado es un efecto pequeño sobre la duración: tomar el suplemento de forma regular redujo la duración media del resfriado en un 8 % en adultos y en un 14 % en niños, y también su intensidad. En cambio, empezar a tomarla cuando ya han aparecido los síntomas no ha mostrado un beneficio claro.",
+   "deep": "La vitamina C, o ascorbato, es una vitamina soluble en agua que se encuentra en los cítricos y en muchas otras frutas y verduras. Su papel más claro es prevenir y tratar el escorbuto, la enfermedad causada por su carencia, que fue durante siglos una amenaza para los marineros en viajes largos. La fama de la vitamina C contra los resfriados creció a partir de 1970 gracias al químico Linus Pauling, ganador de dos premios Nobel, que defendía tomar dosis muy superiores a las recomendadas. Los estudios posteriores no confirmaron los grandes beneficios que él atribuía a esas dosis.",
    "sources": [
     {
      "t": "Oficina de Suplementos Dietéticos de los NIH (EE. UU.) — Vitamin C – Fact Sheet for Health Professionals",
@@ -19327,7 +19513,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19343,6 +19529,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19527,7 +19717,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Los soldados de Napoleón le dispararon a la nariz de la Esfinge»",
    "desc": "Falso. Dibujos publicados en 1755, antes de la llegada de Napoleón, ya la muestran sin nariz.",
-   "body": "La expedición francesa a Egipto fue en 1798, pero los dibujos del viajero danés Frederic Norden, publicados en 1755, ya muestran a la Esfinge sin nariz. A comienzos del siglo XV, el historiador árabe al-Maqrizi atribuyó el daño a un sufí llamado Muhammad Sa'im al-Dahr, en 1378. El examen de la cara muestra señales de un daño deliberado con varillas o cinceles.",
+   "body": "Una historia muy repetida cuenta que los soldados de Napoleón le volaron la nariz a la Gran Esfinge de Guiza a cañonazos, durante la expedición francesa a Egipto de 1798. Las pruebas la desmienten: los dibujos del viajero danés Frederic Louis Norden, hechos en 1737, ya muestran a la Esfinge sin nariz, décadas antes de que llegaran los franceses.\n\nLas fuentes árabes ofrecen otra explicación. En el siglo XV, el historiador al-Maqrizi atribuyó el daño a un sufí llamado Muhammad Sa'im al-Dahr, que habría destrozado la nariz en 1378 al considerar idolatría que los campesinos hicieran ofrendas a la estatua. Otro autor, al-Minufi, escribió que la cruzada contra Alejandría de 1365 fue un castigo divino por esa destrucción. El examen de la cara muestra señales de un daño deliberado con varillas o cinceles.",
+   "deep": "La Gran Esfinge es una estatua de piedra caliza de una esfinge recostada, un ser mitológico con cabeza humana y cuerpo de león. Se esculpió directamente en la roca de la meseta de Guiza y la mayoría de los egiptólogos creen que se hizo en tiempos del faraón Kefrén. Durante siglos estuvo enterrada en la arena hasta los hombros, lo que protegió parte de su cuerpo pero dejó la cabeza expuesta a la erosión del viento.",
    "sources": [
     {
      "t": "Wikipedia — Great Sphinx of Giza",
@@ -19553,7 +19744,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -19565,6 +19756,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19866,7 +20061,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«La Estrella Polar es la más brillante del cielo»",
    "desc": "Falso. Es útil para orientarse porque apenas se mueve, pero la más brillante es Sirio.",
-   "body": "La Estrella Polar, Polaris, está casi alineada con el eje de rotación de la Tierra, por eso parece fija sobre el polo norte celeste y ha servido para orientarse durante siglos. Pero no es especialmente brillante: la estrella más brillante del cielo nocturno es Sirio.",
+   "body": "La Estrella Polar, Polaris, es famosa porque sirve para orientarse: indica casi exactamente el norte. Por eso muchos creen que es la estrella más brillante del cielo. No lo es: la estrella más brillante del cielo nocturno es Sirio, en la constelación del Can Mayor, y seguirá siéndolo durante unos 210 000 años.\n\nLa importancia de Polaris se debe a su posición, no a su brillo. Está casi alineada con el eje de rotación de la Tierra, así que, mientras el resto del cielo parece girar a lo largo de la noche, ella se mantiene casi fija sobre el polo norte celeste. Durante siglos, los navegantes del hemisferio norte la usaron para saber dónde estaba el norte.",
+   "deep": "Polaris no siempre ha sido la estrella polar ni lo será siempre. El eje de la Tierra se tambalea lentamente, como una peonza, en un movimiento llamado precesión, y el polo celeste describe un círculo entre las estrellas que tarda unos 26 000 años en completarse. Polaris estará en su punto más cercano al polo hacia el año 2100; luego se alejará, y el polo pasará cerca de Errai hacia el año 4000, de Deneb hacia el 10 000 y de Vega hacia el 14 500. Polaris es además un sistema de varias estrellas: la principal es una cefeida, la más cercana a nosotros, un tipo de estrella cuyo brillo varía de forma regular y que sirve para medir distancias en el universo.",
    "sources": [
     {
      "t": "Publicación académica (DOI) (doi.org) — Hubble Space Telescope Trigonometric Parallax of Polaris B, Companion of the Nearest Cepheid - IOPscience",
@@ -19909,7 +20105,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -19925,6 +20121,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
