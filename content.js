@@ -2150,7 +2150,8 @@ window.SQ_CONTENT = {
    "sub": "Escalas",
    "title": "Australia es más ancha que la Luna",
    "desc": "Australia mide unos 4.000 km de este a oeste. El diámetro de la Luna es de unos 3.475 km.",
-   "body": "Aunque la Luna parece enorme en el cielo, es bastante pequeña: su diámetro es de unos 3.475 km, poco más de una cuarta parte del de la Tierra. Australia continental, de este a oeste, mide unos 4.000 km. Eso no significa que Australia sea «más grande» que la Luna: la superficie lunar es mucho mayor, porque es una esfera.",
+   "body": "La Luna parece enorme en el cielo nocturno, pero es bastante pequeña: su diámetro es poco más de una cuarta parte del de la Tierra. Australia continental, en cambio, mide unos 4000 kilómetros de este a oeste. Así que, si pudiéramos poner la Luna junto a Australia, el continente sería más ancho.\n\nEso no significa que Australia sea «más grande» que la Luna. La Luna es una esfera, y su superficie total, de unos 38 millones de kilómetros cuadrados, es mucho mayor que la de Australia, que ronda los 7,7 millones. Es una buena muestra de cómo una medida lineal, el ancho, puede engañar cuando se compara con un área o un volumen.",
+   "deep": "Comparar tamaños en astronomía produce sorpresas parecidas. La Luna tarda unos 27 días en dar una vuelta alrededor de la Tierra y gira sobre sí misma en el mismo tiempo, por eso siempre nos muestra la misma cara. Sus temperaturas son extremas: en pleno sol alcanza unos 127 °C, y en la oscuridad baja hasta unos −173 °C, porque no tiene una atmósfera que guarde el calor. Australia, por su parte, es el sexto país más grande del mundo y el único que ocupa todo un continente.",
    "sources": [
     {
      "t": "NASA Science — Moon Facts",
@@ -2181,7 +2182,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -2193,6 +2194,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -2206,7 +2211,8 @@ window.SQ_CONTENT = {
    "sub": "Países",
    "title": "El país con más husos horarios es Francia",
    "desc": "Contando sus territorios de ultramar, Francia abarca 12 husos horarios. Rusia tiene 11.",
-   "body": "Francia no es solo el territorio europeo: también incluye lugares como la Guayana Francesa, Martinica, Guadalupe, la isla de la Reunión, la Polinesia Francesa y Nueva Caledonia, repartidos por todo el planeta. Si se cuenta su reclamación en la Antártida, la cifra sube a 13.",
+   "body": "Si se cuentan todos los territorios que pertenecen a un país, el que tiene más husos horarios es Francia: 12, o 13 si se incluye su reclamación en la Antártida. La razón es que Francia no es solo el territorio europeo: también incluye departamentos y territorios de ultramar repartidos por todo el planeta.\n\nEntre ellos están la Guayana Francesa, en Sudamérica; Martinica y Guadalupe, en el Caribe; la isla de la Reunión y Mayotte, en el océano Índico; y la Polinesia Francesa y Nueva Caledonia, en el Pacífico. Cuando en París es mediodía, en Tahití es todavía de madrugada y en Nueva Caledonia ya es de noche.",
+   "deep": "Los husos horarios nacieron en el siglo XIX, cuando los ferrocarriles necesitaron horarios coordinados entre ciudades lejanas. La idea básica es dividir el planeta en franjas, una por cada hora del día. En la práctica, las fronteras se adaptan a la política y no a la geografía: China, enorme de este a oeste, usa un solo huso horario oficial, mientras que países más pequeños pueden usar varios. Después de Francia, los países con más husos horarios son Rusia, Estados Unidos y el Reino Unido, también gracias a sus territorios.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — The Country Quiz",
@@ -2238,7 +2244,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -2254,6 +2260,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -2267,7 +2277,8 @@ window.SQ_CONTENT = {
    "sub": "Climas",
    "title": "El desierto más grande del mundo es de hielo",
    "desc": "Un desierto se define por lo poco que llueve, no por el calor. La Antártida es el mayor.",
-   "body": "La Antártida recibe tan poca precipitación que cumple la definición de desierto, y con unos 14 millones de km² es el más grande del mundo. El Ártico ocupa el segundo lugar. El Sahara es el desierto cálido más grande, en tercer lugar.",
+   "body": "Cuando pensamos en un desierto imaginamos arena y calor, pero lo que define a un desierto es la falta de precipitación: lugares donde casi no llueve ni nieva. Con esa definición, el desierto más grande del mundo es la Antártida, con unos 14 millones de km². El segundo es el desierto del Ártico, y el Sahara, el mayor desierto cálido, ocupa el tercer puesto.\n\nEn el interior de la Antártida caen de media apenas unos pocos centímetros de precipitación al año, menos que en muchos desiertos cálidos. El aire es tan frío que contiene muy poca humedad. Aun así, el continente está cubierto por una capa de hielo de varios kilómetros de espesor, porque la poca nieve que cae no se derrite y se ha ido acumulando durante cientos de miles de años.",
+   "deep": "La Antártida es el mayor desierto frío del mundo: alrededor del 98 % es una gruesa capa de hielo continental y el 2 %, roca desnuda. Los desiertos polares tienen rasgos parecidos a los cálidos, salvo que su precipitación principal es la nieve y no la lluvia. Los Valles Secos de la Antártida llevan miles de años libres de hielo, y en ellos los ciclos de congelación y deshielo dibujan en el suelo patrones de hasta cinco metros de diámetro. En la Tierra, los desiertos polares ocupan en total casi 5 millones de kilómetros cuadrados.",
    "sources": [
     {
      "t": "Servicio Geológico de EE. UU. (USGS) — Types of Deserts",
@@ -2307,7 +2318,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -2327,6 +2338,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -2340,7 +2355,8 @@ window.SQ_CONTENT = {
    "sub": "Evolución",
    "title": "Los tiburones existen desde antes que los árboles",
    "desc": "El linaje de los tiburones tiene más de 400 millones de años; los primeros árboles aparecieron hace unos 385 millones.",
-   "body": "Se han encontrado escamas fósiles parecidas a las de los tiburones de hace entre 458 y 444 millones de años, y los llamados «tiburones espinosos», parientes cercanos, aparecieron hace unos 439 millones de años. Los primeros árboles verdaderos surgieron hace unos 385 millones de años, en el período Devónico. Un matiz importante: los tiburones modernos, como los que conocemos hoy, aparecieron mucho después, en el Jurásico.",
+   "body": "Los tiburones son uno de los grupos de animales más antiguos que siguen vivos. Se han encontrado escamas fósiles parecidas a las de los tiburones de hace entre 458 y 444 millones de años, a finales del período Ordovícico, y animales con forma de tiburón, como Cladoselache y Doliodus, aparecieron ya en el Devónico, hace entre 419 y 359 millones de años.\n\nLos primeros árboles verdaderos, en cambio, aparecieron hacia mediados y finales del Devónico, hace unos 385 millones de años. Así que los antepasados de los tiburones ya nadaban por los océanos cuando la tierra firme todavía no tenía bosques. Desde entonces, los tiburones han sobrevivido a varias extinciones masivas, incluida la que acabó con los dinosaurios.",
+   "deep": "Los tiburones pertenecen a los condrictios, peces cuyo esqueleto no es de hueso sino de cartílago, como el de nuestras orejas. Por eso fosilizan mal: de muchos tiburones antiguos solo se conservan los dientes, que reemplazan continuamente a lo largo de su vida, y las escamas. Hoy existen más de quinientas especies, desde el pequeño tiburón linterna hasta el tiburón ballena, el pez más grande del mundo. Varias especies, como el tiburón blanco, el tigre o el toro, son superdepredadores: están en lo más alto de su cadena alimentaria.",
    "sources": [
     {
      "t": "Publicación académica (DOI) (doi.org) — Frontiers",
@@ -2380,7 +2396,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -2400,6 +2416,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -2413,7 +2433,8 @@ window.SQ_CONTENT = {
    "sub": "Rarezas",
    "title": "El wombat hace caca en forma de cubo",
    "desc": "Es el único animal conocido que produce excrementos cúbicos.",
-   "body": "El wombat es un marsupial australiano. Investigadores descubrieron que la forma cúbica se crea en la parte final de su intestino, cuyas paredes tienen zonas con distinta rigidez que moldean las esquinas. El estudio ganó el premio Ig Nobel de Física en 2019. Se cree que los cubos, que no ruedan, le sirven para marcar su territorio.",
+   "body": "El wombat es un marsupial robusto de patas cortas que vive en Australia, y tiene una rareza única en la naturaleza: sus excrementos tienen forma de cubo. Ningún otro animal conocido produce heces cúbicas de forma natural. Cada día deja decenas de estos pequeños cubos.\n\nDurante mucho tiempo nadie supo explicar cómo lo conseguía. Investigadores descubrieron que la forma se crea en la parte final del intestino, cuyas paredes tienen zonas con distinta rigidez: dos más flexibles y dos más rígidas. Al contraerse, el intestino moldea las esquinas y los lados planos de cada pieza. El estudio ganó un premio Ig Nobel de Física en 2019.",
+   "deep": "La forma cúbica podría tener una utilidad: los wombats marcan su territorio dejando sus excrementos sobre rocas, troncos y otros lugares elevados, y un cubo no rueda, así que se queda donde lo dejan. Los wombats son excavadores excelentes que viven en madrigueras, y su bolsa marsupial se abre hacia atrás, para que no se llene de tierra mientras cavan. En 2020, los biólogos descubrieron que los wombats, como muchos otros marsupiales australianos, brillan bajo la luz ultravioleta: son biofluorescentes.",
    "sources": [
     {
      "t": "Improbable Research (organizadores de los premios Ig Nobel) — Past Ig Winners – Improbable Research",
@@ -2444,7 +2465,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -2460,6 +2481,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -2473,7 +2498,8 @@ window.SQ_CONTENT = {
    "sub": "Aves",
    "title": "Los flamencos no nacen rosados",
    "desc": "Las crías son grises o blancas. El color viene de lo que comen.",
-   "body": "Los flamencos se alimentan de algas y pequeños crustáceos ricos en carotenoides, los mismos pigmentos que dan color a la zanahoria. Su cuerpo los procesa y los deposita en las plumas, la piel y el pico. Si su alimentación cambia, pueden perder parte del color. En los zoológicos se les añaden carotenoides a la comida para que no se pongan pálidos.",
+   "body": "Los flamencos no nacen rosados: los polluelos tienen un plumón gris o blanquecino. El famoso color rosa lo adquieren poco a poco con lo que comen. Se alimentan de algas y pequeños crustáceos ricos en carotenoides, los mismos pigmentos que dan su color a la zanahoria.\n\nSu cuerpo procesa esos pigmentos: enzimas del hígado los transforman y se depositan en las plumas, la piel y el pico. Por eso la intensidad del color depende de la dieta. Los flamencos del Caribe, o flamencos americanos, son de un rojo más intenso porque su comida tiene más betacaroteno, mientras que los flamencos enanos son de un rosa más pálido. En los zoológicos se añaden pigmentos a su alimento para que no pierdan el color.",
+   "deep": "Para comer, el flamenco mete la cabeza boca abajo en el agua y filtra el barro con su pico curvado, que funciona como un colador gracias a unas láminas en sus bordes, de forma parecida a como filtran el agua algunas ballenas. Su nombre viene del portugués o español «flamengo», «de color de llama», y este del provenzal «flamenc», de «flama». Son buenos voladores: la envergadura de sus alas va de unos 95 centímetros en el flamenco enano a hasta 165 en el flamenco común y el americano. Viven en colonias que pueden reunir a miles de aves.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Why Are Flamingos Pink?",
@@ -2505,7 +2531,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -2521,6 +2547,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3030,7 +3060,8 @@ window.SQ_CONTENT = {
    "sub": "República Dominicana",
    "title": "La montaña más alta del Caribe está en República Dominicana",
    "desc": "El Pico Duarte mide unos 3.098 metros.",
-   "body": "El Pico Duarte, en la Cordillera Central, es el punto más alto de todas las islas del Caribe. En la cima pueden registrarse temperaturas bajo cero en invierno, algo sorprendente para un país tropical. Lleva el nombre de Juan Pablo Duarte, uno de los padres de la patria.",
+   "body": "El Pico Duarte, en la Cordillera Central de la República Dominicana, es la montaña más alta de todas las islas del Caribe, con 3101 metros sobre el nivel del mar. Está a solo 85 kilómetros del punto más bajo de la región, el lago Enriquillo. Lleva el nombre de Juan Pablo Duarte, uno de los padres de la patria dominicana.\n\nAunque la República Dominicana es un país tropical, en la cima pueden registrarse temperaturas bajo cero en invierno, y a veces hay escarcha. La subida es una de las excursiones de montaña más populares del país: suele hacerse en dos o tres días, atravesando bosques de pinos y pasando la noche en refugios, y muchos excursionistas salen de madrugada para ver el amanecer desde la cumbre.",
+   "deep": "El pico tiene muy cerca otra cumbre casi igual de alta, La Pelona: sus nombres populares, «Pelona Grande» y «Pelona Chica», venían de que sus cimas estaban peladas, sin árboles. Durante la dictadura de Rafael Trujillo, la más alta de las dos se llamó «Pico Trujillo»; tras la muerte del dictador se rebautizó como Pico Duarte. Gracias a esta montaña, La Española es una de las islas con mayor altitud máxima del mundo.",
    "sources": [
     {
      "t": "Wikipedia — Pico Duarte",
@@ -3045,7 +3076,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -3057,6 +3088,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3070,7 +3105,8 @@ window.SQ_CONTENT = {
    "sub": "República Dominicana",
    "title": "El punto más bajo del Caribe también está en RD",
    "desc": "El lago Enriquillo está a más de 40 metros por debajo del nivel del mar.",
-   "body": "El lago Enriquillo, en el suroeste del país, es un lago salado cuya superficie se encuentra varias decenas de metros por debajo del nivel del mar. Es el punto más bajo de las islas del Caribe y el lago más grande de la región. Alberga la mayor población de cocodrilo americano del Caribe, además de iguanas.",
+   "body": "El lago Enriquillo, en el suroeste de la República Dominicana, es un lago salado cuya superficie está varias decenas de metros por debajo del nivel del mar. Es el punto más bajo de todas las islas del Caribe y el lago más grande de la región. Lleva el nombre de Enriquillo, un cacique taíno que se rebeló contra los colonizadores españoles en el siglo XVI.\n\nSus aguas son más saladas que las del mar porque el lago no tiene salida: el agua que llega por ríos y lluvias solo se va por evaporación, y las sales se concentran. En sus orillas y en la isla Cabritos, en medio del lago, vive la mayor población de cocodrilo americano del Caribe, además de iguanas rinoceronte y de Ricord, especies amenazadas.",
+   "deep": "El lago ocupa una depresión que hace miles de años era un brazo de mar: los movimientos de la corteza y los sedimentos de los ríos lo separaron del océano. En sus alrededores se encuentran fósiles de corales, restos de aquel antiguo fondo marino. En los últimos años su nivel ha subido mucho y ha inundado tierras de cultivo y carreteras cercanas, y los científicos estudian las causas, entre ellas el aumento de las lluvias. Isla Cabritos es un parque nacional, y la zona forma parte de una reserva de la biosfera reconocida por la UNESCO.",
    "sources": [
     {
      "t": "Wikipedia — Lake Enriquillo",
@@ -3093,7 +3129,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -3105,6 +3141,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7130,7 +7170,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Dos islas separadas por 4 km tienen casi un día de diferencia horaria",
    "desc": "Las islas Diómedes, una de Rusia y otra de Estados Unidos, están a ambos lados de la línea internacional de cambio de fecha.",
-   "body": "La Gran Diómedes pertenece a Rusia y la Pequeña Diómedes, a Estados Unidos (Alaska). Las separan menos de 4 kilómetros, pero entre ellas pasa la línea internacional de cambio de fecha, así que una va casi un día por delante de la otra. Por eso se las llama a veces «la isla del mañana» y «la isla del ayer».",
+   "body": "En el estrecho de Bering, entre Asia y América, hay dos pequeñas islas separadas por menos de cuatro kilómetros de mar: la Gran Diómedes, que pertenece a Rusia, y la Pequeña Diómedes, que pertenece a Estados Unidos y forma parte de Alaska. Entre ambas pasan la frontera entre los dos países y la línea internacional de cambio de fecha.\n\nPor eso, aunque se ven a simple vista, una va casi un día por delante de la otra: cuando en la Gran Diómedes ya es lunes, en la Pequeña Diómedes todavía es domingo. De ahí sus apodos: «la isla del mañana» y «la isla del ayer». En invierno, el mar entre ellas a veces se congela y forma un puente de hielo, aunque cruzarlo está prohibido.",
+   "deep": "Las islas reciben su nombre de san Diomedes, porque el navegante danés Vitus Bering las avistó en 1728 el día de su fiesta. La Gran Diómedes no tiene población permanente desde mediados del siglo XX, cuando la Unión Soviética trasladó a sus habitantes al continente; hoy solo alberga una base militar. La Pequeña Diómedes tiene un pequeño pueblo inupiat. Durante la Guerra Fría, el estrecho entre las dos islas se conocía como la «Cortina de Hielo», por la frontera que separaba a las dos superpotencias.",
    "sources": [
     {
      "t": "NASA — Yesterday and Tomorrow Islands",
@@ -7163,7 +7204,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7179,6 +7220,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7190,7 +7235,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Un solo lago guarda alrededor de la quinta parte del agua dulce superficial del mundo",
    "desc": "El lago Baikal, en Siberia, es el más profundo y antiguo del planeta.",
-   "body": "El Baikal tiene más de 1.600 metros de profundidad y se estima que se formó hace unos 25 millones de años. Contiene más agua que todos los Grandes Lagos de Norteamérica juntos. En él vive la nerpa, una de las pocas focas del mundo que habitan en agua dulce.",
+   "body": "El lago Baikal, en Siberia, es el lago más profundo del mundo: supera los 1600 metros de profundidad. Es también el más antiguo, con entre 25 y 30 millones de años, y el de mayor volumen de agua dulce: guarda alrededor del 19 % del agua dulce no congelada del planeta, más que todos los Grandes Lagos de Norteamérica juntos.\n\nSu agua es extraordinariamente transparente, y en invierno su superficie se congela con una capa de hielo tan gruesa que por ella circulan vehículos. Su enorme antigüedad y su aislamiento han permitido que evolucionen allí muchísimas especies que no existen en ningún otro lugar, como la nerpa o foca del Baikal, una de las pocas focas del mundo que viven en agua dulce.",
+   "deep": "El Baikal es un lago de rift: ocupa una grieta de la corteza terrestre donde dos bloques se están separando muy lentamente, y por eso sigue haciéndose más ancho y más profundo. Bajo sus sedimentos, la grieta continúa varios kilómetros más. Fue declarado Patrimonio de la Humanidad por la UNESCO en 1996. Uno de sus pequeños habitantes más importantes es un diminuto crustáceo endémico, Epischurella baikalensis, tan abundante que se estima que forma entre el 80 y el 90 % de la biomasa total de su grupo en el lago.",
    "sources": [
     {
      "t": "UNESCO — Lake Baikal",
@@ -7223,7 +7269,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7239,6 +7285,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7250,7 +7300,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La orilla del Mar Muerto es el punto de tierra firme más bajo del planeta",
    "desc": "Está a más de 400 metros por debajo del nivel del mar, y su agua es tan salada que flotas sin esfuerzo.",
-   "body": "El Mar Muerto, entre Jordania, Israel y Cisjordania, es en realidad un lago muy salado. Su alta salinidad impide que vivan peces y hace que el cuerpo humano flote con facilidad. Su nivel está bajando cada año, en parte porque se desvía el agua de su principal afluente, el río Jordán.",
+   "body": "El Mar Muerto, entre Jordania, Israel y Cisjordania, no es en realidad un mar sino un lago muy salado. Su orilla, a más de 400 metros por debajo del nivel del mar, es el punto de tierra firme más bajo del planeta. Su agua es casi diez veces más salada que la del océano.\n\nEsa salinidad extrema impide que vivan peces y plantas, de ahí su nombre, aunque sí sobreviven algunos microorganismos. Y hace que el agua sea tan densa que el cuerpo humano flota con facilidad: los visitantes pueden quedarse tumbados sobre la superficie como en un colchón. Sus barros, ricos en minerales, atraen desde la Antigüedad a personas que buscan sus supuestos efectos sobre la piel.",
+   "deep": "El nivel del Mar Muerto está bajando más de un metro al año. La causa principal es que se desvía gran parte del agua del río Jordán, su principal afluente, para el consumo humano y la agricultura, además de la evaporación de sus aguas en las industrias de extracción de minerales. Al retirarse, el agua deja en las orillas miles de dolinas, hundimientos repentinos del terreno que se han tragado carreteras y edificios. Se han propuesto proyectos para traer agua del mar Rojo y frenar su descenso.",
    "sources": [
     {
      "t": "PLOS One — Microbial and Chemical Characterization of Underwater Fresh Water Springs in the Dead Sea",
@@ -7283,7 +7334,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7299,6 +7350,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7310,7 +7365,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El país más pequeño del mundo cabe dentro de una ciudad",
    "desc": "La Ciudad del Vaticano tiene menos de medio kilómetro cuadrado y está rodeada por Roma.",
-   "body": "El Vaticano es el estado soberano más pequeño del mundo, tanto en superficie como en población. Es la sede de la Iglesia católica y su jefe de Estado es el papa. Se convirtió en estado independiente en 1929 con los Pactos de Letrán, firmados con Italia.",
+   "body": "El Vaticano es el Estado soberano más pequeño del mundo, tanto en superficie, unas 44 hectáreas, como en población, con alrededor de 800 habitantes. Está completamente rodeado por la ciudad de Roma, de modo que cabe dentro de una ciudad. Es la sede de la Iglesia católica y su jefe de Estado es el papa.\n\nEl Vaticano se convirtió en Estado independiente en 1929, con los Pactos de Letrán, firmados con el Reino de Italia. Esos acuerdos resolvieron la llamada «cuestión romana», que venía de 1870, cuando Italia anexionó Roma y los Estados Pontificios, el territorio que los papas habían gobernado durante siglos en el centro de la península.",
+   "deep": "Dentro de sus muros están la basílica de San Pedro, la Capilla Sixtina, decorada por Miguel Ángel, y los Museos Vaticanos, uno de los conjuntos artísticos más visitados del mundo. Todo el Estado es Patrimonio de la Humanidad de la UNESCO. Tiene su propio sistema de correos, su emisora de radio y su moneda, el euro con diseños propios. Su seguridad la garantiza en parte la Guardia Suiza, un cuerpo fundado en 1506 cuyos miembros deben ser ciudadanos suizos católicos.",
    "sources": [
     {
      "t": "UNESCO — Vatican City",
@@ -7351,7 +7407,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7367,6 +7423,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7378,7 +7438,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "África es mucho más grande de lo que parece en los mapas",
    "desc": "La proyección de Mercator agranda las zonas cercanas a los polos.",
-   "body": "Representar una esfera sobre papel obliga a deformar algo. La proyección de Mercator, de 1569, mantiene bien las direcciones, útil para navegar, pero agranda las regiones lejanas del ecuador. Por eso Groenlandia parece casi del tamaño de África, cuando África es unas catorce veces más grande.",
+   "body": "Representar una esfera sobre un papel plano obliga a deformar algo: las distancias, las formas o las áreas. La proyección de Mercator, creada por el cartógrafo flamenco Gerardus Mercator en 1569, conserva bien los ángulos y las direcciones, lo que la hizo muy útil para navegar: una línea recta en el mapa corresponde a un rumbo constante de brújula.\n\nEl precio es que agranda muchísimo las regiones alejadas del ecuador. Por eso Groenlandia parece casi del tamaño de África, cuando en realidad África es unas catorce veces más grande. Lo mismo ocurre con Rusia, Canadá o la Antártida, que aparecen enormes, mientras que los países cercanos al ecuador, como los de África central o Brasil, parecen más pequeños de lo que son.",
+   "deep": "Como es tan común en escuelas y en mapas en línea, la proyección de Mercator ha influido en cómo imaginamos el mundo, y ha sido criticada por exagerar el tamaño de Europa y Norteamérica. Existen otras proyecciones que respetan mejor las áreas, como la de Gall-Peters, o que buscan un equilibrio entre todas las deformaciones. Muchos servicios de mapas en internet siguen usando una variante de Mercator porque mantiene la forma de las calles al hacer zoom.",
    "sources": [
     {
      "t": "Nature — This animated map shows the true size of each country",
@@ -7411,7 +7472,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7427,6 +7488,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7438,7 +7503,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La Española es la isla más poblada del Caribe",
    "desc": "Es la segunda más grande, después de Cuba, y la comparten dos países.",
-   "body": "La isla de La Española, compartida por la República Dominicana y Haití, es la segunda isla más grande de las Antillas, después de Cuba, pero la más poblada. Fue el lugar del primer asentamiento europeo permanente en América. Los taínos la llamaban Ayiti o Quisqueya, entre otros nombres.",
+   "body": "La isla de La Española, compartida por la República Dominicana y Haití, es la segunda isla más grande de las Antillas, después de Cuba, pero la más poblada del Caribe. Fue además el escenario del primer asentamiento europeo permanente en América. Los taínos, sus habitantes originales, la llamaban con varios nombres, entre ellos Ayiti y Quisqueya.\n\nCristóbal Colón llegó a la isla en diciembre de 1492, durante su primer viaje, y la llamó «La Isla Española». Allí fundó La Isabela en 1493, y en 1496 se fundó Santo Domingo, hoy la ciudad europea más antigua habitada de forma continua en América. La colonización tuvo consecuencias devastadoras para la población taína, que se redujo drásticamente por la violencia, el trabajo forzado y las enfermedades traídas de Europa.",
+   "deep": "La isla quedó dividida en dos colonias: la parte oriental, española, y la occidental, francesa, conocida como Saint-Domingue, que llegó a ser la colonia más rica del Caribe gracias al azúcar y al trabajo de personas esclavizadas. En 1804, tras una revolución de esclavos, Haití se convirtió en la primera república independiente de América Latina y el Caribe. La República Dominicana proclamó su independencia de Haití en 1844. El nombre Haití viene precisamente del nombre taíno Ayiti.",
    "sources": [
     {
      "t": "Wikipedia — Hispaniola",
@@ -7463,7 +7529,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -7475,6 +7541,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7486,7 +7556,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El océano Pacífico es más grande que toda la tierra firme junta",
    "desc": "Cubre alrededor de un tercio de la superficie de la Tierra.",
-   "body": "El Pacífico es el océano más grande y profundo. Su superficie supera a la de todos los continentes juntos. En él está la fosa de las Marianas, el punto más profundo conocido del océano, a casi 11 kilómetros. Su nombre se lo dio Fernando de Magallanes por las aguas tranquilas que encontró.",
+   "body": "El océano Pacífico es el más grande y el más profundo del planeta. Cubre alrededor de un tercio de la superficie de la Tierra, unos 165 millones de kilómetros cuadrados, más que toda la tierra firme junta. Se extiende desde el Ártico, al norte, hasta el océano Austral, al sur, y desde Asia y Australia hasta América.\n\nEn él está la fosa de las Marianas, el punto más profundo conocido del océano: el abismo Challenger, a casi 11 kilómetros de profundidad. Si se pusiera el Everest en su fondo, su cima quedaría todavía más de dos kilómetros bajo el agua. Su nombre se lo dio el navegante Fernando de Magallanes en 1520, por las aguas tranquilas que encontró al salir del estrecho que hoy lleva su nombre.",
+   "deep": "El borde del Pacífico está rodeado por el llamado «Cinturón de Fuego», una franja de unos 40 000 kilómetros donde se concentran la mayoría de los volcanes activos y de los terremotos del mundo. Allí, las placas tectónicas oceánicas se hunden bajo otras placas, en zonas de subducción. El Pacífico contiene además miles de islas, desde las grandes de Japón o Nueva Zelanda hasta diminutos atolones de coral. El océano se está haciendo poco a poco más pequeño, mientras el Atlántico se ensancha.",
    "sources": [
     {
      "t": "NOAA (EE. UU.) — How big is the Pacific Ocean?",
@@ -7519,7 +7590,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7535,6 +7606,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7546,7 +7621,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En el lugar del océano más alejado de tierra, los humanos más cercanos suelen estar en el espacio",
    "desc": "Es el Punto Nemo, en el Pacífico Sur, a unos 2.700 km de la costa más cercana.",
-   "body": "El Punto Nemo es el polo de inaccesibilidad oceánico: el punto del mar más lejano de cualquier tierra. Está tan aislado que, a menudo, las personas más cercanas son los astronautas de la Estación Espacial Internacional cuando pasan por encima. Cerca de esa zona se hacen caer de forma controlada naves espaciales al final de su vida.",
+   "body": "El Punto Nemo es el polo de inaccesibilidad oceánico: el lugar del mar más alejado de cualquier tierra firme. Está en el Pacífico Sur, a unos 2688 kilómetros de las tierras más cercanas, que son islas diminutas. Su nombre homenajea al capitán Nemo, el personaje de Julio Verne, y en latín «nemo» significa «nadie».\n\nEstá tan aislado que, a menudo, las personas más cercanas son los astronautas de la Estación Espacial Internacional cuando pasan por encima, a unos 400 kilómetros de altura. Su ubicación la calculó en 1992 el ingeniero Hrvoje Lukatela con ayuda de un programa informático, usando las costas como referencia.",
+   "deep": "Precisamente porque está tan lejos de todo, la zona que lo rodea se usa como «cementerio de naves espaciales». Cuando un satélite o una estación espacial llega al final de su vida, se le hace caer de forma controlada sobre esta región para que los restos que no se queman en la atmósfera caigan lejos de cualquier persona. Allí han terminado muchas naves de carga y otros vehículos espaciales. La Estación Espacial Internacional también está previsto que acabe allí. Existe además un polo de inaccesibilidad en el océano Ártico: un punto del hielo a unos 1008 kilómetros de las tres tierras más cercanas, cuya posición se ha recalculado con el tiempo.",
    "sources": [
     {
      "t": "Wikipedia — Point Nemo",
@@ -7563,7 +7639,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -7575,6 +7651,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7586,7 +7666,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Hay animales capaces de sobrevivir en el espacio exterior",
    "desc": "Los tardígrados, de menos de un milímetro, resistieron la exposición al vacío espacial en 2007.",
-   "body": "Los tardígrados, también llamados osos de agua, pueden secarse casi por completo y entrar en un estado de vida suspendida. Así resisten temperaturas extremas, radiación y falta de agua. En 2007, en la misión FOTON-M3, algunos sobrevivieron a la exposición directa al espacio.",
+   "body": "Los tardígrados, también llamados osos de agua, son animales microscópicos de ocho patas que miden menos de un milímetro. Viven en casi cualquier lugar con algo de humedad: en el musgo, en los líquenes, en el suelo, en el fondo del mar. Son de los animales más resistentes que se conocen.\n\nCuando el ambiente se seca, pueden perder casi toda el agua de su cuerpo y entrar en un estado de vida suspendida llamado criptobiosis, en el que su metabolismo prácticamente se detiene. Así soportan temperaturas extremas, presiones altísimas y muy bajas, falta de aire, radiación, deshidratación y hambre que matarían enseguida a casi cualquier otra forma de vida. En 2007, en la misión espacial europea FOTON-M3, algunos sobrevivieron expuestos al vacío del espacio.",
+   "deep": "Los científicos matizan una cosa: los tardígrados no son extremófilos en sentido estricto, porque no prosperan en esas condiciones extremas, solo las resisten durante un tiempo. Cuanto más tiempo pasan expuestos, más aumenta su probabilidad de morir, mientras que los verdaderos extremófilos viven a gusto en esos ambientes. Parte de su resistencia se debe a proteínas especiales que protegen sus células al secarse, como una especie de vidrio molecular. Su fama ha llegado a la ciencia ficción, por ejemplo a la serie «Star Trek: Discovery».",
    "sources": [
     {
      "t": "Springer Nature Link — Survival of Tardigrades in Extreme Environments: A Model Animal for Astrobiology",
@@ -7619,7 +7700,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7635,6 +7716,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7646,7 +7731,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Existe una medusa que puede volver a ser joven",
    "desc": "Turritopsis dohrnii puede regresar a su fase de pólipo cuando sufre estrés o daño.",
-   "body": "La mayoría de las medusas mueren tras reproducirse. Turritopsis dohrnii, en cambio, puede transformar sus células y volver a la fase juvenil de pólipo, empezando su ciclo de vida de nuevo. Por eso se la apoda «medusa inmortal», aunque en la naturaleza muchas mueren por depredadores o enfermedades.",
+   "body": "La mayoría de las medusas mueren tras reproducirse. Turritopsis dohrnii, conocida como la «medusa inmortal», hace algo extraordinario: cuando está herida, enferma o envejece, puede transformar sus células y volver a la fase juvenil de pólipo, como si una mariposa volviera a ser oruga, y empezar su ciclo de vida de nuevo.\n\nEl proceso que lo permite se llama transdiferenciación: células ya especializadas se convierten en otros tipos de células. En teoría, esta medusa podría repetir el ciclo indefinidamente, por eso se dice que es «biológicamente inmortal». Es una medusa pequeña, de pocos milímetros, que vive en aguas templadas y tropicales de todo el mundo.",
+   "deep": "Que sea biológicamente inmortal no significa que no muera: la mayoría de los individuos mueren devorados, sobre todo por otras medusas, o por enfermedades antes de poder rejuvenecer. Hasta un estudio de 2006 se pensaba que Turritopsis rubra y Turritopsis nutricula eran la misma especie que Turritopsis dohrnii. Los investigadores estudian su capacidad de transdiferenciación porque podría ayudar a entender mejor el envejecimiento y la regeneración de los tejidos, aunque estamos lejos de cualquier aplicación en humanos. También se analizan sus genes mitocondriales para entender su parentesco con otras especies del mismo género.",
    "sources": [
     {
      "t": "Publicación académica (DOI) (doi.org) — The conserved mitochondrial gene distribution in relatives of <i>Turritopsis nutricula</i>, an immortal jellyfish",
@@ -7679,7 +7765,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7695,6 +7781,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7706,7 +7796,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Una jirafa tiene las mismas vértebras en el cuello que tú",
    "desc": "Siete, como casi todos los mamíferos; solo que cada una es enorme.",
-   "body": "Casi todos los mamíferos, desde un ratón hasta una jirafa, tienen siete vértebras cervicales. En la jirafa, cada una puede medir más de 25 centímetros. Las excepciones más conocidas son los perezosos y los manatíes.",
+   "body": "Aunque el cuello de una jirafa puede medir cerca de dos metros, tiene el mismo número de vértebras cervicales que el tuyo: siete. Casi todos los mamíferos, desde un ratón hasta una ballena o una jirafa, tienen siete vértebras en el cuello. La diferencia está en el tamaño: en la jirafa, cada vértebra puede medir más de 25 centímetros.\n\nEl cuello largo se debe a un alargamiento desproporcionado de las vértebras cervicales, no a que tenga más. Las excepciones más conocidas a la regla de las siete vértebras son los perezosos y los manatíes, que tienen algunas más o algunas menos. Comparar a las jirafas con sus parientes antiguos sugiere que primero se alargaron las vértebras más cercanas al cráneo y después las siguientes.",
+   "deep": "La jirafa tiene otra peculiaridad: el punto donde el cuello se une al tórax está desplazado, de modo que su primera vértebra torácica funciona casi como una octava vértebra del cuello, lo que le da más movilidad. Un fósil clave para entender su evolución es Samotherium, un pariente extinto cuyo cuello tenía una longitud intermedia entre la de la jirafa moderna y la del okapi, su pariente vivo más cercano. Para bombear sangre hasta la cabeza, la jirafa tiene un corazón muy potente y una presión arterial muy alta.",
    "sources": [
     {
      "t": "Wikipedia — Giraffe",
@@ -7723,7 +7814,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -7735,6 +7826,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7746,7 +7841,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El ajolote puede regenerar patas, partes del corazón y del cerebro",
    "desc": "Este anfibio mexicano es uno de los animales con mayor capacidad de regeneración.",
-   "body": "El ajolote vive de forma natural solo en el sistema de lagos de Xochimilco, en Ciudad de México, y está en peligro crítico de extinción. Es estudiado por su capacidad de regenerar extremidades completas e incluso tejidos de órganos vitales. Además, suele conservar rasgos juveniles toda su vida, como sus branquias externas.",
+   "body": "El ajolote es una salamandra mexicana con una cara que parece sonreír y unas branquias plumosas a los lados de la cabeza. Tiene una característica rara: conserva toda su vida el aspecto de larva, una condición llamada neotenia. A diferencia de otros anfibios, no sale del agua ni pierde sus branquias, aunque alcanza la madurez y se reproduce.\n\nLo que más atrae a los científicos es su capacidad de regeneración. Los ajolotes no curan sus heridas formando cicatrices, sino regenerando el tejido perdido: pueden reconstruir patas completas, la cola, partes del corazón, de la médula espinal e incluso del cerebro. Por eso se estudian para entender cómo podría estimularse la regeneración en otros animales y, algún día, en humanos.",
+   "deep": "En la naturaleza, el ajolote vive solo en los lagos y canales del sur de Ciudad de México, sobre todo en el lago de Xochimilco, y está en peligro crítico de extinción. Su hábitat se ha reducido por el crecimiento de la ciudad, la contaminación y la introducción de peces como la carpa y la tilapia, que compiten con él y se comen sus huevos. Paradójicamente, es muy común en acuarios y laboratorios de todo el mundo. Con mucho yodo puede llegar a transformarse en una salamandra adulta, pero eso le perjudica y no se recomienda.",
    "sources": [
     {
      "t": "Museo de Historia Natural de Londres — Axolotls: Meet the amphibians that never grow up",
@@ -7779,7 +7875,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7795,6 +7891,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7806,7 +7906,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Los peces payaso nacen machos y algunos se convierten en hembras",
    "desc": "En cada grupo, el individuo dominante es la hembra; si muere, el macho principal cambia de sexo.",
-   "body": "Los peces payaso viven en grupos jerárquicos dentro de una anémona. La hembra es la más grande. Si desaparece, el macho reproductor se transforma en hembra y el siguiente macho en la jerarquía ocupa su lugar. Este fenómeno se llama hermafroditismo secuencial.",
+   "body": "Los peces payaso nacen machos, y algunos se convierten en hembras a lo largo de su vida. Viven en grupos jerárquicos dentro de una anémona de mar: una hembra, la más grande, un macho reproductor y varios machos más pequeños que no se reproducen.\n\nSi la hembra desaparece, el macho reproductor se transforma en hembra, y el siguiente macho en la jerarquía pasa a ser el nuevo macho reproductor. Este cambio de sexo de macho a hembra se llama hermafroditismo protándrico. Los machos más pequeños esperan su turno, y los estudios muestran que son las limitaciones ecológicas y sociales, como la escasez de anémonas, las que hacen que la mayoría de los individuos no se reproduzcan.",
+   "deep": "La relación con la anémona es un ejemplo clásico de simbiosis. Los tentáculos de la anémona tienen células urticantes que paralizan a otros peces, pero el pez payaso está protegido por una capa de moco especial y la anémona no le pica. A cambio de refugio, el pez payaso limpia la anémona, la defiende de algunos depredadores y le aporta nutrientes con sus restos. Se usan diez especies de anémonas como hogar; algunas especies de pez payaso pueden vivir en cualquiera de ellas y otras dependen de una sola.",
    "sources": [
     {
      "t": "Communications Biology — Ecological and social constraints combine to promote evolution of non-breeding strategies in clownfish",
@@ -7839,7 +7940,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7855,6 +7956,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14020,7 +14125,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La cascada más alta del mundo está en Venezuela",
    "desc": "El Salto Ángel tiene 979 metros de altura.",
-   "body": "El Salto Ángel, llamado Kerepakupai Merú en lengua pemón, cae desde el tepuy Auyantepui, en el Parque Nacional Canaima. Su caída ininterrumpida es la más alta del mundo. Su nombre popular viene del aviador estadounidense Jimmie Angel, que lo sobrevoló en la década de 1930.",
+   "body": "El Salto Ángel, en Venezuela, es la cascada con la caída ininterrumpida más alta del mundo: unos 979 metros en total, con una caída libre principal de unos 807 metros. Cae desde el borde del Auyantepui, una enorme montaña de cima plana, en el Parque Nacional Canaima.\n\nEn lengua pemón se llama Kerepakupai Merú, «salto del lugar más profundo». Su nombre popular viene del aviador estadounidense Jimmie Angel, que la sobrevoló en la década de 1930 buscando oro y que en 1937 aterrizó con su avioneta en la cima del tepuy; el aparato quedó atascado en el terreno y él y sus acompañantes tuvieron que descender a pie durante varios días. Desde 2009, el gobierno venezolano promueve el nombre indígena.",
+   "deep": "Los tepuyes, como el Auyantepui, son mesetas de roca con paredes verticales que se elevan sobre la selva. Están entre las formaciones rocosas más antiguas del planeta, y sus cimas, aisladas durante millones de años, albergan plantas y animales que no existen en ningún otro lugar. El Parque Nacional Canaima, donde se encuentra, es Patrimonio de la Humanidad de la UNESCO. La cascada es tan alta que, en la estación seca, buena parte del agua se convierte en neblina antes de llegar al suelo.",
    "sources": [
     {
      "t": "Wikipedia — Angel Falls",
@@ -14045,7 +14151,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -14057,6 +14163,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14068,7 +14178,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El desierto de Atacama es el desierto no polar más seco del mundo",
    "desc": "Hay zonas donde nunca se ha registrado lluvia en la época moderna.",
-   "body": "Situado en el norte de Chile, el Atacama está protegido de la humedad por la cordillera de los Andes y por corrientes frías del Pacífico. Su suelo es tan seco que la NASA lo ha usado para probar instrumentos pensados para Marte. Su cielo limpio lo convierte en uno de los mejores lugares del mundo para la astronomía.",
+   "body": "El desierto de Atacama, en el norte de Chile, es uno de los lugares más secos de la Tierra y el desierto no polar más seco del mundo. En algunas estaciones meteorológicas de su interior nunca se ha registrado lluvia, y hay zonas donde, según los estudios, no llovió de forma significativa durante siglos.\n\nSu aridez extrema tiene varias causas que se suman. La cordillera de los Andes, al este, bloquea la humedad que llega desde la Amazonía. Al oeste, la corriente fría de Humboldt enfría el aire sobre el océano Pacífico y dificulta que se formen nubes de lluvia. Y un anticiclón casi permanente sobre el Pacífico mantiene el aire estable y seco. Su suelo es tan seco y pobre en vida que la NASA lo ha usado para probar instrumentos pensados para buscar vida en Marte.",
+   "deep": "Su cielo, seco, despejado y a gran altitud, convierte al Atacama en uno de los mejores lugares del mundo para la astronomía. Allí están algunos de los observatorios más importantes del planeta, como ALMA, una gran red de antenas de radio, y los telescopios del Observatorio Europeo Austral. En la costa, la neblina llamada camanchaca permite que vivan algunas plantas y se aprovecha con atrapanieblas para obtener agua. Cuando, en años excepcionales, llueve, el desierto florece y se cubre de flores: es el «desierto florido».",
    "sources": [
     {
      "t": "NASA — Extreme Weather in Chile Causing Catastrophic Fires",
@@ -14101,7 +14212,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14117,6 +14228,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14128,7 +14243,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Groenlandia es la isla más grande del mundo",
    "desc": "Australia es más grande, pero se considera un continente.",
-   "body": "Groenlandia tiene más de 2 millones de kilómetros cuadrados, la mayor parte cubierta por una enorme capa de hielo. Pertenece al Reino de Dinamarca, aunque tiene un amplio autogobierno. Pese a su tamaño, tiene una población muy pequeña, de alrededor de 56.000 personas.",
+   "body": "Groenlandia es la isla más grande del mundo, si no se cuentan los continentes: tiene más de 2 millones de kilómetros cuadrados. Alrededor del 80 % de su superficie está cubierta por una enorme capa de hielo, la segunda más grande del planeta después de la de la Antártida, que en algunos puntos supera los tres kilómetros de espesor.\n\nGeográficamente forma parte de América del Norte, pero políticamente pertenece al Reino de Dinamarca, aunque tiene un amplio autogobierno. Pese a su tamaño, tiene una población muy pequeña, de alrededor de 56 000 personas, la mayoría inuit, que viven sobre todo en la costa. Su capital, Nuuk, es una de las capitales más pequeñas del mundo.",
+   "deep": "Su nombre, «Tierra verde», viene de los primeros colonos nórdicos: según las sagas islandesas, el noruego Erik el Rojo, desterrado de Islandia, la llamó así con la esperanza de que un nombre agradable atrajera colonos. El deshielo de Groenlandia contribuye a la subida del nivel del mar: entre 2012 y 2017 añadió de media unos 0,68 milímetros al año, por eso los científicos vigilan de cerca cómo pierde hielo. En la proyección de Mercator, Groenlandia parece casi tan grande como África, pero en realidad África es unas catorce veces mayor.",
    "sources": [
     {
      "t": "Wikipedia — Greenland",
@@ -14153,7 +14269,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -14165,6 +14281,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14176,7 +14296,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El Amazonas lleva más agua que cualquier otro río del mundo",
    "desc": "Su caudal es mayor que el de los siguientes varios ríos más caudalosos juntos.",
-   "body": "El Amazonas vierte al Atlántico una cantidad de agua enorme: se calcula que alrededor de una quinta parte de toda el agua dulce que los ríos llevan al mar. No tiene ningún puente que lo cruce en todo su recorrido. Si es o no el más largo del mundo, frente al Nilo, sigue siendo objeto de debate.",
+   "body": "El Amazonas es el río con mayor caudal del mundo: vierte al océano Atlántico una cantidad de agua enorme, más que los siguientes ríos más caudalosos juntos. Se calcula que aporta alrededor de una quinta parte de toda el agua dulce que los ríos del planeta llevan al mar. En su desembocadura, el agua dulce penetra tanto en el océano que antiguamente los navegantes podían beberla lejos de la costa.\n\nNace en los Andes de Perú y atraviesa Sudamérica de oeste a este, principalmente por Brasil. Su cuenca, la mayor del mundo, recoge el agua de varios países y alberga la selva tropical más grande del planeta. No tiene ningún puente que lo cruce en todo su recorrido: la mayor parte de su orilla está rodeada de selva, con pocas carreteras, y el río cambia de cauce y se desborda en la estación de lluvias.",
+   "deep": "Si el Amazonas es o no el río más largo del mundo, frente al Nilo, sigue siendo objeto de debate: depende de dónde se considere su nacimiento y de cómo se mida su recorrido por los canales del delta. Su nombre se lo dio el explorador español Francisco de Orellana, que en 1542 fue el primer europeo en recorrerlo y contó que guerreros indígenas dirigidos por mujeres atacaron su expedición, lo que le recordó a las amazonas, las mujeres guerreras de la mitología griega. En sus aguas viven el delfín rosado, la piraña y el pirarucú, uno de los peces de agua dulce más grandes del mundo.",
    "sources": [
     {
      "t": "Universidad (press.uchicago.edu) — A World of Rivers: Environmental Change on Ten of the World’s Great Rivers, Wohl",
@@ -14209,7 +14330,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14225,6 +14346,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14236,7 +14361,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El Titicaca es uno de los lagos navegables más altos del mundo",
    "desc": "Está a unos 3.800 metros de altura, entre Perú y Bolivia.",
-   "body": "El lago Titicaca es el más grande de Sudamérica por volumen de agua. En él viven los uros, que construyen islas flotantes con totora, un junco que crece en el lago. Para muchas culturas andinas, incluido el pueblo inca, era un lugar sagrado.",
+   "body": "El lago Titicaca, en la frontera entre Perú y Bolivia, es uno de los lagos navegables más altos del mundo. Es también el lago más grande de Sudamérica por volumen de agua. Sus aguas, frías y muy azules, reflejan las montañas nevadas de la cordillera Real.\n\nEn él viven los uros, un pueblo que construye islas flotantes con totora, un junco que crece en las orillas del lago. Con la misma planta fabrican sus casas y sus barcas. Las islas se van pudriendo por debajo y hay que añadir capas nuevas de totora por encima cada pocos meses. Para muchas culturas andinas, incluido el pueblo inca, el Titicaca era un lugar sagrado: según su tradición, del lago surgieron el Sol y los primeros incas.",
+   "deep": "En el lago hay muchas islas, algunas habitadas desde hace siglos, como Taquile, en Perú, o la Isla del Sol, en Bolivia, con ruinas incas. Hay lagos más altos, como el pequeño lago del cráter del volcán Ojos del Salado, en Chile, a unos 6500 metros, pero no son navegables por barcos comerciales. El lago alberga especies que no existen en ningún otro lugar, como la rana gigante del Titicaca, que respira en buena parte a través de su piel arrugada y está en peligro de extinción. En la orilla boliviana está Tiwanaku, una gran ciudad de una civilización anterior a los incas, declarada Patrimonio de la Humanidad.",
    "sources": [
     {
      "t": "UNESCO — Centro del Patrimonio Mundial — Sacred Titicaca Lake",
@@ -14261,7 +14387,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14277,6 +14403,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14288,7 +14418,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Nueva Zelanda fue una de las últimas grandes tierras pobladas por humanos",
    "desc": "Los polinesios llegaron alrededor del siglo XIII.",
-   "body": "Mientras otras regiones llevaban decenas de miles de años habitadas, las islas de Nueva Zelanda permanecieron sin humanos hasta que navegantes polinesios, antepasados de los maoríes, llegaron hacia el siglo XIII. La llegada humana provocó la extinción de aves gigantes como el moa.",
+   "body": "Mientras otras regiones del mundo llevaban decenas de miles de años habitadas, las islas de Nueva Zelanda permanecieron sin presencia humana hasta hace muy poco en términos históricos. Fue una de las últimas grandes tierras del planeta en ser pobladas: navegantes polinesios, antepasados de los maoríes, llegaron hacia los siglos XIII o XIV. Los análisis genéticos apuntan a entre 1250 y 1300.\n\nLlegaron en grandes canoas tras largos viajes por el Pacífico, guiándose por las estrellas, las corrientes, el oleaje y el vuelo de las aves. Encontraron unas islas sin mamíferos terrestres, salvo los murciélagos, donde las aves ocupaban muchos de los papeles que en otros lugares tienen los mamíferos. La llegada humana provocó en pocos siglos la extinción de aves gigantes como el moa, que podía superar los tres metros de altura, y de su depredador, el águila de Haast.",
+   "deep": "El aislamiento de Nueva Zelanda, separada de otras tierras durante millones de años, explica su fauna única. Como no había mamíferos depredadores, varias de sus aves perdieron la capacidad de volar, como el kiwi, que se ha convertido en el símbolo del país, el kākāpō, el weka o el takahē. Los primeros europeos en avistarla fueron los del explorador neerlandés Abel Tasman, en 1642. En 1840, los británicos y muchos jefes maoríes firmaron el Tratado de Waitangi, considerado el documento fundacional del país.",
    "sources": [
     {
      "t": "Journal of World Prehistory — Mass Migration and the Polynesian Settlement of New Zealand",
@@ -14321,7 +14452,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14337,6 +14468,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14348,7 +14483,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Miles de ballenas jorobadas viajan cada invierno a República Dominicana",
    "desc": "Llegan a la bahía de Samaná y al Banco de la Plata para aparearse y tener sus crías.",
-   "body": "Cada año, entre enero y marzo aproximadamente, las ballenas jorobadas del Atlántico Norte viajan miles de kilómetros desde zonas frías hasta las aguas cálidas del noreste dominicano. La observación de ballenas en Samaná es una actividad turística importante y regulada para proteger a los animales.",
+   "body": "Cada año, entre enero y marzo aproximadamente, miles de ballenas jorobadas del Atlántico Norte viajan miles de kilómetros desde las aguas frías donde se alimentan, cerca de Islandia, Groenlandia o Canadá, hasta las aguas cálidas y poco profundas del noreste de la República Dominicana. Allí se aparean y dan a luz a sus crías.\n\nLa bahía de Samaná y los bancos de arena de alta mar del norte del país forman una de las zonas de cría más importantes de esta población de ballenas. Durante la temporada, los machos cantan largas canciones complejas, y es posible ver saltos espectaculares, golpes con las aletas y madres nadando con sus ballenatos. La observación de ballenas en Samaná es una actividad turística importante y regulada para proteger a los animales.",
+   "deep": "La ballena jorobada adulta puede medir unos 16 metros. Durante la temporada de cría casi no come: vive de la grasa acumulada en las zonas de alimentación. Su canto, que puede durar muchos minutos y repetirse durante horas, lo producen los machos y va cambiando de temporada en temporada. La caza comercial redujo mucho sus poblaciones en el siglo XX, pero gracias a la protección internacional muchas se han recuperado.",
    "sources": [
     {
      "t": "NOAA (EE. UU.) — Humpback Whale",
@@ -14390,7 +14526,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14406,6 +14542,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14417,7 +14557,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El río Nilo atraviesa o bordea 11 países",
    "desc": "Su cuenca se reparte entre países como Egipto, Sudán, Etiopía y Uganda.",
-   "body": "El Nilo tiene dos grandes ramas: el Nilo Blanco, que nace en la región de los Grandes Lagos de África, y el Nilo Azul, que nace en Etiopía. Se unen en Jartum, la capital de Sudán. Durante miles de años, sus crecidas anuales fertilizaron las tierras de Egipto.",
+   "body": "El Nilo, uno de los ríos más largos del mundo, atraviesa o bordea once países del noreste de África. Tiene dos grandes ramas. El Nilo Blanco nace en la región de los Grandes Lagos de África, con el lago Victoria como fuente principal. El Nilo Azul nace en el lago Tana, en las tierras altas de Etiopía.\n\nAmbas ramas se unen en Jartum, la capital de Sudán, y desde allí el río recorre el desierto hasta Egipto y desemboca en el Mediterráneo formando un gran delta. Aunque el Nilo Blanco es más largo, el Nilo Azul aporta la mayor parte del agua y del limo durante la estación de lluvias, porque recoge las tormentas monzónicas de Etiopía.",
+   "deep": "Durante miles de años, las crecidas anuales del Nilo inundaban sus orillas y dejaban un limo fértil que permitió la agricultura en pleno desierto y el nacimiento de la civilización egipcia. Los egipcios organizaban su calendario según esas crecidas. Desde 1970, la gran presa de Asuán controla las inundaciones y produce electricidad, pero también retiene el limo. Hoy, la Gran Presa del Renacimiento Etíope, en el Nilo Azul, genera tensiones entre Etiopía, Sudán y Egipto por el reparto del agua.",
    "sources": [
     {
      "t": "International Journal of Water Governance — Popular culture and Nile hydropolitics: Amharic songs about the Grand Ethiopian Renaissance Dam",
@@ -14466,7 +14607,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14482,6 +14623,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14493,7 +14638,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Las huellas de los koalas se parecen muchísimo a las humanas",
    "desc": "Incluso con un microscopio electrónico cuesta distinguirlas de las nuestras.",
-   "body": "Varias especies que trepan o agarran objetos húmedos tienen crestas en los dedos, como gorilas, chimpancés y koalas. En el caso del koala, el parecido con las huellas humanas es tan grande que, según un estudio, es difícil diferenciarlas incluso con un microscopio electrónico. Es un ejemplo de evolución convergente: rasgos parecidos que aparecen por separado en especies muy distintas.",
+   "body": "Las huellas dactilares de los koalas se parecen muchísimo a las humanas: tienen las mismas crestas, curvas y espirales. El parecido es tan grande que, según un estudio, incluso con un microscopio electrónico puede ser bastante difícil distinguir la huella de un koala de la de una persona.\n\nLo curioso es que los koalas son marsupiales y están lejanamente emparentados con nosotros. Otros animales con huellas dactilares, como los gorilas o los chimpancés, son primates como nosotros, así que las heredamos de un antepasado común. En el caso del koala, las huellas aparecieron de forma independiente: es un ejemplo de evolución convergente, en el que especies distintas desarrollan rasgos parecidos porque les resultan útiles para lo mismo.",
+   "deep": "Las crestas de los dedos mejoran el agarre y aumentan la sensibilidad del tacto, algo muy útil para un animal que trepa a los eucaliptos y elige con cuidado las hojas que come. El koala, a veces llamado erróneamente «oso koala», es un marsupial herbívoro que vive en los árboles del este de Australia. Se alimenta casi solo de hojas de eucalipto, muy pobres en nutrientes y tóxicas para la mayoría de los animales, y por eso duerme gran parte del día para ahorrar energía.",
    "sources": [
     {
      "t": "Wikipedia — Fingerprint",
@@ -14527,7 +14673,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -14539,6 +14685,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14550,7 +14700,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El colibrí puede volar hacia atrás",
    "desc": "Su forma de batir las alas le permite quedarse quieto en el aire y retroceder.",
-   "body": "Los colibríes baten sus alas muy rápido y pueden rotarlas, lo que les permite generar sustentación tanto al subir como al bajar el ala. Así se quedan suspendidos frente a las flores. Su metabolismo es altísimo: necesitan alimentarse con mucha frecuencia y, por la noche, pueden entrar en un estado de letargo para ahorrar energía.",
+   "body": "Los colibríes son los únicos vertebrados capaces de quedarse suspendidos en el aire en un mismo punto de forma sostenida, como un helicóptero, y además pueden volar hacia atrás e incluso boca abajo. Lo consiguen gracias a una articulación del hombro muy flexible, que les permite rotar el ala y generar sustentación tanto al bajarla como al subirla.\n\nBaten las alas muy rápido: las especies pequeñas, decenas de veces por segundo. Ese aleteo produce el zumbido que les da nombre en muchos idiomas: en inglés se llaman «hummingbirds», «pájaros que zumban». Así se quedan suspendidos frente a las flores para beber néctar con su lengua larga, que funciona como una pequeña bomba.",
+   "deep": "Mantener un vuelo así exige muchísima energía. Los colibríes tienen un metabolismo altísimo, que alimentan con el azúcar del néctar, y deben comer con frecuencia a lo largo del día. Son además uno de los pocos grupos de aves capaces de entrar en torpor: un estado profundo parecido al sueño en el que sus funciones se reducen al mínimo y su temperatura corporal baja mucho, para ahorrar energía durante la noche. Las flores y los colibríes han evolucionado juntos: muchas plantas tienen flores tubulares de colores vivos, como el rojo, adaptadas a su pico y a su forma de alimentarse.",
    "sources": [
     {
      "t": "Smithsonian Institution — Hummingbirds",
@@ -14583,7 +14734,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14599,6 +14750,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14610,7 +14765,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Los elefantes se reconocen en un espejo",
    "desc": "Superan la «prueba del espejo», que pocas especies logran.",
-   "body": "En la prueba, se pone una marca en el cuerpo del animal que solo puede ver en un espejo. Si se toca la marca al mirarse, se interpreta que se reconoce. Además de los humanos, la han superado grandes simios, delfines, algunas urracas y elefantes asiáticos, aunque los resultados varían entre individuos.",
+   "body": "En 1970, el psicólogo estadounidense Gordon Gallup Jr. diseñó la «prueba del espejo» para estudiar si un animal se reconoce a sí mismo. Se pone una marca en el cuerpo del animal en un lugar que solo puede ver en un espejo. Si al mirarse se toca o examina la marca, se interpreta que reconoce su reflejo como una imagen de sí mismo, y no como otro animal.\n\nAdemás de los humanos, han superado la prueba los grandes simios, como los chimpancés y los orangutanes, algunos delfines y los elefantes asiáticos. En el caso de los elefantes, se les marcó la cabeza y, frente a un espejo grande, alguno se tocó repetidamente la marca con la trompa, algo que no hacía sin el espejo.",
+   "deep": "Los animales que superan la prueba suelen pasar por cuatro etapas: primero tratan el reflejo como a otro individuo, luego examinan el espejo, después hacen movimientos repetidos para ver cómo responde el reflejo, y finalmente lo usan para explorar su propio cuerpo. La prueba tiene límites: animales que dependen más del olfato que de la vista pueden fallarla aunque tengan conciencia de sí mismos. Más recientemente, un pequeño pez, el lábrido limpiador, pareció superarla, lo que abrió un debate sobre qué mide exactamente; el propio Gallup cree que su comportamiento puede tener otra explicación.",
    "sources": [
     {
      "t": "National Geographic — This tiny fish can recognize itself in a mirror. Is it self-aware?",
@@ -14643,7 +14799,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14659,6 +14815,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14670,7 +14830,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Algunos cuervos fabrican sus propias herramientas",
    "desc": "Los cuervos de Nueva Caledonia moldean ramas y hojas para sacar insectos.",
-   "body": "Estos cuervos tallan ganchos en ramitas y recortan hojas para crear herramientas con las que extraen larvas de agujeros. En experimentos, han resuelto problemas de varios pasos. Son considerados uno de los animales no primates más hábiles con herramientas.",
+   "body": "El cuervo de Nueva Caledonia, un pájaro de una isla del Pacífico, es uno de los animales más hábiles fabricando herramientas. Talla ganchos en ramitas y recorta hojas de una planta en forma de tiras dentadas para crear herramientas con las que extrae larvas e insectos de los agujeros de los troncos.\n\nEn 1996, un estudio publicado en la revista Nature describió por primera vez cómo fabricaban y usaban estas herramientas con gancho. En experimentos posteriores, estos cuervos han resuelto problemas de varios pasos, como usar una herramienta corta para alcanzar otra más larga con la que llegar a la comida, algo que se llama uso de metaherramientas, a un nivel comparable al de los mejores primates.",
+   "deep": "La fabricación intencional de herramientas es muy rara en el mundo animal. Lo más sorprendente del cuervo de Nueva Caledonia es que es la única especie no primate de la que hay pruebas de evolución cultural acumulativa en la fabricación de herramientas: los diseños se mejoran y se transmiten de generación en generación, y distintas poblaciones de la isla fabrican herramientas con estilos diferentes. Pertenece a la familia de los córvidos, que incluye cuervos, urracas y arrendajos, considerados entre las aves más inteligentes.",
    "sources": [
     {
      "t": "Nature — Manufacture and use of hook-tools by New Caledonian crows",
@@ -14703,7 +14864,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14719,6 +14880,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14730,7 +14895,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Las abejas se indican dónde hay comida bailando",
    "desc": "La «danza del contoneo» comunica dirección y distancia. Su descubridor ganó el Nobel en 1973.",
-   "body": "Una abeja que encuentra flores vuelve a la colmena y realiza un baile en forma de ocho. El ángulo de la danza indica la dirección respecto al Sol, y la duración del contoneo, la distancia. Karl von Frisch descifró este lenguaje y compartió el Premio Nobel de Fisiología o Medicina en 1973.",
+   "body": "Cuando una abeja obrera encuentra un buen lugar con flores, vuelve a la colmena y se lo cuenta a sus compañeras bailando. Para fuentes de comida cercanas hace una «danza en círculo». Para las más lejanas, realiza la «danza del contoneo»: recorre una línea recta moviendo el abdomen y luego vuelve en círculo, alternando lados, de modo que dibuja una figura en forma de ocho.\n\nLa danza contiene información precisa. El ángulo de la línea recta respecto a la vertical del panal indica la dirección de la comida respecto al Sol. La duración del contoneo indica la distancia: cuanto más largo, más lejos está. Y la intensidad del baile transmite la calidad del alimento. Las demás abejas siguen a la bailarina, captan el mensaje y el olor de las flores, y salen a buscarlas.",
+   "deep": "El biólogo austriaco Karl von Frisch descifró este «lenguaje de la danza» y recibió por ello el Premio Nobel de Medicina en 1973, compartido con Konrad Lorenz y Nikolaas Tinbergen, fundadores del estudio del comportamiento animal. Investigaciones posteriores mostraron que la danza en círculo y la del contoneo no son dos lenguajes distintos, sino extremos de una transición continua: a medida que aumenta la distancia, la danza circular se va transformando en la del contoneo. Las abejas también usan la danza para comunicar dónde hay lugares adecuados para un nuevo nido.",
    "sources": [
     {
      "t": "Fundación Nobel — Karl von Frisch – Facts",
@@ -14772,7 +14938,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14788,6 +14954,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14799,7 +14969,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La ballena azul es el animal más grande que se conoce",
    "desc": "Puede superar los 30 metros de largo.",
-   "body": "La ballena azul supera en tamaño a cualquier dinosaurio conocido. A pesar de su enorme tamaño, se alimenta principalmente de krill, pequeños crustáceos, de los que puede comer varias toneladas al día. La caza comercial la llevó al borde de la extinción en el siglo XX; hoy está protegida.",
+   "body": "La ballena azul es el animal más grande que ha existido jamás, según lo que conocemos: supera en tamaño a cualquier dinosaurio. Puede medir alrededor de 30 metros de largo y pesar hasta unas 200 toneladas. El corazón de una ballena azul hallada varada en el Atlántico Norte pesaba 180 kilos, el mayor conocido de cualquier animal.\n\nA pesar de su tamaño, se alimenta casi exclusivamente de krill, pequeños crustáceos parecidos a camarones, aunque ocasionalmente también come peces y copépodos. Los captura con una técnica llamada alimentación por embestida: nada a gran velocidad hacia un banco de krill con la boca abierta hasta unos 80 grados, traga una enorme cantidad de agua y luego la expulsa filtrándola con las barbas, unas láminas que cuelgan de su mandíbula superior. Puede comer varias toneladas de krill al día.",
+   "deep": "La caza comercial casi la llevó a la extinción: el máximo se alcanzó entre 1930 y 1931, con unas 30 000 ballenas azules cazadas en una sola temporada. Desde 1966 está protegida internacionalmente, y algunas poblaciones se están recuperando, aunque sigue amenazada. Sus vocalizaciones están entre los sonidos más potentes producidos por un animal y pueden viajar cientos de kilómetros bajo el agua. Las pruebas genéticas han revelado incluso híbridos naturales entre ballenas azules y rorcuales comunes.",
    "sources": [
     {
      "t": "NOAA (EE. UU.) — Blue Whale",
@@ -14832,7 +15003,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14848,6 +15019,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14859,7 +15034,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Las nutrias marinas usan piedras como herramientas",
    "desc": "Las usan para romper conchas mientras flotan boca arriba.",
-   "body": "La nutria marina coloca una piedra sobre su pecho y golpea contra ella almejas y erizos hasta abrirlos. Algunas guardan su piedra favorita en un pliegue de piel bajo el brazo. Además, tienen el pelaje más denso del reino animal, que las mantiene calientes en el agua fría.",
+   "body": "La nutria marina, que vive en las costas del Pacífico Norte, es uno de los pocos mamíferos que usan herramientas. Flotando boca arriba en el agua, coloca una piedra sobre su pecho y golpea contra ella almejas, mejillones y erizos de mar hasta romperlos y comerse su interior. Bajo cada pata delantera tiene un pliegue suelto de piel, a modo de bolsillo, donde guarda la comida que recoge y a veces la piedra que usa como herramienta.\n\nA diferencia de otros mamíferos marinos, no tiene una capa de grasa para protegerse del frío. Su abrigo es su pelaje, el más denso del reino animal: según algunas estimaciones, tiene más de un millón de pelos por pulgada cuadrada en sus zonas más densas, que atrapan una capa de aire junto a la piel y la aíslan del agua fría del Pacífico Norte. Para conservarlo en buen estado se acicala durante horas. Para no alejarse mientras duermen, a veces se envuelven en algas o se toman de las patas.",
+   "deep": "Ese pelaje tan valioso casi provocó su desaparición. Durante el comercio de pieles, entre 1741 y 1911, las nutrias marinas fueron cazadas hasta quedar al borde de la extinción. Un estudio genético con huesos antiguos encontró que las poblaciones anteriores a ese comercio tenían el doble de diversidad genética que las actuales. Son una especie clave: al comer erizos de mar, impiden que estos destruyan los bosques de algas, de los que dependen muchas otras especies marinas.",
    "sources": [
     {
      "t": "PLOS One — Genetic Diversity and Population Parameters of Sea Otters, Enhydra lutris, before Fur Trade Extirpation from 1741–1911",
@@ -14892,7 +15068,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14908,6 +15084,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14919,7 +15099,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Las hormigas cortadoras de hojas son agricultoras",
    "desc": "No se comen las hojas: las usan para cultivar un hongo del que se alimentan.",
-   "body": "Estas hormigas, comunes en América, cortan trozos de hojas y los llevan al hormiguero, donde los usan como abono para un jardín de hongos. Las colonias pueden tener millones de individuos con tareas especializadas. Practicaban la agricultura millones de años antes que los humanos.",
+   "body": "Las hormigas cortadoras de hojas, comunes en América tropical, practican la agricultura desde mucho antes que los humanos. Cortan trozos de hojas con sus mandíbulas y los llevan en largas filas hasta el hormiguero. Pero no se comen las hojas: las usan como abono para cultivar un hongo, que es su verdadero alimento.\n\nDentro del hormiguero, las obreras mastican las hojas hasta hacer una pasta, la depositan en sus «jardines» y la siembran con el hongo, que solo crece allí. Las colonias pueden tener millones de individuos con tareas especializadas según su tamaño: las más grandes cortan y defienden, y las más pequeñas cuidan el jardín y lo limpian de mohos y otros parásitos. Las colonias suelen fundarlas reinas en solitario.",
+   "deep": "Las hormigas también usan bacterias que producen antibióticos para proteger su cultivo de hongos invasores, una especie de «pesticida» natural. Una investigación publicada en Nature Communications descubrió además que algunas de estas hormigas, del género Acromyrmex, fabrican sobre su cuerpo una capa de minerales que funciona como armadura: en experimentos, las que la tenían resistían mejor los combates con soldados de otras especies de hormigas y las infecciones.",
    "sources": [
     {
      "t": "Nature Communications — Biomineral armor in leaf-cutter ants",
@@ -14952,7 +15133,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14968,6 +15149,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14979,7 +15164,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El ornitorrinco es un mamífero que pone huevos",
    "desc": "Además, detecta a sus presas por los campos eléctricos que generan.",
-   "body": "El ornitorrinco, de Australia, es uno de los pocos mamíferos que ponen huevos, junto con los equidnas. Su pico tiene receptores que detectan la electricidad de los músculos de sus presas bajo el agua. Los machos tienen un espolón venenoso en las patas traseras. Cuando se describió por primera vez en Europa, algunos científicos pensaron que era una falsificación.",
+   "body": "El ornitorrinco, que vive en el este de Australia, incluida Tasmania, parece hecho de piezas de otros animales: tiene pico de pato, cola de castor y patas palmeadas como las de una nutria. Cuando llegó a Europa el primer ejemplar disecado, algunos científicos pensaron que era una falsificación. Además, es uno de los pocos mamíferos que ponen huevos, junto con los equidnas.\n\nComo mamífero, tiene pelo y alimenta a sus crías con leche, aunque no tiene pezones: la leche sale por poros de la piel. Su pico es un órgano sensorial asombroso: cuando busca comida en el fondo de los ríos, unos receptores eléctricos de su pico detectan las diminutas corrientes que generan las contracciones musculares de sus presas. En su cerebro, esas señales se procesan en la misma zona que el tacto, lo que sugiere que «siente» los campos eléctricos como si los tocara.",
+   "deep": "Los machos tienen un espolón en las patas traseras capaz de inyectar un veneno muy doloroso para las personas, algo rarísimo en un mamífero. El análisis de su genoma, publicado en 2008, mostró una mezcla de rasgos genéticos de mamíferos, aves y reptiles, que refleja lo antiguo de su linaje: los monotremas se separaron muy pronto del resto de los mamíferos. Por eso el ornitorrinco ayuda a entender cómo eran los primeros mamíferos.",
    "sources": [
     {
      "t": "Nature — Interpreting Shared Characteristics: The Platypus Genome",
@@ -15012,7 +15198,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -15028,6 +15214,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20584,7 +20774,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La altura oficial del Everest se actualizó en 2020",
    "desc": "China y Nepal anunciaron conjuntamente una altura de 8.848,86 metros.",
-   "body": "La altura de las montañas se mide con técnicas cada vez más precisas, y el Everest puede cambiar ligeramente por movimientos tectónicos y terremotos. La cifra anunciada en 2020 es la referencia oficial actual. La montaña está en la frontera entre Nepal y China.",
+   "body": "La altura oficial del Everest es de 8848,86 metros. La anunciaron conjuntamente China y Nepal en diciembre de 2020, tras nuevas mediciones de ambos países. El Everest está justo en la frontera entre los dos, en la cordillera del Himalaya, y durante años cada país había usado cifras ligeramente distintas.\n\nMedir una montaña así no es sencillo. Hay que decidir si se cuenta la capa de nieve y hielo de la cima o solo la roca, y desde qué nivel del mar se mide. Ya en mayo de 1999 una expedición estadounidense dirigida por Bradford Washburn fijó un receptor GPS en la roca más alta, y midió una altura de roca de 8850 metros, con la nieve y el hielo un metro por encima. Además, el Everest puede cambiar ligeramente de altura por los movimientos tectónicos y los terremotos.",
+   "deep": "El Himalaya nació del choque entre la placa tectónica de la India y la de Eurasia, un empuje que continúa hoy y sigue elevando la cordillera unos milímetros al año. Paradójicamente, la cima del Everest, la llamada formación Qomolangma, está hecha de sedimentos marinos que se acumularon en la plataforma continental de la India antes del choque con Asia. En tibetano se llama Chomolungma y en nepalí Sagarmatha. Su nombre en inglés honra a George Everest, un topógrafo británico. Los primeros en llegar a la cima, según los registros, fueron Edmund Hillary y Tenzing Norgay en 1953.",
    "sources": [
     {
      "t": "Wikipedia — Mount Everest",
@@ -20609,7 +20800,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -20621,6 +20812,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20632,7 +20827,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El Sahara fue verde hace miles de años",
    "desc": "Durante el «periodo húmedo africano» hubo lagos, ríos y sabanas donde hoy hay arena.",
-   "body": "Entre hace unos 14.500 y 5.000 años, con monzones más intensos ligados a cambios en la órbita terrestre, y gran parte del Sahara se cubrió de vegetación. Pinturas rupestres de la región muestran jirafas, elefantes y escenas de pastoreo.",
+   "body": "Hoy el Sahara es el mayor desierto cálido del mundo, pero no siempre fue así. Entre hace unos 14 500 y 5000 años, un periodo llamado el Periodo Húmedo Africano, gran parte del Sahara estuvo cubierta de vegetación, con sabanas, lagos y ríos. Se le conoce como el «Sahara verde».\n\nLa causa fueron cambios lentos en la órbita y la inclinación de la Tierra, que modificaron la cantidad de luz solar que recibía el norte de África en verano. Con más radiación, los monzones africanos se intensificaron y llevaron lluvias mucho más al norte. Las pinturas rupestres de la región, como las de Tassili n'Ajjer, en Argelia, muestran jirafas, elefantes, hipopótamos y escenas de pastoreo de ganado en lugares que hoy son arena y roca.",
+   "deep": "El paso del Sahara verde al desierto fue relativamente rápido en algunas zonas, y obligó a muchas poblaciones a desplazarse hacia el valle del Nilo y otras regiones con agua, lo que según algunos investigadores contribuyó al desarrollo de la civilización egipcia. El lago Chad es un pequeño resto de un lago mucho mayor de aquella época. Este ciclo de Sahara verde y Sahara seco se ha repetido muchas veces a lo largo de cientos de miles de años.",
    "sources": [
     {
      "t": "Publicación académica (DOI) (doi.org) — Abstract EPSC-DPS2025-1671",
@@ -20673,7 +20869,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -20689,6 +20885,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20700,7 +20900,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Mónaco es el país más densamente poblado del mundo",
    "desc": "En unos 2 km² viven decenas de miles de personas.",
-   "body": "Mónaco, en la costa mediterránea junto a Francia, es el segundo país más pequeño del mundo tras el Vaticano. Su densidad de población es la más alta de todos los Estados soberanos. Es famoso por su casino de Montecarlo y su Gran Premio de Fórmula 1.",
+   "body": "Mónaco, en la costa mediterránea junto a Francia, es el segundo país más pequeño del mundo, después del Vaticano, con apenas unos dos kilómetros cuadrados. Y es el país más densamente poblado de todos los Estados soberanos: unas 38 000 personas viven en ese espacio, lo que da más de 19 000 habitantes por kilómetro cuadrado.\n\nEs un principado gobernado desde hace siglos por la familia Grimaldi, una de las casas reales más antiguas de Europa. Es famoso por su casino de Montecarlo, por su Gran Premio de Fórmula 1, que se corre por las propias calles de la ciudad, y por su puerto lleno de yates. Gran parte de sus habitantes son extranjeros, atraídos en parte porque sus residentes no pagan impuesto sobre la renta.",
+   "deep": "Como no tiene espacio para crecer, Mónaco ha ganado terreno al mar: una parte importante de su territorio actual se construyó rellenando zonas costeras, y en los últimos años se ha levantado un nuevo barrio sobre el agua. No tiene ejército propio: su defensa es responsabilidad de Francia, según los acuerdos entre ambos países. Usa el euro aunque no es miembro de la Unión Europea, y su idioma oficial es el francés, aunque también se conserva el monegasco, una lengua emparentada con el ligur.",
    "sources": [
     {
      "t": "Wikipedia — Monaco",
@@ -20725,7 +20926,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -20737,6 +20938,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20748,7 +20953,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Los delfines duermen con la mitad del cerebro despierta",
    "desc": "Así pueden seguir respirando y vigilando mientras descansan.",
-   "body": "Se llama sueño unihemisférico: un hemisferio cerebral duerme mientras el otro permanece alerta, y luego se turnan. Los delfines necesitan subir a la superficie a respirar de forma consciente, así que no pueden desconectarse por completo. Algunas aves también duermen así.",
+   "body": "Los delfines no pueden dormir como nosotros. Para respirar tienen que subir a la superficie de forma consciente, así que, si se durmieran por completo, se ahogarían. Su solución es dormir con la mitad del cerebro: un hemisferio duerme mientras el otro permanece alerta, y luego se turnan. Se llama sueño unihemisférico de ondas lentas.\n\nMientras duermen así, suelen nadar despacio o flotar cerca de la superficie, y a menudo mantienen abierto el ojo controlado por el hemisferio despierto. Eso les permite seguir respirando, vigilar a los depredadores y mantenerse en contacto con su grupo. Otras especies, como algunas aves y focas, también pueden dormir con medio cerebro, por ejemplo para vigilar el entorno durante el vuelo o en el agua.",
+   "deep": "Los experimentos en los que se impidió dormir a delfines mostraron que, cuando se les privaba de sueño en un solo hemisferio, ese hemisferio dormía más tiempo después para recuperarse. Para los científicos, esto es una pista importante: que los delfines hayan desarrollado una especialización tan llamativa, en lugar de dejar de dormir por completo, sugiere que el sueño cumple alguna función esencial que no se puede eliminar. Las crías de delfín, en cambio, parecen dormir muy poco durante sus primeras semanas de vida.",
    "sources": [
     {
      "t": "PLOS Biology — Is Sleep Essential?",
@@ -20781,7 +20987,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -20797,6 +21003,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20808,7 +21018,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Un perezoso puede tardar un mes o más en digerir lo que come",
    "desc": "Ningún otro mamífero digiere tan despacio. Los perezosos de tres dedos bajan al suelo más o menos una vez por semana.",
-   "body": "Los perezosos se alimentan sobre todo de hojas, que aportan poca energía. Una parte importante de su peso corporal es el contenido de su estómago, y la digestión puede durar un mes o más. Para ahorrar energía se mueven muy despacio, y en su pelaje crecen algas que les dan un tono verdoso.",
+   "body": "Los perezosos, que viven en las selvas de Centroamérica y Sudamérica, se alimentan sobre todo de hojas, un alimento que aporta muy poca energía y es difícil de digerir. Su estómago, dividido en varias cámaras, fermenta lentamente las hojas con ayuda de bacterias. Hasta dos tercios del peso de un perezoso bien alimentado puede ser el contenido de su estómago.\n\nLa digestión puede tardar un mes o más en completarse. Para ahorrar energía, los perezosos se mueven muy despacio, mantienen una temperatura corporal relativamente baja y bajan del árbol solo más o menos una vez a la semana para hacer sus necesidades. Pasan casi toda su vida colgados boca abajo de las ramas, y en ese tiempo duermen o descansan muchas horas al día.",
+   "deep": "Su pelaje es un pequeño ecosistema: en él crecen algas que le dan un tono verdoso y le ayudan a camuflarse entre las hojas, y viven insectos como polillas, que ponen sus huevos en los excrementos del perezoso. Existen seis especies vivas, divididas en perezosos de dos dedos y de tres dedos; cuatro se consideran fuera de peligro, mientras que el perezoso de tres dedos de collar, de la Mata Atlántica de Brasil, es vulnerable. Una perezosa de dos dedos del Zoo Nacional del Smithsonian vivió unos 49 años, la más longeva registrada.",
    "sources": [
     {
      "t": "Smithsonian Institution — Two-toed sloth",
@@ -20841,7 +21052,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -20857,6 +21068,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20868,7 +21083,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Los machos de pingüino emperador incuban el huevo durante el invierno antártico",
    "desc": "Lo incuban durante algo más de dos meses mientras la hembra se alimenta en el mar.",
-   "body": "Tras la puesta, la hembra pasa el huevo al macho y regresa al mar a alimentarse. Los machos se agrupan en grandes «tortugas» para protegerse del frío extremo y del viento, turnándose en el centro. Cuando el huevo eclosiona, el macho puede llevar unos 120 días en ayunas desde que llegó a la colonia.",
+   "body": "El pingüino emperador es el más alto y pesado de todos los pingüinos, y vive solo en la Antártida. Su forma de criar es de las más duras del reino animal: se reproduce durante el invierno antártico, sobre el hielo marino, con temperaturas de unos −30 °C y vientos fuertes frecuentes.\n\nTras poner el único huevo, la hembra se lo pasa al macho y regresa al mar a alimentarse. El macho lo incuba sobre sus patas, cubierto por un pliegue de piel, sin comer nada: entre el cortejo y la incubación, ayuna unos 120 días. Es la única especie de pingüino en la que solo el macho incuba; en las demás, ambos padres se turnan. Para soportar el frío, los machos se agrupan en enormes corros apretados y se van turnando para pasar del borde exterior, más frío, al centro.",
+   "deep": "Cuando la cría nace, si la madre aún no ha vuelto, el padre puede alimentarla con una secreción producida en su esófago. Para entonces puede haber perdido buena parte de su peso. En 2012 se publicó el primer censo mundial de una especie hecho desde el espacio: con imágenes de satélite de alta resolución, que permiten ver las colonias y las manchas de sus excrementos en el hielo, los científicos estimaron la población de pingüinos emperador en unas 595 000 aves.",
    "sources": [
     {
      "t": "PLOS One — An Emperor Penguin Population Estimate: The First Global, Synoptic Survey of a Species from Space",
@@ -20909,7 +21125,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -20925,6 +21141,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
