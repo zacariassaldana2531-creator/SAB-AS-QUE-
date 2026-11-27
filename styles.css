@@ -440,7 +440,7 @@ input{font:inherit;color:inherit}
 
 /* ===== Atlas del cuerpo humano y medicina ===== */
 .banners{display:grid;gap:12px;margin-top:12px}
-@media (min-width:1100px){.banners{grid-template-columns:1fr 1fr}.banners .ctry-banner,.banners .anat-banner{grid-template-columns:1fr}}
+@media (min-width:1100px){.banners{grid-template-columns:1fr 1fr}.banners .ctry-banner,.banners .anat-banner,.banners .chem-banner{grid-template-columns:1fr}}
 .anat-banner{display:grid;grid-template-columns:1fr;overflow:hidden;border-radius:var(--r3);background:radial-gradient(120% 140% at 100% 0%,rgba(255,122,107,.22),transparent 60%),var(--g2);border:1px solid var(--line);box-shadow:var(--shadow);transition:transform .2s var(--ease)}
 .anat-banner:active{transform:scale(.99)}
 .anat-banner .mosaic{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:16px 16px 0}
@@ -560,3 +560,78 @@ input{font:inherit;color:inherit}
 .dict-page .def{margin-top:6px}
 .dict-banner{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:14px;margin:12px 0 18px;padding:16px 18px;border-radius:var(--r2);background:radial-gradient(120% 140% at 100% 0%,rgba(216,180,90,.18),transparent 60%),var(--g2);border:1px solid var(--line);color:var(--tx);text-decoration:none}
 .dict-banner .gl{font-size:28px}.dict-banner b{display:block;font-family:var(--serif);font-size:20px}.dict-banner small{color:var(--tx2);font-size:14px;line-height:1.45}.dict-banner .arr svg{width:18px;height:18px;color:var(--tx3)}
+/* Banner de química: mismo diseño que el del atlas */
+.chem-banner{display:grid;grid-template-columns:1fr;overflow:hidden;border-radius:var(--r3);background:radial-gradient(120% 140% at 100% 0%,rgba(255,122,107,.22),transparent 60%),var(--g2);border:1px solid var(--line);box-shadow:var(--shadow);transition:transform .2s var(--ease)}
+.chem-banner:active{transform:scale(.99)}
+.chem-banner .mosaic{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:16px 16px 0}
+.chem-banner .mosaic img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:10px;background:#f4f1ea;box-shadow:0 0 0 1px rgba(255,255,255,.1)}
+.chem-banner .txt{padding:20px 20px 22px;display:grid;gap:6px}
+.chem-banner b{font-family:var(--serif);font-size:24px;letter-spacing:-.3px}
+.chem-banner .txt>span:not(.eyebrow){color:var(--tx2);font-size:14.5px}
+.chem-banner .go{display:inline-flex;align-items:center;gap:6px;color:#ff9a8a!important;font-weight:650;margin-top:4px}
+.chem-banner .go svg{width:16px;height:16px}
+@media (min-width:760px){.chem-banner{grid-template-columns:1.1fr 1fr;align-items:center}.chem-banner .mosaic{padding:18px}}
+/* ===== Química: tabla periódica, fichas de elementos y fundamentos ===== */
+.chem-banner{background:radial-gradient(120% 140% at 100% 0%,rgba(95,211,198,.22),transparent 60%),var(--g2)}
+.chem-banner .mosaic{grid-template-columns:repeat(4,1fr)}
+.chem-banner .mt{position:relative;display:grid;place-items:center;aspect-ratio:1;border-radius:10px;background:color-mix(in srgb,var(--fc) 16%,var(--g3));border:1px solid color-mix(in srgb,var(--fc) 45%,transparent)}
+.chem-banner .mt i{position:absolute;top:5px;left:7px;font-style:normal;font-size:10px;font-weight:700;color:var(--tx3)}
+.chem-banner .mt b{font-family:var(--serif);font-size:24px;color:var(--fc);letter-spacing:-.3px}
+.pt-legend button{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.pt-legend .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.pt-hint{font-size:12.5px;margin:10px 2px 6px}
+@media (min-width:1000px){.pt-hint{display:none}}
+.pt-wrap{overflow-x:auto;margin:0 -18px;padding:4px 18px 14px;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+@media (min-width:960px){.pt-wrap{margin:0;padding:4px 0 14px}}
+.pt{display:grid;grid-template-columns:repeat(18,minmax(46px,1fr));grid-template-rows:18px repeat(7,auto) 10px auto auto;gap:3px;min-width:860px}
+.pt-g{font-size:10px;font-weight:700;color:var(--tx3);text-align:center;align-self:end}
+.pt-c{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;aspect-ratio:1/1.12;border-radius:8px;background:color-mix(in srgb,var(--fc) 14%,var(--g2));border:1px solid color-mix(in srgb,var(--fc) 38%,transparent);transition:opacity .2s,transform .15s;min-width:0}
+.pt-c:hover,.pt-c:focus-visible{transform:scale(1.08);z-index:2;background:color-mix(in srgb,var(--fc) 26%,var(--g2))}
+.pt-c i{position:absolute;top:3px;left:5px;font-style:normal;font-size:9.5px;font-weight:700;color:var(--tx3)}
+.pt-c b{font-family:var(--serif);font-size:19px;line-height:1;color:var(--fc);margin-top:6px}
+.pt-c small{font-size:8.5px;color:var(--tx2);max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 3px;margin-top:3px}
+.pt.filtering .pt-c:not(.hit){opacity:.15}
+.pt-ph{display:grid;place-items:center;border-radius:8px;font-size:10px;font-weight:700;color:var(--fc);border:1px dashed color-mix(in srgb,var(--fc) 50%,transparent)}
+.pt-flab{align-self:center;font-size:10.5px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:var(--tx3);text-align:right;padding-right:6px}
+.pt-fdesc{margin:4px 0 2px;padding:12px 14px;border-radius:var(--r1);background:var(--g2);border-left:3px solid var(--fc);color:var(--tx2);font-size:14.5px}
+.pt-fdesc b{color:var(--tx)}
+.el-cover{display:grid;place-items:center;position:relative;background:color-mix(in srgb,var(--fc) 16%,var(--g3))!important;border:1px solid color-mix(in srgb,var(--fc) 40%,transparent)}
+.el-cover i{position:absolute;top:6px;left:8px;font-style:normal;font-size:12px;font-weight:700;color:var(--tx3)}
+.el-cover b{font-family:var(--serif);font-size:34px;color:var(--fc);letter-spacing:-.5px}
+.el-cover.ls b{font-family:var(--sans);font-size:26px;font-weight:800}
+.el-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (min-width:640px){.el-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.el-mini{display:flex;align-items:center;gap:10px;padding:8px;border-radius:14px;background:var(--g2);border:1px solid var(--line);min-width:0}
+.el-mini .t{position:relative;display:grid;place-items:center;width:44px;height:48px;flex:none;border-radius:9px;background:color-mix(in srgb,var(--fc) 16%,var(--g3));border:1px solid color-mix(in srgb,var(--fc) 40%,transparent)}
+.el-mini .t i{position:absolute;top:2px;left:4px;font-style:normal;font-size:9px;font-weight:700;color:var(--tx3)}
+.el-mini .t b{font-family:var(--serif);font-size:19px;color:var(--fc)}
+.el-mini>span:last-child{min-width:0}
+.el-mini>span:last-child b{display:block;font-size:14.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.el-mini small{display:block;font-size:12px;color:var(--tx3)}
+.fam-box{border-radius:var(--r2);background:var(--g2);border:1px solid var(--line);margin-bottom:8px;overflow:hidden}
+.fam-box summary{display:flex;align-items:center;gap:10px;padding:14px 16px;cursor:pointer;list-style:none}
+.fam-box summary::-webkit-details-marker{display:none}
+.fam-box summary .dot{width:10px;height:10px;border-radius:50%}
+.fam-box summary b{flex:1}
+.fam-box summary small{color:var(--tx3);font-weight:700}
+.fam-box[open] summary{border-bottom:1px solid var(--line)}
+.fam-box>p{padding:12px 16px 4px;color:var(--tx2);font-size:14.5px}
+.fam-box .el-grid{padding:10px 12px 14px}
+.el-hero{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center;margin-top:18px}
+.el-tile{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;width:132px;height:150px;border-radius:22px;background:radial-gradient(120% 120% at 0% 0%,color-mix(in srgb,var(--fc) 30%,transparent),transparent 70%),var(--g2);border:1px solid color-mix(in srgb,var(--fc) 50%,transparent);box-shadow:0 20px 50px -24px var(--fc)}
+.el-tile i{position:absolute;top:10px;left:14px;font-style:normal;font-size:15px;font-weight:800;color:var(--tx2)}
+.el-tile b{font-family:var(--serif);font-size:58px;line-height:1;color:var(--fc);letter-spacing:-1px}
+.el-tile span{font-size:13px;font-weight:650;margin-top:6px;color:var(--tx)}
+.el-tile small{font-size:11.5px;color:var(--tx3);margin-top:2px}
+.el-head h1{font-family:var(--serif);font-size:clamp(32px,7vw,46px);line-height:1.05;letter-spacing:-.6px;margin:10px 0 8px}
+.el-head .sub{color:var(--tx2);font-size:16.5px;line-height:1.5}
+@media (max-width:520px){.el-hero{grid-template-columns:1fr}.el-tile{width:118px;height:132px}.el-tile b{font-size:50px}}
+.el-nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:26px 0 8px}
+.el-nav a{display:grid;gap:3px;padding:14px 16px;border-radius:var(--r2);background:var(--g2);border:1px solid var(--line)}
+.el-nav a.r{text-align:right}
+.el-nav small{font-size:12px;color:var(--tx3);font-weight:700}
+.el-nav b{font-size:15px}
+.elem .prose h2{margin-top:1.4em}
+.prose .kvs,.prose .kv{font-family:var(--sans)}
+.el-tile b{margin-top:12px}
+.kv b sup{font-size:.7em}

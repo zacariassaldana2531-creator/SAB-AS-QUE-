@@ -32,3 +32,8 @@ HTML + CSS + JavaScript puro. Sin dependencias ni compilación.
 - **world-countries (mledoze)**: idiomas oficiales, monedas y regiones, contrastado con Wikidata.
 - **Wikipedia en español**: resumen, origen del nombre e historia (extractos, CC BY-SA 4.0).
 - Correcciones manuales: capitales múltiples o disputadas, monedas actualizadas (Bulgaria → euro, Sierra Leona → SLE, Cuba, Zimbabue) e idiomas (Uruguay, Israel).
+
+## Química (chemistry.js)
+Tabla periódica con los 118 elementos (qué es, usos, datos, descubrimiento y origen del nombre) y 13 temas de fundamentos.
+Textos propios verificados contra PubChem (NIH: Jefferson Lab, Los Álamos, CIAAW-IUPAC) y OpenStax Chemistry 2e (CC BY 4.0).
+Se carga bajo demanda en `#/quimica`. Páginas estáticas en `/quimica/<elemento>/` y `/quimica/tema/<tema>/` (`node tools/build-pages.js`).

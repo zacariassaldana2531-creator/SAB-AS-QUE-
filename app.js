@@ -251,7 +251,7 @@ const catChip = item => { const c = ContentRepo.cat(item.cat); return c ? `<span
 const lvlBars = n => `<span class="lvl" title="Nivel ${LEVEL[n] || ''}">${[1, 2, 3].map(k => `<b class="${k <= n ? 'on' : ''}"></b>`).join('')}</span>`;
 const metaLine = (i, extra = '') => `<div class="meta"><span>${ICON.clock}${i.read} min</span><span>${lvlBars(i.level || 1)} ${LEVEL[i.level || 1]}</span>${extra}</div>`;
 const kindColor = t => t === 'mito' ? '#ffb08a' : t === 'curiosidad' ? 'var(--ac2)' : 'var(--tx3)';
-const href = i => i.type === 'articulo' ? `#/articulo/${i.id}` : i.type === 'pais' ? `#/pais/${i.iso.toLowerCase()}` : i.type === 'anat' ? `#/anatomia/${i.slug}` : `#/dato/${i.id}`;
+const href = i => i.type === 'articulo' ? `#/articulo/${i.id}` : i.type === 'pais' ? `#/pais/${i.iso.toLowerCase()}` : i.type === 'anat' ? `#/anatomia/${i.slug}` : i.type === 'elem' ? `#/quimica/elemento/${i.slug}` : i.type === 'quim' ? `#/quimica/tema/${i.slug}` : `#/dato/${i.id}`;
 
 /* Tarjeta de descubrimiento rápido: muestra la afirmación y abre la explicación en una hoja */
 const quickCard = i => {
@@ -295,15 +295,15 @@ const firstSrc = x => x && x.sources && x.sources[0];
 const refMarks = srcs => (srcs && srcs.length) ? `<p class="refs">Fuentes de este texto: ${srcs.map((s, k) => `<button class="ref" data-act="toref" data-n="${k + 1}" aria-label="Ir a la fuente ${k + 1}">[${k + 1}]</button>`).join(' ')}</p>` : '';
 /* Dirección pública: páginas estáticas indexables con vista previa al compartir (las genera tools/build-pages.js) */
 const SITE = /vercel\.app$|sabiasque|lumbrario/i.test(location.hostname) ? location.origin : 'https://cultura-khaki.vercel.app';
-const publicUrl = i => i.type === 'pais' ? `${SITE}/pais/${i.iso.toLowerCase()}/` : i.type === 'anat' ? `${SITE}/anatomia/${i.slug}/` : `${SITE}/${i.type === 'articulo' ? 'articulo' : 'dato'}/${i.id}/`;
+const publicUrl = i => i.type === 'pais' ? `${SITE}/pais/${i.iso.toLowerCase()}/` : i.type === 'anat' ? `${SITE}/anatomia/${i.slug}/` : i.type === 'elem' ? `${SITE}/quimica/${i.slug}/` : i.type === 'quim' ? `${SITE}/quimica/tema/${i.slug}/` : `${SITE}/${i.type === 'articulo' ? 'articulo' : 'dato'}/${i.id}/`;
 const credit = (x, cls = 'credit') => x && x.imgCredit ? `<figcaption class="${cls}">Imagen: ${esc(x.imgCredit.artist)} · <a href="${esc(x.imgCredit.page)}" target="_blank" rel="noopener noreferrer">${esc(x.imgCredit.license)} · Wikimedia Commons</a></figcaption>` : '';
 const MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
 const LAUNCH = Date.UTC(2026, 10, 25);
 const edition = () => { const d = new Date(); return { n: Math.max(1, Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - LAUNCH) / 864e5) + 1), date: d.toLocaleDateString('es-DO', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) }; };
 const apa = i => { const d = new Date((i.date || '2026-11-25') + 'T12:00:00'); return `Redacción Lumbrario (${d.getFullYear()}, ${d.getDate()} de ${MONTHS[d.getMonth()]}). ${i.title}. Lumbrario ${publicUrl(i)}`; };
-const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || []), s.example && 'Ejemplo. ' + s.example]), ...(i.timeline || []).map(e => `${e.y}: ${e.t}`), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, i.body, i.lead, i.name_origin, i.history, i.where && 'Dónde está. ' + i.where, i.what !== i.desc && i.what, ...(i.functions || []), ...(i.curious || [])].filter(Boolean).join('. ').replace(/\.\./g, '.');
+const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || []), s.example && 'Ejemplo. ' + s.example]), ...(i.timeline || []).map(e => `${e.y}: ${e.t}`), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, i.body, i.lead, i.name_origin, i.history, i.where && 'Dónde está. ' + i.where, i.what !== i.desc && i.what, ...(i.functions || []), ...(Array.isArray(i.curious) ? i.curious : [i.curious]), i.uses && 'Para qué sirve. ' + i.uses.join('. '), i.disc, i.origin].filter(Boolean).join('. ').replace(/\.\./g, '.');
 const toolBtns = (id, extra = '') => `<div class="art-actions">${favBtn(id)}<button class="btn sm" data-act="share" data-id="${id}">${ICON.share}<span>Compartir</span></button><button class="btn sm" data-act="card" data-id="${id}">${ICON.image}<span>Imagen</span></button><button class="btn sm" data-act="listen" data-id="${id}">${ICON.sound}<span>Escuchar</span></button><button class="btn sm" data-act="cite" data-id="${id}">${ICON.quote}<span>Citar</span></button>${extra}</div>`;
-const getAny = id => String(id).startsWith('pais-') ? Countries.get(id) : String(id).startsWith('anat-') ? Anatomy.get(id) : ContentRepo.get(id);
+const getAny = id => String(id).startsWith('pais-') ? Countries.get(id) : String(id).startsWith('anat-') ? Anatomy.get(id) : /^(elem|quim)-/.test(String(id)) ? Chem.get(id) : ContentRepo.get(id);
 
 function toast(msg) {
   const t = $('#toast'); t.textContent = msg; t.classList.add('on');
@@ -431,7 +431,7 @@ Views.home = () => {
 
   <div class="sec"><div><h2>Explorar categorías</h2><p>${ContentRepo.categories().length} áreas del conocimiento</p></div><a class="more" href="#/explorar">Ver todo</a></div>
   ${catsGrid()}
-  <div class="banners">${anatomyBanner()}${countriesBanner()}</div>
+  <div class="banners">${chemBanner()}${anatomyBanner()}${countriesBanner()}</div>
 
   ${series.length ? `<div class="sec"><div><h2>Dosieres</h2><p>Series temáticas para leer de principio a fin</p></div><a class="more" href="#/dosieres">Ver todos</a></div>
   <div class="rail">${series.map(seriesCard).join('')}</div>` : ''}
@@ -469,7 +469,7 @@ Views.explore = (p, q) => {
   <a class="searchbar" href="#/buscar" style="margin-bottom:14px">${ICON.search}<span>Buscar en todo el catálogo…</span></a>
   ${typeSeg(tipo, '#/explorar')}
   ${list ? `<div class="sec"><div><h2>${TYPE[tipo]}${tipo === 'mito' ? '' : 's'}</h2><p>${plural(list.length, 'resultado', 'resultados')}</p></div></div><div class="list two">${list.map(rowCard).join('')}</div>`
-      : `<div class="banners" style="margin-top:16px">${anatomyBanner()}${countriesBanner()}</div><div style="margin-top:12px">${catsGrid()}</div>`}`;
+      : `<div class="banners" style="margin-top:16px">${chemBanner()}${anatomyBanner()}${countriesBanner()}</div><div style="margin-top:12px">${catsGrid()}</div>`}`;
 };
 
 Views.category = ([id], q) => {
@@ -481,7 +481,7 @@ Views.category = ([id], q) => {
   <button class="back" data-act="back">${ICON.back} Volver</button>
   <header class="cat-hero${c.img ? ' has-img' : ''}" style="--cc:${c.color}">${c.img ? `<img class="cat-bg" src="${esc(c.img)}" alt="" decoding="async" referrerpolicy="no-referrer">` : ''}<div class="gl">${c.icon}</div><h1 class="h1">${esc(c.name)}</h1><p>${esc(c.desc)}</p></header>
   ${c.imgCredit ? credit(c, 'credit sm') : ''}
-  ${id === 'medicina' ? medNote() : ''}${id === 'cuerpo' || id === 'medicina' ? `<div style="margin:12px 0">${anatomyBanner()}</div>` : ''}${id === 'lengua' ? `<a class="dict-banner" href="#/diccionario"><span class="gl">📖</span><span><b>Diccionario</b><small>Busca una palabra o selecciónala mientras lees para ver su significado en contexto.</small></span><span class="arr">${ICON.arrow}</span></a>` : ''}
+  ${id === 'medicina' ? medNote() : ''}${id === 'cuerpo' || id === 'medicina' ? `<div style="margin:12px 0">${anatomyBanner()}</div>` : ''}${id === 'ciencia' ? `<div style="margin:12px 0">${chemBanner()}</div>` : ''}${id === 'lengua' ? `<a class="dict-banner" href="#/diccionario"><span class="gl">📖</span><span><b>Diccionario</b><small>Busca una palabra o selecciónala mientras lees para ver su significado en contexto.</small></span><span class="arr">${ICON.arrow}</span></a>` : ''}
   ${typeSeg(tipo, '#/categoria/' + id)}
   <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(rowCard).join('')}</div>`
       : emptyState(c.icon, 'Nada por aquí todavía', 'No hay contenidos de este tipo en esta categoría. Prueba con otro filtro.', `<a class="btn" href="#/categoria/${id}">Ver todo en ${esc(c.name)}</a>`)}</div>`;
@@ -506,10 +506,11 @@ function searchResults(term) {
   const r = ContentRepo.search(term);
   const pc = Countries.search(term).slice(0, 8);
   const an = Anatomy.search(term).slice(0, 6);
-  const pcBlock = (an.length ? `<div class="sec" style="margin-top:4px"><div><h2>Atlas del cuerpo</h2></div></div><div class="list two" style="margin-bottom:8px">${an.map(anatRow).join('')}</div>` : '') + (pc.length ? `<div class="sec" style="margin-top:4px"><div><h2>Países</h2></div></div><div class="list two" style="margin-bottom:8px">${pc.map(countryRow).join('')}</div>` : '');
-  if (!r.length && (pc.length || an.length)) return pcBlock;
+  const ch = Chem.search(term), ce = ch.els.slice(0, 6), cl = ch.ls.slice(0, 4);
+  const pcBlock = (ce.length || cl.length ? `<div class="sec" style="margin-top:4px"><div><h2>Química</h2></div></div><div class="list two" style="margin-bottom:8px">${ce.map(elRow).join('')}${cl.map(lessonRow).join('')}</div>` : '') + (an.length ? `<div class="sec" style="margin-top:4px"><div><h2>Atlas del cuerpo</h2></div></div><div class="list two" style="margin-bottom:8px">${an.map(anatRow).join('')}</div>` : '') + (pc.length ? `<div class="sec" style="margin-top:4px"><div><h2>Países</h2></div></div><div class="list two" style="margin-bottom:8px">${pc.map(countryRow).join('')}</div>` : '');
+  if (!r.length && (pc.length || an.length || ce.length || cl.length)) return pcBlock;
   if (!r.length) return emptyState('🔍', 'Sin resultados', `No encontramos nada para «${esc(term)}». Prueba con otra palabra o explora por categorías.`, '<a class="btn" href="#/explorar">Explorar categorías</a>');
-  return `${pcBlock}<div class="faint" style="font-size:13px;margin-bottom:10px">${plural(r.length, 'resultado', 'resultados')}${pc.length || an.length ? ' en artículos y curiosidades' : ''}</div><div class="list two">${r.map(rowCard).join('')}</div>`;
+  return `${pcBlock}<div class="faint" style="font-size:13px;margin-bottom:10px">${plural(r.length, 'resultado', 'resultados')}${pc.length || an.length || ce.length || cl.length ? ' en artículos y curiosidades' : ''}</div><div class="list two">${r.map(rowCard).join('')}</div>`;
 }
 
 /* Bloques enriquecidos del artículo: apartados con imagen, ejemplo y fuente directa; cronología; conceptos relacionados */
@@ -587,12 +588,13 @@ Views.saved = (p, q) => {
   const tab = q.get('tab') || 'todo';
   const ids = UserRepo.get().favs;
   if (ids.some(x => x.startsWith('pais-')) && !Countries.data) return needCountries();
+  if (ids.some(x => /^(elem|quim)-/.test(x)) && !Chem.data) return needChem();
   const favs = ids.map(getAny).filter(Boolean);
-  const list = favs.filter(i => tab === 'todo' || (tab === 'articulo' ? i.type === 'articulo' : tab === 'paises' ? i.type === 'pais' : tab === 'cuerpo' ? i.type === 'anat' : !['articulo', 'pais', 'anat'].includes(i.type)));
+  const list = favs.filter(i => tab === 'todo' || (tab === 'articulo' ? i.type === 'articulo' : tab === 'paises' ? i.type === 'pais' : tab === 'cuerpo' ? i.type === 'anat' : tab === 'quimica' ? ['elem', 'quim'].includes(i.type) : !['articulo', 'pais', 'anat', 'elem', 'quim'].includes(i.type)));
   return `
   <div class="sec" style="margin-top:8px"><div><h1 class="h1">Guardados</h1><p>Tu biblioteca personal${favs.length ? ' · ' + plural(favs.length, 'elemento', 'elementos') : ''}</p></div></div>
-  ${favs.length ? `<div class="seg">${[['todo', 'Todo'], ['articulo', 'Artículos'], ['datos', 'Curiosidades y mitos'], ['paises', 'Países'], ['cuerpo', 'Cuerpo humano']].map(([v, l]) => `<button class="${tab === v ? 'on' : ''}" data-act="nav" data-to="#/guardados${v === 'todo' ? '' : '?tab=' + v}">${l}</button>`).join('')}</div>` : ''}
-  <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(i => i.type === 'pais' ? countryRow(i) : i.type === 'anat' ? anatRow(i) : rowCard(i)).join('')}</div>`
+  ${favs.length ? `<div class="seg">${[['todo', 'Todo'], ['articulo', 'Artículos'], ['datos', 'Curiosidades y mitos'], ['paises', 'Países'], ['cuerpo', 'Cuerpo humano'], ['quimica', 'Química']].map(([v, l]) => `<button class="${tab === v ? 'on' : ''}" data-act="nav" data-to="#/guardados${v === 'todo' ? '' : '?tab=' + v}">${l}</button>`).join('')}</div>` : ''}
+  <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(i => i.type === 'pais' ? countryRow(i) : i.type === 'anat' ? anatRow(i) : i.type === 'elem' ? elRow(i) : i.type === 'quim' ? lessonRow(i) : rowCard(i)).join('')}</div>`
       : favs.length ? emptyState('🗂️', 'Nada en esta pestaña', 'Lo que guardes de este tipo aparecerá aquí.')
         : emptyState('🔖', 'Tu biblioteca está vacía', 'Toca «Guardar» en cualquier artículo o curiosidad y lo tendrás aquí siempre, incluso sin conexión.', '<button class="btn ac" data-act="surprise">' + ICON.shuffle + ' Descubrir algo ahora</button>')}</div>`;
 };
@@ -604,7 +606,7 @@ Views.quiz = () => {
   if (Quiz.list.length && Quiz.i >= Quiz.list.length) return quizResult();
   const best = UserRepo.get().quiz.best;
   const levels = [[0, '🎲', 'Mixto', 'Todos los niveles'], [1, '🌱', 'Fácil', 'Cultura general básica'], [2, '🔥', 'Medio', 'Para curiosos'], [3, '🧠', 'Difícil', 'Solo para expertos']];
-  const avail = Quiz.cat === 'paises' ? 10 : Services.buildQuiz(Quiz.level, Quiz.cat, 999).length;
+  const avail = Quiz.cat === 'paises' || Quiz.cat === 'quimica' ? 10 : Services.buildQuiz(Quiz.level, Quiz.cat, 999).length;
   return `<div class="quiz-wrap">
     <div class="sec" style="margin-top:8px"><div><h1 class="h1">Quiz</h1><p>${plural(ContentRepo.questions().length, 'pregunta', 'preguntas')} con explicación y fuente. Las que no has visto salen primero.</p></div></div>
     <div class="eyebrow">Dificultad</div>
@@ -613,6 +615,7 @@ Views.quiz = () => {
     <div class="seg" style="flex-wrap:wrap;margin-top:10px">
       <button class="${Quiz.cat === 'all' ? 'on' : ''}" data-act="q-cat" data-v="all">Todos</button>
       <button class="${Quiz.cat === 'paises' ? 'on' : ''}" data-act="q-cat" data-v="paises">🌎 Banderas y capitales</button>
+      <button class="${Quiz.cat === 'quimica' ? 'on' : ''}" data-act="q-cat" data-v="quimica">⚗️ Tabla periódica</button>
       ${ContentRepo.categories().filter(c => ContentRepo.questions().some(q => q.cat === c.id)).map(c => `<button class="${Quiz.cat === c.id ? 'on' : ''}" data-act="q-cat" data-v="${c.id}">${c.icon} ${esc(c.name)}</button>`).join('')}
     </div>
     <div style="margin-top:22px">${avail ? `<button class="btn ac block" data-act="q-start">Empezar · ${Math.min(10, avail)} preguntas</button>`
@@ -623,7 +626,7 @@ function quizQuestion() {
   const q = Quiz.list[Quiz.i], n = Quiz.list.length;
   return `<div class="quiz-wrap">
     <div class="qbar"><button class="icon-btn" data-act="q-quit" aria-label="Salir del quiz">${ICON.close}</button><div class="track"><i style="width:${Quiz.i / n * 100}%"></i></div><span>${Quiz.i + 1}/${n}</span></div>
-    <div class="card qcard">${q.cat === 'paises' ? '<span class="chip" style="color:var(--ac2)"><span class="dot"></span>Países</span>' : catChip(q)} <span class="chip">${LEVEL[q.level]}</span><h2>${esc(q.q)}</h2>${q.img ? `<img class="qflag" src="${q.img}" alt="Bandera para adivinar">` : ''}</div>
+    <div class="card qcard">${q.cat === 'paises' ? '<span class="chip" style="color:var(--ac2)"><span class="dot"></span>Países</span>' : q.cat === 'quimica' ? `<span class="chip" style="color:${CHEM_COLOR}"><span class="dot"></span>Química</span>` : catChip(q)} <span class="chip">${LEVEL[q.level]}</span><h2>${esc(q.q)}</h2>${q.img ? `<img class="qflag" src="${q.img}" alt="Bandera para adivinar">` : ''}</div>
     <div id="answers">${q.opts.map((o, k) => `<button class="ans" data-act="q-ans" data-i="${k}"><span class="k">${'ABCD'[k]}</span><span>${esc(o.t)}</span></button>`).join('')}</div>
     <div id="fb"></div>
   </div>`;
@@ -639,11 +642,11 @@ function quizAnswer(k) {
     if (q.opts[j].ok) b.classList.add('ok'); else if (j === k) b.classList.add('bad'); else b.classList.add('dim');
   });
   const ref = q.ref && ContentRepo.get(q.ref);
-  const refSrc = firstSrc(ref) || (q.href && q.href.startsWith('#/anatomia/') && firstSrc(Anatomy.get(q.href.split('/').pop()))) || (q.cat === 'paises' && Countries.get(q.id.slice(2)) ? { org: 'Wikidata', title: Countries.get(q.id.slice(2)).name, u: Countries.get(q.id.slice(2)).wikidata } : null);
+  const refSrc = q.src || firstSrc(ref) || (q.href && q.href.startsWith('#/anatomia/') && firstSrc(Anatomy.get(q.href.split('/').pop()))) || (q.cat === 'paises' && Countries.get(q.id.slice(2)) ? { org: 'Wikidata', title: Countries.get(q.id.slice(2)).name, u: Countries.get(q.id.slice(2)).wikidata } : null);
   const last = Quiz.i === Quiz.list.length - 1;
   $('#fb').innerHTML = `<div class="feedback"><b class="${ok ? 'ok' : 'bad'}">${ok ? '¡Correcto! +' + 10 * q.level + ' XP' : 'No era esa'}</b>${ok ? '' : `<p class="fb-ans">Respuesta correcta: <b>${esc(q.opts.find(o => o.ok).t)}</b></p>`}<p>${esc(q.exp)}</p>${refSrc ? `<p class="fb-src">Fuente: <a href="${esc(refSrc.u)}" target="_blank" rel="noopener noreferrer">${esc(refSrc.org ? refSrc.org + ' — ' : '')}${esc(refSrc.title || refSrc.t)}</a></p>` : ''}
     <div class="row"><button class="btn ac" data-act="q-next">${last ? 'Ver resultado' : 'Siguiente'} ${ICON.arrow}</button>
-    ${q.href ? `<a class="btn sm" href="${q.href}">${q.href.startsWith('#/anatomia') ? 'Ver en el atlas' : 'Ver país'}</a>` : ref ? `<a class="btn sm" href="${href(ref)}" ${ref.type !== 'articulo' ? `data-act="open" data-id="${ref.id}"` : ''}>Saber más</a>` : ''}</div></div>`;
+    ${q.href ? `<a class="btn sm" href="${q.href}">${q.href.startsWith('#/anatomia') ? 'Ver en el atlas' : q.href.startsWith('#/quimica') ? 'Ver el elemento' : 'Ver país'}</a>` : ref ? `<a class="btn sm" href="${href(ref)}" ${ref.type !== 'articulo' ? `data-act="open" data-id="${ref.id}"` : ''}>Saber más</a>` : ''}</div></div>`;
   $('#fb').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 function quizResult() {
@@ -663,7 +666,8 @@ function quizResult() {
 }
 function quizStart() {
   if (Quiz.cat === 'paises' && !Countries.data) { $('#view').innerHTML = loadingView('Preparando banderas…'); Countries.load().then(quizStart).catch(() => { toast('No se pudieron cargar los países'); render(); }); return; }
-  Object.assign(Quiz, { list: Quiz.cat === 'paises' ? Countries.buildQuiz(Quiz.level, 10) : Services.buildQuiz(Quiz.level, Quiz.cat, 10), i: 0, correct: 0, xp: 0, wrong: [], answered: false, saved: false, isBest: false });
+  if (Quiz.cat === 'quimica' && !Chem.data) { $('#view').innerHTML = loadingView('Preparando la tabla periódica…'); Chem.load().then(quizStart).catch(() => { toast('No se pudo cargar la química'); render(); }); return; }
+  Object.assign(Quiz, { list: Quiz.cat === 'paises' ? Countries.buildQuiz(Quiz.level, 10) : Quiz.cat === 'quimica' ? Chem.buildQuiz(Quiz.level, 10) : Services.buildQuiz(Quiz.level, Quiz.cat, 10), i: 0, correct: 0, xp: 0, wrong: [], answered: false, saved: false, isBest: false });
   render();
 }
 
@@ -694,6 +698,7 @@ Views.profile = () => {
     <div class="stat"><b>${u.quiz.played}</b><span>Quizzes jugados</span></div>
     <div class="stat"><b>${Object.keys(u.seen).filter(k => k.startsWith('pais-')).length}<span class="faint" style="font-size:16px">/195</span></b><span>Países explorados</span></div>
     <div class="stat"><b>${Anatomy.all().filter(x => u.seen[x.id]).length}<span class="faint" style="font-size:16px">/${Anatomy.all().length}</span></b><span>Atlas del cuerpo</span></div>
+    <div class="stat"><b>${Object.keys(u.seen).filter(k => k.startsWith('elem-')).length}<span class="faint" style="font-size:16px">/118</span></b><span>Elementos químicos</span></div>
     <div class="stat"><b>${acc}%</b><span>Acierto en quiz</span></div>
   </div>
   <div class="sec"><div><h2>Récords por nivel</h2></div></div>
@@ -919,6 +924,193 @@ Views.anatItem = ([slug]) => {
   </article>`;
 };
 
+/* ================= QUÍMICA: TABLA PERIÓDICA Y FUNDAMENTOS =================
+ * Datos: chemistry.js (window.SQ_CHEM), cargado bajo demanda: 118 elementos y fundamentos de química, con fuentes verificadas.
+ * Identificadores públicos: «elem-<slug>» (elementos) y «quim-<tema>» (fundamentos). */
+const CHEM_COLOR = '#5fd3c6';
+const CHEM_COMMON = new Set([1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 26, 29, 30, 47, 50, 53, 78, 79, 80, 82, 92]);
+const Chem = {
+  data: null, map: {}, lessons: [], lmap: {}, fams: {}, famList: [], loading: null,
+  load() {
+    if (this.data) return Promise.resolve(this.data);
+    if (!this.loading) this.loading = new Promise((res, rej) => {
+      const s = document.createElement('script'); s.src = 'chemistry.js'; s.async = true;
+      s.onload = () => { this.init(window.SQ_CHEM); res(this.data); };
+      s.onerror = () => { this.loading = null; rej(new Error('No se pudo cargar')); };
+      document.head.appendChild(s);
+    });
+    return this.loading;
+  },
+  init(D) {
+    D = D || { elements: [], lessons: [], families: [] };
+    const okv = x => !x.verif || x.verif.status === 'verificado';
+    this.famList = D.families; this.fams = Object.fromEntries(D.families.map(f => [f.id, f]));
+    this.data = D.elements.filter(okv).map(e => ({ ...e, id: 'elem-' + e.slug, type: 'elem', title: `${e.name} (${e.sym})`, desc: e.what, cat: 'ciencia',
+      _s: norm([e.name, e.sym, e.en, (this.fams[e.fam] || {}).name, e.what, ...e.uses].join(' ')) }));
+    this.map = Object.fromEntries(this.data.map(e => [e.slug, e]));
+    this.lessons = D.lessons.filter(okv).map((l, k) => {
+      const sections = l.sections.map((s, j, a) => ({ h: s.h, p: [s.p], example: j === a.length - 1 ? l.example || '' : '' }));
+      return { ...l, n: k + 1, id: 'quim-' + l.id, slug: l.id, type: 'quim', subtitle: l.sub, desc: l.sub, cat: 'ciencia', sections, _s: norm([l.title, l.sub, l.intro, ...l.sections.flatMap(s => [s.h, s.p])].join(' ')) };
+    });
+    this.lmap = Object.fromEntries(this.lessons.map(l => [l.slug, l]));
+  },
+  get(id) { id = String(id || ''); if (!this.data) return null; return id.startsWith('quim-') ? this.lmap[id.slice(5)] : this.map[id.replace(/^elem-/, '')]; },
+  fam(e) { return this.fams[e.fam] || { name: '', short: '', color: CHEM_COLOR }; },
+  search(q) {
+    if (!this.data) return { els: [], ls: [] };
+    const raw = String(q || '').trim(), t = norm(raw).split(/\s+/).filter(x => x.length > 1);
+    const sym = this.data.filter(e => e.sym.toLowerCase() === raw.toLowerCase());
+    const els = t.length ? this.data.filter(e => t.every(x => e._s.includes(x))).sort((a, b) => (norm(a.name).startsWith(t[0]) ? -1 : 0) - (norm(b.name).startsWith(t[0]) ? -1 : 0)) : [];
+    return { els: [...new Set([...sym, ...els])], ls: t.length ? this.lessons.filter(l => t.every(x => l._s.includes(x))) : [] };
+  },
+  lvOf: e => CHEM_COMMON.has(e.z) ? 1 : e.z <= 86 ? 2 : 3,
+  buildQuiz(level, n = 10) {
+    const seen = UserRepo.get().quiz.qSeen;
+    let pool = this.data.filter(e => e.z <= 103 && (!level || this.lvOf(e) === level));
+    pool = [...shuffle(pool.filter(e => !Object.keys(seen).some(k => k.startsWith('e-' + e.slug + '-')))), ...shuffle(pool)];
+    pool = [...new Set(pool)].slice(0, n);
+    const pick = (list, ok, key) => { const out = []; for (const x of shuffle(list)) { const v = key(x); if (v && v !== ok && !out.includes(v)) out.push(v); if (out.length === 3) break; } return out; };
+    return pool.map(e => {
+      const f = this.fam(e), lv = level || this.lvOf(e);
+      const kinds = ['sym', 'name', 'fam'];
+      if (lv > 1) kinds.push('z');
+      if (!/previsto/.test(e.state) && e.state) kinds.push('state');
+      const kind = kinds[Math.floor(Math.random() * kinds.length)];
+      const near = this.data.filter(x => x !== e && Math.abs(x.z - e.z) <= 20 && x.z <= 103);
+      let q, ok, o;
+      if (kind === 'sym') { q = `¿Cuál es el símbolo químico del ${e.name.toLowerCase()}?`; ok = e.sym; o = [ok, ...pick(near.filter(x => x.sym[0] === e.sym[0]).concat(near), ok, x => x.sym)]; }
+      else if (kind === 'name') { q = `¿Qué elemento tiene el símbolo ${e.sym}?`; ok = e.name; o = [ok, ...pick(near, ok, x => x.name)]; }
+      else if (kind === 'z') { q = `¿Qué elemento tiene el número atómico ${e.z}?`; ok = e.name; o = [ok, ...pick(this.data.filter(x => x !== e && Math.abs(x.z - e.z) <= 4), ok, x => x.name)]; }
+      else if (kind === 'fam') { q = `¿A qué familia de la tabla periódica pertenece el ${e.name.toLowerCase()}?`; ok = f.name; o = [ok, ...pick(this.famList, ok, x => x.name)]; }
+      else { q = `¿En qué estado se encuentra el ${e.name.toLowerCase()} a temperatura ambiente?`; ok = e.state; o = [ok, ...['Sólido', 'Líquido', 'Gas'].filter(s => s !== ok)]; }
+      o = shuffle(o.slice(0, 4));
+      const exp = `${e.name} (${e.sym}) tiene el número atómico ${e.z}, pertenece a la familia de los ${f.name.toLowerCase()} y a temperatura ambiente es ${(e.state || '').toLowerCase().replace(' (previsto)', ' (según las predicciones)')}. ${e.uses[0] && !/^Solo se usa/.test(e.uses[0]) ? 'Un uso: ' + e.uses[0].charAt(0).toLowerCase() + e.uses[0].slice(1) + '.' : ''}`;
+      return { id: `e-${e.slug}-${kind}`, cat: 'quimica', level: lv, q, img: null, o, a: o.indexOf(ok), opts: o.map(t => ({ t, ok: t === ok })), exp, href: '#/quimica/elemento/' + e.slug, src: e.sources[0] };
+    });
+  }
+};
+const needChem = () => { Chem.load().then(() => render(true)).catch(() => toast('No se pudo cargar la química. Revisa tu conexión.')); return loadingView('Cargando la tabla periódica…'); };
+const fmtDec = (v, d = 2) => v == null || v === '' ? '—' : Number(v).toLocaleString('es-DO', { maximumFractionDigits: d });
+const kToC = k => k == null ? null : Math.round((k - 273.15) * 10) / 10;
+const elTile = (e, cls = 'pt-c') => `<a class="${cls}" href="#/quimica/elemento/${e.slug}" style="${e.col ? `grid-column:${e.col};grid-row:${e.period + 1}` : `grid-column:${e.fcol};grid-row:${e.period === 6 ? 10 : 11}`};--fc:${Chem.fam(e).color}" data-f="${e.fam}" data-s="${esc(norm(e.name + ' ' + e.sym))}" aria-label="${esc(e.name)}, número atómico ${e.z}"><i>${e.z}</i><b>${e.sym}</b><small>${esc(e.name)}</small></a>`;
+const elMini = e => `<a class="el-mini" href="#/quimica/elemento/${e.slug}" style="--fc:${Chem.fam(e).color}"><span class="t"><i>${e.z}</i><b>${e.sym}</b></span><span><b>${esc(e.name)}</b><small>${esc(Chem.fam(e).short)}</small></span></a>`;
+const elRow = e => `<a class="rowc" href="#/quimica/elemento/${e.slug}"><div class="cover el-cover" style="--fc:${Chem.fam(e).color}"><i>${e.z}</i><b>${e.sym}</b></div><div><span class="kind" style="color:${Chem.fam(e).color}">Elemento · ${esc(Chem.fam(e).short)}${UserRepo.isSeen(e.id) ? ' · <span style="color:var(--ok)">✓ visto</span>' : ''}</span><h4>${esc(e.name)}</h4><div class="meta"><span>${esc(e.what.length > 95 ? e.what.slice(0, 92).replace(/\s+\S*$/, '') + '…' : e.what)}</span></div></div></a>`;
+const lessonRow = l => `<a class="rowc lesson-row" href="#/quimica/tema/${l.slug}"><div class="cover el-cover ls" style="--fc:${CHEM_COLOR}"><b>${String(l.n).padStart(2, '0')}</b></div><div><span class="kind" style="color:${CHEM_COLOR}">Fundamentos de química${UserRepo.isSeen(l.id) ? ' · <span style="color:var(--ok)">✓ visto</span>' : ''}</span><h4>${esc(l.title)}</h4><div class="meta"><span>${esc(l.sub)}</span></div></div></a>`;
+const chemBanner = () => {
+  const demo = [['H', 1, '#6aa5ff'], ['C', 6, '#6aa5ff'], ['O', 8, '#6aa5ff'], ['Na', 11, '#ff7a6b'], ['Fe', 26, '#e0bd5e'], ['Au', 79, '#e0bd5e'], ['Ne', 10, '#ff7ac2'], ['U', 92, '#45cdd6']];
+  return `<a class="chem-banner" href="#/quimica">
+  <div class="mosaic">${demo.map(([s, z, c]) => `<span class="mt" style="--fc:${c}"><i>${z}</i><b>${s}</b></span>`).join('')}</div>
+  <div class="txt"><span class="eyebrow" style="color:${CHEM_COLOR}">Nuevo · Química</span><b>La tabla periódica</b><span>Los 118 elementos: qué es cada uno, para qué sirve y en qué se usa. Y los fundamentos de la química, paso a paso.</span><span class="go" style="color:${CHEM_COLOR}!important">Abrir la tabla ${ICON.arrow}</span></div></a>`;
+};
+
+Views.chem = (p, q) => {
+  if (!Chem.data) return needChem();
+  const els = Chem.data, seen = els.filter(e => UserRepo.isSeen(e.id)).length;
+  const f = q.get('familia') || '';
+  return `
+  <button class="back" data-act="back">${ICON.back} Volver</button>
+  <header class="cat-hero" style="--cc:${CHEM_COLOR}"><div class="gl">⚗️</div><h1 class="h1">Química</h1><p>La tabla periódica completa: los 118 elementos, qué es cada uno, para qué sirve y en qué se usa, con sus fuentes. Y los fundamentos para entenderla.${seen ? ` Has explorado ${seen} de 118 elementos.` : ''}</p></header>
+  <div class="sec"><div><h2>La tabla periódica</h2><p>Toca un elemento para ver su ficha. Filtra por familia o busca por nombre o símbolo.</p></div></div>
+  <label class="searchbar" for="eq" style="margin-bottom:12px">${ICON.search}<input id="eq" type="search" autocomplete="off" placeholder="Busca un elemento: oro, Fe, neón…"></label>
+  <div class="seg pt-legend" role="group" aria-label="Familias">${[['', 'Todas', 'var(--tx2)'], ...Chem.famList.map(x => [x.id, x.name, x.color])].map(([v, l, c]) => `<button class="${f === v ? 'on' : ''}" data-act="pt-fam" data-v="${v}" style="--fc:${c}"><span class="dot" style="background:${c}"></span>${esc(l)}</button>`).join('')}</div>
+  <p class="faint pt-hint">Desliza la tabla hacia los lados para verla completa →</p>
+  <div class="pt-wrap" role="region" aria-label="Tabla periódica de los elementos" tabindex="0"><div class="pt${f ? ' filtering' : ''}" id="ptable" data-f="${f}">
+    ${Array.from({ length: 18 }, (_, k) => `<span class="pt-g" style="grid-column:${k + 1};grid-row:1">${k + 1}</span>`).join('')}
+    ${els.map(e => elTile(e)).join('')}
+    <span class="pt-ph" style="grid-column:3;grid-row:7;--fc:${Chem.fams.lantanido.color}">57–71</span><span class="pt-ph" style="grid-column:3;grid-row:8;--fc:${Chem.fams.actinido.color}">89–103</span>
+    <span class="pt-flab" style="grid-column:1 / span 2;grid-row:10">Lantánidos</span><span class="pt-flab" style="grid-column:1 / span 2;grid-row:11">Actínidos</span>
+  </div></div>
+  <div id="pt-fam-desc">${f && Chem.fams[f] ? `<p class="pt-fdesc" style="--fc:${Chem.fams[f].color}"><b>${esc(Chem.fams[f].name)}.</b> ${esc(Chem.fams[f].desc)}</p>` : ''}</div>
+  <div id="elist" class="list two" style="margin-top:12px" hidden></div>
+  <div class="sec"><div><h2>Fundamentos de química</h2><p>${Chem.lessons.length} temas para entender la materia, del átomo a las reacciones</p></div></div>
+  <div class="list two">${Chem.lessons.map(lessonRow).join('')}</div>
+  <div class="sec"><div><h2>Elementos por familia</h2><p>La misma tabla, ordenada por grupos de elementos parecidos</p></div></div>
+  ${Chem.famList.map(x => { const l = els.filter(e => e.fam === x.id); return `<details class="fam-box" style="--fc:${x.color}"><summary><span class="dot" style="background:${x.color}"></span><b>${esc(x.name)}</b><small>${l.length}</small></summary><p>${esc(x.desc)}</p><div class="el-grid">${l.map(elMini).join('')}</div></details>`; }).join('')}
+  <div class="sec"><div><h2>Ponte a prueba</h2><p>Símbolos, familias, números atómicos y estados</p></div></div>
+  <button class="btn ac block" data-act="q-chem">Hacer el quiz de la tabla periódica ${ICON.arrow}</button>
+  <p class="foot-note">Textos de elaboración propia verificados contra sus fuentes: PubChem (Biblioteca Nacional de Medicina de EE. UU.), que reúne los textos de Jefferson Lab, el Laboratorio Nacional de Los Álamos y la CIAAW de la IUPAC; fundamentos: OpenStax Chemistry 2e (CC BY 4.0). Los datos numéricos proceden de la tabla periódica de PubChem.</p>`;
+};
+
+Views.element = ([slug]) => {
+  if (!Chem.data) return needChem();
+  const e = Chem.get(slug);
+  if (!e) return Views.notFound();
+  if (UserRepo.markSeen(e.id)) renderAvatar();
+  const f = Chem.fam(e), mp = kToC(e.mp), bp = kToC(e.bp);
+  const prev = Chem.data[e.z - 2], next = Chem.data[e.z];
+  const kin = Chem.data.filter(x => x.fam === e.fam && x !== e).sort((a, b) => Math.abs(a.z - e.z) - Math.abs(b.z - e.z)).slice(0, 6).sort((a, b) => a.z - b.z);
+  const facts = [['Número atómico', e.z], ['Símbolo', e.sym], ['Masa atómica', e.mass ? fmtDec(e.mass, 4) + ' u' : '—'], ['Familia', f.name], ['Grupo', e.group || '—', e.fcol ? 'Fila de transición interna' : ''], ['Período', e.period], ['Bloque', e.block], ['Estado a 25 °C', e.state || '—'],
+    ['Configuración electrónica', e.config || '—'], ['Electronegatividad', e.eneg != null ? fmtDec(e.eneg) + ' (Pauling)' : '—'], ['Punto de fusión', mp != null ? fmtDec(mp, 1) + ' °C' : '—'], ['Punto de ebullición', bp != null ? fmtDec(bp, 1) + ' °C' : '—'],
+    ['Densidad', e.density != null ? fmtDec(e.density, 4) + (/^Gas/.test(e.state) ? ' g/cm³ (gas)' : ' g/cm³') : '—'], ['Descubrimiento', /^\d+$/.test(e.year) ? e.year : e.year === 'Ancient' ? 'Antigüedad' : '—']];
+  let n = 0; const N = () => `<span class="n">${String(++n).padStart(2, '0')}</span>`;
+  return `<article class="art elem">
+    <div class="art-top"><button class="back" data-act="back">${ICON.back} Volver</button>
+      <div style="display:flex;gap:8px">${favBtn(e.id, false)}<button class="btn sm" data-act="share" data-id="${e.id}" aria-label="Compartir">${ICON.share}</button></div></div>
+    <header class="el-hero" style="--fc:${f.color}">
+      <div class="el-tile" aria-hidden="true"><i>${e.z}</i><b>${e.sym}</b><span>${esc(e.name)}</span><small>${e.mass ? fmtDec(e.mass, 3) : ''}</small></div>
+      <div class="el-head">
+        <a class="chip" href="#/quimica?familia=${e.fam}" style="color:${f.color}"><span class="dot"></span>${esc(f.name)}</a>
+        <h1>${esc(e.name)}</h1>
+        <p class="sub">${esc(e.what)}</p>
+        <div class="claim-row">${claimBadge(e)}</div>
+      </div>
+    </header>
+    ${toolBtns(e.id)}
+    <div class="prose">
+      <h2>${N()}Para qué sirve y en qué se usa</h2><ul class="anat-list">${e.uses.map(u => `<li>${esc(u)}</li>`).join('')}</ul>
+      <h2>${N()}En datos</h2><div class="kvs">${facts.map(([k, v, s]) => `<div class="kv"><span>${esc(k)}</span><b>${k === 'Configuración electrónica' ? esc(v).replace(/([spdf])(\d+)/g, '$1<sup>$2</sup>') : esc(v)}</b>${s ? `<small>${esc(s)}</small>` : ''}</div>`).join('')}</div>
+      <h2>${N()}Descubrimiento</h2><p>${esc(e.disc)}</p>
+      ${e.origin ? `<h2>${N()}Origen del nombre</h2><p>${esc(e.origin)}</p>` : ''}
+      ${e.curious ? `<div class="ex"><b>Curiosidad</b><p>${esc(e.curious)}</p></div>` : ''}
+      ${e.predicted ? `<aside class="med-note sm" role="note"><b>ℹ️ Nota</b> De este elemento solo se han producido unos pocos átomos que se desintegran enseguida: la mayoría de sus propiedades (estado, densidad, puntos de fusión) son predicciones teóricas, no medidas.</aside>` : ''}
+      ${refMarks(e.sources)}
+    </div>
+    <nav class="el-nav" aria-label="Elementos vecinos">${prev ? `<a href="#/quimica/elemento/${prev.slug}"><small>← ${prev.z}</small><b>${esc(prev.name)}</b></a>` : '<span></span>'}${next ? `<a class="r" href="#/quimica/elemento/${next.slug}"><small>${next.z} →</small><b>${esc(next.name)}</b></a>` : '<span></span>'}</nav>
+    ${sourcesBlock(e.sources, e)}
+    <p class="verify">Cada dato de esta ficha se comprobó contra el texto de sus fuentes. Consulta <a href="#/metodologia">cómo verificamos</a>.</p>
+    ${kin.length ? `<div class="sec"><div><h2>Más ${esc(f.name.toLowerCase())}</h2></div><a class="more" href="#/quimica?familia=${e.fam}">Ver en la tabla</a></div><div class="el-grid">${kin.map(elMini).join('')}</div>` : ''}
+    <div class="sec"><div><h2>Para entenderlo mejor</h2></div></div><div class="list two">${['tabla', 'numero-atomico'].map(id => Chem.lmap[id]).filter(Boolean).map(lessonRow).join('')}</div>
+  </article>`;
+};
+
+Views.chemLesson = ([slug]) => {
+  if (!Chem.data) return needChem();
+  const l = Chem.get('quim-' + slug);
+  if (!l) return Views.notFound();
+  if (UserRepo.markSeen(l.id)) renderAvatar();
+  const next = Chem.lessons[l.n], prev = Chem.lessons[l.n - 2];
+  return `<article class="art">
+    <div class="art-top"><button class="back" data-act="back">${ICON.back} Volver</button>
+      <div style="display:flex;gap:8px">${favBtn(l.id, false)}<button class="btn sm" data-act="share" data-id="${l.id}" aria-label="Compartir">${ICON.share}</button></div></div>
+    <header class="art-head" style="margin-top:12px">
+      <a class="chip" href="#/quimica" style="color:${CHEM_COLOR}"><span class="dot"></span>Química · Fundamentos ${l.n} de ${Chem.lessons.length}</a>
+      <h1 style="margin-top:12px">${esc(l.title)}</h1>
+      <p class="sub">${esc(l.sub)}</p>
+      <div class="claim-row">${claimBadge(l)}</div>
+    </header>
+    ${toolBtns(l.id)}
+    <div class="prose">
+      <p class="lead">${esc(l.intro)}</p>
+      ${l.sections.map((s, k) => `<h2><span class="n">${String(k + 1).padStart(2, '0')}</span>${esc(s.h)}</h2>${s.p.map(t => `<p>${esc(t)}</p>`).join('')}${s.example ? `<div class="ex"><b>Ejemplo</b><p>${esc(s.example)}</p></div>` : ''}`).join('')}
+      ${refMarks(l.sources)}
+    </div>
+    ${sourcesBlock(l.sources, l)}
+    <p class="verify">Texto de elaboración propia comprobado contra sus fuentes. Consulta <a href="#/metodologia">cómo verificamos</a>.</p>
+    <nav class="el-nav" aria-label="Temas">${prev ? `<a href="#/quimica/tema/${prev.slug}"><small>← Tema anterior</small><b>${esc(prev.title)}</b></a>` : '<span></span>'}${next ? `<a class="r" href="#/quimica/tema/${next.slug}"><small>Siguiente tema →</small><b>${esc(next.title)}</b></a>` : `<a class="r" href="#/quimica"><small>Fin de los fundamentos →</small><b>Volver a la tabla</b></a>`}</nav>
+  </article>`;
+};
+
+function chemFilter() {
+  const pt = $('#ptable'); if (!pt) return;
+  const f = (parse().q.get('familia')) || '', inp = $('#eq'), t = norm(inp ? inp.value : '').split(/\s+/).filter(Boolean);
+  pt.classList.toggle('filtering', !!(f || t.length));
+  const hits = [];
+  $$('#ptable .pt-c').forEach(c => { const ok = (!f || c.dataset.f === f) && t.every(x => c.dataset.s.split(' ').some(w => w.startsWith(x))); c.classList.toggle('hit', ok); if (ok && t.length) hits.push(c.getAttribute('href').split('/').pop()); });
+  const d = $('#pt-fam-desc'); if (d) d.innerHTML = f && Chem.fams[f] ? `<p class="pt-fdesc" style="--fc:${Chem.fams[f].color}"><b>${esc(Chem.fams[f].name)}.</b> ${esc(Chem.fams[f].desc)}</p>` : '';
+  const L = $('#elist'); if (L) { L.hidden = !t.length; L.innerHTML = t.length ? (hits.length ? hits.slice(0, 8).map(s => elRow(Chem.get(s))).join('') : `<p class="muted">Ningún elemento coincide.</p>`) : ''; }
+}
+function chemAfter() { const inp = $('#eq'); if (inp) inp.addEventListener('input', chemFilter); chemFilter(); }
+
 /* ================= SECCIONES EDITORIALES ================= */
 
 /* Hoy en la historia: efemérides seleccionadas por Wikipedia en español (se actualiza sola cada día). */
@@ -1058,7 +1250,7 @@ const Speech = {
 async function makeCard(i) {
   const W = 1080, H = 1350, cv = document.createElement('canvas'); cv.width = W; cv.height = H;
   const x = cv.getContext('2d');
-  const cat = i.type === 'pais' ? { name: 'Países del mundo', color: '#5b8cff', icon: '🌎' } : i.type === 'anat' ? { name: 'Atlas del cuerpo humano', color: '#ff7a6b', icon: i.icon || '🫀' } : (ContentRepo.cat(i.cat) || { name: '', color: '#8f7cff', icon: '✦' });
+  const cat = i.type === 'pais' ? { name: 'Países del mundo', color: '#5b8cff', icon: '🌎' } : i.type === 'anat' ? { name: 'Atlas del cuerpo humano', color: '#ff7a6b', icon: i.icon || '🫀' } : i.type === 'elem' ? { name: 'Química · ' + Chem.fam(i).name, color: Chem.fam(i).color, icon: '⚗️' } : i.type === 'quim' ? { name: 'Química · Fundamentos', color: CHEM_COLOR, icon: '⚗️' } : (ContentRepo.cat(i.cat) || { name: '', color: '#8f7cff', icon: '✦' });
   x.fillStyle = '#07080b'; x.fillRect(0, 0, W, H);
   const imgUrl = i.type === 'pais' ? Countries.flag(i.iso) : i.img;
   let drew = false;
@@ -1104,6 +1296,9 @@ const ROUTES = [
   [/^\/dato\/([\w-]+)$/, 'fact', Views.fact, ''],
   [/^\/paises$/, 'countries', Views.countries, 'explorar'],
   [/^\/pais\/([a-z]{2})$/, 'country', Views.country, 'explorar'],
+  [/^\/quimica$/, 'chem', Views.chem, 'explorar'],
+  [/^\/quimica\/elemento\/([\w-]+)$/, 'element', Views.element, 'explorar'],
+  [/^\/quimica\/tema\/([\w-]+)$/, 'chemLesson', Views.chemLesson, 'explorar'],
   [/^\/anatomia$/, 'anatomy', Views.anatomy, 'explorar'],
   [/^\/anatomia\/([\w-]+)$/, 'anatItem', Views.anatItem, 'explorar'],
   [/^\/hoy$/, 'otd', Views.otd, 'inicio'],
@@ -1147,6 +1342,8 @@ function afterRender(name) {
   if (name === 'otd') fillOtd('#otd-full', 40);
   if (Speech.id) Speech.paint();
   $('#progress').style.width = '0';
+  if (name === 'search' && !Chem.data) Chem.load().then(() => { const inp = $('#q'); if (current.name === 'search' && inp && inp.value.trim()) $('#results').innerHTML = searchResults(inp.value); }).catch(() => {});
+  if (name === 'chem') chemAfter();
   if (name === 'search' && !Countries.data) Countries.load().then(() => { const inp = $('#q'); if (current.name === 'search' && inp && inp.value.trim()) $('#results').innerHTML = searchResults(inp.value); }).catch(() => {});
   if (name === 'countries' && $('#cq')) {
     const inp = $('#cq'), cards = $$('#cgrid .ctry');
@@ -1259,6 +1456,8 @@ document.addEventListener('click', e => {
     case 'q-level': Quiz.level = +el.dataset.v; render(); break;
     case 'q-cat': Quiz.cat = el.dataset.v; render(); break;
     case 'q-start': quizStart(); break;
+    case 'q-chem': Quiz.cat = 'quimica'; Quiz.level = 0; Quiz.list = []; location.hash = '#/quiz'; setTimeout(quizStart, 0); break;
+    case 'pt-fam': { const v = el.dataset.v || ''; history.replaceState(null, '', '#/quimica' + (v ? '?familia=' + v : '')); $$('.pt-legend button').forEach(b => b.classList.toggle('on', (b.dataset.v || '') === v)); chemFilter(); break; }
     case 'q-anat': Quiz.cat = 'cuerpo'; Quiz.level = 0; Quiz.list = []; if (current.name === 'quiz') quizStart(); else { Object.assign(Quiz, { list: Services.buildQuiz(0, 'cuerpo', 10), i: 0, correct: 0, xp: 0, wrong: [], answered: false, saved: false, isBest: false }); location.hash = '#/quiz'; } break;
     case 'q-ans': quizAnswer(+el.dataset.i); break;
     case 'q-next': Quiz.i++; Quiz.answered = false; render(); window.scrollTo(0, 0); break;

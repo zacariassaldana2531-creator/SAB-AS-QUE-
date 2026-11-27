@@ -2,7 +2,7 @@
  * Crea una página HTML real por artículo, dato y país, con título, descripción,
  * vista previa para redes (Open Graph) y datos estructurados (JSON-LD), más sitemap.xml y robots.txt.
  * Uso:  node tools/build-pages.js            (desde la carpeta del proyecto)
- * Vuelve a ejecutarlo cada vez que cambie content.js, countries.js o anatomy.js.
+ * Vuelve a ejecutarlo cada vez que cambie content.js, countries.js, anatomy.js o chemistry.js.
  */
 const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
@@ -11,8 +11,9 @@ global.window = {};
 require(path.join(ROOT, 'content.js'));
 require(path.join(ROOT, 'countries.js'));
 require(path.join(ROOT, 'anatomy.js'));
+require(path.join(ROOT, 'chemistry.js'));
 const { build: buildReco } = require(path.join(ROOT, 'reco.js'));
-const C = window.SQ_CONTENT, P = window.SQ_COUNTRIES || [], AN = window.SQ_ANATOMY || { systems: [], organs: [] };
+const C = window.SQ_CONTENT, P = window.SQ_COUNTRIES || [], AN = window.SQ_ANATOMY || { systems: [], organs: [] }, CH = window.SQ_CHEM || { elements: [], lessons: [], families: [] };
 const MED = 'Contenido educativo y de divulgación. No sustituye el diagnóstico, el tratamiento ni el consejo de un profesional de la salud.';
 const medNote = `<aside class="med-note" role="note"><b>⚕️ Aviso</b> ${MED}</aside>`;
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -70,7 +71,7 @@ const conceptsBox = i => (i.concepts || []).length ? `<aside class="box concepts
 const write = (rel, html) => { const f = path.join(ROOT, rel, 'index.html'); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, html); };
 
 /* Limpiar las carpetas generadas para no dejar páginas de contenido borrado */
-for (const d of ['articulo', 'dato', 'pais', 'anatomia']) fs.rmSync(path.join(ROOT, d), { recursive: true, force: true });
+for (const d of ['articulo', 'dato', 'pais', 'anatomia', 'quimica']) fs.rmSync(path.join(ROOT, d), { recursive: true, force: true });
 
 const urls = [{ loc: `${SITE}/`, pri: '1.0' }];
 const items = C.items.filter(i => i.status === 'publicado' && (!i.verif || i.verif.status === 'verificado'));
@@ -127,6 +128,43 @@ ${rel.length ? `<h2>${isSys ? 'Órganos de este sistema' : 'Forma parte de'}</h2
   write(`anatomia/${x.id}`, page({ url, appUrl, title: `${x.name}: qué es, dónde está y qué hace`, desc, image: x.img || `${SITE}/og-default.png`, type: 'article', jsonld, body }));
   urls.push({ loc: url, pri: '0.6' });
 }
+/* Química: tabla periódica y fundamentos */
+{
+  const fams = Object.fromEntries(CH.families.map(f => [f.id, f]));
+  const okv = x => !x.verif || x.verif.status === 'verificado';
+  const els = CH.elements.filter(okv), les = CH.lessons.filter(okv);
+  const kToC = k => k == null ? '—' : (Math.round((k - 273.15) * 10) / 10).toLocaleString('es') + ' °C';
+  const tile = e => `<span class="el-cover" style="--fc:${fams[e.fam].color};display:inline-grid;width:44px;height:48px;border-radius:9px;vertical-align:middle;margin-right:10px"><b style="font-size:19px">${e.sym}</b></span>`;
+  {
+    const url = `${SITE}/quimica/`;
+    const desc = `La tabla periódica completa: los ${els.length} elementos químicos, qué es cada uno, para qué sirve y en qué se usa, con fuentes. Y ${les.length} temas de fundamentos de química.`;
+    const body = `<header class="art-head"><span class="chip" style="color:#5fd3c6"><span class="dot"></span>Química</span><h1 style="margin-top:12px">La tabla periódica y sus elementos</h1><p class="sub">${esc(desc)}</p></header><div class="prose"><h2>Fundamentos de química</h2><ul class="anat-list">${les.map(l => `<li><a href="/quimica/tema/${l.id}/">${esc(l.title)}</a> — ${esc(l.sub)}</li>`).join('')}</ul>${CH.families.map(f => `<h2>${esc(f.name)}</h2><p>${esc(f.desc)}</p><ul class="anat-list">${els.filter(e => e.fam === f.id).map(e => `<li><a href="/quimica/${e.slug}/">${esc(e.name)} (${e.sym})</a> — número atómico ${e.z}</li>`).join('')}</ul>`).join('')}</div>`;
+    write('quimica', page({ url, appUrl: '/#/quimica', title: 'La tabla periódica: los 118 elementos y para qué sirven', desc, image: `${SITE}/og-default.png`, type: 'website', jsonld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'La tabla periódica y sus elementos', description: desc, inLanguage: 'es', url }, body }));
+    urls.push({ loc: url, pri: '0.8' });
+  }
+  for (const e of els) {
+    const f = fams[e.fam], url = `${SITE}/quimica/${e.slug}/`, appUrl = `/#/quimica/elemento/${e.slug}`;
+    const desc = clip(`${e.name} (${e.sym}), número atómico ${e.z}. ${e.what} Usos: ${e.uses.join('; ')}.`, 200);
+    const kv = (k, v) => `<div class="kv"><span>${k}</span><b>${esc(v)}</b></div>`;
+    const prev = els[e.z - 2], next = els[e.z];
+    const body = `<header class="el-hero" style="--fc:${f.color}"><div class="el-tile"><i>${e.z}</i><b>${e.sym}</b><span>${esc(e.name)}</span><small>${esc(e.mass)}</small></div><div class="el-head"><span class="chip" style="color:${f.color}"><span class="dot"></span>${esc(f.name)}</span><h1>${esc(e.name)}</h1><p class="sub">${esc(e.what)}</p>${claimLine(e)}</div></header>
+<div class="prose"><h2>Para qué sirve y en qué se usa</h2>${ul(e.uses)}<h2>En datos</h2><div class="kvs">${kv('Número atómico', e.z)}${kv('Símbolo', e.sym)}${kv('Masa atómica', e.mass ? e.mass + ' u' : '—')}${kv('Familia', f.name)}${kv('Grupo', e.group || '—')}${kv('Período', e.period)}${kv('Estado a 25 °C', e.state || '—')}${kv('Configuración electrónica', e.config || '—')}${kv('Punto de fusión', kToC(e.mp))}${kv('Punto de ebullición', kToC(e.bp))}</div>
+<h2>Descubrimiento</h2><p>${esc(e.disc)}</p>${e.origin ? `<h2>Origen del nombre</h2><p>${esc(e.origin)}</p>` : ''}${e.curious ? `<aside class="ex"><b>Curiosidad</b><p>${esc(e.curious)}</p></aside>` : ''}${e.predicted ? '<p><i>De este elemento solo se han producido unos pocos átomos: la mayoría de sus propiedades son predicciones teóricas.</i></p>' : ''}
+<h2>Elementos vecinos</h2><ul class="anat-list">${[prev, next].filter(Boolean).map(x => `<li><a href="/quimica/${x.slug}/">${esc(x.name)} (${x.sym}), número atómico ${x.z}</a></li>`).join('')}<li><a href="/quimica/">Ver la tabla periódica completa</a></li></ul></div>${sources(e.sources, e)}`;
+    const jsonld = { '@context': 'https://schema.org', '@type': 'WebPage', name: `${e.name} (${e.sym}): qué es, para qué sirve y en qué se usa`, description: desc, inLanguage: 'es', url, about: { '@type': 'Thing', name: e.name, alternateName: [e.sym, e.en] }, citation: e.sources.map(s => s.u), isAccessibleForFree: true };
+    write(`quimica/${e.slug}`, page({ url, appUrl, title: `${e.name} (${e.sym}): qué es, para qué sirve y en qué se usa`, desc, image: `${SITE}/og-default.png`, type: 'article', jsonld, body }));
+    urls.push({ loc: url, pri: '0.6' });
+  }
+  les.forEach((l, k) => {
+    const url = `${SITE}/quimica/tema/${l.id}/`, appUrl = `/#/quimica/tema/${l.id}`;
+    const desc = clip(`${l.sub}. ${l.intro}`, 200);
+    const nx = les[k + 1];
+    const body = `<header class="art-head"><span class="chip" style="color:#5fd3c6"><span class="dot"></span>Química · Fundamentos ${k + 1} de ${les.length}</span><h1 style="margin-top:12px">${esc(l.title)}</h1><p class="sub">${esc(l.sub)}</p>${claimLine(l)}</header><div class="prose"><p class="lead">${esc(l.intro)}</p>${l.sections.map(s => `<h2>${esc(s.h)}</h2><p>${esc(s.p)}</p>`).join('')}${l.example ? `<aside class="ex"><b>Ejemplo</b><p>${esc(l.example)}</p></aside>` : ''}${nx ? `<p><a href="/quimica/tema/${nx.id}/">Siguiente tema: ${esc(nx.title)} →</a></p>` : `<p><a href="/quimica/">Ver la tabla periódica →</a></p>`}</div>${sources(l.sources, l)}`;
+    const jsonld = { '@context': 'https://schema.org', '@type': 'LearningResource', name: l.title, description: desc, inLanguage: 'es', url, learningResourceType: 'Lección', educationalLevel: 'Divulgación', citation: l.sources.map(s => s.u), isAccessibleForFree: true };
+    write(`quimica/tema/${l.id}`, page({ url, appUrl, title: `${l.title} · Fundamentos de química`, desc, image: `${SITE}/og-default.png`, type: 'article', jsonld, body }));
+    urls.push({ loc: url, pri: '0.6' });
+  });
+}
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `<url><loc>${u.loc}</loc>${u.mod ? `<lastmod>${u.mod}</lastmod>` : ''}<priority>${u.pri}</priority></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /admin.html\nSitemap: ${SITE}/sitemap.xml\n`);
-console.log(`Páginas: ${items.length} contenidos + ${P.length} países + ${AN.systems.length + AN.organs.length + 1} del atlas · sitemap con ${urls.length} direcciones`);
+console.log(`Páginas: ${items.length} contenidos + ${P.length} países + ${AN.systems.length + AN.organs.length + 1} del atlas + ${CH.elements.length + CH.lessons.length + 1} de química · sitemap con ${urls.length} direcciones`);
