@@ -3553,7 +3553,8 @@ window.SQ_CONTENT = {
    "sub": "Idiomas antiguos",
    "title": "Jesús probablemente hablaba arameo",
    "desc": "Era la lengua cotidiana de Galilea en el siglo I. El Nuevo Testamento se escribió en griego.",
-   "body": "La mayoría de los historiadores coincide en que Jesús hablaba arameo en su vida diaria y probablemente conocía el hebreo de las escrituras. Los evangelios conservan algunas palabras en arameo, como «Talitha koum» («niña, levántate»). Sin embargo, los textos del Nuevo Testamento que han llegado hasta nosotros se escribieron en griego. Hoy todavía existen comunidades que hablan variantes modernas del arameo.",
+   "body": "La mayoría de los historiadores coincide en que Jesús hablaba arameo en su vida diaria y probablemente conocía el hebreo de las escrituras. El arameo era entonces la lengua común de Judea y Galilea, y de gran parte de Oriente Próximo. Los evangelios conservan algunas palabras en arameo, como «Talitha koum» («niña, levántate») o «Elí, Elí, ¿lemá sabactani?», «Dios mío, Dios mío, ¿por qué me has abandonado?», una de las frases de Jesús en la cruz.\n\nSin embargo, los textos del Nuevo Testamento que han llegado hasta nosotros se escribieron en griego, la lengua culta del Mediterráneo oriental en esa época. Algunos estudiosos creen que Jesús también pudo conocer algo de griego, aunque es objeto de debate. Hoy todavía existen comunidades que hablan variantes modernas del arameo.",
+   "deep": "El arameo es una lengua semítica, emparentada con el hebreo. Fue una lengua común en los imperios asirio, babilónico y persa aqueménida, entre los años 722 y 330 antes de Cristo, y siguió siendo una lengua común de la región en el siglo I. Aunque el griego ganaba importancia, el uso del arameo también se estaba extendiendo. La frase de la cruz aparece en dos versiones: en el Evangelio de Mateo y en el de Marcos, transcrita en griego, y los estudiosos discuten si refleja la forma aramea o la hebrea. En la Peshitta, la traducción siríaca de la Biblia, se conserva en siríaco, una forma de arameo que todavía usan algunas iglesias.",
    "sources": [
     {
      "t": "Published in Tyndale Bulletin — Did Jesus Ever Teach in Greek?",
@@ -3576,7 +3577,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "interpretacion",
@@ -3593,6 +3594,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10138,7 +10143,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El primer gran libro impreso en Europa con tipos móviles fue una Biblia",
    "desc": "La Biblia de Gutenberg se imprimió en Maguncia, Alemania, hacia 1455.",
-   "body": "Johannes Gutenberg desarrolló un sistema de imprenta con tipos metálicos móviles. Su Biblia, en latín, se imprimió a mediados de la década de 1450. Se estima que se hicieron unas 180 copias, y hoy se conservan menos de 50, algunas incompletas. Su invento abarató los libros y aceleró la difusión del conocimiento.",
+   "body": "Johannes Gutenberg, de Maguncia, en Alemania, desarrolló un sistema de imprenta con tipos metálicos móviles: letras sueltas de metal que se podían combinar para formar páginas y reutilizar después. Su Biblia, en latín, se imprimió a mediados de la década de 1450. Se la conoce también como la «Biblia de 42 líneas», por el número de líneas de cada columna.\n\nSe estima que se hicieron unas 180 copias, unas en papel y otras en pergamino, y hoy se conservan 49, al menos en una parte sustancial, y solo 21 completas. Es uno de los libros más valiosos del mundo. Su invento abarató los libros y aceleró la difusión del conocimiento.",
+   "deep": "Cada copia se terminaba a mano: las letras iniciales decoradas y las ilustraciones se pintaban después, por lo que no hay dos ejemplares iguales. En marzo de 1455, el futuro papa Pío II escribió que había visto páginas de la Biblia de Gutenberg, expuestas en Fráncfort para promocionar la edición. El ejemplar con la fecha impresa visible más antigua lleva la de 15 de agosto de 1456. Desde 1978 no se ha vendido ningún ejemplar completo, y las Biblias de Gutenberg están consideradas entre los libros más valiosos del mundo. El propio Gutenberg llamaba a su proceso «la obra de los libros».",
    "sources": [
     {
      "t": "Biblioteca del Congreso de EE. UU. — The Library's Copy of the Gutenberg Bible - The Gutenberg Bible at the Library of Congress : A Resource Guide - Research Guides at Library o",
@@ -10171,7 +10177,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -10187,6 +10193,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10198,7 +10208,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La primera celebración registrada de la Navidad el 25 de diciembre es del año 336",
    "desc": "Aparece en un calendario romano, más de tres siglos después del nacimiento de Jesús.",
-   "body": "Los evangelios no dicen en qué día nació Jesús. La primera mención conocida de una celebración el 25 de diciembre aparece en un calendario romano del año 336. Hay varias teorías sobre por qué se eligió esa fecha, y los historiadores siguen debatiéndolo.",
+   "body": "Los evangelios no dicen en qué día nació Jesús. La primera mención conocida de una celebración el 25 de diciembre aparece en un calendario romano del año 336, en la Roma de la época de los primeros emperadores cristianos. Hay varias teorías sobre por qué se eligió esa fecha, y los historiadores siguen debatiéndolo.\n\nUna teoría sostiene que la Iglesia eligió el 25 de diciembre para coincidir con fiestas paganas romanas, como la del «Sol Invicto» o las Saturnales, celebradas en torno al solsticio de invierno. Otra, llamada teoría del cálculo, propone que algunos cristianos fijaron la fecha contando nueve meses desde el 25 de marzo, que también era la fecha romana del equinoccio de primavera y el día en que creían que Jesús había sido concebido.",
+   "deep": "No todos los cristianos celebran la Navidad el mismo día. Muchas iglesias ortodoxas, como la rusa o la serbia, siguen el calendario juliano para sus fiestas, y por eso su 25 de diciembre corresponde al 7 de enero del calendario gregoriano. Muchas de las costumbres navideñas actuales son mucho más recientes que la propia fiesta: el árbol de Navidad se popularizó en Alemania y se extendió en el siglo XIX, y la figura de Papá Noel se formó en Estados Unidos en esa misma época. Hoy la Navidad se celebra en todo el mundo, también como fiesta cultural por personas no religiosas.",
    "sources": [
     {
      "t": "Wikipedia — Christmas",
@@ -10223,7 +10234,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -10235,6 +10246,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10246,7 +10261,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El Ramadán cae cada año unos 11 días antes",
    "desc": "El calendario islámico es lunar y su año tiene unos 354 días.",
-   "body": "Los meses del calendario islámico siguen las fases de la Luna. Como 12 meses lunares suman unos 354 o 355 días, el calendario se adelanta respecto al solar unos 11 días cada año. Por eso el Ramadán va recorriendo todas las estaciones en un ciclo de unos 33 años.",
+   "body": "Los meses del calendario islámico, o calendario de la Hégira, siguen las fases de la Luna: cada mes empieza con la observación de la luna nueva creciente. Como 12 meses lunares suman unos 354 o 355 días, el calendario se adelanta respecto al solar unos 11 días cada año. Por eso el Ramadán va recorriendo todas las estaciones en un ciclo de unos 33 años.\n\nEl calendario empieza a contar desde la Hégira, la emigración del profeta Mahoma de La Meca a Medina en el año 622 de nuestra era, que marca el año 1. El califa Omar fue quien estableció este sistema de cuenta. Durante el Ramadán, los musulmanes ayunan desde el amanecer hasta la puesta del sol.",
+   "deep": "A diferencia de otros calendarios lunares, como el hebreo, el islámico no añade meses extra para mantenerse alineado con las estaciones, porque el Corán lo prohíbe. Por eso sus fiestas, como el fin del Ramadán o la gran fiesta del sacrificio, cambian de fecha cada año respecto al calendario gregoriano. Como el inicio de cada mes depende de que se vea la luna, la fecha exacta puede variar uno o dos días entre países. Hoy muchos países usan el calendario gregoriano para la vida civil y el islámico para las celebraciones religiosas, aunque Arabia Saudita lo usaba también de forma oficial.",
    "sources": [
     {
      "t": "Wikipedia — Islamic calendar",
@@ -10263,7 +10279,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -10275,6 +10291,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10340,7 +10360,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Uno de los textos religiosos más antiguos que se siguen usando se transmitió de memoria durante siglos",
    "desc": "El Rigveda, del hinduismo, se compuso hace más de 3.000 años.",
-   "body": "El Rigveda es una colección de himnos en sánscrito védico compuesta aproximadamente entre 1500 y 1000 a. C. Durante siglos se transmitió de forma oral con técnicas de memorización muy precisas antes de ponerse por escrito. La UNESCO incluyó manuscritos del Rigveda en su registro Memoria del Mundo.",
+   "body": "El Rigveda es una colección de himnos en sánscrito védico compuesta aproximadamente entre 1500 y 1000 a. C., y es uno de los textos religiosos más antiguos del mundo que se siguen usando hoy. Está formado por más de mil himnos, organizados en diez libros llamados «mandalas», dedicados a dioses como Agni, el dios del fuego, e Indra.\n\nDurante siglos se transmitió de forma oral con técnicas de memorización muy precisas antes de ponerse por escrito. Los recitadores aprendían el texto en varias formas distintas, por ejemplo repitiendo las palabras en distintos órdenes, para detectar cualquier error. La UNESCO incluyó manuscritos del Rigveda en su registro Memoria del Mundo.",
+   "deep": "Los manuscritos que la UNESCO incluyó en el registro Memoria del Mundo, en 2007, se conservan en el Instituto Oriental de Investigación Bhandarkar, en Pune, en la India. La transmisión oral fue tan cuidadosa que los especialistas consideran que el texto ha llegado hasta nosotros con muy pocas variaciones, a pesar de haberse conservado durante siglos solo en la memoria. El Rigveda es el más antiguo de los cuatro Vedas, los textos sagrados fundamentales del hinduismo. Algunos de sus himnos se siguen recitando hoy en ceremonias como las bodas hindúes. Es además una fuente clave para estudiar las lenguas indoeuropeas.",
    "sources": [
     {
      "t": "UNESCO — Rigveda - Memory of the World",
@@ -10381,7 +10402,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -10397,6 +10418,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10408,7 +10433,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La fecha de la Semana Santa depende de la Luna",
    "desc": "El Domingo de Resurrección es el primer domingo después de la primera luna llena de primavera (en el hemisferio norte).",
-   "body": "La regla, simplificando, es que la Pascua cae el domingo siguiente a la primera luna llena a partir del 21 de marzo. Por eso puede caer entre el 22 de marzo y el 25 de abril. Las iglesias ortodoxas usan el calendario juliano para el cálculo, así que su Pascua suele caer en otra fecha.",
+   "body": "La regla, simplificando, es que la Pascua cae el domingo siguiente a la primera luna llena a partir del 21 de marzo. Por eso puede caer entre el 22 de marzo y el 25 de abril. Las iglesias ortodoxas usan el calendario juliano para el cálculo, así que su Pascua suele caer en otra fecha.\n\nEl método se fijó en relación con el Concilio de Nicea, del año 325, que buscó una fecha común para todos los cristianos, independiente del calendario judío. Como la fecha depende de la Luna, toda la Semana Santa y otras fiestas, como la Ascensión o Pentecostés, cambian cada año. La Pascua es la fiesta más importante del cristianismo: celebra la resurrección de Jesús.",
+   "deep": "En la práctica, la Iglesia no usa la luna llena astronómica real, sino una luna llena «eclesiástica», calculada con tablas, y fija el equinoccio siempre el 21 de marzo, aunque el astronómico puede caer otro día. Ese cálculo se llama «cómputo», y durante siglos fue una de las grandes tareas de los astrónomos y matemáticos. La relación con la Luna viene de la Pascua judía, que se celebra en la primera luna llena de la primavera y con la que coinciden los relatos de la muerte y resurrección de Jesús. Ha habido propuestas para fijar la Pascua en un domingo fijo de abril, pero nunca se han aprobado.",
    "sources": [
     {
      "t": "Wikipedia — Easter",
@@ -10442,7 +10468,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -10454,6 +10480,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10465,7 +10495,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Para los taínos, un cemí era una fuerza espiritual que se encarnaba en objetos",
    "desc": "Eran figuras de piedra, madera o algodón que encarnaban deidades y ancestros.",
-   "body": "En la lengua taína, cemí (o zemí) designaba la fuerza espiritual y vital de deidades y ancestros. Esa fuerza se manifestaba en figuras rituales: piedras de tres puntas, tallas de madera u objetos de algodón. Se les ofrecía culto y se creía que influían en las cosechas, la lluvia o la salud. En museos de República Dominicana se conservan muchos ejemplares.",
+   "body": "En la lengua taína, cemí (o zemí) designaba la fuerza espiritual y vital de deidades y ancestros. Esa fuerza se manifestaba en figuras rituales: piedras de tres puntas, tallas de madera u objetos de algodón. Se les ofrecía culto y se creía que influían en las cosechas, la lluvia o la salud. En museos de República Dominicana se conservan muchos ejemplares.\n\nSe han encontrado cemíes en Cuba, República Dominicana, Haití, Jamaica y Puerto Rico. Se tallaban en muchos materiales: hueso, arcilla, madera, concha, arenisca o piedra. Algunos eran pequeños amuletos que los guerreros llevaban en la frente para protegerse en la batalla.",
+   "deep": "Entre los cemíes más importantes estaba el dios creador, Yúcahu Maórocoti, que gobernaba el crecimiento de la yuca, el alimento básico, y la diosa Atabey, que gobernaba el agua, los ríos y los mares. Divinidades menores, como Boinayel, el que da la lluvia, cuyas lágrimas mágicas se convertían en lluvia, también eran cemíes. Los espíritus de los antepasados, sobre todo los de los caciques, eran muy honrados, y a veces se incorporaban huesos o cráneos a las esculturas. En las piedras de tres puntas, un lado podía tener una cabeza humana o animal, y el otro unas piernas encogidas, por lo que a veces se las llama «patas de rana»; se han hallado pequeñas piezas de cerámica de este tipo en las Antillas Menores, Colombia y Venezuela, de hasta el 200 antes de Cristo.",
    "sources": [
     {
      "t": "The Metropolitan Museum of Art — Indigenous Arts of the Caribbean (Heilbrunn Timeline of Art History)",
@@ -10508,7 +10539,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -10528,6 +10559,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Corrección: matiz sobre el significado de «cemí»"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10539,7 +10574,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Aleluya» es una palabra hebrea que significa «alaben a Dios»",
    "desc": "Combina «hallelu», alaben, y «Yah», forma abreviada del nombre de Dios.",
-   "body": "Aparece sobre todo en el libro de los Salmos y se usa en la liturgia judía y cristiana. Como «amén», pasó a muchos idiomas sin traducirse. En español se escribe «aleluya».",
+   "body": "«Aleluya» es una palabra hebrea formada por dos partes: «hallelu», una forma del verbo «alabar», en plural, y «Yah», una forma abreviada del nombre de Dios. Significa, por tanto, «alaben a Dios» o «alabad a Yahvé». Es una expresión de alegría y de alabanza.\n\nAparece sobre todo en el libro de los Salmos, en especial en los últimos, y se usa en la liturgia judía y cristiana. En el Nuevo Testamento aparece en el libro del Apocalipsis. Como «amén», pasó a muchos idiomas sin traducirse. En español se escribe «aleluya».",
+   "deep": "En el judaísmo forma parte del «Hallel», un conjunto de salmos de alabanza que se recitan en fiestas como la Pascua judía. En la liturgia católica, el aleluya se canta antes de la lectura del Evangelio, y se deja de cantar durante la Cuaresma, el periodo de preparación para la Semana Santa, para volver con fuerza en la Pascua. La palabra se popularizó también fuera de la religión: el coro «Aleluya» del oratorio «El Mesías» de Georg Friedrich Händel, es una de las piezas de música más famosas del mundo, y la canción «Hallelujah» de Leonard Cohen, de 1984, la llevó a la música popular.",
    "sources": [
     {
      "t": "Wikipedia — Hallelujah",
@@ -10564,7 +10600,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -10576,6 +10612,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17190,7 +17230,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Santa Sofía ha sido iglesia, mezquita, museo y otra vez mezquita",
    "desc": "Se construyó en Constantinopla en el año 537.",
-   "body": "Durante casi mil años fue la mayor catedral del mundo cristiano. Tras la conquista otomana de 1453 se convirtió en mezquita. En 1935, la Turquía republicana la transformó en museo, y en 2020 volvió a ser mezquita. Su enorme cúpula influyó en la arquitectura bizantina e islámica.",
+   "body": "Santa Sofía, en Estambul, fue construida como catedral cristiana por orden del emperador bizantino Justiniano I, y se terminó en el año 537, tras solo unos cinco años de obras. La diseñaron los matemáticos y arquitectos Isidoro de Mileto y Antemio de Tralles. Su nombre oficial significaba «Templo de la Santa Sabiduría de Dios», y era la tercera iglesia con ese nombre en el mismo lugar.\n\nDurante más de quinientos años fue la iglesia más grande del mundo, hasta que se terminó la abadía de Cluny, en Francia, en el siglo XII, y fue la catedral de Constantinopla durante casi mil años. Tras la conquista otomana de 1453, el sultán Mehmed II la convirtió en mezquita, y se le añadieron minaretes. En 1935, la Turquía republicana de Atatürk la transformó en museo, y en 2020 volvió a ser mezquita, una decisión muy polémica que criticaron, entre otros, la UNESCO y el Consejo Mundial de Iglesias.",
+   "deep": "Su gran cúpula, de las primeras en apoyarse por completo sobre pechinas, creaba el mayor espacio interior de su tiempo, y se considera la obra cumbre de la arquitectura bizantina: se ha dicho que «cambió la historia de la arquitectura». La original se derrumbó en parte por un terremoto en el año 558 y fue reconstruida. Fue la principal mezquita de Estambul hasta la construcción de la Mezquita del Sultán Ahmed, en 1616, y sirvió de inspiración a muchos otros edificios religiosos, como las mezquitas de Süleymaniye y Şehzade, obra del arquitecto Sinan. Aún conserva mosaicos bizantinos, junto con grandes medallones con caligrafía árabe añadidos en época otomana.",
    "sources": [
     {
      "t": "UNESCO — Centro del Patrimonio Mundial — Historic Areas of Istanbul",
@@ -17223,7 +17264,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -17239,6 +17280,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17250,7 +17295,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El monumento religioso más grande del mundo está en Camboya",
    "desc": "Angkor Wat se construyó como templo hindú y luego se convirtió en budista.",
-   "body": "Fue levantado en el siglo XII por el rey Suryavarman II del Imperio jemer, dedicado al dios Vishnu. Con el tiempo pasó a ser un centro budista. Es tan importante para Camboya que aparece en su bandera nacional.",
+   "body": "Angkor Wat, en Camboya, es el monumento religioso más grande del mundo. Fue levantado en el siglo XII por el rey Suryavarman II del Imperio jemer, en su capital, Yaśodharapura, dedicado al dios hindú Vishnu. Con el tiempo pasó a ser un centro budista.\n\nSu diseño representa el monte Meru, un concepto cosmológico compartido por el hinduismo y el budismo: lo rodea un ancho foso y una muralla, y dentro, tres galerías cada vez más altas se elevan hacia un grupo central de torres. Sus muros están cubiertos de relieves que narran escenas de la mitología hindú. Es tan importante para Camboya que aparece en su bandera nacional.",
+   "deep": "A diferencia de la mayoría de los templos de Angkor, Angkor Wat está orientado hacia el oeste, y en general se considera que fue concebido como templo de Estado y también como mausoleo del rey. Es famoso por la grandeza de su arquitectura y por sus relieves. Forma parte del sitio arqueológico de Angkor, inscrito como Patrimonio de la Humanidad por la UNESCO en 1992. Su diseño combina las dos formas típicas de la arquitectura jemer: el templo-montaña y el templo de galerías. A finales del siglo XIX y en el XX, arqueólogos franceses trabajaron en su restauración.",
    "sources": [
     {
      "t": "Wikipedia — Angkor Wat",
@@ -17267,7 +17313,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -17279,6 +17325,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17290,7 +17340,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La Biblia no se escribió con capítulos y versículos",
    "desc": "Los capítulos se añadieron en el siglo XIII y los versículos numerados, en el XVI.",
-   "body": "Los textos originales no tenían esas divisiones. El arzobispo de Canterbury Stephen Langton popularizó la división en capítulos hacia el siglo XIII. La numeración de versículos del Nuevo Testamento que usamos hoy se debe en gran parte al impresor francés Robert Estienne, en el siglo XVI.",
+   "body": "Los textos originales de la Biblia no tenían capítulos ni versículos. A principios del siglo XIII, el arzobispo de Canterbury Stephen Langton y el cardenal Hugo de San Caro desarrollaron sistemas distintos para dividir la Biblia, y las divisiones modernas en capítulos se basan en el de Langton.\n\nLa numeración de versículos del Nuevo Testamento que usamos hoy se debe en gran parte al impresor francés Robert Estienne, en el siglo XVI. Estienne creó su numeración en su edición del Nuevo Testamento en griego de 1551, y la usó también en su Biblia en francés de 1553; su sistema se adoptó de forma generalizada y es el que aparece en casi todas las Biblias modernas. En inglés, la Biblia de Ginebra de 1560 lo convirtió en la forma estándar de citar versículos.",
+   "deep": "La numeración de versículos de la Biblia hebrea tiene otra historia: el rabino Isaac Nathan ben Kalonymus preparó hacia 1440 la primera concordancia de la Biblia hebrea, un índice de palabras, que contribuyó a fijar la división en versículos. El primero en dividir en versículos los capítulos del Nuevo Testamento fue el dominico italiano Santes Pagnino, pero su sistema no se generalizó. Las divisiones no siempre coinciden con el sentido del texto: algunas cortan una frase o una idea por la mitad, y por eso a veces se critican. Aun así, resultan muy prácticas: permiten encontrar cualquier pasaje con una referencia breve, con el nombre del libro, el capítulo y el versículo.",
    "sources": [
     {
      "t": "Wikipedia — Chapters and verses of the Bible",
@@ -17315,7 +17366,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -17327,6 +17378,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17338,7 +17393,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Santa Claus está inspirado en un obispo del siglo IV",
    "desc": "San Nicolás de Mira, conocido por su generosidad, vivió en la actual Turquía.",
-   "body": "Las leyendas sobre San Nicolás regalando en secreto dieron origen a tradiciones en Europa. En los Países Bajos se le llama Sinterklaas, y los inmigrantes neerlandeses llevaron la tradición a Nueva York, donde evolucionó hasta el Santa Claus actual, con la ayuda de poemas e ilustraciones del siglo XIX.",
+   "body": "San Nicolás de Bari fue un obispo de Mira, en Asia Menor, en la actual Turquía, que vivió en los siglos III y IV. Las leyendas sobre San Nicolás regalando en secreto dieron origen a tradiciones en Europa. La más famosa cuenta que arrojó bolsas de oro por la ventana de un hombre pobre para que sus tres hijas pudieran casarse.\n\nSus restos fueron trasladados en 1087 a Bari, en Italia, donde se veneran hasta hoy. En los Países Bajos se le llama Sinterklaas, y los inmigrantes neerlandeses llevaron la tradición a Nueva York, donde evolucionó hasta el Santa Claus actual, con la ayuda de poemas e ilustraciones del siglo XIX.",
+   "deep": "Dos obras fueron clave en la creación de la imagen moderna. El poema «Una visita de San Nicolás», publicado en 1823 y atribuido a Clement Clarke Moore, lo describió como un hombre alegre y regordete que viaja en un trineo tirado por renos y entra por la chimenea. Después, el dibujante Thomas Nast lo dibujó durante décadas en la revista Harper's Weekly, y fijó detalles como su taller en el Polo Norte. A veces se dice que Coca-Cola inventó su traje rojo, pero ya aparecía vestido de rojo antes de sus famosos anuncios de los años treinta, aunque estos ayudaron a popularizar esa imagen.",
    "sources": [
     {
      "t": "National Geographic — What does Santa have to do with … psychedelic mushrooms?",
@@ -17372,7 +17428,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -17389,6 +17445,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17400,7 +17460,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La protectora espiritual de los dominicanos es la Virgen de la Altagracia",
    "desc": "Su fiesta es el 21 de enero, día no laborable en República Dominicana.",
-   "body": "La devoción a la Virgen de la Altagracia en La Española se remonta a comienzos del siglo XVI: según la tradición, la imagen llegó a Salvaleón de Higüey hacia el año 1500. Cada 21 de enero, fieles de todo el país viajan a la Basílica Catedral de Nuestra Señora de la Altagracia, en la provincia La Altagracia.",
+   "body": "La devoción a la Virgen de la Altagracia en La Española se remonta a comienzos del siglo XVI: según la tradición, la imagen llegó a Salvaleón de Higüey hacia el año 1500. Se trata de una pintura de origen español que representa a la Virgen María contemplando al niño Jesús recién nacido, en una escena del nacimiento. Es considerada la protectora espiritual del pueblo dominicano, y su devoción es también muy importante fuera del país.\n\nCada 21 de enero, fieles de todo el país viajan a la Basílica Catedral de Nuestra Señora de la Altagracia, en la provincia La Altagracia, que lleva su nombre. Ese día es feriado nacional en la República Dominicana, declarado por el Congreso dominicano en el siglo XX.",
+   "deep": "Una tradición, recogida por monseñor Juan Pepén en su libro «Dónde floreció el naranjo», habla de un colono español que vivía en Salvaleón de Higüey hacia el año 1500 y que comerciaba con ganado, y relaciona la llegada de la imagen con un naranjo. A la intercesión de la Virgen se atribuyó la victoria de una fuerza hispano-dominicana sobre una francesa en 1691. La imagen ha sido coronada dos veces: la primera el 15 de agosto de 1922, en la Puerta del Conde de Santo Domingo, durante el pontificado de Pío XI, y la segunda personalmente por el papa Juan Pablo II. La devoción a la Altagracia es una de las expresiones religiosas más importantes de la identidad dominicana.",
    "sources": [
     {
      "t": "Wikipedia — Our Lady of Altagracia",
@@ -17425,7 +17486,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -17438,6 +17499,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17449,7 +17514,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En los templos sijs cualquiera puede comer gratis",
    "desc": "Se llama langar: una cocina comunitaria abierta a todos, sin importar religión, casta o condición.",
-   "body": "Cada gurdwara, o templo sij, tiene un langar donde se sirven comidas gratuitas a cualquier persona. Todos comen sentados en el suelo, juntos, como signo de igualdad. La cocina la mantienen voluntarios de la comunidad como forma de servicio desinteresado, llamado seva, y la comida es siempre vegetariana.",
+   "body": "Cada gurdwara, o templo sij, tiene un langar donde se sirven comidas gratuitas a cualquier persona, sin importar su religión, casta, género o condición social. Todos comen sentados en el suelo, juntos, como signo de igualdad. La cocina la mantienen voluntarios de la comunidad como forma de servicio desinteresado, llamado seva, y la comida es siempre vegetariana.\n\nLa tradición la inició el primer gurú de los sijs, Gurú Nanak, en el siglo XVI, y la consolidaron sus sucesores. El sijismo nació en la región del Punyab, en el norte de la India, y la idea del langar era romper con las divisiones de castas de la época, que impedían a personas de distintos grupos comer juntas.",
+   "deep": "El langar no es como un comedor social: forma parte de la vida religiosa y comunitaria de los sijs, y tanto preparar la comida como servirla y compartirla tiene un valor espiritual. Por eso, durante la pandemia de covid-19, cuando se suspendieron las reuniones religiosas, el ritual del langar también se vio interrumpido en muchos lugares. Los voluntarios cocinan, sirven, lavan los platos y limpian, y ese trabajo compartido es en sí mismo una forma de práctica religiosa.",
    "sources": [
     {
      "t": "Wikipedia — Langar (Sikhism)",
@@ -17466,7 +17532,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -17478,6 +17544,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17489,7 +17559,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Las puertas rojas de Japón marcan la entrada a un espacio sagrado",
    "desc": "Se llaman torii y están en los santuarios sintoístas.",
-   "body": "Un torii señala el paso del mundo cotidiano a un lugar sagrado. Muchos están pintados de color bermellón. El santuario Fushimi Inari de Kioto es famoso por sus miles de torii donados por personas y empresas, que forman túneles por la montaña.",
+   "body": "Un torii es una puerta tradicional japonesa que se encuentra en la entrada de los santuarios sintoístas. Señala el paso del mundo cotidiano a un lugar sagrado: al cruzarlo, se entra en el espacio de los kami, las divinidades del sintoísmo. Está formado por dos columnas verticales y dos vigas horizontales en la parte superior: una superior, el «kasagi», y otra inferior, el «nuki».\n\nMuchos están pintados de color bermellón, un color que se asocia con la protección contra el mal, aunque también los hay de madera sin pintar o de piedra. El santuario Fushimi Inari de Kioto es famoso por sus miles de torii donados por personas y empresas, que forman túneles por la montaña.",
+   "deep": "Otro torii muy famoso es el del santuario de Itsukushima, en la isla de Miyajima, que se levanta en el mar y parece flotar sobre el agua. Algunos santuarios combinan varios torii en una sola entrada, como el santuario Hibara, en Nara, que tiene tres torii unidos. Existen muchos estilos de torii, que se distinguen por detalles como la forma de los travesaños. El origen de la palabra no está claro, y una de las interpretaciones la relaciona con «lugar donde se posan los pájaros».",
    "sources": [
     {
      "t": "Universidad (religion-in-japan.univie.ac.at) — Bauten/Schreine/Torii – Religion-in-Japan",
@@ -17514,7 +17585,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -17530,6 +17601,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17541,7 +17616,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El zoroastrismo es una de las religiones más antiguas que siguen practicándose",
    "desc": "Fue la religión principal de los imperios persas.",
-   "body": "Se basa en las enseñanzas de Zoroastro (Zaratustra) y en la lucha entre el bien y el mal. Sus seguidores mantienen el fuego encendido en sus templos como símbolo de pureza. Hoy quedan comunidades relativamente pequeñas, sobre todo en la India, donde se les conoce como parsis, y en Irán.",
+   "body": "El zoroastrismo es una de las religiones más antiguas que siguen practicándose. Se basa en las enseñanzas de Zoroastro (Zaratustra), un profeta que vivió en el antiguo Irán, aunque su fecha exacta es muy discutida. Su dios supremo es Ahura Mazda, el «Señor Sabio», y su doctrina se centra en la lucha entre el bien y el mal, entre la verdad, «asha», y la mentira.\n\nSus seguidores mantienen el fuego encendido en sus templos como símbolo de pureza. Fue la religión oficial de varios grandes imperios persas, hasta la conquista islámica del siglo VII. Hoy quedan comunidades relativamente pequeñas, sobre todo en la India, donde se les conoce como parsis, y en Irán.",
+   "deep": "Su texto sagrado es el Avesta, que incluye los «Gathas», himnos atribuidos al propio Zoroastro. Su ética se resume en tres principios: buenos pensamientos, buenas palabras y buenas obras. Algunos estudiosos creen que ideas zoroastrianas, como el juicio final o el cielo y el infierno, pudieron influir en el judaísmo, el cristianismo y el islam, aunque el tema se discute. Los parsis llegaron a la India huyendo de la persecución tras la conquista islámica de Persia. Tradicionalmente no aceptan conversos y la comunidad está disminuyendo, lo que preocupa a sus miembros.",
    "sources": [
     {
      "t": "National Geographic — Heard of Zoroastrianism? The ancient religion still has fervent followers",
@@ -17574,7 +17650,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -17590,6 +17666,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22281,7 +22361,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En Córdoba hay una catedral construida dentro de una mezquita",
    "desc": "La Mezquita-Catedral fue mezquita durante siglos y desde el siglo XIII es templo cristiano.",
-   "body": "Comenzada en el siglo VIII bajo la dinastía omeya, su famoso bosque de columnas y arcos bicolores la convirtió en una obra maestra del arte islámico. Tras la conquista cristiana de Córdoba en 1236, se convirtió en catedral, y en el siglo XVI se levantó una gran nave renacentista en su interior.",
+   "body": "La gran mezquita de Córdoba se comenzó en el siglo VIII, en el año 785, bajo el emir omeya Abderramán I, y se amplió varias veces en los siglos siguientes, hasta convertirse en una de las mayores del mundo islámico. Su famoso bosque de columnas y arcos bicolores, de dos colores, la convirtió en una obra maestra del arte islámico.\n\nTras la conquista cristiana de Córdoba en 1236, se convirtió en catedral, y en el siglo XVI se levantó una gran nave renacentista en su interior. Se cuenta que el emperador Carlos V, al ver la obra terminada, lamentó que se hubiera destruido algo único en el mundo para construir algo que podía hacerse en cualquier parte.",
+   "deep": "Uno de sus elementos más famosos es el «mihrab», el nicho que indica la dirección de la oración, decorado con mosaicos dorados de estilo bizantino. Curiosamente, no está orientado exactamente hacia La Meca, sino más hacia el sur. Sus cientos de columnas, de mármol, jaspe y granito, se reutilizaron en parte de edificios romanos y visigodos anteriores. Forma parte del centro histórico de Córdoba, Patrimonio de la Humanidad por la UNESCO desde 1984. Hoy funciona como catedral católica, y hay debate sobre su nombre y su gestión.",
    "sources": [
     {
      "t": "Wikipedia — Mosque–Cathedral of Córdoba",
@@ -22306,7 +22387,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -22318,6 +22399,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22329,7 +22414,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El mayor templo budista del mundo está en Indonesia",
    "desc": "Borobudur, en Java, se construyó en el siglo IX.",
-   "body": "Está formado por nueve plataformas superpuestas, tiene 2.672 relieves y tuvo originalmente 504 estatuas de Buda. Estuvo oculto durante siglos bajo cenizas volcánicas y vegetación; el interés mundial por él despertó en 1814. Es Patrimonio de la Humanidad.",
+   "body": "Borobudur, en la isla de Java, en Indonesia, es el mayor templo budista del mundo. Se construyó en los siglos VIII y IX, durante la dinastía Sailendra. Está formado por nueve plataformas superpuestas, seis cuadradas y tres circulares, coronadas por una gran cúpula central, tiene 2.672 relieves y tuvo originalmente 504 estatuas de Buda.\n\nEstuvo oculto durante siglos bajo cenizas volcánicas y vegetación; el interés mundial por él despertó en 1814, cuando el gobernador británico de Java, Thomas Stamford Raffles, supo de su existencia y envió a investigarlo. Es Patrimonio de la Humanidad desde 1991.",
+   "deep": "El templo está pensado para recorrerse a pie: los peregrinos suben dando vueltas en el sentido de las agujas del reloj, y los relieves narran, nivel a nivel, el camino desde el mundo de los deseos hasta la iluminación. En las plataformas circulares superiores hay 72 pequeñas estupas caladas, cada una con una estatua de Buda en su interior. Entre 1975 y 1982 se llevó a cabo una gran restauración con apoyo de la UNESCO. Hoy es el monumento más visitado de Indonesia y, cada año, miles de budistas celebran allí el día de Vesak, que conmemora el nacimiento, la iluminación y la muerte de Buda.",
    "sources": [
     {
      "t": "UNESCO — Borobudur Temple Compounds",
@@ -22370,7 +22456,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -22386,6 +22472,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22397,7 +22487,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El Corán está dividido en 114 capítulos llamados suras",
    "desc": "Según la tradición islámica, fue revelado al profeta Mahoma a lo largo de unos 23 años.",
-   "body": "Cada sura se compone de versículos llamados aleyas. Poco después de la muerte de Mahoma, el Corán fue recopilado por orden del primer califa, Abu Bakr. Está escrito en árabe.",
+   "body": "El Corán, el libro sagrado del islam, está dividido en 114 capítulos llamados suras, de longitud muy variable: unas ocupan muchas páginas y otras apenas unas líneas. Cada sura se compone de versículos llamados aleyas, que en total suman 6236, aunque la cifra varía si se cuentan aparte las fórmulas iniciales. Según una estimación, el Corán tiene unas 77.430 palabras.\n\nPara los musulmanes, el Corán es la palabra de Dios revelada al profeta Mahoma a lo largo de unos 23 años, a través del arcángel Gabriel. Poco después de la muerte de Mahoma, el Corán fue recopilado por orden del primer califa, Abu Bakr. Está escrito en árabe.",
+   "deep": "Más tarde, el tercer califa, Uthman, ordenó preparar una versión estándar del texto y enviar copias a las principales ciudades del mundo islámico, y otras versiones fueron destruidas por orden suya. Las suras se clasifican en mecanas y medinenses, según si se revelaron en La Meca o en Medina. Todas, salvo una, empiezan con la fórmula «En el nombre de Dios, el Compasivo, el Misericordioso». La palabra «Corán» significa «recitación», y aprenderlo de memoria es una práctica muy valorada: a quien lo memoriza completo se le llama «hafiz». Muchos musulmanes consideran que el Corán solo es plenamente auténtico en árabe, y las traducciones se ven como interpretaciones.",
    "sources": [
     {
      "t": "Wikipedia — Quran",
@@ -22422,7 +22513,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -22435,6 +22526,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
