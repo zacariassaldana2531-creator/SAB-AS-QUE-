@@ -1342,6 +1342,14 @@ window.SQ_CONTENT = {
    "conclusion": "En una época en la que casi todo parece estar en internet, sigue existiendo un libro que nadie sabe leer.",
    "sources": [
     {
+     "t": "Universidad de Bristol — Manuscrito académico sobre el manuscrito Voynich",
+     "org": "Universidad de Bristol",
+     "title": "Manuscrito académico sobre el manuscrito Voynich",
+     "u": "https://research-information.bris.ac.uk/ws/files/201563069/Full_text_PDF_accepted_author_manuscript_.pdf",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Voynich manuscript",
      "org": "Wikipedia en inglés",
      "title": "Voynich manuscript",
@@ -1361,9 +1369,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
    "history": [
@@ -1374,6 +1382,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -1508,6 +1520,22 @@ window.SQ_CONTENT = {
    "conclusion": "Detrás de un juego familiar hay un debate económico que sigue vigente: quién se queda con la riqueza que genera la tierra.",
    "sources": [
     {
+     "t": "Publicación académica (DOI) (doi.org) — Board to Page to Board",
+     "org": "Board Game Studies Journal (De Gruyter)",
+     "title": "Board to Page to Board",
+     "u": "https://doi.org/10.1515%2Fbgs-2016-0002",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Springer Nature Link — Urban Planning Games and Simulations: From Board Games to Artificial Environments",
+     "org": "Springer Nature Link",
+     "title": "Urban Planning Games and Simulations: From Board Games to Artificial Environments",
+     "u": "https://doi.org/10.1007/978-981-10-0575-6_19",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — The Landlord's Game",
      "org": "Wikipedia en inglés",
      "title": "The Landlord's Game",
@@ -1536,9 +1564,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -1549,6 +1577,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -2451,6 +2483,14 @@ window.SQ_CONTENT = {
    "body": "Lo publicó Jawed Karim, uno de los tres fundadores de YouTube. En él aparece frente a los elefantes del Zoológico de San Diego, comentando que tienen trompas muy largas. Sigue disponible en la plataforma y acumula cientos de millones de reproducciones.",
    "sources": [
     {
+     "t": "Springer Nature Link — Interpreting the YouTube Zoo: Ethical Potential of Captive Encounters",
+     "org": "Springer Nature Link",
+     "title": "Interpreting the YouTube Zoo: Ethical Potential of Captive Encounters",
+     "u": "https://dx.doi.org/10.1007/978-3-030-63523-7_18",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Me at the zoo",
      "org": "Wikipedia en inglés",
      "title": "Me at the zoo",
@@ -2462,9 +2502,9 @@ window.SQ_CONTENT = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -2475,6 +2515,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -2910,6 +2954,14 @@ window.SQ_CONTENT = {
    "body": "Después de fijarte en algo nuevo, como una palabra o un modelo de carro, tu atención lo detecta con más facilidad, y además tiendes a recordar las veces que lo ves. El resultado es la sensación de que ahora aparece mucho más, aunque su frecuencia real no haya cambiado. El lingüista Arnold Zwicky la llamó «ilusión de frecuencia» en 2005.",
    "sources": [
     {
+     "t": "Universidad de Pensilvania (Language Log) — Language Log: Just between Dr. Language and I",
+     "org": "Universidad de Pensilvania (Language Log)",
+     "title": "Language Log: Just between Dr. Language and I",
+     "u": "http://itre.cis.upenn.edu/~myl/languagelog/archives/002386.html",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Frequency illusion",
      "org": "Wikipedia en inglés",
      "title": "Frequency illusion",
@@ -2921,9 +2973,9 @@ window.SQ_CONTENT = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
    "history": [
@@ -2934,6 +2986,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3177,6 +3233,14 @@ window.SQ_CONTENT = {
    "body": "Las técnicas de imagen cerebral muestran actividad en todas las zonas del cerebro a lo largo del día, aunque no todas a la vez. Además, una lesión en casi cualquier parte del cerebro produce algún efecto, lo que no ocurriría si el 90% no se usara. El cerebro consume alrededor del 20% de la energía del cuerpo: sería un desperdicio enorme mantener sin uso la mayor parte.",
    "sources": [
     {
+     "t": "Universidad de Washington — Neuroscience For Kids - 10% of the Brain Myth",
+     "org": "Universidad de Washington",
+     "title": "Neuroscience For Kids - 10% of the Brain Myth",
+     "u": "http://faculty.washington.edu/chudler/tenper.html",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Ten percent of the brain myth",
      "org": "Wikipedia en inglés",
      "title": "Ten percent of the brain myth",
@@ -3196,9 +3260,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3209,6 +3273,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4866,6 +4934,14 @@ window.SQ_CONTENT = {
    "body": "En un estudio, Loftus y su equipo contaron a participantes varias historias de su infancia, una de ellas inventada: haberse perdido en un centro comercial. Una parte de los participantes llegó a «recordar» el episodio falso, a veces con detalles. La memoria no es una grabación: se reconstruye cada vez que recordamos.",
    "sources": [
     {
+     "t": "Universidad de Washington — Artículo de Elizabeth Loftus (premio de la American Psychological Association)",
+     "org": "Universidad de Washington",
+     "title": "Artículo de Elizabeth Loftus (premio de la American Psychological Association)",
+     "u": "http://faculty.washington.edu/eloftus/Articles/AmerPsychAward+ArticlePDF03%20(2).pdf",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Lost in the mall technique",
      "org": "Wikipedia en inglés",
      "title": "Lost in the mall technique",
@@ -4879,9 +4955,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-23",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -4892,6 +4968,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7206,6 +7286,14 @@ window.SQ_CONTENT = {
    "body": "Las vacas son rumiantes. Su estómago tiene cuatro cavidades: rumen, retículo, omaso y abomaso. En el rumen, microbios fermentan la hierba; luego la vaca regurgita el bolo y lo vuelve a masticar, lo que llamamos rumiar. El abomaso es el compartimento que funciona como nuestro estómago.",
    "sources": [
     {
+     "t": "Fort Lewis College — Ruminant digestion (material docente)",
+     "org": "Fort Lewis College",
+     "title": "Ruminant digestion (material docente)",
+     "u": "http://faculty.fortlewis.edu/LASHELL_B/Nutr2-Rumdigestion.pdf",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Ruminant",
      "org": "Wikipedia en inglés",
      "title": "Ruminant",
@@ -7227,9 +7315,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -7240,6 +7328,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -8669,6 +8761,14 @@ window.SQ_CONTENT = {
    "body": "La idea es simple: si el mismo producto cuesta distinto en dos países, al convertir el precio a dólares se puede ver si una moneda parece «cara» o «barata». The Economist lo creó en 1986 como una forma divertida de explicar la paridad del poder adquisitivo. Es una aproximación, no una medida exacta.",
    "sources": [
     {
+     "t": "Universidad de Georgetown — The Big Mac index (artículo académico)",
+     "org": "Universidad de Georgetown",
+     "title": "The Big Mac index (artículo académico)",
+     "u": "https://faculty.georgetown.edu/cumbyr/papers/bigmac97.pdf",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Big Mac Index",
      "org": "Wikipedia en inglés",
      "title": "Big Mac Index",
@@ -8690,9 +8790,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -8703,6 +8803,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11127,6 +11231,14 @@ window.SQ_CONTENT = {
    "body": "La Revolución haitiana comenzó en 1791 en la colonia francesa de Saint-Domingue, en la parte occidental de La Española. Liderada por figuras como Toussaint Louverture y Jean-Jacques Dessalines, derrotó a las tropas francesas. Haití fue la segunda república independiente de América, después de Estados Unidos.",
    "sources": [
     {
+     "t": "Instituto Mora (México) — C.L.R. James. Los jacobinos negros. Toussaint L'Ouverture y la revolución de Haití",
+     "org": "Instituto Mora (México)",
+     "title": "C.L.R. James. Los jacobinos negros. Toussaint L'Ouverture y la revolución de Haití",
+     "u": "https://www.institutomora.edu.mx/Seminarios/visioneshistoricas/SiteAssets/SitePages/Lecturas/C.L.R.%20James.%20Los%20jacobinos%20negros.%20Toussaint%20L'Ouverture%20y%20la%20revolucio%CC%81n%20de%20Haiti%CC%81.pdf",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Haitian Revolution",
      "org": "Wikipedia en inglés",
      "title": "Haitian Revolution",
@@ -11140,9 +11252,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-15",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11153,6 +11265,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11304,6 +11420,14 @@ window.SQ_CONTENT = {
    "body": "Cuando creemos algo, prestamos más atención a lo que lo confirma y descartamos lo que lo contradice. El psicólogo Peter Wason estudió este fenómeno en los años sesenta con tareas lógicas. Una forma de combatirlo es buscar a propósito argumentos que contradigan nuestra opinión.",
    "sources": [
     {
+     "t": "Springer Nature Link — Psychology of the scientist: An analysis of problem-solving bias | Cognitive Therapy and Research",
+     "org": "Cognitive Therapy and Research (Springer)",
+     "title": "Psychology of the scientist: An analysis of problem-solving bias",
+     "u": "https://doi.org/10.1007%2FBF01186796",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Confirmation bias",
      "org": "Wikipedia en inglés",
      "title": "Confirmation bias",
@@ -11317,9 +11441,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-23",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
    "history": [
@@ -11330,6 +11454,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11445,6 +11573,14 @@ window.SQ_CONTENT = {
    "body": "Dunbar relacionó el tamaño del cerebro de los primates con el tamaño de sus grupos sociales y estimó que los humanos podemos mantener relaciones significativas con alrededor de 150 personas. La cifra es una estimación muy discutida: otros investigadores obtienen rangos distintos con métodos diferentes.",
    "sources": [
     {
+     "t": "Harvard University Press — Grooming, Gossip, and the Evolution of Language — Harvard University Press",
+     "org": "Harvard University Press",
+     "title": "Grooming, Gossip, and the Evolution of Language",
+     "u": "http://www.hup.harvard.edu/catalog.php?isbn=9780674363366",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Dunbar's number",
      "org": "Wikipedia en inglés",
      "title": "Dunbar's number",
@@ -11458,9 +11594,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-02",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hipotesis",
    "claimNote": "Es una propuesta teórica: otros investigadores, como Bernard y Killworth, han obtenido cifras distintas, y su análisis ha recibido críticas.",
@@ -11472,6 +11608,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12879,6 +13019,14 @@ window.SQ_CONTENT = {
    "body": "Las crestas de las huellas dactilares se forman antes del nacimiento y dependen de factores como la posición en el útero y el contacto con el líquido amniótico. Por eso incluso los gemelos idénticos, con el mismo ADN, tienen huellas diferentes.",
    "sources": [
     {
+     "t": "Dartmouth College — Ridgeology: fingerprints and identical twins",
+     "org": "Dartmouth College",
+     "title": "Ridgeology: fingerprints and identical twins",
+     "u": "https://chance.dartmouth.edu/chance_news/for_chance_news/ChanceNews12.05/ridgeology.pdf",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Fingerprint",
      "org": "Wikipedia en inglés",
      "title": "Fingerprint",
@@ -12892,9 +13040,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-31",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12905,6 +13053,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12918,6 +13070,14 @@ window.SQ_CONTENT = {
    "desc": "Es uno de los órganos que más energía consume.",
    "body": "Aunque solo pesa alrededor de 1,4 kilos en un adulto, el cerebro consume una gran parte de la energía que usa el cuerpo en reposo. Su principal combustible es la glucosa. Esa enorme demanda es una de las razones por las que el cerebro necesita un aporte constante de sangre.",
    "sources": [
+    {
+     "t": "PLOS — Scaling of Brain Metabolism with a Fixed Energy Budget per Neuron: Implications for Neuronal Activity, Plasticity and Evolution",
+     "org": "PLOS",
+     "title": "Scaling of Brain Metabolism with a Fixed Energy Budget per Neuron: Implications for Neuronal Activity, Plasticity and Evolution",
+     "u": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0017514",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Human brain",
      "org": "Wikipedia en inglés",
@@ -12940,9 +13100,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12953,6 +13113,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13283,6 +13447,14 @@ window.SQ_CONTENT = {
    "body": "El lago Titicaca es el más grande de Sudamérica por volumen de agua. En él viven los uros, que construyen islas flotantes con totora, un junco que crece en el lago. Para muchas culturas andinas, incluido el pueblo inca, era un lugar sagrado.",
    "sources": [
     {
+     "t": "UNESCO — Centro del Patrimonio Mundial — Sacred Titicaca Lake",
+     "org": "UNESCO — Centro del Patrimonio Mundial",
+     "title": "Sacred Titicaca Lake",
+     "u": "http://whc.unesco.org/fr/listesindicatives/1817/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Lake Titicaca",
      "org": "Wikipedia en inglés",
      "title": "Lake Titicaca",
@@ -13296,9 +13468,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-16",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -13309,6 +13481,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -14074,6 +14250,14 @@ window.SQ_CONTENT = {
    "body": "Las poblaciones de lemmings varían mucho y, en algunos años, migran en grandes números; algunos se ahogan al cruzar ríos o lagos. Pero no hay un suicidio colectivo. La idea ya circulaba en el siglo XIX, y se popularizó con White Wilderness, un documental de Disney de 1958 que ganó un Óscar: sus productores arrojaron a los lemmings por un acantilado para filmar la escena.",
    "sources": [
     {
+     "t": "Departamento de Pesca y Caza de Alaska (EE. UU.) — Lemming Suicide Myth, Alaska Department of Fish and Game",
+     "org": "Departamento de Pesca y Caza de Alaska (EE. UU.)",
+     "title": "Lemming Suicide Myth, Alaska Department of Fish and Game",
+     "u": "http://www.adfg.alaska.gov/index.cfm?adfg=wildlifenews.view_article&articles_id=56",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Lemming",
      "org": "Wikipedia en inglés",
      "title": "Lemming",
@@ -14096,9 +14280,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -14109,6 +14293,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -18878,6 +19066,14 @@ window.SQ_CONTENT = {
    "body": "En un estudio clásico, Robert Rosenthal y Lenore Jacobson dijeron a maestros que ciertos alumnos, elegidos al azar, tenían gran potencial. Al final del curso, algunos de esos alumnos mejoraron más. El estudio ha sido criticado y replicado con resultados variables, pero la idea de que las expectativas influyen sigue estudiándose.",
    "sources": [
     {
+     "t": "Universidad de Illinois — Teacher expectations: self-fulfilling prophecies (Jussim, Behavioral and Brain Sciences)",
+     "org": "Universidad de Illinois",
+     "title": "Teacher expectations: self-fulfilling prophecies (Jussim, Behavioral and Brain Sciences)",
+     "u": "https://labs.psychology.illinois.edu/~acimpian/reprints/jussim_BBS.pdf",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Pygmalion effect",
      "org": "Wikipedia en inglés",
      "title": "Pygmalion effect",
@@ -18899,9 +19095,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-18",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hipotesis",
    "claimNote": "El estudio original ha sido criticado y los intentos de replicarlo han dado resultados variables.",
@@ -18913,6 +19109,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
