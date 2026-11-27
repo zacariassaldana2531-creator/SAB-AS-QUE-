@@ -1918,7 +1918,8 @@ window.SQ_CONTENT = {
    "sub": "Física",
    "title": "Los plátanos son ligeramente radiactivos",
    "desc": "Contienen potasio, y una pequeña parte es potasio-40, un isótopo radiactivo natural.",
-   "body": "El potasio es esencial para el cuerpo, y una fracción mínima del potasio natural es potasio-40, que es radiactivo. Por eso el plátano, rico en potasio, emite una radiactividad diminuta. Es tan baja que comer plátanos es completamente seguro: tu propio cuerpo contiene potasio-40. Incluso se ha usado, de forma informal, la «dosis equivalente a un plátano» para explicar cantidades pequeñas de radiación.",
+   "body": "Los plátanos son ligeramente radiactivos, y no es un error ni un peligro. La razón es el potasio: el plátano es rico en este mineral, esencial para el cuerpo, y una fracción mínima del potasio natural es potasio-40, un isótopo radiactivo que existe en la naturaleza desde la formación de la Tierra.\n\nLa radiactividad de un plátano es diminuta, tanto que comer plátanos es completamente seguro. Tu propio cuerpo contiene potasio-40 y otros isótopos radiactivos naturales, y el organismo mantiene estable su nivel de potasio: si comes más, elimina el sobrante. Por eso el plátano no se «acumula» como fuente de radiación.",
+   "deep": "De esta curiosidad nació una unidad informal: la «dosis equivalente a un plátano», que compara una exposición a la radiación con la que se recibe al comer un plátano de tamaño medio. Se usa con fines educativos para poner en perspectiva cantidades muy pequeñas de radiación, como la de una radiografía dental o la de un vuelo en avión, que equivalen a la de muchos plátanos. Los científicos advierten que es solo una comparación aproximada, porque el cuerpo regula el potasio y la dosis real de comer un plátano no se acumula. Otros alimentos ricos en potasio, como las papas, las judías o los frutos secos, tienen el mismo «defecto».",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Are Bananas Radioactive?",
@@ -1950,7 +1951,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -1966,6 +1967,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -1979,7 +1984,8 @@ window.SQ_CONTENT = {
    "sub": "Química de los alimentos",
    "title": "La miel bien guardada puede durar miles de años",
    "desc": "Se ha encontrado miel en tumbas egipcias que, según los arqueólogos, seguía en buen estado.",
-   "body": "La miel tiene muy poca agua y mucha azúcar, lo que deshidrata a las bacterias. Además es ácida y las abejas añaden una enzima que produce pequeñas cantidades de peróxido de hidrógeno. Mientras esté bien cerrada y no absorba humedad, prácticamente no se echa a perder. Si se cristaliza, no está dañada: basta con calentarla suavemente.",
+   "body": "La miel bien guardada puede durar muchísimo tiempo sin echarse a perder, y se han conservado durante siglos objetos sumergidos en ella. Eso sí, hay que desmentir una historia muy repetida: no se ha encontrado miel comestible en las tumbas egipcias; todos esos casos resultaron ser otras sustancias o solo restos químicos. Lo que sí es cierto es que la química de la miel la protege muy bien.\n\nLa miel tiene muy poca agua y mucha azúcar, lo que deshidrata a las bacterias y hongos que intentan crecer en ella: el agua sale de sus células y mueren. Además es ácida, y las abejas añaden una enzima que produce pequeñas cantidades de peróxido de hidrógeno, un antiséptico. Mientras esté bien cerrada y no absorba humedad del aire, prácticamente no se estropea.",
+   "deep": "La miel es higroscópica: absorbe agua del ambiente si se deja abierta, y si su contenido de agua sube, pueden fermentarla las levaduras. Por eso hay que guardarla bien tapada. Con el tiempo es normal que se cristalice, sobre todo si tiene mucha glucosa: no está dañada, basta con calentarla suavemente al baño maría. La industria aprovecha ese proceso para producir la miel cremosa, en la que se controla la cristalización para obtener una textura untable. La recolección de miel es una actividad antiquísima, muy anterior a la domesticación de las abejas.",
    "sources": [
     {
      "t": "Smithsonian Magazine (Smithsonian Institution) — The Science Behind Honey’s Eternal Shelf Life",
@@ -2010,7 +2016,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -2026,6 +2032,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -2039,7 +2049,8 @@ window.SQ_CONTENT = {
    "sub": "Océanos",
    "title": "Buena parte del oxígeno que respiras viene del mar",
    "desc": "Los científicos estiman que el océano produce alrededor de la mitad del oxígeno de la Tierra.",
-   "body": "La mayor parte de ese oxígeno lo producen organismos microscópicos llamados fitoplancton, que hacen fotosíntesis como las plantas. Uno de ellos, la bacteria Prochlorococcus, es tan abundante que se considera uno de los organismos fotosintéticos más numerosos del planeta. Por eso la salud de los océanos importa incluso a quien vive lejos de la costa.",
+   "body": "Pensamos en los bosques como los «pulmones del planeta», pero los científicos estiman que aproximadamente la mitad del oxígeno que se produce en la Tierra viene del océano. Ese oxígeno lo generan sobre todo organismos microscópicos llamados fitoplancton, que flotan en la superficie del mar y hacen fotosíntesis como las plantas.\n\nEntre ellos destacan algas microscópicas y bacterias fotosintéticas. Una de esas bacterias, Prochlorococcus, es tan abundante que se considera uno de los organismos fotosintéticos más numerosos del planeta, y produce por sí sola una parte notable del oxígeno de la biosfera. La cantidad de fitoplancton varía según la estación, los nutrientes del agua y la luz.",
+   "deep": "Hay un matiz importante: aunque el océano produce al menos el 50 % del oxígeno de la Tierra, la vida marina consume aproximadamente la misma cantidad, porque los animales y los microbios del mar también respiran y descomponen la materia orgánica. Así que la mayor parte del oxígeno del océano no llega a nuestros pulmones de forma directa. Aun así, el fitoplancton es la base de las redes alimentarias marinas y absorbe dióxido de carbono, por lo que la salud de los océanos importa también a quien vive lejos de la costa.",
    "sources": [
     {
      "t": "NOAA Ocean Service — How much oxygen comes from the ocean?",
@@ -2053,7 +2064,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-21",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -2065,6 +2076,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-21",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -2078,7 +2093,8 @@ window.SQ_CONTENT = {
    "sub": "Estrellas",
    "title": "Una cucharadita de estrella de neutrones pesaría miles de millones de toneladas",
    "desc": "Son los restos de estrellas que explotaron, comprimidos hasta un tamaño de unos 20 km.",
-   "body": "Cuando una estrella muy grande explota como supernova, su núcleo puede colapsar y formar una estrella de neutrones: con más masa que el Sol, pero del tamaño de una ciudad. La materia queda tan comprimida que una porción del tamaño de una cucharadita pesaría miles de millones de toneladas en la Tierra. Algunas giran cientos de veces por segundo.",
+   "body": "Cuando una estrella mucho más grande que el Sol agota su combustible, su núcleo colapsa y la estrella explota como supernova. Lo que queda del núcleo puede convertirse en una estrella de neutrones: un objeto con más masa que el Sol comprimida en una esfera de unos 10 kilómetros de radio, el tamaño de una ciudad. Su masa típica es de unas 1,4 veces la del Sol.\n\nLa materia queda tan comprimida que los protones y los electrones se fusionan en neutrones, y una porción del tamaño de una cucharadita pesaría en la Tierra unos 3000 millones de toneladas, lo mismo que medio kilómetro cúbico de roca terrestre. La gravedad en su superficie es enorme, y su campo magnético es miles de millones de veces más intenso que el de la Tierra. Muchas giran a gran velocidad: algunas dan cientos de vueltas por segundo.",
+   "deep": "Algunas estrellas de neutrones emiten haces de radiación desde sus polos magnéticos que barren el espacio como un faro. Si uno de esos haces apunta hacia la Tierra, recibimos pulsos regulares: son los púlsares. El primero lo descubrió en 1967 la astrónoma Jocelyn Bell Burnell, y su regularidad era tan precisa que al principio se bromeó con que fueran señales extraterrestres. En 2017 se detectaron por primera vez ondas gravitacionales producidas por el choque de dos estrellas de neutrones, un evento que también fabricó elementos pesados como el oro.",
    "sources": [
     {
      "t": "NASA — Pulsars",
@@ -2101,7 +2117,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -2117,6 +2133,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4184,7 +4204,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El hielo flota porque el agua hace algo muy raro al congelarse",
    "desc": "Casi todas las sustancias se encogen al solidificarse. El agua, en cambio, se expande.",
-   "body": "Al congelarse, las moléculas de agua se ordenan en una red con mucho espacio entre ellas, así que el hielo es menos denso que el agua líquida y flota. Esa rareza es vital: los lagos se congelan desde arriba, la capa de hielo aísla el agua de abajo y los peces sobreviven al invierno. También explica por qué una botella de agua llena puede reventar en el congelador.",
+   "body": "Casi todas las sustancias son más densas en estado sólido que en estado líquido, así que su forma sólida se hunde en su propio líquido. El agua es una excepción: el hielo flota. Al congelarse, las moléculas de agua se ordenan en una red cristalina con mucho espacio entre ellas, así que el hielo ocupa más volumen y es menos denso que el agua líquida.\n\nEsa rareza es vital para la vida. Los lagos y los ríos se congelan desde arriba: la capa de hielo flota, aísla el agua de abajo y los peces sobreviven al invierno en el agua líquida. Si el hielo se hundiera, los lagos se congelarían de abajo arriba y muchos se volverían bloques de hielo. Esta expansión explica también por qué una botella de agua llena puede reventar en el congelador.",
+   "deep": "El agua líquida alcanza su densidad máxima a unos 4 °C. Por eso, en invierno, el agua del fondo de un lago helado suele estar a esa temperatura. La causa de todo está en los puentes de hidrógeno, las atracciones entre las moléculas de agua, que al formarse el hielo las obligan a colocarse en una estructura hexagonal abierta. Hay una excepción curiosa: el hielo hecho con agua pesada, cuyas moléculas contienen deuterio, es más denso que el agua normal y se hunde en ella.",
    "sources": [
     {
      "t": "Servicio Geológico de EE. UU. (USGS) — Water Density",
@@ -4217,7 +4238,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -4233,6 +4254,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4244,7 +4269,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El sonido viaja más de cuatro veces más rápido en el agua que en el aire",
    "desc": "En el aire recorre unos 343 metros por segundo; en el agua, cerca de 1.480.",
-   "body": "El sonido es una vibración que pasa de partícula en partícula. En el agua las partículas están mucho más juntas y el medio es más difícil de comprimir, por eso la vibración se transmite más rápido. En sólidos como el acero es todavía más veloz. Las ballenas aprovechan el agua para comunicarse a distancias enormes.",
+   "body": "El sonido es una vibración que se propaga de partícula en partícula a través de un medio, como el aire, el agua o un sólido. Por eso en el vacío del espacio no hay sonido. Y la velocidad a la que viaja depende mucho del medio: en el aire, a temperatura ambiente, recorre unos 343 metros por segundo; en el agua dulce a 20 °C, unos 1481, algo más de cuatro veces más rápido.\n\nLa razón es que el agua es mucho más difícil de comprimir que el aire, y cuanto más «rígido» es un medio, más rápido se transmite la vibración. En los sólidos el sonido es todavía más veloz: en el hierro alcanza unos 5120 metros por segundo, casi quince veces más que en el aire, y en algunos aceros se han medido cerca de 5930. Las ballenas aprovechan las propiedades del agua para comunicarse a distancias enormes con sonidos de baja frecuencia.",
+   "deep": "La velocidad del sonido en el aire depende sobre todo de la temperatura, no de la presión: cuanto más caliente está el aire, más rápido viaja el sonido. Superar esa velocidad tiene consecuencias: un avión que vuela más rápido que el sonido genera una onda de choque que oímos como un estampido sónico. En el océano, la combinación de temperatura y presión crea capas donde el sonido puede viajar miles de kilómetros, algo que se aprovecha en la investigación submarina.",
    "sources": [
     {
      "t": "Wikipedia — Speed of sound",
@@ -4261,7 +4287,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -4273,6 +4299,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4350,7 +4380,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El helio se descubrió en el Sol antes que en la Tierra",
    "desc": "Se detectó en 1868 en la luz solar y no se aisló en la Tierra hasta 1895.",
-   "body": "Durante un eclipse en 1868, los astrónomos vieron en la luz del Sol una línea de color que no correspondía a ningún elemento conocido. Lo llamaron helio, del griego «helios», Sol. Fue en 1895 cuando el químico William Ramsay lo aisló en la Tierra a partir de un mineral. Es el segundo elemento más abundante del universo.",
+   "body": "El helio es uno de los pocos elementos que se descubrieron fuera de la Tierra. Durante un eclipse total de Sol en 1868, el astrónomo francés Pierre Janssen observó en la luz del Sol una línea amarilla que no correspondía a ningún elemento conocido. El astrónomo inglés Norman Lockyer propuso que se trataba de un elemento nuevo y lo llamó helio, del griego helios, «Sol».\n\nDurante años, muchos dudaron de que existiera en la Tierra. Fue el 26 de marzo de 1895 cuando el químico escocés William Ramsay lo aisló por primera vez en nuestro planeta, al tratar con ácidos un mineral de uranio llamado cleveíta. Aunque en la Tierra es escaso, el helio es el segundo elemento más abundante del universo, después del hidrógeno.",
+   "deep": "Para descubrir el helio en el Sol se usó la espectroscopia: cada elemento, al calentarse, emite luz solo en ciertos colores, como si tuviera una «huella dactilar» de líneas. Comparando las líneas de la luz del Sol con las de los elementos conocidos, apareció una que no encajaba. En el universo, el helio constituye cerca del 23 % de la masa de la materia ordinaria, y gran parte se formó en los primeros minutos tras el Big Bang. En la Tierra se obtiene del gas natural, donde se acumula a partir de la desintegración radiactiva de elementos como el uranio.",
    "sources": [
     {
      "t": "Organismo gubernamental (lanl.gov) — Helium He 2",
@@ -4375,7 +4406,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -4391,6 +4422,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4402,7 +4437,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La cebolla te hace llorar con un gas que fabrica al cortarla",
    "desc": "Al romper sus células se forma un compuesto volátil que irrita los ojos.",
-   "body": "Cuando cortas una cebolla, rompes sus células y se mezclan sustancias que estaban separadas. La reacción produce un gas llamado óxido de syn-propanotial-S, que llega a tus ojos y estimula las glándulas lagrimales. Enfriar la cebolla antes de cortarla y usar un cuchillo bien afilado reduce el efecto.",
+   "body": "Cortar una cebolla hace llorar casi a cualquiera, y la culpa no es de la cebolla entera, sino de una reacción química que empieza en el momento del corte. La cebolla guarda por separado ciertas sustancias y las enzimas capaces de transformarlas. Al cortarla, rompes sus células y esas sustancias se mezclan.\n\nLa reacción produce un gas volátil llamado óxido de syn-propanotial-S. Ese gas llega a tus ojos, irrita las terminaciones nerviosas de la córnea y estimula las glándulas lagrimales, que producen lágrimas para eliminarlo. Por eso el efecto empieza unos segundos después de cortar y aumenta cuanto más picas. Enfriar la cebolla antes de cortarla y usar un cuchillo bien afilado, que rompe menos células, reduce el efecto.",
+   "deep": "Es un mecanismo de defensa de la planta: protege el bulbo de animales que intenten comérselo. Las mismas reacciones químicas dan a la cebolla su sabor y su olor característicos, que cambian al cocinarla porque el calor destruye las enzimas. La cebolla es una de las hortalizas más cultivadas del mundo, solo superada en volumen de producción por el tomate, y se cultiva mejor en suelos fértiles y bien drenados. Se ha consumido y cultivado durante miles de años en muchas culturas.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Why Do Onions Make You Cry?",
@@ -4436,7 +4472,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -4452,6 +4488,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4463,7 +4503,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El primer antibiótico se descubrió por un descuido",
    "desc": "En 1928, Alexander Fleming notó que un moho había matado las bacterias de una placa olvidada.",
-   "body": "Al volver de vacaciones, Fleming encontró que una de sus placas con bacterias se había contaminado con un moho, y alrededor de él las bacterias habían muerto. Ese moho producía penicilina. Pasaron más de diez años hasta que otros científicos, como Howard Florey y Ernst Chain, lograron producirla en cantidad. Los tres compartieron el Premio Nobel en 1945.",
+   "body": "El 3 de septiembre de 1928, el médico escocés Alexander Fleming volvió a su laboratorio de Londres tras unas vacaciones con su familia y encontró algo extraño en una de sus placas de cultivo con bacterias: se había contaminado con un moho, y alrededor del moho las bacterias habían muerto. Ese moho, del género Penicillium, producía una sustancia capaz de matar bacterias.\n\nDurante meses la llamó «jugo de moho» o «el inhibidor», hasta que el 7 de marzo de 1929 le dio el nombre de penicilina. Pero Fleming no logró purificarla en cantidades útiles. Más de diez años después, un equipo de la Universidad de Oxford, con Howard Florey y Ernst Chain, consiguió producirla; en 1940 empezaron los ensayos clínicos, y su éxito impulsó la producción y distribución en masa. Los tres compartieron el Premio Nobel de Medicina en 1945.",
+   "deep": "La penicilina actúa sobre la pared celular de las bacterias, una estructura que las células humanas no tienen, y por eso puede matarlas sin dañarnos. Las bacterias llamadas grampositivas, que no tienen membrana externa y están envueltas solo en una pared gruesa, son especialmente sensibles a ella, porque sus moléculas, muy pequeñas, atraviesan esa pared. Fue el primer antibiótico de uso generalizado y abrió la era de los antibióticos, que transformó la medicina: infecciones que antes eran mortales se volvieron curables. Fleming fue modesto sobre su papel y solía hablar del «mito de Fleming».",
    "sources": [
     {
      "t": "Fundación Nobel — Sir Alexander Fleming – Biographical",
@@ -4505,7 +4546,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -4521,6 +4562,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4532,7 +4577,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Los arcoíris en realidad son círculos completos",
    "desc": "Desde el suelo solo vemos un arco porque el horizonte tapa el resto.",
-   "body": "Un arcoíris se forma cuando la luz del Sol se refracta y se refleja dentro de las gotas de lluvia. Las gotas que envían luz hacia tus ojos forman un círculo alrededor del punto opuesto al Sol. Desde el suelo, la tierra corta la mitad inferior; desde un avión o una montaña, a veces se ve el círculo completo.",
+   "body": "Un arcoíris se forma cuando la luz del Sol entra en las gotas de lluvia, se refracta, se refleja en su interior y vuelve a salir separada en colores. Cada color sale con un ángulo ligeramente distinto. Las gotas que envían luz hacia tus ojos con el ángulo justo están todas a la misma distancia angular del punto del cielo opuesto al Sol, y por eso forman un círculo.\n\nEn teoría, todo arcoíris es un círculo completo. Desde el suelo, el horizonte corta la mitad inferior y solo vemos un arco. Pero desde un avión, una montaña alta o incluso con un aspersor de jardín, a veces se puede ver el círculo entero. Por la misma geometría, el arcoíris siempre aparece en el lado del cielo opuesto al Sol, y nunca se puede «llegar» a él: se mueve contigo.",
+   "deep": "El arco principal se forma con un ángulo de unos 42 grados respecto al punto opuesto al Sol, con el rojo por fuera y el violeta por dentro. A veces aparece un segundo arco, más tenue y con los colores invertidos, causado por un segundo reflejo dentro de las gotas. Entre ambos arcos el cielo se ve más oscuro: es la llamada banda de Alejandro. Existe incluso un fenómeno muy raro, el arcoíris gemelo, en el que dos arcos se separan desde una misma base, posiblemente por la mezcla de gotas de distintos tamaños.",
    "sources": [
     {
      "t": "NASA — APOD: 2014 September 30 - A Full Circle Rainbow over Australia",
@@ -4557,7 +4603,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -4573,6 +4619,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4584,7 +4634,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El cielo es azul porque el aire dispersa más la luz azul",
    "desc": "Se llama dispersión de Rayleigh. También explica los atardeceres rojizos.",
-   "body": "La luz del Sol contiene todos los colores. Al chocar con las moléculas del aire, las longitudes de onda cortas, como el azul, se dispersan en todas direcciones mucho más que el rojo. Por eso vemos azul por todo el cielo. Al atardecer, la luz atraviesa mucha más atmósfera, el azul se pierde por el camino y llegan sobre todo los tonos rojos y naranjas.",
+   "body": "La luz del Sol parece blanca, pero contiene todos los colores. Al atravesar la atmósfera, choca con las moléculas del aire, mucho más pequeñas que la longitud de onda de la luz, y se dispersa en todas direcciones. Este fenómeno se llama dispersión de Rayleigh, por el físico británico Lord Rayleigh, que lo explicó en el siglo XIX.\n\nLa clave es que la dispersión depende muchísimo del color: las longitudes de onda cortas, como el azul, se dispersan mucho más que las largas, como el rojo. Por eso, mires adonde mires, te llega luz azul dispersada desde todo el cielo. Al atardecer, la luz del Sol atraviesa mucha más atmósfera antes de llegar a ti; el azul se pierde por el camino y llegan sobre todo los tonos rojos y naranjas.",
+   "deep": "La intensidad de la dispersión de Rayleigh es inversamente proporcional a la cuarta potencia de la longitud de onda. Dicho de forma sencilla: si la longitud de onda se reduce a la mitad, la dispersión se multiplica por dieciséis. ¿Por qué entonces el cielo no es violeta, si el violeta tiene una longitud de onda aún más corta? Porque la luz del Sol contiene menos violeta, parte se absorbe en la alta atmósfera y nuestros ojos son menos sensibles a él. El mismo fenómeno limita las fibras ópticas, donde la dispersión de Rayleigh es una de las causas de pérdida de señal.",
    "sources": [
     {
      "t": "NASA Space Place — Why Is the Sky Blue?",
@@ -4617,7 +4668,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -4633,6 +4684,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5668,7 +5723,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Un día en Marte dura casi lo mismo que en la Tierra",
    "desc": "Un día marciano, llamado «sol», dura unas 24 horas y 39 minutos.",
-   "body": "Aunque Marte es muy distinto a la Tierra, gira sobre sí mismo a un ritmo parecido. Los equipos que controlan los robots en Marte trabajan con horarios marcianos, y como cada día es unos 40 minutos más largo, su jornada se va desfasando respecto a la hora terrestre. Un año en Marte, en cambio, dura unos 687 días terrestres.",
+   "body": "Marte es muy distinto de la Tierra, pero gira sobre sí mismo a un ritmo sorprendentemente parecido. Un día marciano, que los científicos llaman «sol», dura unas 24 horas y 39 minutos, solo unos 40 minutos más que un día terrestre. Su eje también está inclinado de forma parecida al de la Tierra, así que Marte tiene estaciones.\n\nLos equipos que controlan los robots exploradores en Marte trabajan con horarios marcianos, porque los vehículos funcionan con la luz del Sol. Como cada sol es unos 40 minutos más largo, su jornada laboral se va retrasando respecto a la hora terrestre, y en pocas semanas pueden acabar trabajando de madrugada. Algunos miembros de los equipos han llegado a usar relojes ajustados a la hora de Marte.",
+   "deep": "El año marciano, en cambio, es mucho más largo: unos 687 días terrestres, porque Marte está más lejos del Sol y recorre una órbita mayor. Eso significa que cada estación marciana dura aproximadamente el doble que en la Tierra. Su órbita es además más elíptica que la nuestra, así que las estaciones tienen duraciones distintas entre sí. La inclinación de su eje, de unos 25 grados, es muy parecida a los 23,4 grados de la Tierra.",
    "sources": [
     {
      "t": "NASA — Planetary Physical Parameters",
@@ -5710,7 +5766,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -5726,6 +5782,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5737,7 +5797,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Saturno es menos denso que el agua",
    "desc": "Es el único planeta del sistema solar con una densidad media menor que la del agua.",
-   "body": "Saturno es enorme, pero está formado sobre todo por hidrógeno y helio. Su densidad media es de unos 0,69 gramos por centímetro cúbico, menor que la del agua. Suele decirse que «flotaría en una bañera gigante», aunque es solo una forma de explicarlo: un planeta de gas no se comportaría como un barco.",
+   "body": "Saturno es el segundo planeta más grande del sistema solar, después de Júpiter. Y sin embargo es el único planeta con una densidad media menor que la del agua: unos 0,69 gramos por centímetro cúbico, frente a 1 del agua. La razón es que está formado sobre todo por hidrógeno y helio, los dos elementos más ligeros.\n\nPor eso suele decirse que «flotaría en una bañera gigante». Es solo una forma de explicarlo: un planeta de gas no se comportaría como un barco, y no existe ninguna bañera de ese tamaño. Su baja densidad, junto con su rápida rotación, hace que Saturno esté visiblemente achatado: su diámetro en el ecuador es alrededor de un 10 % mayor que de polo a polo.",
+   "deep": "Saturno gira muy rápido: sus latitudes medias completan una vuelta en unas 10 horas y 38 minutos. Sus famosos anillos están formados por innumerables fragmentos de hielo y roca, desde granos de polvo hasta bloques del tamaño de una casa, y aunque se extienden cientos de miles de kilómetros, en general tienen apenas unos diez metros de grosor. Saturno tiene además una enorme familia de lunas, entre ellas Titán, la única luna con una atmósfera densa. Los romanos llamaron al séptimo día de la semana Saturni dies, «día de Saturno», origen del inglés «Saturday».",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Saturn",
@@ -5771,7 +5832,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -5787,6 +5848,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5798,7 +5863,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El volcán más grande del sistema solar está en Marte",
    "desc": "El Monte Olimpo mide unos 22 km de altura, más de dos veces el Everest.",
-   "body": "El Monte Olimpo (Olympus Mons) es un volcán en escudo gigantesco. Su base es tan ancha que, si estuvieras en su cima, la curvatura de Marte te impediría ver sus bordes. Pudo crecer tanto porque Marte no tiene placas tectónicas que muevan la corteza, así que el magma salía siempre por el mismo punto.",
+   "body": "El Monte Olimpo, Olympus Mons en latín, es el volcán más grande conocido del sistema solar. Es un volcán en escudo, como los de Hawái, pero a una escala gigantesca: desde el pie de los acantilados de su borde noroeste hasta la cima se eleva más de 21 kilómetros, algo más del doble que el Mauna Kea medido desde el fondo del océano, y su base mide unos 600 kilómetros de ancho.\n\nSu base es tan ancha y sus laderas tan suaves que, si estuvieras en su cima, no verías sus bordes: la curvatura de Marte los ocultaría bajo el horizonte. Pudo crecer tanto por dos razones. Marte no tiene placas tectónicas móviles: su corteza permanece fija sobre un punto caliente, así que el magma salía siempre por el mismo lugar durante muchísimo tiempo. Y la gravedad de Marte es menor que la de la Tierra, lo que permite sostener montañas más altas.",
+   "deep": "Olympus Mons está en la región de Tharsis, una enorme meseta volcánica donde se alinean otros volcanes gigantes. Su cima tiene una caldera formada por varios cráteres superpuestos, de unos 80 kilómetros de largo, que se formaron cuando la cámara de magma se vació y el terreno se hundió. En su base hay un acantilado de hasta varios kilómetros de altura. Los científicos creen que algunas de sus coladas de lava son relativamente recientes en términos geológicos.",
    "sources": [
     {
      "t": "NASA — Mars Resources",
@@ -5839,7 +5905,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -5855,6 +5921,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5866,7 +5936,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Una nave lanzada en 1977 es el objeto humano más lejano",
    "desc": "La Voyager 1 entró en el espacio interestelar en 2012 y sigue enviando datos.",
-   "body": "La Voyager 1 se lanzó en 1977 para estudiar Júpiter y Saturno. Después siguió su camino y en 2012 cruzó el límite de la burbuja de partículas del Sol, la heliosfera. Lleva un disco de oro con sonidos e imágenes de la Tierra, por si algún día alguien la encuentra.",
+   "body": "La sonda Voyager 1 despegó el 5 de septiembre de 1977 para estudiar Júpiter y Saturno, y aprovechó la posición de los planetas para ganar velocidad con su gravedad. Tras pasar por Saturno en 1980, siguió alejándose del Sol y hoy es el objeto fabricado por el ser humano más lejano de la Tierra.\n\nEn agosto de 2012 cruzó la heliopausa, el límite de la burbuja de partículas y campos magnéticos que crea el viento solar, y se convirtió en el primer objeto humano en llegar al espacio interestelar. Sigue enviando datos con una antena de radio, aunque su señal tarda más de un día en llegar a la Tierra y su energía, que procede de generadores de plutonio, va disminuyendo poco a poco.",
+   "deep": "La Voyager 1 lleva un disco de cobre bañado en oro, el «Disco de Oro», con sonidos e imágenes de la Tierra: saludos en decenas de idiomas, música de distintas culturas y sonidos de la naturaleza, por si algún día alguna civilización la encuentra. Su gemela, la Voyager 2, lleva otro igual. En 1990, a petición de Carl Sagan, la Voyager 1 tomó la famosa fotografía del «Pálido punto azul», en la que la Tierra aparece como un diminuto punto de luz.",
    "sources": [
     {
      "t": "NASA — Voyager 1: The Farthest Spacecraft",
@@ -5908,7 +5979,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -5924,6 +5995,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5935,7 +6010,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El Sol tiene el 99,86% de toda la masa del sistema solar",
    "desc": "Todos los planetas, lunas y asteroides juntos son apenas un resto.",
-   "body": "El Sol es tan masivo que concentra casi toda la masa del sistema solar. De lo que queda, la mayor parte corresponde a Júpiter. La Tierra, comparada con el Sol, es diminuta: en su volumen cabrían alrededor de un millón de Tierras.",
+   "body": "El Sol es tan masivo que concentra alrededor del 99,86 % de toda la masa del sistema solar. Todo lo demás, los ocho planetas, sus lunas, los asteroides y los cometas, suma apenas el resto. Y de ese pequeño resto, la mayor parte corresponde a Júpiter, que tiene más del doble de masa que todos los demás planetas juntos.\n\nLa Tierra, comparada con el Sol, es diminuta: el Sol tiene unas 330 000 veces su masa y en su volumen cabrían alrededor de un millón de Tierras. Su diámetro es unas 109 veces el de nuestro planeta. Esa enorme masa es la que mantiene a todos los planetas en sus órbitas con su gravedad.",
+   "deep": "La capa visible del Sol está formada sobre todo por hidrógeno, en torno al 73 %, y helio, en torno al 25 %, con pequeñas cantidades de oxígeno, carbono, neón y hierro. En su núcleo, cada segundo se fusionan unos 600 000 millones de kilos de hidrógeno para formar helio, y unos 4000 millones de kilos de materia se convierten en energía, la que nos llega como luz y calor. Dentro de cuatro a siete mil millones de años, cuando se agote el hidrógeno del núcleo, el Sol se convertirá en una gigante roja.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Sun",
@@ -5969,7 +6045,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -5985,6 +6061,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5996,7 +6076,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Hay una luna más grande que el planeta Mercurio",
    "desc": "Ganímedes, una luna de Júpiter, tiene un diámetro mayor que el de Mercurio.",
-   "body": "Ganímedes es la luna más grande del sistema solar. Su diámetro supera al de Mercurio, aunque tiene menos masa porque está hecha en buena parte de hielo. Es también la única luna conocida con su propio campo magnético, y se cree que bajo su superficie hay un océano de agua salada.",
+   "body": "Ganímedes, una de las lunas de Júpiter, es la luna más grande del sistema solar. Su diámetro supera incluso al del planeta Mercurio. Sin embargo, tiene menos masa que Mercurio, porque está formada en buena parte por hielo de agua, mucho más ligero que la roca y el metal.\n\nEs además la única luna conocida que tiene su propio campo magnético, generado probablemente por un núcleo de hierro fundido. En 2015, observaciones del telescopio espacial Hubble de las auroras de Ganímedes reforzaron la idea de que bajo su superficie helada hay un enorme océano de agua salada, que podría contener más agua que todos los océanos de la Tierra.",
+   "deep": "Para detectar ese océano, los científicos observaron cómo oscilaban las auroras de Ganímedes. El potente campo magnético de Júpiter debería hacerlas balancearse mucho; un océano salado, que conduce la electricidad, crea un campo magnético propio que se opone y reduce ese balanceo. El balanceo observado era menor del esperado, lo que encaja con la presencia del océano. Ganímedes fue descubierta en 1610 por Galileo Galilei, junto con otras tres grandes lunas de Júpiter, y la misión JUICE de la Agencia Espacial Europea la estudiará de cerca.",
    "sources": [
     {
      "t": "NASA — NASA’s Hubble Observations Suggest Underground Ocean on Jupiter's Largest Moon",
@@ -6029,7 +6110,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -6045,6 +6126,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -11187,7 +11272,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El mercurio es el único metal líquido a temperatura ambiente",
    "desc": "A presión y temperatura normales, ningún otro metal se mantiene líquido.",
-   "body": "El mercurio se funde a unos −39 °C, así que a temperatura ambiente está líquido. Por eso se usaba en termómetros. Hoy se evita porque sus vapores son tóxicos. Algunos metales como el galio se derriten con el calor de la mano, pero a temperatura ambiente normal son sólidos.",
+   "body": "De todos los metales, el mercurio es el único que está líquido a temperatura ambiente normal: se funde a −38,83 °C y no hierve hasta los 356,73 °C. Esa propiedad lo hizo muy útil durante siglos, sobre todo en termómetros y barómetros, porque se dilata de forma regular con el calor y se ve bien dentro de un tubo de vidrio.\n\nHoy su uso se evita cada vez más porque sus vapores son tóxicos y se acumulan en el ambiente. Los termómetros modernos usan alternativas como termómetros de resistencia de platino, termopares y termistores, conectados a pantallas digitales. Algunos metales, como el galio y el cesio, se derriten con el calor de la mano o en días muy calurosos, pero a temperatura ambiente normal son sólidos.",
+   "deep": "¿Por qué el mercurio es líquido cuando casi todos los metales son sólidos? La explicación está en la física de sus electrones. En un átomo tan pesado, dos efectos, la contracción de los lantánidos y la contracción relativista, causada por la teoría de la relatividad de Einstein, reducen el radio de la órbita de sus electrones más externos. Así, esos electrones participan poco en los enlaces entre átomos, y el enlace metálico del mercurio resulta muy débil. El mercurio se obtiene sobre todo del mineral cinabrio, y su nombre químico, Hg, viene del griego hydrargyrum, «plata líquida».",
    "sources": [
     {
      "t": "NIST (EE. UU.) — Mercury Thermometer Alternatives: Hg Alternatives",
@@ -11220,7 +11306,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -11236,6 +11322,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -11247,7 +11337,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La humanidad logró frenar el agujero de la capa de ozono",
    "desc": "El Protocolo de Montreal de 1987 prohibió los gases que la destruían.",
-   "body": "En los años ochenta se descubrió que ciertos gases, los CFC, usados en aerosoles y refrigeradores, estaban destruyendo el ozono que nos protege de la radiación ultravioleta. El Protocolo de Montreal, firmado en 1987, los fue eliminando. Es considerado uno de los acuerdos ambientales más exitosos, y la capa de ozono se está recuperando lentamente.",
+   "body": "En los años setenta y ochenta, los científicos descubrieron que ciertos gases fabricados por el ser humano, los clorofluorocarbonos o CFC, estaban destruyendo la capa de ozono de la estratosfera, que nos protege de la radiación ultravioleta del Sol. Los CFC se usaban en aerosoles, refrigeradores y aires acondicionados.\n\nLa respuesta internacional fue rápida. En 1987 se firmó el Protocolo de Montreal, un tratado para eliminar de forma progresiva la producción de las sustancias que dañan el ozono. Ha sido ratificado por 198 partes, 197 Estados y la Unión Europea, lo que lo convirtió en el primer tratado de la historia de Naciones Unidas con ratificación universal. Se considera uno de los acuerdos ambientales más exitosos, y la capa de ozono se está recuperando lentamente.",
+   "deep": "Los CFC son muy estables: no se descomponen en la parte baja de la atmósfera y suben hasta la estratosfera. Allí, la radiación ultravioleta los rompe y libera átomos de cloro, y cada átomo de cloro puede destruir miles de moléculas de ozono en una reacción en cadena. Muchos de los sustitutos de los CFC, los hidrofluorocarbonos, resultaron ser potentes gases de efecto invernadero. Por eso, la enmienda de Kigali, acordada en 2016 y en vigor desde el 1 de enero de 2019, compromete a los países a reducir también su uso. El protocolo se ha ajustado muchas veces desde su firma para endurecer sus metas.",
    "sources": [
     {
      "t": "NOAA (EE. UU.) — NOAA CSL: Scientific Assessment of Ozone Depletion: 2002",
@@ -11280,7 +11371,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -11296,6 +11387,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -11365,7 +11460,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La primera radiografía de la historia fue la mano de una esposa",
    "desc": "Wilhelm Röntgen descubrió los rayos X en 1895 y radiografió la mano de su esposa, Anna Bertha.",
-   "body": "Röntgen notó que una pantalla brillaba al otro lado de su laboratorio mientras experimentaba con tubos de descarga. Llamó «X» a esos rayos desconocidos. La imagen de la mano de su esposa, con su anillo, dio la vuelta al mundo. En 1901 recibió el primer Premio Nobel de Física de la historia.",
+   "body": "En noviembre de 1895, el físico alemán Wilhelm Conrad Röntgen experimentaba en su laboratorio de Wurzburgo con tubos de descarga, en los que hacía pasar electricidad por un gas a muy baja presión. Notó que una pantalla recubierta de una sustancia fluorescente brillaba al otro lado del laboratorio, aunque el tubo estaba cubierto con cartón negro. Algo invisible atravesaba el cartón.\n\nComo no sabía qué eran esos rayos, los llamó «X», el símbolo de lo desconocido. Pronto descubrió que atravesaban la carne pero no los huesos ni los metales, y tomó una de las imágenes más famosas de la historia: la mano de su esposa, con los huesos y el anillo bien visibles. La noticia dio la vuelta al mundo en semanas, y los médicos empezaron enseguida a usar los rayos X para ver fracturas y objetos dentro del cuerpo.",
+   "deep": "En 1901, Röntgen recibió el primer Premio Nobel de Física de la historia. Se negó a patentar su descubrimiento porque quería que beneficiara a toda la humanidad. Hoy sabemos que los rayos X son radiación electromagnética, como la luz, pero con una longitud de onda mucho más corta y por tanto mucho más energética. En muchos idiomas, como el alemán, se les sigue llamando «rayos Röntgen», y el elemento químico 111, el roentgenio, lleva su nombre. Con el tiempo se descubrieron también sus riesgos, y hoy las dosis se controlan con cuidado.",
    "sources": [
     {
      "t": "Fundación Nobel — Wilhelm Conrad Röntgen – Biographical",
@@ -11390,7 +11486,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -11406,6 +11502,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -11417,7 +11517,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Mendeléyev dejó huecos en su tabla periódica para elementos que aún no existían",
    "desc": "Y acertó: predijo las propiedades de elementos como el galio antes de que se descubrieran.",
-   "body": "En 1869, el químico ruso Dmitri Mendeléyev ordenó los elementos conocidos según sus propiedades. Donde algo no encajaba, dejó espacios vacíos y predijo cómo serían los elementos que faltaban. Cuando se descubrieron el galio y otros, sus propiedades coincidieron con sus predicciones, lo que convenció a la comunidad científica.",
+   "body": "En 1869, el químico ruso Dmitri Mendeléyev publicó una tabla con todos los elementos conocidos, ordenados según su peso atómico y agrupados por propiedades parecidas. Al hacerlo notó que algo no encajaba en algunos lugares: si seguía el orden estricto, elementos muy distintos quedaban en la misma columna.\n\nSu gran acierto fue confiar en la regularidad de las propiedades. Dejó espacios vacíos y predijo que allí irían elementos todavía desconocidos, e incluso describió cómo serían: su peso atómico, su densidad y los compuestos que formarían. Los llamó con el prefijo sánscrito «eka», como el «eka-aluminio» y el «eka-silicio». Cuando en los años siguientes se descubrieron el galio en 1875, el escandio en 1879 y el germanio en 1886, sus propiedades coincidieron notablemente con sus predicciones, y la comunidad científica se convenció.",
+   "deep": "Mendeléyev no fue el único que intentó ordenar los elementos: el químico alemán Lothar Meyer llegó a una tabla parecida casi al mismo tiempo. Pero el valor de las predicciones de Mendeléyev le dio el reconocimiento. Hoy los elementos se ordenan por número atómico, el número de protones del núcleo, un concepto que no se conocía en su época y que explica por qué algunos elementos parecían «fuera de lugar» por su peso. En su honor, el elemento 101 se llama mendelevio.",
    "sources": [
     {
      "t": "Universidad (web.lemoyne.edu) — Mendeleev's First Periodic Table",
@@ -11442,7 +11543,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -11458,6 +11559,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -11469,7 +11574,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Existe una temperatura más fría que la cual no se puede bajar",
    "desc": "Es el cero absoluto: −273,15 °C, o 0 kelvin.",
-   "body": "La temperatura mide cuánto se mueven las partículas. En el cero absoluto, la energía térmica sería la mínima posible. No se puede alcanzar exactamente, pero en laboratorio se han logrado temperaturas de una pequeñísima fracción de grado por encima. A esas temperaturas, la materia muestra comportamientos extraños, como los superfluidos.",
+   "body": "La temperatura mide, en el fondo, cuánto se agitan las partículas de un material: cuanto más caliente está, más rápido se mueven sus átomos y moléculas. Si se enfría cada vez más, esa agitación disminuye. El límite es el cero absoluto, la temperatura más baja posible, que equivale a −273,15 °C, o 0 kelvin.\n\nEn el cero absoluto, la energía de un sistema sería la mínima que permiten las leyes de la física. No se puede alcanzar exactamente: hacerlo requeriría infinitos pasos de enfriamiento, según la tercera ley de la termodinámica. Pero en los laboratorios se han logrado temperaturas de una pequeñísima fracción de grado por encima, de millonésimas de kelvin e incluso menos.",
+   "deep": "A esas temperaturas extremas, la materia se comporta de formas que no se ven en la vida diaria. El helio líquido se vuelve superfluido: fluye sin ninguna fricción y puede trepar por las paredes de su recipiente. Algunos materiales se vuelven superconductores y conducen la electricidad sin ninguna resistencia. Y ciertos gases de átomos forman un condensado de Bose-Einstein, un estado en el que miles de átomos se comportan como uno solo. La escala kelvin, que empieza en el cero absoluto, se llama así por el físico británico Lord Kelvin.",
    "sources": [
     {
      "t": "Universidad (titech.ac.jp) — The Challenge of Discovering Absolute Zero or -273.15 Degrees Celsius",
@@ -11502,7 +11608,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -11518,6 +11624,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -11529,7 +11639,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El «efecto mariposa» nació de un redondeo en una computadora",
    "desc": "El meteorólogo Edward Lorenz descubrió que un cambio minúsculo podía alterar por completo un pronóstico.",
-   "body": "En los años sesenta, Lorenz repitió una simulación del clima introduciendo un número redondeado con menos decimales. El resultado final fue completamente distinto. De ahí surgió la idea de que pequeñas variaciones pueden tener grandes consecuencias en sistemas caóticos. Él mismo popularizó la imagen de una mariposa que, al batir sus alas, podría influir en un tornado lejano.",
+   "body": "A comienzos de los años sesenta, el meteorólogo estadounidense Edward Lorenz trabajaba con un modelo informático muy simplificado del clima. Un día quiso repetir una simulación y, para ahorrar tiempo, empezó a mitad del cálculo introduciendo a mano un número de la impresión anterior. Ese dato estaba redondeado de una forma que parecía no tener importancia.\n\nEsperaba obtener el mismo resultado, pero la nueva simulación empezó pareciéndose a la anterior y pronto se separó por completo. Una diferencia minúscula en el punto de partida había producido un tiempo totalmente distinto al cabo de unas semanas simuladas. Lorenz comprendió que en ciertos sistemas pequeñísimas variaciones iniciales crecen hasta cambiarlo todo, lo que hace imposible predecir el tiempo con detalle a largo plazo.",
+   "deep": "Este comportamiento se llama «dependencia sensible de las condiciones iniciales» y es la base de la teoría del caos. El sistema no es aleatorio: sigue reglas exactas, pero cualquier error de medición, por pequeño que sea, crece hasta volver inútil la predicción. Lorenz popularizó la imagen de la mariposa con una conferencia de 1972 titulada, en español, «¿Puede el aleteo de una mariposa en Brasil desatar un tornado en Texas?». Por eso los pronósticos del tiempo pierden fiabilidad más allá de una o dos semanas, por muy potentes que sean los ordenadores.",
    "sources": [
     {
      "t": "Publicación académica (DOI) (doi.org) — Butterfly effect - Scholarpedia",
@@ -11554,7 +11665,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -11570,6 +11681,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12477,7 +12592,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La Luna se aleja de la Tierra unos 3,8 centímetros al año",
    "desc": "Lo sabemos gracias a espejos que dejaron los astronautas del programa Apolo.",
-   "body": "Las misiones Apolo colocaron reflectores en la Luna. Desde la Tierra se les disparan rayos láser y se mide cuánto tarda la luz en volver. Así se comprobó que la Luna se aleja lentamente, por el efecto de las mareas. Al mismo tiempo, la rotación de la Tierra se va frenando un poco.",
+   "body": "La Luna se está alejando de la Tierra muy lentamente: unos 3,8 centímetros al año, más o menos lo que crecen las uñas. Lo sabemos gracias a un experimento que funciona desde hace más de cincuenta años: los astronautas de las misiones Apolo dejaron en la Luna reflectores especiales, y desde observatorios de la Tierra se les disparan rayos láser.\n\nMidiendo con precisión cuánto tarda la luz en ir y volver, poco más de dos segundos y medio, se calcula la distancia a la Luna con un error de pocos milímetros. Así se comprobó que se aleja. La causa son las mareas: la Luna deforma los océanos de la Tierra, y esa deformación, adelantada por la rotación terrestre, tira de la Luna y la empuja poco a poco hacia una órbita más amplia.",
+   "deep": "El mismo proceso frena la rotación de la Tierra: los días se alargan muy poco a poco, y hace cientos de millones de años un día duraba bastante menos que hoy. La medición láser también ha servido para poner a prueba la relatividad general de Einstein, que predice la órbita de la Luna dentro de la precisión de estas mediciones. Además de los reflectores de los Apolo 11, 14 y 15, hay otros en vehículos soviéticos que llegaron a la Luna. Como la Luna se aleja, dentro de cientos de millones de años ya no habrá eclipses totales de Sol, porque se verá demasiado pequeña para tapar el disco solar.",
    "sources": [
     {
      "t": "NASA — NASA - Accuracy of Eclipse Predictions",
@@ -12510,7 +12626,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12526,6 +12642,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12537,7 +12657,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Plutón dejó de ser planeta en 2006",
    "desc": "La Unión Astronómica Internacional lo reclasificó como «planeta enano».",
-   "body": "Tras descubrirse otros objetos parecidos en el cinturón de Kuiper, los astrónomos definieron qué es un planeta. Plutón cumple casi todo, pero no ha «limpiado» su órbita de otros cuerpos. Por eso la Unión Astronómica Internacional lo llamó planeta enano en 2006. La decisión todavía genera debate entre algunos científicos.",
+   "body": "Plutón fue descubierto en 1930 por el astrónomo estadounidense Clyde Tombaugh y durante 76 años se consideró el noveno planeta del sistema solar. Pero a partir de los años noventa se descubrieron en el cinturón de Kuiper, más allá de Neptuno, muchos otros cuerpos helados parecidos, y uno de ellos, Eris, resultó tener más masa que Plutón.\n\nEso obligó a los astrónomos a definir por primera vez qué es exactamente un planeta. En 2006, la Unión Astronómica Internacional estableció tres condiciones: orbitar alrededor del Sol, tener masa suficiente para adoptar una forma casi redonda y haber «limpiado» su órbita de otros cuerpos de tamaño parecido. Plutón cumple las dos primeras, pero no la tercera, así que pasó a la nueva categoría de planeta enano. La decisión todavía genera debate entre algunos científicos.",
+   "deep": "En 2015, la sonda New Horizons de la NASA sobrevoló Plutón y mostró un mundo mucho más activo de lo esperado: montañas de hielo de agua, llanuras de nitrógeno helado con forma de corazón, conocidas como la región Tombaugh, y una atmósfera tenue. Plutón tiene cinco lunas; la mayor, Caronte, es tan grande en proporción que ambos giran alrededor de un punto situado entre los dos. Un año de Plutón dura unos 248 años terrestres.",
    "sources": [
     {
      "t": "NASA — Planetary Physical Parameters",
@@ -12570,7 +12691,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12586,6 +12707,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12597,7 +12722,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Nuestra galaxia chocará con Andrómeda dentro de unos 4.500 millones de años",
    "desc": "Será un choque lento en el que muy pocas estrellas colisionarán directamente.",
-   "body": "Andrómeda se acerca a la Vía Láctea. Los cálculos indican que dentro de unos miles de millones de años ambas galaxias interactuarán y probablemente se fusionarán. Como las distancias entre estrellas son enormes, es casi imposible que dos estrellas choquen entre sí. Estudios recientes señalan que la fusión no es segura y estiman su probabilidad.",
+   "body": "La galaxia de Andrómeda, la gran galaxia espiral más cercana a la nuestra, se acerca a la Vía Láctea a unos 110 kilómetros por segundo, según indica el corrimiento al azul de su luz. Durante años, los cálculos indicaron que ambas galaxias chocarían y se fusionarían dentro de unos 4,5 mil millones de años, formando una gran galaxia elíptica.\n\nEstudios más recientes, con datos más precisos de los telescopios Hubble y Gaia, han matizado esa predicción: la colisión no es segura y su probabilidad en los próximos 10 000 millones de años se estima en torno a la mitad. En cualquier caso, aunque ocurra, las estrellas casi no chocarían entre sí, porque las distancias entre ellas son enormes comparadas con su tamaño. Lo que cambiaría sería la forma de las galaxias.",
+   "deep": "En una fusión de galaxias, la gravedad deforma ambas estructuras: se forman colas de estrellas y gas, y las nubes de gas comprimidas pueden desencadenar la formación de muchas estrellas nuevas. Los agujeros negros supermasivos de los centros de ambas galaxias acabarían cayendo uno hacia el otro y fusionándose. La galaxia resultante de una posible fusión ha recibido incluso un nombre informal: «Milkomeda». El sistema solar no correría peligro directo, aunque podría acabar en una órbita muy distinta dentro de la nueva galaxia.",
    "sources": [
     {
      "t": "Wikipedia — Andromeda–Milky Way collision",
@@ -12614,7 +12740,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -12626,6 +12752,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12637,7 +12767,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El cometa Halley vuelve cada 75 o 76 años",
    "desc": "Su próxima visita será en 2061.",
-   "body": "Edmond Halley fue quien calculó que los cometas vistos en 1531, 1607 y 1682 eran el mismo objeto, y predijo su regreso. El cometa volvió en 1758, después de la muerte de Halley, y recibió su nombre. Su última aparición fue en 1986.",
+   "body": "El cometa Halley es el único cometa de período corto que se puede ver a simple vista desde la Tierra y que puede aparecer dos veces en una misma vida humana: vuelve aproximadamente cada 75 o 76 años. Su nombre se debe al astrónomo inglés Edmond Halley.\n\nHalley estudió los registros de cometas y en 1705 llegó a la conclusión de que los vistos en 1531, 1607 y 1682 eran en realidad el mismo objeto, que regresaba periódicamente. Predijo su vuelta para 1758. Halley murió en 1742 y no pudo verlo, pero el cometa volvió tal como había anunciado y recibió su nombre. Fue la primera vez que se demostró que algunos cometas orbitan alrededor del Sol.",
+   "deep": "Las apariciones del Halley se han registrado durante más de dos mil años, y una de ellas aparece en el famoso tapiz de Bayeux, que narra la conquista normanda de Inglaterra en 1066. Su último paso cerca del Sol fue en 1986, cuando varias sondas, entre ellas la europea Giotto, se acercaron a él y fotografiaron su núcleo: un bloque oscuro de hielo y polvo de unos 15 kilómetros de largo. Volverá a acercarse al Sol en 2061.",
    "sources": [
     {
      "t": "NASA — 1P/Halley",
@@ -12670,7 +12801,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12686,6 +12817,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12697,7 +12832,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El primer viaje humano al espacio duró menos de dos horas",
    "desc": "Yuri Gagarin dio una vuelta a la Tierra el 12 de abril de 1961.",
-   "body": "El cosmonauta soviético viajó a bordo de la nave Vostok 1. Su vuelo orbital duró unos 108 minutos. Al regresar, se eyectó de la cápsula y aterrizó en paracaídas. El 12 de abril se celebra hoy el Día Internacional de los Vuelos Espaciales Tripulados.",
+   "body": "El 12 de abril de 1961, el cosmonauta soviético Yuri Gagarin se convirtió en el primer ser humano en viajar al espacio y dar una vuelta a la Tierra. Despegó desde el cosmódromo de Baikonur a bordo de la nave Vostok 1, y su vuelo completo duró unos 108 minutos. Antes de despegar dijo una frase que se hizo famosa: «¡Poyejali!», que significa «¡Vámonos!».\n\nDurante el vuelo, Gagarin no pilotó la nave: todo estaba controlado de forma automática o desde tierra, porque nadie sabía cómo reaccionaría un ser humano en el espacio. Al regresar, a unos siete kilómetros de altura, se eyectó de la cápsula y aterrizó en paracaídas por separado, como estaba previsto. El 12 de abril se celebra hoy el Día Internacional de los Vuelos Espaciales Tripulados, proclamado por Naciones Unidas.",
+   "deep": "El vuelo fue un triunfo del programa espacial soviético en plena carrera espacial con Estados Unidos, y Gagarin se convirtió en héroe nacional y en una celebridad mundial. Sin embargo, durante años los soviéticos ocultaron que había aterrizado fuera de la cápsula, porque las reglas de la Federación Aeronáutica Internacional exigían que el piloto aterrizara con la nave para homologar un récord. Gagarin murió en 1968 en un accidente durante un vuelo de entrenamiento en un avión de combate. Un cráter de la cara oculta de la Luna lleva su nombre.",
    "sources": [
     {
      "t": "Agencia Espacial Europea (ESA) — The flight of Vostok 1",
@@ -12739,7 +12875,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12755,6 +12891,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12766,7 +12906,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Laika, una perra callejera, fue el primer animal en orbitar la Tierra",
    "desc": "Viajó en el Sputnik 2 en 1957. No había plan para traerla de vuelta.",
-   "body": "Laika fue recogida de las calles de Moscú. Murió pocas horas después del lanzamiento, probablemente por sobrecalentamiento, aunque durante años la versión oficial soviética dio otra información. Su viaje mostró que un ser vivo podía sobrevivir al lanzamiento y la ingravidez, pero hoy se recuerda también por el debate ético que generó.",
+   "body": "El 3 de noviembre de 1957, la Unión Soviética lanzó el Sputnik 2 con una pasajera: Laika, una perra callejera recogida de las calles de Moscú. Se eligió una perra de la calle porque se pensaba que ya estaba acostumbrada a soportar el hambre y el frío. Fue el primer animal en orbitar la Tierra.\n\nLaika murió pocas horas después del lanzamiento, probablemente por sobrecalentamiento, porque falló el sistema de control de temperatura de la cápsula. Durante años, la versión oficial soviética dio otra información; la causa real no se reveló públicamente hasta 2002. En cualquier caso, la misión nunca contempló su regreso: la tecnología para traer de vuelta una nave desde la órbita aún no existía.",
+   "deep": "El viaje de Laika demostró que un ser vivo podía sobrevivir al lanzamiento y a la ingravidez, y allanó el camino para los vuelos tripulados. Pero también abrió un debate ético sobre el uso de animales en la investigación espacial que sigue vivo hoy. Años después, uno de los científicos del programa, Oleg Gazenko, lamentó públicamente su muerte y dijo que no se había aprendido lo suficiente para justificarla. En 1960, los perros Belka y Strelka sí regresaron con vida de la órbita.",
    "sources": [
     {
      "t": "NASA — Korolev-- Sputnik",
@@ -12791,7 +12932,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12807,6 +12948,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12818,7 +12963,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La primera imagen de un agujero negro se publicó en 2019",
    "desc": "La obtuvo el Event Horizon Telescope, una red de radiotelescopios de todo el mundo.",
-   "body": "El agujero negro fotografiado está en el centro de la galaxia M87, a unos 55 millones de años luz. Para lograr la resolución necesaria, se combinaron telescopios de varios continentes como si fueran uno del tamaño de la Tierra. La imagen muestra un anillo brillante alrededor de una sombra oscura.",
+   "body": "El 10 de abril de 2019 se publicó la primera imagen de un agujero negro de la historia. Muestra el agujero negro supermasivo del centro de la galaxia M87, a unos 55 millones de años luz de la Tierra, con una masa de unos 6,5 mil millones de veces la del Sol. La imagen revela un anillo brillante de gas muy caliente alrededor de una sombra oscura.\n\nPara lograrla se creó el Telescopio del Horizonte de Sucesos (EHT): una red mundial de radiotelescopios en varios continentes que, observando a la vez y combinando sus datos, funcionó como un único telescopio del tamaño de la Tierra. En total se usaron ocho radiotelescopios en tierra. Solo así se consiguió la resolución necesaria para ver algo tan pequeño en el cielo. El procesamiento de los datos, enormes, llevó cerca de dos años.",
+   "deep": "Lo que se ve no es el agujero negro en sí, que no emite luz, sino su «sombra» sobre el gas brillante que gira a su alrededor a velocidades cercanas a la de la luz. El tamaño y la forma de esa sombra coincidieron con las predicciones de la relatividad general de Einstein. En 2022, el mismo equipo publicó la imagen de Sagitario A*, el agujero negro del centro de nuestra propia galaxia, mucho más pequeño que el de M87. El agujero negro de M87 recibió el nombre hawaiano Pōwehi.",
    "sources": [
     {
      "t": "NASA — Black Hole Image Makes History",
@@ -12860,7 +13006,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12876,6 +13022,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19544,7 +19694,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La velocidad de la luz es exacta por definición",
    "desc": "Es de 299.792.458 metros por segundo, porque el metro se define a partir de ella.",
-   "body": "Desde 1983, el metro se define como la distancia que recorre la luz en el vacío en 1/299.792.458 de segundo. Por eso la velocidad de la luz no se «mide» con error: es un valor exacto. Nada con masa puede alcanzarla.",
+   "body": "La velocidad de la luz en el vacío es exactamente 299 792 458 metros por segundo, y no es una medición con margen de error: es un valor exacto por definición. ¿Cómo puede ser? Porque desde 1983 el metro se define a partir de ella: un metro es la distancia que recorre la luz en el vacío en 1/299 792 458 de segundo.\n\nAntes, el metro se definía con una barra metálica patrón y la velocidad de la luz se medía, con cada vez más precisión. Cuando las mediciones fueron tan buenas que la mayor incertidumbre venía de la propia definición del metro, se decidió invertir la relación: fijar la velocidad de la luz y deducir de ella el metro. Así, cualquier laboratorio del mundo puede reproducir el metro con un reloj preciso.",
+   "deep": "La velocidad de la luz, representada con la letra c, es mucho más que un dato: según la teoría de la relatividad de Einstein, es la velocidad máxima a la que puede viajar cualquier información o energía en el universo, y nada que tenga masa puede alcanzarla. La luz del Sol tarda de media 8 minutos y 19 segundos en llegar a la Tierra, y las señales de radio entre la Tierra y Marte tardan entre unos 4 y 24 minutos, según la posición de los planetas. En materiales como el agua o el vidrio la luz avanza más despacio, y esa diferencia es la que hace que se desvíe al cambiar de medio.",
    "sources": [
     {
      "t": "Wikipedia — Speed of light",
@@ -19569,7 +19720,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -19581,6 +19732,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19592,7 +19747,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La tabla periódica tiene 118 elementos conocidos",
    "desc": "Los últimos nombres oficiales se aprobaron en 2016, entre ellos el oganesón.",
-   "body": "Los elementos más pesados no existen en la naturaleza: se crean en laboratorios y duran fracciones de segundo. En 2016 se aprobaron los nombres de los elementos 113, 115, 117 y 118: nihonio, moscovio, teneso y oganesón.",
+   "body": "La tabla periódica tiene hoy 118 elementos confirmados, ordenados en filas, llamadas períodos, y columnas, llamadas grupos. Los primeros 94 se encuentran en la naturaleza, al menos en pequeñas cantidades. Los más pesados no existen de forma natural: se crean en laboratorios haciendo chocar núcleos atómicos, y muchos se desintegran en fracciones de segundo.\n\nLos últimos huecos de la séptima fila se completaron recientemente. En 2016, la Unión Internacional de Química Pura y Aplicada (IUPAC) aprobó los nombres de los elementos 113, 115, 117 y 118: nihonio, por Japón; moscovio, por la región de Moscú; teneso, por el estado de Tennessee; y oganesón, en honor del físico Yuri Oganessian. Con ellos se completaron las siete filas de la tabla.",
+   "deep": "El oganesón, el elemento 118, es el de mayor número atómico y mayor masa atómica conocido. Solo se han producido unos pocos átomos, que duran menos de un milisegundo, así que casi todas sus propiedades son predicciones teóricas. Los científicos siguen intentando sintetizar los elementos 119 y 120, que abrirían una octava fila. Una de las grandes preguntas es si existe una «isla de estabilidad»: elementos superpesados con ciertas combinaciones de protones y neutrones que podrían durar bastante más que sus vecinos.",
    "sources": [
     {
      "t": "Unión Internacional de Química Pura y Aplicada (IUPAC) — IUPAC is naming the four new elements nihonium, moscovium, tennessine, and oganesson - IUPAC",
@@ -19642,7 +19798,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -19658,6 +19814,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19669,7 +19829,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En la cima del Everest el agua hierve a unos 71 °C",
    "desc": "A menos presión atmosférica, el agua hierve a menor temperatura.",
-   "body": "El punto de ebullición del agua depende de la presión. A nivel del mar es de unos 100 °C, pero en la cima del Everest, con una presión de solo unos 34 kPa, hierve a unos 71 °C. Por eso cocinar a gran altitud requiere más tiempo, y las ollas a presión hacen lo contrario: suben la temperatura de ebullición.",
+   "body": "Solemos decir que el agua hierve a 100 °C, pero eso solo es cierto al nivel del mar. El punto de ebullición depende de la presión del aire que hay sobre el líquido: un líquido hierve cuando la presión de su vapor iguala a la del ambiente. Si la presión baja, al agua le basta con menos temperatura para hervir.\n\nEn la cima del Everest, a unos 8848 metros, la presión del aire es de solo unos 34 kilopascales, aproximadamente un tercio de la que hay al nivel del mar, y el agua hierve a unos 71 °C. Por eso cocinar a gran altitud requiere más tiempo: el agua hierve antes, pero está menos caliente, y la pasta o los frijoles tardan más en hacerse. Las ollas a presión hacen lo contrario: al aumentar la presión, el agua puede pasar de 100 °C y la comida se cocina más rápido.",
+   "deep": "Este fenómeno tiene aplicaciones muy prácticas. Un líquido en un vacío parcial, es decir, a menor presión, hierve a menor temperatura que a la presión atmosférica, y eso se aprovecha en la industria para separar sustancias que se dañarían con temperaturas altas. En el otro extremo, las autoclaves de hospitales y laboratorios usan vapor a presión, por encima de 100 °C, para esterilizar instrumentos. El punto de ebullición también depende de lo que lleve disuelto el agua: añadir sal lo sube muy ligeramente.",
    "sources": [
     {
      "t": "Wikipedia — Boiling point",
@@ -19694,7 +19855,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -19706,6 +19867,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20136,7 +20301,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En la Luna también hay terremotos",
    "desc": "Los sismógrafos que dejaron las misiones Apolo registraron «lunamotos».",
-   "body": "Los instrumentos de las misiones Apolo 12, 14, 15 y 16 funcionaron hasta que se apagaron en 1977. Hay al menos cuatro tipos de lunamotos: profundos, probablemente causados por las mareas; por impactos de meteoritos; térmicos, cuando la corteza helada se dilata al volver la luz del Sol; y superficiales. Los más fuertes son mucho más débiles que los grandes terremotos terrestres.",
+   "body": "La Luna no tiene placas tectónicas como la Tierra, pero también tiembla. Lo sabemos gracias a los sismómetros que dejaron los astronautas de las misiones Apolo 12, 14, 15 y 16, que registraron miles de lunamotos entre 1969 y 1977, cuando se apagaron los instrumentos.\n\nLos científicos distinguen al menos cuatro tipos. Los lunamotos profundos ocurren a unos 700 kilómetros bajo la superficie y probablemente los causan las mareas que provoca la Tierra. Otros se deben a impactos de meteoritos. Los térmicos ocurren cuando la corteza helada se dilata al volver la luz del Sol tras las dos semanas de noche lunar. Y los superficiales son los más fuertes. Aun así, los mayores lunamotos son mucho más débiles que los grandes terremotos de la Tierra, aunque sus sacudidas pueden durar hasta una hora.",
+   "deep": "Los lunamotos duran mucho más que los terremotos terrestres porque la Luna está seca y fría: sin agua que amortigüe las vibraciones, el suelo lunar «suena» como una campana durante mucho tiempo. Este dato es importante para el futuro: las bases que se construyan en la Luna tendrán que resistir sacudidas largas. También se han registrado temblores en Marte con la misión InSight de la NASA; muchos se parecían a los terremotos terrestres y algunos se confirmaron como impactos de meteoritos.",
    "sources": [
     {
      "t": "Wikipedia — Moonquake",
@@ -20161,7 +20327,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -20173,6 +20339,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20184,7 +20354,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La Estación Espacial Internacional da una vuelta a la Tierra cada 93 minutos",
    "desc": "Completa unas 15,5 órbitas al día.",
-   "body": "La Estación orbita a unos 400 kilómetros de altura, a unos 27.600 km/h. Ha estado ocupada de forma continua desde el año 2000, con astronautas de distintos países.",
+   "body": "La Estación Espacial Internacional orbita a unos 400 kilómetros de altura y viaja a unos 27 600 kilómetros por hora. A esa velocidad da una vuelta completa a la Tierra en unos 93 minutos, unas 15,5 vueltas al día, así que sus tripulantes ven amanecer y anochecer muchas veces en cada jornada.\n\nEs el objeto artificial más grande en órbita: mide unos 109 por 73 metros, tanto como un campo de fútbol reglamentario y en noches despejadas se puede ver a simple vista, como un punto de luz brillante que cruza el cielo sin parpadear. Ha estado ocupada de forma continua desde el 2 de noviembre del año 2000, la presencia humana continua más larga en el espacio, por astronautas de distintos países, una colaboración entre las agencias espaciales de Estados Unidos, Rusia, Europa, Japón y Canadá.",
+   "deep": "La estación pierde altura poco a poco por el rozamiento con los restos de atmósfera que todavía hay a esa altitud, por eso de vez en cuando hay que encender motores para elevarla de nuevo. En su interior se realizan miles de experimentos en microgravedad, de biología, medicina, física y materiales. Está previsto retirarla al final de su vida útil, hacia 2030, guiándola para que reentre en la atmósfera sobre una zona remota del océano Pacífico.",
    "sources": [
     {
      "t": "Wikipedia — International Space Station",
@@ -20209,7 +20380,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -20221,6 +20392,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22637,7 +22812,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Hace 2.000 millones de años funcionó un reactor nuclear natural en África",
    "desc": "En Oklo, en el actual Gabón, el uranio se fisionó por sí solo mucho antes de que existieran los seres humanos.",
-   "body": "En 1972, el físico Francis Perrin y su equipo notaron algo imposible en un mineral de uranio de una mina de Gabón: contenía un 0,717 % de uranio-235, cuando todo el uranio natural tiene hoy un 0,720 %. Tras descartar que fuera uranio procesado, encontraron en la roca la huella de productos de fisión. La única explicación era que ese uranio se había fisionado de forma natural hace más de 2.000 millones de años. Según el Organismo Internacional de Energía Atómica (OIEA), hicieron falta varias condiciones: una concentración suficiente de uranio-235 y agua que actuara como moderador para frenar los neutrones. Investigadores de la Universidad Washington en San Luis calcularon que el reactor funcionaba como un géiser: unos 30 minutos activo y unas dos horas y media en reposo, mientras el agua se evaporaba y volvía. Es el único reactor nuclear natural conocido.",
+   "body": "En 1972, el físico Francis Perrin y su equipo notaron algo imposible en un mineral de uranio de una mina de Gabón: contenía un 0,717 % de uranio-235, cuando todo el uranio natural tiene hoy un 0,720 %. Tras descartar que fuera uranio procesado, encontraron en la roca la huella de productos de fisión. La única explicación era que ese uranio se había fisionado de forma natural hace más de 2.000 millones de años.\n\nSegún el Organismo Internacional de Energía Atómica (OIEA), hicieron falta varias condiciones: una concentración suficiente de uranio-235 y agua que actuara como moderador para frenar los neutrones. Investigadores de la Universidad Washington en San Luis calcularon que el reactor funcionaba como un géiser: unos 30 minutos activo y unas dos horas y media en reposo, mientras el agua se evaporaba y volvía. Es el único reactor nuclear natural conocido.",
+   "deep": "¿Por qué pudo ocurrir entonces y no hoy? Porque el uranio-235 se desintegra más deprisa que el uranio-238. Hace dos mil millones de años, la proporción de uranio-235 era unas cinco veces mayor, alrededor del 3 %, aproximadamente la concentración del uranio enriquecido que usan los reactores comerciales actuales. Se sabe que el reactor natural funcionó durante unos 150 millones de años con una potencia media de unos 100 kilovatios. Los investigadores creen que estudiar cómo el agua lo regulaba podría inspirar formas más seguras y eficientes de operar los reactores modernos.",
    "sources": [
     {
      "t": "Organismo Internacional de Energía Atómica (OIEA) — Meet Oklo, the Earth’s two-billion-year-old only known natural nuclear reactor (IAEA Bulletin)",
@@ -22677,13 +22853,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22695,7 +22875,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "En 1859, una tormenta solar hizo arder telégrafos y llevó auroras hasta Cuba",
    "desc": "El evento Carrington es la tormenta geomagnética más fuerte registrada. Un fenómeno así hoy afectaría satélites y redes eléctricas.",
-   "body": "El 1 de septiembre de 1859, el astrónomo inglés Richard Carrington observó en el Sol un brillo repentino como nunca había visto: una gran fulguración solar. Según la NASA, unas 17 horas después las auroras boreales se veían tan al sur como Cuba, y los sistemas de telégrafo del mundo occidental fallaron: las chispas dieron descargas a algunos operadores y prendieron fuego al papel de los telégrafos. La Administración Nacional Oceánica y Atmosférica de EE. UU. (NOAA) añade que algunos aparatos llegaron a enviar mensajes sin estar conectados. Es la tormenta geomagnética más fuerte de la que hay registro. El Servicio Geológico de EE. UU. advierte que una tormenta de ese tamaño hoy podría afectar las telecomunicaciones y la transmisión de electricidad.",
+   "body": "El 1 de septiembre de 1859, el astrónomo inglés Richard Carrington observó en el Sol un brillo repentino como nunca había visto: una gran fulguración solar. Según la NASA, unas 17 horas después las auroras boreales se veían tan al sur como Cuba, y los sistemas de telégrafo del mundo occidental fallaron: las chispas dieron descargas a algunos operadores y prendieron fuego al papel de los telégrafos.\n\nLa Administración Nacional Oceánica y Atmosférica de EE. UU. (NOAA) añade que algunos aparatos llegaron a enviar mensajes sin estar conectados. Es la tormenta geomagnética más fuerte de la que hay registro. El Servicio Geológico de EE. UU. advierte que una tormenta de ese tamaño hoy podría afectar las telecomunicaciones y la transmisión de electricidad.",
+   "deep": "Una tormenta geomagnética ocurre cuando una enorme nube de partículas cargadas expulsada por el Sol choca con el campo magnético de la Tierra y lo perturba. Esas perturbaciones inducen corrientes eléctricas en los cables largos, como las líneas de telégrafo de 1859 o las redes eléctricas actuales. Según el Servicio Geológico, los telégrafos eran entonces la columna vertebral de las comunicaciones mundiales, por eso el impacto fue tan amplio. El Sol sigue un ciclo de unos once años, al final del cual su campo magnético se invierte, y la actividad solar sube y baja con él.",
    "sources": [
     {
      "t": "NASA — Spots, Waves and Wind: A Solar Science Timeline",
@@ -22749,13 +22930,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22767,7 +22952,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Desde mayo de 2027, los relojes del mundo dejarán de añadir «segundos extra»",
    "desc": "Desde 1972 se han intercalado segundos para que la hora atómica no se separe de la rotación de la Tierra. En 2026 se decidió dejar de hacerlo.",
-   "body": "La hora oficial del mundo, el Tiempo Universal Coordinado (UTC), se basa en relojes atómicos, más estables que la rotación de la Tierra, que es irregular. Para que no se separaran, desde 1972 se ha añadido de vez en cuando un «segundo intercalar», siempre al final de junio o de diciembre; según el Instituto Nacional de Estándares y Tecnología de EE. UU. (NIST), en promedio uno cada año y medio. Pero esos saltos pueden causar fallos en sistemas digitales críticos, como la navegación por satélite, las telecomunicaciones y las redes eléctricas. En octubre de 2026, la Conferencia General de Pesas y Medidas (CGPM) decidió que el UTC continuo entrará en vigor el 20 de mayo de 2027 y que la diferencia máxima con la hora basada en la rotación terrestre será de 3.600 segundos (una hora), lo que garantiza la continuidad del UTC durante varios siglos. La resolución recuerda además que nunca se ha aplicado un segundo intercalar negativo.",
+   "body": "La hora oficial del mundo, el Tiempo Universal Coordinado (UTC), se basa en relojes atómicos, más estables que la rotación de la Tierra, que es irregular. Para que no se separaran, desde 1972 se ha añadido de vez en cuando un «segundo intercalar», siempre al final de junio o de diciembre; según el Instituto Nacional de Estándares y Tecnología de EE. UU. (NIST), en promedio uno cada año y medio. Pero esos saltos pueden causar fallos en sistemas digitales críticos, como la navegación por satélite, las telecomunicaciones y las redes eléctricas.\n\nEn octubre de 2026, la Conferencia General de Pesas y Medidas (CGPM) decidió que el UTC continuo entrará en vigor el 20 de mayo de 2027 y que la diferencia máxima con la hora basada en la rotación terrestre será de 3.600 segundos (una hora), lo que garantiza la continuidad del UTC durante varios siglos. La resolución recuerda además que nunca se ha aplicado un segundo intercalar negativo.",
+   "deep": "¿Por qué hacían falta segundos extra? Según el NIST, el segundo atómico se definió a partir del llamado segundo de efemérides, que era ligeramente más corto que el segundo solar medio, y esa característica pasó al segundo atómico. Además, la rotación de la Tierra se va frenando gradualmente, de modo que el segundo solar medio se alarga poco a poco respecto al atómico. Mantener el UTC a menos de un segundo de la hora astronómica permitía a los astrónomos usarlo directamente para observar el cielo.",
    "sources": [
     {
      "t": "Oficina Internacional de Pesas y Medidas (BIPM) — Resolution 5 of the 28th CGPM (2026): On the technical actions needed to ensure the continuity of UTC",
@@ -22807,13 +22993,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22875,7 +23065,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Parte de la «nieve» de los televisores antiguos venía del Big Bang",
    "desc": "La radiación de fondo de microondas, la luz más antigua del universo, se colaba en el ruido de los televisores.",
-   "body": "Según la información divulgativa del Premio Nobel de Física de 2006, la radiación de fondo de microondas forma parte del ruido parecido a una «ventisca» que se veía en los televisores cuando se interrumpía la transmisión normal. Esa radiación se registró por primera vez en 1964, cuando Arno Penzias y Robert Wilson la confundieron al principio con un ruido sin importancia de sus receptores. Hoy se interpreta como una huella del universo primitivo: cuando se emitió estaba a unos 3.000 grados, y con la expansión del universo se ha enfriado hasta corresponder a solo 2,7 grados por encima del cero absoluto.",
+   "body": "Según la información divulgativa del Premio Nobel de Física de 2006, la radiación de fondo de microondas forma parte del ruido parecido a una «ventisca» que se veía en los televisores cuando se interrumpía la transmisión normal. Esa radiación se registró por primera vez en 1964, cuando Arno Penzias y Robert Wilson la confundieron al principio con un ruido sin importancia de sus receptores.\n\nHoy se interpreta como una huella del universo primitivo: cuando se emitió estaba a unos 3.000 grados, y con la expansión del universo se ha enfriado hasta corresponder a solo 2,7 grados por encima del cero absoluto.",
+   "deep": "Penzias y Wilson recibieron por su hallazgo el Premio Nobel de Física de 1978. El de 2006 premió a John Mather y George Smoot por medir con el satélite COBE que esa radiación tiene exactamente la forma de espectro de un «cuerpo negro», el tipo de luz que emite un objeto solo por estar caliente, y por detectar diminutas diferencias de temperatura en ella. Esas pequeñas irregularidades son las semillas de las que, con el tiempo, surgieron las galaxias. El primero en describir la forma de ese tipo de espectros fue el físico alemán Max Planck, premio Nobel de Física de 1918.",
    "sources": [
     {
      "t": "Fundación Nobel (nobelprize.org) — The Nobel Prize in Physics 2006 — Popular information",
@@ -22905,13 +23096,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
