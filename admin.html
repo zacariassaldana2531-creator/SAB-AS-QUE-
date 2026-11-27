@@ -95,7 +95,15 @@ function validateItem(i){
     if(!i.intro) e.push('Falta la introducción');
     if(!(i.sections||[]).length) e.push('Debe tener al menos un apartado');
     if(!i.conclusion) e.push('Falta la conclusión');
+    const nS=(i.sources||[]).length, okRef=n=>Number.isInteger(n)&&n>=1&&n<=nS;
+    (i.sections||[]).forEach((x,k)=>{
+      if((x.src||[]).some(n=>!okRef(n))) e.push(`Apartado ${k+1}: cita una fuente que no existe`);
+      if(x.img){ if(!isUrl(x.img.src)) e.push(`Apartado ${k+1}: la imagen debe ser una URL https`); if(!x.img.alt) e.push(`Apartado ${k+1}: falta el texto alternativo de la imagen`); const c=x.img.credit||{}; if(!c.artist||!c.license||!isUrl(c.page)) e.push(`Apartado ${k+1}: la imagen necesita autor, licencia y página de la licencia`); }
+    });
+    (i.timeline||[]).forEach((x,k)=>{ if(!x.y||!x.t) e.push(`Cronología ${k+1}: falta la fecha o el texto`); if(!(x.src||[]).length) e.push(`Cronología ${k+1}: cada fecha debe citar al menos una fuente`); else if(x.src.some(n=>!okRef(n))) e.push(`Cronología ${k+1}: cita una fuente que no existe`); });
+    (i.concepts||[]).forEach((x,k)=>{ if(!x.t||!x.d) e.push(`Concepto ${k+1}: falta el término o la definición`); if(x.id&&!D.items.some(y=>y.id===x.id&&y.status==='publicado')) e.push(`Concepto ${k+1}: el contenido enlazado no existe o no está publicado`); });
   } else if(!i.body) e.push('Falta la explicación completa');
+  (i.related||[]).forEach(id=>{ if(!D.items.some(y=>y.id===id&&y.status==='publicado')) e.push(`Recomendación fija «${id}»: no existe o no está publicada`); });
   if(i.img && !isUrl(i.img)) e.push('La imagen debe ser una URL https');
   return e;
 }
@@ -115,12 +123,23 @@ const allIssues = () => [
 ].filter(x=>x.e.length);
 
 /* ---------- Conversión texto <-> estructura (cómodo de editar en el móvil) ---------- */
-const sectionsToText = ss => (ss||[]).map(s=>`## ${s.h}\n\n${(s.p||[]).join('\n\n')}`).join('\n\n');
+/* Formato de apartados en texto:
+   ## Título  ·  párrafos separados por línea en blanco
+   > Ejemplo: texto del recuadro de ejemplo
+   [fuentes: 1, 2]   (números de la lista de fuentes que respaldan el apartado)
+   ![texto alternativo](https://imagen) | autor | licencia | página de la licencia | pie de foto */
+const imgToText = im => `![${im.alt||''}](${im.src}) | ${(im.credit||{}).artist||''} | ${(im.credit||{}).license||''} | ${(im.credit||{}).page||''} | ${im.caption||''}`;
+const sectionsToText = ss => (ss||[]).map(s=>[`## ${s.h}`,...(s.p||[]),s.example?`> Ejemplo: ${s.example}`:'',(s.src||[]).length?`[fuentes: ${s.src.join(', ')}]`:'',s.img?imgToText(s.img):''].filter(Boolean).join('\n\n')).join('\n\n');
 function textToSections(t){
   const out=[]; let cur=null;
   String(t||'').split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean).forEach(block=>{
-    if(block.startsWith('## ')){ const [h,...rest]=block.split('\n'); cur={h:h.slice(3).trim(),p:[]}; out.push(cur); if(rest.join(' ').trim()) cur.p.push(rest.join(' ').trim()); }
-    else { if(!cur){cur={h:'Introducción',p:[]};out.push(cur)} cur.p.push(block.replace(/\n/g,' ')); }
+    if(block.startsWith('## ')){ const [h,...rest]=block.split('\n'); cur={h:h.slice(3).trim(),p:[]}; out.push(cur); if(rest.join(' ').trim()) cur.p.push(rest.join(' ').trim()); return; }
+    if(!cur){cur={h:'Introducción',p:[]};out.push(cur)}
+    let m;
+    if((m=block.match(/^>\s*Ejemplo:\s*([\s\S]+)$/i))) cur.example=m[1].replace(/\n/g,' ').trim();
+    else if((m=block.match(/^\[fuentes?:\s*([\d,\s]+)\]$/i))) cur.src=m[1].split(/[,\s]+/).filter(Boolean).map(Number);
+    else if((m=block.match(/^!\[([^\]]*)\]\((https?:[^)]+)\)\s*(.*)$/))){ const [,alt,src,rest]=m; const p=rest.split('|').map(x=>x.trim()); cur.img={src,alt,credit:{artist:p[1]||'',license:p[2]||'',page:p[3]||''}}; if(p[4]) cur.img.caption=p[4]; }
+    else cur.p.push(block.replace(/\n/g,' '));
   });
   return out;
 }
@@ -129,6 +148,10 @@ const textToSources = t => String(t||'').split('\n').map(l=>l.trim()).filter(Boo
   const p=l.split('|').map(x=>x.trim()); const k=p.findIndex(x=>/^https?:\/\//.test(x)); if(k<0) return {t:l,u:''};
   const [org='',title='',date='']=k>=3?p.slice(0,3):k===2?[p[0],p[1],'']:['',p[0]||'',''];
   const s={t:(org?org+' — ':'')+title,org,title,u:p[k],kind:kindOf(p[k]),accessed:p[k+1]||''}; if(date) s.date=date; if(s.kind==='enciclopedia') s.note='Obra de consulta colaborativa de edición continua (sin fecha única de publicación).'; return s; });
+const timelineToText = tl => (tl||[]).map(e=>[e.y,e.t,(e.src||[]).join(', ')].join(' | ')).join('\n');
+const textToTimeline = t => String(t||'').split('\n').map(l=>l.trim()).filter(Boolean).map(l=>{ const p=l.split('|').map(x=>x.trim()); const e={y:p[0]||'',t:p[1]||''}; const n=(p[2]||'').split(/[,\s]+/).filter(Boolean).map(Number); if(n.length) e.src=n; return e; });
+const conceptsToText = cs => (cs||[]).map(c=>[c.t,c.d||'',c.id||''].join(' | ')).join('\n');
+const textToConcepts = t => String(t||'').split('\n').map(l=>l.trim()).filter(Boolean).map(l=>{ const p=l.split('|').map(x=>x.trim()); const c={t:p[0]||'',d:p[1]||''}; if(p[2]) c.id=p[2]; return c; });
 const lines = t => String(t||'').split('\n').map(l=>l.trim()).filter(Boolean);
 
 /* ---------- Render ---------- */
@@ -225,6 +248,9 @@ function editItem(){
   ${art?fld('Introducción',`<textarea name="intro">${esc(i.intro)}</textarea>`)
        +fld('Desarrollo por apartados',`<textarea class="big" name="sections">${esc(sectionsToText(i.sections))}</textarea>`,'Empieza cada apartado con «## Título». Separa los párrafos con una línea en blanco.')
        +fld('Datos complementarios',`<textarea name="facts">${esc((i.facts||[]).join('\n'))}</textarea>`,'Uno por línea.')
+       +fld('Cronología (opcional)',`<textarea name="timeline">${esc(timelineToText(i.timeline))}</textarea>`,'Una fecha por línea: «Año | Qué ocurrió | números de fuente». Cada fecha debe tener al menos una fuente.')
+       +fld('Conceptos relacionados (opcional)',`<textarea name="concepts">${esc(conceptsToText(i.concepts))}</textarea>`,'Uno por línea: «Concepto | Definición breve | id de un contenido de la biblioteca (opcional)».')
+       +fld('Recomendaciones fijas (opcional)',`<input name="related" value="${esc((i.related||[]).join(', '))}">`,'Ids de contenidos, separados por comas. Si se deja vacío, se eligen automáticamente.')
        +fld('Conclusión',`<textarea name="conclusion">${esc(i.conclusion)}</textarea>`)
       :fld('Explicación completa',`<textarea class="big" name="body" style="font-family:var(--sans)">${esc(i.body)}</textarea>`)}
   ${fld('Fuentes y referencias (obligatorio)',`<textarea name="sources" class="big" style="min-height:140px">${esc(sourcesToText(i.sources))}</textarea>`,'Una por línea: <b>Institución o autor | Título del documento | Fecha de publicación (si existe) | https://enlace | Fecha de consulta AAAA-MM-DD</b>. Prioriza universidades, revistas revisadas por pares, organismos oficiales (NASA, OMS, UNESCO), museos y archivos. Nunca blogs anónimos ni redes sociales. Solo fuentes reales que hayas abierto y que respalden cada afirmación.')}
@@ -286,7 +312,7 @@ function submit(form){
     i.verif={...(i.verif||{}),status:v.vstatus,reviewed:v.reviewed||'',level:inst?'institucional':'enciclopedica',method:(i.verif||{}).method||'Afirmaciones comprobadas contra el texto de las fuentes en el panel editorial.'};
     i.history=[...(i.history||[]),{date:today(),note:v.change.trim()||(state.isNew?'Creación en el panel':'Edición en el panel')}];
     if(v.cBefore&&v.cBefore.trim()&&v.cAfter&&v.cAfter.trim()){ (D.corrections=D.corrections||[]).push({id:i.id||slug(i.title),date:today(),before:v.cBefore.trim(),after:v.cAfter.trim(),why:(v.cWhy||'').trim()}); i.history.push({date:today(),note:'Corrección registrada en la fe de erratas'}); }
-    if(i.type==='articulo'){ Object.assign(i,{subtitle:v.subtitle.trim(),intro:v.intro.trim(),sections:textToSections(v.sections),facts:lines(v.facts),conclusion:v.conclusion.trim()}); }
+    if(i.type==='articulo'){ Object.assign(i,{subtitle:v.subtitle.trim(),intro:v.intro.trim(),sections:textToSections(v.sections),facts:lines(v.facts),conclusion:v.conclusion.trim(),timeline:textToTimeline(v.timeline),concepts:textToConcepts(v.concepts),related:String(v.related||'').split(/[,\s]+/).filter(Boolean)}); ['timeline','concepts','related'].forEach(k=>{ if(!i[k].length) delete i[k]; }); }
     else { i.body=v.body.trim(); if(i.type==='mito') i.verdict=v.verdict; }
     if(state.isNew){
       i.id=slug(v.id||'')||(i.type[0]+'-'+slug(i.title));
@@ -369,6 +395,7 @@ async function gate(){
     sessionStorage.setItem('sq.admin','1'); render(); }, { capture:true });
 }
 gate();
+window.SQA = { textToSections, sectionsToText, textToTimeline, timelineToText, textToConcepts, conceptsToText, validateItem, allIssues, data: () => D }; // para pruebas
 })();
 </script>
 </body>

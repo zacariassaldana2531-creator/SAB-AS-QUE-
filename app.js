@@ -43,7 +43,7 @@ const ContentRepo = (() => {
   }
   const cats = src.categories || [];
   const catMap = Object.fromEntries(cats.map(c => [c.id, c]));
-  const textOf = i => [i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || [])]), ...(i.facts || []), i.conclusion, i.desc, i.body].filter(Boolean).join(' ');
+  const textOf = i => [i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || []), s.example]), ...(i.timeline || []).map(e => e.y + ' ' + e.t), ...(i.concepts || []).map(c => c.t + ' ' + (c.d || '')), ...(i.facts || []), i.conclusion, i.desc, i.body].filter(Boolean).join(' ');
   const enrich = i => {
     const text = textOf(i);
     const words = text.split(/\s+/).filter(Boolean).length;
@@ -58,6 +58,7 @@ const ContentRepo = (() => {
   const items = (src.items || []).filter(i => i.status === 'publicado' && (!i.verif || i.verif.status === 'verificado')).map(enrich)
     .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   const map = Object.fromEntries(items.map(i => [i.id, i]));
+  const reco = (window.SQ_RECO || { build: () => () => [] }).build(items, src.series || []);
   const questions = (src.questions || []).filter(q => q.status !== 'borrador' && Array.isArray(q.o) && q.o.length >= 2);
 
   return {
@@ -70,8 +71,13 @@ const ContentRepo = (() => {
     byCat: (c, t) => items.filter(i => i.cat === c && (!t || t === 'todo' || i.type === t)),
     questions: () => questions,
     series: () => (src.series || []).map(x => ({ ...x, items: (x.ids || []).map(id => map[id]).filter(Boolean) })).filter(x => x.items.length),
+    /* Colecciones editoriales transversales (no son categorías): p. ej. «Lo que pocos saben» */
+    collections: () => (src.collections || []).map(x => ({ ...x, items: (x.ids || []).map(id => map[id]).filter(Boolean) })).filter(x => x.items.length),
+    inCollection: (cid, id) => ((src.collections || []).find(x => x.id === cid) || { ids: [] }).ids.includes(id),
     corrections: () => (src.corrections || []).slice().sort((a, b) => (b.date || '').localeCompare(a.date || '')),
     catImage: id => (catMap[id] || {}).img || null,
+    /* Recomendaciones: motor compartido en reco.js (también lo usan las páginas estáticas) */
+    recommend(i, n = 3) { return reco(i, n); },
     search(q) {
       const terms = norm(q).split(/\s+/).filter(t => t.length > 1);
       if (!terms.length) return [];
@@ -133,6 +139,13 @@ const UserRepo = (() => {
 
 /* ================= 5. SERVICES ================= */
 const Services = {
+  /* Selección que cambia cada día sin repetir hasta recorrer la lista */
+  dailyRotate(list, n) {
+    if (list.length <= n) return list;
+    const order = shuffle(list.slice().sort((a, b) => a.id.localeCompare(b.id)), rng(20261126));
+    const start = (dayKey() * n) % order.length;
+    return Array.from({ length: n }, (_, k) => order[(start + k) % order.length]);
+  },
   daily() {
     const pool = ContentRepo.all().filter(i => i.type !== 'mito');
     if (!pool.length) return null;
@@ -288,7 +301,7 @@ const MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 
 const LAUNCH = Date.UTC(2026, 10, 25);
 const edition = () => { const d = new Date(); return { n: Math.max(1, Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - LAUNCH) / 864e5) + 1), date: d.toLocaleDateString('es-DO', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) }; };
 const apa = i => { const d = new Date((i.date || '2026-11-25') + 'T12:00:00'); return `Redacción ¿Sabías que? (${d.getFullYear()}, ${d.getDate()} de ${MONTHS[d.getMonth()]}). ${i.title}. ¿SABÍAS QUE? ${publicUrl(i)}`; };
-const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || [])]), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, i.body, i.lead, i.name_origin, i.history, i.where && 'Dónde está. ' + i.where, i.what !== i.desc && i.what, ...(i.functions || []), ...(i.curious || [])].filter(Boolean).join('. ').replace(/\.\./g, '.');
+const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || []), s.example && 'Ejemplo. ' + s.example]), ...(i.timeline || []).map(e => `${e.y}: ${e.t}`), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, i.body, i.lead, i.name_origin, i.history, i.where && 'Dónde está. ' + i.where, i.what !== i.desc && i.what, ...(i.functions || []), ...(i.curious || [])].filter(Boolean).join('. ').replace(/\.\./g, '.');
 const toolBtns = (id, extra = '') => `<div class="art-actions">${favBtn(id)}<button class="btn sm" data-act="share" data-id="${id}">${ICON.share}<span>Compartir</span></button><button class="btn sm" data-act="card" data-id="${id}">${ICON.image}<span>Imagen</span></button><button class="btn sm" data-act="listen" data-id="${id}">${ICON.sound}<span>Escuchar</span></button><button class="btn sm" data-act="cite" data-id="${id}">${ICON.quote}<span>Citar</span></button>${extra}</div>`;
 const getAny = id => String(id).startsWith('pais-') ? Countries.get(id) : String(id).startsWith('anat-') ? Anatomy.get(id) : ContentRepo.get(id);
 
@@ -409,6 +422,8 @@ Views.home = () => {
     <span class="arr">${ICON.arrow}</span>
   </button>
 
+  ${rareHome()}
+
   <section class="otd card" id="otd-home"><div class="otd-head"><span class="eyebrow">${ICON.calendar} Hoy en la historia</span><a class="more" href="#/hoy">Ver todo</a></div><div class="otd-body">${otdSkeleton()}</div></section>
 
   <div class="sec"><div><h2>Descubrimientos rápidos</h2><p>Lee la afirmación. Toca para saber por qué es cierta (o falsa).</p></div></div>
@@ -432,7 +447,7 @@ Views.home = () => {
 
   ${footNote()}`;
 };
-const footNote = () => `<footer class="foot-note">¿SABÍAS QUE? · Contenido educativo gratuito.<br>Cada dato incluye sus fuentes para que puedas comprobarlo.<br><a href="#/metodologia">Cómo verificamos</a> · <a href="#/erratas">Fe de erratas</a> · <a href="#/dosieres">Dosieres</a> · <a href="#/hoy">Hoy en la historia</a></footer>`;
+const footNote = () => `<footer class="foot-note">¿SABÍAS QUE? · Contenido educativo gratuito.<br>Cada dato incluye sus fuentes para que puedas comprobarlo.<br><a href="#/metodologia">Cómo verificamos</a> · <a href="#/erratas">Fe de erratas</a> · <a href="#/dosieres">Dosieres</a> · <a href="#/lo-que-pocos-saben">Lo que pocos saben</a> · <a href="#/diccionario">Diccionario</a> · <a href="#/hoy">Hoy en la historia</a></footer>`;
 
 function catsGrid() {
   return `<div class="cats">${ContentRepo.categories().map(c => {
@@ -466,7 +481,7 @@ Views.category = ([id], q) => {
   <button class="back" data-act="back">${ICON.back} Volver</button>
   <header class="cat-hero${c.img ? ' has-img' : ''}" style="--cc:${c.color}">${c.img ? `<img class="cat-bg" src="${esc(c.img)}" alt="" decoding="async" referrerpolicy="no-referrer">` : ''}<div class="gl">${c.icon}</div><h1 class="h1">${esc(c.name)}</h1><p>${esc(c.desc)}</p></header>
   ${c.imgCredit ? credit(c, 'credit sm') : ''}
-  ${id === 'medicina' ? medNote() : ''}${id === 'cuerpo' || id === 'medicina' ? `<div style="margin:12px 0">${anatomyBanner()}</div>` : ''}
+  ${id === 'medicina' ? medNote() : ''}${id === 'cuerpo' || id === 'medicina' ? `<div style="margin:12px 0">${anatomyBanner()}</div>` : ''}${id === 'lengua' ? `<a class="dict-banner" href="#/diccionario"><span class="gl">📖</span><span><b>Diccionario</b><small>Busca una palabra o selecciónala mientras lees para ver su significado en contexto.</small></span><span class="arr">${ICON.arrow}</span></a>` : ''}
   ${typeSeg(tipo, '#/categoria/' + id)}
   <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(rowCard).join('')}</div>`
       : emptyState(c.icon, 'Nada por aquí todavía', 'No hay contenidos de este tipo en esta categoría. Prueba con otro filtro.', `<a class="btn" href="#/categoria/${id}">Ver todo en ${esc(c.name)}</a>`)}</div>`;
@@ -497,12 +512,23 @@ function searchResults(term) {
   return `${pcBlock}<div class="faint" style="font-size:13px;margin-bottom:10px">${plural(r.length, 'resultado', 'resultados')}${pc.length || an.length ? ' en artículos y curiosidades' : ''}</div><div class="list two">${r.map(rowCard).join('')}</div>`;
 }
 
+/* Bloques enriquecidos del artículo: apartados con imagen, ejemplo y fuente directa; cronología; conceptos relacionados */
+const srcRefs = (ns, label = 'Fuente') => (ns || []).length ? `<p class="sec-src">${label}${ns.length > 1 ? 's' : ''}: ${ns.map(n => `<button class="ref" data-act="toref" data-n="${n}" aria-label="Ir a la fuente ${n}">[${n}]</button>`).join(' ')}</p>` : '';
+const inlineFig = (im, cls = 'sec-fig') => im && im.src ? `<figure class="${cls}"><img src="${esc(im.src)}" alt="${esc(im.alt || '')}" loading="lazy" decoding="async" referrerpolicy="no-referrer">${im.caption ? `<figcaption class="cap">${esc(im.caption)}</figcaption>` : ''}${credit({ imgCredit: im.credit })}</figure>` : '';
+const secHtml = (s, k) => `<h2><span class="n">${String(k + 1).padStart(2, '0')}</span>${esc(s.h)}</h2>${(s.p || []).map(t => `<p>${esc(t)}</p>`).join('')}${inlineFig(s.img)}${s.example ? `<aside class="ex"><b>Ejemplo</b><p>${esc(s.example)}</p></aside>` : ''}${srcRefs(s.src)}`;
+const timelineHtml = i => (i.timeline || []).length ? `<h2><span class="n">CRONOLOGÍA</span>${esc(i.timelineTitle || 'Línea de tiempo')}</h2><ol class="tl">${i.timeline.map(e => `<li><span class="tl-y">${esc(e.y)}</span><div><p>${esc(e.t)}</p>${srcRefs(e.src)}</div></li>`).join('')}</ol>` : '';
+const conceptsHtml = i => {
+  const cs = (i.concepts || []).filter(c => c && c.t);
+  if (!cs.length) return '';
+  return `<aside class="box concepts"><h3>Conceptos relacionados</h3><dl>${cs.map(c => { const x = c.id && ContentRepo.get(c.id); return `<div><dt>${x ? `<a href="${href(x)}">${esc(c.t)}</a>` : esc(c.t)}</dt><dd>${esc(c.d || '')}</dd></div>`; }).join('')}</dl></aside>`;
+};
+const recoBlock = list => list.length ? `<section class="reco" aria-label="Te recomendamos"><div class="sec"><div><h2>Sigue leyendo</h2><p>Tres contenidos relacionados de la biblioteca</p></div></div><div class="list">${list.map(rowCard).join('')}</div></section>` : '';
 Views.article = ([id]) => {
   const i = ContentRepo.get(id);
   if (!i) return Views.notFound();
   if (i.type !== 'articulo') return Views.fact([id]);
   const c = ContentRepo.cat(i.cat) || {};
-  const related = ContentRepo.byCat(i.cat).filter(x => x.id !== i.id).slice(0, 4);
+  const related = ContentRepo.recommend(i, 3);
   const read = UserRepo.isRead(i.id);
   return `
   <article class="art" data-article="${i.id}">
@@ -510,7 +536,7 @@ Views.article = ([id]) => {
       <div style="display:flex;gap:8px">${favBtn(i.id, false)}<button class="btn sm" data-act="share" data-id="${i.id}" aria-label="Compartir">${ICON.share}</button></div></div>
     <header class="art-head">
       ${catChip(i)}
-      <h1>${esc(i.title)}</h1>
+      ${rareBadge(i)}<h1>${esc(i.title)}</h1>
       <p class="sub">${esc(i.subtitle || i.desc)}</p>
       ${metaLine(i, `<span>${esc(i.sub || '')}</span><span>${fmtDate(i.date)}</span>`)}
       <div class="claim-row">${claimBadge(i)}</div>${claimNote(i)}
@@ -519,16 +545,18 @@ Views.article = ([id]) => {
     ${toolBtns(i.id)}
     <div class="prose">
       <p class="lead">${esc(i.intro)}</p>
-      ${(i.sections || []).map((s, k) => `<h2><span class="n">${String(k + 1).padStart(2, '0')}</span>${esc(s.h)}</h2>${(s.p || []).map(t => `<p>${esc(t)}</p>`).join('')}`).join('')}
+      ${(i.sections || []).map((s, k) => secHtml(s, k)).join('')}
+      ${timelineHtml(i)}
       ${(i.facts || []).length ? `<aside class="box"><h3>Datos complementarios</h3><ul>${i.facts.map(f => `<li>${esc(f)}</li>`).join('')}</ul></aside>` : ''}
       ${i.conclusion ? `<h2><span class="n">EN RESUMEN</span>Conclusión</h2><p class="conclusion">${esc(i.conclusion)}</p>` : ''}
+      ${conceptsHtml(i)}
       ${refMarks(i.sources)}
     </div>
     ${i.cat === 'medicina' ? medNote() : ''}
     ${sourcesBlock(i.sources, i)}
     <p class="verify">¿Encontraste un error? Toda afirmación de este artículo debería poder comprobarse en sus fuentes. Consulta <a href="#/metodologia">cómo verificamos</a> y nuestra <a href="#/erratas">fe de erratas</a>.</p>
     <div class="endread ${read ? 'done' : ''}" id="endread">${read ? `${ICON.check} Artículo leído · +20 XP` : 'Llega al final para marcarlo como leído'}</div>
-    ${related.length ? `<div class="sec"><div><h2>Más de ${esc(c.name)}</h2></div></div><div class="list">${related.map(rowCard).join('')}</div>` : ''}
+    ${recoBlock(related)}
   </article>`;
 };
 
@@ -538,20 +566,20 @@ Views.fact = ([id]) => {
   if (!i) return Views.notFound();
   if (i.type === 'articulo') return Views.article([id]);
   if (UserRepo.markSeen(i.id)) renderAvatar();
-  const related = ContentRepo.byCat(i.cat).filter(x => x.id !== i.id).slice(0, 4);
+  const related = ContentRepo.recommend(i, 3);
   return `<article class="art">
     <div class="art-top"><button class="back" data-act="back">${ICON.back} Volver</button></div>
     <figure class="art-fig" style="margin-top:0"><div class="cover art-hero" style="margin-top:0">${cover(i, { w: 1200, h: 520 })}</div>${credit(i)}</figure>
     <header class="art-head" style="margin-top:22px">
       ${i.type === 'mito' ? `<span class="verdict ${i.verdict === 'matizado' ? 'matizado' : 'falso'}" style="margin-bottom:14px">${i.verdict === 'matizado' ? 'Verdad a medias' : 'Mito · Falso'}</span>` : catChip(i)}
-      <h1>${esc(i.title)}</h1><p class="sub">${esc(i.desc)}</p>${metaLine(i)}
+      ${rareBadge(i)}<h1>${esc(i.title)}</h1><p class="sub">${esc(i.desc)}</p>${metaLine(i)}
       <div class="claim-row">${claimBadge(i)}</div>${claimNote(i)}
     </header>
     <div class="prose"><p>${esc(i.body)}</p>${refMarks(i.sources)}</div>
     ${i.cat === 'medicina' ? medNote() : ''}
     ${toolBtns(i.id, `<button class="btn sm" data-act="surprise">${ICON.shuffle}<span>Sorpréndeme</span></button>`)}
     ${sourcesBlock(i.sources, i)}
-    ${related.length ? `<div class="sec"><div><h2>Relacionado</h2></div></div><div class="list">${related.map(rowCard).join('')}</div>` : ''}
+    ${recoBlock(related)}
   </article>`;
 };
 
@@ -930,6 +958,35 @@ Views.otd = () => `
   <p class="verify">Fuente: Wikipedia en español, sección de efemérides seleccionadas (CC BY-SA 4.0). Cada acontecimiento enlaza a su artículo.</p>`;
 
 /* Dosieres: series temáticas definidas en content.js (series) */
+/* Diccionario: búsqueda de palabras (la lógica vive en dict.js) */
+Views.dictionary = (p, q) => `
+  <button class="back" data-act="back">${ICON.back} Volver</button>
+  <header class="cat-hero" style="--cc:#d9a44c"><div class="gl">📖</div><span class="eyebrow" style="color:#e8c873">Lengua y literatura</span><h1 class="h1">Diccionario</h1><p>Busca qué significa una palabra. También puedes seleccionar cualquier palabra mientras lees un artículo o una curiosidad: verás su significado y la frase del texto donde aparece.</p></header>
+  <div class="dict-page"><form class="dict-search" role="search"><input type="search" name="w" placeholder="Escribe una palabra…" autocomplete="off" autocapitalize="off" value="${esc((q && q.get('q')) || '')}" aria-label="Palabra"><button class="btn ac" type="submit">Buscar</button></form>
+  <div id="dict-result" class="def"></div>
+  <p class="faint" style="font-size:13px;margin-top:18px">Las definiciones proceden del Wikcionario en español (CC BY-SA), un diccionario colaborativo. Para la norma académica, cada resultado enlaza al Diccionario de la lengua española de la RAE y a las recomendaciones de la FundéuRAE.</p></div>
+  ${footNote()}`;
+/* Colección «Lo que pocos saben» */
+const RARE = 'lo-que-pocos-saben';
+const rareBadge = i => ContentRepo.inCollection(RARE, i.id) ? `<a class="rare-chip" href="#/lo-que-pocos-saben">✦ Lo que pocos saben</a>` : '';
+const rareHome = () => {
+  const x = ContentRepo.collections().find(c => c.id === RARE);
+  if (!x) return '';
+  const pick = Services.dailyRotate ? Services.dailyRotate(x.items, 6) : x.items.slice(0, 6);
+  return `<section class="rare-home"><div class="sec"><div><h2><span class="rare-mark">✦</span> ${esc(x.title)}</h2><p>${esc(x.desc)}</p></div><a class="more" href="#/lo-que-pocos-saben">Ver la colección</a></div>
+  <div class="list two">${pick.map(rowCard).join('')}</div></section>`;
+};
+Views.collection = ([id]) => {
+  const x = ContentRepo.collections().find(c => c.id === (id || RARE));
+  if (!x) return Views.notFound();
+  const groups = ContentRepo.categories().map(c => ({ c, xs: x.items.filter(i => i.cat === c.id) })).filter(g => g.xs.length);
+  return `
+  <button class="back" data-act="back">${ICON.back} Volver</button>
+  <header class="cat-hero rare-hero" style="--cc:#d8b45a"><div class="gl">✦</div><span class="eyebrow" style="color:#e8c873">Colección editorial</span><h1 class="h1">${esc(x.title)}</h1><p>${esc(x.intro || x.desc)}</p><div class="meta"><span>${plural(x.items.length, 'pieza', 'piezas')}</span><span>${plural(groups.length, 'categoría', 'categorías')}</span></div></header>
+  <p class="faint" style="font-size:13.5px;margin:4px 0 6px">Cada pieza tiene fuentes verificables. Lo «poco conocido» no es lo dudoso: es lo documentado que casi nadie cuenta.</p>
+  ${groups.map(g => `<div class="sec"><div><h2>${g.c.icon} ${esc(g.c.name)}</h2></div></div><div class="list two">${g.xs.map(rowCard).join('')}</div>`).join('')}
+  ${footNote()}`;
+};
 const seriesCard = x => { const first = x.items.find(i => i.img) || x.items[0]; return `<a class="dossier" href="#/dosier/${x.id}"><div class="cover">${cover(first, { w: 600, h: 400 })}</div><div class="in"><span class="eyebrow" style="color:var(--ac2)">Dosier · ${x.items.length} piezas</span><b>${esc(x.title)}</b><span>${esc(x.desc)}</span></div></a>`; };
 Views.series = () => `
   <button class="back" data-act="back">${ICON.back} Volver</button>
@@ -1050,6 +1107,9 @@ const ROUTES = [
   [/^\/anatomia$/, 'anatomy', Views.anatomy, 'explorar'],
   [/^\/anatomia\/([\w-]+)$/, 'anatItem', Views.anatItem, 'explorar'],
   [/^\/hoy$/, 'otd', Views.otd, 'inicio'],
+  [/^\/diccionario$/, 'dictionary', Views.dictionary, 'explorar'],
+  [/^\/lo-que-pocos-saben$/, 'collection', Views.collection, 'explorar'],
+  [/^\/coleccion\/([\w-]+)$/, 'collection', Views.collection, 'explorar'],
   [/^\/dosieres$/, 'series', Views.series, 'explorar'],
   [/^\/dosier\/([\w-]+)$/, 'dossier', Views.dossier, 'explorar'],
   [/^\/metodologia$/, 'method', Views.method, ''],

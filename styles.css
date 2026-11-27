@@ -499,3 +499,64 @@ input{font:inherit;color:inherit}
 .fb-ans{margin-top:6px}
 .fb-src{margin-top:8px;font-size:13.5px;color:var(--tx3)}
 .fb-src a{color:var(--ac2);text-decoration:underline;text-underline-offset:2px}
+
+/* Artículos enriquecidos: imagen en apartado, ejemplo, fuente directa, cronología, conceptos, recomendaciones */
+.prose .sec-fig{margin:1.4em 0 1.6em}
+.prose .sec-fig img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:var(--r2);border:1px solid var(--line);background:var(--g2);display:block}
+.prose .sec-fig .cap{font-family:var(--sans);font-size:13.5px;line-height:1.45;color:var(--tx2);padding:9px 2px 0}
+.prose .ex{margin:1.3em 0 1.5em;padding:16px 18px;border-left:3px solid var(--ac);border-radius:0 var(--r1) var(--r1) 0;background:var(--g2);font-family:var(--sans);font-size:15.5px;line-height:1.6}
+.prose .ex b{display:block;font-size:11px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:var(--ac2);margin-bottom:6px}
+.prose .ex p{margin:0;color:var(--tx2)}
+.prose .sec-src{font-family:var(--sans);font-size:12.5px;color:var(--tx3);margin:-.3em 0 1.2em}
+.tl{list-style:none;margin:1em 0 2em;padding:0;position:relative}
+.tl::before{content:"";position:absolute;left:58px;top:6px;bottom:6px;width:1px;background:var(--line2)}
+.tl li{display:grid;grid-template-columns:52px 1fr;gap:22px;padding:0 0 18px;position:relative}
+.tl li::after{content:"";position:absolute;left:54px;top:.55em;width:9px;height:9px;border-radius:50%;background:var(--ac);box-shadow:0 0 0 4px var(--ink)}
+.tl-y{font-family:var(--sans);font-weight:800;font-size:13.5px;color:var(--ac2);text-align:right;padding-top:.15em;font-variant-numeric:tabular-nums}
+.tl li p{margin:0;font-size:17px;line-height:1.55}
+.tl li .sec-src{margin:.35em 0 0}
+.concepts dl{display:grid;gap:14px;margin:0 0 14px}
+.concepts dt{font-weight:800;color:var(--tx);font-size:15.5px}
+.concepts dt a{color:var(--tx);text-decoration:underline;text-decoration-color:var(--ac);text-underline-offset:3px}
+.concepts dd{margin:3px 0 0;color:var(--tx2);font-size:15px;line-height:1.55}
+.reco{margin-top:8px}
+
+/* Colección «Lo que pocos saben» */
+.rare-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--sans);font-size:11.5px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:#e8c873;background:rgba(216,180,90,.12);border:1px solid rgba(216,180,90,.32);padding:5px 10px;border-radius:999px;margin:0 0 12px}
+.art-head .rare-chip{margin-left:8px}
+.rare-mark{color:#e8c873}
+.rare-home{margin-top:6px}
+.rare-hero{background:radial-gradient(120% 140% at 100% 0%,rgba(216,180,90,.22),transparent 60%),var(--g2)}
+.rare-hero .meta{display:flex;gap:14px;color:var(--tx3);font-size:13px;margin-top:10px}
+
+/* Diccionario contextual (dict.js) */
+.dict-pill{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--tabh,64px) + var(--sab,0px) + 14px);z-index:95;display:inline-flex;align-items:center;gap:8px;max-width:calc(100vw - 32px);padding:11px 18px;border-radius:999px;border:1px solid rgba(216,180,90,.45);background:rgba(20,22,28,.96);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#f1dfa8;font:650 14.5px/1.2 var(--sans);box-shadow:0 10px 30px rgba(0,0,0,.45);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;animation:up .25s var(--ease)}
+.dict-pill[hidden]{display:none}
+.dict-card{position:fixed;left:0;right:0;bottom:0;z-index:96;max-height:78dvh;overflow:auto;background:var(--g1);border-top:1px solid var(--line2);border-radius:24px 24px 0 0;box-shadow:0 -20px 50px rgba(0,0,0,.5);transform:translateY(24px);opacity:0;transition:transform .22s var(--ease),opacity .22s;overscroll-behavior:contain}
+.dict-card.on{transform:none;opacity:1}
+.dict-card[hidden]{display:none}
+.dict-in{padding:18px 22px calc(24px + var(--sab,0px));position:relative;font-family:var(--sans)}
+.dict-in .x{position:absolute;right:14px;top:14px}
+.dict-w{font-family:var(--serif);font-size:30px;letter-spacing:-.4px;margin:4px 40px 12px 0;color:var(--tx)}
+.dict-ctx,.dict-gl{padding:12px 14px;border-radius:var(--r1);background:var(--g2);border:1px solid var(--line);margin:0 0 12px}
+.dict-ctx b,.dict-gl b{display:block;font-size:11px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;color:var(--ac2);margin-bottom:5px}
+.dict-ctx p,.dict-gl p{margin:0;color:var(--tx2);font-size:15.5px;line-height:1.55}
+.dict-ctx mark{background:rgba(216,180,90,.28);color:var(--tx);border-radius:4px;padding:0 2px}
+.dict-gl{border-color:rgba(143,124,255,.35)}
+.dict-defs{margin:6px 0 10px;padding-left:22px;display:grid;gap:12px}
+.dict-defs li{color:var(--tx);font-size:15.5px;line-height:1.55}
+.dict-defs .pos{display:block;font-size:11px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--tx3);margin-bottom:2px}
+.dict-defs .tags{display:block;font-size:12.5px;color:var(--tx3);margin-top:2px}
+.dict-defs .ex{display:block;font-size:14px;color:var(--tx2);font-style:italic;margin-top:4px}
+.dict-form{color:var(--tx2);font-size:14.5px}
+.dict-form a,.dict-links a,.dict-src a{color:var(--ac2)}
+.dict-ety{font-size:13.5px;color:var(--tx2);line-height:1.5}
+.dict-src{font-size:12.5px;color:var(--tx3);margin:10px 0 8px}
+.dict-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.dict-links a{display:inline-flex;padding:8px 12px;border-radius:999px;border:1px solid var(--line2);font-size:13.5px;font-weight:650;text-decoration:none}
+@media (min-width:760px){.dict-card{left:50%;right:auto;bottom:24px;width:min(560px,92vw);transform:translate(-50%,24px);border-radius:var(--r3);border:1px solid var(--line2)}.dict-card.on{transform:translate(-50%,0)}.dict-pill{bottom:28px}}
+.dict-page .dict-search{display:flex;gap:8px;margin:6px 0 18px}
+.dict-page .dict-search input{flex:1;min-width:0;padding:13px 16px;border-radius:14px;border:1px solid var(--line2);background:var(--g2);color:var(--tx);font:500 16px var(--sans)}
+.dict-page .def{margin-top:6px}
+.dict-banner{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:14px;margin:12px 0 18px;padding:16px 18px;border-radius:var(--r2);background:radial-gradient(120% 140% at 100% 0%,rgba(216,180,90,.18),transparent 60%),var(--g2);border:1px solid var(--line);color:var(--tx);text-decoration:none}
+.dict-banner .gl{font-size:28px}.dict-banner b{display:block;font-family:var(--serif);font-size:20px}.dict-banner small{color:var(--tx2);font-size:14px;line-height:1.45}.dict-banner .arr svg{width:18px;height:18px;color:var(--tx3)}

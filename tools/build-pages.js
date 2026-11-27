@@ -11,6 +11,7 @@ global.window = {};
 require(path.join(ROOT, 'content.js'));
 require(path.join(ROOT, 'countries.js'));
 require(path.join(ROOT, 'anatomy.js'));
+const { build: buildReco } = require(path.join(ROOT, 'reco.js'));
 const C = window.SQ_CONTENT, P = window.SQ_COUNTRIES || [], AN = window.SQ_ANATOMY || { systems: [], organs: [] };
 const MED = 'Contenido educativo y de divulgación. No sustituye el diagnóstico, el tratamiento ni el consejo de un profesional de la salud.';
 const medNote = `<aside class="med-note" role="note"><b>⚕️ Aviso</b> ${MED}</aside>`;
@@ -62,7 +63,10 @@ function page({ url, appUrl, title, desc, image, type, jsonld, body }) {
 const figure = (o, alt) => o.img ? `<figure class="art-fig"><div class="cover art-hero"><img src="${esc(o.img)}" alt="${esc(alt)}" referrerpolicy="no-referrer"></div>${o.imgCredit ? `<figcaption class="credit">Imagen: ${esc(o.imgCredit.artist)} · <a href="${esc(o.imgCredit.page)}" rel="noopener">${esc(o.imgCredit.license)} · Wikimedia Commons</a></figcaption>` : ''}</figure>` : '';
 const CLAIMS = { hecho: 'Hecho comprobado', teoria: 'Teoría científica respaldada', hipotesis: 'Hipótesis', interpretacion: 'Interpretación histórica', creencia: 'Creencia religiosa', leyenda: 'Leyenda', especulacion: 'Especulación', misterio: 'Misterio sin resolver', debate: 'Debate filosófico abierto' };
 const claimLine = i => i.claim ? `<p class="claim-note"><b>Tipo de afirmación:</b> ${CLAIMS[i.claim] || ''}${i.claimNote ? '. ' + esc(i.claimNote) : ''}</p>` : '';
-const sources = (ss, i) => ss && ss.length ? `<div class="sources"><h3>Fuentes y referencias</h3><ol>${ss.map(s => `<li><b>${esc(s.org || '')}</b>${s.org ? ' — ' : ''}<a href="${esc(s.u)}" rel="noopener">«${esc(s.title || s.t)}»</a>${s.date ? ` (${esc(s.date)})` : ''}.${s.note ? ' ' + esc(s.note) : ''}${s.accessed ? ` Consultado el ${fdate(s.accessed)}.` : ''}</li>`).join('')}</ol>${i && i.verif ? `<p class="verify">Verificado · Última revisión: ${fdate(i.verif.reviewed)}.</p>` : ''}</div>` : '';
+const sources = (ss, i) => ss && ss.length ? `<div class="sources"><h3>Fuentes y referencias</h3><ol>${ss.map((s, k) => `<li id="src-${k + 1}"><b>${esc(s.org || '')}</b>${s.org ? ' — ' : ''}<a href="${esc(s.u)}" rel="noopener">«${esc(s.title || s.t)}»</a>${s.date ? ` (${esc(s.date)})` : ''}.${s.note ? ' ' + esc(s.note) : ''}${s.accessed ? ` Consultado el ${fdate(s.accessed)}.` : ''}</li>`).join('')}</ol>${i && i.verif ? `<p class="verify">Verificado · Última revisión: ${fdate(i.verif.reviewed)}.</p>` : ''}</div>` : '';
+const refs = ns => (ns || []).length ? `<p class="sec-src">Fuente${ns.length > 1 ? 's' : ''}: ${ns.map(n => `<a href="#src-${n}">[${n}]</a>`).join(' ')}</p>` : '';
+const secFig = im => im && im.src ? `<figure class="sec-fig"><img src="${esc(im.src)}" alt="${esc(im.alt || '')}" loading="lazy" referrerpolicy="no-referrer">${im.caption ? `<figcaption class="cap">${esc(im.caption)}</figcaption>` : ''}${im.credit ? `<figcaption class="credit">Imagen: ${esc(im.credit.artist)} · <a href="${esc(im.credit.page)}" rel="noopener">${esc(im.credit.license)} · Wikimedia Commons</a></figcaption>` : ''}</figure>` : '';
+const conceptsBox = i => (i.concepts || []).length ? `<aside class="box concepts"><h3>Conceptos relacionados</h3><dl>${i.concepts.map(c => { const x = c.id && C.items.find(y => y.id === c.id && y.status === 'publicado'); return `<div><dt>${x ? `<a href="/${x.type === 'articulo' ? 'articulo' : 'dato'}/${x.id}/">${esc(c.t)}</a>` : esc(c.t)}</dt><dd>${esc(c.d || '')}</dd></div>`; }).join('')}</dl></aside>` : '';
 const write = (rel, html) => { const f = path.join(ROOT, rel, 'index.html'); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, html); };
 
 /* Limpiar las carpetas generadas para no dejar páginas de contenido borrado */
@@ -70,6 +74,9 @@ for (const d of ['articulo', 'dato', 'pais', 'anatomia']) fs.rmSync(path.join(RO
 
 const urls = [{ loc: `${SITE}/`, pri: '1.0' }];
 const items = C.items.filter(i => i.status === 'publicado' && (!i.verif || i.verif.status === 'verificado'));
+const recommend = buildReco(items, C.series || []);
+const hrefOf = x => `/${x.type === 'articulo' ? 'articulo' : 'dato'}/${x.id}/`;
+const recoBlock = i => { const r = recommend(i, 3); return r.length ? `<section class="reco"><h3>Sigue leyendo</h3><ul class="anat-list">${r.map(x => `<li><a href="${hrefOf(x)}">${esc(x.title)}</a> — ${esc((cats[x.cat] || {}).name || '')} · ${TYPE[x.type]}</li>`).join('')}</ul></section>` : ''; };
 for (const i of items) {
   const kind = i.type === 'articulo' ? 'articulo' : 'dato';
   const url = `${SITE}/${kind}/${i.id}/`, appUrl = `/#/${kind}/${i.id}`;
@@ -77,9 +84,9 @@ for (const i of items) {
   const desc = clip(i.desc, 200);
   const head = `<header class="art-head"><span class="chip" style="color:${esc(cat.color || '#b3a6ff')}"><span class="dot"></span>${esc(cat.name || '')} · ${TYPE[i.type]}</span><h1 style="margin-top:12px">${esc(i.title)}</h1><p class="sub">${esc(i.subtitle || i.desc)}</p><div class="meta"><span>Redacción ¿Sabías que?</span><span>${fdate(i.date)}</span></div>${claimLine(i)}</header>`;
   const body = i.type === 'articulo'
-    ? `${head}${figure(i, i.title)}<div class="prose"><p class="lead">${esc(i.intro)}</p>${(i.sections || []).map(s => `<h2>${esc(s.h)}</h2>${(s.p || []).map(t => `<p>${esc(t)}</p>`).join('')}`).join('')}${(i.facts || []).length ? `<aside class="box"><h3>Datos complementarios</h3><ul>${i.facts.map(f => `<li>${esc(f)}</li>`).join('')}</ul></aside>` : ''}${i.conclusion ? `<h2>Conclusión</h2><p class="conclusion">${esc(i.conclusion)}</p>` : ''}</div>${sources(i.sources, i)}`
+    ? `${head}${figure(i, i.title)}<div class="prose"><p class="lead">${esc(i.intro)}</p>${(i.sections || []).map(s => `<h2>${esc(s.h)}</h2>${(s.p || []).map(t => `<p>${esc(t)}</p>`).join('')}${secFig(s.img)}${s.example ? `<aside class="ex"><b>Ejemplo</b><p>${esc(s.example)}</p></aside>` : ''}${refs(s.src)}`).join('')}${(i.timeline || []).length ? `<h2>${esc(i.timelineTitle || 'Línea de tiempo')}</h2><ol class="tl">${i.timeline.map(e => `<li><span class="tl-y">${esc(e.y)}</span><div><p>${esc(e.t)}</p>${refs(e.src)}</div></li>`).join('')}</ol>` : ''}${(i.facts || []).length ? `<aside class="box"><h3>Datos complementarios</h3><ul>${i.facts.map(f => `<li>${esc(f)}</li>`).join('')}</ul></aside>` : ''}${i.conclusion ? `<h2>Conclusión</h2><p class="conclusion">${esc(i.conclusion)}</p>` : ''}${conceptsBox(i)}</div>${sources(i.sources, i)}`
     : `${head}${figure(i, i.title)}<div class="prose"><p>${esc(i.body)}</p></div>${sources(i.sources, i)}`;
-  const bodyFull = i.cat === 'medicina' ? body.replace('<div class="sources">', medNote + '<div class="sources">') : body;
+  const bodyFull = (i.cat === 'medicina' ? body.replace('<div class="sources">', medNote + '<div class="sources">') : body) + recoBlock(i);
   const jsonld = { '@context': 'https://schema.org', '@type': i.type === 'articulo' ? 'Article' : 'CreativeWork', headline: clip(i.title, 110), description: desc, datePublished: i.date, dateModified: C.updated || i.date, inLanguage: 'es', url, image: i.img || `${SITE}/og-default.png`, author: { '@type': 'Organization', name: 'Redacción ¿Sabías que?' }, publisher: { '@type': 'Organization', name: '¿SABÍAS QUE?', logo: { '@type': 'ImageObject', url: `${SITE}/icons/icon-512.png` } }, citation: (i.sources || []).map(s => s.u), isAccessibleForFree: true };
   write(`${kind}/${i.id}`, page({ url, appUrl, title: i.title, desc, image: i.img || `${SITE}/og-default.png`, type: 'article', jsonld, body: bodyFull }));
   urls.push({ loc: url, pri: i.type === 'articulo' ? '0.8' : '0.6', mod: i.date });

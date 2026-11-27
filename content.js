@@ -1,4 +1,4 @@
-/* ¿SABÍAS QUE? — Base de contenido v6 (345 contenidos, 400 preguntas).
+/* ¿SABÍAS QUE? — Base de contenido v6 (368 contenidos, 418 preguntas).
  * Cada contenido tiene fuentes verificadas automáticamente contra el texto de la fuente.
  * Tipos: "articulo" | "curiosidad" | "mito". Estado: "publicado" | "borrador". Nivel: 1-3.
  * Este archivo lo puede regenerar el panel admin (admin.html → Publicar → Descargar content.js).
@@ -207,7 +207,7 @@ window.SQ_CONTENT = {
    "name": "Cultura general",
    "icon": "🎭",
    "color": "#ef8a5c",
-   "desc": "Idioma, tradiciones y República Dominicana.",
+   "desc": "Tradiciones, gastronomía, arte y República Dominicana.",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg/960px-Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg",
    "imgCredit": {
     "artist": "Mariordo (Mario Roberto Durán Ortiz)",
@@ -215,6 +215,21 @@ window.SQ_CONTENT = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_Menor_de_Santa_Mar%C3%ADa_CCSD_07_2017_4676.jpg",
     "file": "Basílica_Menor_de_Santa_María_CCSD_07_2017_4676.jpg"
+   }
+  },
+  {
+   "id": "lengua",
+   "name": "Lengua y literatura",
+   "icon": "✍️",
+   "color": "#d9a44c",
+   "desc": "Cómo se escribe, qué significan las palabras y grandes autores y obras.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Title_page_first_edition_Don_Quijote.jpg/960px-Title_page_first_edition_Don_Quijote.jpg",
+   "imgCredit": {
+    "artist": "Juan de la Cuesta",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Title_page_first_edition_Don_Quijote.jpg",
+    "file": "Title_page_first_edition_Don_Quijote.jpg"
    }
   }
  ],
@@ -1646,6 +1661,38 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Se añadió una cronología con las fechas ya verificadas del artículo"
+    }
+   ],
+   "timeline": [
+    {
+     "y": "1904",
+     "t": "Lizzie Magie patenta The Landlord's Game.",
+     "src": [
+      3,
+      4
+     ]
+    },
+    {
+     "y": "1935",
+     "t": "Parker Brothers lanza Monopoly.",
+     "src": [
+      2,
+      3
+     ]
+    },
+    {
+     "y": "2015",
+     "t": "Mary Pilon publica The Monopolists.",
+     "src": [
+      1,
+      2,
+      3,
+      4
+     ]
     }
    ]
   },
@@ -1831,6 +1878,33 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Se añadió una cronología con las fechas ya verificadas del artículo"
+    }
+   ],
+   "timeline": [
+    {
+     "y": "1512",
+     "t": "Empieza, aproximadamente, la construcción de la Catedral Primada de América.",
+     "src": [
+      2
+     ]
+    },
+    {
+     "y": "1541",
+     "t": "La catedral es consagrada.",
+     "src": [
+      2
+     ]
+    },
+    {
+     "y": "1990",
+     "t": "La UNESCO inscribe la Ciudad Colonial en la lista del Patrimonio Mundial.",
+     "src": [
+      1
+     ]
     }
    ]
   },
@@ -2750,7 +2824,7 @@ window.SQ_CONTENT = {
    "status": "publicado",
    "date": "2026-11-09",
    "level": 1,
-   "cat": "cultura",
+   "cat": "lengua",
    "sub": "Idioma",
    "title": "Cada vez que dices «ojalá», hablas árabe",
    "desc": "Viene de una expresión árabe que significa «si Dios quiere».",
@@ -2780,6 +2854,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-09",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Movido a la nueva categoría Lengua y literatura"
     }
    ]
   },
@@ -2789,7 +2867,7 @@ window.SQ_CONTENT = {
    "status": "publicado",
    "date": "2026-11-08",
    "level": 1,
-   "cat": "cultura",
+   "cat": "lengua",
    "sub": "Idioma",
    "title": "Huracán, hamaca y barbacoa son palabras taínas",
    "desc": "Los taínos de La Española y otras islas del Caribe dejaron palabras que hoy se usan en todo el mundo.",
@@ -2828,6 +2906,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Movido a la nueva categoría Lengua y literatura"
     }
    ]
   },
@@ -9910,7 +9992,7 @@ window.SQ_CONTENT = {
   {
    "id": "c-ok-origen",
    "type": "curiosidad",
-   "cat": "cultura",
+   "cat": "lengua",
    "sub": "Idioma",
    "level": 2,
    "title": "«OK» nació como un chiste de periódico en 1839",
@@ -9964,6 +10046,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Movido a la nueva categoría Lengua y literatura"
     }
    ]
   },
@@ -10018,7 +10104,7 @@ window.SQ_CONTENT = {
   {
    "id": "c-cervantes-shakespeare",
    "type": "curiosidad",
-   "cat": "cultura",
+   "cat": "lengua",
    "sub": "Literatura",
    "level": 3,
    "title": "Cervantes y Shakespeare no murieron el mismo día",
@@ -10073,13 +10159,17 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Movido a la nueva categoría Lengua y literatura"
     }
    ]
   },
   {
    "id": "c-letra-n",
    "type": "curiosidad",
-   "cat": "cultura",
+   "cat": "lengua",
    "sub": "Idioma",
    "level": 1,
    "title": "La ñ nació como una abreviatura de «nn»",
@@ -10121,6 +10211,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Movido a la nueva categoría Lengua y literatura"
     }
    ]
   },
@@ -10517,6 +10611,51 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Se añadió una cronología con las fechas ya verificadas del artículo"
+    }
+   ],
+   "timeline": [
+    {
+     "y": "1867",
+     "t": "Nace en Varsovia.",
+     "src": [
+      1,
+      2
+     ]
+    },
+    {
+     "y": "1903",
+     "t": "Comparte el Nobel de Física con Pierre Curie y Henri Becquerel.",
+     "src": [
+      1,
+      2
+     ]
+    },
+    {
+     "y": "1911",
+     "t": "Recibe en solitario el Nobel de Química por el polonio y el radio.",
+     "src": [
+      1,
+      2
+     ]
+    },
+    {
+     "y": "1934",
+     "t": "Muere de anemia aplásica.",
+     "src": [
+      1,
+      2
+     ]
+    },
+    {
+     "y": "1935",
+     "t": "Su hija Irène Joliot-Curie gana el Nobel de Química.",
+     "src": [
+      2
+     ]
     }
    ]
   },
@@ -16678,7 +16817,7 @@ window.SQ_CONTENT = {
   {
    "id": "c-alfabeto-fenicio",
    "type": "curiosidad",
-   "cat": "cultura",
+   "cat": "lengua",
    "sub": "Escritura",
    "level": 2,
    "title": "Nuestras letras descienden de un alfabeto fenicio de hace unos 3.000 años",
@@ -16724,6 +16863,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Movido a la nueva categoría Lengua y literatura"
     }
    ]
   },
@@ -16770,7 +16913,7 @@ window.SQ_CONTENT = {
   {
    "id": "c-gabriela-mistral",
    "type": "curiosidad",
-   "cat": "cultura",
+   "cat": "lengua",
    "sub": "Literatura",
    "level": 2,
    "title": "El primer Nobel de Literatura de América Latina fue para una mujer",
@@ -16816,6 +16959,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Movido a la nueva categoría Lengua y literatura"
     }
    ]
   },
@@ -16961,6 +17108,49 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Se añadió una cronología con las fechas ya verificadas del artículo"
+    }
+   ],
+   "timeline": [
+    {
+     "y": "1796",
+     "t": "Edward Jenner inocula a James Phipps con material de viruela bovina.",
+     "src": [
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "y": "1958",
+     "t": "Empieza la campaña mundial de vacunación dirigida por la OMS.",
+     "src": [
+      2,
+      3
+     ]
+    },
+    {
+     "y": "1977",
+     "t": "Se diagnostica el último caso natural, en octubre.",
+     "src": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "y": "1980",
+     "t": "La Asamblea Mundial de la Salud declara la viruela erradicada.",
+     "src": [
+      1,
+      2,
+      3,
+      4
+     ]
     }
    ]
   },
@@ -17181,6 +17371,28 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Se añadió una cronología con las fechas ya verificadas del artículo"
+    }
+   ],
+   "timeline": [
+    {
+     "y": "1842",
+     "t": "Crawford Long usa éter como anestésico en Georgia, sin publicarlo de inmediato.",
+     "src": [
+      4,
+      5
+     ]
+    },
+    {
+     "y": "1846",
+     "t": "Demostración pública de la anestesia con éter el 16 de octubre, el «Ether Day».",
+     "src": [
+      4,
+      5
+     ]
     }
    ]
   },
@@ -17297,6 +17509,37 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Se añadió una cronología con las fechas ya verificadas del artículo"
+    }
+   ],
+   "timeline": [
+    {
+     "y": "1921",
+     "t": "Banting y Best, en Toronto, logran extraer insulina.",
+     "src": [
+      4,
+      5
+     ]
+    },
+    {
+     "y": "1922",
+     "t": "Leonard Thompson, de 14 años, recibe la primera inyección (11 de enero).",
+     "src": [
+      4,
+      5
+     ]
+    },
+    {
+     "y": "1923",
+     "t": "El Nobel de Fisiología o Medicina es para Banting y Macleod.",
+     "src": [
+      1,
+      4,
+      5
+     ]
     }
    ]
   },
@@ -20943,7 +21186,7 @@ window.SQ_CONTENT = {
   {
    "id": "c-don-quijote",
    "type": "curiosidad",
-   "cat": "cultura",
+   "cat": "lengua",
    "sub": "Literatura",
    "level": 1,
    "title": "La primera parte del Quijote se publicó en 1605",
@@ -20985,6 +21228,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Movido a la nueva categoría Lengua y literatura"
     }
    ]
   },
@@ -21113,6 +21360,2179 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    }
+   ]
+  },
+  {
+   "id": "a-tectonica-placas",
+   "type": "articulo",
+   "cat": "geografia",
+   "sub": "Geología",
+   "level": 2,
+   "title": "El suelo que pisas se mueve: la historia de la tectónica de placas",
+   "subtitle": "Una idea de un cartógrafo de 1596, ridiculizada en 1912 y confirmada en el fondo del océano",
+   "desc": "La superficie de la Tierra está partida en placas que se desplazan unos centímetros al año. Así se descubrió, y así explica los terremotos, los volcanes y el Himalaya.",
+   "intro": "La capa más externa de la Tierra está fragmentada en una docena o más de placas, grandes y pequeñas, que se mueven unas respecto a otras sobre un material más caliente y móvil. Esa es la teoría de la tectónica de placas, y llegar a ella costó siglos: primero hubo que imaginar que los continentes se movían y después encontrar la prueba en un lugar que casi nadie había visto, el fondo del mar.",
+   "sections": [
+    {
+     "h": "Una sospecha de 1596",
+     "p": [
+      "Según el Servicio Geológico de Estados Unidos (USGS), la idea de que los continentes no siempre estuvieron donde están la sugirió ya en 1596 el cartógrafo neerlandés Abraham Ortelius. En su obra Thesaurus Geographicus propuso que América había sido «arrancada» de Europa y África por terremotos e inundaciones, y que bastaba mirar un mapa para ver las huellas de la ruptura.",
+      "La idea reapareció en el siglo XIX: en 1858, el geógrafo Antonio Snider-Pellegrini dibujó dos mapas que mostraban cómo América y África podrían haber encajado antes de separarse."
+     ],
+     "src": [
+      1
+     ]
+    },
+    {
+     "h": "Wegener y la deriva continental",
+     "p": [
+      "En 1912, un meteorólogo alemán de 32 años, Alfred Wegener, presentó la idea como una teoría científica completa en dos artículos: la deriva continental. Sostenía que, hace unos 200 millones de años, un supercontinente llamado Pangea empezó a dividirse.",
+      "Sus pruebas iban más allá del encaje de las costas. En las orillas de Sudamérica y África, hoy separadas por el Atlántico, aparecían los mismos fósiles de plantas y animales, y le parecía físicamente imposible que esos organismos hubieran cruzado el océano. También se habían hallado fósiles de plantas tropicales, en forma de carbón, en la Antártida, y depósitos glaciares en zonas hoy áridas de África."
+     ],
+     "example": "El nombre «Pangea» significa «todas las tierras» en griego. Según la teoría de la deriva continental, empezó a romperse hace entre 225 y 200 millones de años.",
+     "src": [
+      1
+     ],
+     "img": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Mollweide_Paleographic_Map_of_Earth%2C_225_Ma_%28Norian_Age%29.png/960px-Mollweide_Paleographic_Map_of_Earth%2C_225_Ma_%28Norian_Age%29.png",
+      "alt": "Mapa paleogeográfico de la Tierra hace 225 millones de años",
+      "caption": "La Tierra hace unos 225 millones de años, cuando los continentes estaban unidos en Pangea.",
+      "credit": {
+       "artist": "Scotese, Christopher R.; Vérard, Christian; Burgener, Landon; Elling, Reece P.; Kocsis, Ádám T",
+       "license": "CC BY 4.0",
+       "page": "https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth%2C_225_Ma_%28Norian_Age%29.png"
+      }
+     }
+    },
+    {
+     "h": "Por qué casi nadie le creyó",
+     "p": [
+      "Cuando Wegener presentó su teoría, la comunidad científica estaba convencida de que continentes y océanos eran rasgos permanentes. Además, su propuesta tenía una debilidad grave: no explicaba qué fuerza podía mover masas de roca tan enormes.",
+      "Wegener sugirió que los continentes avanzaban abriéndose paso por el fondo oceánico, pero el geofísico inglés Harold Jeffreys argumentó, con razón, que una masa de roca sólida no podía hacer eso sin romperse. Wegener siguió buscando pruebas el resto de su vida y murió congelado en 1930, durante una expedición por el casquete de hielo de Groenlandia."
+     ],
+     "src": [
+      1
+     ]
+    },
+    {
+     "h": "La prueba estaba bajo el mar",
+     "p": [
+      "A partir de la década de 1950 se acumularon pruebas nuevas. Los estudios oceanográficos descubrieron que una cordillera submarina rodea casi todo el planeta: la dorsal mesoceánica, de más de 50.000 kilómetros de largo, que zigzaguea entre los continentes como la costura de una pelota de béisbol.",
+      "Los magnetómetros revelaron además un patrón de «rayas de cebra» a ambos lados de la dorsal: franjas de roca con la polaridad magnética actual alternadas con franjas de polaridad invertida. En 1961 se propuso la explicación: en las dorsales el fondo oceánico se abre, sube magma y se forma corteza nueva, que se aleja a ambos lados. Es la expansión del fondo oceánico.",
+      "En 1968, el buque de investigación Glomar Challenger perforó el fondo a uno y otro lado de la dorsal atlántica. La edad de las muestras aportó la prueba definitiva: las rocas son más jóvenes cerca de la dorsal y más antiguas a medida que uno se aleja."
+     ],
+     "example": "La corteza oceánica funciona como una «grabación» de la historia del campo magnético: cada franja conserva la orientación que tenía el campo cuando esa roca se enfrió.",
+     "src": [
+      2
+     ],
+     "img": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Atlantic_bathymetry.jpg/960px-Atlantic_bathymetry.jpg",
+      "alt": "Batimetría del océano Atlántico",
+      "caption": "En el centro del Atlántico se ve la dorsal mesoatlántica, la cordillera submarina que recorre el océano de norte a sur.",
+      "credit": {
+       "artist": "NOAA",
+       "license": "Dominio público",
+       "page": "https://commons.wikimedia.org/wiki/File:Atlantic_bathymetry.jpg"
+      }
+     }
+    },
+    {
+     "h": "Si se crea corteza, ¿por qué la Tierra no crece?",
+     "p": [
+      "La mayoría de los geólogos piensa que la Tierra apenas ha cambiado de tamaño desde que se formó, hace 4.600 millones de años. Entonces, si en las dorsales se crea corteza nueva sin parar, en algún lugar debe destruirse.",
+      "El geólogo Harry Hess, de la Universidad de Princeton, propuso que la corteza oceánica se mueve como una cinta transportadora y que, millones de años después, se hunde en las fosas oceánicas. Esa idea explicaba a la vez por qué la Tierra no aumenta de tamaño, por qué hay tan poco sedimento en el fondo del mar y por qué las rocas oceánicas son mucho más jóvenes que las continentales."
+     ],
+     "src": [
+      2
+     ]
+    },
+    {
+     "h": "Tres maneras de encontrarse",
+     "p": [
+      "El USGS distingue varios tipos de límites entre placas. En los divergentes, las placas se separan y se crea corteza nueva, como en la dorsal mesoatlántica, que se abre a un promedio de unos 2,5 centímetros al año. En los convergentes, la corteza se destruye cuando una placa se hunde bajo otra. En los transformantes, las placas se deslizan de lado sin crear ni destruir corteza, como en la falla de San Andrés, en California.",
+      "Cuando chocan dos continentes, ninguno se hunde, porque la roca continental es relativamente ligera: la corteza se arruga y se eleva. Así nacieron el Himalaya y la meseta del Tíbet, tras la colisión de la India con Asia hace unos 50 millones de años."
+     ],
+     "example": "Islandia está sobre la dorsal mesoatlántica: es un laboratorio natural donde se puede estudiar en tierra firme lo que en otros lugares ocurre bajo el mar.",
+     "src": [
+      3
+     ]
+    }
+   ],
+   "timeline": [
+    {
+     "y": "1596",
+     "t": "Abraham Ortelius sugiere que América se separó de Europa y África.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1858",
+     "t": "Antonio Snider-Pellegrini dibuja cómo América y África pudieron encajar.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1912",
+     "t": "Alfred Wegener presenta la teoría de la deriva continental.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1930",
+     "t": "Wegener muere durante una expedición en Groenlandia.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1947",
+     "t": "El buque Atlantis descubre que el sedimento del fondo atlántico es mucho más delgado de lo esperado.",
+     "src": [
+      2
+     ]
+    },
+    {
+     "y": "1961",
+     "t": "Se propone que las dorsales son zonas donde el fondo oceánico se abre.",
+     "src": [
+      2
+     ]
+    },
+    {
+     "y": "1968",
+     "t": "Las perforaciones del Glomar Challenger confirman la expansión del fondo oceánico.",
+     "src": [
+      2
+     ]
+    }
+   ],
+   "facts": [
+    "La dorsal mesoceánica mide más de 50.000 kilómetros y, en algunos puntos, más de 800 kilómetros de ancho.",
+    "Unos dos tercios de la superficie de la Tierra están bajo los océanos.",
+    "Una de las grandes preguntas que siguen abiertas es la misma que Wegener no pudo responder: qué fuerzas exactamente impulsan las placas."
+   ],
+   "conclusion": "La tectónica de placas unió ramas enteras de las ciencias de la Tierra y explicó por qué los terremotos y los volcanes se concentran en ciertas zonas y cómo se levantan las grandes cordilleras. Aun así, el propio USGS recuerda que algunos aspectos se siguen debatiendo, entre ellos la naturaleza de las fuerzas que mueven las placas.",
+   "concepts": [
+    {
+     "t": "Pangea",
+     "d": "Supercontinente que, según la deriva continental, empezó a fragmentarse hace entre 225 y 200 millones de años."
+    },
+    {
+     "t": "Expansión del fondo oceánico",
+     "d": "Proceso por el que se forma corteza nueva en las dorsales y se aleja a ambos lados."
+    },
+    {
+     "t": "Subducción",
+     "d": "Hundimiento de una placa bajo otra en un límite convergente."
+    },
+    {
+     "t": "Altura oficial del Everest",
+     "d": "La cima más alta del Himalaya, la cordillera nacida del choque entre India y Asia.",
+     "id": "c-everest-altura"
+    }
+   ],
+   "sources": [
+    {
+     "t": "Servicio Geológico de EE. UU. (USGS) — This Dynamic Earth: Historical perspective",
+     "org": "Servicio Geológico de EE. UU. (USGS)",
+     "title": "This Dynamic Earth: Historical perspective",
+     "u": "https://pubs.usgs.gov/gip/dynamic/historical.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Servicio Geológico de EE. UU. (USGS) — This Dynamic Earth: Developing the theory",
+     "org": "Servicio Geológico de EE. UU. (USGS)",
+     "title": "This Dynamic Earth: Developing the theory",
+     "u": "https://pubs.usgs.gov/gip/dynamic/developing.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Servicio Geológico de EE. UU. (USGS) — This Dynamic Earth: Understanding plate motions",
+     "org": "Servicio Geológico de EE. UU. (USGS)",
+     "title": "This Dynamic Earth: Understanding plate motions",
+     "u": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "claim": "teoria",
+   "claimNote": "La tectónica de placas es una teoría científica ampliamente aceptada; algunos de sus aspectos, como las fuerzas que mueven las placas, se siguen investigando.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Tectonic_plates_%282022%29.svg/960px-Tectonic_plates_%282022%29.svg.png",
+   "imgCredit": {
+    "artist": "M.Bitton",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Tectonic_plates_%282022%29.svg",
+    "file": "Tectonic_plates_(2022).svg"
+   },
+   "imgAlt": "Mapa de las placas tectónicas de la Tierra",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "a-sueno",
+   "type": "articulo",
+   "cat": "cuerpo",
+   "sub": "Cerebro",
+   "level": 1,
+   "title": "Qué hace tu cerebro mientras duermes",
+   "subtitle": "Las fases del sueño, el reloj interno y por qué el cuerpo no es un aparato apagado por la noche",
+   "desc": "Pasamos alrededor de un tercio de la vida durmiendo, y el cerebro sigue muy activo. Así funcionan las fases del sueño y los mecanismos que deciden cuándo tenemos sueño.",
+   "intro": "Según el Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares de Estados Unidos (NINDS), pasamos alrededor de un tercio de nuestro tiempo durmiendo, y un sueño de calidad es tan esencial para sobrevivir como la comida y el agua. Durante ese tiempo, el cerebro y el cuerpo siguen notablemente activos. Aun así, el propósito biológico exacto del sueño sigue siendo un misterio.",
+   "sections": [
+    {
+     "h": "Dos tipos de sueño",
+     "p": [
+      "Hay dos tipos básicos de sueño: el sueño REM (por las siglas en inglés de «movimientos oculares rápidos») y el sueño no REM, que a su vez tiene tres etapas. A lo largo de una noche típica pasamos varias veces por todas ellas, y los periodos REM se vuelven más largos y profundos hacia el final.",
+      "La etapa 1 es la transición entre la vigilia y el sueño y suele durar unos minutos. En la etapa 2, un sueño ligero, baja la temperatura del cuerpo y los ojos dejan de moverse; es la etapa en la que pasamos más tiempo. La etapa 3 es el sueño profundo que necesitamos para despertarnos descansados: el corazón y la respiración alcanzan su ritmo más lento y puede costar despertar a la persona."
+     ],
+     "src": [
+      1
+     ]
+    },
+    {
+     "h": "El sueño REM y los sueños",
+     "p": [
+      "El primer periodo REM llega unos 90 minutos después de dormirse. Los ojos se mueven rápido de un lado a otro bajo los párpados, la respiración se acelera y se vuelve irregular, y el ritmo cardíaco y la presión arterial suben casi a los niveles de la vigilia.",
+      "En esta fase ocurre la mayor parte de los sueños, aunque también se puede soñar en el sueño no REM. Los músculos de brazos y piernas quedan paralizados de forma temporal, lo que impide que representemos lo que soñamos. Según el NINDS, pasamos unas dos horas cada noche soñando, aunque no recordemos la mayoría de los sueños."
+     ],
+     "example": "El tronco encefálico envía señales para relajar los músculos que sostienen la postura y mueven las extremidades. Por eso, en la fase REM, podemos «correr» en un sueño sin mover las piernas.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "h": "El reloj interno y la presión del sueño",
+     "p": [
+      "Dos mecanismos deciden cuándo estamos despiertos y cuándo dormimos. El primero son los ritmos circadianos, controlados por un reloj biológico basado en un día de 24 horas. En el hipotálamo, un grupo de miles de células llamado núcleo supraquiasmático recibe información sobre la luz directamente de los ojos.",
+      "El segundo es la homeostasis del sueño: una especie de contador que lleva la cuenta de cuánto necesitamos dormir. Esa presión se hace más fuerte con cada hora despiertos, y por eso después de una noche sin dormir dormimos más tiempo y más profundamente."
+     ],
+     "example": "La glándula pineal aumenta la producción de melatonina cuando oscurece, lo que ayuda a conciliar el sueño. Y la cafeína nos mantiene despiertos porque bloquea la acción de la adenosina, una sustancia que hace sentir sueño.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "h": "Cuánto hay que dormir",
+     "p": [
+      "Las necesidades cambian con la edad. Según el NINDS, los bebés duermen al principio entre 16 y 18 horas al día; los niños en edad escolar y los adolescentes necesitan en promedio unas 9,5 horas por noche, y la mayoría de los adultos, entre 7 y 9 horas, incluidas las personas mayores.",
+      "No hay una cantidad mágica que sirva para todos los de la misma edad. Y dormir más los fines de semana puede no bastar para recuperar el sueño perdido, según cuánto se haya acumulado."
+     ],
+     "src": [
+      1
+     ]
+    }
+   ],
+   "facts": [
+    "La luz es, quizá, el factor que más influye en el ciclo de sueño y vigilia: células especializadas de la retina le indican al cerebro si es de día o de noche.",
+    "Algunos genes «reloj», como Per, tim y Cry, influyen en los ritmos circadianos y en el momento del sueño.",
+    "Durante el sueño REM la amígdala, una estructura que interviene en las emociones, se vuelve cada vez más activa."
+   ],
+   "conclusion": "Dormir no es apagar el cuerpo: es un proceso complejo y activo que afecta casi a todos los tejidos, desde el cerebro hasta el sistema inmunitario. La ciencia sabe cada vez más sobre cómo se regula, aunque todavía no puede responder del todo para qué sirve. Si tienes problemas para dormir o mucho cansancio durante el día, lo indicado es consultar a un profesional de la salud.",
+   "concepts": [
+    {
+     "t": "Ritmo circadiano",
+     "d": "Ciclo biológico de unas 24 horas que regula la vigilia, la temperatura corporal y la liberación de hormonas."
+    },
+    {
+     "t": "Melatonina",
+     "d": "Hormona de la glándula pineal que ayuda a conciliar el sueño cuando oscurece."
+    },
+    {
+     "t": "Sueños vívidos",
+     "d": "Los sueños más intensos suelen ocurrir durante la fase REM.",
+     "id": "c-sueno-rem"
+    },
+    {
+     "t": "Déjà vu",
+     "d": "La sensación de haber vivido antes una situación nueva.",
+     "id": "c-deja-vu"
+    }
+   ],
+   "sources": [
+    {
+     "t": "Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares de EE. UU. (NINDS, NIH) — Brain Basics: Understanding Sleep",
+     "org": "Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares de EE. UU. (NINDS, NIH)",
+     "title": "Brain Basics: Understanding Sleep",
+     "u": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "claim": "hecho",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Hypro_zyklus_1_en_103.svg/960px-Hypro_zyklus_1_en_103.svg.png",
+   "imgCredit": {
+    "artist": "Schlafgut",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Hypro_zyklus_1_en_103.svg",
+    "file": "Hypro_zyklus_1_en_103.svg"
+   },
+   "imgAlt": "Gráfico de las fases del sueño a lo largo de una noche",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "a-monarca",
+   "type": "articulo",
+   "cat": "animales",
+   "sub": "Insectos",
+   "level": 1,
+   "title": "La mariposa que viaja hasta 3.000 millas sin conocer su destino",
+   "subtitle": "La migración de la monarca: una ruta de ida y vuelta que ninguna mariposa completa sola",
+   "desc": "Las monarcas del este de Norteamérica pasan el invierno en los bosques de oyamel de México, aunque la generación que llega nunca ha estado allí.",
+   "intro": "Según el Servicio Forestal de Estados Unidos, la monarca de Norteamérica es la única mariposa conocida que hace una migración de ida y vuelta, como las aves. No puede sobrevivir a los inviernos fríos del norte, así que cada otoño viaja hacia el sur. Algunas recorren hasta 3.000 millas (unos 4.800 kilómetros) para llegar a su refugio de invierno.",
+   "sections": [
+    {
+     "h": "Un invierno en las montañas de México",
+     "p": [
+      "Las monarcas del este de Norteamérica pasan el invierno en las mismas 11 a 12 zonas de montaña de los estados de México y Michoacán, de octubre a finales de marzo. Se posan en bosques de oyamel, un tipo de abeto, a una altitud de entre 2.400 y 3.600 metros, donde las temperaturas van de 0 a 15 °C.",
+      "Las del oeste de las Montañas Rocosas, en cambio, pasan el invierno en la costa de California, cerca de Santa Cruz y San Diego. En 1986, el Gobierno mexicano creó la Reserva de la Biosfera de la Mariposa Monarca para proteger los bosques de oyamel."
+     ],
+     "example": "Las monarcas se agrupan para mantenerse calientes: decenas de miles pueden posarse en un solo árbol. Una sola pesa menos de un gramo, pero juntas pesan tanto que a veces se rompen las ramas.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "h": "Saben el camino sin haberlo recorrido",
+     "p": [
+      "Lo más asombroso, según el Servicio Forestal, es que la generación que migra al sur nunca ha estado en México y aun así encuentra los sitios de invernada. Los investigadores siguen estudiando cómo se orientan: todo indica que combinan varias señales, como el campo magnético de la Tierra y la posición del Sol.",
+      "Viajan solo de día, entre 50 y 100 millas diarias, y el trayecto puede durarles hasta dos meses. El récord registrado es de 265 millas en un solo día."
+     ],
+     "src": [
+      1
+     ]
+    },
+    {
+     "h": "Una generación que vive meses",
+     "p": [
+      "La mayoría de las monarcas vive solo unas semanas. Pero la generación que nace a finales del verano y principios del otoño es distinta: según el Servicio de Parques Nacionales de Estados Unidos, puede vivir ocho o nueve meses para completar la migración.",
+      "Con la llegada de la primavera, esa generación se reproduce y empieza el viaje de vuelta. Pero el regreso no lo hace una sola generación: cada nueva generación avanza más al norte, y hacen falta de 3 a 4 para llegar al norte de Estados Unidos y a Canadá."
+     ],
+     "src": [
+      1,
+      2
+     ]
+    },
+    {
+     "h": "Veneno de serie y amenazas",
+     "p": [
+      "Las hembras ponen sus huevos en el envés de las hojas del algodoncillo (asclepia), una planta venenosa. La oruga se alimenta de esas hojas y sus toxinas permanecen en el cuerpo de la monarca incluso después de convertirse en mariposa. Sus colores vivos funcionan como una advertencia: el animal que se come una se enferma y aprende a evitarlas.",
+      "El Servicio de Parques Nacionales señala varias amenazas: la pérdida de algodoncillo, la reducción de los refugios de invierno en México y California, y los cambios del clima, con tormentas fuera de temporada y bajadas bruscas de temperatura."
+     ],
+     "src": [
+      2
+     ]
+    }
+   ],
+   "facts": [
+    "En México se la llama mariposa monarca; su nombre científico es Danaus plexippus.",
+    "En su viaje al sur, las monarcas se concentran en las penínsulas, desde cuya punta cruzan el tramo más corto de agua abierta.",
+    "Las monarcas del este que viajan al sur siguen varias rutas que se unen en una sola en el centro de Texas."
+   ],
+   "conclusion": "La migración de la monarca es un relevo: la mariposa que llega a México no es la que salió de allí, y ninguna completa sola el viaje de ida y vuelta. Su supervivencia depende de proteger tanto los bosques de invierno como las plantas de algodoncillo a lo largo de toda la ruta.",
+   "concepts": [
+    {
+     "t": "Oyamel",
+     "d": "Abeto de las montañas del centro de México en cuyos bosques invernan las monarcas del este."
+    },
+    {
+     "t": "Algodoncillo",
+     "d": "Planta venenosa (asclepia) en la que la monarca pone sus huevos y de la que se alimenta la oruga."
+    },
+    {
+     "t": "Danza de las abejas",
+     "d": "Otro ejemplo de orientación animal: las abejas se indican dónde hay comida bailando.",
+     "id": "c-danza-abejas"
+    },
+    {
+     "t": "Colibrí",
+     "d": "Otro viajero diminuto con habilidades de vuelo únicas.",
+     "id": "c-colibri-atras"
+    }
+   ],
+   "sources": [
+    {
+     "t": "Servicio Forestal de EE. UU. (USDA Forest Service) — Monarch Butterfly: Migration and Overwintering",
+     "org": "Servicio Forestal de EE. UU. (USDA Forest Service)",
+     "title": "Monarch Butterfly: Migration and Overwintering",
+     "u": "https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/migration/index.shtml",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Servicio de Parques Nacionales de EE. UU. (NPS) — Pollinators — Monarch butterfly",
+     "org": "Servicio de Parques Nacionales de EE. UU. (NPS)",
+     "title": "Pollinators — Monarch butterfly",
+     "u": "https://www.nps.gov/articles/monarch-butterfly.htm",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2025-06-20"
+    }
+   ],
+   "claim": "hecho",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Monarch_butterfly_US_migration.png/960px-Monarch_butterfly_US_migration.png",
+   "imgCredit": {
+    "artist": "*MonarchWanderungKlein.gif: Harald Süpfle",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_US_migration.png",
+    "file": "Monarch_butterfly_US_migration.png"
+   },
+   "imgAlt": "Mapa de las rutas de migración de la mariposa monarca",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "a-fondo-cosmico",
+   "type": "articulo",
+   "cat": "universo",
+   "sub": "Cosmología",
+   "level": 2,
+   "title": "El ruido que resultó ser el eco del Big Bang",
+   "subtitle": "Cómo una antena de telecomunicaciones encontró la luz más antigua del universo",
+   "desc": "En 1964, dos radioastrónomos detectaron un «ruido» que venía de todas direcciones. Era la radiación de fondo de microondas, una huella del universo primitivo.",
+   "intro": "La radiación de fondo de microondas es la luz más antigua que podemos observar. Según la NASA, se liberó unos 375.000 años después del nacimiento del universo y desde entonces viaja por el espacio casi sin obstáculos. Su descubrimiento fue un accidente, mereció dos premios Nobel y convirtió la cosmología en una ciencia de precisión.",
+   "sections": [
+    {
+     "h": "Un ruido que no se iba",
+     "p": [
+      "A principios de la década de 1960, los Laboratorios Bell de Estados Unidos construyeron un receptor muy sensible, usado al principio para comunicarse con los satélites Echo y Telstar. Cuando quedó disponible para investigar, los radioastrónomos Arno Penzias y Robert Wilson lo usaron para estudiar la radiación de microondas del cielo.",
+      "Esperaban una señal muy débil, pero encontraron una intensidad relativamente alta. Primero sospecharon que venía del propio instrumento o de la atmósfera. Tras pruebas minuciosas demostraron que llegaba del espacio exterior y que era igual en todas las direcciones: el universo está lleno de manera uniforme de radiación de microondas."
+     ],
+     "src": [
+      2
+     ]
+    },
+    {
+     "h": "La pieza que faltaba",
+     "p": [
+      "Penzias y Wilson no propusieron un origen para esa radiación. Pero, según la Fundación Nobel, una teoría desarrollada en la década de 1940 por Alpher, Gamow y Herman ya predecía un fondo de microondas.",
+      "En esa época competían dos ideas: que el universo había comenzado con un Big Bang y luego se había expandido, o que siempre había existido en un estado estacionario. El escenario del Big Bang predice esa radiación, así que el hallazgo le dio más credibilidad. En 1978, Penzias y Wilson recibieron el Nobel de Física por su descubrimiento."
+     ],
+     "example": "Según la Fundación Nobel, esta radiación forma parte de la «nieve» que se veía en los televisores antiguos cuando se interrumpía la transmisión.",
+     "src": [
+      2,
+      3
+     ]
+    },
+    {
+     "h": "De 3.000 grados a casi el cero absoluto",
+     "p": [
+      "Cuando se emitió, el universo todavía estaba muy caliente, a unos 3.000 grados. A medida que se expandió, la radiación se enfrió y sus ondas se estiraron. Hoy corresponde a la de un cuerpo a solo 2,7 grados por encima del cero absoluto, y por eso se detecta en la región de las microondas.",
+      "Medirla bien exigió salir de la atmósfera, que absorbe buena parte de esa radiación. El satélite COBE de la NASA mostró que su espectro tiene la forma de un «cuerpo negro» casi perfecto y, en 1992, descubrió diminutas diferencias de temperatura entre unas zonas del cielo y otras. Por ello, John Mather y George Smoot recibieron el Nobel de Física de 2006."
+     ],
+     "src": [
+      1,
+      3
+     ]
+    },
+    {
+     "h": "El «retrato de bebé» del universo",
+     "p": [
+      "Las diferencias de temperatura son minúsculas: según la NASA, una parte del cielo puede estar a 2,7251 kelvin y otra a 2,7249. Pero esas variaciones son las semillas de las estructuras que, con el tiempo, formaron las estrellas y las galaxias.",
+      "La sonda WMAP de la NASA, lanzada en 2001, las midió con mucho más detalle que COBE, y el telescopio Planck de la Agencia Espacial Europea publicó en 2013 el mapa más detallado hasta entonces. Con esos datos, Planck estimó la edad del universo en 13.820 millones de años."
+     ],
+     "example": "Planck también encontró rasgos que no encajan del todo con el modelo estándar, como una «mancha fría» más grande de lo esperado y una asimetría entre los dos hemisferios del cielo.",
+     "src": [
+      1,
+      4
+     ]
+    }
+   ],
+   "timeline": [
+    {
+     "y": "1940s",
+     "t": "Alpher, Gamow y Herman desarrollan una teoría que predice un fondo de microondas.",
+     "src": [
+      3
+     ]
+    },
+    {
+     "y": "1964",
+     "t": "Penzias y Wilson registran por primera vez la radiación de fondo.",
+     "src": [
+      3
+     ]
+    },
+    {
+     "y": "1978",
+     "t": "Penzias y Wilson reciben el Nobel de Física.",
+     "src": [
+      2
+     ]
+    },
+    {
+     "y": "1992",
+     "t": "El satélite COBE descubre las diminutas diferencias de temperatura.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "2001",
+     "t": "Se lanza la sonda WMAP de la NASA.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "2006",
+     "t": "John Mather y George Smoot reciben el Nobel de Física por los resultados de COBE.",
+     "src": [
+      3
+     ]
+    },
+    {
+     "y": "2013",
+     "t": "El telescopio Planck publica el mapa más detallado de la radiación de fondo.",
+     "src": [
+      4
+     ]
+    }
+   ],
+   "facts": [
+    "La antena de Penzias y Wilson estaba sintonizada a una longitud de onda de 7 centímetros.",
+    "WMAP dejó de recoger datos científicos el 19 de agosto de 2010.",
+    "El nombre WMAP honra a David T. Wilkinson, miembro del equipo de la misión."
+   ],
+   "conclusion": "Lo que empezó como un ruido molesto en una antena se convirtió en una de las pruebas más sólidas de que el universo tuvo un origen caliente y denso. Hoy, cada mapa de esa luz antigua sirve para medir la edad, la composición y la forma del cosmos, y también para descubrir lo que todavía no entendemos.",
+   "concepts": [
+    {
+     "t": "Big Bang",
+     "d": "Modelo según el cual el universo se desarrolló a partir de un estado muy caliente y denso, y desde entonces se expande."
+    },
+    {
+     "t": "Radiación de cuerpo negro",
+     "d": "Radiación cuyo espectro depende solo de la temperatura del objeto que la emite."
+    },
+    {
+     "t": "Mirar el pasado",
+     "d": "Como la luz tarda en llegar, todo lo que vemos en el cielo es una imagen del pasado.",
+     "id": "a-luz-pasado"
+    },
+    {
+     "t": "Velocidad de la luz",
+     "d": "Una constante que hoy está fijada por definición.",
+     "id": "c-velocidad-luz"
+    }
+   ],
+   "sources": [
+    {
+     "t": "NASA (Centro de Vuelo Espacial Goddard) — WMAP: Wilkinson Microwave Anisotropy Probe",
+     "org": "NASA (Centro de Vuelo Espacial Goddard)",
+     "title": "WMAP: Wilkinson Microwave Anisotropy Probe",
+     "u": "https://map.gsfc.nasa.gov/universe/bb_tests_cmb.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Fundación Nobel (nobelprize.org) — Press release: The Nobel Prize in Physics 1978",
+     "org": "Fundación Nobel (nobelprize.org)",
+     "title": "Press release: The Nobel Prize in Physics 1978",
+     "u": "https://www.nobelprize.org/prizes/physics/1978/press-release/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "1978-10-17"
+    },
+    {
+     "t": "Fundación Nobel (nobelprize.org) — The Nobel Prize in Physics 2006 — Popular information",
+     "org": "Fundación Nobel (nobelprize.org)",
+     "title": "The Nobel Prize in Physics 2006 — Popular information",
+     "u": "https://www.nobelprize.org/prizes/physics/2006/popular-information/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Agencia Espacial Europea (ESA) — Planck reveals an almost perfect Universe",
+     "org": "Agencia Espacial Europea (ESA)",
+     "title": "Planck reveals an almost perfect Universe",
+     "u": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_reveals_an_almost_perfect_Universe",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2013-03-21"
+    }
+   ],
+   "claim": "teoria",
+   "claimNote": "La radiación de fondo es un hecho observado; su interpretación como huella del Big Bang forma parte del modelo cosmológico estándar, una teoría científica ampliamente respaldada que todavía tiene preguntas abiertas.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Horn_Antenna-in_Holmdel%2C_New_Jersey_-_restoration1.jpg/960px-Horn_Antenna-in_Holmdel%2C_New_Jersey_-_restoration1.jpg",
+   "imgCredit": {
+    "artist": "NASA, restored by Bammesk",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Horn_Antenna-in_Holmdel%2C_New_Jersey_-_restoration1.jpg",
+    "file": "Horn_Antenna-in_Holmdel,_New_Jersey_-_restoration1.jpg"
+   },
+   "imgAlt": "La antena de cuerno de Holmdel, con la que se detectó la radiación de fondo",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "a-transistor",
+   "type": "articulo",
+   "cat": "tecnologia",
+   "sub": "Inventos",
+   "level": 2,
+   "title": "El transistor: el invento de 1947 que hoy cabe por millones en un solo chip",
+   "subtitle": "De un trozo de germanio con dos contactos de oro a los chips de hoy",
+   "desc": "En diciembre de 1947, en los Laboratorios Bell, un pequeño dispositivo amplificó una señal hasta 100 veces. Así empezó la electrónica moderna.",
+   "intro": "El transistor es un dispositivo de material semiconductor capaz de amplificar una señal y de funcionar como interruptor. El primero nació en los Laboratorios Bell a finales de 1947, buscando un sustituto de las válvulas de vacío, poco fiables, que usaba entonces el sistema telefónico de Estados Unidos.",
+   "sections": [
+    {
+     "h": "Un regalo de Navidad",
+     "p": [
+      "Según el Computer History Museum, William Shockley organizó en 1945 un grupo de física del estado sólido en los Laboratorios Bell. Su primera idea de amplificador no funcionó como esperaba. El físico teórico John Bardeen sugirió que los electrones de la superficie del semiconductor podían estar bloqueando el efecto, y empezó a investigarlo junto al físico experimental Walter Brattain.",
+      "El 16 de diciembre de 1947 lograron el primer amplificador semiconductor que funcionó: dos contactos de oro muy juntos, sujetos con una cuña de plástico, sobre una pequeña placa de germanio de alta pureza. El voltaje en un contacto modulaba la corriente en el otro y amplificaba la señal de entrada hasta 100 veces. El 23 de diciembre se lo mostraron a los directivos, en lo que Shockley llamó «un magnífico regalo de Navidad»."
+     ],
+     "src": [
+      1
+     ]
+    },
+    {
+     "h": "Del laboratorio a la calle",
+     "p": [
+      "El ingeniero John Pierce le puso el nombre de «transistor», y los Laboratorios Bell lo anunciaron en una conferencia de prensa en Nueva York el 30 de junio de 1948. En 1956, Shockley, Bardeen y Brattain recibieron el Nobel de Física por sus investigaciones sobre semiconductores y el descubrimiento del efecto transistor.",
+      "Al principio eran más caros que las válvulas, así que sus primeros usos fueron aparatos en los que importaban mucho el tamaño y el consumo. El primer producto de consumo con transistores en Estados Unidos fue un audífono para la sordera, en 1952. La primera radio de transistores a la venta en ese país, la Regency TR-1, llegó a las tiendas en octubre de 1954 por 49,95 dólares."
+     ],
+     "example": "Para 1954, según el Computer History Museum, el 97 % de los audífonos usaba solo transistores: fue uno de los primeros mercados que adoptó el invento.",
+     "src": [
+      1,
+      2,
+      3
+     ],
+     "img": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Regency_TR-1.jpg/960px-Regency_TR-1.jpg",
+      "alt": "Radio de transistores Regency TR-1",
+      "caption": "La Regency TR-1, la primera radio de transistores a la venta en Estados Unidos (1954).",
+      "credit": {
+       "artist": "Cmglee",
+       "license": "CC BY-SA 3.0",
+       "page": "https://commons.wikimedia.org/wiki/File:Regency_TR-1.jpg"
+      }
+     }
+    },
+    {
+     "h": "Muchos transistores en un solo chip",
+     "p": [
+      "El siguiente salto fue fabricar circuitos completos sobre una sola pieza de silicio. Jack Kilby y Robert Noyce son reconocidos hoy como coinventores del circuito integrado: a Kilby se le atribuye el primer circuito con todos sus componentes de material semiconductor, y a Noyce, una forma práctica de fabricarlos en grandes cantidades, cuya patente solicitó en 1959.",
+      "En 1971, el primer microprocesador de Intel, el 4004, reunió unos 2.300 transistores en un encapsulado de 16 patillas."
+     ],
+     "src": [
+      4,
+      5
+     ]
+    },
+    {
+     "h": "La «ley» de Moore",
+     "p": [
+      "En 1965, Gordon Moore, director de investigación de Fairchild Semiconductor, publicó una predicción sobre cuántos componentes cabrían en un circuito integrado: se duplicarían cada año. En 1975 ajustó la previsión a una duplicación cada dos años.",
+      "Más que una ley de la naturaleza, fue una observación que se convirtió en un objetivo para toda la industria. En 1995, un microprocesador Pentium de Intel tenía casi 5 millones de transistores, y el Computer History Museum señala que hoy existen dispositivos con más de mil millones."
+     ],
+     "example": "El nombre de «ley de Moore» no lo puso Moore: se lo dio el ingeniero Carver Mead.",
+     "src": [
+      6
+     ]
+    }
+   ],
+   "timeline": [
+    {
+     "y": "1947",
+     "t": "Bardeen y Brattain logran el primer transistor de contacto puntual (16 de diciembre).",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1948",
+     "t": "Los Laboratorios Bell presentan el transistor en Nueva York (30 de junio).",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1952",
+     "t": "Sale a la venta el primer producto de consumo con transistores en EE. UU.: un audífono.",
+     "src": [
+      3
+     ]
+    },
+    {
+     "y": "1954",
+     "t": "Llega a las tiendas la radio de transistores Regency TR-1.",
+     "src": [
+      3
+     ]
+    },
+    {
+     "y": "1956",
+     "t": "Shockley, Bardeen y Brattain reciben el Nobel de Física.",
+     "src": [
+      2
+     ]
+    },
+    {
+     "y": "1959",
+     "t": "Robert Noyce solicita la patente de un circuito integrado monolítico fabricable en serie.",
+     "src": [
+      4
+     ]
+    },
+    {
+     "y": "1965",
+     "t": "Gordon Moore publica su predicción sobre la densidad de los chips.",
+     "src": [
+      6
+     ]
+    },
+    {
+     "y": "1971",
+     "t": "El Intel 4004 reúne unos 2.300 transistores en un solo chip.",
+     "src": [
+      5
+     ]
+    }
+   ],
+   "facts": [
+    "Los primeros transistores eran tan delicados mecánicamente que se montaban en un cartucho metálico; aun así se fabricaron muchos miles, el modelo «Tipo A» de Bell.",
+    "La radio Regency TR-1 vendió más de 100.000 unidades y popularizó la palabra «transistor»."
+   ],
+   "conclusion": "El transistor nació para sustituir a las poco fiables válvulas de vacío y, al poder fabricarse dentro de un circuito integrado, abrió el camino a los microprocesadores. De 2.300 transistores en el Intel 4004 de 1971 se pasó a casi 5 millones en un Pentium de 1995. Su historia muestra también que un invento puede encontrar su primer uso donde nadie lo espera, como en un audífono.",
+   "concepts": [
+    {
+     "t": "Semiconductor",
+     "d": "Material, como el germanio o el silicio, cuya conductividad eléctrica se puede controlar; es la base de los transistores."
+    },
+    {
+     "t": "Circuito integrado",
+     "d": "Circuito electrónico completo fabricado sobre una sola pieza de silicio."
+    },
+    {
+     "t": "ENIAC",
+     "d": "Una de las primeras computadoras, todavía basada en válvulas de vacío.",
+     "id": "c-eniac"
+    },
+    {
+     "t": "La computadora del Apolo",
+     "d": "La que llevó al ser humano a la Luna tenía muy poca memoria comparada con un teléfono actual.",
+     "id": "c-computadora-apolo"
+    }
+   ],
+   "sources": [
+    {
+     "t": "Computer History Museum (Silicon Engine) — 1947: Invention of the Point-Contact Transistor",
+     "org": "Computer History Museum (Silicon Engine)",
+     "title": "1947: Invention of the Point-Contact Transistor",
+     "u": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Fundación Nobel (nobelprize.org) — The Nobel Prize in Physics 1956",
+     "org": "Fundación Nobel (nobelprize.org)",
+     "title": "The Nobel Prize in Physics 1956",
+     "u": "https://www.nobelprize.org/prizes/physics/1956/summary/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Computer History Museum (Silicon Engine) — 1952: Transistorized Consumer Products Appear",
+     "org": "Computer History Museum (Silicon Engine)",
+     "title": "1952: Transistorized Consumer Products Appear",
+     "u": "https://www.computerhistory.org/siliconengine/transistorized-consumer-products-appear/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Computer History Museum (Silicon Engine) — 1959: Practical Monolithic Integrated Circuit Concept Patented",
+     "org": "Computer History Museum (Silicon Engine)",
+     "title": "1959: Practical Monolithic Integrated Circuit Concept Patented",
+     "u": "https://www.computerhistory.org/siliconengine/practical-monolithic-integrated-circuit-concept-patented/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Computer History Museum (Silicon Engine) — 1971: Microprocessor Integrates CPU Function onto a Single Chip",
+     "org": "Computer History Museum (Silicon Engine)",
+     "title": "1971: Microprocessor Integrates CPU Function onto a Single Chip",
+     "u": "https://www.computerhistory.org/siliconengine/microprocessor-integrates-cpu-function-onto-a-single-chip/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Computer History Museum (Silicon Engine) — 1965: «Moore's Law» Predicts the Future of Integrated Circuits",
+     "org": "Computer History Museum (Silicon Engine)",
+     "title": "1965: «Moore's Law» Predicts the Future of Integrated Circuits",
+     "u": "https://www.computerhistory.org/siliconengine/moores-law-predicts-the-future-of-integrated-circuits/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "claim": "hecho",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Replica-of-first-transistor.jpg/960px-Replica-of-first-transistor.jpg",
+   "imgCredit": {
+    "artist": "Federal employee",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Replica-of-first-transistor.jpg",
+    "file": "Replica-of-first-transistor.jpg"
+   },
+   "imgAlt": "Réplica del primer transistor",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "a-darwin",
+   "type": "articulo",
+   "cat": "ciencia",
+   "sub": "Biología",
+   "level": 2,
+   "title": "El viaje de cinco años que cambió la biología",
+   "subtitle": "Darwin, el Beagle y la idea de la selección natural",
+   "desc": "Un joven que abandonó la medicina se embarcó en 1831 en el HMS Beagle. Las muestras que trajo le sirvieron para explicar cómo cambian las especies.",
+   "intro": "Charles Darwin (1809-1882) transformó la manera en que entendemos el mundo natural. Según el Museo de Historia Natural de Londres, la teoría de la evolución por selección natural es aceptada hoy por la comunidad científica como la mejor explicación, basada en pruebas, de la diversidad y la complejidad de la vida en la Tierra.",
+   "sections": [
+    {
+     "h": "Un estudiante que no soportó la cirugía",
+     "p": [
+      "Darwin nació en 1809 en Shrewsbury, Inglaterra, y desde niño coleccionaba plantas e insectos. En 1825 empezó a estudiar Medicina en la Universidad de Edimburgo, pero presenciar una operación a un niño, en una época sin anestesia ni antisépticos, lo afectó tanto que dejó la carrera.",
+      "En Edimburgo pagó clases de taxidermia a John Edmonstone, un hombre de Guyana que había sido esclavizado. Esas habilidades le resultaron cruciales pocos años después. Luego estudió Teología en la Universidad de Cambridge."
+     ],
+     "src": [
+      1
+     ]
+    },
+    {
+     "h": "El viaje del Beagle",
+     "p": [
+      "En 1831 aceptó embarcarse en un viaje de cinco años en el HMS Beagle, recomendado por uno de sus profesores de Cambridge como naturalista y acompañante del capitán, Robert FitzRoy. Exploró regiones remotas, vio aves de patas azules, tiburones con la cabeza en forma de T y tortugas gigantes, y reunió plantas, animales, fósiles y abundantes notas de campo.",
+      "Regresó a Inglaterra en 1836 y dedicó muchos años a comparar y analizar sus colecciones antes de afirmar que la evolución ocurre mediante la selección natural."
+     ],
+     "src": [
+      1
+     ]
+    },
+    {
+     "h": "Qué propone la selección natural",
+     "p": [
+      "La teoría plantea que los individuos con las características más adecuadas para su entorno tienen más probabilidades de sobrevivir y reproducirse, y transmiten esas características a su descendencia. Con el tiempo, esos rasgos se vuelven más comunes en la población y las especies cambian. Si los cambios son lo bastante grandes, pueden dar lugar a una especie nueva.",
+      "Los pinzones que Darwin recogió en las islas Galápagos le ayudaron a formular la idea: unos tenían picos robustos para comer semillas y otros estaban especializados en insectos, pero todos descendían de un antepasado común que, al dispersarse por las islas, se había adaptado a los alimentos de cada lugar."
+     ],
+     "example": "Darwin también experimentó con palomas: al cruzar aves con rasgos concretos estudió hasta qué punto puede cambiar una especie por selección artificial. Después donó sus 120 ejemplares de paloma al Museo de Historia Natural.",
+     "src": [
+      1
+     ],
+     "img": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Darwin%27s_finches_by_Gould.jpg/960px-Darwin%27s_finches_by_Gould.jpg",
+      "alt": "Ilustraciones de pinzones de Darwin hechas por John Gould",
+      "caption": "Pinzones de las Galápagos dibujados por John Gould.",
+      "credit": {
+       "artist": "John Gould (14.Sep.1804 - 3.Feb.1881)",
+       "license": "Dominio público",
+       "page": "https://commons.wikimedia.org/wiki/File:Darwin%27s_finches_by_Gould.jpg"
+      }
+     }
+    },
+    {
+     "h": "Una idea compartida y polémica",
+     "p": [
+      "Darwin sabía que sus ideas iban a encontrar una fuerte oposición, porque contradecían creencias religiosas muy extendidas, y tardó años en publicarlas mientras reunía pruebas. Cuando supo que el joven naturalista Alfred Russel Wallace había llegado a ideas parecidas, ambos presentaron la teoría juntos en la Sociedad Linneana de Londres.",
+      "Al año siguiente, en 1859, publicó El origen de las especies. El libro indignó a algunos miembros de la Iglesia de Inglaterra, pero se convirtió rápidamente en un éxito de ventas y en vida de Darwin se tradujo al alemán, danés, neerlandés, francés, húngaro, italiano, polaco, ruso, serbio, español y sueco."
+     ],
+     "src": [
+      1
+     ]
+    }
+   ],
+   "timeline": [
+    {
+     "y": "1809",
+     "t": "Nace Charles Darwin en Shrewsbury.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1825",
+     "t": "Empieza Medicina en Edimburgo, carrera que abandona.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1831",
+     "t": "Zarpa en el HMS Beagle para un viaje de cinco años.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1836",
+     "t": "Regresa a Inglaterra.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1837",
+     "t": "Dibuja en un cuaderno su primer esbozo del «árbol de la vida».",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1859",
+     "t": "Publica El origen de las especies.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1871",
+     "t": "Publica El origen del hombre, que aviva todavía más el debate.",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "1882",
+     "t": "Muere Darwin.",
+     "src": [
+      1
+     ]
+    }
+   ],
+   "facts": [
+    "La biblioteca del Museo de Historia Natural de Londres guarda 478 ediciones de El origen de las especies en 38 idiomas y en braille.",
+    "Darwin usó la imagen de un árbol de la vida para ilustrar que todas las especies están emparentadas y descienden de un antepasado común."
+   ],
+   "conclusion": "Darwin no llegó a su teoría de un día para otro: combinó años de observación, experimentos y la coincidencia con las ideas de Wallace. Hoy, según el Museo de Historia Natural de Londres, la evolución por selección natural sigue siendo la explicación que la comunidad científica considera mejor respaldada por las pruebas para la diversidad de la vida.",
+   "concepts": [
+    {
+     "t": "Selección natural",
+     "d": "Proceso por el que los rasgos que favorecen la supervivencia y la reproducción se vuelven más comunes en una población."
+    },
+    {
+     "t": "Selección artificial",
+     "d": "Cría selectiva de animales o plantas con rasgos elegidos, como hizo Darwin con las palomas."
+    },
+    {
+     "t": "Tiburones más antiguos que los árboles",
+     "d": "Un ejemplo de cuánto tiempo cubre la historia de la vida.",
+     "id": "c-tiburones-arboles"
+    },
+    {
+     "t": "Ajolote",
+     "d": "Un animal con capacidades de regeneración que todavía se investigan.",
+     "id": "c-ajolote"
+    }
+   ],
+   "sources": [
+    {
+     "t": "Museo de Historia Natural de Londres (Natural History Museum) — Charles Darwin: History’s most famous biologist",
+     "org": "Museo de Historia Natural de Londres (Natural History Museum)",
+     "title": "Charles Darwin: History’s most famous biologist",
+     "u": "https://www.nhm.ac.uk/discover/charles-darwin-most-famous-biologist.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "claim": "teoria",
+   "claimNote": "La evolución por selección natural es una teoría científica respaldada por la comunidad científica; los datos biográficos son hechos documentados.",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/PSM_V57_D097_Hms_beagle_in_the_straits_of_magellan.png/960px-PSM_V57_D097_Hms_beagle_in_the_straits_of_magellan.png",
+   "imgCredit": {
+    "artist": "R. T. Pritchett",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:PSM_V57_D097_Hms_beagle_in_the_straits_of_magellan.png",
+    "file": "PSM_V57_D097_Hms_beagle_in_the_straits_of_magellan.png"
+   },
+   "imgAlt": "Ilustración del HMS Beagle en el estrecho de Magallanes",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "r-oklo",
+   "type": "curiosidad",
+   "cat": "ciencia",
+   "sub": "Física",
+   "level": 2,
+   "title": "Hace 2.000 millones de años funcionó un reactor nuclear natural en África",
+   "desc": "En Oklo, en el actual Gabón, el uranio se fisionó por sí solo mucho antes de que existieran los seres humanos.",
+   "body": "En 1972, el físico Francis Perrin y su equipo notaron algo imposible en un mineral de uranio de una mina de Gabón: contenía un 0,717 % de uranio-235, cuando todo el uranio natural tiene hoy un 0,720 %. Tras descartar que fuera uranio procesado, encontraron en la roca la huella de productos de fisión. La única explicación era que ese uranio se había fisionado de forma natural hace más de 2.000 millones de años. Según el Organismo Internacional de Energía Atómica (OIEA), hicieron falta varias condiciones: una concentración suficiente de uranio-235 y agua que actuara como moderador para frenar los neutrones. Investigadores de la Universidad Washington en San Luis calcularon que el reactor funcionaba como un géiser: unos 30 minutos activo y unas dos horas y media en reposo, mientras el agua se evaporaba y volvía. Es el único reactor nuclear natural conocido.",
+   "sources": [
+    {
+     "t": "Organismo Internacional de Energía Atómica (OIEA) — Meet Oklo, the Earth’s two-billion-year-old only known natural nuclear reactor (IAEA Bulletin)",
+     "org": "Organismo Internacional de Energía Atómica (OIEA)",
+     "title": "Meet Oklo, the Earth’s two-billion-year-old only known natural nuclear reactor (IAEA Bulletin)",
+     "u": "https://www.iaea.org/sites/default/files/publications/magazines/bulletin/bull59-2/5922627.pdf",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2018-06"
+    },
+    {
+     "t": "Universidad Washington en San Luis — Researchers describe how natural reactor worked",
+     "org": "Universidad Washington en San Luis",
+     "title": "Researchers describe how natural reactor worked",
+     "u": "https://source.wustl.edu/2004/11/researchers-describe-how-natural-reactor-worked/",
+     "kind": "academica",
+     "accessed": "2026-11-26",
+     "date": "2004-11"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "c-platano",
+    "a-marie-curie"
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Gabon_Geology_Oklo.svg/960px-Gabon_Geology_Oklo.svg.png",
+   "imgCredit": {
+    "artist": "Ver autoría en Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Gabon_Geology_Oklo.svg",
+    "file": "Gabon_Geology_Oklo.svg"
+   },
+   "imgAlt": "Mapa geológico de la zona de Oklo, en Gabón",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "r-carrington",
+   "type": "curiosidad",
+   "cat": "universo",
+   "sub": "El Sol",
+   "level": 1,
+   "title": "En 1859, una tormenta solar hizo arder telégrafos y llevó auroras hasta Cuba",
+   "desc": "El evento Carrington es la tormenta geomagnética más fuerte registrada. Un fenómeno así hoy afectaría satélites y redes eléctricas.",
+   "body": "El 1 de septiembre de 1859, el astrónomo inglés Richard Carrington observó en el Sol un brillo repentino como nunca había visto: una gran fulguración solar. Según la NASA, unas 17 horas después las auroras boreales se veían tan al sur como Cuba, y los sistemas de telégrafo del mundo occidental fallaron: las chispas dieron descargas a algunos operadores y prendieron fuego al papel de los telégrafos. La Administración Nacional Oceánica y Atmosférica de EE. UU. (NOAA) añade que algunos aparatos llegaron a enviar mensajes sin estar conectados. Es la tormenta geomagnética más fuerte de la que hay registro. El Servicio Geológico de EE. UU. advierte que una tormenta de ese tamaño hoy podría afectar las telecomunicaciones y la transmisión de electricidad.",
+   "sources": [
+    {
+     "t": "NASA — Spots, Waves and Wind: A Solar Science Timeline",
+     "org": "NASA",
+     "title": "Spots, Waves and Wind: A Solar Science Timeline",
+     "u": "https://www.nasa.gov/history/spots-waves-and-wind-a-solar-science-timeline-full-text/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "NASA — Our Sun: Facts",
+     "org": "NASA",
+     "title": "Our Sun: Facts",
+     "u": "https://science.nasa.gov/sun/facts/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Administración Nacional Oceánica y Atmosférica de EE. UU. (NOAA) — Five historically huge solar events",
+     "org": "Administración Nacional Oceánica y Atmosférica de EE. UU. (NOAA)",
+     "title": "Five historically huge solar events",
+     "u": "https://www.noaa.gov/heritage/stories/five-historically-huge-solar-events",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Servicio Geológico de EE. UU. (USGS) — What a Solar Superstorm Could Mean for the US",
+     "org": "Servicio Geológico de EE. UU. (USGS)",
+     "title": "What a Solar Superstorm Could Mean for the US",
+     "u": "https://www.usgs.gov/news/featured-story/what-a-solar-superstorm-could-mean-us",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "c-masa-sol",
+    "c-helio-sol"
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Carrington_Richard_drawing_of_1859_sunspots.jpeg/960px-Carrington_Richard_drawing_of_1859_sunspots.jpeg",
+   "imgCredit": {
+    "artist": "Richard Christopher Carrington",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Carrington_Richard_drawing_of_1859_sunspots.jpeg",
+    "file": "Carrington_Richard_drawing_of_1859_sunspots.jpeg"
+   },
+   "imgAlt": "Dibujo de las manchas solares hecho por Richard Carrington en 1859",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "r-segundo-intercalar",
+   "type": "curiosidad",
+   "cat": "ciencia",
+   "sub": "Medición del tiempo",
+   "level": 2,
+   "title": "Desde mayo de 2027, los relojes del mundo dejarán de añadir «segundos extra»",
+   "desc": "Desde 1972 se han intercalado segundos para que la hora atómica no se separe de la rotación de la Tierra. En 2026 se decidió dejar de hacerlo.",
+   "body": "La hora oficial del mundo, el Tiempo Universal Coordinado (UTC), se basa en relojes atómicos, más estables que la rotación de la Tierra, que es irregular. Para que no se separaran, desde 1972 se ha añadido de vez en cuando un «segundo intercalar», siempre al final de junio o de diciembre; según el Instituto Nacional de Estándares y Tecnología de EE. UU. (NIST), en promedio uno cada año y medio. Pero esos saltos pueden causar fallos en sistemas digitales críticos, como la navegación por satélite, las telecomunicaciones y las redes eléctricas. En octubre de 2026, la Conferencia General de Pesas y Medidas (CGPM) decidió que el UTC continuo entrará en vigor el 20 de mayo de 2027 y que la diferencia máxima con la hora basada en la rotación terrestre será de 3.600 segundos (una hora), lo que garantiza la continuidad del UTC durante varios siglos. La resolución recuerda además que nunca se ha aplicado un segundo intercalar negativo.",
+   "sources": [
+    {
+     "t": "Oficina Internacional de Pesas y Medidas (BIPM) — Resolution 5 of the 28th CGPM (2026): On the technical actions needed to ensure the continuity of UTC",
+     "org": "Oficina Internacional de Pesas y Medidas (BIPM)",
+     "title": "Resolution 5 of the 28th CGPM (2026): On the technical actions needed to ensure the continuity of UTC",
+     "u": "https://www.bipm.org/committees/cg/cgpm/28-2026/resolution-5",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2026-10"
+    },
+    {
+     "t": "Instituto Nacional de Estándares y Tecnología de EE. UU. (NIST) — Leap Seconds FAQs",
+     "org": "Instituto Nacional de Estándares y Tecnología de EE. UU. (NIST)",
+     "title": "Leap Seconds FAQs",
+     "u": "https://www.nist.gov/pml/time-and-frequency-division/leap-seconds-faqs",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "claim": "hecho",
+   "claimNote": "Dato sujeto a cambios: refleja la resolución adoptada en octubre de 2026. La aplicación práctica depende de organismos como la UIT y el IERS.",
+   "related": [
+    "c-calendario-1582",
+    "c-gps-relatividad"
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Leapsecond2016.png/960px-Leapsecond2016.png",
+   "imgCredit": {
+    "artist": "US Government / NIST",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Leapsecond2016.png",
+    "file": "Leapsecond2016.png"
+   },
+   "imgAlt": "Reloj que muestra un segundo intercalar",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "r-un-foton",
+   "type": "curiosidad",
+   "cat": "cuerpo",
+   "sub": "Sentidos",
+   "level": 2,
+   "title": "El ojo humano puede detectar un solo fotón de luz",
+   "desc": "Un experimento de 2016 mostró que las personas notan una sola partícula de luz con una probabilidad mayor que el azar.",
+   "body": "Durante más de 70 años no estuvo claro cuál es el límite absoluto de la visión humana. Se sabía que los bastones de la retina responden a fotones individuales, pero no si una persona podía percibir uno solo. En 2016, un estudio publicado en Nature Communications combinó una fuente de luz cuántica, capaz de emitir fotones de uno en uno, con pruebas de percepción. El resultado: los participantes detectaron un solo fotón que llegaba a la córnea con una probabilidad significativamente superior al azar. Los investigadores observaron además que la probabilidad de notarlo aumentaba si había llegado otro fotón poco antes, como si el sistema visual se «preparara» durante unos segundos.",
+   "sources": [
+    {
+     "t": "Nature Communications — Direct detection of a single photon by humans (Tinsley et al.)",
+     "org": "Nature Communications",
+     "title": "Direct detection of a single photon by humans (Tinsley et al.)",
+     "u": "https://www.nature.com/articles/ncomms12172",
+     "kind": "academica",
+     "accessed": "2026-11-26",
+     "date": "2016"
+    }
+   ],
+   "claim": "hecho",
+   "claimNote": "Resultado de un estudio experimental revisado por pares; la detección no es segura en cada intento, sino algo más frecuente que el azar.",
+   "related": [
+    "c-punto-ciego",
+    "c-cornea"
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Retina-diagram.svg/960px-Retina-diagram.svg.png",
+   "imgCredit": {
+    "artist": "*Fig_retine.png: Ramón y Cajal",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Retina-diagram.svg",
+    "file": "Retina-diagram.svg"
+   },
+   "imgAlt": "Diagrama de las capas de la retina",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "r-nieve-tv",
+   "type": "curiosidad",
+   "cat": "universo",
+   "sub": "Cosmología",
+   "level": 1,
+   "title": "Parte de la «nieve» de los televisores antiguos venía del Big Bang",
+   "desc": "La radiación de fondo de microondas, la luz más antigua del universo, se colaba en el ruido de los televisores.",
+   "body": "Según la información divulgativa del Premio Nobel de Física de 2006, la radiación de fondo de microondas forma parte del ruido parecido a una «ventisca» que se veía en los televisores cuando se interrumpía la transmisión normal. Esa radiación se registró por primera vez en 1964, cuando Arno Penzias y Robert Wilson la confundieron al principio con un ruido sin importancia de sus receptores. Hoy se interpreta como una huella del universo primitivo: cuando se emitió estaba a unos 3.000 grados, y con la expansión del universo se ha enfriado hasta corresponder a solo 2,7 grados por encima del cero absoluto.",
+   "sources": [
+    {
+     "t": "Fundación Nobel (nobelprize.org) — The Nobel Prize in Physics 2006 — Popular information",
+     "org": "Fundación Nobel (nobelprize.org)",
+     "title": "The Nobel Prize in Physics 2006 — Popular information",
+     "u": "https://www.nobelprize.org/prizes/physics/2006/popular-information/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "a-fondo-cosmico",
+    "a-luz-pasado"
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/TV_noise.jpg/960px-TV_noise.jpg",
+   "imgCredit": {
+    "artist": "Mysid",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:TV_noise.jpg",
+    "file": "TV_noise.jpg"
+   },
+   "imgAlt": "Ruido de televisión analógica",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "r-audifono-transistor",
+   "type": "curiosidad",
+   "cat": "tecnologia",
+   "sub": "Inventos",
+   "level": 1,
+   "title": "El primer producto con transistores no fue una radio, sino un audífono",
+   "desc": "En 1952, los transistores eran caros. Los primeros en usarlos fueron los audífonos, donde el tamaño y el consumo importaban más que el precio.",
+   "body": "Cuando aparecieron, los transistores costaban más que las válvulas de vacío, así que sus primeros usos fueron aparatos portátiles en los que el tamaño pequeño y el bajo consumo eran lo más importante. Según el Computer History Museum, el primer producto de consumo con transistores en Estados Unidos fue un audífono de la empresa Sonotone, en 1952, que costaba 229,50 dólares y combinaba dos válvulas con un transistor. En 1953 llegó un audífono hecho solo con transistores y, para 1954, el 97 % de los audífonos usaba únicamente transistores. La primera radio de transistores a la venta en ese país, la Regency TR-1, no llegó a las tiendas hasta octubre de 1954.",
+   "sources": [
+    {
+     "t": "Computer History Museum (Silicon Engine) — 1952: Transistorized Consumer Products Appear",
+     "org": "Computer History Museum (Silicon Engine)",
+     "title": "1952: Transistorized Consumer Products Appear",
+     "u": "https://www.computerhistory.org/siliconengine/transistorized-consumer-products-appear/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "a-transistor",
+    "c-eniac"
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Hearing_aid_20080620.jpg/960px-Hearing_aid_20080620.jpg",
+   "imgCredit": {
+    "artist": "Jonas Bergsten",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Hearing_aid_20080620.jpg",
+    "file": "Hearing_aid_20080620.jpg"
+   },
+   "imgAlt": "Audífono",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    }
+   ]
+  },
+  {
+   "id": "c-solo-tilde",
+   "type": "curiosidad",
+   "cat": "lengua",
+   "sub": "Ortografía",
+   "level": 1,
+   "title": "«Solo» y «este» se escriben, en principio, sin tilde",
+   "desc": "Según las reglas generales de acentuación, «solo» y los demostrativos no llevan tilde. Solo es opcional ponerla si quien escribe ve riesgo de ambigüedad.",
+   "body": "Según la FundéuRAE, la palabra «solo», sea adjetivo («está solo») o adverbio («solamente»), no lleva tilde por las reglas generales de acentuación: es una palabra llana terminada en vocal. Lo mismo ocurre con los demostrativos «este», «ese» y «aquel» y sus femeninos y plurales. A estas palabras no se les aplica la tilde diacrítica, que sirve para distinguir palabras iguales en las que una es tónica y la otra átona, como «té» y «te» o «más» y «mas», porque «solo» y los demostrativos siempre son tónicos. Por eso, no tildarlas nunca es adecuado en cualquier contexto. Aun así, según la segunda edición del Diccionario panhispánico de dudas, es opcional tildar el adverbio «solo» y los demostrativos cuando funcionan como pronombres si quien escribe percibe riesgo de ambigüedad. El adjetivo nunca se tilda: «está bastante solo», no «está bastante sólo». Y «esto», «eso» y «aquello» no llevan tilde nunca.",
+   "sources": [
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — «solo» no necesita tilde",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "«solo» no necesita tilde",
+     "u": "https://www.fundeu.es/recomendacion/solo-sin-tilde/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2025-02-04"
+    },
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — Los demostrativos no necesitan tilde",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "Los demostrativos no necesitan tilde",
+     "u": "https://www.fundeu.es/recomendacion/los-demostrativos-no-necesitan-tilde/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2025-02-11"
+    },
+    {
+     "t": "Real Academia Española (RAE) — Nota informativa sobre la tilde en «solo»",
+     "org": "Real Academia Española (RAE)",
+     "title": "Nota informativa sobre la tilde en «solo»",
+     "u": "https://www.rae.es/noticia/nota-informativa-sobre-la-tilde-en-solo",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2023-03-09"
+    }
+   ],
+   "claim": "hecho",
+   "claimNote": "Es una norma ortográfica vigente según la RAE y la FundéuRAE; las normas pueden actualizarse.",
+   "related": [
+    "c-mayusculas-tilde",
+    "c-guion-sin-tilde"
+   ],
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (nueva categoría Lengua y literatura)"
+    }
+   ]
+  },
+  {
+   "id": "c-guion-sin-tilde",
+   "type": "curiosidad",
+   "cat": "lengua",
+   "sub": "Ortografía",
+   "level": 1,
+   "title": "«Guion» se escribe sin tilde, y antes de 1884 tampoco la llevaba",
+   "desc": "Para la ortografía, «guion», «truhan», «fie» o «liais» son monosílabos, aunque mucha gente los pronuncie en dos sílabas.",
+   "body": "Según la FundéuRAE, todas las ediciones del diccionario académico entre 1780 y 1869 escribían «guion» sin tilde. Desde la edición de 1884 se tildaba, pero la Ortografía de 2010 volvió a quitársela, porque era una anomalía del sistema. La explicación está en las sílabas: unos hablantes pronuncian «guion» en una sola sílaba y otros en dos (gui-ón). Para evitar que cada persona tildara según su pronunciación, la Ortografía estableció convenciones fijas, y según ellas palabras como «guion», «truhan», la forma verbal «fie» o «liais» se consideran monosílabas a efectos ortográficos. Como las palabras de una sola sílaba no se acentúan nunca, salvo en los casos de tilde diacrítica, lo apropiado es escribir «el guion de la película» y «un truhan», sin tilde.",
+   "sources": [
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — guion se escribe sin tilde",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "guion se escribe sin tilde",
+     "u": "https://www.fundeu.es/recomendacion/guion-se-escribe-sin-tilde/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2014-12-16"
+    },
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — truhan se escribe sin tilde",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "truhan se escribe sin tilde",
+     "u": "https://www.fundeu.es/recomendacion/truhan-se-escribe-sin-tilde/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2017-09-21"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "c-solo-tilde",
+    "c-ch-ll"
+   ],
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (nueva categoría Lengua y literatura)"
+    }
+   ]
+  },
+  {
+   "id": "c-porque-cuatro",
+   "type": "curiosidad",
+   "cat": "lengua",
+   "sub": "Ortografía",
+   "level": 1,
+   "title": "«Porque», «porqué», «por qué» y «por que» no son lo mismo",
+   "desc": "Cuatro formas que suenan casi igual y cumplen funciones distintas. Hay trucos sencillos para distinguirlas.",
+   "body": "La FundéuRAE resume así la diferencia. «Porqué» es un sustantivo que significa «causa», «motivo» o «razón», y tiene plural: «explica el porqué de su valor», «los porqués del entrenador». «Por qué» une la preposición «por» y el interrogativo «qué»; se reconoce porque se le puede añadir «razón»: «le preguntaron por qué (razón) ingresó al club». «Porque» es una conjunción que equivale a «puesto que» o «ya que»: «es difícil porque hay tres equipos muy buenos»; con un verbo en subjuntivo también puede significar «para que», y en ese caso vale escribirlo junto o separado. «Por que» combina «por» con el relativo «que», y casi siempre admite un artículo en medio: «ese es el motivo por (el) que decidió no ir». También aparece cuando el verbo exige «por»: «votaron por que no se convoque la huelga».",
+   "sources": [
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — «porqué», «porque», «por que» y «por qué»",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "«porqué», «porque», «por que» y «por qué»",
+     "u": "https://www.fundeu.es/recomendacion/porque-porque-por-que-y-por-que/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2021-02-16"
+    },
+    {
+     "t": "Real Academia Española (RAE) — Diccionario panhispánico de dudas: porqué",
+     "org": "Real Academia Española (RAE)",
+     "title": "Diccionario panhispánico de dudas: porqué",
+     "u": "https://www.rae.es/dpd/porqu%C3%A9",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "c-a-ver-haber",
+    "c-sino-si-no"
+   ],
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (nueva categoría Lengua y literatura)"
+    }
+   ]
+  },
+  {
+   "id": "c-a-ver-haber",
+   "type": "curiosidad",
+   "cat": "lengua",
+   "sub": "Ortografía",
+   "level": 1,
+   "title": "«A ver» y «haber» suenan igual, pero no significan lo mismo",
+   "desc": "Son homófonas. Un truco: si sigue un participio («haber dicho»), es el verbo «haber».",
+   "body": "Según la FundéuRAE, «a ver» y «haber» son homófonas: se escriben distinto pero suenan igual. «A ver» (preposición «a» más el verbo «ver») sirve, entre otros usos, para pedir ver algo («¿A ver tu coche nuevo?»), para expresar interés por saber algo («A ver cómo salimos de esta»), para llamar la atención de alguien («A ver, necesito tu ayuda») y, seguido de «si», para expresar temor, deseo o mandato («A ver si llega pronto»). En cambio, se escribe «haber» cuando va seguido de un participio y forma un tiempo compuesto («Siento haber dicho eso»), cuando se reprocha algo que alguien hizo o no hizo («¡Haber llamado antes de venir!») y cuando significa «existir» o «hallarse» («Tiene que haber mucha gente»).",
+   "sources": [
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — a ver y haber, diferencias",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "a ver y haber, diferencias",
+     "u": "https://www.fundeu.es/recomendacion/a-ver-haber/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2026-02-03"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "c-porque-cuatro",
+    "c-sino-si-no"
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Homograph_homophone_venn_diagram.png/960px-Homograph_homophone_venn_diagram.png",
+   "imgCredit": {
+    "artist": "Will Heltsley",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Homograph_homophone_venn_diagram.png",
+    "file": "Homograph_homophone_venn_diagram.png"
+   },
+   "imgAlt": "Diagrama sobre homógrafos y homófonos",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (nueva categoría Lengua y literatura)"
+    }
+   ]
+  },
+  {
+   "id": "c-mayusculas-tilde",
+   "type": "curiosidad",
+   "cat": "lengua",
+   "sub": "Ortografía",
+   "level": 1,
+   "title": "Las mayúsculas sí llevan tilde: la costumbre de quitarla viene de las imprentas",
+   "desc": "«Épico», «CAPÍTULO» y «Los Ángeles» se escriben con tilde. Las siglas, en cambio, no la llevan nunca.",
+   "body": "Está muy extendida la idea de que las mayúsculas no se tildan, pero, como recuerda la FundéuRAE citando la Ortografía de la lengua española, las mayúsculas se acentúan obligatoriamente cuando la palabra lo requiere, tanto si es solo la inicial como si toda la palabra va en mayúsculas: «Los Ángeles», «Épico triunfo», «CAPÍTULO 1». La costumbre de no tildarlas empezó con la composición manual en las imprentas, por problemas técnicos, y siguió con las máquinas de escribir, por razones estéticas. La excepción son las siglas escritas enteramente en mayúsculas, que nunca llevan tilde, aunque la palabra de la que proceden sí la tenga: se escribe «IMC» aunque venga de «índice».",
+   "sources": [
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — mayúsculas, sí se tildan",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "mayúsculas, sí se tildan",
+     "u": "https://www.fundeu.es/recomendacion/mayusculas-si-se-tildan-435/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2022-10-12"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "c-solo-tilde",
+    "c-letra-n"
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Metal_movable_type.jpg/960px-Metal_movable_type.jpg",
+   "imgCredit": {
+    "artist": "Willi Heidelbach",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Metal_movable_type.jpg",
+    "file": "Metal_movable_type.jpg"
+   },
+   "imgAlt": "Tipos móviles de metal de una imprenta",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (nueva categoría Lengua y literatura)"
+    }
+   ]
+  },
+  {
+   "id": "c-sino-si-no",
+   "type": "curiosidad",
+   "cat": "lengua",
+   "sub": "Ortografía",
+   "level": 2,
+   "title": "«Sino» o «si no»: el truco para no equivocarse",
+   "desc": "Si se puede meter una palabra entre «si» y «no» sin que cambie el sentido, se escribe separado.",
+   "body": "Según la FundéuRAE, «si no» se escribe en dos palabras cuando tiene valor condicional negativo: «declarará el estado de emergencia si no se aprueba el presupuesto». También cuando equivale a «de lo contrario». En los demás casos se escribe «sino», junto: cuando contrapone una afirmación a algo negado («no piensa despedir a nadie, sino retomar el plan»), cuando equivale a «más que», «salvo» o «excepto» («¿Quién sino ellos podría haberlo hecho?»), en la construcción «no solo…, sino también», y cuando es un sustantivo que significa «destino» o «fatalidad». El truco: si entre «si» y «no» se puede intercalar algo sin perder el sentido («si el juez no hubiera intervenido»), se trata de «si» más «no», y va separado.",
+   "sources": [
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — sino y si no, claves de redacción",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "sino y si no, claves de redacción",
+     "u": "https://www.fundeu.es/recomendacion/sino-si-no/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2019-01-11"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "c-porque-cuatro",
+    "c-a-ver-haber"
+   ],
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (nueva categoría Lengua y literatura)"
+    }
+   ]
+  },
+  {
+   "id": "c-ch-ll",
+   "type": "curiosidad",
+   "cat": "lengua",
+   "sub": "Ortografía",
+   "level": 1,
+   "title": "La «ch» y la «ll» fueron letras del abecedario hasta 2010",
+   "desc": "Hoy el abecedario español tiene 27 letras. La «ch» y la «ll» siguen existiendo, pero como dígrafos.",
+   "body": "Según el Diccionario panhispánico de dudas de la RAE, la «ch» fue considerada una letra del abecedario español, con el nombre de «che», desde 1803 hasta la Ortografía académica de 2010. Esa edición las excluyó definitivamente, a ella y a la «ll», porque en realidad no son letras sino dígrafos: combinaciones de dos letras que representan un solo sonido. Ningún dígrafo forma parte del abecedario, tampoco «qu», «gu» o «rr». Así, el abecedario del español quedó formado por 27 letras: a, b, c, d, e, f, g, h, i, j, k, l, m, n, ñ, o, p, q, r, s, t, u, v, w, x, y, z. Con esa decisión, el español se igualó a las demás lenguas de escritura alfabética, en las que solo los signos simples cuentan como letras. La «ch» y la «ll» no desaparecen de la escritura: se siguen usando igual.",
+   "sources": [
+    {
+     "t": "Real Academia Española (RAE) — Exclusión de «ch» y «ll» del abecedario (Español al día)",
+     "org": "Real Academia Española (RAE)",
+     "title": "Exclusión de «ch» y «ll» del abecedario (Español al día)",
+     "u": "https://www.rae.es/espanol-al-dia/exclusion-de-ch-y-ll-del-abecedario",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Real Academia Española (RAE) — Diccionario panhispánico de dudas: ch",
+     "org": "Real Academia Española (RAE)",
+     "title": "Diccionario panhispánico de dudas: ch",
+     "u": "https://www.rae.es/dpd/ch",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Real Academia Española (RAE) — ¿Por qué la «ch» y la «ll» ya no forman parte del abecedario?",
+     "org": "Real Academia Española (RAE)",
+     "title": "¿Por qué la «ch» y la «ll» ya no forman parte del abecedario?",
+     "u": "https://www.rae.es/duda-linguistica/por-que-la-ch-y-la-ll-ya-no-forman-parte-del-abecedario",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "c-letra-n",
+    "c-alfabeto-fenicio"
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Abecedario.png/960px-Abecedario.png",
+   "imgCredit": {
+    "artist": "Serg!o",
+    "license": "Dominio público",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Abecedario.png",
+    "file": "Abecedario.png"
+   },
+   "imgAlt": "Abecedario",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave comprobados contra el texto publicado por la RAE (consultado mediante su buscador y extractos oficiales); revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (nueva categoría Lengua y literatura)"
+    }
+   ]
+  },
+  {
+   "id": "c-dle-24",
+   "type": "curiosidad",
+   "cat": "lengua",
+   "sub": "Diccionarios",
+   "level": 1,
+   "title": "La 24.ª edición del Diccionario de la RAE es la primera «nativa digital»",
+   "desc": "Presentada en octubre de 2026, tiene 99 990 artículos y cerca de 209 000 acepciones.",
+   "body": "Según la FundéuRAE, la 24.ª edición del Diccionario de la lengua española, elaborada por la Real Academia Española con la Asociación de Academias de la Lengua Española, se presentó a la vez en papel y en formato digital. Ofrece 99 990 artículos y cerca de 209 000 acepciones, y su versión impresa, editada por Espasa, tiene dos volúmenes y 3606 páginas. Por primera vez en su historia, el diccionario en papel se confeccionó a partir de la edición digital, y no al revés, por lo que se considera la primera edición nativa digital. Una acepción es cada uno de los significados de una palabra.",
+   "sources": [
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — Presentación de la vigesimocuarta edición del «Diccionario de la lengua española»",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "Presentación de la vigesimocuarta edición del «Diccionario de la lengua española»",
+     "u": "https://www.fundeu.es/noticia/presentacion-de-la-vigesimocuarta-edicion-del-diccionario-de-la-lengua-espanola/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2026-10-30"
+    }
+   ],
+   "claim": "hecho",
+   "claimNote": "Dato con fecha: cifras de la edición presentada en octubre de 2026.",
+   "related": [
+    "a-palabras-del-ano",
+    "c-ojala"
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/%C2%ABDiccionario_de_la_lengua_espa%C3%B1ola%C2%BB_%282014%29.jpg/960px-%C2%ABDiccionario_de_la_lengua_espa%C3%B1ola%C2%BB_%282014%29.jpg",
+   "imgCredit": {
+    "artist": "Real Academia Española",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:%C2%ABDiccionario_de_la_lengua_espa%C3%B1ola%C2%BB_%282014%29.jpg",
+    "file": "«Diccionario_de_la_lengua_española»_(2014).jpg"
+   },
+   "imgAlt": "Ejemplares del Diccionario de la lengua española",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (nueva categoría Lengua y literatura)"
+    }
+   ]
+  },
+  {
+   "id": "c-cervantes-2026",
+   "type": "curiosidad",
+   "cat": "lengua",
+   "sub": "Literatura",
+   "level": 2,
+   "title": "Cristina Fernández Cubas, Premio Cervantes 2026: la séptima mujer en recibirlo",
+   "desc": "El jurado premió una obra que, según su fallo, renovó el cuento contemporáneo y la literatura fantástica en español.",
+   "body": "Según la FundéuRAE, el jurado concedió el Premio Cervantes 2026 a la escritora y periodista Cristina Fernández Cubas por una obra que, en palabras del fallo, «ha renovado el cuento contemporáneo y transformado la literatura fantástica en español». Nacida en Arenys de Mar (Barcelona) en 1945, es la séptima mujer que obtiene el galardón, después de María Zambrano (1988), Dulce María Loynaz (1992), Ana María Matute (2010), Elena Poniatowska (2013), Ida Vitale (2018) y Cristina Peri Rossi (2021). Entre sus libros de relatos figuran Mi hermana Elba (1980), El ángulo del horror (1990) y La habitación de Nona (2015). También recibió el Premio Nacional de Narrativa en 2016 y el Premio Nacional de las Letras Españolas en 2023.",
+   "sources": [
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — Cristina Fernández Cubas, Premio Cervantes 2026",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "Cristina Fernández Cubas, Premio Cervantes 2026",
+     "u": "https://www.fundeu.es/noticia/cristina-fernandez-cubas-premio-cervantes-2026/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2026-11-04"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "c-gabriela-mistral",
+    "c-garcia-marquez"
+   ],
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Medal_of_the_Miguel_de_Cervantes_Prize.svg/960px-Medal_of_the_Miguel_de_Cervantes_Prize.svg.png",
+   "imgCredit": {
+    "artist": "Heralder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Medal_of_the_Miguel_de_Cervantes_Prize.svg",
+    "file": "Medal_of_the_Miguel_de_Cervantes_Prize.svg"
+   },
+   "imgAlt": "Medalla del Premio Miguel de Cervantes",
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (nueva categoría Lengua y literatura)"
+    }
+   ]
+  },
+  {
+   "id": "c-garcia-marquez",
+   "type": "curiosidad",
+   "cat": "lengua",
+   "sub": "Literatura",
+   "level": 1,
+   "title": "García Márquez ganó el Nobel por mezclar lo fantástico y lo real",
+   "desc": "En 1982, la Academia Sueca premió al autor de Cien años de soledad, uno de los grandes del realismo mágico.",
+   "body": "El Premio Nobel de Literatura de 1982 fue para el colombiano Gabriel García Márquez, «por sus novelas y cuentos, en los que lo fantástico y lo realista se combinan en un mundo de imaginación ricamente compuesto, que refleja la vida y los conflictos de un continente», según la Fundación Nobel. Nació el 6 de marzo de 1927 en Aracataca (Colombia), dejó los estudios de Derecho para dedicarse al periodismo y a la escritura, y en las décadas de 1950 y 1960 trabajó como corresponsal en lugares como París y Nueva York. Su gran salto internacional llegó con la novela Cien años de soledad (1967). La Fundación Nobel lo describe como uno de los principales exponentes del realismo mágico, un género en el que la historia transcurre en un lugar y un tiempo reales, pero incluye elementos sobrenaturales y oníricos. Murió el 17 de abril de 2014 en Ciudad de México.",
+   "sources": [
+    {
+     "t": "Fundación Nobel (nobelprize.org) — Gabriel García Márquez — Facts",
+     "org": "Fundación Nobel (nobelprize.org)",
+     "title": "Gabriel García Márquez — Facts",
+     "u": "https://www.nobelprize.org/prizes/literature/1982/marquez/facts/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Fundación Nobel (nobelprize.org) — The Nobel Prize in Literature 1982",
+     "org": "Fundación Nobel (nobelprize.org)",
+     "title": "The Nobel Prize in Literature 1982",
+     "u": "https://www.nobelprize.org/prizes/literature/1982/summary/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "c-gabriela-mistral",
+    "c-don-quijote"
+   ],
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (nueva categoría Lengua y literatura)"
+    }
+   ]
+  },
+  {
+   "id": "a-palabras-del-ano",
+   "type": "articulo",
+   "cat": "lengua",
+   "sub": "Palabras",
+   "level": 1,
+   "title": "Las palabras del año: lo que el español nombró cada temporada",
+   "subtitle": "De «escrache» a «arancel»: la lista de la FundéuRAE y lo que significa cada palabra",
+   "desc": "Desde 2013, la Fundación del Español Urgente elige una palabra que marcó la actualidad y tiene interés lingüístico. Juntas, cuentan una década.",
+   "intro": "Cada diciembre, la Fundación del Español Urgente (FundéuRAE), promovida por la Real Academia Española y la Agencia EFE, elige su «palabra del año». No es la palabra más bonita ni la más nueva: es un término que ha estado muy presente en la información de esos meses y que, además, tiene interés desde el punto de vista lingüístico. Repasar la lista es una forma rápida de recordar qué nos preocupó cada año.",
+   "sections": [
+    {
+     "h": "Los primeros años",
+     "p": [
+      "Según la propia fundación, sus primeras elecciones fueron «escrache» en 2013, «selfi» en 2014, «refugiado» en 2015, «populismo» en 2016 y «aporofobia» en 2017.",
+      "En 2018 eligió «microplástico», la palabra que designa los pequeños fragmentos de plástico, de menos de cinco milímetros, que se han convertido en una de las grandes amenazas para el medioambiente. En 2019, por primera vez, la distinción no fue para una palabra sino para unos símbolos: los emoticonos y emojis, por su papel en la comunicación diaria."
+     ],
+     "src": [
+      1,
+      2
+     ]
+    },
+    {
+     "h": "Los años de la pandemia",
+     "p": [
+      "En 2020, la elegida fue «confinamiento», definida como el «aislamiento temporal y generalmente impuesto de una población, una persona o un grupo por razones de salud o de seguridad». La FundéuRAE la recomendó además como alternativa al anglicismo «lockdown».",
+      "En 2021 llegó «vacuna». La fundación recordó su origen: el concepto surgió en el siglo XVIII a partir del descubrimiento de Edward Jenner de que quienes se infectaban con la viruela de las vacas quedaban protegidos frente a la humana. La palabra aparece por primera vez en el diccionario de la RAE en 1803, aunque su significado actual se incluyó en 1914."
+     ],
+     "example": "La pandemia también hizo nacer palabras nuevas a partir de «vacuna», como «vacunódromo» o «vacuguagua», acrónimo de «vacunación» y «guagua».",
+     "src": [
+      3,
+      4
+     ]
+    },
+    {
+     "h": "De la inteligencia artificial a la polarización",
+     "p": [
+      "En 2022, la distinción fue para una expresión de dos palabras: «inteligencia artificial», que el diccionario académico define como la «disciplina científica que se ocupa de crear programas informáticos que ejecutan operaciones comparables a las que realiza la mente humana, como el aprendizaje o el razonamiento lógico». El término está en el diccionario desde su edición de 1992.",
+      "En 2023 ganó «polarización», recogida en el diccionario académico desde 1884. La fundación destacó cómo se ha extendido su uso para hablar de situaciones con dos posturas muy definidas y distanciadas, a veces con la idea de crispación y enfrentamiento."
+     ],
+     "src": [
+      5,
+      6
+     ]
+    },
+    {
+     "h": "Las más recientes",
+     "p": [
+      "En 2024 la palabra fue «dana», que se impuso a otras once candidatas. Según la FundéuRAE, la eligió por su enorme presencia en los medios tras las graves inundaciones de finales de octubre en el este y el sur de la península ibérica, y por las dudas que todavía genera su escritura.",
+      "La de 2025 fue «arancel», la cuantía que se exige por la importación de ciertos productos. Es un término que ya recogía el Diccionario de autoridades de 1726, pero la actualidad comercial hizo que pasara de los especialistas a las conversaciones diarias."
+     ],
+     "src": [
+      7,
+      8
+     ]
+    }
+   ],
+   "timeline": [
+    {
+     "y": "2013",
+     "t": "escrache",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "2014",
+     "t": "selfi",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "2015",
+     "t": "refugiado",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "2016",
+     "t": "populismo",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "2017",
+     "t": "aporofobia",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "2018",
+     "t": "microplástico",
+     "src": [
+      1
+     ]
+    },
+    {
+     "y": "2019",
+     "t": "emoticonos y emojis",
+     "src": [
+      2
+     ]
+    },
+    {
+     "y": "2020",
+     "t": "confinamiento",
+     "src": [
+      3
+     ]
+    },
+    {
+     "y": "2021",
+     "t": "vacuna",
+     "src": [
+      4
+     ]
+    },
+    {
+     "y": "2022",
+     "t": "inteligencia artificial",
+     "src": [
+      5
+     ]
+    },
+    {
+     "y": "2023",
+     "t": "polarización",
+     "src": [
+      6
+     ]
+    },
+    {
+     "y": "2024",
+     "t": "dana",
+     "src": [
+      7
+     ]
+    },
+    {
+     "y": "2025",
+     "t": "arancel",
+     "src": [
+      8
+     ]
+    }
+   ],
+   "timelineTitle": "Las palabras del año de la FundéuRAE",
+   "facts": [
+    "«Dana» ya había sido candidata a palabra del año en 2019, pero entonces no ganó.",
+    "En 2024, entre las candidatas que perdieron frente a «dana» estaban «alucinación», «micropiso», «reduflación» y «turistificación»."
+   ],
+   "conclusion": "Cada palabra del año es una pequeña fotografía de su momento: la pandemia, la tecnología, la política o el clima. Y casi todas dejan algo útil para quien escribe: una alternativa a un anglicismo, una duda de escritura resuelta o una acepción nueva en el diccionario.",
+   "concepts": [
+    {
+     "t": "Acepción",
+     "d": "Cada uno de los significados que tiene una palabra."
+    },
+    {
+     "t": "Anglicismo",
+     "d": "Palabra o expresión tomada del inglés, como «lockdown»."
+    },
+    {
+     "t": "Acrónimo",
+     "d": "Palabra formada con partes de otras, como «vacuguagua» (vacunación + guagua)."
+    },
+    {
+     "t": "La 24.ª edición del DLE",
+     "d": "La edición del diccionario académico presentada en 2026.",
+     "id": "c-dle-24"
+    }
+   ],
+   "sources": [
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — Microplástico, palabra del año 2018",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "Microplástico, palabra del año 2018",
+     "u": "https://www.fundeu.es/recomendacion/microplastico-palabra-del-ano-2018/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2018-12-29"
+    },
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — Los emojis se imponen en la palabra del año",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "Los emojis se imponen en la palabra del año",
+     "u": "https://www.fundeu.es/recomendacion/los-emojis-se-imponen-en-la-palabra-del-ano-de-la-fundeu-bbva/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2019-12-29"
+    },
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — Confinamiento, palabra del año 2020",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "Confinamiento, palabra del año 2020",
+     "u": "https://www.fundeu.es/recomendacion/confinamiento-palabra-del-ano-2020-para-la-fundeurae/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2020-12-29"
+    },
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — Vacuna, palabra del año 2021",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "Vacuna, palabra del año 2021",
+     "u": "https://www.fundeu.es/recomendacion/vacuna-palabra-del-ano-2021-para-la-fundeurae/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2021-12-29"
+    },
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — Inteligencia artificial es la expresión del 2022",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "Inteligencia artificial es la expresión del 2022",
+     "u": "https://www.fundeu.es/recomendacion/inteligencia-artificial-es-la-expresion-del-2022-para-la-fundeurae/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2022-12-29"
+    },
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — Polarización, palabra del año 2023",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "Polarización, palabra del año 2023",
+     "u": "https://www.fundeu.es/recomendacion/polarizacion-palabra-del-ano-2023-para-la-fundeurae/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2023-12-27"
+    },
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — Dana, palabra del año 2024",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "Dana, palabra del año 2024",
+     "u": "https://www.fundeu.es/recomendacion/dana-palabra-del-ano-2024-para-la-fundeurae/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2024-12-19"
+    },
+    {
+     "t": "FundéuRAE (Fundación del Español Urgente) — Arancel, palabra del año 2025",
+     "org": "FundéuRAE (Fundación del Español Urgente)",
+     "title": "Arancel, palabra del año 2025",
+     "u": "https://www.fundeu.es/recomendacion/arancel-palabra-del-ano-2025-de-la-fundeurae/",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "date": "2025-12-17"
+    }
+   ],
+   "claim": "hecho",
+   "related": [
+    "c-dle-24",
+    "c-ojala"
+   ],
+   "status": "publicado",
+   "date": "2026-11-26",
+   "verif": {
+    "status": "verificado",
+    "level": "institucional",
+    "reviewed": "2026-11-26",
+    "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+   },
+   "history": [
+    {
+     "date": "2026-11-26",
+     "note": "Publicación (nueva categoría Lengua y literatura)"
     }
    ]
   }
@@ -21904,7 +24324,7 @@ window.SQ_CONTENT = {
   },
   {
    "id": "q50",
-   "cat": "cultura",
+   "cat": "lengua",
    "level": 1,
    "status": "publicado",
    "ref": "c-ojala",
@@ -21920,7 +24340,7 @@ window.SQ_CONTENT = {
   },
   {
    "id": "q51",
-   "cat": "cultura",
+   "cat": "lengua",
    "level": 1,
    "status": "publicado",
    "ref": "c-taino",
@@ -23616,7 +26036,7 @@ window.SQ_CONTENT = {
   },
   {
    "id": "q157",
-   "cat": "cultura",
+   "cat": "lengua",
    "level": 2,
    "status": "publicado",
    "ref": "c-ok-origen",
@@ -23648,7 +26068,7 @@ window.SQ_CONTENT = {
   },
   {
    "id": "q159",
-   "cat": "cultura",
+   "cat": "lengua",
    "level": 3,
    "status": "publicado",
    "ref": "c-cervantes-shakespeare",
@@ -23664,7 +26084,7 @@ window.SQ_CONTENT = {
   },
   {
    "id": "q160",
-   "cat": "cultura",
+   "cat": "lengua",
    "level": 1,
    "status": "publicado",
    "ref": "c-letra-n",
@@ -25504,7 +27924,7 @@ window.SQ_CONTENT = {
   },
   {
    "id": "q275",
-   "cat": "cultura",
+   "cat": "lengua",
    "level": 2,
    "status": "publicado",
    "ref": "c-alfabeto-fenicio",
@@ -25536,7 +27956,7 @@ window.SQ_CONTENT = {
   },
   {
    "id": "q277",
-   "cat": "cultura",
+   "cat": "lengua",
    "level": 2,
    "status": "publicado",
    "ref": "c-gabriela-mistral",
@@ -26560,7 +28980,7 @@ window.SQ_CONTENT = {
   },
   {
    "id": "q341",
-   "cat": "cultura",
+   "cat": "lengua",
    "level": 1,
    "status": "publicado",
    "ref": "c-don-quijote",
@@ -27574,6 +29994,294 @@ window.SQ_CONTENT = {
    ],
    "a": 1,
    "exp": "La melatonina ayuda a regular el ciclo de sueño y vigilia según la luz y la oscuridad."
+  },
+  {
+   "id": "q401",
+   "cat": "geografia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-tectonica-placas",
+   "q": "¿Quién presentó en 1912 la teoría de la deriva continental?",
+   "o": [
+    "Charles Darwin",
+    "Alfred Wegener",
+    "Harry Hess",
+    "Abraham Ortelius"
+   ],
+   "a": 1,
+   "exp": "El meteorólogo alemán Alfred Wegener la presentó en dos artículos en 1912. La idea de que los continentes se habían separado ya la había sugerido Ortelius en 1596."
+  },
+  {
+   "id": "q402",
+   "cat": "geografia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-tectonica-placas",
+   "q": "¿A qué ritmo promedio se abre la dorsal mesoatlántica, según el USGS?",
+   "o": [
+    "Unos 2,5 cm al año",
+    "Unos 2,5 metros al año",
+    "Unos 25 cm al año",
+    "No se mueve"
+   ],
+   "a": 0,
+   "exp": "Unos 2,5 centímetros al año, es decir, 25 kilómetros en un millón de años."
+  },
+  {
+   "id": "q403",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-sueno",
+   "q": "¿Cuánto tiempo después de dormirse suele llegar el primer periodo de sueño REM?",
+   "o": [
+    "Unos 10 minutos",
+    "Unos 90 minutos",
+    "Unas 4 horas",
+    "Justo antes de despertar"
+   ],
+   "a": 1,
+   "exp": "Según el NINDS, el primer periodo REM llega unos 90 minutos después de dormirse."
+  },
+  {
+   "id": "q404",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-sueno",
+   "q": "¿Por qué la cafeína reduce la sensación de sueño?",
+   "o": [
+    "Porque aumenta la melatonina",
+    "Porque bloquea la acción de la adenosina",
+    "Porque baja la temperatura corporal",
+    "Porque detiene el reloj biológico"
+   ],
+   "a": 1,
+   "exp": "La adenosina ayuda a sentir sueño, y la cafeína bloquea su acción."
+  },
+  {
+   "id": "q405",
+   "cat": "animales",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-monarca",
+   "q": "¿Dónde pasan el invierno las monarcas del este de Norteamérica?",
+   "o": [
+    "En Florida",
+    "En los bosques de oyamel de México",
+    "En la Amazonía",
+    "En Canadá"
+   ],
+   "a": 1,
+   "exp": "En 11 a 12 zonas de montaña de los estados de México y Michoacán, en bosques de oyamel."
+  },
+  {
+   "id": "q406",
+   "cat": "universo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-fondo-cosmico",
+   "q": "¿Qué pensaron al principio Penzias y Wilson de la radiación de fondo?",
+   "o": [
+    "Que era una señal extraterrestre",
+    "Que era ruido del instrumento o de la atmósfera",
+    "Que venía del Sol",
+    "Que era un error de cálculo"
+   ],
+   "a": 1,
+   "exp": "Sospecharon del instrumento o de la atmósfera; tras pruebas minuciosas, comprobaron que venía del espacio y era igual en todas las direcciones."
+  },
+  {
+   "id": "q407",
+   "cat": "tecnologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-transistor",
+   "q": "¿En qué material se construyó el primer transistor, en 1947?",
+   "o": [
+    "Silicio",
+    "Germanio",
+    "Cobre",
+    "Grafito"
+   ],
+   "a": 1,
+   "exp": "Bardeen y Brattain usaron dos contactos de oro sobre una placa de germanio de alta pureza."
+  },
+  {
+   "id": "q408",
+   "cat": "ciencia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-darwin",
+   "q": "¿En qué barco viajó Charles Darwin durante cinco años?",
+   "o": [
+    "HMS Victory",
+    "HMS Beagle",
+    "Santa María",
+    "Endeavour"
+   ],
+   "a": 1,
+   "exp": "Zarpó en 1831 en el HMS Beagle como naturalista y acompañante del capitán Robert FitzRoy."
+  },
+  {
+   "id": "q409",
+   "cat": "ciencia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "r-oklo",
+   "q": "¿Qué actuó como moderador en el reactor nuclear natural de Oklo?",
+   "o": [
+    "El agua",
+    "El grafito",
+    "El aire",
+    "El hielo"
+   ],
+   "a": 0,
+   "exp": "El agua frenaba los neutrones y permitía mantener la reacción en cadena, como en un reactor de agua ligera."
+  },
+  {
+   "id": "q410",
+   "cat": "ciencia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "r-segundo-intercalar",
+   "q": "¿Desde cuándo dejará de añadirse el segundo intercalar al UTC, según la CGPM?",
+   "o": [
+    "Desde el 1 de enero de 2026",
+    "Desde el 20 de mayo de 2027",
+    "Desde 2050",
+    "Nunca se ha añadido"
+   ],
+   "a": 1,
+   "exp": "La 28.ª CGPM decidió en 2026 que el UTC continuo entra en vigor el 20 de mayo de 2027."
+  },
+  {
+   "id": "q411",
+   "cat": "lengua",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-solo-tilde",
+   "q": "¿Cuándo es opcional poner tilde al adverbio «solo»?",
+   "o": [
+    "Siempre",
+    "Nunca existe esa opción",
+    "Cuando quien escribe ve riesgo de ambigüedad",
+    "Solo en mayúsculas"
+   ],
+   "a": 2,
+   "exp": "Por regla general no lleva tilde; según el Diccionario panhispánico de dudas, es opcional en el adverbio si quien escribe percibe riesgo de ambigüedad."
+  },
+  {
+   "id": "q412",
+   "cat": "lengua",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-guion-sin-tilde",
+   "q": "¿Cómo se escribe correctamente?",
+   "o": [
+    "El guión de la película",
+    "El guion de la película",
+    "El guïon de la película",
+    "El gion de la película"
+   ],
+   "a": 1,
+   "exp": "Desde la Ortografía de 2010, «guion» se considera monosílabo a efectos ortográficos y se escribe sin tilde."
+  },
+  {
+   "id": "q413",
+   "cat": "lengua",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-porque-cuatro",
+   "q": "Completa: «No entiendo el ___ de su decisión».",
+   "o": [
+    "porque",
+    "por qué",
+    "porqué",
+    "por que"
+   ],
+   "a": 2,
+   "exp": "«Porqué» es un sustantivo que significa «causa» o «motivo», y por eso va con artículo: «el porqué»."
+  },
+  {
+   "id": "q414",
+   "cat": "lengua",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-a-ver-haber",
+   "q": "¿Cuál está bien escrita?",
+   "o": [
+    "Siento a ver dicho eso",
+    "Siento haber dicho eso",
+    "Siento haver dicho eso",
+    "Siento aver dicho eso"
+   ],
+   "a": 1,
+   "exp": "Delante de un participio («dicho») va el verbo «haber»."
+  },
+  {
+   "id": "q415",
+   "cat": "lengua",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-mayusculas-tilde",
+   "q": "¿Las mayúsculas llevan tilde?",
+   "o": [
+    "No, nunca",
+    "Sí, cuando la palabra lo requiere",
+    "Solo la inicial",
+    "Solo en títulos"
+   ],
+   "a": 1,
+   "exp": "Según la Ortografía, las mayúsculas se acentúan cuando la palabra lo requiere. Las siglas, como IMC, no llevan tilde."
+  },
+  {
+   "id": "q416",
+   "cat": "lengua",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-ch-ll",
+   "q": "¿Cuántas letras tiene hoy el abecedario español?",
+   "o": [
+    "25",
+    "27",
+    "29",
+    "30"
+   ],
+   "a": 1,
+   "exp": "Desde la Ortografía de 2010, la «ch» y la «ll» no se cuentan como letras: el abecedario tiene 27."
+  },
+  {
+   "id": "q417",
+   "cat": "lengua",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-palabras-del-ano",
+   "q": "¿Qué palabra eligió la FundéuRAE como palabra del año 2025?",
+   "o": [
+    "Dana",
+    "Arancel",
+    "Polarización",
+    "Vacuna"
+   ],
+   "a": 1,
+   "exp": "«Arancel», la cuantía que se exige por la importación de ciertos productos."
+  },
+  {
+   "id": "q418",
+   "cat": "lengua",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-garcia-marquez",
+   "q": "¿Con qué novela logró García Márquez su gran salto internacional?",
+   "o": [
+    "El amor en los tiempos del cólera",
+    "Cien años de soledad",
+    "Rayuela",
+    "Pedro Páramo"
+   ],
+   "a": 1,
+   "exp": "Según la Fundación Nobel, su salto internacional llegó con Cien años de soledad (1967)."
   }
  ],
  "series": [
@@ -27873,6 +30581,45 @@ window.SQ_CONTENT = {
    "before": "Los taínos representaban a sus espíritus en objetos llamados cemíes",
    "after": "Para los taínos, un cemí era una fuerza espiritual que se encarnaba en objetos",
    "why": "El Museo Metropolitano de Arte precisa que «cemí» designa ante todo la fuerza espiritual, no solo el objeto que la representa."
+  }
+ ],
+ "collections": [
+  {
+   "id": "lo-que-pocos-saben",
+   "title": "Lo que pocos saben",
+   "desc": "Descubrimientos, sucesos y fenómenos documentados que casi nadie cuenta.",
+   "intro": "Una selección editorial de hechos poco conocidos de todas las categorías: un reactor nuclear natural de hace 2.000 millones de años, la tormenta solar que incendió telégrafos o el ojo capaz de notar un solo fotón. Todos con fuentes verificables.",
+   "ids": [
+    "r-oklo",
+    "r-carrington",
+    "r-segundo-intercalar",
+    "r-un-foton",
+    "r-nieve-tv",
+    "r-audifono-transistor",
+    "c-helio-sol",
+    "c-captcha",
+    "c-qr-toyota",
+    "c-medusa-inmortal",
+    "c-piedras-moviles",
+    "c-gobekli-tepe",
+    "c-efecto-mariposa",
+    "c-mendeleev",
+    "c-oxigeno-mar",
+    "c-vespasiano-orina",
+    "c-cervantes-shakespeare",
+    "c-olimpiadas-arte",
+    "c-nocebo",
+    "c-gato-schrodinger",
+    "c-bentham-autoicono",
+    "c-mano-invisible",
+    "c-bloop",
+    "c-arpanet-lo",
+    "c-tiburones-arboles",
+    "c-piedras-yap",
+    "c-guion-sin-tilde",
+    "c-mayusculas-tilde",
+    "c-ch-ll"
+   ]
   }
  ]
 };
