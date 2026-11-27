@@ -2696,7 +2696,8 @@ window.SQ_CONTENT = {
    "sub": "Telefonía",
    "title": "El primer mensaje de texto de la historia decía «Merry Christmas»",
    "desc": "Se envió el 3 de diciembre de 1992, desde una computadora a un teléfono móvil.",
-   "body": "El ingeniero Neil Papworth envió el mensaje «Merry Christmas» (Feliz Navidad) desde una computadora a un teléfono de Vodafone en el Reino Unido. En esa época los teléfonos todavía no podían escribir mensajes, solo recibirlos. Los SMS tenían un límite de 160 caracteres.",
+   "body": "El primer mensaje de texto SMS de la historia se envió el 3 de diciembre de 1992 por la red GSM de Vodafone, en el Reino Unido. Lo escribió Neil Papworth, un ingeniero de pruebas de la empresa Sema Group, desde una computadora personal, y decía simplemente «Merry Christmas», «Feliz Navidad». Lo recibió en su teléfono Orbitel 901 su colega Richard Jarvis, de Vodafone.\n\nPapworth escribió el mensaje desde una computadora, y no desde un teléfono. Con el tiempo, los mensajes más largos empezaron a dividirse en varias partes que el teléfono vuelve a unir, y apareció el MMS para enviar fotos y otros archivos multimedia. Los SMS tenían un límite de 160 caracteres. Con los años, los mensajes de texto se convirtieron en una de las formas de comunicación más usadas del mundo y crearon su propio lenguaje de abreviaturas para ahorrar caracteres.",
+   "deep": "SMS significa «Short Message Service», servicio de mensajes cortos. Se convirtió en un componente de casi todos los sistemas de telefonía móvil, y cada mensaje admite hasta 160 caracteres. Hoy los SMS conviven con aplicaciones de mensajería que funcionan por internet, pero siguen siendo muy usados para códigos de verificación, alertas bancarias y avisos de emergencia, porque llegan a casi cualquier teléfono sin necesidad de datos.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Text messaging",
@@ -2728,7 +2729,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -2744,6 +2745,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -2757,7 +2762,8 @@ window.SQ_CONTENT = {
    "sub": "Internet",
    "title": "El primer video de YouTube dura 19 segundos y es en un zoológico",
    "desc": "Se llama «Me at the zoo» y se subió el 23 de abril de 2005.",
-   "body": "Lo publicó Jawed Karim, uno de los tres fundadores de YouTube. En él aparece frente a los elefantes del Zoológico de San Diego, comentando que tienen trompas muy largas. Sigue disponible en la plataforma y acumula cientos de millones de reproducciones.",
+   "body": "El primer video subido a YouTube se publicó el 23 de abril de 2005 y se titula «Me at the zoo», «Yo en el zoológico». Dura solo 19 segundos. En él aparece Jawed Karim, uno de los tres fundadores de YouTube, frente a los elefantes del Zoológico de San Diego, comentando que tienen trompas «muy, muy, muy largas». Lo grabó su amigo del instituto Yakov Lapitsky.\n\nSigue disponible en la plataforma y acumula cientos de millones de reproducciones. Muchas publicaciones coinciden en que el video resume a la perfección lo que llegaría a ser YouTube: contenido casero, espontáneo, grabado por cualquiera. En 2020, la cuenta oficial del Zoológico de San Diego dejó un comentario fijado: «¡Nos sentimos muy honrados de que el primer video de YouTube se grabara aquí!».",
+   "deep": "Ese comentario del zoológico se ha convertido en uno de los más populares de la plataforma, con millones de «me gusta». Karim ha usado varias veces la descripción del video para criticar decisiones de YouTube, como cambios en el sistema de comentarios o la eliminación del contador de «no me gusta». YouTube fue fundado en 2005 por Chad Hurley, Steve Chen y Jawed Karim, antiguos empleados de PayPal, y al año siguiente lo compró Google. Hoy es uno de los sitios web más visitados del mundo.",
    "sources": [
     {
      "t": "Springer Nature Link — Interpreting the YouTube Zoo: Ethical Potential of Captive Encounters",
@@ -2780,7 +2786,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -2796,6 +2802,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6345,7 +6355,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El primer dominio .com se registró en 1985",
    "desc": "Fue symbolics.com, de una empresa de computadoras de Massachusetts.",
-   "body": "El 15 de marzo de 1985, la empresa Symbolics registró symbolics.com, considerado el primer dominio .com de la historia. Ese año apenas se registraron unos pocos. Hoy existen cientos de millones de dominios en internet.",
+   "body": "El 15 de marzo de 1985, la empresa estadounidense Symbolics registró el dominio symbolics.com, considerado el primer dominio .com de la historia de internet. Como sigue registrado, es también el dominio .com más antiguo que existe. Ese año apenas se registraron unos pocos dominios .com; hoy existen cientos de millones de dominios en internet.\n\nSymbolics era una empresa de computación nacida del Instituto Tecnológico de Massachusetts (MIT) que fabricaba las «máquinas Lisp», computadoras diseñadas para ejecutar el lenguaje de programación Lisp, muy usado entonces en la investigación de inteligencia artificial. La empresa desapareció con el tiempo, pero su dominio sobrevivió: en 2009 lo compró la empresa XF.com Investments.",
+   "deep": "El sistema de nombres de dominio, el DNS, se creó a mediados de los años ochenta para que las personas no tuvieran que recordar las direcciones numéricas de las computadoras, sino nombres fáciles. Funciona como una enorme guía telefónica distribuida por todo el mundo. La historia de Symbolics también es conocida en el mundo del software libre: según Richard Stallman, la empresa obligó al MIT a que sus mejoras del sistema de las máquinas Lisp solo estuvieran disponibles para Symbolics, lo que dejó en desventaja a su competidor, LMI. Aquella experiencia influyó en la creación del movimiento del software libre.",
    "sources": [
     {
      "t": "Wikipedia — Symbolics",
@@ -6362,7 +6373,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -6374,6 +6385,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6385,7 +6400,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Al resolver CAPTCHA ayudaste a digitalizar libros",
    "desc": "El sistema reCAPTCHA usaba palabras que las computadoras no lograban leer.",
-   "body": "CAPTCHA son las siglas en inglés de «prueba de Turing pública y automática para distinguir computadoras de humanos». Su versión reCAPTCHA mostraba palabras de libros y periódicos escaneados que el reconocimiento automático no podía leer: al escribirlas, millones de personas ayudaban a digitalizar textos. Google compró reCAPTCHA en 2009.",
+   "body": "Seguramente has tenido que escribir letras deformadas o elegir imágenes con semáforos para demostrar que no eres un robot. Eso es un CAPTCHA, siglas en inglés de «prueba de Turing pública y totalmente automática para distinguir computadoras de humanos». Es un tipo de prueba de desafío y respuesta que protege formularios y servicios en internet de los programas automáticos.\n\nSu versión más ingeniosa fue reCAPTCHA, creada en la Universidad Carnegie Mellon. Mostraba dos palabras: una de control, ya conocida, y otra sacada de libros y periódicos escaneados que el reconocimiento automático de texto no había podido leer. Al escribir la segunda, millones de personas ayudaban, sin saberlo, a digitalizar textos antiguos. Google compró reCAPTCHA en 2009 y lo usó para digitalizar libros y periódicos.",
+   "deep": "Con los años, los programas de reconocimiento de imágenes mejoraron tanto que empezaron a resolver los CAPTCHA mejor que muchas personas, así que las pruebas fueron cambiando: primero a imágenes de calles y señales, y después a sistemas invisibles. La versión 3 de reCAPTCHA analiza el comportamiento del usuario en la página sin pedirle que haga nada. Eso generó preocupaciones de privacidad, porque permite a Google seguir a los usuarios en sitios ajenos, y algunas empresas, como Cloudflare, cambiaron a alternativas por ese motivo y por su coste.",
    "sources": [
     {
      "t": "AI & SOCIETY — The unwitting labourer: extracting humanness in AI training",
@@ -6427,7 +6443,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -6443,6 +6459,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6454,7 +6474,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Bluetooth se llama así por un rey vikingo",
    "desc": "Harald «Diente Azul» unificó tribus de Dinamarca en el siglo X.",
-   "body": "La tecnología pretendía unificar la comunicación entre dispositivos, así como el rey Harald Bluetooth unificó tribus danesas. El nombre iba a ser provisional, pero se quedó. El logo combina las runas de las iniciales de Harald Bluetooth.",
+   "body": "El nombre de la tecnología inalámbrica Bluetooth viene de un rey vikingo del siglo X: Harald Bluetooth, en danés Harald Blåtand, un rey danés famoso por unificar tribus danesas. A finales de los años noventa, varias empresas buscaban un estándar común para conectar dispositivos a corta distancia sin cables, y la tecnología pretendía unir aparatos distintos igual que Harald unió a su pueblo.\n\nFue el ingeniero de Intel Jim Kardach quien propuso el nombre, después de ver una imagen de la piedra rúnica de Harald en un libro sobre la historia de los vikingos. Iba a ser un nombre en clave provisional, pero se quedó. El logotipo combina las runas de las iniciales de Harald Bluetooth, la H y la B del alfabeto rúnico, unidas en un solo símbolo.",
+   "deep": "Bluetooth funciona con ondas de radio de baja potencia en la banda de 2,4 gigahercios, la misma que usa el wifi, y salta muy rápido entre muchas frecuencias para evitar interferencias. Lo gestiona un grupo de empresas llamado Bluetooth SIG. Una de sus versiones más importantes fue la 4.0, adoptada en 2010, que introdujo Bluetooth de bajo consumo, clave para relojes inteligentes, auriculares y sensores que funcionan meses con una pequeña batería. Bluetooth 5 llegó en diciembre de 2016.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Bluetooth",
@@ -6488,7 +6509,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -6504,6 +6525,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6515,7 +6540,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La computadora que llevó al ser humano a la Luna tenía apenas 2.048 palabras de memoria de trabajo",
    "desc": "Su programa estaba guardado en una memoria fabricada tejiendo hilos a mano.",
-   "body": "El Apollo Guidance Computer tenía 2.048 palabras de memoria borrable y 36.864 palabras de memoria de solo lectura, llamada «memoria de cuerda», fabricada tejiendo cables a través de pequeños núcleos magnéticos. Aun así, guió a las naves a la Luna. Su software fue desarrollado en el MIT por un equipo en el que destacó Margaret Hamilton.",
+   "body": "La computadora que guió a los astronautas del programa Apolo hasta la Luna, el Apollo Guidance Computer, iba instalada en cada módulo de mando y en cada módulo lunar. Tenía apenas 2048 palabras de memoria borrable, la que se usa para trabajar, y 36 864 palabras de memoria de solo lectura. Un teléfono móvil actual tiene millones de veces más memoria.\n\nLa memoria permanente se llamaba «memoria de cuerda» y se fabricaba literalmente tejiendo a mano cables a través de pequeños anillos magnéticos: si un cable pasaba por dentro del anillo representaba un 1, y si pasaba por fuera, un 0. Por eso el programa tenía que estar terminado mucho antes del vuelo. Su software fue desarrollado en el Instituto Tecnológico de Massachusetts (MIT) por un equipo en el que destacó Margaret Hamilton.",
+   "deep": "El momento más famoso de esta computadora llegó durante el alunizaje del Apolo 11, en 1969: en pleno descenso empezó a mostrar alarmas de sobrecarga, los códigos 1201 y 1202. Gracias al diseño del software, que priorizaba las tareas más importantes y descartaba las secundarias, la computadora siguió funcionando y el alunizaje continuó. Fue una de las primeras computadoras en usar circuitos integrados, y el programa Apolo fue un gran impulso para esa tecnología naciente. Los astronautas se comunicaban con ella introduciendo pares de números llamados «verbo» y «nombre».",
    "sources": [
     {
      "t": "NASA — Computers in Spaceflight: the NASA Experience - NASA Technical Reports Server (NTRS)",
@@ -6548,7 +6574,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -6564,6 +6590,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6575,7 +6605,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El correo basura se llama «spam» por un sketch de comedia",
    "desc": "Viene de un sketch de Monty Python en el que la palabra Spam se repite sin parar.",
-   "body": "Spam es una marca de carne enlatada. En un sketch de 1970 del grupo británico Monty Python, un grupo de vikingos canta «Spam» una y otra vez hasta tapar cualquier conversación. Los primeros usuarios de internet empezaron a llamar así a los mensajes repetitivos que inundaban los foros.",
+   "body": "Spam es una marca estadounidense de carne enlatada. El correo basura tomó su nombre de un sketch de comedia de 1970 del grupo británico Monty Python, ambientado en una cafetería donde casi todos los platos del menú llevan Spam.\n\nEn el sketch, un grupo de vikingos sentados en la cafetería empieza a cantar «Spam, Spam, Spam…» una y otra vez, cada vez más alto, hasta tapar cualquier conversación. En los años ochenta y noventa, los primeros usuarios de internet empezaron a llamar «spam» a los mensajes repetitivos y no deseados que inundaban los foros y los chats, ahogando las conversaciones igual que la canción de los vikingos.",
+   "deep": "Uno de los primeros casos famosos ocurrió en 1994, cuando dos abogados publicaron un anuncio de sus servicios en miles de grupos de discusión de Usenet a la vez. La palabra se extendió después al correo electrónico basura. En 1999, un documento técnico de la comunidad de internet, el RFC 2635, titulado «DON'T SPEW», dio pautas sobre los envíos masivos no solicitados y explicó que el término deriva del sketch de Monty Python. Hoy los filtros antispam eliminan automáticamente la gran mayoría de estos mensajes.",
    "sources": [
     {
      "t": "RFC Editor — RFC 2635: DON'T SPEW A Set of Guidelines for Mass Unsolicited Mailings and Postings (spam*)",
@@ -6600,7 +6631,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -6616,6 +6647,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6627,7 +6662,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Wi-Fi» no significa nada",
    "desc": "Fue un nombre comercial inventado por una agencia de marketing; no son siglas.",
-   "body": "El nombre lo creó en 1999 la consultora de marcas Interbrand, por encargo de la alianza de empresas que promovía la tecnología, porque el nombre técnico, IEEE 802.11b, era poco atractivo. La explicación de que significa «Wireless Fidelity» se usó después en algunas campañas, pero no es su origen.",
+   "body": "Casi todo el mundo cree que «Wi-Fi» significa «Wireless Fidelity», «fidelidad inalámbrica». En realidad, el nombre no significa nada. Lo creó en 1999 la consultora de marcas Interbrand, por encargo de la alianza de empresas que promovía la tecnología, porque su nombre técnico, IEEE 802.11b Direct Sequence, era poco atractivo para el público.\n\nBuscaban algo fácil de recordar, y el nombre se inspiró en parte en «Hi-Fi», la abreviatura de alta fidelidad que se usaba para los equipos de música. Interbrand también diseñó el logotipo en blanco y negro, con su forma redondeada. La explicación de que significa «Wireless Fidelity» se usó después en algunas campañas: la alianza llegó a usar el eslogan «El estándar de la fidelidad inalámbrica» durante un tiempo, lo que extendió la confusión.",
+   "deep": "Wi-Fi es una familia de tecnologías de red inalámbrica basadas en los estándares IEEE 802.11, que usan ondas de radio para conectar dispositivos a una red local y a internet. La Wi-Fi Alliance certifica que los productos de distintos fabricantes funcionan entre sí. Desde 2018 las versiones se nombran con números sencillos: Wi-Fi 4, 5, 6 y siguientes, en lugar de los códigos técnicos. Para ampliar el alcance de una red se usan repetidores o extensores, que reciben la señal y la retransmiten.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Wi-Fi",
@@ -6661,7 +6697,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -6677,6 +6713,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6688,7 +6728,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Los códigos QR se inventaron para fabricar carros",
    "desc": "Los creó en 1994 Masahiro Hara, de la empresa japonesa Denso Wave, para rastrear piezas de automóviles.",
-   "body": "El código de barras tradicional guardaba poca información. Denso Wave diseñó un código cuadrado que se podía leer rápido y desde cualquier ángulo, para seguir piezas en las fábricas de automóviles. QR significa «Quick Response», respuesta rápida. Su uso se disparó con los teléfonos inteligentes.",
+   "body": "Los códigos QR se inventaron en 1994 en Japón, en Denso Wave, entonces una división de Denso Corporation, fabricante de componentes para automóviles. Los creó el ingeniero Masahiro Hara para etiquetar y seguir piezas en las fábricas de carros. QR significa «Quick Response», respuesta rápida.\n\nEl código de barras tradicional guardaba poca información y había que leerlo en una dirección concreta. Hara diseñó un código cuadrado de dos dimensiones que podía guardar mucha más información y leerse muy rápido y desde cualquier ángulo. Los tres cuadrados grandes de sus esquinas sirven precisamente para que el lector sepa dónde está y cómo está orientado el código. Su uso se disparó con los teléfonos inteligentes, que pueden leerlo con la cámara.",
+   "deep": "Denso Wave decidió no ejercer los derechos de su patente para que cualquiera pudiera usar el código libremente, y eso ayudó a que se extendiera por todo el mundo. Los códigos QR incluyen corrección de errores: aunque una parte esté rayada o tapada, todavía se pueden leer, por eso algunos llevan un logotipo en el centro. En 2014, Hara y su equipo recibieron el Premio del Inventor Europeo, que concede la Oficina Europea de Patentes, en la categoría de premio popular.",
    "sources": [
     {
      "t": "Denso Wave (empresa inventora del código QR) — History of QR Code",
@@ -6729,7 +6770,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -6745,6 +6786,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13243,7 +13288,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La primera llamada desde un celular fue para presumir ante la competencia",
    "desc": "Martin Cooper, de Motorola, llamó en 1973 a un rival de los laboratorios Bell.",
-   "body": "El 3 de abril de 1973, en una calle de Nueva York, Martin Cooper usó un prototipo de teléfono móvil que pesaba alrededor de un kilo para llamar a Joel Engel, que dirigía el proyecto rival en Bell Labs. Pasaron diez años hasta que se comercializó el primer celular.",
+   "body": "El 3 de abril de 1973, en una acera de Manhattan, en Nueva York, el ingeniero de Motorola Martin Cooper hizo la primera llamada pública desde un teléfono móvil de mano. Usó un prototipo que pesaba alrededor de un kilo, el DynaTAC. Y eligió con intención a quién llamar: a Joel Engel, que dirigía el proyecto rival en Bell Labs.\n\nMotorola y Bell Labs competían por desarrollar la telefonía móvil, y Cooper quiso demostrar que su equipo había llegado primero, frente a reporteros y curiosos. Frente a los teléfonos instalados en los carros, Cooper defendía un teléfono personal y portátil, que la gente pudiera llevar consigo a cualquier parte, y Motorola respaldó su idea.",
+   "deep": "Pasaron diez años hasta que el primer teléfono móvil comercial, el Motorola DynaTAC 8000X, salió a la venta en 1983, . Lo apodaron «el ladrillo» por su tamaño y su peso. Martin Cooper, nacido en 1928, es considerado uno de los padres del teléfono móvil. Él mismo ha explicado su idea: un teléfono personal que representara a un individuo, con un número asignado no a un lugar, un escritorio o una casa, sino a una persona.",
    "sources": [
     {
      "t": "Wikipedia — Martin Cooper (inventor)",
@@ -13260,7 +13306,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -13272,6 +13318,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13283,7 +13333,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La web es gratuita porque el CERN renunció a cobrar por ella en 1993",
    "desc": "Tim Berners-Lee la creó en 1989; en 1993 el CERN liberó su tecnología para todos.",
-   "body": "Si el CERN hubiera patentado la World Wide Web, cada sitio podría haber tenido que pagar por usarla. En abril de 1993 la puso en dominio público, lo que permitió su expansión explosiva. Tim Berners-Lee la había propuesto en 1989 como forma de compartir documentos entre científicos.",
+   "body": "La World Wide Web es gratuita para todos, y no tenía por qué serlo. Tim Berners-Lee, un científico británico que trabajaba en el CERN, el laboratorio europeo de física de partículas cerca de Ginebra, la propuso en 1989 como una forma de compartir documentos entre investigadores. Si el CERN la hubiera patentado, cada sitio podría haber tenido que pagar por usarla.\n\nEn abril de 1993, el CERN puso el software de la web en el dominio público, para que cualquiera pudiera usarlo y desarrollarlo sin pagar. Esa decisión permitió su expansión explosiva. En aquella época competía con otros sistemas, como Gopher, de la Universidad de Minnesota, que perdió terreno en parte cuando sus creadores anunciaron que cobrarían licencias en ciertos casos.",
+   "deep": "La web se basa en tres invenciones de Berners-Lee: el lenguaje HTML para escribir las páginas, el protocolo HTTP para transmitirlas y las direcciones URL para encontrarlas. Su gran novedad frente a Gopher fue que los enlaces estaban dentro del propio documento: el HTML permitía colocar vínculos en medio del texto, mientras que Gopher organizaba los documentos en menús separados de ellos. No hay que confundir la web con internet: internet es la red de computadoras, y la web es solo uno de los servicios que funcionan sobre ella, como el correo electrónico.",
    "sources": [
     {
      "t": "Universidad (ils.unc.edu) — Where Have all the Gophers Gone? Why the Web beat Gopher in the Battle for Protocol Mind Share",
@@ -13308,7 +13359,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -13324,6 +13375,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13335,7 +13390,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La primera programadora de la historia vivió en el siglo XIX",
    "desc": "Ada Lovelace publicó en 1843 lo que se considera el primer algoritmo para una máquina.",
-   "body": "Ada Lovelace, hija del poeta Lord Byron, trabajó con Charles Babbage en su Máquina Analítica, una computadora mecánica que nunca llegó a construirse. En sus notas describió un algoritmo para calcular números de Bernoulli y anticipó que estas máquinas podrían manejar símbolos y no solo números. El lenguaje de programación Ada lleva su nombre.",
+   "body": "Ada Lovelace, nacida Augusta Ada Byron en 1815, era hija del poeta Lord Byron, aunque apenas lo conoció. Su madre la educó en matemáticas y ciencias. Es considerada la primera programadora de la historia por su trabajo con el matemático Charles Babbage y su Máquina Analítica, una computadora mecánica de propósito general que nunca llegó a construirse.\n\nEn 1843 tradujo un artículo sobre la máquina y le añadió unas notas mucho más largas que el texto original. En la nota G describió con todo detalle un método para calcular una sucesión de números de Bernoulli con la Máquina Analítica, que podría haber funcionado si la máquina se hubiera construido: se considera el primer programa de computadora publicado.",
+   "deep": "Lo más visionario de sus notas fue otra idea: Lovelace intuyó que una máquina así podría manipular no solo números, sino cualquier cosa que pudiera representarse con símbolos, como notas musicales, y llegar a componer música. Babbage pensaba sobre todo en cálculos. Murió en 1852, con solo 36 años. En su honor, el lenguaje de programación Ada lleva su nombre, y hoy es un símbolo de las mujeres en la ciencia y la tecnología: sus notas, escritas hace casi dos siglos, siguen estudiándose como uno de los textos fundacionales de la informática.",
    "sources": [
     {
      "t": "Universidad británica (blogs.bodleian.ox.ac.uk) — Only known photographs of Ada Lovelace in Bodleian Display",
@@ -13360,7 +13416,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -13376,6 +13432,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13387,7 +13447,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Alan Turing ayudó a descifrar los mensajes secretos nazis",
    "desc": "En Bletchley Park desarrolló métodos para romper el cifrado de la máquina Enigma.",
-   "body": "Durante la Segunda Guerra Mundial, Turing trabajó en Bletchley Park, en Inglaterra, en el desciframiento de comunicaciones alemanas. Antes, en 1936, había publicado un trabajo que sentó las bases teóricas de la computación. Fue perseguido por su homosexualidad; en 2009 el gobierno británico pidió disculpas y en 2013 recibió un indulto póstumo.",
+   "body": "Durante la Segunda Guerra Mundial, el matemático británico Alan Turing trabajó en Bletchley Park, el centro secreto británico de desciframiento de códigos. Allí ayudó a romper los mensajes cifrados con la máquina Enigma que usaban las fuerzas alemanas, y diseñó una máquina electromecánica, la «bomba», que buscaba de forma automática las claves diarias.\n\nAntes, en 1936, había publicado un trabajo que sentó las bases teóricas de la computación. En él describió una máquina imaginaria, hoy llamada «máquina de Turing», capaz de realizar cualquier cálculo siguiendo reglas sencillas, y una «máquina universal» capaz de imitar a cualquier otra máquina de Turing: la idea fundamental de las computadoras programables. Con ella demostró también que hay problemas que ninguna máquina puede resolver.",
+   "deep": "Después de la guerra, Turing trabajó en algunas de las primeras computadoras y, en 1950, propuso la famosa «prueba de Turing» para decidir si una máquina puede pensar. En 1952 fue condenado por mantener relaciones homosexuales, entonces ilegales en el Reino Unido, y obligado a someterse a una castración química. Murió en 1954. En 2009, el gobierno británico le pidió disculpas públicamente, y en 2013 recibió un indulto póstumo de la reina Isabel II. Hoy su rostro aparece en el billete de 50 libras.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Turing Machines",
@@ -13412,7 +13473,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -13428,6 +13489,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13439,7 +13504,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Los primeros emojis famosos se crearon en Japón en 1999",
    "desc": "Los diseñó Shigetaka Kurita para teléfonos móviles; hoy están en el MoMA de Nueva York.",
-   "body": "La palabra «emoji» viene del japonés: «e» (imagen) y «moji» (carácter). No tiene relación con la palabra «emoción». Kurita diseñó un conjunto de 176 pictogramas de 12 por 12 píxeles para el servicio móvil de NTT Docomo. El Museo de Arte Moderno de Nueva York los incluyó en su colección.",
+   "body": "Los primeros emojis famosos los creó en 1999 el diseñador japonés Shigetaka Kurita para el servicio de internet móvil i-mode, de la operadora japonesa NTT Docomo. Diseñó un conjunto de 176 pequeños pictogramas de 12 por 12 píxeles: caras, señales del tiempo, corazones, objetos y símbolos.\n\nLa palabra «emoji» viene del japonés: «e», imagen, y «moji», carácter. Aunque suene parecido, no tiene relación con la palabra «emoción». Con el tiempo, los emojis se incorporaron al estándar Unicode, el sistema que permite que cualquier computadora o teléfono muestre los mismos caracteres, y se extendieron por todo el mundo. El Museo de Arte Moderno de Nueva York incluyó los emojis originales de Kurita en su colección.",
+   "deep": "Los emojis se estudian también en la ciencia. Un estudio publicado en la revista PLOS ONE creó el primer «léxico de sentimiento de emojis»: analizó millones de tuits en varios idiomas para medir si cada uno de los 751 emojis más usados expresaba emociones positivas, negativas o neutras, y dibujó un «mapa de sentimiento» de todos ellos. Los investigadores ven en los emojis una forma de suplir las señales no verbales, como los gestos o el tono de voz, que se pierden al escribir. Cada año el Consorcio Unicode aprueba nuevos emojis, propuestos a menudo por el público.",
    "sources": [
     {
      "t": "Publicación académica (DOI) (doi.org) — Frontiers",
@@ -13472,7 +13538,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -13488,6 +13554,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13499,7 +13569,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El hashtag fue propuesto por un usuario de Twitter en 2007",
    "desc": "Chris Messina sugirió usar el símbolo # para agrupar conversaciones.",
-   "body": "En agosto de 2007, Chris Messina publicó un mensaje proponiendo usar el signo numeral para agrupar temas. Al principio la empresa no le dio importancia, pero los usuarios lo adoptaron y se extendió a casi todas las redes sociales.",
+   "body": "En agosto de 2007, Chris Messina, diseñador y antiguo alumno de la Universidad Carnegie Mellon, publicó en Twitter un mensaje proponiendo usar el signo numeral, #, para agrupar conversaciones sobre un mismo tema. Su ejemplo fue #barcamp, el nombre de unas conferencias de tecnología.\n\nAl principio la empresa no le dio importancia, pero los usuarios lo adoptaron poco a poco para seguir noticias, eventos y debates, y el hashtag terminó extendiéndose a casi todas las redes sociales. Hoy es una forma básica de organizar conversaciones en internet y de convertir un tema en tendencia.",
+   "deep": "El signo # ya se usaba antes en internet: en los canales de chat IRC servía para nombrar los grupos de conversación, y Messina se inspiró en esa costumbre. Messina nunca patentó la idea, porque quería que perteneciera a todos. El hashtag llegó a tener tanto peso cultural que en 2013 apareció en un titular de la portada del New York Times, #TwitterIPO, sobre la salida a bolsa de Twitter, y la palabra «hashtag» se incorporó a los diccionarios Oxford y Merriam-Webster, e incluso al diccionario oficial del juego Scrabble. Messina había estudiado diseño de comunicación en la Escuela de Diseño de Carnegie Mellon.",
    "sources": [
     {
      "t": "Universidad (cmu.edu) — #OriginStory - Carnegie Mellon University",
@@ -13532,7 +13603,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -13548,6 +13619,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13559,7 +13634,8 @@ window.SQ_CONTENT = {
    "level": 3,
    "title": "Sin la teoría de la relatividad de Einstein, el GPS fallaría",
    "desc": "Los relojes de los satélites deben corregirse porque el tiempo pasa distinto allá arriba.",
-   "body": "Los satélites GPS llevan relojes atómicos muy precisos. Por la relatividad, el tiempo corre ligeramente distinto para ellos que para nosotros: por su velocidad y por estar más lejos de la gravedad terrestre. La diferencia es de unos 38 microsegundos al día, y si no se corrigiera los errores de posición crecerían varios kilómetros cada día.",
+   "body": "Los satélites del sistema GPS llevan relojes atómicos muy precisos, y tu teléfono calcula su posición midiendo cuánto tarda en llegarle la señal de varios satélites. Como las señales viajan a la velocidad de la luz, un error de una millonésima de segundo equivale a unos 300 metros de error en la posición. Por eso los relojes deben estar perfectamente sincronizados.\n\nY aquí entra Einstein. Según su teoría de la relatividad especial, los relojes de los satélites, que se mueven muy rápido, deberían atrasar. Pero según la relatividad general, como están más lejos de la gravedad de la Tierra, deberían adelantar, y este efecto es mayor. Combinados, los dos efectos hacen que los relojes de los satélites adelanten unos 38,6 microsegundos al día respecto a los del suelo.",
+   "deep": "Parece poco, pero si no se corrigiera, el GPS acumularía errores de posición de varios kilómetros cada día y sería inútil en poco tiempo. Por eso los relojes de los satélites se ajustan antes del lanzamiento para que funcionen un poco más lentos, y los receptores aplican además otras correcciones. El GPS es una de las pruebas cotidianas más claras de que la relatividad de Einstein funciona. La precisión de la posición también depende de la geometría de los satélites visibles: si están muy juntos en el cielo, el error aumenta, un efecto llamado dilución de la precisión.",
    "sources": [
     {
      "t": "Journal of Geodesy — Combined orbits and clocks from IGS second reprocessing",
@@ -13592,7 +13668,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -13608,6 +13684,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13619,7 +13699,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El ratón de computadora se presentó en 1968 en «la madre de todas las demostraciones»",
    "desc": "Douglas Engelbart mostró también videoconferencia y edición colaborativa de textos.",
-   "body": "En una presentación en San Francisco, Engelbart y su equipo mostraron un ratón de madera, ventanas, hipervínculos y edición de texto compartida a distancia. Muchas de esas ideas tardaron décadas en llegar a las computadoras personales. La presentación es conocida como «The Mother of All Demos».",
+   "body": "El 9 de diciembre de 1968, en una conferencia de computación en San Francisco, el ingeniero estadounidense Douglas Engelbart y su equipo del Instituto de Investigación de Stanford hicieron una demostración que hoy se conoce como «La madre de todas las demostraciones». Durante unos 90 minutos mostraron tecnologías que parecían de ciencia ficción.\n\nPresentaron un ratón de madera con dos ruedas metálicas, ventanas en la pantalla, hipervínculos, edición de texto, una videoconferencia y la colaboración en un mismo documento entre personas que estaban en lugares distintos. Muchas de esas ideas tardaron décadas en llegar a las computadoras personales. El ratón se llamó así porque el cable que salía por detrás parecía una cola.",
+   "deep": "Engelbart no buscaba solo inventar aparatos: su objetivo era «aumentar el intelecto humano», usar las computadoras para ayudar a las personas a resolver problemas complejos de forma colectiva. Su laboratorio inspiró a investigadores de Xerox PARC, que desarrollaron interfaces gráficas que después adoptaron Apple y Microsoft. Engelbart patentó el ratón, pero la patente caducó antes de que el ratón se popularizara, así que nunca ganó dinero con él. Recibió el Premio Turing en 1997.",
    "sources": [
     {
      "t": "Computer History Museum — The Mouse - CHM Revolution",
@@ -13653,7 +13734,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -13669,6 +13750,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13680,7 +13765,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El primer producto escaneado con código de barras fue un paquete de chicle",
    "desc": "Ocurrió en 1974 en un supermercado de Ohio, Estados Unidos.",
-   "body": "El 26 de junio de 1974 se escaneó un paquete de chicles Wrigley en un supermercado de Troy, Ohio, con el código UPC. Ese paquete se exhibe hoy en el Museo Nacional de Historia Estadounidense del Smithsonian. El código de barras aceleró las cajas registradoras y el control de inventarios.",
+   "body": "El 26 de junio de 1974, a las 8:01 de la mañana, en un supermercado de Troy, Ohio, una cajera pasó por un lector un paquete de diez chicles Juicy Fruit de Wrigley. Fue el primer producto escaneado con un código de barras UPC en una tienda. Ese paquete se exhibe hoy en el Museo Nacional de Historia Estadounidense del Smithsonian.\n\nEl código UPC, siglas de Código Universal de Producto, se usa hoy en todo el mundo para identificar productos en las tiendas. Nació de la industria de la alimentación: en 1973, un grupo de asociaciones del sector formó un consejo que, con ayuda de consultores, definió el formato numérico del código. El código de barras aceleró las cajas registradoras, redujo errores y permitió controlar los inventarios en tiempo real.",
+   "deep": "El diseño del UPC lo desarrolló en IBM el ingeniero George Laurer, que definió los detalles de la etiqueta con la ayuda de N. J. Woodland, uno de los pioneros del código de barras. Su formato divide los dígitos en dos grupos de seis, separados por unas barras de guía. Cada código termina con un dígito de control, calculado a partir de los demás, que permite al lector detectar si ha leído mal.",
    "sources": [
     {
      "t": "Smithsonian Magazine (Smithsonian Institution) — The History of the Bar Code",
@@ -13713,7 +13799,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -13729,6 +13815,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20672,7 +20762,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Una de las primeras computadoras ocupaba una sala entera",
    "desc": "ENIAC, terminada en 1945, pesaba unas 27 toneladas.",
-   "body": "ENIAC se construyó en la Universidad de Pensilvania para calcular trayectorias de artillería. Tenía unos 18.000 tubos de vacío. La mayor parte de su programación la hicieron seis matemáticas: Jean Jennings, Marlyn Wescoff, Ruth Lichterman, Betty Snyder, Frances Bilas y Kay McNulty.",
+   "body": "ENIAC, siglas en inglés de «Integrador y Computador Numérico Electrónico», fue una de las primeras computadoras electrónicas de propósito general. Se construyó en la Universidad de Pensilvania durante la Segunda Guerra Mundial para el ejército de Estados Unidos, con el objetivo de calcular tablas de trayectorias de artillería, y se presentó al público en 1946.\n\nEra gigantesca: ocupaba una sala entera, pesaba unas 27 toneladas y tenía unos 18 000 tubos de vacío, que se fundían con frecuencia. Para programarla no había teclado ni pantalla: había que conectar cables y mover interruptores a mano, y cambiar de programa podía llevar días. La mayor parte de su programación la hicieron seis matemáticas: Jean Jennings, Marlyn Wescoff, Ruth Lichterman, Betty Snyder, Frances Bilas y Kay McNulty.",
+   "deep": "Estas seis programadoras no solo descubrieron cómo introducir los programas, sino que llegaron a comprender a fondo el funcionamiento interno de la máquina, a menudo sin manuales, a partir de los diagramas de sus circuitos. Durante décadas su trabajo quedó casi olvidado: en las fotos de la época a veces se las tomaba por modelos posando junto a la máquina. En 1997 fueron incluidas en el Salón de la Fama de Mujeres en la Tecnología. ENIAC podía hacer unas 5000 sumas por segundo, una velocidad asombrosa entonces.",
    "sources": [
     {
      "t": "Universidad (seas.upenn.edu) — ENIAC",
@@ -20705,7 +20796,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -20721,6 +20812,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20732,7 +20827,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Linux nació en 1991 de la mano de un joven finlandés de 21 años",
    "desc": "Linus Torvalds publicó la primera versión del núcleo Linux el 17 de septiembre de 1991.",
-   "body": "Torvalds, nacido en Helsinki en 1969, sigue siendo hoy el desarrollador principal del núcleo. Linux se distribuye como software libre y sobre él funcionan desde servidores hasta supercomputadoras. También es la base de Android. Torvalds creó además Git, una herramienta que usan millones de programadores.",
+   "body": "En 1991, Linus Torvalds, un estudiante finlandés de la Universidad de Helsinki, empezó a escribir como pasatiempo el núcleo de un sistema operativo para su computadora personal. Lo anunció en un grupo de discusión de internet con un mensaje modesto, sin imaginar que su proyecto personal acabaría siendo uno de los programas más importantes del mundo.\n\nEse núcleo, llamado Linux, se distribuye como software libre: cualquiera puede usarlo, estudiarlo, modificarlo y compartirlo. Miles de programadores de todo el mundo empezaron a mejorarlo, y hoy sobre Linux funcionan desde la mayoría de los servidores de internet hasta todas las supercomputadoras más potentes del mundo. También es la base de Android, el sistema operativo móvil más usado. Torvalds sigue siendo hoy el desarrollador principal del núcleo.",
+   "deep": "Linux es en realidad el núcleo, la parte que controla el hardware; para tener un sistema completo se combina con herramientas del proyecto GNU y otros programas. Por eso la Free Software Foundation recomienda llamarlo «GNU/Linux». Esos sistemas completos se llaman distribuciones, y hay miles: Debian, Fedora, Ubuntu o Arch Linux, entre otras, además de versiones comerciales como Red Hat Enterprise Linux. En 2005, Torvalds creó también Git, un sistema de control de versiones que hoy usan millones de programadores en todo el mundo.",
    "sources": [
     {
      "t": "Wikipedia — Linux",
@@ -20766,7 +20862,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -20778,6 +20874,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20789,7 +20889,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El primer mensaje de la red precursora de internet fue «LO»",
    "desc": "Iban a escribir «LOGIN», pero el sistema se colgó tras dos letras.",
-   "body": "El 29 de octubre de 1969, en ARPANET, un estudiante de la Universidad de California en Los Ángeles intentó conectarse con un equipo del Instituto de Investigación de Stanford. Solo llegaron las letras «L» y «O» antes de que el sistema fallara. Poco después lograron la conexión completa.",
+   "body": "El 29 de octubre de 1969 se envió el primer mensaje por ARPANET, la red de computadoras que dio origen a internet. Un estudiante de la Universidad de California en Los Ángeles (UCLA), Charley Kline, supervisado por el profesor Leonard Kleinrock, intentó conectarse con una computadora del Instituto de Investigación de Stanford, en el norte de California. Quería escribir la palabra «LOGIN».\n\nEscribió la «L» y la «O», y el sistema de Stanford se bloqueó. Así que el primer mensaje de la historia de internet fue, sin querer, «LO». Una hora después lograron la conexión completa. ARPANET la financiaba la agencia de investigación del Departamento de Defensa de Estados Unidos, ARPA.",
+   "deep": "ARPANET fue una de las primeras redes en usar la conmutación de paquetes: los mensajes se dividen en pequeños bloques que viajan por separado, incluso por caminos distintos, y se vuelven a juntar al llegar. Si una línea falla, los paquetes buscan otra ruta. En sus primeros años, los investigadores definieron cómo debían comunicarse las computadoras de la red mediante documentos llamados RFC, «petición de comentarios», una tradición que continúa hoy. En 1983 ARPANET adoptó el protocolo TCP/IP, que sigue siendo la base de internet.",
    "sources": [
     {
      "t": "RFC Editor — RFC 6529: Host/Host Protocol for the ARPA Network",
@@ -20822,7 +20923,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -20838,6 +20939,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -23418,7 +23523,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El primer producto con transistores no fue una radio, sino un audífono",
    "desc": "En 1952, los transistores eran caros. Los primeros en usarlos fueron los audífonos, donde el tamaño y el consumo importaban más que el precio.",
-   "body": "Cuando aparecieron, los transistores costaban más que las válvulas de vacío, así que sus primeros usos fueron aparatos portátiles en los que el tamaño pequeño y el bajo consumo eran lo más importante. Según el Computer History Museum, el primer producto de consumo con transistores en Estados Unidos fue un audífono de la empresa Sonotone, en 1952, que costaba 229,50 dólares y combinaba dos válvulas con un transistor. En 1953 llegó un audífono hecho solo con transistores y, para 1954, el 97 % de los audífonos usaba únicamente transistores. La primera radio de transistores a la venta en ese país, la Regency TR-1, no llegó a las tiendas hasta octubre de 1954.",
+   "body": "Cuando aparecieron, los transistores costaban más que las válvulas de vacío, así que sus primeros usos fueron aparatos portátiles en los que el tamaño pequeño y el bajo consumo eran lo más importante. Según el Computer History Museum, el primer producto de consumo con transistores en Estados Unidos fue un audífono de la empresa Sonotone, en 1952, que costaba 229,50 dólares y combinaba dos válvulas con un transistor.\n\nEn 1953 llegó un audífono hecho solo con transistores y, para 1954, el 97 % de los audífonos usaba únicamente transistores. La primera radio de transistores a la venta en ese país, la Regency TR-1, no llegó a las tiendas hasta octubre de 1954.",
+   "deep": "El transistor sustituyó a las válvulas de vacío, que eran grandes, frágiles, se calentaban y consumían mucha energía. Al principio era caro de fabricar, por eso sus primeros mercados fueron aquellos en los que su pequeño tamaño y su bajo consumo compensaban el precio, como los audífonos, que funcionaban con pilas y debían ser discretos. Con los años, su precio cayó en picado y el transistor se convirtió en la pieza básica de toda la electrónica moderna, desde las radios de bolsillo hasta las computadoras.",
    "sources": [
     {
      "t": "Computer History Museum (Silicon Engine) — 1952: Transistorized Consumer Products Appear",
@@ -23448,13 +23554,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
