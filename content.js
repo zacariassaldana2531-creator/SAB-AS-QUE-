@@ -3365,7 +3365,8 @@ window.SQ_CONTENT = {
    "sub": "Inflación",
    "title": "La peor inflación de la historia duplicaba los precios cada 15 horas",
    "desc": "Ocurrió en Hungría en 1946, tras la Segunda Guerra Mundial.",
-   "body": "En julio de 1946, la inflación mensual en Hungría alcanzó cifras de miles de billones por ciento (las estimaciones varían según la fuente). Los precios se duplicaban aproximadamente cada 15 horas. El país llegó a imprimir un billete de 100 trillones de pengő (un 1 seguido de 20 ceros), el billete de mayor valor nominal jamás emitido. En agosto de 1946 se sustituyó por una nueva moneda, el forinto, que se usa hasta hoy.",
+   "body": "La moneda de Hungría entre 1927 y 1946, el pengő, quedó sin ningún valor por la hiperinflación más extrema jamás registrada. En julio de 1946, la inflación mensual en Hungría alcanzó cifras de miles de billones por ciento: según una estimación, un 41,9 billones de billones por ciento, aunque las cifras varían según la fuente. Los precios se duplicaban aproximadamente cada 15 horas.\n\nEl país llegó a imprimir un billete de 100 trillones de pengő (un 1 seguido de 20 ceros), el billete de mayor valor nominal jamás emitido. El banco central llegó a imprimir incluso billetes de mil trillones, pero nunca entraron en circulación. En agosto de 1946 se sustituyó por una nueva moneda, el forinto, que se usa hasta hoy.",
+   "deep": "Para protegerse, en enero de 1946 el gobierno creó el «adópengő» o «pengő fiscal», una unidad indexada que en principio servía para planificar el presupuesto y cuyo valor en pengős se fijaba cada día. Pero también acabó desplomándose. El 1 de agosto de 1946, el forinto se introdujo a una tasa de cambio de 400 cuatrillones de pengős por cada forinto: hubo que quitarle 29 ceros a la vieja moneda. La Segunda Guerra Mundial había causado enormes costos y pérdidas a la economía húngara, el banco central estaba prácticamente bajo control del gobierno y se emitía dinero según las necesidades del presupuesto; al final, solo una moneda nueva pudo estabilizar sus finanzas. Por comparación, la hiperinflación de Zimbabue de 2008 tuvo un mes máximo en el que los precios se duplicaban cada 24,7 horas.",
    "sources": [
     {
      "t": "Wikipedia — Hungarian pengő",
@@ -3397,7 +3398,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -3409,6 +3410,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3422,7 +3427,8 @@ window.SQ_CONTENT = {
    "sub": "Inflación",
    "title": "Zimbabue imprimió un billete de 100 billones de dólares",
    "desc": "Fue en 2009, durante una de las peores hiperinflaciones del siglo XXI.",
-   "body": "El billete de 100 billones de dólares zimbabuenses (100.000.000.000.000) apenas alcanzaba para comprar algunos productos básicos. En 2009, el país dejó de usar su moneda y empezó a operar con divisas extranjeras como el dólar estadounidense. Hoy esos billetes se venden como objetos de colección.",
+   "body": "Zimbabue vive episodios de hiperinflación desde febrero de 2007. En su peor momento, a mediados de noviembre de 2008, la inflación mensual se estima en un 790.600 millones por ciento, y la anual en cifras astronómicas. Era tan difícil de medir que el gobierno dejó de publicar estadísticas oficiales de inflación.\n\nEl billete de 100 billones de dólares zimbabuenses (100.000.000.000.000) apenas alcanzaba para comprar algunos productos básicos: en esa época no bastaba ni para pagar un viaje en autobús. En abril de 2009, el país dejó de imprimir su moneda y empezó a operar con divisas extranjeras como el dólar estadounidense. Hoy esos billetes se venden como objetos de colección.",
+   "deep": "Entre las causas de la crisis estuvo una reforma agraria que expulsó a los terratenientes blancos y entregó sus tierras a agricultores negros, muchos de ellos sin experiencia ni formación; muchas granjas se abandonaron o fueron a parar a leales al presidente Robert Mugabe. Entre 1999 y 2009, la producción de alimentos cayó en picado, y el sistema bancario también se hundió. El gobierno culpó a las sanciones internacionales. En 2015 anunció el paso definitivo al dólar estadounidense, pero en 2019 reintrodujo un «dólar zimbabuense» y prohibió el uso legal de divisas extranjeras; ese mismo año la inflación volvió a dispararse, lo que mostró lo difícil que es recuperar la confianza en una moneda.",
    "sources": [
     {
      "t": "Wikipedia — Hyperinflation in Zimbabwe",
@@ -3445,7 +3451,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -3457,6 +3463,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9544,7 +9554,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Los primeros billetes de papel se usaron en China hace unos mil años",
    "desc": "El jiaozi, de la dinastía Song, apareció en el siglo XI.",
-   "body": "Las monedas de hierro eran pesadas para el comercio. En la región de Sichuan surgieron certificados de papel que los comerciantes podían cambiar por monedas, y a comienzos del siglo XI el gobierno de la dinastía Song empezó a emitirlos oficialmente. Europa no usaría billetes de forma generalizada hasta siglos después.",
+   "body": "Las monedas de hierro eran pesadas para el comercio. En la región de Sichuan, en la ciudad de Chengdu, surgieron hacia el siglo XI unos pagarés de papel llamados jiaozi, que los comerciantes podían cambiar por monedas. Los numismáticos los consideran el primer papel moneda de la historia, una creación de la dinastía Song de China.\n\nAl principio los emitía una empresa privada de comerciantes, y las dieciséis mayores casas comerciales de Sichuan fundaron una especie de banco de billetes. Como varias de esas empresas quebraron, el gobierno nacionalizó la producción del papel moneda: en 1023 creó una oficina oficial para emitirlos, y en 1024 salió la primera serie de billetes oficiales. Europa no usaría billetes de forma generalizada hasta siglos después.",
+   "deep": "Los primeros jiaozi no tenían valores fijos: se emitían según lo que necesitara el comprador. Para combatir la falsificación, llevaban varios sellos estampados. Pero el papel moneda trajo un problema nuevo: la inflación. Como el gobierno Song no respaldaba sus billetes con reservas suficientes, emitir demasiados hacía que perdieran valor. En 1105, el emperador Huizong decidió sustituir los jiaozi por un nuevo tipo de billete, el qianyin, pero la inflación siguió creciendo, hasta el punto de que un billete nominal se cambiaba solo por un puñado de monedas. Fue una de las primeras lecciones de la historia sobre los riesgos de imprimir dinero sin control.",
    "sources": [
     {
      "t": "Wikipedia — Jiaozi",
@@ -9569,7 +9580,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -9581,6 +9592,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9592,7 +9607,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En el siglo XVII, unos bulbos de tulipán llegaron a costar fortunas",
    "desc": "La «tulipomanía» holandesa de 1636-1637 se considera una de las primeras burbujas especulativas.",
-   "body": "En los Países Bajos, los tulipanes raros se volvieron un símbolo de estatus y se comerciaban contratos sobre bulbos que aún no habían florecido. En febrero de 1637 los precios se desplomaron. La historiadora Anne Goldgar, en un estudio de 2007, concluyó que el relato popular está exagerado y que las consecuencias económicas fueron muy limitadas, pero sigue siendo el ejemplo clásico de burbuja.",
+   "body": "En los Países Bajos, durante el Siglo de Oro neerlandés, los tulipanes raros se volvieron un símbolo de estatus y se comerciaban contratos sobre bulbos que aún no habían florecido. La gran aceleración comenzó en 1634. Los bulbos más cotizados eran los de pétalos con vetas de varios colores, un efecto que, como se descubrió mucho después, lo causaba un virus.\n\nEl tulipán más caro fue el «Semper Augustus», que en su mejor momento llegó a venderse por 10.000 florines. En el invierno de 1636 a 1637, algunos contratos cambiaban de manos cinco veces sin que ningún bulbo se entregara: lo llamaban «comercio del viento». En febrero de 1637 los precios se desplomaron: en Haarlem, un subastador no logró encontrar compradores pese a bajar el precio varias veces.",
+   "deep": "Durante mucho tiempo, la imagen popular se basó en el libro «Delirios populares extraordinarios y la locura de las multitudes», publicado en 1841 por el periodista escocés Charles Mackay, que contaba que se llegaron a ofrecer 5 hectáreas de tierra por un bulbo y que muchos inversores se arruinaron. La historiadora Anne Goldgar, en un estudio de 2007, concluyó que el relato popular está exagerado: el comercio lo hacía un grupo bastante pequeño de comerciantes y artesanos ricos, y la mayoría de los relatos de la época se basan en propaganda y en mucho plagio. Las consecuencias económicas fueron muy limitadas, pero sigue siendo el ejemplo clásico de burbuja.",
    "sources": [
     {
      "t": "Smithsonian Magazine (Smithsonian Institution) — There Never Was a Real Tulip Fever",
@@ -9625,7 +9641,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -9641,6 +9657,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9652,7 +9672,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Una revista compara monedas usando el precio de una hamburguesa",
    "desc": "El «índice Big Mac» de The Economist existe desde 1986.",
-   "body": "La idea es simple: si el mismo producto cuesta distinto en dos países, al convertir el precio a dólares se puede ver si una moneda parece «cara» o «barata». The Economist lo creó en 1986 como una forma divertida de explicar la paridad del poder adquisitivo. Es una aproximación, no una medida exacta.",
+   "body": "La idea es simple: si el mismo producto cuesta distinto en dos países, al convertir el precio a dólares se puede ver si una moneda parece «cara» o «barata». The Economist lo creó en 1986 como una forma divertida de explicar la paridad del poder adquisitivo. Lo ideó la periodista Pam Woodall como una ilustración medio en broma, y desde entonces la revista lo publica cada año.\n\nPor ejemplo, si una hamburguesa Big Mac cuesta 6,70 francos en Suiza y 5,58 dólares en Estados Unidos, el tipo de cambio «implícito» sería de 1,20 francos por dólar. Si el tipo de cambio real es distinto, la moneda estaría infravalorada o sobrevalorada según este índice. Es una aproximación, no una medida exacta.",
+   "deep": "Aunque no se creó como una herramienta seria, hoy el índice es conocido en todo el mundo, aparece en libros de texto universitarios e incluso dio origen a una palabra: «burgernomics». Tiene limitaciones claras: solo cubre los países donde hay McDonald's, y el precio de una hamburguesa depende también de costos locales, impuestos y aranceles que no tienen que ver con la moneda. Un estudio del economista Robert Cumby, de la Universidad de Georgetown, analizó si el índice servía para predecir los tipos de cambio. Su éxito inspiró imitaciones, como un índice basado en el precio de un café de Starbucks o el «índice Billy», que usa una estantería de IKEA.",
    "sources": [
     {
      "t": "Universidad de Georgetown — The Big Mac index (artículo académico)",
@@ -9685,7 +9706,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -9701,6 +9722,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9712,7 +9737,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En una isla del Pacífico se usaban como dinero piedras enormes que no se movían",
    "desc": "En Yap, la propiedad de las piedras rai cambiaba de dueño sin moverlas de sitio.",
-   "body": "Las piedras rai, discos de piedra caliza que pueden medir varios metros, se traían desde otras islas. Como eran difíciles de mover, lo importante era que la comunidad supiera quién era el dueño. Muchos economistas las citan como ejemplo de que el dinero funciona, sobre todo, como un registro compartido de confianza.",
+   "body": "Las piedras rai, discos de piedra caliza cristalina con un agujero en el centro, eran el dinero tradicional de las islas Yap, en Micronesia. Las más pequeñas miden apenas 3,5 centímetros, pero la mayor que se conserva, en la isla de Rumung, mide 3,6 metros de diámetro, 50 centímetros de grosor y pesa unos 4000 kilos. Se tallaban en otras islas, sobre todo en Palau, y se traían por mar.\n\nComo eran difíciles de mover, lo importante era que la comunidad supiera quién era el dueño. Se cuenta que una gran piedra se cayó al mar durante el traslado y nunca se volvió a ver, pero como todos estaban de acuerdo en que seguía allí, se siguió usando como cualquier otra. Muchos economistas las citan como ejemplo de que el dinero funciona, sobre todo, como un registro compartido de confianza.",
+   "deep": "El valor de cada piedra dependía de su tamaño, de la calidad de su talla y de su historia: por ejemplo, de si la había traído un navegante famoso o de si habían muerto personas en el traslado. La práctica de tallarlas se abandonó a principios del siglo XX, y durante la Segunda Guerra Mundial las fuerzas japonesas usaron algunas como material de construcción o como anclas. Hoy quedan unas 6000 grandes piedras en la isla, y se siguen intercambiando de forma tradicional. Algunos investigadores advierten que el uso de Yap como ejemplo en los manuales de economía ha repetido estereotipos coloniales y ha borrado parte de su historia.",
    "sources": [
     {
      "t": "Finance and Society — Bitcoin and stone money: Anglophone use of Yapese economic cultures, 1910-2020",
@@ -9737,7 +9763,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -9753,6 +9779,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9764,7 +9794,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Alguien pagó dos pizzas con 10.000 bitcoins",
    "desc": "Ocurrió el 22 de mayo de 2010 y es considerada la primera compra conocida con bitcoin.",
-   "body": "El programador Laszlo Hanyecz ofreció 10.000 bitcoins a quien le enviara dos pizzas. En ese momento equivalían a unos pocos dólares. Con los años, el valor del bitcoin se multiplicó enormemente, y la comunidad celebra el 22 de mayo como el «Bitcoin Pizza Day».",
+   "body": "El 22 de mayo de 2010, el programador Laszlo Hanyecz, de Jacksonville, en Florida, publicó en un foro de bitcoin una oferta: 10.000 bitcoins que él mismo había minado a cambio de dos pizzas. Un joven de 19 años de California, Jeremy Sturdivant, aceptó y le encargó dos pizzas de Papa John's a domicilio. En ese momento, esos bitcoins equivalían a unos 41 dólares.\n\nFue una de las primeras compras de bienes reales pagadas con bitcoins. Con los años, el valor del bitcoin se multiplicó enormemente, y aquellos 10.000 bitcoins llegaron a valer una fortuna. Hoy la comunidad celebra cada 22 de mayo como el «Bitcoin Pizza Day», el día de la pizza del bitcoin.",
+   "deep": "El bitcoin es una criptomoneda: un activo digital que usa la criptografía para controlar su creación y su gestión, en lugar de depender de un banco central. Su creador usó el seudónimo de Satoshi Nakamoto, cuya identidad real sigue sin conocerse. El 31 de octubre de 2008 se publicó su artículo «Bitcoin: un sistema de efectivo electrónico entre pares», y el 3 de enero de 2009 nació la red, cuando Nakamoto minó el primer bloque. En ese bloque dejó un mensaje con el titular de un periódico británico de ese día sobre un nuevo rescate a los bancos. Diseñado al principio como medio de pago, hoy se considera sobre todo una reserva de valor.",
    "sources": [
     {
      "t": "Wikipedia — History of bitcoin",
@@ -9789,7 +9820,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -9801,6 +9832,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9858,7 +9893,8 @@ window.SQ_CONTENT = {
    "level": 3,
    "title": "«El dinero malo expulsa al bueno»: una ley económica del siglo XVI",
    "desc": "La ley de Gresham describe cómo la gente guarda las monedas valiosas y gasta las de menos valor.",
-   "body": "Si circulan dos monedas con el mismo valor oficial pero una tiene más metal precioso que la otra, la gente tiende a guardar la buena y gastar la mala. Así, la moneda de menos calidad acaba dominando la circulación. Lleva el nombre del financiero inglés Thomas Gresham, aunque la idea es anterior.",
+   "body": "La ley de Gresham dice que «el dinero malo expulsa al bueno». Si circulan dos monedas con el mismo valor oficial pero una tiene más metal precioso que la otra, la gente tiende a guardar la buena y gastar la mala. Así, la moneda de menos calidad acaba dominando la circulación, y la buena va desapareciendo.\n\nLleva el nombre del financiero inglés Thomas Gresham, de la época de los Tudor, que pidió a la reina Isabel I restaurar la confianza en la moneda inglesa, que había sido degradada. Pero el nombre se lo puso mucho después, en 1857, el economista Henry Dunning Macleod. La idea es anterior: la definió con detalle en el Renacimiento el astrónomo Nicolás Copérnico, y por eso a veces se habla de la ley de Gresham-Copérnico.",
+   "deep": "Ya en la Antigüedad se había observado el fenómeno: el dramaturgo griego Aristófanes alude a él en su comedia «Las ranas», hacia el año 405 antes de Cristo, y también lo describieron autores chinos, el francés Nicolás Oresme hacia 1350 y el historiador egipcio Al-Maqrizi. En tiempos de Gresham, el «dinero malo» era cualquier moneda degradada: la que tenía menos metal precioso del oficial, a veces por decisión del propio emisor, o porque la gente recortaba los bordes de las monedas. Existe también lo contrario, la «ley de Thiers»: cuando el dinero malo se vuelve casi inútil, por ejemplo en una hiperinflación, el bueno termina expulsándolo.",
    "sources": [
     {
      "t": "Wikipedia — Gresham's law",
@@ -9875,7 +9911,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -9887,6 +9923,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9898,7 +9938,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En 1923, en Alemania, un dólar llegó a valer 4,2 billones de marcos",
    "desc": "La hiperinflación de la República de Weimar hizo que los billetes valieran menos que el papel.",
-   "body": "Tras la Primera Guerra Mundial, Alemania tenía enormes deudas y empezó a imprimir dinero en grandes cantidades. A finales de 1923, un dólar estadounidense equivalía a unos 4,2 billones de marcos. Hay fotografías de niños jugando con fajos de billetes y de personas usándolos para encender fuego.",
+   "body": "Tras la Primera Guerra Mundial, Alemania tenía enormes deudas: el gobierno había financiado la guerra con préstamos, y en 1918 debía 156.000 millones de marcos. A eso se sumaron 50.000 millones de marcos en reparaciones de guerra, pagaderas en dinero y en especie, como carbón y madera. El país empezó a imprimir dinero en grandes cantidades.\n\nLa moneda se estabilizó a principios de 1922, pero luego la hiperinflación se disparó: el marco pasó de 320 por dólar a mediados de 1922 a 7400 por dólar en diciembre de ese año. A finales de 1923, un dólar estadounidense equivalía a unos 4,2 billones de marcos. Hay fotografías de niños jugando con fajos de billetes y de personas usándolos para encender fuego.",
+   "deep": "En 1923, ante los retrasos en los pagos, Francia y Bélgica ocuparon el Ruhr, la principal región industrial de Alemania, y el gobierno alemán ordenó una política de resistencia pasiva, lo que agravó la crisis. Muchos alemanes que se consideraban de clase media quedaron en la miseria. Para frenar la hiperinflación se creó una nueva moneda, el Rentenmark, respaldada por bonos hipotecarios, y se prohibió al banco central seguir imprimiendo papel moneda; el responsable fue Hjalmar Schacht, como comisario de la moneda. En 1924 la moneda ya se había estabilizado. Ese mismo año de crisis, en noviembre de 1923, Hitler intentó un golpe de Estado en Múnich, que fracasó.",
    "sources": [
     {
      "t": "Museo Memorial del Holocausto de EE. UU. (USHMM) — The Weimar Republic",
@@ -9923,7 +9964,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -9939,6 +9980,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16636,7 +16681,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Las primeras monedas se acuñaron en Lidia, en la actual Turquía",
    "desc": "Eran de electro, una mezcla natural de oro y plata, hacia el siglo VII a. C.",
-   "body": "Antes de las monedas se usaban metales pesados al peso o el trueque. En el reino de Lidia se empezaron a fabricar piezas con un peso estándar y un sello que garantizaba su valor. Su rey más famoso, Creso, quedó como símbolo de riqueza: «ser más rico que Creso».",
+   "body": "Antes de las monedas se usaban metales pesados al peso o el trueque. Lidia fue una poderosa civilización del oeste de Anatolia, en la actual Turquía, entre los siglos VIII y VI antes de Cristo, con capital en Sardes. Allí se empezaron a fabricar piezas con un peso estándar y un sello que garantizaba su valor. Las monedas lidias, hechas de electro, una aleación natural de oro y plata, están entre las más antiguas que existen, y datan aproximadamente del siglo VII antes de Cristo.\n\nMuchas de ellas llevaban una cabeza de león, probablemente el símbolo del rey. La ceca más productiva de esas primeras monedas fue la de Sardes. Su rey más famoso, Creso, quedó como símbolo de riqueza: «ser más rico que Creso». Según el historiador griego Heródoto, los lidios fueron también los primeros en usar monedas de oro y de plata y en abrir tiendas en lugares fijos.",
+   "deep": "La riqueza de Creso, último rey de Lidia entre el 585 y el 546 antes de Cristo, se atribuía al oro del río Pactolo. Según la leyenda, ese oro lo había dejado allí el rey Midas, que se lavó en sus aguas para librarse de su «toque de oro». Creso expandió el reino, pero fue derrotado por el rey persa Ciro el Grande tras el asedio de Sardes, y en el año 546 antes de Cristo Lidia pasó a ser una provincia del Imperio persa. La gran ventaja de la moneda era práctica: permitía pagar con piezas de valor conocido, garantizado por el sello del rey, sin tener que pesar el metal en cada compra.",
    "sources": [
     {
      "t": "UNESCO — Sardis and the Lydian Tumuli of Bin Tepe",
@@ -16678,7 +16724,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -16694,6 +16740,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16705,7 +16755,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La palabra «dólar» viene de una moneda de plata de Bohemia",
    "desc": "Del «tálero», acuñado en el valle de Joachimsthal desde el siglo XVI.",
-   "body": "Las monedas de plata de Joachimsthal, en la actual República Checa, se llamaron «joachimsthaler» y luego simplemente «thaler». De ahí derivaron nombres en varios idiomas, incluido «dollar» en inglés. Muchas monedas de todo el mundo, como el dólar estadounidense, heredaron el nombre.",
+   "body": "Las monedas de plata acuñadas desde 1520 en Joachimsthal, en Bohemia, en la actual República Checa, se llamaron «joachimsthaler» y luego simplemente «thaler». Eran monedas grandes, de unos 40 milímetros de diámetro y entre 25 y 30 gramos de peso, más o menos una onza de plata. De ahí derivaron nombres en varios idiomas, incluido «dollar» en inglés.\n\nEl thaler se convirtió en la moneda de plata grande de los estados del Sacro Imperio Romano Germánico y de la monarquía de los Habsburgo durante la Edad Moderna. En los Países Bajos surgieron el «daalder», el «rijksdaalder» y el «leeuwendaalder», y en checo se llamó «tolar». Muchas monedas de todo el mundo, como el dólar estadounidense, heredaron el nombre.",
+   "deep": "La moneda más duradera del Sacro Imperio fue el «Reichsthaler», que se emitió en distintas versiones entre 1566 y 1875. En Rusia, algunos joachimsthaler circularon en el siglo XVII con el nombre de «yefimok», una deformación del nombre Joaquín. El nombre «dólar» pasó también a la moneda española de plata de ocho reales, el famoso «dólar español», muy usado en América y en el comercio mundial. Hoy las monedas del tamaño del thaler ya no circulan, pero varias casas de moneda las siguen acuñando para coleccionistas, como el famoso thaler de María Teresa, y el nombre sobrevive en muchas monedas actuales.",
    "sources": [
     {
      "t": "Wikipedia — Thaler",
@@ -16722,7 +16773,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -16734,6 +16785,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16745,7 +16800,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El signo $ probablemente nació del peso hispanoamericano",
    "desc": "Una de las teorías más aceptadas lo deriva de la abreviatura «ps».",
-   "body": "Los pesos españoles circulaban por todo el continente americano y se usaban también en Estados Unidos. Según una explicación muy difundida, los comerciantes abreviaban «pesos» como «ps», y con la escritura rápida la «s» se fue superponiendo a la «p» hasta formar el símbolo $. Hay otras hipótesis, pero esta es de las más aceptadas.",
+   "body": "Los pesos españoles circulaban por todo el continente americano y se usaban también en Estados Unidos. Según una explicación muy difundida, que recoge también la oficina de grabado e impresión de billetes de Estados Unidos, los comerciantes abreviaban «pesos» como «ps», y con la escritura rápida la «s» se fue superponiendo a la «p» hasta formar el símbolo $. El signo ya se usaba mucho antes de que Estados Unidos adoptara el dólar en 1785.\n\nUno de los documentos más citados es una carta de 1778 del comerciante irlandés Oliver Pollock, partidario de la independencia estadounidense, en la que la abreviatura «ps» aparece escrita casi exactamente como el signo de dólar. Hay otras hipótesis, pero esta es de las más aceptadas. Por eso el signo se llama también «signo de peso».",
+   "deep": "Una de las hipótesis alternativas lo relaciona con las columnas de Hércules, el símbolo clásico de los dos lados del estrecho de Gibraltar, con una cinta enrollada en forma de «S». Ese motivo forma parte del escudo de España y aparecía en las monedas de ocho reales que circulaban por América y Europa. Otra propuesta lo vincula con la marca de la ceca de Potosí, donde se extraía gran parte de la plata del Imperio español, que superponía las letras de su nombre. Hoy el signo, con una o dos barras, se usa para monedas llamadas «dólar» o «peso», y aparece en símbolos como el del real brasileño, R$.",
    "sources": [
     {
      "t": "Organismo gubernamental (bep.gov) — FAQs",
@@ -16778,7 +16834,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hipotesis",
@@ -16794,6 +16850,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16805,7 +16865,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La primera empresa en ofrecer acciones al público nació en 1602",
    "desc": "Fue la Compañía Holandesa de las Indias Orientales.",
-   "body": "La Compañía de las Indias Orientales neerlandesa (VOC) permitió que cualquiera comprara participaciones y las negociara. Para ello surgió en Ámsterdam uno de los primeros mercados de valores modernos. La compañía llegó a ser enormemente poderosa, con barcos y ejército propios, y su actividad tuvo también un lado violento y colonial.",
+   "body": "La Compañía Unida de las Indias Orientales neerlandesa, conocida por sus siglas VOC, se fundó el 20 de marzo de 1602, cuando los Estados Generales de los Países Bajos unieron varias compañías comerciales existentes. Recibió un monopolio de 21 años para comerciar en Asia. Fue una de las primeras sociedades anónimas del mundo.\n\nLa VOC permitió que cualquier ciudadano de la República neerlandesa comprara participaciones y las negociara. Esas acciones se compraban y vendían en mercados al aire libre, y uno de ellos se convirtió en la Bolsa de Ámsterdam, uno de los primeros mercados de valores modernos. Los accionistas recibían dividendos y podían vender sus acciones, lo que dio origen al comercio de acciones.",
+   "deep": "La compañía llegó a ser enormemente poderosa: tenía poderes casi de gobierno, como hacer la guerra, encarcelar y ejecutar a condenados, negociar tratados, acuñar su propia moneda y fundar colonias. La dirigía un consejo de diecisiete directores, los «Heeren Seventien», con sede en Ámsterdam. Su actividad tuvo también un lado violento y colonial: su gobernador general Jan Pieterszoon Coen destruyó la ciudad de Jayakarta, donde fundó Batavia, la actual Yakarta, y en 1622 la compañía usó como excusa las violaciones de su monopolio de la nuez moscada para masacrar a habitantes de las islas Banda. Arruinada por las deudas, la VOC fue disuelta en 1799.",
    "sources": [
     {
      "t": "Organismo gubernamental (museum.wa.gov.au) — VOC – United Dutch East India Company",
@@ -16838,7 +16899,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -16854,6 +16915,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16865,7 +16930,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La tarjeta de crédito moderna nació de una cena sin cartera",
    "desc": "Diners Club, fundada en 1950, fue la primera tarjeta de uso general.",
-   "body": "Según la historia de la empresa, Frank McNamara olvidó su cartera en una cena en Nueva York y pensó en una tarjeta para pagar en varios restaurantes. Diners Club comenzó en 1950 como una tarjeta de cartón aceptada en un puñado de locales. El relato de la cena se ha discutido, pero la empresa lo convirtió en leyenda.",
+   "body": "Según la historia de la empresa, en 1949 Frank McNamara estaba cenando con clientes en un restaurante de Nueva York cuando se dio cuenta de que había dejado la cartera en otro traje. Su esposa pagó la cuenta, y a McNamara se le ocurrió una tarjeta de cobro que sirviera en varios lugares, para evitar situaciones así. La empresa bautizó esa comida como «La Primera Cena».\n\nDiners Club se fundó en 1950 por McNamara, Ralph Schneider, Matty Simmons y Alfred Bloomingdale, y comenzó como una tarjeta de cartón aceptada en un puñado de locales. Fue la primera empresa independiente de tarjetas de pago del mundo. El relato de la cena se ha discutido: las versiones difieren sobre si fue un almuerzo o una cena, y sobre cómo se pagó, pero la empresa lo convirtió en leyenda.",
+   "deep": "El éxito fue rápido: a finales de 1950 tenía 20.000 socios, y a finales de 1951, 42.000. La empresa cobraba a los restaurantes y comercios un 7 % de cada compra y a los titulares 5 dólares al año. En 1952, McNamara vendió su parte a sus socios por 200.000 dólares. La primera tarjeta de plástico de Diners Club llegó en 1961. Muchos historiadores consideran aquella idea el comienzo del crédito moderno. Con los años, la empresa pasó por varias manos: Citibank la compró en 1981, la vendió a Discover en 2008, y Capital One adquirió Discover en 2025. Hoy se acepta en más de 200 países y territorios.",
    "sources": [
     {
      "t": "Wikipedia — Diners Club International",
@@ -16882,7 +16948,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -16894,6 +16960,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16905,7 +16975,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Adam Smith apenas usó la famosa expresión «mano invisible»",
    "desc": "Aparece solo una vez en La riqueza de las naciones.",
-   "body": "Hoy la «mano invisible» se asocia al libre mercado, pero Smith solo la mencionó una vez en su obra más famosa de 1776, y en contextos muy concretos en otros escritos. Gran parte de su significado actual se lo dieron economistas posteriores. Smith también escribió extensamente sobre moral y empatía.",
+   "body": "Hoy la «mano invisible» se asocia al libre mercado, pero el economista y filósofo escocés Adam Smith solo la mencionó una vez en su obra más famosa, «La riqueza de las naciones», de 1776, y en contextos muy concretos en otros escritos. En ese pasaje, Smith explica que quien invierte en la industria de su propio país busca su propio beneficio, pero sin proponérselo contribuye al bien de la sociedad.\n\nLa usó también una vez en su «Teoría de los sentimientos morales», de 1759, al hablar de un terrateniente egoísta que, guiado por una mano invisible, termina repartiendo su cosecha entre quienes trabajan para él. Curiosamente, Smith siempre habla de «una» mano invisible, nunca de «la» mano invisible. Gran parte de su significado actual se lo dieron economistas posteriores.",
+   "deep": "Fueron sobre todo economistas del siglo XX, en especial Paul Samuelson, quienes popularizaron la expresión para referirse a una idea mucho más amplia y abstracta: que los mercados realmente libres se regulan solos y siempre tienden a resultados óptimos que el gobierno no puede mejorar. Eso va mucho más allá de la intención original de Smith. En otro de sus escritos, sobre la historia de la astronomía, Smith incluso usa la expresión para describir la forma poco científica en que la gente supersticiosa explica fenómenos naturales extraños, atribuyéndolos a actos de dioses, demonios o brujas, como si una mano invisible los moviera. Smith también escribió extensamente sobre moral y empatía.",
    "sources": [
     {
      "t": "The Review of Austrian Economics — Adam Smith’s liberalism",
@@ -16930,7 +17001,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -16946,6 +17017,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16957,7 +17032,8 @@ window.SQ_CONTENT = {
    "level": 3,
    "title": "Hay productos que se venden más cuando suben de precio",
    "desc": "Se llaman bienes de Veblen: su precio alto los convierte en símbolo de estatus.",
-   "body": "El economista Thorstein Veblen describió el «consumo ostentoso»: comprar cosas caras para mostrar riqueza. En artículos de lujo, como ciertos relojes o bolsos, un precio más bajo puede hacerlos menos deseables. Es una excepción a la regla general de que la demanda baja cuando sube el precio.",
+   "body": "El economista estadounidense Thorstein Veblen describió el «consumo ostentoso»: comprar cosas caras para mostrar riqueza y estatus, una forma de no quedarse atrás frente a los vecinos. Lo hizo en su libro «Teoría de la clase ociosa», de 1899. En artículos de lujo, como ciertos relojes o bolsos, un precio más bajo puede hacerlos menos deseables.\n\nSe llaman «bienes Veblen» los artículos de lujo cuya demanda aumenta cuando sube su precio, lo que parece contradecir la ley de la demanda. Su precio alto los convierte en símbolo de estatus. Un producto puede ser un bien Veblen porque es un «bien posicional»: algo que pocas personas pueden tener. Es una excepción a la regla general de que la demanda baja cuando sube el precio.",
+   "deep": "El economista Harvey Leibenstein formalizó en 1950 el llamado «efecto Veblen», junto a otros efectos parecidos, como el «efecto esnob», el deseo de tener lo que otros no tienen, en un artículo sobre la teoría de la demanda del consumidor. No hay que confundir los bienes Veblen con los «bienes Giffen», que también se compran más cuando sube su precio, pero por otra razón: no por prestigio, sino por la combinación del efecto renta y el efecto sustitución que provoca el cambio de precio, sin que cambien los gustos del consumidor. Además de bienes, Veblen habló también de «ocio ostentoso»: mostrar riqueza a través del tiempo libre.",
    "sources": [
     {
      "t": "Springer Nature Link — Veblen Goods",
@@ -16998,7 +17074,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -17014,6 +17090,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -21930,7 +22010,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El banco en funcionamiento más antiguo del mundo se fundó en 1472",
    "desc": "Es la Banca Monte dei Paschi di Siena, en Italia.",
-   "body": "Nació como un «monte de piedad», una institución para conceder préstamos a personas necesitadas y combatir la usura. Ha funcionado de forma continua durante más de cinco siglos, aunque en las últimas décadas ha atravesado graves crisis.",
+   "body": "Banca Monte dei Paschi di Siena, en Italia, se considera el banco más antiguo del mundo. Su historia se remonta a un «monte de piedad» fundado en 1472 en la ciudad de Siena: una institución para conceder préstamos a personas necesitadas y combatir la usura. Adquirió su forma actual en 1624.\n\nHa funcionado de forma continua durante más de cinco siglos, aunque en las últimas décadas ha atravesado graves crisis. En 1995 dejó de ser una entidad de derecho público y se convirtió en una sociedad anónima. Para continuar sus funciones benéficas se creó la Fundación Monte dei Paschi di Siena, que fue su principal accionista hasta el rescate de 2013.",
+   "deep": "Entre 2016 y 2017, el banco luchó por evitar la quiebra, y en julio de 2017 el gobierno italiano lo rescató de nuevo. Aun así, sobrevivió: en 2020 tenía unas 1400 sucursales, 21.000 empleados y 3,9 millones de clientes en Italia, además de negocios en el extranjero. En 2025 compró el banco Mediobanca y se convirtió en el tercer banco más grande de Italia. Que una institución nacida para ayudar a los pobres de una ciudad medieval siga funcionando como un gran banco más de cinco siglos después la convierte en una rareza en la historia financiera.",
    "sources": [
     {
      "t": "Wikipedia — Banca Monte dei Paschi di Siena",
@@ -21955,7 +22036,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -21967,6 +22048,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -21978,7 +22063,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La Gran Depresión empezó con un desplome de la bolsa en 1929",
    "desc": "El «crac del 29» comenzó en Wall Street en octubre.",
-   "body": "En pocos días de octubre de 1929, el valor de las acciones en la Bolsa de Nueva York se desplomó. La caída marcó el inicio de la Gran Depresión, la peor crisis económica del siglo XX, con desempleo masivo en muchos países durante la década de 1930.",
+   "body": "Durante los «felices años veinte», en Estados Unidos, mucha gente invirtió en la bolsa, a menudo con dinero prestado. El índice Dow Jones se multiplicó por diez y alcanzó su máximo, 381,17 puntos, el 3 de septiembre de 1929. Poco antes del desplome, el economista Irving Fisher afirmó que las acciones habían alcanzado lo que parecía «una meseta permanentemente alta».\n\nEn pocos días de octubre de 1929, el valor de las acciones en la Bolsa de Nueva York se desplomó. El 24 de octubre, el «jueves negro», se negociaron 12,9 millones de acciones, una cifra récord, y el 29 de octubre, el «martes negro», unos 16 millones. En solo dos días, el Dow perdió un 23 % de su valor, y se esfumaron unos 14.000 millones de dólares, lo que arruinó a miles de inversores.",
+   "deep": "La caída minó rápidamente la confianza en el sistema bancario de Estados Unidos y marcó el inicio de la Gran Depresión, la peor crisis económica del siglo XX, con desempleo masivo en muchos países durante la década de 1930. Muchos inversores habían comprado acciones pagando solo una parte y pidiendo prestado el resto; las propias acciones servían de garantía para nuevos préstamos, y cuando los precios cayeron, tuvieron que vender a toda prisa. En el peor momento del pánico, algunas acciones no encontraban comprador a ningún precio. La depresión duró, según algunos análisis, hasta que Estados Unidos entró en la Segunda Guerra Mundial, en diciembre de 1941.",
    "sources": [
     {
      "t": "Journal of the History of Economic Thought — CASSEL, OHLIN, ÅKERMAN, AND THE WALL STREET CRASH OF 1929",
@@ -22011,7 +22097,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -22027,6 +22113,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22038,7 +22128,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Los puentes de los billetes de euro no existen",
    "desc": "Representan estilos arquitectónicos europeos, no edificios reales de ningún país.",
-   "body": "Para no favorecer a ningún país, los billetes de euro muestran ventanas, puertas y puentes que ilustran estilos de distintas épocas, como el románico, el gótico o el barroco. Curiosamente, la ciudad neerlandesa de Spijkenisse construyó después réplicas reales de esos puentes.",
+   "body": "Los billetes de euro circulan desde 2002, y a diferencia de las monedas, su diseño es idéntico en toda la zona euro. Para no favorecer a ningún país, muestran ventanas o puertas en el anverso y puentes en el reverso, que ilustran estilos de distintas épocas: clásico, románico, gótico, renacentista, barroco y rococó, art nouveau y arquitectura moderna. No representan edificios reales, sino ilustraciones estilizadas de cada estilo.\n\nLos diseños del austriaco Robert Kalina, del Banco Nacional de Austria, fueron elegidos en 1996. Sus primeros bocetos sí mostraban puentes reales, como el de Rialto, en Venecia, o el de Neuilly, en París, pero después se hicieron más genéricos. Curiosamente, en 2011 el artista neerlandés Robin Stam y la ciudad de Spijkenisse, en los Países Bajos, construyeron siete puentes reales de hormigón de colores copiando los de los siete billetes.",
+   "deep": "Existen siete valores de billetes: 5, 10, 20, 50, 100, 200 y 500 euros, y cada uno corresponde a un estilo: el de 5 al clásico, el de 10 al románico, el de 20 al gótico, el de 50 al Renacimiento, el de 100 al barroco y rococó, el de 200 al art nouveau y el de 500 a la arquitectura moderna. Están hechos de fibra de algodón puro, que los hace más duraderos y les da un tacto especial. La segunda serie, llamada Europa, ya no incluye el billete de 500 euros: el Banco Central Europeo decidió dejar de fabricarlo por temor a que facilitara actividades ilícitas. Los billetes llevan la firma del presidente del Banco Central Europeo.",
    "sources": [
     {
      "t": "Wikipedia — Euro banknotes",
@@ -22063,7 +22154,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -22075,6 +22166,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
