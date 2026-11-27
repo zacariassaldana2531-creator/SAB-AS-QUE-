@@ -2819,7 +2819,8 @@ window.SQ_CONTENT = {
    "sub": "Cronologías sorprendentes",
    "title": "La Universidad de Oxford es más antigua que el Imperio azteca",
    "desc": "En Oxford ya se enseñaba hacia 1096. Tenochtitlan se fundó en 1325.",
-   "body": "No hay una fecha exacta de fundación de Oxford, pero hay evidencia de enseñanza allí desde 1096. Tenochtitlan, la capital de los mexicas o aztecas, se fundó en 1325, y su imperio alcanzó su máximo poder en el siglo XV. Es decir, cuando nació la gran capital azteca, Oxford ya llevaba más de dos siglos funcionando.",
+   "body": "No hay una fecha exacta de fundación de la Universidad de Oxford, en Inglaterra, pero hay evidencia de enseñanza allí desde 1096. Es la universidad más antigua del mundo de habla inglesa y la segunda más antigua del mundo que sigue funcionando sin interrupción. Tenochtitlan, la capital de los mexicas o aztecas, se fundó en 1325, y su imperio alcanzó su máximo poder en el siglo XV.\n\nEs decir, cuando nació la gran capital azteca, Oxford ya llevaba más de dos siglos funcionando. Tenochtitlan se construyó sobre una isla del lago de Texcoco, en el valle de México, y llegó a ser la ciudad más grande de la América precolombina. En 1521 fue conquistada por los españoles y sus aliados tlaxcaltecas, y sobre ella se levantó la actual Ciudad de México.",
+   "deep": "Oxford creció rápidamente a partir de 1167, cuando el rey Enrique II de Inglaterra, en medio de tensiones con Francia, prohibió a los estudiantes ingleses asistir a la Universidad de París. Los conflictos entre estudiantes y vecinos de la ciudad fueron frecuentes, y tras uno de ellos algunos profesores huyeron al noreste y fundaron en 1209 la Universidad de Cambridge, su gran rival desde entonces. La comparación con los aztecas es llamativa porque solemos imaginar a las civilizaciones antiguas de América como mucho más remotas en el tiempo de lo que realmente fueron.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — University of Oxford",
@@ -2869,7 +2870,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -2885,6 +2886,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4759,7 +4764,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Australia le declaró la guerra a los emús… y perdió",
    "desc": "En 1932, soldados con ametralladoras intentaron frenar a miles de emús que arrasaban cultivos.",
-   "body": "Tras la Primera Guerra Mundial, muchos veteranos se dedicaron a la agricultura en Australia Occidental. En 1932, unos 20.000 emús invadieron sus campos. El gobierno envió soldados con ametralladoras, pero las aves se dispersaban y corrían demasiado rápido. Tras semanas de intentos con pocos resultados, la operación se retiró. La prensa la recuerda como «la Gran Guerra del Emú».",
+   "body": "Tras la Primera Guerra Mundial, el gobierno australiano entregó tierras a muchos veteranos para que se dedicaran a la agricultura en Australia Occidental, a menudo en zonas poco fértiles. En 1932, unos 20.000 emús invadieron sus campos de trigo, se comían las cosechas y rompían las cercas. Los agricultores pidieron ayuda, y el gobierno envió soldados con ametralladoras.\n\nLa operación la dirigió el mayor Meredith, de la artillería real australiana, con dos soldados, dos ametralladoras Lewis y 10.000 balas. Pero las aves se dispersaban en pequeños grupos y corrían demasiado rápido. En una emboscada junto a una represa, más de mil emús se acercaron, pero la ametralladora se atascó después de matar solo a doce. Tras semanas de intentos con pocos resultados, la operación se retiró. La prensa la recuerda como «la Gran Guerra del Emú».",
+   "deep": "Los emús resultaron sorprendentemente difíciles de matar: el propio comandante australiano los comparó con «tanques». En el parlamento se discutió la operación, y la prensa se burló de ella. Los agricultores volvieron a pedir ayuda militar en 1934, 1943 y 1948, pero el gobierno la rechazó. En su lugar se mantuvo un sistema de recompensas por cada emú abatido, que ya existía desde 1923 y que resultó mucho más eficaz: en pocos años se cobraron 57.034 recompensas. Más tarde se usaron también cercas para proteger los cultivos.",
    "sources": [
     {
      "t": "Wikipedia — Emu War",
@@ -4776,7 +4782,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -4788,6 +4794,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4799,7 +4809,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La Guerra de los Cien Años duró 116 años",
    "desc": "Enfrentó a Inglaterra y Francia entre 1337 y 1453, con largas treguas de por medio.",
-   "body": "No fue una guerra continua, sino una serie de conflictos y treguas por el trono de Francia. Comenzó en 1337 y terminó en 1453. En ella se hizo famosa Juana de Arco, y al final Inglaterra perdió casi todas sus posesiones en Francia. El nombre «de los Cien Años» se lo dieron historiadores siglos después.",
+   "body": "La Guerra de los Cien Años no fue una guerra continua, sino una serie de conflictos y treguas entre los reinos de Inglaterra y Francia, a finales de la Edad Media, por el trono francés. Comenzó en 1337 y terminó en 1453: duró 116 años. El nombre «de los Cien Años» no se usó en la época: se lo dieron historiadores siglos después.\n\nSu origen fueron disputas feudales por el ducado de Aquitania, en el suroeste de Francia, y la chispa fue la reclamación del trono francés por parte del rey Eduardo III de Inglaterra. Los ingleses lograron grandes victorias, como la de Azincourt en 1415. Pero entonces apareció Juana de Arco, que levantó la moral francesa y ayudó a romper el asedio de Orleans. Al final, Inglaterra perdió casi todas sus posesiones en Francia.",
+   "deep": "Las batallas de Patay, en 1429, Formigny, en 1450, y Castillon, en 1453, fueron decisivas para el final de la guerra, que terminó con la victoria de la dinastía francesa de los Valois. Inglaterra conservó en el continente solo la zona de Calais. Además de un conflicto entre dos reinos, fue también una guerra civil dentro de Francia, entre los armañacs y los borgoñones, que en algunos momentos se aliaron con los ingleses. Por la cantidad de enfrentamientos, treguas y reinados que abarcó, se considera el conflicto militar más largo de la historia europea.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Hundred Years' War",
@@ -4833,7 +4844,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -4849,6 +4860,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4860,7 +4875,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Un soldado japonés siguió en guerra 29 años después de que terminara",
    "desc": "Hiroo Onoda permaneció en la selva filipina hasta 1974 porque nadie lo relevó de sus órdenes.",
-   "body": "Onoda fue enviado en 1944 a la isla de Lubang con la orden de no rendirse. Cuando la guerra terminó en 1945, creyó que los avisos eran propaganda enemiga. Solo depuso las armas en 1974, cuando su antiguo comandante viajó a Filipinas para ordenárselo en persona.",
+   "body": "Hiroo Onoda, nacido en 1922, era subteniente del ejército imperial japonés. En 1944 fue enviado a la isla filipina de Lubang con la orden de no rendirse. Cuando la guerra terminó en 1945, creyó que los avisos y folletos que anunciaban el fin eran propaganda enemiga. Se escondió en las montañas de la isla con otros tres soldados, que con los años murieron o se rindieron.\n\nEl último de sus compañeros, Kinshichi Kozuka, murió en 1972, y Onoda quedó solo. En febrero de 1974 lo encontró en la selva Norio Suzuki, un joven aventurero japonés, pero aun así se negó a rendirse hasta que lo relevara del servicio su antiguo oficial al mando. Suzuki volvió a Japón y regresó con el mayor Yoshimi Taniguchi, que el 9 de marzo le dio formalmente la orden de dejar las armas. Solo entonces se rindió, casi 29 años después del fin de la guerra.",
+   "deep": "Durante sus años escondido, Onoda y sus compañeros atacaron y mataron a civiles de la isla, creyendo que seguían en guerra. Aun así, el presidente filipino Ferdinand Marcos le concedió el perdón en una ceremonia oficial de rendición en Manila. En Japón fue recibido como un héroe. Escribió una autobiografía y después se mudó a Brasil, donde se dedicó a la cría de ganado. Murió en Japón en 2014, a los 91 años.",
    "sources": [
     {
      "t": "Wikipedia — Hiroo Onoda",
@@ -4877,7 +4893,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -4889,6 +4905,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4900,7 +4920,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En la antigua Roma se cobraba un impuesto a la orina",
    "desc": "La orina se recolectaba y se usaba, entre otras cosas, para lavar ropa.",
-   "body": "La orina contiene amoníaco, útil para limpiar y curtir. Los romanos la recogían de letrinas públicas y la vendían a lavanderías y curtidores. El emperador Vespasiano le puso un impuesto. Cuando su hijo Tito se quejó, según el historiador Suetonio, le acercó una moneda y le dijo que no olía: de ahí la frase latina «pecunia non olet», el dinero no huele.",
+   "body": "La orina contiene amoníaco, útil para limpiar y curtir. En la antigua Roma se recogía en letrinas públicas y se vendía como ingrediente para varios procesos: se usaba para curtir pieles, en la producción de lana y en las lavanderías, que la empleaban para limpiar y blanquear las togas de lana. Quienes la compraban pagaban un impuesto.\n\nEl emperador Vespasiano estableció ese impuesto. Según el historiador romano Suetonio, cuando su hijo Tito se quejó de lo desagradable que era, Vespasiano le acercó una moneda de oro y le preguntó si le molestaba su olor. Cuando Tito respondió que no, su padre le recordó que ese dinero venía de la orina. De ahí la frase latina «pecunia non olet», el dinero no huele.",
+   "deep": "La expresión sigue usándose hoy para decir que el dinero vale lo mismo sin importar su origen, a menudo con un tono crítico. El nombre del emperador también sobrevivió de una forma curiosa: en Italia, a los urinarios públicos se les llama «vespasiani», y en Francia, «vespasiennes». Vespasiano gobernó entre los años 69 y 79 y fue también quien empezó a construir el Coliseo, aunque murió antes de verlo terminado: lo inauguró su hijo Tito, el mismo que se había quejado del impuesto.",
    "sources": [
     {
      "t": "Universidad (penelope.uchicago.edu) — Suetonius • Life of Vespasian",
@@ -4925,7 +4946,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -4941,6 +4962,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4952,7 +4977,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Francia usó la guillotina por última vez en 1977",
    "desc": "El mismo año en que se estrenó la primera película de La guerra de las galaxias.",
-   "body": "La guillotina se asocia con la Revolución francesa, pero siguió siendo el método de ejecución en Francia hasta mucho después. La última vez fue en septiembre de 1977, con Hamida Djandoubi. Francia abolió la pena de muerte en 1981.",
+   "body": "La guillotina se asocia con la Revolución francesa, pero siguió siendo el método de ejecución en Francia hasta mucho después. La primera persona ejecutada con guillotina en Francia fue Nicolas Jacques Pelletier, en 1792. La última fue Hamida Djandoubi, en septiembre de 1977, casi dos siglos después.\n\nDjandoubi, nacido en Túnez en 1949, vivía en Marsella. Fue condenado por el secuestro, la tortura y el asesinato de una joven de 21 años, y fue guillotinado el 10 de septiembre de 1977. Fue la última persona ejecutada en Francia antes de la abolición de la pena de muerte, y también la última ejecutada legalmente por decapitación en todo el mundo occidental.",
+   "deep": "Francia abolió la pena de muerte el 9 de octubre de 1981. Djandoubi no fue el último condenado a muerte: después de él, otros acusados recibieron esa sentencia, pero ninguno llegó a ser ejecutado antes de la abolición. Que la guillotina se usara hasta 1977 sorprende porque la asociamos con la Europa del siglo XVIII, pero entre la primera ejecución con guillotina en Francia, en 1792, y la última, en 1977, pasaron 185 años.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Guillotine",
@@ -4978,7 +5004,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -4994,6 +5020,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5005,7 +5035,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En 1582, del 4 de octubre se pasó directamente al 15",
    "desc": "Se saltaron 10 días para corregir el desfase del calendario juliano.",
-   "body": "El calendario juliano, usado desde la época de Julio César, se adelantaba un poco cada año respecto a las estaciones. El papa Gregorio XIII promulgó un nuevo calendario, el gregoriano, y para corregir el error acumulado se eliminaron diez días: tras el jueves 4 de octubre de 1582 vino el viernes 15. Muchos países lo adoptaron siglos más tarde.",
+   "body": "El calendario juliano, usado desde la época de Julio César, se adelantaba un poco cada año respecto a las estaciones, porque su año era algo más largo que el año solar. Con los siglos, el error se acumuló y las fechas de fiestas como la Pascua se fueron desplazando. Para corregirlo, el papa Gregorio XIII promulgó en 1582, mediante la bula «Inter gravissimas», un nuevo calendario: el gregoriano.\n\nPara recuperar el error acumulado se eliminaron diez días de golpe: tras el jueves 4 de octubre de 1582 vino directamente el viernes 15. Además, se cambió la regla de los años bisiestos para que el desfase no volviera a producirse. El cambio afectó primero a gran parte de la Europa católica: el rey Felipe II de España, que gobernaba muchos territorios, lo decretó en sus dominios.",
+   "deep": "Muchos países lo adoptaron siglos más tarde, sobre todo los protestantes y los ortodoxos. El Imperio británico, incluidas las colonias de lo que hoy es el este de Estados Unidos, lo adoptó en 1752, y Suecia en 1753. Grecia fue el último país europeo en adoptarlo para uso civil, en 1923. Durante siglos convivieron dos calendarios distintos, y por eso las fechas históricas a veces se dan en los dos estilos. Hoy el calendario gregoriano es el estándar internacional para uso civil.",
    "sources": [
     {
      "t": "NASA (Goddard Space Flight Center) — Calendars and their History",
@@ -5030,7 +5061,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -5046,6 +5077,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -11943,7 +11978,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El Imperio mongol fue el mayor imperio de territorio continuo de la historia",
    "desc": "En el siglo XIII se extendía desde Asia oriental hasta Europa del Este.",
-   "body": "Fundado por Gengis Kan a comienzos del siglo XIII, el imperio creció rápidamente gracias a su caballería y organización. En su apogeo abarcaba desde Corea hasta Hungría. Facilitó el comercio por la Ruta de la Seda, aunque sus conquistas también causaron enorme destrucción.",
+   "body": "El Imperio mongol fue el mayor imperio de territorio continuo de la historia. Nació de la unificación de varias tribus nómadas bajo el liderazgo de Temuyín, conocido por su título de Gengis Kan, a quien una asamblea proclamó soberano de todos los mongoles en 1206. El imperio creció rápidamente gracias a su caballería y a su organización. En su apogeo abarcaba desde Corea hasta Hungría.\n\nEl imperio unió Oriente y Occidente, del Pacífico al Mediterráneo, en un periodo de estabilidad conocido como la «Pax Mongolica», que facilitó el intercambio de comercio, tecnologías, mercancías e ideas por toda Eurasia, incluida la Ruta de la Seda. Pero sus conquistas también causaron una enorme destrucción. Para comunicarse en un territorio tan grande crearon un eficaz sistema de correo, el «Yam», con postas de relevo donde los mensajeros cambiaban de caballo.",
+   "deep": "El imperio empezó a dividirse por guerras de sucesión, cuando los nietos de Gengis Kan discutieron qué rama de la familia debía gobernar. Terminó fragmentado en cuatro grandes estados: la Horda de Oro al noroeste, el Kanato de Chagatai en Asia Central, el Iljanato en Irán y la dinastía Yuan en China, con capital en la actual Pekín. La peste negra, que comenzó en territorios mongoles y se extendió a Europa, aumentó el desorden. Siglos después, el viaje de Cristóbal Colón buscaba llegar a Catay, la tierra del Gran Kan en China.",
    "sources": [
     {
      "t": "Wikipedia — Mongol Empire",
@@ -11960,7 +11996,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -11972,6 +12008,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -11983,7 +12023,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El Muro de Berlín duró 28 años",
    "desc": "Se levantó en 1961 y cayó el 9 de noviembre de 1989.",
-   "body": "La Alemania oriental construyó el muro para impedir que sus ciudadanos huyeran hacia Berlín Occidental. Dividió familias durante casi tres décadas. Su caída, tras un anuncio confuso de las autoridades que hizo que miles de personas acudieran a los pasos fronterizos, se convirtió en el símbolo del fin de la Guerra Fría.",
+   "body": "El 13 de agosto de 1961, el gobierno de la Alemania oriental empezó a construir un muro que rodeaba Berlín Occidental, para impedir que sus ciudadanos huyeran hacia el Oeste: antes de su construcción, cientos de miles de personas lo habían hecho. Además de muros de hormigón y torres de vigilancia, tenía una franja intermedia conocida como la «franja de la muerte», con zanjas, camas de clavos y otras defensas.\n\nDividió familias durante casi tres décadas. Más de 100.000 personas intentaron escapar y más de 5000 lo lograron; las cifras de muertos a manos de las autoridades de la Alemania oriental van de 136 a más de 200. El 9 de noviembre de 1989, el portavoz Günter Schabowski anunció por error que los nuevos permisos de viaje entraban en vigor de inmediato, y miles de personas acudieron a los pasos fronterizos.",
+   "deep": "Ante la multitud, los guardias terminaron abriendo los pasos, y esa noche los berlineses cruzaron y se subieron al muro para celebrarlo. La caída del Muro de Berlín se convirtió en el símbolo del fin de la Guerra Fría y abrió el camino a la reunificación de Alemania, que se formalizó el 3 de octubre de 1990. La demolición completa empezó en junio de 1990 y terminó en 1994. Hoy quedan algunos tramos conservados, como el Memorial del Muro de Berlín, en la calle Bernauer, que recuerda a las víctimas y explica la historia de la división.",
    "sources": [
     {
      "t": "Fundación Muro de Berlín — Memorial de Bernauer Straße — Berlin Wall Memorial",
@@ -12008,7 +12049,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12024,6 +12065,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12035,7 +12080,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Tutankamón se hizo famoso porque su tumba estaba casi intacta",
    "desc": "Howard Carter la descubrió en 1922 en el Valle de los Reyes.",
-   "body": "Tutankamón fue un faraón joven y de reinado breve. A diferencia de otras tumbas reales, saqueadas en la Antigüedad, la suya conservaba la mayor parte de su tesoro, incluida su famosa máscara funeraria de oro. El hallazgo causó sensación mundial y alimentó leyendas como la de la «maldición del faraón», que no tiene base científica.",
+   "body": "Tutankamón fue un faraón de la dinastía XVIII del antiguo Egipto que reinó aproximadamente entre 1332 y 1323 antes de Cristo y murió con unos 19 años. Nació en el reinado de Akenatón, el faraón que había impuesto el culto a un solo dios, y durante su gobierno se restauró la religión tradicional egipcia. Su reinado fue breve y no especialmente importante.\n\nLo que lo hizo famoso fue su tumba. A diferencia de otras tumbas reales, saqueadas en la Antigüedad, la suya conservaba la mayor parte de su contenido, incluida su famosa máscara funeraria de oro. La descubrió en noviembre de 1922, en el Valle de los Reyes, un equipo formado sobre todo por excavadores egipcios y dirigido por Howard Carter, con el financiamiento de Lord Carnarvon. El hallazgo causó sensación mundial.",
+   "deep": "La excavación también tuvo un lado oscuro: según investigadores, el equipo de Carter dañó la momia al separarla del ataúd, usando cuchillos calientes, hasta decapitarla y desmembrarla, y luego lo ocultó. La muerte de algunas personas relacionadas con la excavación alimentó la leyenda de la «maldición del faraón», que no tiene base científica. Catalogar todos los objetos de la tumba, conocida como KV62, llevó una década. Desde entonces, al faraón se le conoce popularmente como «el rey Tut».",
    "sources": [
     {
      "t": "Publicación académica (DOI) (doi.org) — Tutankhamun was decapitated 100 years ago – why the excavation is a great shame instead of a triumph",
@@ -12068,7 +12114,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12084,6 +12130,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12095,7 +12145,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Un documento de 1215 limitó por primera vez el poder de un rey inglés",
    "desc": "La Carta Magna obligó al rey Juan a aceptar que también estaba sujeto a la ley.",
-   "body": "Los barones ingleses, hartos de los abusos del rey Juan, lo obligaron a sellar la Carta Magna en 1215. Aunque muchas de sus cláusulas trataban asuntos feudales, estableció la idea de que nadie, ni siquiera el rey, está por encima de la ley. Inspiró documentos posteriores sobre derechos.",
+   "body": "Los barones ingleses, hartos de los abusos del rey Juan, lo obligaron a sellar la Carta Magna el 15 de junio de 1215 en Runnymede, cerca de Windsor. Su nombre, en latín medieval, significa «Gran Carta». La redactó en primera versión el arzobispo de Canterbury, Stephen Langton, para hacer la paz entre el rey impopular y un grupo de barones rebeldes.\n\nPrometía proteger los derechos de la Iglesia, proteger a los barones de encarcelamientos ilegales y limitar los pagos feudales a la Corona. Aunque muchas de sus cláusulas trataban asuntos feudales, estableció la idea de que nadie, ni siquiera el rey, está por encima de la ley. Pero ninguna de las partes cumplió lo pactado, y el papa Inocencio III la anuló, lo que llevó a la Primera Guerra de los Barones.",
+   "deep": "Tras la muerte de Juan, el gobierno de su hijo Enrique III la volvió a emitir varias veces, y en 1225 lo hizo a cambio de nuevos impuestos. En 1297 su nieto Eduardo I la confirmó como parte de la ley inglesa. Con los siglos inspiró documentos posteriores sobre derechos, como la Constitución de Estados Unidos, y principios como el debido proceso y el juicio con jurado. Hoy se conservan cuatro copias originales de 1215: dos en la Biblioteca Británica, una en el castillo de Lincoln y otra en la catedral de Salisbury.",
    "sources": [
     {
      "t": "Biblioteca del Congreso de EE. UU. — Magna Carta: Muse and Mentor",
@@ -12128,7 +12179,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12144,6 +12195,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12155,7 +12210,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Haití fue el primer país fundado por personas que habían sido esclavizadas",
    "desc": "Declaró su independencia en 1804 tras la única revuelta de esclavizados que creó un Estado.",
-   "body": "La Revolución haitiana comenzó en 1791 en la colonia francesa de Saint-Domingue, en la parte occidental de La Española. Liderada por figuras como Toussaint Louverture y Jean-Jacques Dessalines, derrotó a las tropas francesas. Haití fue la segunda república independiente de América, después de Estados Unidos.",
+   "body": "La Revolución haitiana fue una insurrección armada de africanos esclavizados contra el dominio colonial francés en Saint-Domingue, la parte occidental de la isla de La Española. Comenzó en agosto de 1791 tras una ceremonia religiosa en Bois Caïman, y en pocos días los rebeldes tomaron el control de toda la provincia del Norte. Su figura más destacada fue Toussaint Louverture, un antiguo esclavo que llegó a ser general.\n\nNapoleón envió una gran expedición militar, al mando de su cuñado el general Leclerc, para recuperar el control de la colonia. Louverture fue capturado, pero la lucha continuó bajo Jean-Jacques Dessalines. La última gran batalla, la de Vertières, ocurrió el 18 de noviembre de 1803 cerca de Cap-Haïtien, y las tropas francesas fueron derrotadas. El 1 de enero de 1804, Dessalines declaró la independencia de Haití.",
+   "deep": "Haití fue la segunda república independiente de América, después de Estados Unidos, y el primer país fundado por personas que habían sido esclavizadas. La revolución abolió la esclavitud en la antigua colonia, y los antiguos esclavos defendieron con éxito tanto su libertad como su independencia frente a las potencias europeas. Su impacto se sintió en todo el continente. El historiador C. L. R. James la estudió en su célebre libro «Los jacobinos negros», que compara su importancia con la de la propia Revolución francesa.",
    "sources": [
     {
      "t": "Instituto Mora (México) — C.L.R. James. Los jacobinos negros. Toussaint L'Ouverture y la revolución de Haití",
@@ -12180,7 +12236,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12196,6 +12252,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12207,7 +12267,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La independencia dominicana se proclamó el 27 de febrero de 1844",
    "desc": "Se separó de Haití tras 22 años de unificación de la isla.",
-   "body": "Desde 1822, toda la isla estaba bajo gobierno haitiano. La sociedad secreta La Trinitaria, fundada por Juan Pablo Duarte, organizó el movimiento independentista. La noche del 27 de febrero de 1844, en la Puerta del Conde de Santo Domingo, se proclamó la República Dominicana. Duarte, Francisco del Rosario Sánchez y Matías Ramón Mella son considerados los padres de la patria.",
+   "body": "Desde 1822, toda la isla de La Española estaba bajo gobierno haitiano: ese año el presidente de Haití, Jean-Pierre Boyer, entró en Santo Domingo con unos 10.000 soldados, poco después de que los criollos se independizaran de España. En 1838, el joven nacionalista Juan Pablo Duarte fundó la sociedad secreta La Trinitaria junto a Ramón Matías Mella y Francisco del Rosario Sánchez.\n\nSe llamó así porque sus nueve miembros originales se organizaban en células de tres, que reclutaban por separado para mantener el secreto. La noche del 27 de febrero de 1844, en la Puerta del Conde de Santo Domingo, se proclamó la República Dominicana. Duarte, Sánchez y Mella son considerados los padres de la patria. Ese día comenzó la Guerra de Independencia Dominicana.",
+   "deep": "En marzo de 1844, tropas haitianas invadieron el nuevo país, y los dominicanos lucharon con piedras, cuchillos, machetes, lanzas y fusiles. El general Pedro Santana dirigió varias de las victorias. Hubo nuevas invasiones en los años siguientes, y la guerra terminó en enero de 1856. Años después, la República volvió a perder su soberanía cuando fue anexionada a España, y la recuperó con la Guerra de la Restauración: España retiró sus tropas en 1865. Por eso el país recuerda dos grandes gestas patrias: la Independencia de 1844 y la Restauración.",
    "sources": [
     {
      "t": "Wikipedia — Dominican War of Independence",
@@ -12232,7 +12293,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -12244,6 +12305,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12301,7 +12366,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El Coliseo podía recibir a decenas de miles de espectadores",
    "desc": "Se calcula que albergaba entre 50.000 y 80.000 personas.",
-   "body": "El Anfiteatro Flavio, conocido como Coliseo, se inauguró en el año 80 bajo el emperador Tito. Allí se celebraban combates de gladiadores, cacerías de animales y espectáculos públicos. Tenía un sistema de toldos para dar sombra al público y pasadizos subterráneos para preparar los espectáculos.",
+   "body": "El Anfiteatro Flavio, conocido como Coliseo, es el mayor anfiteatro antiguo jamás construido y el más grande que sigue en pie. Su construcción comenzó bajo el emperador Vespasiano en el año 72 y terminó en el año 80 bajo su hijo Tito. Se construyó con travertino, hormigón romano y toba volcánica, y podía recibir entre 50.000 y 80.000 espectadores, con una media de unos 65.000.\n\nAllí se celebraban combates de gladiadores, cacerías de animales y espectáculos públicos. Según el historiador Dion Casio, en los juegos de inauguración murieron más de 9000 animales salvajes. Tenía un toldo retráctil, el «velarium», para proteger al público del sol y la lluvia, que manejaban marineros de la flota romana. Más tarde, el emperador Domiciano añadió el hipogeo, una red de túneles subterráneos para guardar animales y esclavos.",
+   "deep": "Con la caída del Imperio romano, el Coliseo dejó de usarse para espectáculos y tuvo muchos usos: viviendas, talleres, sede de una orden religiosa, fortaleza, cantera y santuario cristiano. Los terremotos y el saqueo de piedras para otras construcciones lo dañaron mucho. Su nombre probablemente viene de una estatua colosal de Nerón que había cerca. Hoy es uno de los lugares más visitados de Roma, fue elegido una de las Nuevas Siete Maravillas del Mundo y, cada Viernes Santo, el papa encabeza allí un vía crucis con antorchas.",
    "sources": [
     {
      "t": "Wikipedia — Colosseum",
@@ -12326,7 +12392,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -12338,6 +12404,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20291,7 +20361,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El Titanic se hundió en su viaje inaugural, en 1912",
    "desc": "Chocó contra un iceberg en el Atlántico Norte y murieron más de 1.500 personas.",
-   "body": "El transatlántico británico partió de Southampton rumbo a Nueva York. La noche del 14 de abril de 1912 chocó contra un iceberg y se hundió en la madrugada del 15. Viajaban unas 2.208 personas y llevaba solo veinte botes salvavidas. La tragedia impulsó grandes cambios en las normas de seguridad marítima.",
+   "body": "El Titanic, un transatlántico británico de la naviera White Star Line construido en Belfast por Harland and Wolff, era el barco de pasajeros más grande y lujoso de su época, y se decía que era insumergible. Partió en su viaje inaugural de Southampton rumbo a Nueva York el 10 de abril de 1912. La noche del 14 de abril chocó contra un iceberg y se hundió en la madrugada del 15.\n\nViajaban unas 2.208 personas y llevaba solo veinte botes salvavidas. Se acepta en general que murieron 1.496 personas. El SS Californian, probablemente el último barco en contacto con el Titanic antes del choque, vio sus bengalas de auxilio pero no acudió. Hacia las cuatro de la mañana llegó el RMS Carpathia, que respondió a sus llamadas de socorro por radio y rescató a los supervivientes.",
+   "deep": "Muchos botes se lanzaron sin llenarse: de media, se ocuparon a un 60 % de su capacidad. La tragedia impulsó grandes cambios en la seguridad marítima. Se aprobó el primer Convenio Internacional para la Seguridad de la Vida Humana en el Mar, conocido como SOLAS, considerado el acuerdo internacional más importante sobre seguridad de los barcos mercantes. Se exigió que las radios de los barcos de pasajeros funcionaran día y noche y se creó la Patrulla Internacional del Hielo para vigilar los icebergs del Atlántico Norte. El naufragio fue descubierto el 1 de septiembre de 1985 por una expedición franco-estadounidense dirigida por Robert Ballard.",
    "sources": [
     {
      "t": "NOAA (EE. UU.) — R.M.S Titanic - History and Significance",
@@ -20324,7 +20395,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -20340,6 +20411,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20351,7 +20426,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La cadena de montaje de Ford redujo de horas a minutos la fabricación de un carro",
    "desc": "En 1913, Ford introdujo una línea de montaje móvil para el Modelo T.",
-   "body": "Al mover el chasis por la fábrica mientras los trabajadores repetían tareas específicas, el tiempo para ensamblar un Modelo T se redujo drásticamente. El precio del carro bajó y se volvió accesible para muchas más familias. El sistema transformó la industria en todo el mundo.",
+   "body": "Antes de la cadena de montaje móvil, fabricar un Ford Modelo T llevaba más de doce horas. La cadena se puso en marcha el 7 de octubre de 1913 en la planta de Ford de Highland Park, en Estados Unidos. La idea era mover el chasis por la fábrica, con cintas transportadoras, mientras cada trabajador repetía una tarea específica, en lugar de que un grupo de obreros construyera el carro completo en un solo lugar.\n\nEl proceso se dividió en 45 pasos, y el tiempo para ensamblar un Modelo T llegó a bajar a solo 93 minutos. Como los carros se producían más rápido y más barato, el precio bajó y el automóvil se volvió accesible para muchas más familias. Se vendieron más de 15 millones de unidades del Modelo T, el carro más vendido de la historia hasta que lo superó el Volkswagen Escarabajo en 1972.",
+   "deep": "Ford no inventó la idea desde cero: se cree que una de las primeras cadenas industriales fue la de los mataderos de Chicago, que en realidad eran cadenas de «desmontaje», en las que las piezas de carne pasaban por delante de los trabajadores. Ford la aplicó a la fabricación de automóviles y la perfeccionó con estudios de tiempos y movimientos. El sistema transformó la industria en todo el mundo. En 1999, el Modelo T fue elegido el automóvil más influyente del siglo XX.",
    "sources": [
     {
      "t": "Universidad (opentextbooks.clemson.edu) — The Assembly Line – Science Technology and Society a Student Led Exploration",
@@ -20393,7 +20469,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -20409,6 +20485,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
