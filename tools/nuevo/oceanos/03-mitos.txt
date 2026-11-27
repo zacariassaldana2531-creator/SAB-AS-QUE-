@@ -1,0 +1,83 @@
+@m-isla-plastico
+type: mito
+verdict: matizado
+sub: Contaminación
+level: 1
+claim: hecho
+title: «En el Pacífico flota una isla de basura que se ve desde el espacio»
+desc: Matizado. La gran mancha de basura del Pacífico existe y es enorme, pero no es una isla sólida ni se ve desde satélites.
+b: La gran mancha de basura del Pacífico es real. Está en el Pacífico Norte, dentro de un gran remolino de corrientes, y se calcula que ocupa unos 1,6 millones de kilómetros cuadrados, más o menos el doble de la superficie de Texas. Un estudio de 2018 estimó que contiene unas 79.000 toneladas de plástico.
+b: Lo que no es real es la imagen de una isla compacta sobre la que se podría caminar. La basura está muy dispersa, con una densidad baja de partículas, y la mayor parte flota bajo la superficie en forma de microplásticos del tamaño de una uña o más pequeños. Por eso no se puede ver desde los satélites, y un barco puede atravesarla sin notar nada a simple vista.
+d: Aunque los microplásticos son mayoría si se cuentan las piezas, cerca del 92 % de la masa está en objetos más grandes, y casi la mitad corresponde a redes de pesca sintéticas, según el estudio de 2018. La NOAA predijo la existencia de la mancha en 1988, y el navegante Charles Moore la encontró en 1997. La limpieza es un desafío enorme: a finales de 2024, la organización The Ocean Cleanup había retirado más de 450 toneladas de basura, apenas un 0,5 % del total acumulado. Y la mancha tiene habitantes: un estudio de 2021 encontró más de 40 especies animales viviendo sobre los restos analizados.
+src: https://en.wikipedia.org/wiki/Great_Pacific_garbage_patch | Wikipedia en inglés | Great Pacific garbage patch
+q: ¿Cómo es realmente la gran mancha de basura del Pacífico? | Una isla sólida de plástico ; Una zona enorme con plástico disperso, sobre todo microplásticos ; Un montón de basura en el fondo marino ; Una mancha de petróleo | 1 | La basura está dispersa y en gran parte bajo la superficie, por eso no se ve desde satélites.
+
+@m-kraken
+type: mito
+verdict: matizado
+sub: Leyendas del mar
+level: 1
+claim: hecho
+title: «El kraken, el monstruo que hundía barcos, es solo una fantasía»
+desc: Matizado. El kraken es una leyenda, pero pudo inspirarse en un animal real: el calamar gigante.
+b: El kraken es un monstruo marino de la tradición escandinava, que según la leyenda vivía en el mar de Noruega. Su primera descripción con nombre aparece en un glosario noruego de 1646, y en 1753 el obispo Erik Pontoppidan lo hizo famoso al afirmar que podía arrastrar al fondo grandes barcos de guerra. Ni siquiera él sabía si era un pulpo, una estrella de mar o un cangrejo.
+b: Ningún animal real hunde barcos. Pero en el siglo XIX, cuando se estudiaron los primeros ejemplares de calamar gigante, muchos naturalistas propusieron que estos animales, capaces de superar los 10 metros, estaban detrás de la leyenda. Los avistamientos de marineros de calamares gigantes, o de sus peleas con cachalotes en la superficie, pudieron alimentar el mito.
+d: La palabra viene del noruego «krake», que originalmente significaba un árbol torcido o retorcido, y más tarde un ancla o rastra, quizá por la forma de sus tentáculos. La imagen moderna del kraken como un pulpo gigante que ataca barcos se fijó con un grabado de 1801 de Denys-Montfort y con novelas como «Los trabajadores del mar», de Victor Hugo, y «Veinte mil leguas de viaje submarino», de Jules Verne. Desde entonces aparece en poemas como «The Kraken», de Tennyson, en películas como «Piratas del Caribe» y hasta en el espacio: un mar de metano de Titán, la luna de Saturno, se llama Kraken Mare.
+src: https://en.wikipedia.org/wiki/Kraken | Wikipedia en inglés | Kraken
+q: ¿Qué animal real pudo inspirar la leyenda del kraken? | La ballena azul ; El calamar gigante ; El tiburón blanco ; La morena | 1 | Desde el siglo XIX se propone que los calamares gigantes, de más de 10 metros, inspiraron la leyenda.
+
+@m-ahogarse-gritos
+type: mito
+verdict: falso
+sub: Seguridad en el agua
+level: 1
+claim: hecho
+title: «Una persona que se ahoga grita y agita los brazos pidiendo ayuda»
+desc: Falso. Ahogarse suele ser silencioso: la persona a menudo no puede gritar ni hacer señas.
+b: En las películas, quien se ahoga chapotea, grita y mueve los brazos. En la realidad suele ser muy distinto: el ahogamiento no es necesariamente violento ni ruidoso, y puede ser silencioso. La persona que se está ahogando muchas veces no puede saludar, gritar ni hablar, porque todo su esfuerzo se concentra en intentar respirar.
+b: Los comportamientos instintivos de los últimos 20 a 60 segundos antes de hundirse son el último intento del cuerpo por conseguir aire. En ese momento la persona normalmente no puede pedir ayuda ni agarrar un salvavidas. Quien no sabe nadar solo puede mantenerse en la superficie entre 20 y 60 segundos antes de hundirse.
+d: Saberlo puede salvar vidas, sobre todo con niños: los menores de cinco años tienen las tasas de ahogamiento más altas del mundo, y la OMS calcula unas 300.000 muertes al año por ahogamiento, la mayoría en países de ingresos bajos y medios. Por eso los expertos insisten en vigilar a los niños de forma constante y cercana cuando están en el agua, sin esperar a oír un grito. Otro consejo útil en el mar: si te arrastra una corriente de resaca, no nades directamente contra ella; avanza en paralelo a la orilla o déjate llevar y vuelve en ángulo. También es un mito el llamado «ahogamiento seco» horas después de salir del agua: no es un diagnóstico médico aceptado.
+src: https://en.wikipedia.org/wiki/Drowning | Wikipedia en inglés | Drowning
+q: ¿Cómo suele ser en realidad un ahogamiento? | Muy ruidoso, con gritos ; A menudo silencioso, sin poder pedir ayuda ; Siempre lento, de varios minutos ; Solo ocurre en aguas profundas | 1 | La persona suele concentrarse en respirar y a menudo no puede gritar ni hacer señas.
+
+@m-tiburones-cancer
+type: mito
+verdict: falso
+sub: Vida marina
+level: 2
+claim: hecho
+title: «Los tiburones no tienen cáncer»
+desc: Falso. Se han documentado tumores en tiburones, y los suplementos de cartílago de tiburón no curan el cáncer.
+b: La idea de que los tiburones no enferman de cáncer se popularizó con un libro de 1992 titulado «Los tiburones no tienen cáncer», que promovía el cartílago de tiburón como tratamiento. Es falso: los investigadores han documentado 40 tumores, benignos y malignos, en 18 especies de tiburones.
+b: Tampoco funciona el supuesto remedio. Un ensayo de la Clínica Mayo con pacientes con cáncer avanzado no encontró ningún indicio de eficacia, y otro ensayo patrocinado por el Instituto Nacional del Cáncer de Estados Unidos no halló diferencias en la supervivencia entre quienes tomaban cartílago de tiburón y quienes tomaban un placebo.
+d: El mito tuvo consecuencias reales. Los suplementos de cartílago de tiburón pueden causar náuseas, molestias digestivas y un exceso de calcio en la sangre, y su consumo se ha relacionado con el declive de las poblaciones de tiburones. En Estados Unidos, la Comisión Federal de Comercio actuó contra promotores fraudulentos: en 2004 ordenó a la empresa Lane Labs-USA dejar de anunciar sus productos de cartílago de tiburón y le impuso una sanción de un millón de dólares. Que una especie tenga pocos casos registrados de cáncer no significa que sea inmune; muchas veces solo indica que se ha estudiado poco.
+src: https://en.wikipedia.org/wiki/Shark_cartilage | Wikipedia en inglés | Shark cartilage
+q: ¿Es cierto que los tiburones no tienen cáncer? | Sí, son inmunes ; No: se han documentado tumores en varias especies ; Solo los tiburones blancos son inmunes ; Sí, por su cartílago | 1 | Se han registrado 40 tumores en 18 especies, y el cartílago de tiburón no ha mostrado eficacia contra el cáncer.
+
+@m-tiburones-peligro
+type: mito
+verdict: falso
+sub: Vida marina
+level: 1
+claim: hecho
+title: «Los tiburones son máquinas de matar que buscan atacar a las personas»
+desc: Falso. Se registran unos 80 ataques no provocados al año en todo el mundo, y los humanos no forman parte de su dieta.
+b: Desde la película «Tiburón», muchas personas temen a estos animales mucho más de lo que justifican los datos. En todo el mundo se registran alrededor de 80 ataques no provocados al año. En 2016 hubo 81 ataques y cuatro muertes, y entre 2001 y 2010 murieron de media 4,3 personas al año por ataques de tiburón.
+b: Los humanos no forman parte de la dieta normal de los tiburones. La mayoría de los ataques son mordiscos rápidos en los que el tiburón se retira, y se cree que muchos son casos de identidad equivocada. Aun así, un solo mordisco puede causar heridas graves.
+d: Solo tres especies, el tiburón blanco, el tiburón tigre y el tiburón toro, acumulan decenas de ataques mortales no provocados. El riesgo depende sobre todo del tiempo que se pasa en el agua y del lugar: en Estados Unidos, la probabilidad de sufrir un ataque en una playa se ha calculado en 1 entre 11,5 millones, y en los estados costeros los rayos matan a muchas más personas que los tiburones. Como resumió el investigador George Burgess, los ataques son básicamente un juego de probabilidades según las horas que pasas en el agua. Hay que tener en cuenta que en muchos países en desarrollo los ataques se registran poco, así que la cifra real de muertes es incierta.
+src: https://en.wikipedia.org/wiki/Shark_attack | Wikipedia en inglés | Shark attack
+q: ¿Cuántos ataques no provocados de tiburón se registran aproximadamente cada año en el mundo? | Unos 80 ; Unos 2.000 ; Unos 10.000 ; Unos 100.000 | 0 | Se registran alrededor de 80 al año; entre 2001 y 2010 murieron de media 4,3 personas al año.
+
+@m-atlantida
+type: mito
+verdict: falso
+sub: Leyendas del mar
+level: 1
+claim: hecho
+title: «La Atlántida fue una civilización real que se hundió en el océano»
+desc: Falso, según la mayoría de los especialistas. Es una invención de Platón para ilustrar ideas filosóficas.
+b: La Atlántida aparece por primera vez en dos diálogos del filósofo griego Platón, el «Timeo» y el «Critias», escritos hacia el año 360 antes de Cristo. Allí se cuenta que una poderosa potencia naval de Occidente atacó a una ciudad parecida a Atenas, perdió el favor de los dioses y se hundió en el Atlántico, 9.000 años antes de la época del legislador Solón.
+b: La mayoría de los especialistas actuales considera que la Atlántida es ficticia. Platón la usó como una alegoría sobre la soberbia de las naciones y para examinar ideas sobre el gobierno y el poder. Según se cuenta, ya Aristóteles pensaba que Platón la había inventado para enseñar filosofía.
+d: La Atlántida se convirtió en un supuesto lugar histórico en el siglo XIX, sobre todo gracias al libro de Ignatius Donnelly «Atlántida: el mundo antediluviano», de 1882. Desde entonces se han propuesto decenas de ubicaciones: la isla griega de Santorini, relacionada con la gran erupción del volcán de Thera; Chipre, Sicilia, las Azores, Doñana en España e incluso la Antártida. Ninguna cuenta con pruebas arqueológicas. Hoy la palabra «Atlántida» se usa para cualquier supuesta civilización avanzada perdida.
+src: https://en.wikipedia.org/wiki/Atlantis | Wikipedia en inglés | Atlantis
+q: ¿Dónde aparece por primera vez la historia de la Atlántida? | En la Biblia ; En los diálogos de Platón ; En una crónica egipcia ; En la Odisea de Homero | 1 | Aparece en el «Timeo» y el «Critias» de Platón, hacia el 360 antes de Cristo, y la mayoría de los especialistas la considera ficticia.

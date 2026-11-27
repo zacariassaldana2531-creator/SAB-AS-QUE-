@@ -1,11 +1,11 @@
-/* Lumbrario — Base de contenido v6 (368 contenidos, 418 preguntas).
+/* Lumbrario — Base de contenido v6 (399 contenidos, 452 preguntas).
  * Cada contenido tiene fuentes verificadas automáticamente contra el texto de la fuente.
  * Tipos: "articulo" | "curiosidad" | "mito". Estado: "publicado" | "borrador". Nivel: 1-3.
  * Este archivo lo puede regenerar el panel admin (admin.html → Publicar → Descargar content.js).
  */
 window.SQ_CONTENT = {
  "version": 6,
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "categories": [
   {
    "id": "ciencia",
@@ -141,6 +141,13 @@ window.SQ_CONTENT = {
     "page": "https://commons.wikimedia.org/wiki/File:African_Elephant_(Loxodonta_africana)_male_(17289351322).jpg",
     "file": "African_Elephant_(Loxodonta_africana)_male_(17289351322).jpg"
    }
+  },
+  {
+   "id": "oceanos",
+   "name": "Océanos",
+   "icon": "🌊",
+   "color": "#1e9bd7",
+   "desc": "El mar de la superficie al abismo: vida marina, corrientes, olas, fosas y leyendas."
   },
   {
    "id": "filosofia",
@@ -25160,6 +25167,1328 @@ window.SQ_CONTENT = {
      "note": "Publicación (nueva categoría Lengua y literatura)"
     }
    ]
+  },
+  {
+   "id": "a-fosa-marianas",
+   "type": "articulo",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Fondo marino",
+   "title": "El abismo Challenger: así es el lugar más profundo de la Tierra",
+   "subtitle": "A casi 11 kilómetros bajo el mar, la presión supera mil veces la de la superficie. Solo unas pocas decenas de personas han estado allí.",
+   "desc": "En el fondo de la fosa de las Marianas el agua alcanza unos 10.935 metros de profundidad. Más gente ha ido al espacio que a ese lugar.",
+   "intro": "Si pusieras el monte Everest en el fondo de la fosa de las Marianas, su cima seguiría hundida a más de dos kilómetros bajo el agua. Allí, en el extremo sur de la fosa, en el Pacífico occidental, está el abismo Challenger: el punto más profundo conocido de los océanos.",
+   "sections": [
+    {
+     "h": "¿Qué tan profundo es?",
+     "p": [
+      "Las mediciones varían según el método y el año. Una estimación de 2021 lo sitúa a 10.935 metros bajo el nivel del mar, con un margen de error de unos 6 metros. Otras expediciones han obtenido cifras muy parecidas, entre 10.911 y 10.928 metros.",
+      "El nombre viene de dos barcos británicos de investigación. La expedición del HMS Challenger, entre 1872 y 1876, localizó la depresión por primera vez, y la del Challenger II, entre 1950 y 1952, estableció su récord de profundidad."
+     ]
+    },
+    {
+     "h": "Una presión aplastante",
+     "p": [
+      "Cada metro de agua añade peso sobre lo que está debajo. A casi 11 kilómetros de profundidad, la presión medida ronda los 1.100 bares: más de mil veces la presión del aire que respiramos a nivel del mar. Es como si sobre cada centímetro cuadrado descansara más de una tonelada.",
+      "Por eso los vehículos que bajan allí necesitan cabinas esféricas de paredes muy gruesas, capaces de soportar esa fuerza sin deformarse."
+     ]
+    },
+    {
+     "h": "Los pocos que han bajado",
+     "p": [
+      "El 23 de enero de 1960, el batiscafo Trieste, pilotado por Jacques Piccard y el teniente de la Marina estadounidense Don Walsh, tocó el fondo por primera vez. Tardaron casi cinco horas en bajar y estuvieron unos 20 minutos abajo.",
+      "Pasaron más de cincuenta años hasta la siguiente visita tripulada: el 26 de marzo de 2012, el cineasta James Cameron descendió solo en el Deepsea Challenger. En 2019, el explorador Victor Vescovo bajó con el sumergible Limiting Factor, y desde entonces las inmersiones se han multiplicado. Aun así, en julio de 2022 solo 27 personas habían llegado al abismo Challenger."
+     ]
+    },
+    {
+     "h": "Vida en la oscuridad total",
+     "p": [
+      "Incluso allí hay vida. Cameron solo vio pequeños anfípodos, unos crustáceos parecidos a gambas diminutas, ninguno de más de 2,5 centímetros. En 1980 se recuperó por primera vez un anfípodo vivo de unos 10.900 metros de profundidad.",
+      "Los sedimentos del fondo están llenos de organismos unicelulares llamados foraminíferos: se han identificado 432 especies. En cambio, el famoso «pez plano» que Piccard y Walsh dijeron haber visto en 1960 es hoy muy dudoso; muchos biólogos creen que pudo ser un pepino de mar."
+     ]
+    }
+   ],
+   "facts": [
+    "El abismo Challenger está en aguas bajo jurisdicción de los Estados Federados de Micronesia.",
+    "Una estimación de 2014 de 10.984 metros está en discusión y no se considera fiable."
+   ],
+   "conclusion": "El abismo Challenger es un recordatorio de lo poco que conocemos nuestro propio planeta: más personas han viajado al espacio que al fondo de su océano.",
+   "sources": [
+    {
+     "t": "Wikipedia — Challenger Deep",
+     "org": "Wikipedia en inglés",
+     "title": "Challenger Deep",
+     "u": "https://en.wikipedia.org/wiki/Challenger_Deep",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "a-capas-oceano",
+   "type": "articulo",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Fondo marino",
+   "title": "De la luz a la noche eterna: las capas del océano",
+   "subtitle": "El mar no es un solo lugar. A medida que bajas, la luz desaparece, el frío aumenta y la vida cambia por completo.",
+   "desc": "Solo la capa superior del océano recibe luz suficiente para la fotosíntesis. Debajo, la mayoría de los animales fabrica su propia luz.",
+   "intro": "Los oceanógrafos dividen el mar abierto, la llamada zona pelágica, en capas según la profundidad y la cantidad de luz que llega. Cada una es casi un mundo distinto, con sus propios animales y sus propias reglas.",
+   "sections": [
+    {
+     "h": "La zona iluminada",
+     "p": [
+      "La capa superior, la zona epipelágica, es la única con luz suficiente para que las algas hagan fotosíntesis. Es también la más cálida. Allí se produce casi toda la producción primaria del océano y vive alrededor del 90 % de la vida marina.",
+      "Es el mundo del plancton, las medusas, los atunes, los delfines, los tiburones y las ballenas. La presión aumenta aproximadamente una atmósfera por cada 10 metros de profundidad."
+     ]
+    },
+    {
+     "h": "La zona del crepúsculo",
+     "p": [
+      "Por debajo está la zona mesopelágica, donde solo llegan restos tenues de luz solar y el agua es mucho más fría. Viven allí calamares, peces espada y otros animales.",
+      "Muchos de ellos protagonizan cada noche un viaje gigantesco: suben hacia la superficie para alimentarse aprovechando la oscuridad y vuelven a bajar al amanecer."
+     ]
+    },
+    {
+     "h": "La zona de medianoche y el abismo",
+     "p": [
+      "Más abajo, en la zona batipelágica, la oscuridad es total, salvo por la luz que producen los propios seres vivos. Aquí habitan criaturas como el rape abisal. La temperatura y la salinidad apenas cambian y no hay plantas.",
+      "Junto al fondo oceánico está la zona abisopelágica, fría y con una presión enorme. Muchos de sus habitantes, como calamares, estrellas cesta, pepinos de mar o arañas de mar, son transparentes o no tienen ojos."
+     ]
+    },
+    {
+     "h": "Las fosas",
+     "p": [
+      "La capa más profunda, la zona hadal o hadopelágica, ocupa las fosas oceánicas: empieza a más de 6.000 metros y llega hasta unos 11 kilómetros. La presión puede rondar las 1.100 atmósferas. Pocas especies han conquistado este lugar: anfípodos, gusanos poliquetos, equinodermos y algunos moluscos."
+     ]
+    }
+   ],
+   "facts": [
+    "El conjunto de la zona pelágica ocupa unos 1.330 millones de kilómetros cúbicos, con una profundidad media de 3,68 kilómetros.",
+    "El fitoplancton retira de la atmósfera unos 2.000 millones de toneladas de dióxido de carbono al año."
+   ],
+   "conclusion": "Cuanto más bajamos, más extraño se vuelve el océano, y más difícil es estudiarlo: la mayor parte del mar profundo sigue sin explorar.",
+   "sources": [
+    {
+     "t": "Wikipedia — Pelagic zone",
+     "org": "Wikipedia en inglés",
+     "title": "Pelagic zone",
+     "u": "https://en.wikipedia.org/wiki/Pelagic_zone",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "a-cinta-transportadora",
+   "type": "articulo",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Clima y corrientes",
+   "title": "La «cinta transportadora» del océano: el río gigante que regula el clima",
+   "subtitle": "El agua del mar recorre el planeta entero, impulsada por diferencias de temperatura y de sal. El viaje puede durar siglos.",
+   "desc": "La circulación termohalina mueve el agua de todos los océanos. Las aguas más antiguas tardan unos mil años en volver a la superficie.",
+   "intro": "Bajo las olas hay un sistema de corrientes que conecta todos los océanos. Los científicos lo llaman circulación termohalina, y el geoquímico Wallace Broecker lo bautizó con un nombre más fácil de imaginar: la «cinta transportadora global».",
+   "sections": [
+    {
+     "h": "Calor y sal",
+     "p": [
+      "El motor de esta circulación es la densidad del agua. El agua fría es más densa que la caliente, y el agua salada es más densa que la dulce. Cuando el agua de la superficie se enfría o se vuelve más salada, se hunde, y ese hundimiento pone en movimiento enormes masas de agua.",
+      "De ahí su nombre: «termo», por la temperatura, y «halina», por la sal."
+     ]
+    },
+    {
+     "h": "Dónde se hunde el agua",
+     "p": [
+      "En el Atlántico Norte, la evaporación vuelve el agua superficial muy salada y fría, y se hunde hacia el fondo. Alrededor de la Antártida ocurre algo parecido por otra razón: cuando el mar se congela, el hielo expulsa la sal, y el agua que queda debajo, más salada y densa, se hunde.",
+      "Esas aguas profundas recorren lentamente las cuencas oceánicas. Las más antiguas, con un tiempo de tránsito de alrededor de mil años, vuelven a subir en el Pacífico Norte."
+     ]
+    },
+    {
+     "h": "La corriente del Golfo",
+     "p": [
+      "Una pieza clave es la corriente del Golfo, una corriente superficial impulsada por el viento que lleva agua cálida desde el Atlántico ecuatorial hacia el norte. En su camino se enfría y termina hundiéndose, uniéndose al agua profunda del Atlántico Norte.",
+      "El conjunto de corrientes del Atlántico se conoce por sus siglas en inglés, AMOC. Ese transporte de calor influye en el clima de Europa."
+     ]
+    },
+    {
+     "h": "¿Se está frenando?",
+     "p": [
+      "El IPCC, el panel científico de la ONU sobre el cambio climático, considera muy probable que la AMOC se debilite durante este siglo. Sin embargo, no hay consenso sobre si ya se ha producido una desaceleración sostenida. Un colapso tendría consecuencias importantes: muchos países europeos serían bastante más fríos."
+     ]
+    }
+   ],
+   "facts": [
+    "El hielo marino que se forma alrededor de la Antártida expulsa la sal y produce el agua más densa del océano."
+   ],
+   "conclusion": "El océano no es una masa de agua quieta: es un sistema en movimiento constante que reparte el calor del planeta.",
+   "sources": [
+    {
+     "t": "Wikipedia — Thermohaline circulation",
+     "org": "Wikipedia en inglés",
+     "title": "Thermohaline circulation",
+     "u": "https://en.wikipedia.org/wiki/Thermohaline_circulation",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "a-arrecifes-coral",
+   "type": "articulo",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Ecosistemas",
+   "title": "Arrecifes de coral: las «selvas del mar» construidas por animales",
+   "subtitle": "Ocupan una parte mínima del océano, pero albergan al menos una cuarta parte de todas las especies marinas.",
+   "desc": "Los corales son animales que viven en alianza con algas. Juntos construyen las mayores estructuras hechas por seres vivos.",
+   "intro": "Un arrecife de coral parece un jardín de rocas de colores, pero está construido por animales diminutos. Los pólipos de coral, parientes de las medusas, fabrican esqueletos de carbonato de calcio que, acumulados durante miles de años, forman arrecifes enteros.",
+   "sections": [
+    {
+     "h": "Un rincón muy pequeño con mucha vida",
+     "p": [
+      "Los arrecifes cubren unos 284.300 kilómetros cuadrados, menos del 0,1 % de la superficie oceánica. Aun así, sustentan al menos una cuarta parte de todas las especies marinas, incluidas más de 4.000 especies de peces. Por eso se les llama las «selvas tropicales del mar»."
+     ]
+    },
+    {
+     "h": "Una alianza con algas",
+     "p": [
+      "Dentro de sus tejidos, los corales albergan unas algas microscópicas llamadas zooxantelas. Las algas hacen fotosíntesis y pueden aportar hasta el 90 % de los nutrientes del coral; a cambio, reciben refugio. Por eso los arrecifes crecen en aguas claras y poco profundas, a menos de 150 metros.",
+      "Un arrecife sano crece despacio: entre 1 y 3 centímetros al año en horizontal y de 1 a 25 centímetros en vertical."
+     ]
+    },
+    {
+     "h": "El blanqueamiento",
+     "p": [
+      "Cuando el agua se calienta demasiado, los corales expulsan a sus algas, pierden el color y se vuelven blancos. Si la situación se prolonga, mueren. Los episodios de El Niño han provocado grandes blanqueamientos, como los de 1998 y 2010.",
+      "Los arrecifes tropicales poco profundos han perdido aproximadamente la mitad de su superficie desde 1950, y la cobertura mundial de coral cayó un 14 % entre 2009 y 2018."
+     ]
+    },
+    {
+     "h": "La Gran Barrera",
+     "p": [
+      "El mayor sistema de arrecifes del mundo es la Gran Barrera de Coral, frente a Queensland, en Australia: más de 2.900 arrecifes y 900 islas que se extienden a lo largo de más de 2.600 kilómetros.",
+      "Charles Darwin propuso una secuencia clásica de tipos de arrecife: primero el arrecife costero, pegado a una isla volcánica; luego el arrecife de barrera, separado por una laguna; y finalmente el atolón, un anillo de coral que queda cuando la isla se hunde."
+     ]
+    }
+   ],
+   "facts": [
+    "Los pólipos de coral pertenecen al mismo grupo de animales que las medusas: los cnidarios.",
+    "Las estimaciones del valor económico de los arrecifes varían muchísimo: un estudio de 2020 lo calculó en 2,7 billones de dólares."
+   ],
+   "conclusion": "Los arrecifes son tan valiosos como frágiles: unos pocos grados de más en el agua bastan para ponerlos en peligro.",
+   "sources": [
+    {
+     "t": "Wikipedia — Coral reef",
+     "org": "Wikipedia en inglés",
+     "title": "Coral reef",
+     "u": "https://en.wikipedia.org/wiki/Coral_reef",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "a-mareas",
+   "type": "articulo",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Clima y corrientes",
+   "title": "Por qué sube y baja el mar dos veces al día",
+   "subtitle": "Las mareas son la huella de la Luna y el Sol en los océanos. Y tienen un efecto sorprendente: alargan los días.",
+   "desc": "La gravedad de la Luna levanta dos abultamientos en el océano. En la bahía de Fundy, en Canadá, el mar llega a subir más de 16 metros.",
+   "intro": "En casi todas las costas del mundo el mar sube y baja dos veces al día. Isaac Newton fue el primero en explicar por qué, en sus «Principia», publicados en 1687: es un efecto de la gravedad.",
+   "sections": [
+    {
+     "h": "Dos abultamientos",
+     "p": [
+      "La Luna atrae el agua de la Tierra, pero no por igual: tira con más fuerza del lado más cercano que del más lejano. El resultado es un doble abultamiento del océano, uno a cada lado del planeta, alineados con la Luna.",
+      "Al girar, la Tierra hace pasar cada costa por esos abultamientos. Por eso la mayoría de las costas tienen dos mareas altas y dos bajas al día. El ciclo principal dura unas 12 horas y 25 minutos, y por eso las mareas llegan cada día un poco más tarde."
+     ]
+    },
+    {
+     "h": "Mareas vivas y mareas muertas",
+     "p": [
+      "El Sol también produce mareas, aunque su fuerza de marea es aproximadamente el 46 % de la de la Luna. Cuando el Sol y la Luna se alinean, en luna nueva y luna llena, sus efectos se suman y se producen las mareas vivas, con la mayor diferencia entre marea alta y baja.",
+      "Cuando forman un ángulo recto, en los cuartos de luna, se compensan en parte y se producen las mareas muertas, las más suaves."
+     ]
+    },
+    {
+     "h": "Las mareas más altas del mundo",
+     "p": [
+      "La bahía de Fundy, en Canadá, suele citarse como el lugar con las mareas más grandes del mundo. En Burntcoat Head se ha medido una diferencia máxima de 16,3 metros entre la marea alta y la baja: la altura de un edificio de cinco pisos."
+     ]
+    },
+    {
+     "h": "La Luna se aleja",
+     "p": [
+      "Las mareas rozan contra el fondo marino y las costas, y esa fricción tiene un efecto a escala astronómica: transfiere energía a la órbita de la Luna. Por eso la Luna se aleja de la Tierra unos 3,8 centímetros al año, y los días se alargan muy lentamente."
+     ]
+    }
+   ],
+   "facts": [
+    "En La Rance, en Francia, funciona una conocida central eléctrica que aprovecha las mareas.",
+    "La energía de las mareas es más predecible que la del viento, porque se pueden calcular con años de antelación."
+   ],
+   "conclusion": "Cada vez que el mar sube en una playa, estás viendo la fuerza de la Luna, a unos 384.000 kilómetros de distancia.",
+   "sources": [
+    {
+     "t": "Wikipedia — Tide",
+     "org": "Wikipedia en inglés",
+     "title": "Tide",
+     "u": "https://en.wikipedia.org/wiki/Tide",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-oceano-inexplorado",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Fondo marino",
+   "title": "Conocemos mejor el mapa de la Luna que el del fondo del mar",
+   "desc": "A 2024, solo algo más del 26 % del fondo oceánico se había cartografiado con detalle.",
+   "body": "El océano cubre alrededor del 70,8 % de la superficie de la Tierra, unos 361 millones de kilómetros cuadrados, y guarda cerca del 97 % de toda el agua del planeta. Su profundidad media es de 3.688 metros. Y, sin embargo, la mayor parte de su fondo sigue sin un mapa detallado.\n\nSegún los datos de 2024, solo algo más del 26 % del fondo oceánico se ha cartografiado con más resolución de la que permiten los satélites. Los satélites miden pequeñas variaciones en la altura de la superficie del mar, que revelan a grandes rasgos las montañas y fosas del fondo, pero no los detalles. Para ver bien el relieve hay que recorrer el océano con barcos equipados con sonar, metro a metro.",
+   "deep": "Cartografiar no es lo mismo que explorar. Algunas estimaciones calculan que solo alrededor del 5 % del océano ha sido explorado de verdad, es decir, visto u observado directamente. Mientras tanto, las superficies de la Luna y de Marte se conocen con gran detalle gracias a los satélites, porque no hay kilómetros de agua que bloqueen la vista. El océano esconde, por ejemplo, la cordillera más larga de la Tierra: el sistema de dorsales oceánicas, cuyo tramo continuo más largo mide unos 65.000 kilómetros.",
+   "sources": [
+    {
+     "t": "Wikipedia — Ocean",
+     "org": "Wikipedia en inglés",
+     "title": "Ocean",
+     "u": "https://en.wikipedia.org/wiki/Ocean",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-mar-salado",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "El agua del mar",
+   "title": "Por qué el mar es salado y los ríos no",
+   "desc": "Los ríos llevan al mar sales arrastradas de las rocas, y los volcanes y las fuentes hidrotermales aportan el resto.",
+   "body": "Cada litro de agua de mar contiene, de media, unos 35 gramos de sales disueltas: una salinidad de alrededor del 3,5 %. La mayor parte es sodio y cloruro, los mismos componentes de la sal de mesa.\n\nYa en 1715, el astrónomo Edmond Halley propuso una explicación: la lluvia y los ríos disuelven poco a poco las sales de las rocas y las llevan al mar. Cuando el agua se evapora, la sal se queda. Los ríos también llevan sales, pero en cantidades tan pequeñas que su agua sigue siendo dulce; en el mar, en cambio, se han ido acumulando durante millones de años.",
+   "deep": "Hoy se sabe que la historia es más complicada. Parte del sodio se desprendió del fondo marino cuando se formó el océano, y el cloro procede sobre todo de los gases que expulsan los volcanes y las fuentes hidrotermales. La salinidad no es igual en todas partes: el mar Rojo es el mar abierto más salado, mientras que en el Báltico la salinidad superficial es muy baja. El mar Muerto, un lago, es unas diez veces más salado que el océano. Beber agua de mar es peligroso: un estudio de 163 viajes en balsas salvavidas calculó un riesgo de muerte del 39 % entre quienes la bebieron, frente al 3 % de quienes no lo hicieron.",
+   "sources": [
+    {
+     "t": "Wikipedia — Seawater",
+     "org": "Wikipedia en inglés",
+     "title": "Seawater",
+     "u": "https://en.wikipedia.org/wiki/Seawater",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-mar-azul",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "El agua del mar",
+   "title": "El mar no es azul porque refleje el cielo",
+   "desc": "El agua absorbe la luz roja y deja pasar la azul. En un vaso no se nota; en metros de agua, sí.",
+   "body": "Es una explicación muy repetida: el mar es azul porque refleja el color del cielo. El reflejo influye, sobre todo en días nublados, en los que el mar se ve gris. Pero la causa principal está en el agua misma.\n\nLa luz del Sol contiene todos los colores. El agua absorbe preferentemente la luz roja, y en menor medida la naranja y la amarilla, mientras que la luz azul penetra más y se dispersa. Por eso, cuanto más profunda es el agua, más azul se ve. En un vaso, la capa de agua es demasiado delgada para notar el efecto, y el agua parece transparente.",
+   "deep": "Las moléculas de agua y las pequeñas partículas suspendidas también dispersan la luz azul, lo que refuerza el color. Por la misma razón, a pocos metros bajo el agua los objetos rojos pierden su color y se ven oscuros: la luz roja ya ha sido absorbida. Los fotógrafos submarinos usan focos o filtros para recuperar los colores. El color del mar también cambia con lo que lleva disuelto: las aguas ricas en fitoplancton se ven verdosas y las que arrastran sedimentos de los ríos, pardas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Ocean",
+     "org": "Wikipedia en inglés",
+     "title": "Ocean",
+     "u": "https://en.wikipedia.org/wiki/Ocean",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-fuentes-hidrotermales",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Fondo marino",
+   "title": "En el fondo del mar hay ecosistemas que no dependen del Sol",
+   "desc": "Junto a chimeneas que expulsan agua a más de 400 °C viven animales alimentados por bacterias que usan sustancias químicas.",
+   "body": "Durante mucho tiempo se pensó que toda la vida de la Tierra dependía, directa o indirectamente, de la luz del Sol. El 17 de febrero de 1977, el sumergible Alvin demostró lo contrario: junto a las fuentes hidrotermales del rift de Galápagos, a gran profundidad, encontró comunidades llenas de vida en plena oscuridad.\n\nLa base de esos ecosistemas son bacterias que hacen quimiosíntesis: obtienen energía de sustancias químicas como el sulfuro de hidrógeno que sale de las fuentes, y con ella fabrican materia orgánica. De ellas dependen gusanos, almejas, cangrejos y otros animales. Algunos gusanos de tubo de estas comunidades pueden superar los 2 metros de altura.",
+   "deep": "En 1979 se descubrieron las «fumarolas negras» en la dorsal del Pacífico Oriental: chimeneas que expulsan agua cargada de minerales que puede superar los 400 °C sin hervir, por la enorme presión. Suelen estar a unos 2.100 metros de profundidad, y las más profundas conocidas, en la fosa de las Caimán, rondan los 5.000 metros. Sus chimeneas pueden crecer unos 30 centímetros al día y depositan sulfuros de cobre, hierro y zinc. En 2001 se encontró en el océano Índico el caracol de pie escamoso, que recubre su pie con escamas de sulfuros de hierro. Algunos científicos proponen que la vida pudo originarse en lugares así, aunque es una hipótesis muy debatida.",
+   "sources": [
+    {
+     "t": "Wikipedia — Hydrothermal vent",
+     "org": "Wikipedia en inglés",
+     "title": "Hydrothermal vent",
+     "u": "https://en.wikipedia.org/wiki/Hydrothermal_vent",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-rape-abisal",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "title": "El macho del rape abisal se fusiona con la hembra para siempre",
+   "desc": "En algunas especies, el diminuto macho se une al cuerpo de la hembra y llegan a compartir el sistema circulatorio.",
+   "body": "En la oscuridad del mar profundo, encontrar pareja es muy difícil. Algunos rapes abisales lo resolvieron de una forma extrema: el macho, mucho más pequeño, se agarra a la hembra con la boca y, en ciertas especies, se fusiona con ella. A partir de ese momento vive pegado a su cuerpo y le aporta esperma.\n\nLa diferencia de tamaño puede ser enorme. En la especie Photocorynus spiniceps, los machos miden apenas entre 6,2 y 7,3 milímetros, mientras que las hembras alcanzan unos 50,5 milímetros. Los científicos relacionan esta fusión con la ausencia de ciertas defensas del sistema inmunitario que, en otros animales, provocarían un rechazo, como ocurre con los trasplantes.",
+   "deep": "El rape es famoso también por su «caña de pescar»: la primera espina de su aleta dorsal está modificada en un apéndice llamado ilicio, con un cebo en la punta, la esca, que el pez mueve para imitar a una presa. En las especies de profundidad, la esca brilla gracias a bacterias luminosas que viven en ella. En una especie, Gigantactis macronema, el ilicio llega a medir unas 4,9 veces la longitud del cuerpo. No todos los rapes viven en el abismo: muchas especies habitan arrecifes, praderas marinas o el fondo de aguas poco profundas, como el rape europeo, que puede medir unos 2 metros.",
+   "sources": [
+    {
+     "t": "Wikipedia — Anglerfish",
+     "org": "Wikipedia en inglés",
+     "title": "Anglerfish",
+     "u": "https://en.wikipedia.org/wiki/Anglerfish",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-calamar-gigante",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "title": "El calamar gigante no se fotografió vivo en su hábitat hasta 2004",
+   "desc": "Tiene unos de los ojos más grandes del reino animal, de al menos 27 centímetros, y fue grabado en vídeo por primera vez en 2012.",
+   "body": "Durante siglos, el calamar gigante fue casi una leyenda: se conocía por ejemplares muertos varados en las playas o encontrados en el estómago de cachalotes. Las primeras fotografías de un ejemplar vivo en su medio natural llegaron en septiembre de 2004, tomadas por los investigadores japoneses Tsunemi Kubodera y Kyoichi Mori a unos 900 metros de profundidad, cerca de las islas Ogasawara.\n\nEn julio de 2012, un equipo de la televisión japonesa NHK y de Discovery Channel logró algo más difícil: grabarlo en vídeo en su hábitat, también en esa zona. Las imágenes se emitieron en enero de 2013.",
+   "deep": "Las estimaciones recientes calculan que las hembras miden unos 5 metros sin contar los dos tentáculos largos, y hasta 12 o 13 metros con ellos. Sus ojos alcanzan al menos 27 centímetros de diámetro, con una pupila de 9 centímetros, y están entre los mayores del reino animal; quizá solo los supera el calamar colosal, más corto pero mucho más pesado. Su principal depredador es el cachalote: muchos cachalotes tienen en la cabeza cicatrices circulares dejadas por las ventosas del calamar durante la lucha. Las historias de marineros sobre calamares gigantes pudieron contribuir a la leyenda del kraken.",
+   "sources": [
+    {
+     "t": "Wikipedia — Giant squid",
+     "org": "Wikipedia en inglés",
+     "title": "Giant squid",
+     "u": "https://en.wikipedia.org/wiki/Giant_squid",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-bioluminiscencia",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "title": "En el mar profundo, la mayoría de los animales fabrica su propia luz",
+   "desc": "Un estudio de 2017 encontró que alrededor del 76 % de los principales grupos de animales de aguas profundas puede producir luz.",
+   "body": "La bioluminiscencia es la luz que producen los seres vivos mediante una reacción química. En casi todos los casos, una enzima llamada luciferasa hace reaccionar una sustancia llamada luciferina con oxígeno, y la energía de la reacción se libera en forma de luz.\n\nEn la superficie es un fenómeno llamativo pero raro, como el de las luciérnagas. En el mar profundo es lo normal: un estudio de 2017 sobre el Pacífico oriental encontró que alrededor del 76 % de los principales grupos de animales de aguas profundas puede producir luz. La mayor parte de esa luz es azul o verde, los colores que mejor viajan por el agua.",
+   "deep": "Los animales la usan para muchas cosas: para atraer presas, como el cebo del rape; para defenderse, deslumbrando o distrayendo a un depredador; para encontrar pareja; y para camuflarse. Esa última estrategia se llama contrailuminación: algunos animales iluminan su vientre para que, vistos desde abajo, su silueta se confunda con la luz que llega de la superficie. Algunos peces de profundidad emiten luz roja, que casi ningún otro animal puede ver, y la usan como una linterna secreta. En la costa, unos organismos microscópicos llamados dinoflagelados hacen brillar las olas por la noche. Y hay bacterias capaces de iluminar zonas enormes del océano, un fenómeno conocido como «mares lechosos».",
+   "sources": [
+    {
+     "t": "Wikipedia — Bioluminescence",
+     "org": "Wikipedia en inglés",
+     "title": "Bioluminescence",
+     "u": "https://en.wikipedia.org/wiki/Bioluminescence",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-ballena-52hz",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "title": "La «ballena más solitaria del mundo» canta en una frecuencia que nadie más usa",
+   "desc": "Desde 1989 se oye en el Pacífico Norte una ballena que llama a unos 52 hercios. Nunca nadie la ha visto.",
+   "body": "En 1989, un equipo de la Institución Oceanográfica Woods Hole detectó en el Pacífico Norte una llamada de ballena muy extraña: sonaba a unos 52 hercios. Es una frecuencia mucho más alta que la de las ballenas azules, que llaman entre 10 y 39 hercios, o la de los rorcuales comunes, alrededor de 20.\n\nLa Marina de Estados Unidos desclasificó en 1992 los datos de su red de hidrófonos submarinos, y la llamada se ha seguido detectando cada año desde entonces. Como ninguna otra ballena parecía usar esa frecuencia, se la apodó «la ballena más solitaria del mundo».",
+   "deep": "Nadie ha visto nunca a este animal: solo se conoce por su voz, captada por hidrófonos entre las islas Aleutianas, la isla Kodiak y la costa de California. No se sabe de qué especie es; se ha propuesto que tenga alguna malformación o que sea un híbrido entre ballena azul y rorcual común. Su voz se ha ido haciendo más grave con los años, hasta rondar los 50 hercios. Algunas grabaciones de 2010 sugieren que podría haber una segunda ballena con una frecuencia parecida. Su historia ha inspirado canciones, libros y un documental, «The Loneliest Whale: The Search for 52», estrenado en 2021, y se ha convertido en un símbolo de la soledad.",
+   "sources": [
+    {
+     "t": "Wikipedia — 52-hertz whale",
+     "org": "Wikipedia en inglés",
+     "title": "52-hertz whale",
+     "u": "https://en.wikipedia.org/wiki/52-hertz_whale",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-tiburon-groenlandia",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "title": "El tiburón de Groenlandia puede vivir varios siglos",
+   "desc": "Es el vertebrado más longevo que se conoce: vive al menos 272 años y quizá más de 500.",
+   "body": "El tiburón de Groenlandia vive en las aguas heladas del Atlántico Norte y del Ártico, y tiene un récord asombroso: es el vertebrado más longevo que se conoce. Un estudio que analizó con radiocarbono el cristalino de sus ojos calculó que vive al menos 272 años, y posiblemente hasta unos 510.\n\nTodo en él va despacio. Crece apenas entre medio y un centímetro al año, y alcanza la madurez sexual hacia los 150 años. Es también el pez que nada más lentamente para su tamaño: unos 0,34 metros por segundo de media. Los adultos miden normalmente entre 4 y 5 metros.",
+   "deep": "Su carne cruda es tóxica para los mamíferos por su alto contenido en urea y en un compuesto llamado óxido de trimetilamina. En Islandia, sin embargo, se come fermentada y secada: es el hákarl, un plato tradicional famoso por su olor. Muchos de estos tiburones tienen un pequeño crustáceo parásito, Ommatokoita elongata, pegado a los ojos, que puede dejarlos casi ciegos; por eso dependen sobre todo del olfato y el oído. Prefieren el agua muy fría, entre −1,1 y 7,4 °C, y se han registrado a 2.200 metros de profundidad.",
+   "sources": [
+    {
+     "t": "Wikipedia — Greenland shark",
+     "org": "Wikipedia en inglés",
+     "title": "Greenland shark",
+     "u": "https://en.wikipedia.org/wiki/Greenland_shark",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-olas-monstruo",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Fenómenos del mar",
+   "title": "Las «olas monstruo» eran una leyenda de marineros hasta 1995",
+   "desc": "El 1 de enero de 1995, una plataforma del mar del Norte midió una ola de 25,6 metros: la primera ola gigante registrada por un instrumento.",
+   "body": "Durante siglos, los marineros contaron historias de olas gigantescas que aparecían de la nada en medio de una tormenta. Los científicos solían desconfiar: los modelos estadísticos de la época hacían que esas olas parecieran casi imposibles. En 1826, el explorador francés Jules Dumont d'Urville habló de olas de unos 33 metros y fue ridiculizado por el físico François Arago.\n\nEl 1 de enero de 1995 llegó la prueba. Un sensor de la plataforma petrolífera Draupner, en el mar del Norte, registró una ola de 25,6 metros de altura, cuando las olas a su alrededor rondaban los 12. Fue la primera ola gigante detectada por un instrumento de medición.",
+   "deep": "Los oceanógrafos llaman «ola monstruo» u «ola anómala» a la que supera el doble de la altura significativa del oleaje, que es la media del tercio de olas más altas. Tras Draupner, el proyecto MaxWave de la Agencia Espacial Europea identificó en 2004, en solo tres semanas de observación por satélite en el Atlántico Sur, más de diez olas de más de 25 metros. Las olas monstruo se relacionan con varios naufragios, como el del carguero alemán München en 1978, perdido con toda su tripulación. Un informe de 2001 concluyó que el MV Derbyshire, hundido en 1980, fue casi con certeza destruido por una de ellas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Rogue wave",
+     "org": "Wikipedia en inglés",
+     "title": "Rogue wave",
+     "u": "https://en.wikipedia.org/wiki/Rogue_wave",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-lituya",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Fenómenos del mar",
+   "title": "En 1958, un tsunami en Alaska arrasó árboles a 524 metros de altura",
+   "desc": "Un desprendimiento de roca cayó en la bahía de Lituya y el agua subió por la ladera de enfrente más que la altura del Empire State.",
+   "body": "El 9 de julio de 1958, un terremoto de magnitud cercana a 8 sacudió el sureste de Alaska. En la bahía de Lituya, un fiordo estrecho, el temblor provocó que unos 30 millones de metros cúbicos de roca, unos 90 millones de toneladas, se desplomaran de golpe en el agua.\n\nEl impacto desató un megatsunami. El agua subió por la ladera de enfrente y arrancó árboles y suelo hasta una altura de 524 metros sobre el nivel del mar, la mayor registrada. Murieron cinco personas.",
+   "deep": "Hay que precisar qué significa esa cifra: 524 metros es la altura que alcanzó el agua al subir por la montaña, lo que se llama altura de remonte, no la altura de la ola en mar abierto. Una recreación a escala estimó que la cresta de la ola rondó los 150 metros. Aun así, se considera el megatsunami más importante de los tiempos modernos. Dentro de la bahía había varios barcos pesqueros. Dos personas murieron en uno de ellos, pero Howard Ulrich y su hijo de siete años sobrevivieron a bordo del Edrie. La ola dejó alrededor de la bahía una línea de árboles arrancados, visible durante años.",
+   "sources": [
+    {
+     "t": "Wikipedia — 1958 Lituya Bay earthquake and megatsunami",
+     "org": "Wikipedia en inglés",
+     "title": "1958 Lituya Bay earthquake and megatsunami",
+     "u": "https://en.wikipedia.org/wiki/1958_Lituya_Bay_earthquake_and_megatsunami",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-mar-sargazos",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Mares y océanos",
+   "title": "El mar de los Sargazos es el único mar sin costas",
+   "desc": "Está en medio del Atlántico Norte y sus límites los marcan cuatro corrientes oceánicas, no la tierra.",
+   "body": "Casi todos los mares están rodeados total o parcialmente de tierra. El mar de los Sargazos es la excepción: es el único mar con nombre que no tiene costas. Está en el Atlántico Norte, y sus límites los forman cuatro corrientes que giran en el sentido de las agujas del reloj: la corriente del Golfo al oeste, la corriente del Atlántico Norte al norte, la de Canarias al este y la Ecuatorial del Norte al sur.\n\nComo sus bordes dependen de corrientes que se mueven, su tamaño cambia. Mide aproximadamente 1.100 kilómetros de ancho y 3.200 de largo, y un informe de 2011 calculó su superficie en unos 4,16 millones de kilómetros cuadrados.",
+   "deep": "Su nombre viene del sargazo, un alga parda que flota en grandes cantidades sobre su superficie. Sus aguas son de un azul intenso y muy transparentes, con una visibilidad de hasta 60 metros. Cristóbal Colón lo atravesó en 1492 y escribió sobre las algas y la calma de los vientos, que le preocupaba. Durante siglos, los barcos de vela quedaban a veces detenidos en la zona, pero no por las algas, como decían las leyendas, sino por la falta de viento. Es el lugar donde se reproducen las anguilas europeas y americanas, y las tortugas bobas jóvenes se refugian entre sus algas. Las corrientes también concentran allí basura plástica.",
+   "sources": [
+    {
+     "t": "Wikipedia — Sargasso Sea",
+     "org": "Wikipedia en inglés",
+     "title": "Sargasso Sea",
+     "u": "https://en.wikipedia.org/wiki/Sargasso_Sea",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-anguilas",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "title": "Nadie ha visto nunca a las anguilas europeas reproducirse en libertad",
+   "desc": "Cruzan el Atlántico para desovar en el mar de los Sargazos, pero su apareamiento en la naturaleza sigue sin observarse.",
+   "body": "Durante siglos, el ciclo de vida de la anguila europea fue un misterio. Sus cinco etapas de vida son tan distintas que se creyó que eran especies diferentes: la larva transparente con forma de hoja, la angula, el angulón, la anguila amarilla y la anguila plateada.\n\nA principios del siglo XX, el investigador danés Johannes Schmidt, siguiendo larvas cada vez más pequeñas por el Atlántico, señaló el mar de los Sargazos como su probable lugar de reproducción. Las larvas viajan a la deriva hacia Europa durante unos 300 días. De adultas, las anguilas regresan a ese mar, a miles de kilómetros, para desovar. Pero el apareamiento en libertad todavía no se ha observado.",
+   "deep": "Las angulas llegan a los estuarios europeos y suben por los ríos, donde viven durante años; en estado salvaje suelen vivir entre 15 y 20 años. Cuando están listas para volver, cambian de color y se vuelven plateadas, un proceso que las prepara para el viaje oceánico. Un proyecto neerlandés intentó simular en laboratorio ese viaje de unos 6.500 kilómetros hasta los Sargazos. Hoy la anguila europea está en peligro crítico: se calcula que el número de angulas que llegan a Europa ha caído alrededor de un 90 % desde los años setenta.",
+   "sources": [
+    {
+     "t": "Wikipedia — European eel",
+     "org": "Wikipedia en inglés",
+     "title": "European eel",
+     "u": "https://en.wikipedia.org/wiki/European_eel",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-tortugas-temperatura",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "title": "La temperatura de la arena decide si una tortuga marina nace macho o hembra",
+   "desc": "Los nidos más cálidos producen hembras y los más frescos, machos. El calentamiento global ya está alterando la proporción.",
+   "body": "En las tortugas marinas, el sexo de las crías no lo deciden los cromosomas, sino la temperatura de la arena donde se incuban los huevos. Los nidos más cálidos producen sobre todo hembras, y los más frescos, sobre todo machos.\n\nEsto hace a las tortugas especialmente vulnerables al cambio climático. Un estudio de 2018 sobre tortugas cercanas a la Gran Barrera de Coral, en Australia, encontró una enorme mayoría de hembras entre los ejemplares jóvenes, una señal de que el calentamiento ya está alterando el equilibrio de sexos.",
+   "deep": "Existen siete especies de tortugas marinas, y cinco figuran como amenazadas en la Lista Roja de la UICN. Muchas regresan a desovar a la misma playa en la que nacieron, a veces cada dos a cuatro años. Para orientarse usan el campo magnético de la Tierra como un mapa y una brújula. Su vida está llena de peligros: de un nido de unos 100 huevos, de media solo una cría llega a adulta. La mayor es la tortuga laúd, que puede medir más de 1,8 metros y pesar hasta 640 kilos. Las tortugas confunden a menudo las bolsas de plástico con medusas, una de sus presas, y se las tragan.",
+   "sources": [
+    {
+     "t": "Wikipedia — Sea turtle",
+     "org": "Wikipedia en inglés",
+     "title": "Sea turtle",
+     "u": "https://en.wikipedia.org/wiki/Sea_turtle",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-cachalote",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "title": "El cachalote tiene el cerebro más grande del reino animal",
+   "desc": "Pesa unos 7 kilos, más de cinco veces el cerebro humano, y sus chasquidos son el sonido más fuerte producido por un animal.",
+   "body": "El cachalote es un animal de récords. Tiene el cerebro más grande de todos los animales conocidos: unos 7,08 kilos de media, más de cinco veces el peso de un cerebro humano. Los machos adultos miden alrededor de 16 metros y pesan unas 45 toneladas, lo que lo convierte en el mayor depredador con dientes del planeta.\n\nPara cazar calamares se sumerge hasta unos 2.250 metros. Sus inmersiones habituales duran unos 35 minutos, pero algunas llegan a dos horas. En la oscuridad se orienta con chasquidos que pueden alcanzar los 236 decibelios: el sonido más fuerte que produce cualquier animal.",
+   "deep": "Su nombre en inglés, «sperm whale», viene del espermaceti, una sustancia aceitosa de su cabeza que los balleneros usaban para velas, lámparas y lubricantes. En su sistema digestivo se forma a veces el ámbar gris, una sustancia cerosa muy apreciada como fijador en perfumería, que quizá se produce en respuesta a los picos de los calamares que come. El 20 de noviembre de 1820, un cachalote embistió y hundió el ballenero Essex, un suceso que se cree que inspiró «Moby Dick», de Herman Melville. Los grupos de cachalotes pueden descansar flotando en posición vertical, con la cabeza cerca de la superficie.",
+   "sources": [
+    {
+     "t": "Wikipedia — Sperm whale",
+     "org": "Wikipedia en inglés",
+     "title": "Sperm whale",
+     "u": "https://en.wikipedia.org/wiki/Sperm_whale",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-pez-luna",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "title": "El pez luna pone hasta 300 millones de huevos de una vez",
+   "desc": "Es el vertebrado más prolífico conocido, y sus crías pueden multiplicar su peso hasta 60 millones de veces.",
+   "body": "El pez luna, Mola mola, parece una cabeza enorme sin cuerpo: en lugar de cola tiene una especie de pseudocola llamada clavus, que usa como timón. Los adultos miden de media 1,8 metros, el mayor registrado alcanzó 3,3 metros, y suelen pesar entre 247 y 1.000 kilos.\n\nSu récord más llamativo es la reproducción: una hembra puede liberar hasta 300 millones de huevos de una sola vez, más que cualquier otro vertebrado conocido. Las crías que sobreviven crecen de forma asombrosa: pueden llegar a multiplicar su peso hasta 60 millones de veces.",
+   "deep": "Durante mucho tiempo se dijo que el pez luna era el pez óseo más pesado del mundo, pero ese título corresponde en realidad a una especie emparentada, Mola alexandrini. También se pensaba que comía casi solo medusas; los análisis genéticos muestran que tiene una dieta variada, con pequeños peces, larvas, calamares y crustáceos, y que las medusas y salpas son solo una parte. Se le ve a menudo tumbado de lado en la superficie, tomando el sol, quizá para recuperar calor tras bucear en aguas profundas y frías. Puede llevar encima más de 40 especies de parásitos. Su nombre científico, mola, significa «piedra de molino» en latín, por su forma redonda.",
+   "sources": [
+    {
+     "t": "Wikipedia — Ocean sunfish",
+     "org": "Wikipedia en inglés",
+     "title": "Ocean sunfish",
+     "u": "https://en.wikipedia.org/wiki/Ocean_sunfish",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-vaquita",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "title": "La vaquita marina es el mamífero marino más amenazado del mundo",
+   "desc": "Vive solo en el norte del golfo de California y en 2024 se contaron apenas entre 6 y 8 ejemplares como mínimo.",
+   "body": "La vaquita marina es el cetáceo más pequeño que existe: las hembras miden alrededor de 1,5 metros. Vive únicamente en el norte del golfo de California, en México, en aguas poco profundas y turbias. Fue descrita como especie en 1958 a partir de cráneos encontrados en una playa.\n\nSu población se ha desplomado. Se calcula que había unos 567 ejemplares en 1997 y unos 150 en 2007; en 2018 quedaban menos de 19. Un censo de 2024 contó un mínimo de entre 6 y 8, la cifra más baja jamás registrada, aunque el área estudiada era pequeña. En 2025, el seguimiento identificó entre 7 y 10 individuos y crías nuevas.",
+   "deep": "La causa principal de su declive son las redes de enmalle, en las que las vaquitas quedan atrapadas y se ahogan. Muchas de esas redes son ilegales y se colocan para pescar totoaba, un pez cuya vejiga natatoria se vende en el mercado negro, sobre todo en China, para la medicina tradicional. A pesar de las prohibiciones y de la zona de exclusión creada en su hábitat, la pesca ilegal continúa. La UICN la clasifica en peligro crítico, a un paso de la extinción en estado silvestre. La aparición de crías en los últimos años mantiene una pequeña esperanza.",
+   "sources": [
+    {
+     "t": "Wikipedia — Vaquita",
+     "org": "Wikipedia en inglés",
+     "title": "Vaquita",
+     "u": "https://en.wikipedia.org/wiki/Vaquita",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-nieve-marina",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Fondo marino",
+   "title": "En el fondo del océano «nieva» sin parar",
+   "desc": "La nieve marina es una lluvia constante de restos orgánicos que cae desde la superficie y alimenta a los animales del abismo.",
+   "body": "En las profundidades del océano cae una nevada que nunca termina. Los oceanógrafos la llaman nieve marina: una lluvia continua de partículas formadas por restos de animales y algas muertos, excrementos, arena y polvo, unidos en parte por mucosidad.\n\nLos copos pueden crecer hasta varios centímetros de diámetro y tardan semanas en llegar al fondo. Para los animales del mar profundo, adonde no llega la luz del Sol, esta nieve es una fuente de alimento fundamental. La mayor parte se consume durante el primer kilómetro de caída, así que a los animales del fondo solo les llegan las sobras de las sobras.",
+   "deep": "La nieve marina cumple también un papel en el clima. Al hundirse, transporta carbono desde la superficie hasta las profundidades, un proceso conocido como bomba biológica. Entre el 1 % y el 40 % de la producción de la superficie se exporta hacia abajo, pero solo alrededor del 1 % llega al fondo marino, donde puede quedar almacenado durante mucho tiempo. Se suele atribuir el nombre al explorador William Beebe, que la observó desde su batisfera en los años treinta, aunque esa atribución no está bien documentada.",
+   "sources": [
+    {
+     "t": "Wikipedia — Marine snow",
+     "org": "Wikipedia en inglés",
+     "title": "Marine snow",
+     "u": "https://en.wikipedia.org/wiki/Marine_snow",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-lagos-submarinos",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Fondo marino",
+   "title": "En el fondo del mar hay lagos, con orillas y todo",
+   "desc": "Son piscinas de salmuera de tres a ocho veces más saladas que el mar, tan densas que no se mezclan con el agua de encima.",
+   "body": "En algunos lugares del fondo marino hay algo que parece imposible: lagos bajo el agua. Son piscinas de salmuera, un agua tan salada, de tres a ocho veces más que el océano que las rodea, que resulta mucho más densa y no se mezcla con el agua de arriba. Tienen una superficie y orillas visibles, como un lago en tierra firme.\n\nVan desde menos de un metro cuadrado hasta los 120 kilómetros cuadrados de la cuenca Orca, en el golfo de México. Se forman de varias maneras: al disolverse antiguas capas de sal enterradas bajo el fondo, como en el golfo de México; por la expulsión de sal al formarse el hielo marino; o por salmuera calentada en las dorsales oceánicas, como en el mar Rojo.",
+   "deep": "Para la mayoría de los animales, estos lagos son una trampa mortal. Como su agua no se mezcla, no tiene oxígeno, y los animales que entran en ella mueren; sus cuerpos pueden conservarse durante años. En cambio, sus orillas están llenas de vida: bacterias que obtienen energía de sustancias como el metano y el sulfuro de hidrógeno, y mejillones que viven en simbiosis con ellas. Los científicos estudian los microbios que soportan estas condiciones extremas, y algunos proponen usar estos lagos para entender cómo podría existir agua salada líquida en Marte.",
+   "sources": [
+    {
+     "t": "Wikipedia — Brine pool",
+     "org": "Wikipedia en inglés",
+     "title": "Brine pool",
+     "u": "https://en.wikipedia.org/wiki/Brine_pool",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-tsunami-2004",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Fenómenos del mar",
+   "title": "Una niña de 10 años salvó una playa entera gracias a una clase de geografía",
+   "desc": "En el tsunami de 2004, Tilly Smith reconoció las señales de alerta que había aprendido en el colegio y la playa se evacuó a tiempo.",
+   "body": "El 26 de diciembre de 2004, un terremoto de magnitud 9,1 a 9,3 frente a la costa de Sumatra, en Indonesia, desató uno de los peores desastres naturales de la historia. El tsunami golpeó 14 países, con olas de hasta 30 metros, y causó cerca de 230.000 muertes. En aquel momento no existía un sistema de alerta de tsunamis en el océano Índico.\n\nEn la playa de Maikhao, en Phuket, Tailandia, una turista británica de 10 años, Tilly Smith, vio que el mar se comportaba de forma extraña y se retiraba. Reconoció la señal: lo había estudiado en una clase de geografía. Avisó a sus padres, se dio la alarma y la playa se evacuó antes de que llegara la ola.",
+   "deep": "La retirada repentina del mar es una de las señales clásicas de un tsunami: antes de la gran ola, el agua puede alejarse de la costa y dejar al descubierto el fondo. Mucha gente, sin saberlo, se acerca a mirar, justo cuando debería huir hacia zonas altas. El terremoto de 2004 fue tan potente que las fallas se movieron durante al menos diez minutos, y los modelos teóricos calcularon que acortó la duración del día en 2,68 microsegundos. El recuento de víctimas varía según la fuente: la Coalición de Evaluación del Tsunami registró 227.898 muertes.",
+   "sources": [
+    {
+     "t": "Wikipedia — 2004 Indian Ocean earthquake and tsunami",
+     "org": "Wikipedia en inglés",
+     "title": "2004 Indian Ocean earthquake and tsunami",
+     "u": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "m-isla-plastico",
+   "type": "mito",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Contaminación",
+   "verdict": "matizado",
+   "title": "«En el Pacífico flota una isla de basura que se ve desde el espacio»",
+   "desc": "Matizado. La gran mancha de basura del Pacífico existe y es enorme, pero no es una isla sólida ni se ve desde satélites.",
+   "body": "La gran mancha de basura del Pacífico es real. Está en el Pacífico Norte, dentro de un gran remolino de corrientes, y se calcula que ocupa unos 1,6 millones de kilómetros cuadrados, más o menos el doble de la superficie de Texas. Un estudio de 2018 estimó que contiene unas 79.000 toneladas de plástico.\n\nLo que no es real es la imagen de una isla compacta sobre la que se podría caminar. La basura está muy dispersa, con una densidad baja de partículas, y la mayor parte flota bajo la superficie en forma de microplásticos del tamaño de una uña o más pequeños. Por eso no se puede ver desde los satélites, y un barco puede atravesarla sin notar nada a simple vista.",
+   "deep": "Aunque los microplásticos son mayoría si se cuentan las piezas, cerca del 92 % de la masa está en objetos más grandes, y casi la mitad corresponde a redes de pesca sintéticas, según el estudio de 2018. La NOAA predijo la existencia de la mancha en 1988, y el navegante Charles Moore la encontró en 1997. La limpieza es un desafío enorme: a finales de 2024, la organización The Ocean Cleanup había retirado más de 450 toneladas de basura, apenas un 0,5 % del total acumulado. Y la mancha tiene habitantes: un estudio de 2021 encontró más de 40 especies animales viviendo sobre los restos analizados.",
+   "sources": [
+    {
+     "t": "Wikipedia — Great Pacific garbage patch",
+     "org": "Wikipedia en inglés",
+     "title": "Great Pacific garbage patch",
+     "u": "https://en.wikipedia.org/wiki/Great_Pacific_garbage_patch",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "m-kraken",
+   "type": "mito",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Leyendas del mar",
+   "verdict": "matizado",
+   "title": "«El kraken, el monstruo que hundía barcos, es solo una fantasía»",
+   "desc": "Matizado. El kraken es una leyenda, pero pudo inspirarse en un animal real: el calamar gigante.",
+   "body": "El kraken es un monstruo marino de la tradición escandinava, que según la leyenda vivía en el mar de Noruega. Su primera descripción con nombre aparece en un glosario noruego de 1646, y en 1753 el obispo Erik Pontoppidan lo hizo famoso al afirmar que podía arrastrar al fondo grandes barcos de guerra. Ni siquiera él sabía si era un pulpo, una estrella de mar o un cangrejo.\n\nNingún animal real hunde barcos. Pero en el siglo XIX, cuando se estudiaron los primeros ejemplares de calamar gigante, muchos naturalistas propusieron que estos animales, capaces de superar los 10 metros, estaban detrás de la leyenda. Los avistamientos de marineros de calamares gigantes, o de sus peleas con cachalotes en la superficie, pudieron alimentar el mito.",
+   "deep": "La palabra viene del noruego «krake», que originalmente significaba un árbol torcido o retorcido, y más tarde un ancla o rastra, quizá por la forma de sus tentáculos. La imagen moderna del kraken como un pulpo gigante que ataca barcos se fijó con un grabado de 1801 de Denys-Montfort y con novelas como «Los trabajadores del mar», de Victor Hugo, y «Veinte mil leguas de viaje submarino», de Jules Verne. Desde entonces aparece en poemas como «The Kraken», de Tennyson, en películas como «Piratas del Caribe» y hasta en el espacio: un mar de metano de Titán, la luna de Saturno, se llama Kraken Mare.",
+   "sources": [
+    {
+     "t": "Wikipedia — Kraken",
+     "org": "Wikipedia en inglés",
+     "title": "Kraken",
+     "u": "https://en.wikipedia.org/wiki/Kraken",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "m-ahogarse-gritos",
+   "type": "mito",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Seguridad en el agua",
+   "verdict": "falso",
+   "title": "«Una persona que se ahoga grita y agita los brazos pidiendo ayuda»",
+   "desc": "Falso. Ahogarse suele ser silencioso: la persona a menudo no puede gritar ni hacer señas.",
+   "body": "En las películas, quien se ahoga chapotea, grita y mueve los brazos. En la realidad suele ser muy distinto: el ahogamiento no es necesariamente violento ni ruidoso, y puede ser silencioso. La persona que se está ahogando muchas veces no puede saludar, gritar ni hablar, porque todo su esfuerzo se concentra en intentar respirar.\n\nLos comportamientos instintivos de los últimos 20 a 60 segundos antes de hundirse son el último intento del cuerpo por conseguir aire. En ese momento la persona normalmente no puede pedir ayuda ni agarrar un salvavidas. Quien no sabe nadar solo puede mantenerse en la superficie entre 20 y 60 segundos antes de hundirse.",
+   "deep": "Saberlo puede salvar vidas, sobre todo con niños: los menores de cinco años tienen las tasas de ahogamiento más altas del mundo, y la OMS calcula unas 300.000 muertes al año por ahogamiento, la mayoría en países de ingresos bajos y medios. Por eso los expertos insisten en vigilar a los niños de forma constante y cercana cuando están en el agua, sin esperar a oír un grito. Otro consejo útil en el mar: si te arrastra una corriente de resaca, no nades directamente contra ella; avanza en paralelo a la orilla o déjate llevar y vuelve en ángulo. También es un mito el llamado «ahogamiento seco» horas después de salir del agua: no es un diagnóstico médico aceptado.",
+   "sources": [
+    {
+     "t": "Wikipedia — Drowning",
+     "org": "Wikipedia en inglés",
+     "title": "Drowning",
+     "u": "https://en.wikipedia.org/wiki/Drowning",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "m-tiburones-cancer",
+   "type": "mito",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "verdict": "falso",
+   "title": "«Los tiburones no tienen cáncer»",
+   "desc": "Falso. Se han documentado tumores en tiburones, y los suplementos de cartílago de tiburón no curan el cáncer.",
+   "body": "La idea de que los tiburones no enferman de cáncer se popularizó con un libro de 1992 titulado «Los tiburones no tienen cáncer», que promovía el cartílago de tiburón como tratamiento. Es falso: los investigadores han documentado 40 tumores, benignos y malignos, en 18 especies de tiburones.\n\nTampoco funciona el supuesto remedio. Un ensayo de la Clínica Mayo con pacientes con cáncer avanzado no encontró ningún indicio de eficacia, y otro ensayo patrocinado por el Instituto Nacional del Cáncer de Estados Unidos no halló diferencias en la supervivencia entre quienes tomaban cartílago de tiburón y quienes tomaban un placebo.",
+   "deep": "El mito tuvo consecuencias reales. Los suplementos de cartílago de tiburón pueden causar náuseas, molestias digestivas y un exceso de calcio en la sangre, y su consumo se ha relacionado con el declive de las poblaciones de tiburones. En Estados Unidos, la Comisión Federal de Comercio actuó contra promotores fraudulentos: en 2004 ordenó a la empresa Lane Labs-USA dejar de anunciar sus productos de cartílago de tiburón y le impuso una sanción de un millón de dólares. Que una especie tenga pocos casos registrados de cáncer no significa que sea inmune; muchas veces solo indica que se ha estudiado poco.",
+   "sources": [
+    {
+     "t": "Wikipedia — Shark cartilage",
+     "org": "Wikipedia en inglés",
+     "title": "Shark cartilage",
+     "u": "https://en.wikipedia.org/wiki/Shark_cartilage",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "m-tiburones-peligro",
+   "type": "mito",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Vida marina",
+   "verdict": "falso",
+   "title": "«Los tiburones son máquinas de matar que buscan atacar a las personas»",
+   "desc": "Falso. Se registran unos 80 ataques no provocados al año en todo el mundo, y los humanos no forman parte de su dieta.",
+   "body": "Desde la película «Tiburón», muchas personas temen a estos animales mucho más de lo que justifican los datos. En todo el mundo se registran alrededor de 80 ataques no provocados al año. En 2016 hubo 81 ataques y cuatro muertes, y entre 2001 y 2010 murieron de media 4,3 personas al año por ataques de tiburón.\n\nLos humanos no forman parte de la dieta normal de los tiburones. La mayoría de los ataques son mordiscos rápidos en los que el tiburón se retira, y se cree que muchos son casos de identidad equivocada. Aun así, un solo mordisco puede causar heridas graves.",
+   "deep": "Solo tres especies, el tiburón blanco, el tiburón tigre y el tiburón toro, acumulan decenas de ataques mortales no provocados. El riesgo depende sobre todo del tiempo que se pasa en el agua y del lugar: en Estados Unidos, la probabilidad de sufrir un ataque en una playa se ha calculado en 1 entre 11,5 millones, y en los estados costeros los rayos matan a muchas más personas que los tiburones. Como resumió el investigador George Burgess, los ataques son básicamente un juego de probabilidades según las horas que pasas en el agua. Hay que tener en cuenta que en muchos países en desarrollo los ataques se registran poco, así que la cifra real de muertes es incierta.",
+   "sources": [
+    {
+     "t": "Wikipedia — Shark attack",
+     "org": "Wikipedia en inglés",
+     "title": "Shark attack",
+     "u": "https://en.wikipedia.org/wiki/Shark_attack",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "m-atlantida",
+   "type": "mito",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "oceanos",
+   "sub": "Leyendas del mar",
+   "verdict": "falso",
+   "title": "«La Atlántida fue una civilización real que se hundió en el océano»",
+   "desc": "Falso, según la mayoría de los especialistas. Es una invención de Platón para ilustrar ideas filosóficas.",
+   "body": "La Atlántida aparece por primera vez en dos diálogos del filósofo griego Platón, el «Timeo» y el «Critias», escritos hacia el año 360 antes de Cristo. Allí se cuenta que una poderosa potencia naval de Occidente atacó a una ciudad parecida a Atenas, perdió el favor de los dioses y se hundió en el Atlántico, 9.000 años antes de la época del legislador Solón.\n\nLa mayoría de los especialistas actuales considera que la Atlántida es ficticia. Platón la usó como una alegoría sobre la soberbia de las naciones y para examinar ideas sobre el gobierno y el poder. Según se cuenta, ya Aristóteles pensaba que Platón la había inventado para enseñar filosofía.",
+   "deep": "La Atlántida se convirtió en un supuesto lugar histórico en el siglo XIX, sobre todo gracias al libro de Ignatius Donnelly «Atlántida: el mundo antediluviano», de 1882. Desde entonces se han propuesto decenas de ubicaciones: la isla griega de Santorini, relacionada con la gran erupción del volcán de Thera; Chipre, Sicilia, las Azores, Doñana en España e incluso la Antártida. Ninguna cuenta con pruebas arqueológicas. Hoy la palabra «Atlántida» se usa para cualquier supuesta civilización avanzada perdida.",
+   "sources": [
+    {
+     "t": "Wikipedia — Atlantis",
+     "org": "Wikipedia en inglés",
+     "title": "Atlantis",
+     "u": "https://en.wikipedia.org/wiki/Atlantis",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
   }
  ],
  "questions": [
@@ -31907,6 +33236,550 @@ window.SQ_CONTENT = {
    ],
    "a": 1,
    "exp": "Según la Fundación Nobel, su salto internacional llegó con Cien años de soledad (1967)."
+  },
+  {
+   "id": "q419",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-fosa-marianas",
+   "q": "¿Quiénes fueron los primeros en llegar al fondo del abismo Challenger, en 1960?",
+   "o": [
+    "Jacques Cousteau y James Cameron",
+    "Jacques Piccard y Don Walsh",
+    "Victor Vescovo y Don Walsh",
+    "William Beebe y Otis Barton"
+   ],
+   "a": 1,
+   "exp": "Llegaron el 23 de enero de 1960 a bordo del batiscafo Trieste y estuvieron unos 20 minutos en el fondo."
+  },
+  {
+   "id": "q420",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-fosa-marianas",
+   "q": "¿Aproximadamente a qué profundidad está el punto más hondo del océano?",
+   "o": [
+    "Unos 4.000 m",
+    "Unos 6.500 m",
+    "Unos 10.900 m",
+    "Unos 15.000 m"
+   ],
+   "a": 2,
+   "exp": "Una estimación de 2021 sitúa el abismo Challenger a unos 10.935 metros bajo el nivel del mar."
+  },
+  {
+   "id": "q421",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-capas-oceano",
+   "q": "¿Cuál es la única capa del océano con luz suficiente para la fotosíntesis?",
+   "o": [
+    "La epipelágica",
+    "La mesopelágica",
+    "La batipelágica",
+    "La hadal"
+   ],
+   "a": 0,
+   "exp": "La zona epipelágica, la superior, concentra casi toda la producción primaria y alrededor del 90 % de la vida marina."
+  },
+  {
+   "id": "q422",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "a-cinta-transportadora",
+   "q": "¿Qué dos factores impulsan la circulación termohalina del océano?",
+   "o": [
+    "El viento y la Luna",
+    "La temperatura y la sal",
+    "Los volcanes y los ríos",
+    "La rotación y la gravedad del Sol"
+   ],
+   "a": 1,
+   "exp": "Las diferencias de temperatura y de salinidad cambian la densidad del agua: el agua fría y salada se hunde y pone en marcha la circulación."
+  },
+  {
+   "id": "q423",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-arrecifes-coral",
+   "q": "¿Qué provoca el blanqueamiento de los corales?",
+   "o": [
+    "La falta de luz",
+    "El agua demasiado caliente, que les hace expulsar sus algas",
+    "El exceso de peces",
+    "El agua demasiado fría"
+   ],
+   "a": 1,
+   "exp": "Con el calor, los corales expulsan a las zooxantelas, las algas que les dan color y alimento, y si la situación dura, mueren."
+  },
+  {
+   "id": "q424",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-arrecifes-coral",
+   "q": "¿Qué porcentaje de la superficie oceánica cubren los arrecifes de coral?",
+   "o": [
+    "Menos del 0,1 %",
+    "Un 5 %",
+    "Un 15 %",
+    "Un 25 %"
+   ],
+   "a": 0,
+   "exp": "Cubren menos del 0,1 % del océano, pero albergan al menos una cuarta parte de las especies marinas."
+  },
+  {
+   "id": "q425",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-mareas",
+   "q": "¿Dónde se registran las mareas más grandes del mundo?",
+   "o": [
+    "En el mar Mediterráneo",
+    "En la bahía de Fundy, Canadá",
+    "En el mar Caribe",
+    "En el mar Báltico"
+   ],
+   "a": 1,
+   "exp": "En Burntcoat Head, en la bahía de Fundy, se midió una diferencia máxima de 16,3 metros entre marea alta y baja."
+  },
+  {
+   "id": "q426",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "a-mareas",
+   "q": "¿Cuándo se producen las mareas vivas, las de mayor amplitud?",
+   "o": [
+    "En luna nueva y luna llena",
+    "Solo en invierno",
+    "En los cuartos de luna",
+    "Durante los eclipses solares únicamente"
+   ],
+   "a": 0,
+   "exp": "En luna nueva y llena el Sol y la Luna se alinean y sus fuerzas de marea se suman."
+  },
+  {
+   "id": "q427",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-oceano-inexplorado",
+   "q": "Según datos de 2024, ¿qué parte del fondo oceánico se ha cartografiado con detalle?",
+   "o": [
+    "Un 5 %",
+    "Algo más de un 26 %",
+    "Un 60 %",
+    "Casi el 100 %"
+   ],
+   "a": 1,
+   "exp": "Solo algo más del 26 % del fondo se había cartografiado con más resolución que la que ofrecen los satélites."
+  },
+  {
+   "id": "q428",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-mar-salado",
+   "q": "¿Cuál es la salinidad media del agua de mar?",
+   "o": [
+    "Alrededor del 0,5 %",
+    "Alrededor del 3,5 %",
+    "Alrededor del 10 %",
+    "Alrededor del 25 %"
+   ],
+   "a": 1,
+   "exp": "Cada litro contiene de media unos 35 gramos de sales, sobre todo sodio y cloruro."
+  },
+  {
+   "id": "q429",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-mar-azul",
+   "q": "¿Cuál es la razón principal de que el mar sea azul?",
+   "o": [
+    "Refleja el color del cielo",
+    "El agua absorbe sobre todo la luz roja",
+    "Contiene un pigmento azul",
+    "La sal es de color azul"
+   ],
+   "a": 1,
+   "exp": "El agua absorbe preferentemente la luz roja y deja pasar y dispersa la azul; el reflejo del cielo influye, pero es secundario."
+  },
+  {
+   "id": "q430",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-fuentes-hidrotermales",
+   "q": "¿De dónde obtienen energía las bacterias que sostienen la vida en las fuentes hidrotermales?",
+   "o": [
+    "De la luz del Sol",
+    "De sustancias químicas como el sulfuro de hidrógeno",
+    "Del calor de las algas",
+    "De la electricidad del agua"
+   ],
+   "a": 1,
+   "exp": "Hacen quimiosíntesis: usan la energía de sustancias químicas que brotan de las fuentes para fabricar materia orgánica."
+  },
+  {
+   "id": "q431",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-rape-abisal",
+   "q": "¿Qué hace brillar el cebo de los rapes abisales?",
+   "o": [
+    "Un órgano eléctrico",
+    "Bacterias luminosas que viven en él",
+    "Un reflejo de la luna",
+    "Cristales de sal"
+   ],
+   "a": 1,
+   "exp": "La esca de las especies de profundidad contiene bacterias bioluminiscentes."
+  },
+  {
+   "id": "q432",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-calamar-gigante",
+   "q": "¿Cuál es el principal depredador del calamar gigante?",
+   "o": [
+    "El tiburón blanco",
+    "El cachalote",
+    "La orca",
+    "El pez espada"
+   ],
+   "a": 1,
+   "exp": "Muchos cachalotes llevan en la cabeza cicatrices de las ventosas de los calamares gigantes que cazan."
+  },
+  {
+   "id": "q433",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-bioluminiscencia",
+   "q": "¿De qué color es la mayor parte de la luz que producen los animales marinos?",
+   "o": [
+    "Roja",
+    "Azul o verde",
+    "Amarilla",
+    "Blanca"
+   ],
+   "a": 1,
+   "exp": "El azul y el verde son los colores que mejor viajan por el agua, y son los que emite la mayoría de los animales marinos."
+  },
+  {
+   "id": "q434",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-ballena-52hz",
+   "q": "¿Por qué se llama «la ballena más solitaria del mundo» a la ballena de 52 hercios?",
+   "o": [
+    "Porque vive en una cueva",
+    "Porque ninguna otra ballena parece llamar en su frecuencia",
+    "Porque es la última de su especie",
+    "Porque nunca sale a respirar"
+   ],
+   "a": 1,
+   "exp": "Llama a unos 52 hercios, una frecuencia que no se ha detectado en otras ballenas, y nunca ha sido vista."
+  },
+  {
+   "id": "q435",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-tiburon-groenlandia",
+   "q": "¿Cuántos años puede vivir el tiburón de Groenlandia, según estudios del cristalino de sus ojos?",
+   "o": [
+    "Unos 30",
+    "Unos 80",
+    "Al menos 272",
+    "Más de 2.000"
+   ],
+   "a": 2,
+   "exp": "El radiocarbono de su cristalino indica una vida de al menos 272 años, quizá hasta unos 510: el vertebrado más longevo conocido."
+  },
+  {
+   "id": "q436",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-olas-monstruo",
+   "q": "¿Qué se registró en la plataforma Draupner el 1 de enero de 1995?",
+   "o": [
+    "Un terremoto",
+    "La primera ola monstruo medida por un instrumento",
+    "El primer tsunami del mar del Norte",
+    "Un remolino gigante"
+   ],
+   "a": 1,
+   "exp": "Un sensor midió una ola de 25,6 metros cuando el oleaje a su alrededor rondaba los 12 metros."
+  },
+  {
+   "id": "q437",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-lituya",
+   "q": "¿Qué provocó el megatsunami de la bahía de Lituya en 1958?",
+   "o": [
+    "Un meteorito",
+    "Un desprendimiento de roca causado por un terremoto",
+    "La explosión de un volcán submarino",
+    "Una tormenta"
+   ],
+   "a": 1,
+   "exp": "El terremoto hizo caer unos 30 millones de metros cúbicos de roca en la bahía, y el agua subió hasta 524 metros por la ladera de enfrente."
+  },
+  {
+   "id": "q438",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-mar-sargazos",
+   "q": "¿Qué tiene de especial el mar de los Sargazos?",
+   "o": [
+    "Es el más profundo",
+    "Es el único mar sin costas",
+    "Es de agua dulce",
+    "Está siempre congelado"
+   ],
+   "a": 1,
+   "exp": "Sus límites los marcan cuatro corrientes oceánicas del Atlántico Norte, no la tierra."
+  },
+  {
+   "id": "q439",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-anguilas",
+   "q": "¿Dónde se reproducen las anguilas europeas?",
+   "o": [
+    "En los ríos de Europa",
+    "En el mar de los Sargazos",
+    "En el mar Mediterráneo",
+    "En el océano Ártico"
+   ],
+   "a": 1,
+   "exp": "Cruzan el Atlántico hasta el mar de los Sargazos, aunque su apareamiento en libertad nunca se ha observado."
+  },
+  {
+   "id": "q440",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-tortugas-temperatura",
+   "q": "¿Qué decide el sexo de una tortuga marina?",
+   "o": [
+    "La edad de la madre",
+    "La temperatura de la arena del nido",
+    "La luna llena",
+    "El tamaño del huevo"
+   ],
+   "a": 1,
+   "exp": "Los nidos cálidos producen sobre todo hembras y los frescos, sobre todo machos."
+  },
+  {
+   "id": "q441",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-cachalote",
+   "q": "¿Qué animal tiene el cerebro más grande conocido?",
+   "o": [
+    "El elefante africano",
+    "La ballena azul",
+    "El cachalote",
+    "El ser humano"
+   ],
+   "a": 2,
+   "exp": "El cerebro del cachalote pesa de media unos 7 kilos, más de cinco veces el humano."
+  },
+  {
+   "id": "q442",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-pez-luna",
+   "q": "¿Cuántos huevos puede liberar de una vez una hembra de pez luna?",
+   "o": [
+    "Unos 100",
+    "Unos 10.000",
+    "Hasta 300 millones",
+    "Hasta 5 billones"
+   ],
+   "a": 2,
+   "exp": "Es el vertebrado más prolífico que se conoce."
+  },
+  {
+   "id": "q443",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-vaquita",
+   "q": "¿Dónde vive la vaquita marina?",
+   "o": [
+    "En el Caribe",
+    "Solo en el norte del golfo de California",
+    "En el mar Mediterráneo",
+    "En la Antártida"
+   ],
+   "a": 1,
+   "exp": "Es endémica del norte del golfo de California, en México, y es el mamífero marino más amenazado."
+  },
+  {
+   "id": "q444",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-nieve-marina",
+   "q": "¿Qué es la nieve marina?",
+   "o": [
+    "Hielo que se forma en el fondo",
+    "Una lluvia de restos orgánicos que cae hacia el fondo",
+    "Espuma de las olas",
+    "Sal cristalizada"
+   ],
+   "a": 1,
+   "exp": "Es una lluvia continua de restos de seres vivos, excrementos y polvo que alimenta a los animales del abismo."
+  },
+  {
+   "id": "q445",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-lagos-submarinos",
+   "q": "¿Por qué el agua de los lagos submarinos de salmuera no se mezcla con la del mar?",
+   "o": [
+    "Porque está congelada",
+    "Porque es mucho más salada y densa",
+    "Porque está separada por una roca",
+    "Porque es agua dulce"
+   ],
+   "a": 1,
+   "exp": "Su salinidad, de tres a ocho veces la del mar, la hace tan densa que queda en el fondo como un lago."
+  },
+  {
+   "id": "q446",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-tsunami-2004",
+   "q": "¿Qué señal reconoció Tilly Smith antes del tsunami de 2004?",
+   "o": [
+    "Un fuerte viento",
+    "El mar retirándose de forma extraña",
+    "Animales huyendo",
+    "Una lluvia intensa"
+   ],
+   "a": 1,
+   "exp": "Había aprendido en clase que la retirada repentina del mar puede anunciar un tsunami, y su aviso permitió evacuar la playa."
+  },
+  {
+   "id": "q447",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-isla-plastico",
+   "q": "¿Cómo es realmente la gran mancha de basura del Pacífico?",
+   "o": [
+    "Una isla sólida de plástico",
+    "Una zona enorme con plástico disperso, sobre todo microplásticos",
+    "Un montón de basura en el fondo marino",
+    "Una mancha de petróleo"
+   ],
+   "a": 1,
+   "exp": "La basura está dispersa y en gran parte bajo la superficie, por eso no se ve desde satélites."
+  },
+  {
+   "id": "q448",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-kraken",
+   "q": "¿Qué animal real pudo inspirar la leyenda del kraken?",
+   "o": [
+    "La ballena azul",
+    "El calamar gigante",
+    "El tiburón blanco",
+    "La morena"
+   ],
+   "a": 1,
+   "exp": "Desde el siglo XIX se propone que los calamares gigantes, de más de 10 metros, inspiraron la leyenda."
+  },
+  {
+   "id": "q449",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-ahogarse-gritos",
+   "q": "¿Cómo suele ser en realidad un ahogamiento?",
+   "o": [
+    "Muy ruidoso, con gritos",
+    "A menudo silencioso, sin poder pedir ayuda",
+    "Siempre lento, de varios minutos",
+    "Solo ocurre en aguas profundas"
+   ],
+   "a": 1,
+   "exp": "La persona suele concentrarse en respirar y a menudo no puede gritar ni hacer señas."
+  },
+  {
+   "id": "q450",
+   "cat": "oceanos",
+   "level": 2,
+   "status": "publicado",
+   "ref": "m-tiburones-cancer",
+   "q": "¿Es cierto que los tiburones no tienen cáncer?",
+   "o": [
+    "Sí, son inmunes",
+    "No: se han documentado tumores en varias especies",
+    "Solo los tiburones blancos son inmunes",
+    "Sí, por su cartílago"
+   ],
+   "a": 1,
+   "exp": "Se han registrado 40 tumores en 18 especies, y el cartílago de tiburón no ha mostrado eficacia contra el cáncer."
+  },
+  {
+   "id": "q451",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-tiburones-peligro",
+   "q": "¿Cuántos ataques no provocados de tiburón se registran aproximadamente cada año en el mundo?",
+   "o": [
+    "Unos 80",
+    "Unos 2.000",
+    "Unos 10.000",
+    "Unos 100.000"
+   ],
+   "a": 0,
+   "exp": "Se registran alrededor de 80 al año; entre 2001 y 2010 murieron de media 4,3 personas al año."
+  },
+  {
+   "id": "q452",
+   "cat": "oceanos",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-atlantida",
+   "q": "¿Dónde aparece por primera vez la historia de la Atlántida?",
+   "o": [
+    "En la Biblia",
+    "En los diálogos de Platón",
+    "En una crónica egipcia",
+    "En la Odisea de Homero"
+   ],
+   "a": 1,
+   "exp": "Aparece en el «Timeo» y el «Critias» de Platón, hacia el 360 antes de Cristo, y la mayoría de los especialistas la considera ficticia."
   }
  ],
  "series": [
@@ -32244,6 +34117,53 @@ window.SQ_CONTENT = {
     "c-guion-sin-tilde",
     "c-mayusculas-tilde",
     "c-ch-ll"
+   ]
+  },
+  {
+   "id": "todo-sobre-el-mar",
+   "title": "Todo sobre el mar",
+   "desc": "De la superficie al abismo: fosas, corrientes, olas gigantes, animales imposibles y leyendas marinas.",
+   "intro": "Una ruta por todo el contenido de Lumbrario sobre el océano, de la geografía de los mares a la vida en las fosas, pasando por naufragios, misterios y mitos. Todo con fuentes verificables.",
+   "ids": [
+    "a-fosa-marianas",
+    "a-capas-oceano",
+    "c-oceano-inexplorado",
+    "c-oxigeno-mar",
+    "c-pacifico",
+    "c-punto-nemo",
+    "a-cinta-transportadora",
+    "a-mareas",
+    "c-olas-monstruo",
+    "c-lituya",
+    "c-tsunami-2004",
+    "a-arrecifes-coral",
+    "c-fuentes-hidrotermales",
+    "c-lagos-submarinos",
+    "c-nieve-marina",
+    "c-bioluminiscencia",
+    "c-rape-abisal",
+    "c-calamar-gigante",
+    "a-pulpo",
+    "c-cachalote",
+    "c-ballena-azul",
+    "c-ballena-52hz",
+    "c-samana-ballenas",
+    "c-delfines-duermen",
+    "c-tiburon-groenlandia",
+    "c-tiburones-arboles",
+    "c-medusa-inmortal",
+    "c-pez-payaso",
+    "c-nutria-piedras",
+    "c-tortugas-temperatura",
+    "c-vaquita",
+    "c-mar-sargazos",
+    "c-anguilas",
+    "c-titanic",
+    "c-mary-celeste",
+    "c-bloop",
+    "m-triangulo-bermudas",
+    "m-kraken",
+    "m-atlantida"
    ]
   }
  ]

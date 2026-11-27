@@ -1,0 +1,131 @@
+@a-fosa-marianas
+type: articulo
+sub: Fondo marino
+level: 2
+claim: hecho
+title: El abismo Challenger: así es el lugar más profundo de la Tierra
+subtitle: A casi 11 kilómetros bajo el mar, la presión supera mil veces la de la superficie. Solo unas pocas decenas de personas han estado allí.
+desc: En el fondo de la fosa de las Marianas el agua alcanza unos 10.935 metros de profundidad. Más gente ha ido al espacio que a ese lugar.
+intro: Si pusieras el monte Everest en el fondo de la fosa de las Marianas, su cima seguiría hundida a más de dos kilómetros bajo el agua. Allí, en el extremo sur de la fosa, en el Pacífico occidental, está el abismo Challenger: el punto más profundo conocido de los océanos.
+h: ¿Qué tan profundo es?
+p: Las mediciones varían según el método y el año. Una estimación de 2021 lo sitúa a 10.935 metros bajo el nivel del mar, con un margen de error de unos 6 metros. Otras expediciones han obtenido cifras muy parecidas, entre 10.911 y 10.928 metros.
+p: El nombre viene de dos barcos británicos de investigación. La expedición del HMS Challenger, entre 1872 y 1876, localizó la depresión por primera vez, y la del Challenger II, entre 1950 y 1952, estableció su récord de profundidad.
+h: Una presión aplastante
+p: Cada metro de agua añade peso sobre lo que está debajo. A casi 11 kilómetros de profundidad, la presión medida ronda los 1.100 bares: más de mil veces la presión del aire que respiramos a nivel del mar. Es como si sobre cada centímetro cuadrado descansara más de una tonelada.
+p: Por eso los vehículos que bajan allí necesitan cabinas esféricas de paredes muy gruesas, capaces de soportar esa fuerza sin deformarse.
+h: Los pocos que han bajado
+p: El 23 de enero de 1960, el batiscafo Trieste, pilotado por Jacques Piccard y el teniente de la Marina estadounidense Don Walsh, tocó el fondo por primera vez. Tardaron casi cinco horas en bajar y estuvieron unos 20 minutos abajo.
+p: Pasaron más de cincuenta años hasta la siguiente visita tripulada: el 26 de marzo de 2012, el cineasta James Cameron descendió solo en el Deepsea Challenger. En 2019, el explorador Victor Vescovo bajó con el sumergible Limiting Factor, y desde entonces las inmersiones se han multiplicado. Aun así, en julio de 2022 solo 27 personas habían llegado al abismo Challenger.
+h: Vida en la oscuridad total
+p: Incluso allí hay vida. Cameron solo vio pequeños anfípodos, unos crustáceos parecidos a gambas diminutas, ninguno de más de 2,5 centímetros. En 1980 se recuperó por primera vez un anfípodo vivo de unos 10.900 metros de profundidad.
+p: Los sedimentos del fondo están llenos de organismos unicelulares llamados foraminíferos: se han identificado 432 especies. En cambio, el famoso «pez plano» que Piccard y Walsh dijeron haber visto en 1960 es hoy muy dudoso; muchos biólogos creen que pudo ser un pepino de mar.
+f: El abismo Challenger está en aguas bajo jurisdicción de los Estados Federados de Micronesia.
+f: Una estimación de 2014 de 10.984 metros está en discusión y no se considera fiable.
+conclusion: El abismo Challenger es un recordatorio de lo poco que conocemos nuestro propio planeta: más personas han viajado al espacio que al fondo de su océano.
+src: https://en.wikipedia.org/wiki/Challenger_Deep | Wikipedia en inglés | Challenger Deep
+q: ¿Quiénes fueron los primeros en llegar al fondo del abismo Challenger, en 1960? | Jacques Cousteau y James Cameron ; Jacques Piccard y Don Walsh ; Victor Vescovo y Don Walsh ; William Beebe y Otis Barton | 1 | Llegaron el 23 de enero de 1960 a bordo del batiscafo Trieste y estuvieron unos 20 minutos en el fondo.
+q: ¿Aproximadamente a qué profundidad está el punto más hondo del océano? | Unos 4.000 m ; Unos 6.500 m ; Unos 10.900 m ; Unos 15.000 m | 2 | Una estimación de 2021 sitúa el abismo Challenger a unos 10.935 metros bajo el nivel del mar.
+
+@a-capas-oceano
+type: articulo
+sub: Fondo marino
+level: 1
+claim: hecho
+title: De la luz a la noche eterna: las capas del océano
+subtitle: El mar no es un solo lugar. A medida que bajas, la luz desaparece, el frío aumenta y la vida cambia por completo.
+desc: Solo la capa superior del océano recibe luz suficiente para la fotosíntesis. Debajo, la mayoría de los animales fabrica su propia luz.
+intro: Los oceanógrafos dividen el mar abierto, la llamada zona pelágica, en capas según la profundidad y la cantidad de luz que llega. Cada una es casi un mundo distinto, con sus propios animales y sus propias reglas.
+h: La zona iluminada
+p: La capa superior, la zona epipelágica, es la única con luz suficiente para que las algas hagan fotosíntesis. Es también la más cálida. Allí se produce casi toda la producción primaria del océano y vive alrededor del 90 % de la vida marina.
+p: Es el mundo del plancton, las medusas, los atunes, los delfines, los tiburones y las ballenas. La presión aumenta aproximadamente una atmósfera por cada 10 metros de profundidad.
+h: La zona del crepúsculo
+p: Por debajo está la zona mesopelágica, donde solo llegan restos tenues de luz solar y el agua es mucho más fría. Viven allí calamares, peces espada y otros animales.
+p: Muchos de ellos protagonizan cada noche un viaje gigantesco: suben hacia la superficie para alimentarse aprovechando la oscuridad y vuelven a bajar al amanecer.
+h: La zona de medianoche y el abismo
+p: Más abajo, en la zona batipelágica, la oscuridad es total, salvo por la luz que producen los propios seres vivos. Aquí habitan criaturas como el rape abisal. La temperatura y la salinidad apenas cambian y no hay plantas.
+p: Junto al fondo oceánico está la zona abisopelágica, fría y con una presión enorme. Muchos de sus habitantes, como calamares, estrellas cesta, pepinos de mar o arañas de mar, son transparentes o no tienen ojos.
+h: Las fosas
+p: La capa más profunda, la zona hadal o hadopelágica, ocupa las fosas oceánicas: empieza a más de 6.000 metros y llega hasta unos 11 kilómetros. La presión puede rondar las 1.100 atmósferas. Pocas especies han conquistado este lugar: anfípodos, gusanos poliquetos, equinodermos y algunos moluscos.
+f: El conjunto de la zona pelágica ocupa unos 1.330 millones de kilómetros cúbicos, con una profundidad media de 3,68 kilómetros.
+f: El fitoplancton retira de la atmósfera unos 2.000 millones de toneladas de dióxido de carbono al año.
+conclusion: Cuanto más bajamos, más extraño se vuelve el océano, y más difícil es estudiarlo: la mayor parte del mar profundo sigue sin explorar.
+src: https://en.wikipedia.org/wiki/Pelagic_zone | Wikipedia en inglés | Pelagic zone
+q: ¿Cuál es la única capa del océano con luz suficiente para la fotosíntesis? | La epipelágica ; La mesopelágica ; La batipelágica ; La hadal | 0 | La zona epipelágica, la superior, concentra casi toda la producción primaria y alrededor del 90 % de la vida marina.
+
+@a-cinta-transportadora
+type: articulo
+sub: Clima y corrientes
+level: 2
+claim: hecho
+title: La «cinta transportadora» del océano: el río gigante que regula el clima
+subtitle: El agua del mar recorre el planeta entero, impulsada por diferencias de temperatura y de sal. El viaje puede durar siglos.
+desc: La circulación termohalina mueve el agua de todos los océanos. Las aguas más antiguas tardan unos mil años en volver a la superficie.
+intro: Bajo las olas hay un sistema de corrientes que conecta todos los océanos. Los científicos lo llaman circulación termohalina, y el geoquímico Wallace Broecker lo bautizó con un nombre más fácil de imaginar: la «cinta transportadora global».
+h: Calor y sal
+p: El motor de esta circulación es la densidad del agua. El agua fría es más densa que la caliente, y el agua salada es más densa que la dulce. Cuando el agua de la superficie se enfría o se vuelve más salada, se hunde, y ese hundimiento pone en movimiento enormes masas de agua.
+p: De ahí su nombre: «termo», por la temperatura, y «halina», por la sal.
+h: Dónde se hunde el agua
+p: En el Atlántico Norte, la evaporación vuelve el agua superficial muy salada y fría, y se hunde hacia el fondo. Alrededor de la Antártida ocurre algo parecido por otra razón: cuando el mar se congela, el hielo expulsa la sal, y el agua que queda debajo, más salada y densa, se hunde.
+p: Esas aguas profundas recorren lentamente las cuencas oceánicas. Las más antiguas, con un tiempo de tránsito de alrededor de mil años, vuelven a subir en el Pacífico Norte.
+h: La corriente del Golfo
+p: Una pieza clave es la corriente del Golfo, una corriente superficial impulsada por el viento que lleva agua cálida desde el Atlántico ecuatorial hacia el norte. En su camino se enfría y termina hundiéndose, uniéndose al agua profunda del Atlántico Norte.
+p: El conjunto de corrientes del Atlántico se conoce por sus siglas en inglés, AMOC. Ese transporte de calor influye en el clima de Europa.
+h: ¿Se está frenando?
+p: El IPCC, el panel científico de la ONU sobre el cambio climático, considera muy probable que la AMOC se debilite durante este siglo. Sin embargo, no hay consenso sobre si ya se ha producido una desaceleración sostenida. Un colapso tendría consecuencias importantes: muchos países europeos serían bastante más fríos.
+f: El hielo marino que se forma alrededor de la Antártida expulsa la sal y produce el agua más densa del océano.
+conclusion: El océano no es una masa de agua quieta: es un sistema en movimiento constante que reparte el calor del planeta.
+src: https://en.wikipedia.org/wiki/Thermohaline_circulation | Wikipedia en inglés | Thermohaline circulation
+q: ¿Qué dos factores impulsan la circulación termohalina del océano? | El viento y la Luna ; La temperatura y la sal ; Los volcanes y los ríos ; La rotación y la gravedad del Sol | 1 | Las diferencias de temperatura y de salinidad cambian la densidad del agua: el agua fría y salada se hunde y pone en marcha la circulación.
+
+@a-arrecifes-coral
+type: articulo
+sub: Ecosistemas
+level: 1
+claim: hecho
+title: Arrecifes de coral: las «selvas del mar» construidas por animales
+subtitle: Ocupan una parte mínima del océano, pero albergan al menos una cuarta parte de todas las especies marinas.
+desc: Los corales son animales que viven en alianza con algas. Juntos construyen las mayores estructuras hechas por seres vivos.
+intro: Un arrecife de coral parece un jardín de rocas de colores, pero está construido por animales diminutos. Los pólipos de coral, parientes de las medusas, fabrican esqueletos de carbonato de calcio que, acumulados durante miles de años, forman arrecifes enteros.
+h: Un rincón muy pequeño con mucha vida
+p: Los arrecifes cubren unos 284.300 kilómetros cuadrados, menos del 0,1 % de la superficie oceánica. Aun así, sustentan al menos una cuarta parte de todas las especies marinas, incluidas más de 4.000 especies de peces. Por eso se les llama las «selvas tropicales del mar».
+h: Una alianza con algas
+p: Dentro de sus tejidos, los corales albergan unas algas microscópicas llamadas zooxantelas. Las algas hacen fotosíntesis y pueden aportar hasta el 90 % de los nutrientes del coral; a cambio, reciben refugio. Por eso los arrecifes crecen en aguas claras y poco profundas, a menos de 150 metros.
+p: Un arrecife sano crece despacio: entre 1 y 3 centímetros al año en horizontal y de 1 a 25 centímetros en vertical.
+h: El blanqueamiento
+p: Cuando el agua se calienta demasiado, los corales expulsan a sus algas, pierden el color y se vuelven blancos. Si la situación se prolonga, mueren. Los episodios de El Niño han provocado grandes blanqueamientos, como los de 1998 y 2010.
+p: Los arrecifes tropicales poco profundos han perdido aproximadamente la mitad de su superficie desde 1950, y la cobertura mundial de coral cayó un 14 % entre 2009 y 2018.
+h: La Gran Barrera
+p: El mayor sistema de arrecifes del mundo es la Gran Barrera de Coral, frente a Queensland, en Australia: más de 2.900 arrecifes y 900 islas que se extienden a lo largo de más de 2.600 kilómetros.
+p: Charles Darwin propuso una secuencia clásica de tipos de arrecife: primero el arrecife costero, pegado a una isla volcánica; luego el arrecife de barrera, separado por una laguna; y finalmente el atolón, un anillo de coral que queda cuando la isla se hunde.
+f: Los pólipos de coral pertenecen al mismo grupo de animales que las medusas: los cnidarios.
+f: Las estimaciones del valor económico de los arrecifes varían muchísimo: un estudio de 2020 lo calculó en 2,7 billones de dólares.
+conclusion: Los arrecifes son tan valiosos como frágiles: unos pocos grados de más en el agua bastan para ponerlos en peligro.
+src: https://en.wikipedia.org/wiki/Coral_reef | Wikipedia en inglés | Coral reef
+q: ¿Qué provoca el blanqueamiento de los corales? | La falta de luz ; El agua demasiado caliente, que les hace expulsar sus algas ; El exceso de peces ; El agua demasiado fría | 1 | Con el calor, los corales expulsan a las zooxantelas, las algas que les dan color y alimento, y si la situación dura, mueren.
+q: ¿Qué porcentaje de la superficie oceánica cubren los arrecifes de coral? | Menos del 0,1 % ; Un 5 % ; Un 15 % ; Un 25 % | 0 | Cubren menos del 0,1 % del océano, pero albergan al menos una cuarta parte de las especies marinas.
+
+@a-mareas
+type: articulo
+sub: Clima y corrientes
+level: 1
+claim: hecho
+title: Por qué sube y baja el mar dos veces al día
+subtitle: Las mareas son la huella de la Luna y el Sol en los océanos. Y tienen un efecto sorprendente: alargan los días.
+desc: La gravedad de la Luna levanta dos abultamientos en el océano. En la bahía de Fundy, en Canadá, el mar llega a subir más de 16 metros.
+intro: En casi todas las costas del mundo el mar sube y baja dos veces al día. Isaac Newton fue el primero en explicar por qué, en sus «Principia», publicados en 1687: es un efecto de la gravedad.
+h: Dos abultamientos
+p: La Luna atrae el agua de la Tierra, pero no por igual: tira con más fuerza del lado más cercano que del más lejano. El resultado es un doble abultamiento del océano, uno a cada lado del planeta, alineados con la Luna.
+p: Al girar, la Tierra hace pasar cada costa por esos abultamientos. Por eso la mayoría de las costas tienen dos mareas altas y dos bajas al día. El ciclo principal dura unas 12 horas y 25 minutos, y por eso las mareas llegan cada día un poco más tarde.
+h: Mareas vivas y mareas muertas
+p: El Sol también produce mareas, aunque su fuerza de marea es aproximadamente el 46 % de la de la Luna. Cuando el Sol y la Luna se alinean, en luna nueva y luna llena, sus efectos se suman y se producen las mareas vivas, con la mayor diferencia entre marea alta y baja.
+p: Cuando forman un ángulo recto, en los cuartos de luna, se compensan en parte y se producen las mareas muertas, las más suaves.
+h: Las mareas más altas del mundo
+p: La bahía de Fundy, en Canadá, suele citarse como el lugar con las mareas más grandes del mundo. En Burntcoat Head se ha medido una diferencia máxima de 16,3 metros entre la marea alta y la baja: la altura de un edificio de cinco pisos.
+h: La Luna se aleja
+p: Las mareas rozan contra el fondo marino y las costas, y esa fricción tiene un efecto a escala astronómica: transfiere energía a la órbita de la Luna. Por eso la Luna se aleja de la Tierra unos 3,8 centímetros al año, y los días se alargan muy lentamente.
+f: En La Rance, en Francia, funciona una conocida central eléctrica que aprovecha las mareas.
+f: La energía de las mareas es más predecible que la del viento, porque se pueden calcular con años de antelación.
+conclusion: Cada vez que el mar sube en una playa, estás viendo la fuerza de la Luna, a unos 384.000 kilómetros de distancia.
+src: https://en.wikipedia.org/wiki/Tide | Wikipedia en inglés | Tide
+q: ¿Dónde se registran las mareas más grandes del mundo? | En el mar Mediterráneo ; En la bahía de Fundy, Canadá ; En el mar Caribe ; En el mar Báltico | 1 | En Burntcoat Head, en la bahía de Fundy, se midió una diferencia máxima de 16,3 metros entre marea alta y baja.
+q: ¿Cuándo se producen las mareas vivas, las de mayor amplitud? | En luna nueva y luna llena ; Solo en invierno ; En los cuartos de luna ; Durante los eclipses solares únicamente | 0 | En luna nueva y llena el Sol y la Luna se alinean y sus fuerzas de marea se suman.

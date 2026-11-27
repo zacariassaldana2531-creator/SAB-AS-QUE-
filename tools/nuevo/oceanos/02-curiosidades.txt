@@ -1,0 +1,259 @@
+@c-oceano-inexplorado
+type: curiosidad
+sub: Fondo marino
+level: 1
+claim: hecho
+title: Conocemos mejor el mapa de la Luna que el del fondo del mar
+desc: A 2024, solo algo más del 26 % del fondo oceánico se había cartografiado con detalle.
+b: El océano cubre alrededor del 70,8 % de la superficie de la Tierra, unos 361 millones de kilómetros cuadrados, y guarda cerca del 97 % de toda el agua del planeta. Su profundidad media es de 3.688 metros. Y, sin embargo, la mayor parte de su fondo sigue sin un mapa detallado.
+b: Según los datos de 2024, solo algo más del 26 % del fondo oceánico se ha cartografiado con más resolución de la que permiten los satélites. Los satélites miden pequeñas variaciones en la altura de la superficie del mar, que revelan a grandes rasgos las montañas y fosas del fondo, pero no los detalles. Para ver bien el relieve hay que recorrer el océano con barcos equipados con sonar, metro a metro.
+d: Cartografiar no es lo mismo que explorar. Algunas estimaciones calculan que solo alrededor del 5 % del océano ha sido explorado de verdad, es decir, visto u observado directamente. Mientras tanto, las superficies de la Luna y de Marte se conocen con gran detalle gracias a los satélites, porque no hay kilómetros de agua que bloqueen la vista. El océano esconde, por ejemplo, la cordillera más larga de la Tierra: el sistema de dorsales oceánicas, cuyo tramo continuo más largo mide unos 65.000 kilómetros.
+src: https://en.wikipedia.org/wiki/Ocean | Wikipedia en inglés | Ocean
+q: Según datos de 2024, ¿qué parte del fondo oceánico se ha cartografiado con detalle? | Un 5 % ; Algo más de un 26 % ; Un 60 % ; Casi el 100 % | 1 | Solo algo más del 26 % del fondo se había cartografiado con más resolución que la que ofrecen los satélites.
+
+@c-mar-salado
+type: curiosidad
+sub: El agua del mar
+level: 1
+claim: hecho
+title: Por qué el mar es salado y los ríos no
+desc: Los ríos llevan al mar sales arrastradas de las rocas, y los volcanes y las fuentes hidrotermales aportan el resto.
+b: Cada litro de agua de mar contiene, de media, unos 35 gramos de sales disueltas: una salinidad de alrededor del 3,5 %. La mayor parte es sodio y cloruro, los mismos componentes de la sal de mesa.
+b: Ya en 1715, el astrónomo Edmond Halley propuso una explicación: la lluvia y los ríos disuelven poco a poco las sales de las rocas y las llevan al mar. Cuando el agua se evapora, la sal se queda. Los ríos también llevan sales, pero en cantidades tan pequeñas que su agua sigue siendo dulce; en el mar, en cambio, se han ido acumulando durante millones de años.
+d: Hoy se sabe que la historia es más complicada. Parte del sodio se desprendió del fondo marino cuando se formó el océano, y el cloro procede sobre todo de los gases que expulsan los volcanes y las fuentes hidrotermales. La salinidad no es igual en todas partes: el mar Rojo es el mar abierto más salado, mientras que en el Báltico la salinidad superficial es muy baja. El mar Muerto, un lago, es unas diez veces más salado que el océano. Beber agua de mar es peligroso: un estudio de 163 viajes en balsas salvavidas calculó un riesgo de muerte del 39 % entre quienes la bebieron, frente al 3 % de quienes no lo hicieron.
+src: https://en.wikipedia.org/wiki/Seawater | Wikipedia en inglés | Seawater
+q: ¿Cuál es la salinidad media del agua de mar? | Alrededor del 0,5 % ; Alrededor del 3,5 % ; Alrededor del 10 % ; Alrededor del 25 % | 1 | Cada litro contiene de media unos 35 gramos de sales, sobre todo sodio y cloruro.
+
+@c-mar-azul
+type: curiosidad
+sub: El agua del mar
+level: 1
+claim: hecho
+title: El mar no es azul porque refleje el cielo
+desc: El agua absorbe la luz roja y deja pasar la azul. En un vaso no se nota; en metros de agua, sí.
+b: Es una explicación muy repetida: el mar es azul porque refleja el color del cielo. El reflejo influye, sobre todo en días nublados, en los que el mar se ve gris. Pero la causa principal está en el agua misma.
+b: La luz del Sol contiene todos los colores. El agua absorbe preferentemente la luz roja, y en menor medida la naranja y la amarilla, mientras que la luz azul penetra más y se dispersa. Por eso, cuanto más profunda es el agua, más azul se ve. En un vaso, la capa de agua es demasiado delgada para notar el efecto, y el agua parece transparente.
+d: Las moléculas de agua y las pequeñas partículas suspendidas también dispersan la luz azul, lo que refuerza el color. Por la misma razón, a pocos metros bajo el agua los objetos rojos pierden su color y se ven oscuros: la luz roja ya ha sido absorbida. Los fotógrafos submarinos usan focos o filtros para recuperar los colores. El color del mar también cambia con lo que lleva disuelto: las aguas ricas en fitoplancton se ven verdosas y las que arrastran sedimentos de los ríos, pardas.
+src: https://en.wikipedia.org/wiki/Ocean | Wikipedia en inglés | Ocean
+q: ¿Cuál es la razón principal de que el mar sea azul? | Refleja el color del cielo ; El agua absorbe sobre todo la luz roja ; Contiene un pigmento azul ; La sal es de color azul | 1 | El agua absorbe preferentemente la luz roja y deja pasar y dispersa la azul; el reflejo del cielo influye, pero es secundario.
+
+@c-fuentes-hidrotermales
+type: curiosidad
+sub: Fondo marino
+level: 2
+claim: hecho
+title: En el fondo del mar hay ecosistemas que no dependen del Sol
+desc: Junto a chimeneas que expulsan agua a más de 400 °C viven animales alimentados por bacterias que usan sustancias químicas.
+b: Durante mucho tiempo se pensó que toda la vida de la Tierra dependía, directa o indirectamente, de la luz del Sol. El 17 de febrero de 1977, el sumergible Alvin demostró lo contrario: junto a las fuentes hidrotermales del rift de Galápagos, a gran profundidad, encontró comunidades llenas de vida en plena oscuridad.
+b: La base de esos ecosistemas son bacterias que hacen quimiosíntesis: obtienen energía de sustancias químicas como el sulfuro de hidrógeno que sale de las fuentes, y con ella fabrican materia orgánica. De ellas dependen gusanos, almejas, cangrejos y otros animales. Algunos gusanos de tubo de estas comunidades pueden superar los 2 metros de altura.
+d: En 1979 se descubrieron las «fumarolas negras» en la dorsal del Pacífico Oriental: chimeneas que expulsan agua cargada de minerales que puede superar los 400 °C sin hervir, por la enorme presión. Suelen estar a unos 2.100 metros de profundidad, y las más profundas conocidas, en la fosa de las Caimán, rondan los 5.000 metros. Sus chimeneas pueden crecer unos 30 centímetros al día y depositan sulfuros de cobre, hierro y zinc. En 2001 se encontró en el océano Índico el caracol de pie escamoso, que recubre su pie con escamas de sulfuros de hierro. Algunos científicos proponen que la vida pudo originarse en lugares así, aunque es una hipótesis muy debatida.
+src: https://en.wikipedia.org/wiki/Hydrothermal_vent | Wikipedia en inglés | Hydrothermal vent
+q: ¿De dónde obtienen energía las bacterias que sostienen la vida en las fuentes hidrotermales? | De la luz del Sol ; De sustancias químicas como el sulfuro de hidrógeno ; Del calor de las algas ; De la electricidad del agua | 1 | Hacen quimiosíntesis: usan la energía de sustancias químicas que brotan de las fuentes para fabricar materia orgánica.
+
+@c-rape-abisal
+type: curiosidad
+sub: Vida marina
+level: 2
+claim: hecho
+title: El macho del rape abisal se fusiona con la hembra para siempre
+desc: En algunas especies, el diminuto macho se une al cuerpo de la hembra y llegan a compartir el sistema circulatorio.
+b: En la oscuridad del mar profundo, encontrar pareja es muy difícil. Algunos rapes abisales lo resolvieron de una forma extrema: el macho, mucho más pequeño, se agarra a la hembra con la boca y, en ciertas especies, se fusiona con ella. A partir de ese momento vive pegado a su cuerpo y le aporta esperma.
+b: La diferencia de tamaño puede ser enorme. En la especie Photocorynus spiniceps, los machos miden apenas entre 6,2 y 7,3 milímetros, mientras que las hembras alcanzan unos 50,5 milímetros. Los científicos relacionan esta fusión con la ausencia de ciertas defensas del sistema inmunitario que, en otros animales, provocarían un rechazo, como ocurre con los trasplantes.
+d: El rape es famoso también por su «caña de pescar»: la primera espina de su aleta dorsal está modificada en un apéndice llamado ilicio, con un cebo en la punta, la esca, que el pez mueve para imitar a una presa. En las especies de profundidad, la esca brilla gracias a bacterias luminosas que viven en ella. En una especie, Gigantactis macronema, el ilicio llega a medir unas 4,9 veces la longitud del cuerpo. No todos los rapes viven en el abismo: muchas especies habitan arrecifes, praderas marinas o el fondo de aguas poco profundas, como el rape europeo, que puede medir unos 2 metros.
+src: https://en.wikipedia.org/wiki/Anglerfish | Wikipedia en inglés | Anglerfish
+q: ¿Qué hace brillar el cebo de los rapes abisales? | Un órgano eléctrico ; Bacterias luminosas que viven en él ; Un reflejo de la luna ; Cristales de sal | 1 | La esca de las especies de profundidad contiene bacterias bioluminiscentes.
+
+@c-calamar-gigante
+type: curiosidad
+sub: Vida marina
+level: 2
+claim: hecho
+title: El calamar gigante no se fotografió vivo en su hábitat hasta 2004
+desc: Tiene unos de los ojos más grandes del reino animal, de al menos 27 centímetros, y fue grabado en vídeo por primera vez en 2012.
+b: Durante siglos, el calamar gigante fue casi una leyenda: se conocía por ejemplares muertos varados en las playas o encontrados en el estómago de cachalotes. Las primeras fotografías de un ejemplar vivo en su medio natural llegaron en septiembre de 2004, tomadas por los investigadores japoneses Tsunemi Kubodera y Kyoichi Mori a unos 900 metros de profundidad, cerca de las islas Ogasawara.
+b: En julio de 2012, un equipo de la televisión japonesa NHK y de Discovery Channel logró algo más difícil: grabarlo en vídeo en su hábitat, también en esa zona. Las imágenes se emitieron en enero de 2013.
+d: Las estimaciones recientes calculan que las hembras miden unos 5 metros sin contar los dos tentáculos largos, y hasta 12 o 13 metros con ellos. Sus ojos alcanzan al menos 27 centímetros de diámetro, con una pupila de 9 centímetros, y están entre los mayores del reino animal; quizá solo los supera el calamar colosal, más corto pero mucho más pesado. Su principal depredador es el cachalote: muchos cachalotes tienen en la cabeza cicatrices circulares dejadas por las ventosas del calamar durante la lucha. Las historias de marineros sobre calamares gigantes pudieron contribuir a la leyenda del kraken.
+src: https://en.wikipedia.org/wiki/Giant_squid | Wikipedia en inglés | Giant squid
+q: ¿Cuál es el principal depredador del calamar gigante? | El tiburón blanco ; El cachalote ; La orca ; El pez espada | 1 | Muchos cachalotes llevan en la cabeza cicatrices de las ventosas de los calamares gigantes que cazan.
+
+@c-bioluminiscencia
+type: curiosidad
+sub: Vida marina
+level: 1
+claim: hecho
+title: En el mar profundo, la mayoría de los animales fabrica su propia luz
+desc: Un estudio de 2017 encontró que alrededor del 76 % de los principales grupos de animales de aguas profundas puede producir luz.
+b: La bioluminiscencia es la luz que producen los seres vivos mediante una reacción química. En casi todos los casos, una enzima llamada luciferasa hace reaccionar una sustancia llamada luciferina con oxígeno, y la energía de la reacción se libera en forma de luz.
+b: En la superficie es un fenómeno llamativo pero raro, como el de las luciérnagas. En el mar profundo es lo normal: un estudio de 2017 sobre el Pacífico oriental encontró que alrededor del 76 % de los principales grupos de animales de aguas profundas puede producir luz. La mayor parte de esa luz es azul o verde, los colores que mejor viajan por el agua.
+d: Los animales la usan para muchas cosas: para atraer presas, como el cebo del rape; para defenderse, deslumbrando o distrayendo a un depredador; para encontrar pareja; y para camuflarse. Esa última estrategia se llama contrailuminación: algunos animales iluminan su vientre para que, vistos desde abajo, su silueta se confunda con la luz que llega de la superficie. Algunos peces de profundidad emiten luz roja, que casi ningún otro animal puede ver, y la usan como una linterna secreta. En la costa, unos organismos microscópicos llamados dinoflagelados hacen brillar las olas por la noche. Y hay bacterias capaces de iluminar zonas enormes del océano, un fenómeno conocido como «mares lechosos».
+src: https://en.wikipedia.org/wiki/Bioluminescence | Wikipedia en inglés | Bioluminescence
+q: ¿De qué color es la mayor parte de la luz que producen los animales marinos? | Roja ; Azul o verde ; Amarilla ; Blanca | 1 | El azul y el verde son los colores que mejor viajan por el agua, y son los que emite la mayoría de los animales marinos.
+
+@c-ballena-52hz
+type: curiosidad
+sub: Vida marina
+level: 2
+claim: misterio
+title: La «ballena más solitaria del mundo» canta en una frecuencia que nadie más usa
+desc: Desde 1989 se oye en el Pacífico Norte una ballena que llama a unos 52 hercios. Nunca nadie la ha visto.
+b: En 1989, un equipo de la Institución Oceanográfica Woods Hole detectó en el Pacífico Norte una llamada de ballena muy extraña: sonaba a unos 52 hercios. Es una frecuencia mucho más alta que la de las ballenas azules, que llaman entre 10 y 39 hercios, o la de los rorcuales comunes, alrededor de 20.
+b: La Marina de Estados Unidos desclasificó en 1992 los datos de su red de hidrófonos submarinos, y la llamada se ha seguido detectando cada año desde entonces. Como ninguna otra ballena parecía usar esa frecuencia, se la apodó «la ballena más solitaria del mundo».
+d: Nadie ha visto nunca a este animal: solo se conoce por su voz, captada por hidrófonos entre las islas Aleutianas, la isla Kodiak y la costa de California. No se sabe de qué especie es; se ha propuesto que tenga alguna malformación o que sea un híbrido entre ballena azul y rorcual común. Su voz se ha ido haciendo más grave con los años, hasta rondar los 50 hercios. Algunas grabaciones de 2010 sugieren que podría haber una segunda ballena con una frecuencia parecida. Su historia ha inspirado canciones, libros y un documental, «The Loneliest Whale: The Search for 52», estrenado en 2021, y se ha convertido en un símbolo de la soledad.
+src: https://en.wikipedia.org/wiki/52-hertz_whale | Wikipedia en inglés | 52-hertz whale
+q: ¿Por qué se llama «la ballena más solitaria del mundo» a la ballena de 52 hercios? | Porque vive en una cueva ; Porque ninguna otra ballena parece llamar en su frecuencia ; Porque es la última de su especie ; Porque nunca sale a respirar | 1 | Llama a unos 52 hercios, una frecuencia que no se ha detectado en otras ballenas, y nunca ha sido vista.
+
+@c-tiburon-groenlandia
+type: curiosidad
+sub: Vida marina
+level: 2
+claim: hecho
+title: El tiburón de Groenlandia puede vivir varios siglos
+desc: Es el vertebrado más longevo que se conoce: vive al menos 272 años y quizá más de 500.
+b: El tiburón de Groenlandia vive en las aguas heladas del Atlántico Norte y del Ártico, y tiene un récord asombroso: es el vertebrado más longevo que se conoce. Un estudio que analizó con radiocarbono el cristalino de sus ojos calculó que vive al menos 272 años, y posiblemente hasta unos 510.
+b: Todo en él va despacio. Crece apenas entre medio y un centímetro al año, y alcanza la madurez sexual hacia los 150 años. Es también el pez que nada más lentamente para su tamaño: unos 0,34 metros por segundo de media. Los adultos miden normalmente entre 4 y 5 metros.
+d: Su carne cruda es tóxica para los mamíferos por su alto contenido en urea y en un compuesto llamado óxido de trimetilamina. En Islandia, sin embargo, se come fermentada y secada: es el hákarl, un plato tradicional famoso por su olor. Muchos de estos tiburones tienen un pequeño crustáceo parásito, Ommatokoita elongata, pegado a los ojos, que puede dejarlos casi ciegos; por eso dependen sobre todo del olfato y el oído. Prefieren el agua muy fría, entre −1,1 y 7,4 °C, y se han registrado a 2.200 metros de profundidad.
+src: https://en.wikipedia.org/wiki/Greenland_shark | Wikipedia en inglés | Greenland shark
+q: ¿Cuántos años puede vivir el tiburón de Groenlandia, según estudios del cristalino de sus ojos? | Unos 30 ; Unos 80 ; Al menos 272 ; Más de 2.000 | 2 | El radiocarbono de su cristalino indica una vida de al menos 272 años, quizá hasta unos 510: el vertebrado más longevo conocido.
+
+@c-olas-monstruo
+type: curiosidad
+sub: Fenómenos del mar
+level: 2
+claim: hecho
+title: Las «olas monstruo» eran una leyenda de marineros hasta 1995
+desc: El 1 de enero de 1995, una plataforma del mar del Norte midió una ola de 25,6 metros: la primera ola gigante registrada por un instrumento.
+b: Durante siglos, los marineros contaron historias de olas gigantescas que aparecían de la nada en medio de una tormenta. Los científicos solían desconfiar: los modelos estadísticos de la época hacían que esas olas parecieran casi imposibles. En 1826, el explorador francés Jules Dumont d'Urville habló de olas de unos 33 metros y fue ridiculizado por el físico François Arago.
+b: El 1 de enero de 1995 llegó la prueba. Un sensor de la plataforma petrolífera Draupner, en el mar del Norte, registró una ola de 25,6 metros de altura, cuando las olas a su alrededor rondaban los 12. Fue la primera ola gigante detectada por un instrumento de medición.
+d: Los oceanógrafos llaman «ola monstruo» u «ola anómala» a la que supera el doble de la altura significativa del oleaje, que es la media del tercio de olas más altas. Tras Draupner, el proyecto MaxWave de la Agencia Espacial Europea identificó en 2004, en solo tres semanas de observación por satélite en el Atlántico Sur, más de diez olas de más de 25 metros. Las olas monstruo se relacionan con varios naufragios, como el del carguero alemán München en 1978, perdido con toda su tripulación. Un informe de 2001 concluyó que el MV Derbyshire, hundido en 1980, fue casi con certeza destruido por una de ellas.
+src: https://en.wikipedia.org/wiki/Rogue_wave | Wikipedia en inglés | Rogue wave
+q: ¿Qué se registró en la plataforma Draupner el 1 de enero de 1995? | Un terremoto ; La primera ola monstruo medida por un instrumento ; El primer tsunami del mar del Norte ; Un remolino gigante | 1 | Un sensor midió una ola de 25,6 metros cuando el oleaje a su alrededor rondaba los 12 metros.
+
+@c-lituya
+type: curiosidad
+sub: Fenómenos del mar
+level: 2
+claim: hecho
+title: En 1958, un tsunami en Alaska arrasó árboles a 524 metros de altura
+desc: Un desprendimiento de roca cayó en la bahía de Lituya y el agua subió por la ladera de enfrente más que la altura del Empire State.
+b: El 9 de julio de 1958, un terremoto de magnitud cercana a 8 sacudió el sureste de Alaska. En la bahía de Lituya, un fiordo estrecho, el temblor provocó que unos 30 millones de metros cúbicos de roca, unos 90 millones de toneladas, se desplomaran de golpe en el agua.
+b: El impacto desató un megatsunami. El agua subió por la ladera de enfrente y arrancó árboles y suelo hasta una altura de 524 metros sobre el nivel del mar, la mayor registrada. Murieron cinco personas.
+d: Hay que precisar qué significa esa cifra: 524 metros es la altura que alcanzó el agua al subir por la montaña, lo que se llama altura de remonte, no la altura de la ola en mar abierto. Una recreación a escala estimó que la cresta de la ola rondó los 150 metros. Aun así, se considera el megatsunami más importante de los tiempos modernos. Dentro de la bahía había varios barcos pesqueros. Dos personas murieron en uno de ellos, pero Howard Ulrich y su hijo de siete años sobrevivieron a bordo del Edrie. La ola dejó alrededor de la bahía una línea de árboles arrancados, visible durante años.
+src: https://en.wikipedia.org/wiki/1958_Lituya_Bay_earthquake_and_megatsunami | Wikipedia en inglés | 1958 Lituya Bay earthquake and megatsunami
+q: ¿Qué provocó el megatsunami de la bahía de Lituya en 1958? | Un meteorito ; Un desprendimiento de roca causado por un terremoto ; La explosión de un volcán submarino ; Una tormenta | 1 | El terremoto hizo caer unos 30 millones de metros cúbicos de roca en la bahía, y el agua subió hasta 524 metros por la ladera de enfrente.
+
+@c-mar-sargazos
+type: curiosidad
+sub: Mares y océanos
+level: 1
+claim: hecho
+title: El mar de los Sargazos es el único mar sin costas
+desc: Está en medio del Atlántico Norte y sus límites los marcan cuatro corrientes oceánicas, no la tierra.
+b: Casi todos los mares están rodeados total o parcialmente de tierra. El mar de los Sargazos es la excepción: es el único mar con nombre que no tiene costas. Está en el Atlántico Norte, y sus límites los forman cuatro corrientes que giran en el sentido de las agujas del reloj: la corriente del Golfo al oeste, la corriente del Atlántico Norte al norte, la de Canarias al este y la Ecuatorial del Norte al sur.
+b: Como sus bordes dependen de corrientes que se mueven, su tamaño cambia. Mide aproximadamente 1.100 kilómetros de ancho y 3.200 de largo, y un informe de 2011 calculó su superficie en unos 4,16 millones de kilómetros cuadrados.
+d: Su nombre viene del sargazo, un alga parda que flota en grandes cantidades sobre su superficie. Sus aguas son de un azul intenso y muy transparentes, con una visibilidad de hasta 60 metros. Cristóbal Colón lo atravesó en 1492 y escribió sobre las algas y la calma de los vientos, que le preocupaba. Durante siglos, los barcos de vela quedaban a veces detenidos en la zona, pero no por las algas, como decían las leyendas, sino por la falta de viento. Es el lugar donde se reproducen las anguilas europeas y americanas, y las tortugas bobas jóvenes se refugian entre sus algas. Las corrientes también concentran allí basura plástica.
+src: https://en.wikipedia.org/wiki/Sargasso_Sea | Wikipedia en inglés | Sargasso Sea
+q: ¿Qué tiene de especial el mar de los Sargazos? | Es el más profundo ; Es el único mar sin costas ; Es de agua dulce ; Está siempre congelado | 1 | Sus límites los marcan cuatro corrientes oceánicas del Atlántico Norte, no la tierra.
+
+@c-anguilas
+type: curiosidad
+sub: Vida marina
+level: 2
+claim: misterio
+title: Nadie ha visto nunca a las anguilas europeas reproducirse en libertad
+desc: Cruzan el Atlántico para desovar en el mar de los Sargazos, pero su apareamiento en la naturaleza sigue sin observarse.
+b: Durante siglos, el ciclo de vida de la anguila europea fue un misterio. Sus cinco etapas de vida son tan distintas que se creyó que eran especies diferentes: la larva transparente con forma de hoja, la angula, el angulón, la anguila amarilla y la anguila plateada.
+b: A principios del siglo XX, el investigador danés Johannes Schmidt, siguiendo larvas cada vez más pequeñas por el Atlántico, señaló el mar de los Sargazos como su probable lugar de reproducción. Las larvas viajan a la deriva hacia Europa durante unos 300 días. De adultas, las anguilas regresan a ese mar, a miles de kilómetros, para desovar. Pero el apareamiento en libertad todavía no se ha observado.
+d: Las angulas llegan a los estuarios europeos y suben por los ríos, donde viven durante años; en estado salvaje suelen vivir entre 15 y 20 años. Cuando están listas para volver, cambian de color y se vuelven plateadas, un proceso que las prepara para el viaje oceánico. Un proyecto neerlandés intentó simular en laboratorio ese viaje de unos 6.500 kilómetros hasta los Sargazos. Hoy la anguila europea está en peligro crítico: se calcula que el número de angulas que llegan a Europa ha caído alrededor de un 90 % desde los años setenta.
+src: https://en.wikipedia.org/wiki/European_eel | Wikipedia en inglés | European eel
+q: ¿Dónde se reproducen las anguilas europeas? | En los ríos de Europa ; En el mar de los Sargazos ; En el mar Mediterráneo ; En el océano Ártico | 1 | Cruzan el Atlántico hasta el mar de los Sargazos, aunque su apareamiento en libertad nunca se ha observado.
+
+@c-tortugas-temperatura
+type: curiosidad
+sub: Vida marina
+level: 1
+claim: hecho
+title: La temperatura de la arena decide si una tortuga marina nace macho o hembra
+desc: Los nidos más cálidos producen hembras y los más frescos, machos. El calentamiento global ya está alterando la proporción.
+b: En las tortugas marinas, el sexo de las crías no lo deciden los cromosomas, sino la temperatura de la arena donde se incuban los huevos. Los nidos más cálidos producen sobre todo hembras, y los más frescos, sobre todo machos.
+b: Esto hace a las tortugas especialmente vulnerables al cambio climático. Un estudio de 2018 sobre tortugas cercanas a la Gran Barrera de Coral, en Australia, encontró una enorme mayoría de hembras entre los ejemplares jóvenes, una señal de que el calentamiento ya está alterando el equilibrio de sexos.
+d: Existen siete especies de tortugas marinas, y cinco figuran como amenazadas en la Lista Roja de la UICN. Muchas regresan a desovar a la misma playa en la que nacieron, a veces cada dos a cuatro años. Para orientarse usan el campo magnético de la Tierra como un mapa y una brújula. Su vida está llena de peligros: de un nido de unos 100 huevos, de media solo una cría llega a adulta. La mayor es la tortuga laúd, que puede medir más de 1,8 metros y pesar hasta 640 kilos. Las tortugas confunden a menudo las bolsas de plástico con medusas, una de sus presas, y se las tragan.
+src: https://en.wikipedia.org/wiki/Sea_turtle | Wikipedia en inglés | Sea turtle
+q: ¿Qué decide el sexo de una tortuga marina? | La edad de la madre ; La temperatura de la arena del nido ; La luna llena ; El tamaño del huevo | 1 | Los nidos cálidos producen sobre todo hembras y los frescos, sobre todo machos.
+
+@c-cachalote
+type: curiosidad
+sub: Vida marina
+level: 2
+claim: hecho
+title: El cachalote tiene el cerebro más grande del reino animal
+desc: Pesa unos 7 kilos, más de cinco veces el cerebro humano, y sus chasquidos son el sonido más fuerte producido por un animal.
+b: El cachalote es un animal de récords. Tiene el cerebro más grande de todos los animales conocidos: unos 7,08 kilos de media, más de cinco veces el peso de un cerebro humano. Los machos adultos miden alrededor de 16 metros y pesan unas 45 toneladas, lo que lo convierte en el mayor depredador con dientes del planeta.
+b: Para cazar calamares se sumerge hasta unos 2.250 metros. Sus inmersiones habituales duran unos 35 minutos, pero algunas llegan a dos horas. En la oscuridad se orienta con chasquidos que pueden alcanzar los 236 decibelios: el sonido más fuerte que produce cualquier animal.
+d: Su nombre en inglés, «sperm whale», viene del espermaceti, una sustancia aceitosa de su cabeza que los balleneros usaban para velas, lámparas y lubricantes. En su sistema digestivo se forma a veces el ámbar gris, una sustancia cerosa muy apreciada como fijador en perfumería, que quizá se produce en respuesta a los picos de los calamares que come. El 20 de noviembre de 1820, un cachalote embistió y hundió el ballenero Essex, un suceso que se cree que inspiró «Moby Dick», de Herman Melville. Los grupos de cachalotes pueden descansar flotando en posición vertical, con la cabeza cerca de la superficie.
+src: https://en.wikipedia.org/wiki/Sperm_whale | Wikipedia en inglés | Sperm whale
+q: ¿Qué animal tiene el cerebro más grande conocido? | El elefante africano ; La ballena azul ; El cachalote ; El ser humano | 2 | El cerebro del cachalote pesa de media unos 7 kilos, más de cinco veces el humano.
+
+@c-pez-luna
+type: curiosidad
+sub: Vida marina
+level: 2
+claim: hecho
+title: El pez luna pone hasta 300 millones de huevos de una vez
+desc: Es el vertebrado más prolífico conocido, y sus crías pueden multiplicar su peso hasta 60 millones de veces.
+b: El pez luna, Mola mola, parece una cabeza enorme sin cuerpo: en lugar de cola tiene una especie de pseudocola llamada clavus, que usa como timón. Los adultos miden de media 1,8 metros, el mayor registrado alcanzó 3,3 metros, y suelen pesar entre 247 y 1.000 kilos.
+b: Su récord más llamativo es la reproducción: una hembra puede liberar hasta 300 millones de huevos de una sola vez, más que cualquier otro vertebrado conocido. Las crías que sobreviven crecen de forma asombrosa: pueden llegar a multiplicar su peso hasta 60 millones de veces.
+d: Durante mucho tiempo se dijo que el pez luna era el pez óseo más pesado del mundo, pero ese título corresponde en realidad a una especie emparentada, Mola alexandrini. También se pensaba que comía casi solo medusas; los análisis genéticos muestran que tiene una dieta variada, con pequeños peces, larvas, calamares y crustáceos, y que las medusas y salpas son solo una parte. Se le ve a menudo tumbado de lado en la superficie, tomando el sol, quizá para recuperar calor tras bucear en aguas profundas y frías. Puede llevar encima más de 40 especies de parásitos. Su nombre científico, mola, significa «piedra de molino» en latín, por su forma redonda.
+src: https://en.wikipedia.org/wiki/Ocean_sunfish | Wikipedia en inglés | Ocean sunfish
+q: ¿Cuántos huevos puede liberar de una vez una hembra de pez luna? | Unos 100 ; Unos 10.000 ; Hasta 300 millones ; Hasta 5 billones | 2 | Es el vertebrado más prolífico que se conoce.
+
+@c-vaquita
+type: curiosidad
+sub: Vida marina
+level: 1
+claim: hecho
+title: La vaquita marina es el mamífero marino más amenazado del mundo
+desc: Vive solo en el norte del golfo de California y en 2024 se contaron apenas entre 6 y 8 ejemplares como mínimo.
+b: La vaquita marina es el cetáceo más pequeño que existe: las hembras miden alrededor de 1,5 metros. Vive únicamente en el norte del golfo de California, en México, en aguas poco profundas y turbias. Fue descrita como especie en 1958 a partir de cráneos encontrados en una playa.
+b: Su población se ha desplomado. Se calcula que había unos 567 ejemplares en 1997 y unos 150 en 2007; en 2018 quedaban menos de 19. Un censo de 2024 contó un mínimo de entre 6 y 8, la cifra más baja jamás registrada, aunque el área estudiada era pequeña. En 2025, el seguimiento identificó entre 7 y 10 individuos y crías nuevas.
+d: La causa principal de su declive son las redes de enmalle, en las que las vaquitas quedan atrapadas y se ahogan. Muchas de esas redes son ilegales y se colocan para pescar totoaba, un pez cuya vejiga natatoria se vende en el mercado negro, sobre todo en China, para la medicina tradicional. A pesar de las prohibiciones y de la zona de exclusión creada en su hábitat, la pesca ilegal continúa. La UICN la clasifica en peligro crítico, a un paso de la extinción en estado silvestre. La aparición de crías en los últimos años mantiene una pequeña esperanza.
+src: https://en.wikipedia.org/wiki/Vaquita | Wikipedia en inglés | Vaquita
+q: ¿Dónde vive la vaquita marina? | En el Caribe ; Solo en el norte del golfo de California ; En el mar Mediterráneo ; En la Antártida | 1 | Es endémica del norte del golfo de California, en México, y es el mamífero marino más amenazado.
+
+@c-nieve-marina
+type: curiosidad
+sub: Fondo marino
+level: 2
+claim: hecho
+title: En el fondo del océano «nieva» sin parar
+desc: La nieve marina es una lluvia constante de restos orgánicos que cae desde la superficie y alimenta a los animales del abismo.
+b: En las profundidades del océano cae una nevada que nunca termina. Los oceanógrafos la llaman nieve marina: una lluvia continua de partículas formadas por restos de animales y algas muertos, excrementos, arena y polvo, unidos en parte por mucosidad.
+b: Los copos pueden crecer hasta varios centímetros de diámetro y tardan semanas en llegar al fondo. Para los animales del mar profundo, adonde no llega la luz del Sol, esta nieve es una fuente de alimento fundamental. La mayor parte se consume durante el primer kilómetro de caída, así que a los animales del fondo solo les llegan las sobras de las sobras.
+d: La nieve marina cumple también un papel en el clima. Al hundirse, transporta carbono desde la superficie hasta las profundidades, un proceso conocido como bomba biológica. Entre el 1 % y el 40 % de la producción de la superficie se exporta hacia abajo, pero solo alrededor del 1 % llega al fondo marino, donde puede quedar almacenado durante mucho tiempo. Se suele atribuir el nombre al explorador William Beebe, que la observó desde su batisfera en los años treinta, aunque esa atribución no está bien documentada.
+src: https://en.wikipedia.org/wiki/Marine_snow | Wikipedia en inglés | Marine snow
+q: ¿Qué es la nieve marina? | Hielo que se forma en el fondo ; Una lluvia de restos orgánicos que cae hacia el fondo ; Espuma de las olas ; Sal cristalizada | 1 | Es una lluvia continua de restos de seres vivos, excrementos y polvo que alimenta a los animales del abismo.
+
+@c-lagos-submarinos
+type: curiosidad
+sub: Fondo marino
+level: 2
+claim: hecho
+title: En el fondo del mar hay lagos, con orillas y todo
+desc: Son piscinas de salmuera de tres a ocho veces más saladas que el mar, tan densas que no se mezclan con el agua de encima.
+b: En algunos lugares del fondo marino hay algo que parece imposible: lagos bajo el agua. Son piscinas de salmuera, un agua tan salada, de tres a ocho veces más que el océano que las rodea, que resulta mucho más densa y no se mezcla con el agua de arriba. Tienen una superficie y orillas visibles, como un lago en tierra firme.
+b: Van desde menos de un metro cuadrado hasta los 120 kilómetros cuadrados de la cuenca Orca, en el golfo de México. Se forman de varias maneras: al disolverse antiguas capas de sal enterradas bajo el fondo, como en el golfo de México; por la expulsión de sal al formarse el hielo marino; o por salmuera calentada en las dorsales oceánicas, como en el mar Rojo.
+d: Para la mayoría de los animales, estos lagos son una trampa mortal. Como su agua no se mezcla, no tiene oxígeno, y los animales que entran en ella mueren; sus cuerpos pueden conservarse durante años. En cambio, sus orillas están llenas de vida: bacterias que obtienen energía de sustancias como el metano y el sulfuro de hidrógeno, y mejillones que viven en simbiosis con ellas. Los científicos estudian los microbios que soportan estas condiciones extremas, y algunos proponen usar estos lagos para entender cómo podría existir agua salada líquida en Marte.
+src: https://en.wikipedia.org/wiki/Brine_pool | Wikipedia en inglés | Brine pool
+q: ¿Por qué el agua de los lagos submarinos de salmuera no se mezcla con la del mar? | Porque está congelada ; Porque es mucho más salada y densa ; Porque está separada por una roca ; Porque es agua dulce | 1 | Su salinidad, de tres a ocho veces la del mar, la hace tan densa que queda en el fondo como un lago.
+
+@c-tsunami-2004
+type: curiosidad
+sub: Fenómenos del mar
+level: 1
+claim: hecho
+title: Una niña de 10 años salvó una playa entera gracias a una clase de geografía
+desc: En el tsunami de 2004, Tilly Smith reconoció las señales de alerta que había aprendido en el colegio y la playa se evacuó a tiempo.
+b: El 26 de diciembre de 2004, un terremoto de magnitud 9,1 a 9,3 frente a la costa de Sumatra, en Indonesia, desató uno de los peores desastres naturales de la historia. El tsunami golpeó 14 países, con olas de hasta 30 metros, y causó cerca de 230.000 muertes. En aquel momento no existía un sistema de alerta de tsunamis en el océano Índico.
+b: En la playa de Maikhao, en Phuket, Tailandia, una turista británica de 10 años, Tilly Smith, vio que el mar se comportaba de forma extraña y se retiraba. Reconoció la señal: lo había estudiado en una clase de geografía. Avisó a sus padres, se dio la alarma y la playa se evacuó antes de que llegara la ola.
+d: La retirada repentina del mar es una de las señales clásicas de un tsunami: antes de la gran ola, el agua puede alejarse de la costa y dejar al descubierto el fondo. Mucha gente, sin saberlo, se acerca a mirar, justo cuando debería huir hacia zonas altas. El terremoto de 2004 fue tan potente que las fallas se movieron durante al menos diez minutos, y los modelos teóricos calcularon que acortó la duración del día en 2,68 microsegundos. El recuento de víctimas varía según la fuente: la Coalición de Evaluación del Tsunami registró 227.898 muertes.
+src: https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami | Wikipedia en inglés | 2004 Indian Ocean earthquake and tsunami
+q: ¿Qué señal reconoció Tilly Smith antes del tsunami de 2004? | Un fuerte viento ; El mar retirándose de forma extraña ; Animales huyendo ; Una lluvia intensa | 1 | Había aprendido en clase que la retirada repentina del mar puede anunciar un tsunami, y su aviso permitió evacuar la playa.
