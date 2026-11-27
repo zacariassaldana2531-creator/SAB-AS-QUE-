@@ -2564,7 +2564,8 @@ window.SQ_CONTENT = {
    "sub": "Ojos",
    "title": "Una parte de tu ojo no tiene vasos sanguíneos",
    "desc": "La córnea es transparente precisamente porque no tiene vasos sanguíneos.",
-   "body": "La córnea es la capa transparente de la parte delantera del ojo. Si tuviera vasos sanguíneos, bloquearían la luz. En lugar de recibir oxígeno de la sangre, lo toma en gran parte directamente del aire, disuelto en la película de lágrimas, y sus nutrientes llegan desde el líquido interior del ojo.",
+   "body": "La córnea es la capa transparente de la parte delantera del ojo, la que cubre el iris, la pupila y la cámara anterior. Es uno de los pocos tejidos del cuerpo que no tienen vasos sanguíneos, y hay una buena razón: si los tuviera, los vasos y la sangre bloquearían parte de la luz y no veríamos con claridad.\n\nEntonces, ¿cómo se alimenta? En lugar de recibir oxígeno de la sangre, lo toma en gran parte directamente del aire, disuelto en la película de lágrimas que la cubre. Sus nutrientes le llegan desde el líquido interior del ojo, el humor acuoso, y también a través de sus nervios, que le aportan sustancias llamadas neurotrofinas. La córnea es, de hecho, uno de los tejidos con más terminaciones nerviosas del cuerpo, por eso un grano de arena en el ojo duele tanto.",
+   "deep": "Junto con el cristalino, la córnea enfoca la luz sobre la retina, y de hecho es responsable de la mayor parte de la capacidad de enfoque del ojo. Cuando se vuelve opaca, irregular o se hincha por una enfermedad o una lesión, puede sustituirse por la córnea de un donante fallecido. Aun así, en muchos países hay listas de espera de años por la escasez de córneas donadas.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Cornea",
@@ -2596,7 +2597,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -2612,6 +2613,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -2625,7 +2630,8 @@ window.SQ_CONTENT = {
    "sub": "Esqueleto",
    "title": "El hueso más pequeño del cuerpo está en tu oído",
    "desc": "Se llama estribo y mide unos 3 milímetros.",
-   "body": "El estribo es uno de los tres huesecillos del oído medio, junto con el martillo y el yunque. Juntos transmiten y amplifican las vibraciones del sonido desde el tímpano hacia el oído interno. Su nombre viene de su forma, parecida al estribo de una montura de caballo.",
+   "body": "El hueso más pequeño y más ligero del cuerpo humano es el estribo, que está en el oído medio. Mide apenas unos milímetros, menos que un grano de arroz. Su nombre viene de su forma, parecida al estribo de una montura de caballo; en latín se llama stapes, que significa justamente «estribo».\n\nEs el tercero de los tres huesecillos del oído medio, junto con el martillo y el yunque. Los tres forman una cadena que une el tímpano con el oído interno. Cuando el sonido hace vibrar el tímpano, los huesecillos transmiten esa vibración y la amplifican. El estribo, situado entre el yunque y el oído interno, la entrega a la ventana oval, una abertura cubierta por una membrana que da paso al oído interno, lleno de líquido.",
+   "deep": "Esa amplificación es necesaria porque el sonido pasa del aire a un líquido, y gran parte de la energía se perdería en el cambio. Los huesecillos funcionan como una palanca y concentran la fuerza de la vibración sobre la pequeña ventana oval. El estribo está unido al músculo más pequeño del cuerpo, el músculo estapedio, que se contrae ante sonidos muy fuertes para amortiguarlos y proteger el oído interno. Cuando el estribo se queda fijo, en una enfermedad llamada otosclerosis, la audición disminuye; puede tratarse con una cirugía que lo sustituye por una prótesis.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Human ear: Tympanic membrane and middle ear",
@@ -2657,7 +2663,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -2673,6 +2679,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6746,7 +6756,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Tu estómago produce ácido clorhídrico, uno de los ácidos más fuertes",
    "desc": "En los seres humanos, el jugo gástrico tiene un pH de entre 1 y 3, mucho más ácido que el de la mayoría de los animales.",
-   "body": "El estómago produce ácido clorhídrico para descomponer los alimentos y eliminar muchos microbios. Su pH está entre 1 y 3, muy ácido. El estómago no se daña gracias a una capa de moco y bicarbonato que recubre sus paredes.",
+   "body": "El estómago produce ácido clorhídrico, uno de los ácidos más fuertes que existen, el mismo que se usa en la industria para limpiar metales. Lo fabrican unas células especializadas de las glándulas de su pared, llamadas células parietales. Ese ácido es el componente principal del jugo gástrico.\n\nEl ácido cumple varias funciones. Mata muchos de los microbios que llegan con los alimentos, ayuda a deshacer las proteínas y activa la pepsina, una enzima que corta las proteínas en trozos más pequeños. El jugo gástrico contiene además otras enzimas producidas por otras células de las glándulas del estómago. El pH del estómago está entre 1 y 3, muy ácido. Las paredes del estómago no se dañan gracias a una capa de moco y bicarbonato que las recubre y neutraliza el ácido junto a ellas.",
+   "deep": "Cuando esa protección falla, pueden aparecer úlceras. Algunas enfermedades, como el síndrome de Zollinger-Ellison, aumentan la hormona gastrina y con ella la producción de ácido, lo que también provoca úlceras. El reflujo ocurre cuando el ácido sube hacia el esófago, que no tiene esa capa protectora. Además del ácido, el jugo gástrico contiene lipasa gástrica, que empieza a digerir las grasas, y pepsinógeno, la forma inactiva de la pepsina, que el propio ácido activa.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Gastric juice",
@@ -6780,7 +6791,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
@@ -6796,6 +6807,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6807,7 +6822,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Más de la mitad de tus huesos están en las manos y los pies",
    "desc": "Cada mano tiene 27 huesos y cada pie, 26: en total, 106 de 206.",
-   "body": "Las manos y los pies necesitan mucha precisión y flexibilidad, y eso se consigue con muchas piezas pequeñas unidas por articulaciones. Sumando las dos manos (54) y los dos pies (52), son 106 huesos, más de la mitad de los 206 del cuerpo adulto.",
+   "body": "El esqueleto de un adulto tiene unos 206 huesos, y más de la mitad están en las manos y los pies. Cada mano tiene 27 huesos y cada pie, 26. Sumando las dos manos y los dos pies, son 106 huesos.\n\nLa razón es la precisión y la flexibilidad. Las manos y los pies necesitan moverse de muchas formas distintas, y eso se consigue con muchas piezas pequeñas unidas por articulaciones. La mano se divide en tres zonas: el carpo, en la muñeca, con ocho huesos pequeños dispuestos en dos filas; el metacarpo, que forma la palma; y las falanges, que forman los dedos. El pie tiene una estructura parecida: el tarso, el metatarso y las falanges.",
+   "deep": "Gracias a esta arquitectura, la mano humana puede hacer movimientos tan finos como escribir o enhebrar una aguja, y también agarrar con fuerza. El pulgar oponible, que puede tocar las yemas de los demás dedos, es clave para esa habilidad. El pie, en cambio, está diseñado sobre todo para soportar el peso del cuerpo y amortiguar los impactos al caminar y correr: sus huesos forman arcos que reparten la carga, como los de un puente. Por su complejidad, las manos y los pies son también lugares frecuentes de fracturas pequeñas y de artrosis.",
    "sources": [
     {
      "t": "Wikipedia — Hand",
@@ -6833,7 +6849,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -6845,6 +6861,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -6856,7 +6876,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Los bebés nacen con la rótula hecha de cartílago",
    "desc": "La rótula empieza a convertirse en hueso entre los 3 y los 6 años.",
-   "body": "Al nacer, la rótula es de cartílago, un tejido flexible. Con el crecimiento se va osificando, es decir, convirtiéndose en hueso. Por eso en las radiografías de bebés no se ve como en las de adultos. Es otro ejemplo de cómo el esqueleto infantil está diseñado para crecer y ser flexible.",
+   "body": "La rótula, el hueso plano y casi triangular que cubre y protege la parte delantera de la rodilla, no está presente como hueso en los recién nacidos. Los bebés nacen con una rótula de cartílago blando, un tejido flexible. Hacia los tres años empieza a osificarse, es decir, a convertirse en hueso, a partir de un único centro.\n\nPor eso en las radiografías de los bebés no se ve la rótula como en las de los adultos. El proceso continúa durante la infancia hasta completarse. Es un ejemplo de cómo el esqueleto infantil está diseñado para crecer y ser flexible: muchos huesos empiezan siendo cartílago y se van endureciendo con los años, y los bebés tienen más piezas óseas separadas que los adultos.",
+   "deep": "La rótula es un hueso sesamoideo, es decir, un hueso que se forma dentro de un tendón, en este caso el del músculo cuádriceps. Funciona como una polea: aumenta la palanca del cuádriceps y hace más eficiente la extensión de la rodilla. Sufre una presión enorme, sobre todo al subir escaleras o agacharse, y por eso el cartílago de su cara interna, la que se articula con el fémur, está entre los más gruesos del cuerpo humano. En las radiografías, los médicos miden la relación entre la longitud del tendón rotuliano y la de la rótula para detectar si está demasiado baja o demasiado alta.",
    "sources": [
     {
      "t": "Wikipedia — Patella",
@@ -6881,7 +6902,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -6893,6 +6914,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7024,7 +7049,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Un hombre tuvo hipo durante 68 años",
    "desc": "Charles Osborne, de Estados Unidos, tuvo hipo de 1922 a 1990.",
-   "body": "El hipo es una contracción involuntaria del diafragma. A Charles Osborne le empezó en 1922 y no se le quitó hasta 1990, un año antes de morir. Pese a todo, llevó una vida bastante normal, se casó dos veces y tuvo ocho hijos.",
+   "body": "El hipo es una contracción involuntaria y repentina del diafragma, el músculo que separa el tórax del abdomen, seguida del cierre brusco de las cuerdas vocales, que produce el sonido característico. Normalmente dura unos minutos. Al estadounidense Charles Osborne le duró más de 68 años: es el ataque de hipo más largo registrado por el Libro Guinness de los récords.\n\nLe empezó en 1922, en una granja cerca de Union, en Nebraska, cuando un cerdo de 350 libras se le cayó encima mientras lo preparaba para el sacrificio. Desde entonces hipó sin parar. El hipo se detuvo en 1990, un año antes de su muerte. Se calcula que hipó más de 430 millones de veces en su vida. Pese a todo, llevó una vida bastante normal: se casó dos veces y tuvo ocho hijos.",
+   "deep": "Los médicos creen que la caída pudo dañar una pequeña zona del tronco encefálico que controla el reflejo del hipo. El hipo corriente suele aparecer por comer o beber muy rápido, por bebidas con gas o por cambios bruscos de temperatura. Los remedios populares, como contener la respiración o beber agua de golpe, actúan probablemente alterando el ritmo de la respiración o estimulando los nervios que intervienen en el reflejo. Un hipo que dura más de dos días se considera persistente y conviene consultarlo con un médico.",
    "sources": [
     {
      "t": "Wikipedia — Charles Osborne (hiccups)",
@@ -7041,7 +7067,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -7053,6 +7079,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -7118,7 +7148,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Bostezar es contagioso, incluso solo con leer sobre bostezos",
    "desc": "Ver, oír o pensar en bostezos puede provocarte uno.",
-   "body": "El bostezo contagioso se ha observado en humanos y en otros animales, como chimpancés y perros. Se cree que está relacionado con la empatía y la conexión social, aunque las causas exactas todavía se investigan. Si bostezaste al leer esto, no eres el único.",
+   "body": "Ver a alguien bostezar, oírlo o incluso leer sobre bostezos puede hacernos bostezar. Este «bostezo contagioso» se ha observado en humanos y en otros animales, como chimpancés y perros. Y no se contagia por igual con todo el mundo: en muchas especies es más fuerte entre individuos cercanos emocionalmente.\n\nPor eso se cree que está relacionado con la empatía y la conexión social, aunque las causas exactas todavía se investigan. En los humanos, la sensibilidad al contagio aumenta con la edad: los niños la muestran más a partir de los cuatro años, cuando también aparecen conductas relacionadas con la empatía. Si bostezaste al leer esto, no eres el único.",
+   "deep": "Un estudio de 2013 con chimpancés examinó dos factores: la edad y la cercanía emocional con el chimpancé que bostezaba. Los investigadores compararon el contagio del bostezo con el de otro gesto, frotarse la nariz: el bostezo, pero no el frotarse la nariz, se contagiaba entre los chimpancés jóvenes, mientras que las crías eran inmunes al contagio, igual que les ocurre a los bebés humanos. Sobre por qué bostezamos, hay varias hipótesis, como que el bostezo ayuda a regular la temperatura del cerebro o a mantenernos alerta en momentos de cambio, como al despertarnos o antes de dormir, pero ninguna está totalmente demostrada.",
    "sources": [
     {
      "t": "PLOS One — Chimpanzees Show a Developmental Increase in Susceptibility to Contagious Yawning: A Test of the Effect of Ontogeny and Emotional Closeness ",
@@ -7143,7 +7174,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -7159,6 +7190,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13705,7 +13740,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Una pastilla sin medicamento puede hacerte sentir mejor",
    "desc": "Es el efecto placebo, y se tiene en cuenta en todos los ensayos clínicos.",
-   "body": "Cuando una persona cree que recibe un tratamiento, puede notar mejoría en síntomas como el dolor aunque la pastilla no tenga ningún principio activo. Por eso los ensayos médicos comparan los fármacos con un placebo, a menudo sin que pacientes ni médicos sepan quién recibe qué. El placebo no cura enfermedades, pero puede influir en cómo se perciben los síntomas.",
+   "body": "Un placebo es una sustancia o un procedimiento sin efecto farmacológico, como una pastilla de azúcar. Sin embargo, cuando una persona cree que recibe un tratamiento, puede notar mejoría en síntomas como el dolor, las náuseas o el cansancio. Es el llamado efecto placebo, y es uno de los fenómenos más estudiados de la medicina.\n\nPor eso los ensayos clínicos comparan los medicamentos nuevos con un placebo, a menudo sin que pacientes ni médicos sepan quién recibe qué: es el método de doble ciego. Si el fármaco no funciona mejor que el placebo, se considera ineficaz. El placebo no cura enfermedades, pero puede influir en cómo se perciben los síntomas. Las expectativas, el ritual del tratamiento y la atención del médico contribuyen al efecto.",
+   "deep": "Existe también lo contrario: el efecto nocebo, cuando las expectativas negativas empeoran los síntomas, por ejemplo cuando alguien sufre efectos secundarios de una pastilla inactiva porque le advirtieron de ellos. Las diferencias de personalidad pueden influir en la susceptibilidad a ambos efectos. Curiosamente, se han investigado los «placebos abiertos», en los que el paciente sabe perfectamente que el tratamiento es inerte, y algunos ensayos han encontrado efectos positivos en comparación con no recibir tratamiento, aunque hace falta más investigación.",
    "sources": [
     {
      "t": "Journal of Cognitive Enhancement — Placebo and Nocebo Effects in Memory Performance: A Narrative Review",
@@ -13738,7 +13774,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -13754,6 +13790,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13765,7 +13805,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "En reposo, el corazón de un adulto late entre 60 y 100 veces por minuto",
    "desc": "Los deportistas entrenados suelen tener frecuencias más bajas.",
-   "body": "La frecuencia cardiaca en reposo depende de la edad, la forma física y otros factores. En atletas de resistencia es común que esté por debajo de 60 porque su corazón bombea más sangre en cada latido. Durante el ejercicio, el ritmo puede aumentar mucho para llevar más oxígeno a los músculos.",
+   "body": "En reposo, el corazón de un adulto sano late normalmente entre 60 y 100 veces por minuto. La frecuencia depende de la edad, la forma física, el estado de ánimo, la temperatura y la medicación, entre otros factores. Los niños tienen frecuencias más altas que los adultos.\n\nEn los atletas de resistencia, como los corredores de fondo o los ciclistas, es común que esté por debajo de 60, porque su corazón, entrenado, bombea más sangre en cada latido y necesita latir menos veces. Durante el ejercicio, el ritmo puede aumentar mucho para llevar más oxígeno a los músculos. Cuando se para el ejercicio, la frecuencia vuelve poco a poco a su valor de reposo.",
+   "deep": "Los entrenadores usan la «frecuencia cardiaca objetivo», un rango que permite al corazón y a los pulmones obtener el mayor beneficio del ejercicio aeróbico. También se usa la «reserva de frecuencia cardiaca», la diferencia entre la frecuencia máxima y la de reposo. Los estudios han encontrado que una frecuencia en reposo más rápida se asocia con una menor esperanza de vida y es un factor de riesgo importante de enfermedad cardiaca, independientemente de la forma física. Un ritmo muy lento o muy rápido sin motivo, o irregular, es motivo para consultar al médico.",
    "sources": [
     {
      "t": "Publicación académica (DOI) (doi.org) — Frontiers",
@@ -13798,7 +13839,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -13814,6 +13855,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13825,7 +13870,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Las uñas de las manos crecen el doble de rápido que las de los pies",
    "desc": "Las de las manos crecen unos 3,5 mm al mes; las de los pies, alrededor de la mitad.",
-   "body": "En promedio, las uñas de las manos crecen unos 3,5 milímetros al mes y las de los pies, unos 1,6. Por eso las de los pies se cortan con menos frecuencia. En los mamíferos, la velocidad de crecimiento se relaciona con la longitud del último hueso del dedo, y las uñas de los dedos más largos de la mano tienden a crecer más rápido.",
+   "body": "Las uñas de las manos crecen bastante más rápido que las de los pies: en promedio, unos 3,5 milímetros al mes frente a unos 1,6. Por eso las de los pies se cortan con menos frecuencia, y una uña del pie perdida puede tardar más de un año en volver a crecer por completo.\n\nLas uñas crecen desde la matriz, una zona escondida bajo la piel en la base de la uña. Están hechas de queratina, la misma proteína del pelo. La velocidad de crecimiento varía: la uña del dedo índice crece más rápido que la del meñique, y las uñas de las manos pueden crecer hasta cuatro veces más rápido que las de los pies. En los mamíferos, la velocidad se relaciona con la longitud del último hueso del dedo.",
+   "deep": "Las uñas pueden dar pistas sobre la salud. La falta de vitaminas A y B puede volverlas frágiles y con estrías. Como la uña necesita oxígeno para crecer sana, la falta de hierro o la anemia pueden causar estrías longitudinales o hacer que la uña se curve hacia dentro, en forma de cuchara. Las uñas son una característica de casi todos los primates, excepto los titíes, y son el equivalente de las garras de otros animales: nos ayudan a manipular objetos pequeños y protegen la punta de los dedos.",
    "sources": [
     {
      "t": "Wikipedia — Nail (anatomy)",
@@ -13850,7 +13896,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -13862,6 +13908,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13873,7 +13923,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Los grupos sanguíneos se descubrieron en 1901",
    "desc": "Karl Landsteiner identificó los grupos A, B y O, y recibió el Nobel en 1930.",
-   "body": "Antes de su descubrimiento, las transfusiones a menudo fracasaban sin que se supiera por qué. Landsteiner mostró que la sangre de distintas personas puede ser incompatible. Gracias a ello, las transfusiones se volvieron seguras. El 14 de junio, día de su nacimiento, se celebra el Día Mundial del Donante de Sangre.",
+   "body": "Antes de 1901, las transfusiones de sangre eran muy peligrosas: a veces funcionaban y otras veces el paciente moría, sin que nadie supiera por qué. Ese año, el médico austriaco Karl Landsteiner mostró que la sangre de distintas personas puede ser incompatible, y describió los grupos sanguíneos que hoy conocemos como A, B y O; poco después se identificó el grupo AB.\n\nLandsteiner comprobó que transfundir sangre entre personas del mismo grupo no destruía los glóbulos rojos, mientras que entre grupos distintos sí podía hacerlo. Gracias a ello, las transfusiones se volvieron seguras y se convirtieron en uno de los grandes avances de la medicina. Landsteiner recibió el Premio Nobel de Medicina en 1930. El 14 de junio, aniversario de su nacimiento, se celebra desde 2005 el Día Mundial del Donante de Sangre.",
+   "deep": "Los grupos dependen de unas moléculas, los antígenos, que hay en la superficie de los glóbulos rojos. Una persona del grupo A tiene antígeno A y anticuerpos contra el B; una del grupo B, al revés; una del grupo O no tiene ninguno de los dos antígenos; y una del AB tiene ambos, por eso no forma anticuerpos contra ninguno y puede recibir sangre de los demás grupos. La sangre O negativa puede donarse en emergencias a casi cualquier persona.",
    "sources": [
     {
      "t": "Wikipedia — Karl Landsteiner",
@@ -13890,7 +13941,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -13902,6 +13953,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13913,7 +13968,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Los gemelos idénticos tienen huellas dactilares distintas",
    "desc": "Comparten ADN, pero las huellas se forman con influencias del entorno en el útero.",
-   "body": "Las crestas de las huellas dactilares se forman antes del nacimiento y dependen de factores como la posición en el útero y el contacto con el líquido amniótico. Por eso incluso los gemelos idénticos, con el mismo ADN, tienen huellas diferentes.",
+   "body": "Incluso los gemelos idénticos, que comparten el mismo ADN, tienen huellas dactilares distintas. La razón es que las huellas no dependen solo de los genes. Las crestas de la piel de los dedos se forman antes del nacimiento, entre los meses tercero y sexto del embarazo, y en ese proceso influyen factores físicos como la posición del feto en el útero, la presión, el contacto con el líquido amniótico y la velocidad de crecimiento de cada dedo.\n\nLos genes determinan el patrón general, por eso las huellas de los gemelos suelen parecerse más entre sí que las de dos desconocidos. Pero los detalles finos, llamados minucias, como los puntos donde una cresta termina o se divide en dos, son únicos para cada dedo de cada persona. Incluso los diez dedos de una misma persona tienen huellas diferentes.",
+   "deep": "Por eso las huellas se usan desde hace más de un siglo para identificar personas. La técnica se llama dactiloscopia y compara las crestas de la piel de los dedos, la palma de la mano o la planta del pie para determinar si dos huellas proceden del mismo individuo. Los expertos siguen la doctrina de la «única diferencia»: si hay una sola diferencia real entre dos huellas, no son del mismo dedo. Hoy, los sistemas automáticos comparan huellas con enormes bases de datos en segundos, y los lectores de huellas desbloquean millones de teléfonos.",
    "sources": [
     {
      "t": "Dartmouth College — Ridgeology: fingerprints and identical twins",
@@ -13938,7 +13994,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -13954,6 +14010,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -13965,7 +14025,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Tu cerebro pesa alrededor del 2% del cuerpo pero gasta cerca del 20% de su energía",
    "desc": "Es uno de los órganos que más energía consume.",
-   "body": "Aunque solo pesa alrededor de 1,4 kilos en un adulto, el cerebro consume una gran parte de la energía que usa el cuerpo en reposo. Su principal combustible es la glucosa. Esa enorme demanda es una de las razones por las que el cerebro necesita un aporte constante de sangre.",
+   "body": "El cerebro de un adulto pesa alrededor de 1,4 kilos, más o menos el 2 % del peso del cuerpo. Sin embargo, en reposo consume cerca del 20 % de la energía que usa todo el organismo. Ningún otro órgano gasta tanto en proporción a su tamaño.\n\nSu principal combustible es la glucosa, un azúcar que le llega con la sangre. Como apenas almacena energía, necesita un aporte constante de sangre con oxígeno y glucosa. La mayor parte de esa energía no se gasta en «pensar» de forma consciente, sino en mantener la actividad eléctrica de las neuronas y la comunicación entre ellas, incluso mientras dormimos.",
+   "deep": "Un estudio de la neurocientífica Suzana Herculano-Houzel, publicado en 2011, comparó el gasto energético del cerebro en distintas especies y encontró algo sorprendente: el consumo de energía por neurona es relativamente constante entre especies, aunque el tamaño de las neuronas varíe. Eso sugiere que el presupuesto energético de cada neurona ha estado cerca de su límite durante la evolución, lo que podría restringir cuánta actividad pueden mantener a la vez. El gran gasto del cerebro humano se explica sobre todo por su enorme número de neuronas.",
    "sources": [
     {
      "t": "PLOS — Scaling of Brain Metabolism with a Fixed Energy Budget per Neuron: Implications for Neuronal Activity, Plasticity and Evolution",
@@ -13998,7 +14059,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14014,6 +14075,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14025,7 +14090,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Cada ojo tiene un punto ciego que el cerebro «rellena»",
    "desc": "Es la zona donde el nervio óptico sale del ojo y no hay células sensibles a la luz.",
-   "body": "En ese punto de la retina no hay fotorreceptores, así que no detectamos lo que cae allí. No lo notamos porque cada ojo cubre el punto ciego del otro y porque el cerebro completa la imagen con la información de alrededor. Se puede comprobar con un sencillo experimento: tapa un ojo y acerca un dibujo hasta que una parte desaparece.",
+   "body": "Cada uno de tus ojos tiene un punto ciego: una pequeña zona del campo visual en la que no ves nada. Corresponde al lugar de la retina por donde sale el nervio óptico hacia el cerebro, el disco óptico. En ese punto no hay fotorreceptores, las células que captan la luz, así que lo que cae allí no se detecta.\n\nNormalmente no lo notamos por dos razones. Con los dos ojos abiertos, cada ojo cubre el punto ciego del otro. Y aun con un solo ojo, el cerebro «rellena» el hueco con la información de alrededor, inventando lo que probablemente hay. Se puede comprobar con un sencillo experimento: dibuja una cruz y un punto separados unos centímetros, tapa un ojo, mira fijamente la cruz y acerca o aleja el papel; en cierto momento, el punto desaparece.",
+   "deep": "En la literatura médica, este punto ciego fisiológico también se llama «punctum caecum». Existe además un punto ciego nocturno: el centro de la retina, la fóvea, que nos da la visión más nítida de día, tiene sobre todo conos y casi ningún bastón, las células de la visión nocturna. Una vez adaptados a la oscuridad, los bastones son unas 10 000 veces más sensibles a la luz que los conos. Por eso, de noche, una estrella muy tenue se ve mejor si no la miramos directamente, sino un poco de lado.",
    "sources": [
     {
      "t": "Wikipedia — Blind spot (vision)",
@@ -14050,7 +14116,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -14062,6 +14128,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -14073,7 +14143,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El hígado puede volver a crecer",
    "desc": "Tras extirpar una parte, el hígado restante puede recuperar su tamaño.",
-   "body": "El hígado es el órgano interno con mayor capacidad de regeneración en los humanos. Por eso es posible donar una parte del hígado en vida: tanto el donante como el receptor recuperan, con el tiempo, un volumen de hígado funcional. Esta capacidad tiene límites y puede verse afectada por enfermedades.",
+   "body": "El hígado es el único órgano interno con capacidad para regenerarse. Si se extirpa una parte, el tejido que queda puede volver a crecer hasta recuperar un volumen funcional parecido al original, a menudo en cuestión de semanas o meses. Esa capacidad le permite reparar rápidamente el tejido dañado y evitar una insuficiencia hepática.\n\nGracias a ello es posible donar una parte del hígado en vida, por ejemplo de un padre a un hijo: tanto el donante como el receptor recuperan, con el tiempo, un hígado de tamaño suficiente. No es que el lóbulo extirpado vuelva a aparecer con su forma exacta, sino que el tejido restante aumenta de tamaño hasta compensar lo perdido. La regeneración tiene límites y puede verse afectada por enfermedades: si hay problemas previos, puede detenerse antes de completarse o el hígado puede empezar a formar cicatrices.",
+   "deep": "En la regeneración, las propias células principales del hígado, los hepatocitos, que normalmente casi no se dividen, vuelven a multiplicarse. El proceso empieza con una fase de preparación fuera de los hepatocitos, en la matriz que los rodea, que prepara al órgano para crecer. Cuando este mecanismo normal falla, otros tipos de células pueden reparar el tejido. La idea de un hígado que se regenera es muy antigua: en el mito griego de Prometeo, un águila le devoraba cada día el hígado, que volvía a crecer por la noche.",
    "sources": [
     {
      "t": "Organismo gubernamental (nih.gov) — Cells that maintain and repair the liver identified",
@@ -14098,7 +14169,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -14114,6 +14185,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -23235,7 +23310,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El ojo humano puede detectar un solo fotón de luz",
    "desc": "Un experimento de 2016 mostró que las personas notan una sola partícula de luz con una probabilidad mayor que el azar.",
-   "body": "Durante más de 70 años no estuvo claro cuál es el límite absoluto de la visión humana. Se sabía que los bastones de la retina responden a fotones individuales, pero no si una persona podía percibir uno solo. En 2016, un estudio publicado en Nature Communications combinó una fuente de luz cuántica, capaz de emitir fotones de uno en uno, con pruebas de percepción. El resultado: los participantes detectaron un solo fotón que llegaba a la córnea con una probabilidad significativamente superior al azar. Los investigadores observaron además que la probabilidad de notarlo aumentaba si había llegado otro fotón poco antes, como si el sistema visual se «preparara» durante unos segundos.",
+   "body": "Durante más de 70 años no estuvo claro cuál es el límite absoluto de la visión humana. Se sabía que los bastones de la retina responden a fotones individuales, pero no si una persona podía percibir uno solo. En 2016, un estudio publicado en Nature Communications combinó una fuente de luz cuántica, capaz de emitir fotones de uno en uno, con pruebas de percepción.\n\nEl resultado: los participantes detectaron un solo fotón que llegaba a la córnea con una probabilidad significativamente superior al azar. Los investigadores observaron además que la probabilidad de notarlo aumentaba si había llegado otro fotón poco antes, como si el sistema visual se «preparara» durante unos segundos.",
+   "deep": "El reto del experimento era que las fuentes de luz normales, incluso muy atenuadas, emiten fotones de forma aleatoria: nunca se sabe si en un destello hay cero, uno o dos. Por eso los investigadores usaron una fuente cuántica que producía pares de fotones: uno iba al ojo del voluntario y el otro a un detector, que confirmaba que se había emitido exactamente uno. Los participantes, tras adaptarse a la oscuridad, decían en cuál de dos intervalos de tiempo creían haber visto el fotón y con qué seguridad. Los autores se preguntaron también si la percepción en esas condiciones extremas estaba limitada solo por el «ruido» de la propia retina.",
    "sources": [
     {
      "t": "Nature Communications — Direct detection of a single photon by humans (Tinsley et al.)",
@@ -23267,13 +23343,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
