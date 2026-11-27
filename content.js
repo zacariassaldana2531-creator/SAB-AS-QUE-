@@ -9066,7 +9066,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Los griegos construyeron una «computadora» hace más de 2.000 años",
    "desc": "El mecanismo de Anticitera, hallado en un naufragio en 1901, calculaba posiciones astronómicas.",
-   "body": "Unos buzos encontraron en 1901 los restos de un aparato de bronce con engranajes en un barco hundido cerca de la isla griega de Anticitera. Estudios con rayos X y tomografías mostraron que servía para predecir eclipses y posiciones del Sol y la Luna. No se conoce nada de una complejidad similar hasta muchos siglos después.",
+   "body": "Unos buscadores de esponjas encontraron en 1900 un barco hundido cerca de la isla griega de Anticitera, y en 1900 y 1901 rescataron su carga bajo supervisión del gobierno griego. En 1902, entre piezas de bronce sin clasificar en el Museo Arqueológico Nacional de Atenas, se notaron los fragmentos de un aparato de bronce con engranajes, que había estado dentro de una caja de madera con tapas de bronce.\n\nEstudios con rayos X y tomografías mostraron que servía para predecir eclipses y posiciones del Sol y la Luna, e incluso para indicar los ciclos de las Olimpiadas. Se movía con una manivela, y el mayor de sus fragmentos contiene unos treinta engranajes. No se conoce nada de una complejidad similar hasta muchos siglos después.",
+   "deep": "Los fragmentos están muy calcificados y corroídos tras casi dos mil años bajo el agua, y por eso durante décadas fueron un enigma. Su estudio dio un salto en 2005, cuando se obtuvieron nuevos datos que mejoraron mucho el conocimiento de sus funciones y de las inscripciones de su exterior, que funcionan casi como un manual. En la parte trasera tenía dos grandes sistemas de diales en forma de espiral, divididos en meses lunares. Según los investigadores, las ideas astronómicas que usa se remontan al siglo II antes de Cristo, la época del matemático Apolonio de Perge, aunque no se descarta una fecha anterior. Se considera uno de los objetos más asombrosos de la Antigüedad.",
    "sources": [
     {
      "t": "Universidad (dlib.nyu.edu) — Tony Freeth and Alexander Jones. \"The Cosmos in the Antikythera Mechanism.\" ISAW Papers 4 (February, 2012)",
@@ -9099,7 +9100,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -9115,6 +9116,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9126,7 +9131,8 @@ window.SQ_CONTENT = {
    "level": 3,
    "title": "El paso Diátlov: nueve excursionistas murieron en circunstancias extrañas en 1959",
    "desc": "Investigaciones recientes apuntan a una avalancha de placa como causa más probable.",
-   "body": "En febrero de 1959, nueve excursionistas soviéticos murieron en los montes Urales. Habían cortado su tienda desde dentro y huido con poca ropa a la nieve. Durante décadas surgieron teorías de todo tipo. En 2019 Rusia reabrió el caso, y un estudio publicado en 2021 en una revista científica propuso una pequeña avalancha de placa como explicación plausible.",
+   "body": "En enero de 1959, un grupo de estudiantes y un instructor deportivo, que había combatido en la Segunda Guerra Mundial, salió a una expedición de esquí y montañismo por los montes Urales. Uno se volvió por dolores en las articulaciones, y los nueve restantes, dirigidos por Ígor Diátlov, que dio nombre al paso, siguieron adelante. El 1 de febrero acamparon en las laderas nevadas de una montaña, y en febrero de 1959 los nueve murieron.\n\nHabían cortado su tienda desde dentro y huido con poca ropa a la nieve. Durante décadas surgieron teorías de todo tipo, desde ataques de animales hasta pruebas militares. Los investigadores soviéticos de la época concluyeron que una «fuerza natural irresistible» había causado las muertes. En 2019 Rusia reabrió el caso, y un estudio publicado en 2021 en una revista científica propuso una pequeña avalancha de placa como explicación plausible.",
+   "deep": "En 2020, las autoridades rusas concluyeron que lo más probable era que una avalancha obligara a los excursionistas a abandonar el campamento de repente, con poca visibilidad y sin ropa adecuada, y que murieran después de hipotermia. El estudio de 2021, de Johan Gaume, especialista en simulación de avalanchas del instituto EPFL, y Alexander Puzrin, ingeniero geotécnico del ETH de Zúrich, publicado en la revista Communications Earth & Environment, mostró cómo un deslizamiento relativamente pequeño de una placa de nieve, provocado por la acumulación de nieve arrastrada por el viento en la pendiente justo encima de la tienda, podía dañarla y causar lesiones graves. El grupo había excavado la ladera para montar la tienda, y sus diarios hablan de vientos muy fuertes.",
    "sources": [
     {
      "t": "National Geographic — Has science solved one of history’s greatest adventure mysteries?",
@@ -9151,7 +9157,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hipotesis",
@@ -9167,6 +9173,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9178,7 +9188,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Una colonia entera desapareció dejando una sola palabra tallada",
    "desc": "La «colonia perdida» de Roanoke se esfumó a finales del siglo XVI; solo quedó la palabra CROATOAN.",
-   "body": "En 1587, más de cien colonos ingleses se instalaron en la isla de Roanoke, en la actual Carolina del Norte. Cuando un barco de suministros regresó en 1590, no había nadie. Encontraron la palabra «CROATOAN» tallada en un poste, el nombre de una isla cercana y de un pueblo indígena. Su destino sigue sin confirmarse.",
+   "body": "En 1587, más de cien colonos ingleses se instalaron en la isla de Roanoke, en la actual Carolina del Norte, al mando del gobernador John White. Unas 115 personas aceptaron unirse a la colonia, entre ellas la hija embarazada de White, Eleanor, y su marido, Ananias Dare. Poco después, White volvió a Inglaterra a buscar suministros.\n\nCuando un barco de suministros regresó en 1590, no había nadie. Encontraron la palabra «CROATOAN» tallada en un poste, el nombre de una isla cercana y de un pueblo indígena. Su destino sigue sin confirmarse. Entre los desaparecidos estaba la nieta de White, Virginia Dare, la primera niña de padres ingleses nacida en América.",
+   "deep": "White había acordado con los colonos que, si se marchaban, tallarían el nombre del lugar adonde iban, y una cruz si se iban por peligro; no había ninguna cruz. Por eso muchos historiadores creen que pudieron trasladarse a la isla de Croatoan, la actual Hatteras, o integrarse con pueblos indígenas de la zona. Era el segundo intento de establecer una colonia inglesa en esas tierras, impulsado por Walter Raleigh, y la guerra entre Inglaterra y España retrasó el regreso de White durante años. El caso se conoce como «la colonia perdida», y es uno de los grandes misterios de la historia de Estados Unidos.",
    "sources": [
     {
      "t": "Servicio de Parques Nacionales de EE. UU. — 1584: The First English Voyage - Fort Raleigh National Historic Site (U.S. National Park Service)",
@@ -9203,7 +9214,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
@@ -9219,6 +9230,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9230,7 +9245,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La Isla de Pascua tiene una escritura que nadie ha descifrado",
    "desc": "Se llama rongorongo y sobrevive en unas pocas decenas de objetos de madera.",
-   "body": "Además de sus famosas estatuas moái, la Isla de Pascua (Rapa Nui) dejó un sistema de glifos llamado rongorongo. Solo se conservan unas dos docenas de piezas de madera con inscripciones. Nadie ha logrado descifrarlo con certeza, y se discute incluso si es una escritura completa.",
+   "body": "Además de sus famosas estatuas moái, la Isla de Pascua (Rapa Nui) dejó un sistema de glifos llamado rongorongo. Solo se conservan unas dos docenas de piezas de madera con inscripciones. Los glifos son contornos de figuras humanas, animales, plantas, objetos y formas geométricas.\n\nNadie ha logrado descifrarlo con certeza, y se discute incluso si es una escritura completa o una forma de «protoescritura». Ha habido numerosos intentos de desciframiento, pero ninguno ha tenido un éxito completo. Los textos se escribían en «bustrofedón invertido»: al terminar una línea, había que girar la tablilla para leer la siguiente.",
+   "deep": "Los europeos conocieron el rongorongo a través del misionero Eugène Eyraud en 1864, cuando la población de la isla estaba devastada: incursiones de traficantes de esclavos, incluida una terrible en 1862, y una epidemia de viruela posterior la habían reducido a menos de doscientas personas. Algunos investigadores creen que pudo inventarse después del contacto con los españoles, que en 1770 hicieron firmar un tratado a los jefes locales, mientras que otros señalan que las marcas con que firmaron no se parecen al rongorongo. Algunas tablillas se han datado con carbono, pero los resultados solo indican que son posteriores a 1680.",
    "sources": [
     {
      "t": "Scientific American — The \"Talking Boards\" of Easter Island",
@@ -9263,7 +9279,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
@@ -9279,6 +9295,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9290,7 +9310,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Un barco apareció navegando sin nadie a bordo en 1872",
    "desc": "El Mary Celeste estaba en buen estado y con provisiones, pero su tripulación había desaparecido.",
-   "body": "En diciembre de 1872, otro barco encontró al Mary Celeste a la deriva en el Atlántico. Tenía carga, comida y agua, pero faltaba el bote salvavidas y no había rastro de las diez personas a bordo. Hay muchas hipótesis, desde un temor a una explosión de la carga hasta un error de navegación, pero ninguna está confirmada.",
+   "body": "En diciembre de 1872, el barco Dei Gratia encontró al bergantín Mary Celeste a la deriva en el Atlántico, cerca de las Azores. Había salido de Nueva York rumbo a Génova con un cargamento de alcohol. Tenía carga, comida y agua, pero faltaba el bote salvavidas y no había rastro de las diez personas a bordo, entre ellas el capitán Benjamin Briggs, su esposa y su hija pequeña.\n\nHay muchas hipótesis, desde un temor a una explosión de la carga hasta un error de navegación, pero ninguna está confirmada. La tripulación del Dei Gratia llevó el barco a Gibraltar, donde un tribunal investigó el caso.",
+   "deep": "Entre las explicaciones propuestas están los vapores del alcohol que subían de la carga, terremotos submarinos, trombas marinas, el ataque de un calamar gigante e incluso intervenciones paranormales. Una de las más aceptadas es que el capitán, temiendo una explosión, ordenó abandonar el barco en el bote. El misterio se hizo mundialmente famoso gracias a un relato de ficción de 1884 del joven escritor Arthur Conan Doyle, el creador de Sherlock Holmes, que inventó muchos detalles que después se tomaron como reales. El barco siguió navegando y, años después, su capitán lo hundió deliberadamente frente a Haití para cobrar un seguro.",
    "sources": [
     {
      "t": "Smithsonian Magazine (Smithsonian Institution) — Abandoned Ship: The Mary Celeste",
@@ -9323,7 +9344,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
@@ -9339,6 +9360,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9350,7 +9375,8 @@ window.SQ_CONTENT = {
    "level": 3,
    "title": "Los minoicos escribían en un sistema que todavía no podemos leer",
    "desc": "El Lineal A, de la antigua Creta, sigue sin descifrar. Su sucesor, el Lineal B, se descifró en 1952.",
-   "body": "El Lineal B, usado para escribir una forma antigua de griego, fue descifrado por Michael Ventris en 1952. El Lineal A comparte muchos signos con él, así que se puede «pronunciar» en parte, pero la lengua que representa es desconocida. Por eso no se entienden sus textos.",
+   "body": "El Lineal A fue el sistema de escritura de los minoicos, la civilización de la Edad del Bronce que floreció en la isla de Creta. El nombre lo puso el arqueólogo británico Arthur Evans, que excavó el palacio de Cnosos a comienzos del siglo XX. Se conservan sobre todo textos breves en tablillas de arcilla.\n\nEl Lineal B, usado para escribir una forma antigua de griego, fue descifrado por Michael Ventris en 1952. Se ha encontrado en Cnosos, en Creta, y en la Grecia continental, en Micenas y Pilos. El Lineal A comparte muchos signos con él, así que se puede «pronunciar» en parte, pero la lengua que representa es desconocida. Por eso no se entienden sus textos.",
+   "deep": "El Lineal B lo usaron los micénicos, que tomaron la escritura de los minoicos y la adaptaron a su propia lengua, el griego. Ventris, un arquitecto aficionado a los idiomas, logró descifrarlo trabajando junto al filólogo John Chadwick, y demostró que era griego, algo que sorprendió a muchos especialistas. Con el Lineal A no ha sido posible hacer lo mismo: aunque se pueden leer los sonidos aproximados de muchos signos, esas palabras no se parecen a ninguna lengua conocida. Además, la mayoría de los textos son listas administrativas muy cortas, con números y mercancías, lo que da pocas pistas sobre la gramática.",
    "sources": [
     {
      "t": "Greece & Rome — New Light on Linear A",
@@ -9392,7 +9418,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
@@ -9408,6 +9434,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -9477,7 +9507,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Las piedras que «caminaban» solas en el desierto ya tienen explicación",
    "desc": "En el Valle de la Muerte, finas capas de hielo y el viento las desplazan. Se grabó en 2014.",
-   "body": "Durante décadas, piedras de hasta cientos de kilos dejaban largos surcos en un lago seco de California sin que nadie las viera moverse. En 2014, un equipo de investigadores grabó el fenómeno: tras noches frías, se forman láminas delgadas de hielo que, empujadas por un viento suave, arrastran las piedras lentamente.",
+   "body": "Durante décadas, piedras dejaban largos surcos en el fondo liso de un lago seco de California, Racetrack Playa, en el Parque Nacional del Valle de la Muerte, sin que nadie las viera moverse. Los surcos llegan a medir hasta 100 metros de largo y entre 8 y 30 centímetros de ancho, y la mayoría de las piedras que se mueven miden entre 15 y 46 centímetros de diámetro.\n\nEn 2014, un equipo de investigadores grabó el fenómeno: tras noches frías, se forman láminas delgadas de hielo que, empujadas por un viento suave, arrastran las piedras lentamente. Las grandes láminas de hielo flotan sobre un estanque pasajero que se forma en invierno, y se rompen por el viento.",
+   "deep": "Las piedras dejan pistas sobre cómo se mueven: las de base rugosa trazan surcos rectos y estriados, mientras que las de base lisa tienden a serpentear. A veces se dan la vuelta y dejan un rastro distinto, y a veces varias piedras dejan surcos paralelos que giran juntos, como si las arrastrara la misma lámina de hielo. Durante el invierno de 2013 a 2014, algunas piedras se movieron varios minutos seguidos, y varias se desplazaron más de cinco veces mientras existió el estanque. El fenómeno se ha observado también en otros lugares, como Little Bonnie Claire Playa, en Nevada, pero Racetrack Playa es el más famoso por el número y la longitud de sus surcos.",
    "sources": [
     {
      "t": "Nature — 'Wandering stones' of Death Valley explained",
@@ -9502,7 +9533,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -9518,6 +9549,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16285,7 +16320,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Algunas piedras de Stonehenge viajaron más de 200 km",
    "desc": "Las llamadas «piedras azules» proceden de Gales.",
-   "body": "Stonehenge se construyó en varias fases, aproximadamente entre el 3000 y el 2000 a. C. Las piedras azules más pequeñas se trajeron desde las colinas de Preseli, en Gales. No se sabe con certeza cómo las transportaron ni para qué servía exactamente el monumento, aunque está alineado con la salida del Sol en el solsticio de verano.",
+   "body": "Stonehenge, en el sur de Inglaterra, se construyó en varias fases, aproximadamente entre el 3000 y el 2000 a. C. Tiene un anillo exterior de grandes piedras de arenisca llamadas sarsens, de unos 4 metros de alto y unas 25 toneladas cada una, unidas por dinteles horizontales encajados con juntas de espiga, una técnica propia de la carpintería. Las piedras azules, más pequeñas, se trajeron desde las colinas de Preseli, en Gales.\n\nNo se sabe con certeza cómo las transportaron ni para qué servía exactamente el monumento, aunque está alineado con la salida del Sol en el solsticio de verano y con la puesta del Sol en el solsticio de invierno. Pudo ser también un lugar de enterramiento desde sus comienzos.",
+   "deep": "Stonehenge se encuentra en medio del conjunto más denso de monumentos del Neolítico y de la Edad del Bronce de Inglaterra, que incluye varios cientos de túmulos funerarios. Durante mucho tiempo se creyó que la piedra del Altar procedía de Gales, pero un estudio de 2024 de la Universidad de Curtin concluyó que viene del norte de Escocia. Fue declarado Patrimonio de la Humanidad por la UNESCO en 1986, y hoy lo gestiona el organismo English Heritage. Estudios de ADN indican que hacia el 2500 a. C. llegó a Gran Bretaña una nueva población, los llamados «pueblos del vaso campaniforme», que reemplazó en gran parte a la población anterior.",
    "sources": [
     {
      "t": "Museo de Historia Natural de Londres — The Beaker people: a new population for ancient Britain",
@@ -16326,7 +16362,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -16342,6 +16378,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16353,7 +16393,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Los moáis de la Isla de Pascua pudieron haber «caminado» hasta su lugar",
    "desc": "Experimentos muestran que se pueden mover balanceándolos de pie con cuerdas.",
-   "body": "Durante años se preguntó cómo se trasladaron estatuas de varias toneladas sin ruedas ni animales grandes. Investigadores mostraron que una réplica podía avanzar de pie balanceándose con ayuda de cuerdas, como coincide con relatos rapanui que dicen que los moáis «caminaban». La hipótesis tiene apoyo, aunque el debate sigue.",
+   "body": "Los moáis son figuras humanas monolíticas talladas en piedra por el pueblo rapanui en la Isla de Pascua, en la Polinesia oriental, entre los años 1250 y 1500. Se tallaban en toba volcánica, y casi la mitad siguen en Rano Raraku, la cantera principal; cientos fueron trasladados a plataformas de piedra llamadas «ahu» alrededor de la isla. El más alto que llegó a levantarse, Paro, medía casi 10 metros y pesaba 82 toneladas.\n\nDurante años se preguntó cómo se trasladaron estatuas de varias toneladas sin ruedas ni animales grandes. Investigadores mostraron que una réplica podía avanzar de pie balanceándose con ayuda de cuerdas, como coincide con relatos rapanui que dicen que los moáis «caminaban». La hipótesis tiene apoyo, aunque el debate sigue.",
+   "deep": "Los moáis representan sobre todo los rostros vivos de antepasados divinizados, y tienen cabezas desproporcionadamente grandes, que ocupan unos tres octavos de la estatua, una característica que refleja la creencia polinesia en el carácter sagrado de la cabeza. Cuando los europeos visitaron la isla por primera vez, en 1722, las estatuas aún miraban hacia el interior, sobre las tierras de sus clanes, pero a finales del siglo XIX todas habían sido derribadas. Producir y trasladar más de 900 estatuas se considera una hazaña extraordinaria. Una escultura sin terminar habría medido unos 21 metros, y todavía en 2023 se seguían descubriendo estatuas nuevas.",
    "sources": [
     {
      "t": "UNESCO — Rapa Nui National Park",
@@ -16394,7 +16435,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hipotesis",
@@ -16410,6 +16451,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16421,7 +16466,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Hay un templo de piedra miles de años más antiguo que las pirámides",
    "desc": "Göbekli Tepe, en Turquía, se construyó hacia el 9500 a. C.",
-   "body": "Sus pilares de piedra en forma de T, decorados con animales tallados, fueron levantados por grupos de cazadores-recolectores, antes de que existiera la agricultura en la zona. El hallazgo obligó a replantear la idea de que los grandes monumentos solo surgieron después de la agricultura.",
+   "body": "Göbekli Tepe, en el sureste de Turquía, es un yacimiento del Neolítico precerámico levantado aproximadamente entre el 9500 y el 8000 antes de Cristo, unos 11.600 años atrás: siete milenios antes que la Gran Pirámide de Guiza. Sus pilares de piedra en forma de T, entre los megalitos más antiguos que se conocen, están decorados con animales tallados y fueron levantados por grupos de cazadores-recolectores, antes de que existiera la agricultura en la zona.\n\nLos pilares más altos miden más de 5 metros y pesan unas 16 toneladas. Están cubiertos de relieves de animales, como zorros, escorpiones y jabalíes feroces. El hallazgo obligó a replantear la idea de que los grandes monumentos solo surgieron después de la agricultura.",
+   "deep": "El arqueólogo alemán Klaus Schmidt, del Instituto Arqueológico Alemán, recorrió la zona en 1994 y comprendió enseguida la importancia del lugar; él lo interpretó como el templo más antiguo conocido. Algunos investigadores han propuesto que la necesidad de alimentar a las multitudes que acudían allí pudo impulsar la domesticación de plantas en la región. La UNESCO lo declaró Patrimonio de la Humanidad en 2018, como una de las primeras manifestaciones de arquitectura monumental humana, y en 2021 solo se había excavado alrededor del 10 % del sitio, así que quedan muchos descubrimientos por hacer.",
    "sources": [
     {
      "t": "National Geographic — The Birth of Religion",
@@ -16454,7 +16500,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -16470,6 +16516,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16481,7 +16531,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El «rayo globular» es un fenómeno real que la ciencia aún no explica del todo",
    "desc": "Son esferas luminosas que aparecen durante tormentas.",
-   "body": "Hay muchos testimonios de bolas de luz que flotan durante segundos durante tormentas eléctricas. Durante mucho tiempo fueron difíciles de estudiar porque son raras e impredecibles. En 2012, científicos chinos registraron por casualidad el espectro de uno. Hay varias hipótesis, pero ninguna explicación definitiva.",
+   "body": "El rayo globular es un fenómeno raro y sin explicación clara: se describen objetos luminosos y esféricos, desde el tamaño de un guisante hasta varios metros de diámetro. Suele asociarse a las tormentas eléctricas, y dura mucho más que el destello de un rayo normal. Es distinto del fuego de San Telmo, con el que a menudo se confunde.\n\nDurante mucho tiempo fueron difíciles de estudiar porque son raros e impredecibles. En 2012, científicos chinos registraron por casualidad el espectro de uno, y lo publicaron en enero de 2014 junto con un video grabado a alta velocidad. Hay varias hipótesis, pero ninguna explicación definitiva.",
+   "deep": "Las descripciones varían muchísimo: se habla de bolas que se mueven arriba y abajo, de lado o de forma impredecible, que flotan a favor o en contra del viento, o que parecen atraídas por edificios, personas o coches. Algunos relatos dicen que atraviesan madera o metal sin dañarlos, y otros, que los queman. Se describen transparentes, translúcidas o multicolores, con formas de esfera, óvalo, lágrima o disco. Pueden desaparecer de golpe, disiparse poco a poco o estallar con fuerza, y algunos relatos del siglo XX hablan de un olor a azufre después. En el laboratorio se han creado efectos parecidos, pero no está claro qué relación tienen con el fenómeno natural.",
    "sources": [
     {
      "t": "Nature — Plasma fireballs formed by microwave interference in air",
@@ -16526,7 +16577,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "misterio",
@@ -16542,6 +16593,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Fuentes reforzadas en la revisión de contenidos con respaldo débil"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16553,7 +16608,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El misterioso sonido submarino «Bloop» tenía una explicación helada",
    "desc": "Se grabó en 1997 en el Pacífico; hoy se atribuye a un desprendimiento de hielo.",
-   "body": "El sonido, extremadamente potente y de baja frecuencia, fue captado por hidrófonos de la agencia estadounidense NOAA. Por su intensidad, se especuló con un animal gigante desconocido. Análisis posteriores concluyeron que coincide con los sonidos de grandes masas de hielo que se fracturan en la Antártida.",
+   "body": "El «Bloop» fue un sonido submarino de frecuencia ultrabaja y gran amplitud, captado en 1997 por hidrófonos de la agencia estadounidense NOAA, la Administración Nacional Oceánica y Atmosférica. Su origen se situó aproximadamente en un punto remoto del Pacífico Sur, al oeste del extremo sur de Sudamérica. Era tan fuerte que lo captaron varios sensores a más de 5000 kilómetros de distancia.\n\nPor su intensidad, se especuló con un animal gigante desconocido, y el sonido alimentó muchas historias de monstruos marinos. Análisis posteriores concluyeron que coincide con los sonidos de grandes masas de hielo que se fracturan en la Antártida.",
+   "deep": "Los hidrófonos que lo registraron forman parte de una red de la NOAA usada para vigilar la actividad sísmica submarina, el ruido del hielo y las poblaciones de mamíferos marinos. Complementa el sistema de vigilancia sonora de la Marina estadounidense, diseñado originalmente para detectar submarinos soviéticos. En 2008, al seguir la desintegración de un gran iceberg cerca de la isla Georgia del Sur, los científicos registraron muchos «terremotos de hielo» con un sonido muy parecido. Según la NOAA, los icebergs que lo produjeron estaban probablemente entre el estrecho de Bransfield y el mar de Ross, o en el cabo Adare. El agua de mar transmite muy bien el sonido, por eso se oyen a distancias enormes.",
    "sources": [
     {
      "t": "NOAA (EE. UU.) — Acoustics Monitoring Program - Icequakes (Bloop)",
@@ -16586,7 +16642,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -16602,6 +16658,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16613,7 +16673,8 @@ window.SQ_CONTENT = {
    "level": 3,
    "title": "Un disco de arcilla de Creta tiene un texto que nadie ha podido leer",
    "desc": "El disco de Festo tiene símbolos estampados en espiral en ambas caras.",
-   "body": "Encontrado en 1908 en el palacio minoico de Festo, en Creta, el disco tiene 242 signos impresos con sellos, una especie de imprenta muy antigua. Al ser un objeto único, sin otros textos con los que compararlo, es casi imposible descifrarlo. Algunos investigadores incluso han dudado de su autenticidad.",
+   "body": "El disco fue descubierto en 1908 por el arqueólogo italiano Luigi Pernier durante la excavación del palacio minoico de Festo, en Creta. Es de arcilla cocida, mide unos 16 centímetros de diámetro y está cubierto por ambas caras con un texto en espiral. Se cree que data del segundo milenio antes de Cristo, y su finalidad y lugar de fabricación siguen siendo discutidos.\n\nEl disco tiene 242 signos impresos con sellos, una especie de imprenta muy antigua: en total son 45 signos distintos, que se estamparon uno por uno en la arcilla blanda antes de cocerla. Al ser un objeto único, sin otros textos con los que compararlo, es casi imposible descifrarlo. Algunos investigadores incluso han dudado de su autenticidad.",
+   "deep": "Sus rasgos únicos llevaron a algunos especialistas a sospechar que era una falsificación, aunque hoy en general se acepta como auténtico. Su gran rareza es la técnica: cada signo se estampó con un sello, como si fueran tipos de imprenta, miles de años antes de Gutenberg. Se han propuesto muchísimas «traducciones», que dicen que es un himno, un calendario o un texto en distintas lenguas antiguas, pero ninguna ha convencido a los especialistas, porque con un solo texto tan corto es imposible comprobarlas. Tanto su escritura como su lengua son desconocidas. Se exhibe en el Museo Arqueológico de Heraclión, en Creta.",
    "sources": [
     {
      "t": "Greece & Rome — Cretan Hieroglyphs: The end of a Quest?",
@@ -16646,7 +16707,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
@@ -16662,6 +16723,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22069,7 +22134,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Un manuscrito cifrado de 105 páginas se descifró en 2011",
    "desc": "El códice Copiale resultó ser un texto de una sociedad secreta alemana del siglo XVIII.",
-   "body": "Durante siglos nadie supo qué decía. En 2011, un equipo de investigadores usó métodos informáticos de traducción para descifrarlo: describía los rituales de una sociedad secreta relacionada con la oftalmología. Es un ejemplo de cómo la tecnología ayuda a resolver viejos enigmas.",
+   "body": "El cifrado Copiale es un manuscrito cifrado de 105 páginas encuadernadas, con 75.000 caracteres escritos a mano, que se conserva en una colección privada. Combina símbolos abstractos con letras griegas y casi todo el alfabeto latino. Durante más de 260 años nadie supo qué decía.\n\nEn 2011, un equipo internacional formado por Kevin Knight, de la Universidad del Sur de California, y Beáta Megyesi y Christiane Schaefer, de la Universidad de Uppsala, en Suecia, usó métodos informáticos de traducción para descifrarlo: describía los rituales de una sociedad secreta relacionada con la oftalmología. Es un ejemplo de cómo la tecnología ayuda a resolver viejos enigmas.",
+   "deep": "El texto resultó estar en alemán, y el truco que despistó durante años fue que las letras latinas sin acentos, que parecían el mensaje, solo representaban espacios: el texto real estaba codificado en las letras acentuadas, las griegas y los símbolos. El manuscrito se creó en la década de 1730 por una sociedad secreta llamada la orden de los «Oculistas» de Wolfenbüttel, que usaba la vista como metáfora del conocimiento. Sus primeras 16 páginas describen una ceremonia de iniciación: al candidato se le pedía leer un papel en blanco, luego se le daban gafas, se le lavaban los ojos y, finalmente, en una falsa «operación», se le arrancaba un pelo de una ceja.",
    "sources": [
     {
      "t": "Universidad (today.usc.edu) — USC Scientist Cracks Mysterious \"Copiale Cipher\"",
@@ -22102,7 +22168,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -22118,6 +22184,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22129,7 +22199,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La datación por carbono-14 situó la Sábana Santa de Turín en la Edad Media",
    "desc": "En 1988, tres laboratorios la fecharon entre 1260 y 1390.",
-   "body": "La Sábana Santa es un lienzo con la imagen de un hombre, venerado por muchos fieles. En 1988, la Universidad de Oxford, la Universidad de Arizona y el Instituto Federal Suizo de Tecnología dataron muestras del tejido en la Edad Media. Quienes defienden su autenticidad han cuestionado los resultados, sobre todo con el argumento de que las muestras analizadas podrían no ser representativas del lienzo.",
+   "body": "La Sábana Santa es un lienzo de lino con la imagen tenue de un hombre, venerado por millones de cristianos como el sudario de Jesús. Su historia documentada comienza en la localidad francesa de Lirey, a unos 210 kilómetros al este de París. La casa de Saboya la adquirió en 1453, y en 1578 la trasladó a su capital, Turín, en Italia, donde se conserva desde entonces.\n\nEn 1988, la Universidad de Oxford, la Universidad de Arizona y el Instituto Federal Suizo de Tecnología dataron muestras del tejido en la Edad Media, entre los años 1260 y 1390, con una fiabilidad estimada del 95 %. Quienes defienden su autenticidad han cuestionado los resultados, sobre todo con el argumento de que las muestras analizadas podrían no ser representativas del lienzo.",
+   "deep": "La imagen se hizo mucho más visible en 1898, cuando el fotógrafo aficionado italiano Secondo Pia la fotografió y, al examinar el negativo, descubrió una imagen sorprendentemente nítida del cuerpo. Cómo se formó sigue siendo objeto de debate. Ya en 1389, el obispo de Troyes, Pierre d'Arcis, escribió sobre ella. En 1532 sufrió un incendio en una capilla de Chambéry, cuyas quemaduras y manchas de agua todavía se ven. El Vaticano no adopta una posición oficial sobre su autenticidad, aunque anima a los fieles a venerarla como símbolo del sufrimiento de Cristo.",
    "sources": [
     {
      "t": "National Geographic — Why Shroud of Turin's Secrets Continue to Elude Science",
@@ -22162,7 +22233,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -22179,6 +22250,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
