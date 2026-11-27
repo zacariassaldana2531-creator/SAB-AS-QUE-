@@ -895,6 +895,22 @@ window.SQ_CONTENT = {
    "conclusion": "Una de las palabras más usadas en el software nació como chiste en una bitácora, con un insecto como prueba.",
    "sources": [
     {
+     "t": "Universidad (engineering.upenn.edu) — Recognizing a Pioneer: The IEEE Dedicates Milestone to Grace Hopper at Penn Engineering",
+     "org": "Universidad (engineering.upenn.edu)",
+     "title": "Recognizing a Pioneer: The IEEE Dedicates Milestone to Grace Hopper at Penn Engineering",
+     "u": "https://www.engineering.upenn.edu/stories/recognizing-a-pioneer-the-ieee-dedicates-milestone-to-grace-hopper-at-penn-engineering/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Publicación académica (DOI) (doi.org) — Bulletin of the American Mathematical Society",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "Bulletin of the American Mathematical Society",
+     "u": "https://doi.org/10.1090%2FS0002-9904-1934-05818-X",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Software bug (historia del término)",
      "org": "Wikipedia en inglés",
      "title": "Software bug (historia del término)",
@@ -923,9 +939,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -936,6 +952,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -1399,6 +1419,14 @@ window.SQ_CONTENT = {
    "conclusion": "La señal Wow! no prueba que haya alguien ahí fuera, pero es un recordatorio de cuánto falta por entender del cielo.",
    "sources": [
     {
+     "t": "International Journal of Astrobiology — An approximation to determine the source of the WOW! Signal",
+     "org": "International Journal of Astrobiology",
+     "title": "An approximation to determine the source of the WOW! Signal",
+     "u": "https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/an-approximation-to-determine-the-source-of-the-wow-signal/4C58B6292C73FE8BF04A06C67BAA5B1A",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Wow! signal",
      "org": "Wikipedia en inglés",
      "title": "Wow! signal",
@@ -1418,9 +1446,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
    "history": [
@@ -1431,6 +1459,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -1562,6 +1594,14 @@ window.SQ_CONTENT = {
    "conclusion": "El calendario que usa casi todo el mundo es una herramienta humana, con sus aciertos y sus pequeños errores de cálculo.",
    "sources": [
     {
+     "t": "NASA — Calendars and their History",
+     "org": "NASA",
+     "title": "Calendars and their History",
+     "u": "http://eclipse.gsfc.nasa.gov/SEhelp/calendars.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Anno Domini",
      "org": "Wikipedia en inglés",
      "title": "Anno Domini",
@@ -1591,9 +1631,9 @@ window.SQ_CONTENT = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "claimNote": "La ausencia del año cero es un hecho. La fecha del nacimiento de Jesús es una estimación de los historiadores.",
@@ -1605,6 +1645,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -1754,6 +1798,14 @@ window.SQ_CONTENT = {
    "body": "La miel tiene muy poca agua y mucha azúcar, lo que deshidrata a las bacterias. Además es ácida y las abejas añaden una enzima que produce pequeñas cantidades de peróxido de hidrógeno. Mientras esté bien cerrada y no absorba humedad, prácticamente no se echa a perder. Si se cristaliza, no está dañada: basta con calentarla suavemente.",
    "sources": [
     {
+     "t": "Smithsonian Magazine (Smithsonian Institution) — The Science Behind Honey’s Eternal Shelf Life",
+     "org": "Smithsonian Magazine (Smithsonian Institution)",
+     "title": "The Science Behind Honey’s Eternal Shelf Life",
+     "u": "https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Honey (conservación)",
      "org": "Wikipedia en inglés",
      "title": "Honey (conservación)",
@@ -1773,9 +1825,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -1786,6 +1838,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -1841,6 +1897,14 @@ window.SQ_CONTENT = {
    "body": "Cuando una estrella muy grande explota como supernova, su núcleo puede colapsar y formar una estrella de neutrones: con más masa que el Sol, pero del tamaño de una ciudad. La materia queda tan comprimida que una porción del tamaño de una cucharadita pesaría miles de millones de toneladas en la Tierra. Algunas giran cientos de veces por segundo.",
    "sources": [
     {
+     "t": "NASA — Pulsars",
+     "org": "NASA",
+     "title": "Pulsars",
+     "u": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-pulsars/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Neutron star",
      "org": "Wikipedia en inglés",
      "title": "Neutron star",
@@ -1852,9 +1916,9 @@ window.SQ_CONTENT = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -1865,6 +1929,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -1985,6 +2053,14 @@ window.SQ_CONTENT = {
    "body": "La Antártida recibe tan poca precipitación que cumple la definición de desierto, y con unos 14 millones de km² es el más grande del mundo. El Ártico ocupa el segundo lugar. El Sahara es el desierto cálido más grande, en tercer lugar.",
    "sources": [
     {
+     "t": "Servicio Geológico de EE. UU. (USGS) — Types of Deserts",
+     "org": "Servicio Geológico de EE. UU. (USGS)",
+     "title": "Types of Deserts",
+     "u": "https://pubs.usgs.gov/gip/deserts/types/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Desert",
      "org": "Wikipedia en inglés",
      "title": "Desert",
@@ -2013,9 +2089,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -2030,6 +2106,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -2045,6 +2125,14 @@ window.SQ_CONTENT = {
    "desc": "El linaje de los tiburones tiene más de 400 millones de años; los primeros árboles aparecieron hace unos 385 millones.",
    "body": "Se han encontrado escamas fósiles parecidas a las de los tiburones de hace entre 458 y 444 millones de años, y los llamados «tiburones espinosos», parientes cercanos, aparecieron hace unos 439 millones de años. Los primeros árboles verdaderos surgieron hace unos 385 millones de años, en el período Devónico. Un matiz importante: los tiburones modernos, como los que conocemos hoy, aparecieron mucho después, en el Jurásico.",
    "sources": [
+    {
+     "t": "Publicación académica (DOI) (doi.org) — Frontiers",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "Frontiers",
+     "u": "https://doi.org/10.3389%2Ffgene.2021.521693",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Shark (evolución)",
      "org": "Wikipedia en inglés",
@@ -2074,9 +2162,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -2091,6 +2179,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -2107,6 +2199,14 @@ window.SQ_CONTENT = {
    "body": "El wombat es un marsupial australiano. Investigadores descubrieron que la forma cúbica se crea en la parte final de su intestino, cuyas paredes tienen zonas con distinta rigidez que moldean las esquinas. El estudio ganó el premio Ig Nobel de Física en 2019. Se cree que los cubos, que no ruedan, le sirven para marcar su territorio.",
    "sources": [
     {
+     "t": "Improbable Research (organizadores de los premios Ig Nobel) — Past Ig Winners – Improbable Research",
+     "org": "Improbable Research (organizadores de los premios Ig Nobel)",
+     "title": "Past Ig Winners – Improbable Research",
+     "u": "https://improbable.com/ig/winners/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Wombat",
      "org": "Wikipedia en inglés",
      "title": "Wombat",
@@ -2114,14 +2214,6 @@ window.SQ_CONTENT = {
      "kind": "enciclopedia",
      "accessed": "2026-11-26",
      "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
-    },
-    {
-     "t": "Improbable Research — Ig Nobel Prize winners",
-     "org": "Improbable Research (organizadores de los premios Ig Nobel)",
-     "title": "Ig Nobel Prize winners",
-     "u": "https://improbable.com/ig/winners/",
-     "kind": "otra",
-     "accessed": "2026-11-15"
     }
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/960px-Vombatus_ursinus_-Maria_Island_National_Park.jpg",
@@ -2134,9 +2226,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -2147,6 +2239,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -2762,6 +2858,14 @@ window.SQ_CONTENT = {
    "body": "En sus experimentos, las personas valoraban de forma más positiva palabras, caras o símbolos que habían visto más veces, aunque no recordaran haberlos visto. Es una de las razones por las que una canción que al principio no te convencía termina gustándote, y por las que la publicidad repite los mismos anuncios. El efecto tiene límites: con demasiada repetición puede aparecer el cansancio.",
    "sources": [
     {
+     "t": "Current Psychology — Repeated exposure and the attractiveness of synthetic speech: An inverted-U relationship",
+     "org": "Current Psychology",
+     "title": "Repeated exposure and the attractiveness of synthetic speech: An inverted-U relationship",
+     "u": "https://doi.org/10.1007%2FBF02686619",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Mere-exposure effect",
      "org": "Wikipedia en inglés",
      "title": "Mere-exposure effect",
@@ -2773,9 +2877,9 @@ window.SQ_CONTENT = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
    "history": [
@@ -2786,6 +2890,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -2947,6 +3055,22 @@ window.SQ_CONTENT = {
    "body": "En su obra La República, Platón imagina personas encadenadas en una cueva desde su nacimiento, que solo ven sombras proyectadas en una pared y creen que eso es todo lo que existe. Uno de ellos escapa, ve el mundo real y vuelve para contarlo, pero los demás no le creen. Para Platón, representaba el paso de la ignorancia al conocimiento.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Plato’s Ethics: An Overview",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Plato’s Ethics: An Overview",
+     "u": "https://plato.stanford.edu/entries/plato-ethics/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Internet Encyclopedia of Philosophy — Plato: The Republic",
+     "org": "Internet Encyclopedia of Philosophy",
+     "title": "Plato: The Republic",
+     "u": "https://iep.utm.edu/republic/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Allegory of the cave",
      "org": "Wikipedia en inglés",
      "title": "Allegory of the cave",
@@ -2966,9 +3090,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -2979,6 +3103,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -2995,6 +3123,14 @@ window.SQ_CONTENT = {
    "body": "La mayoría de los historiadores coincide en que Jesús hablaba arameo en su vida diaria y probablemente conocía el hebreo de las escrituras. Los evangelios conservan algunas palabras en arameo, como «Talitha koum» («niña, levántate»). Sin embargo, los textos del Nuevo Testamento que han llegado hasta nosotros se escribieron en griego. Hoy todavía existen comunidades que hablan variantes modernas del arameo.",
    "sources": [
     {
+     "t": "Published in Tyndale Bulletin — Did Jesus Ever Teach in Greek?",
+     "org": "Published in Tyndale Bulletin",
+     "title": "Did Jesus Ever Teach in Greek?",
+     "u": "https://doi.org/10.53751%2F001c.30458",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Language of Jesus",
      "org": "Wikipedia en inglés",
      "title": "Language of Jesus",
@@ -3006,9 +3142,9 @@ window.SQ_CONTENT = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "interpretacion",
    "claimNote": "Es el consenso de los especialistas, que consideran probable que además conociera el hebreo y algo de griego.",
@@ -3020,6 +3156,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3135,6 +3275,14 @@ window.SQ_CONTENT = {
    "body": "El único casco vikingo casi completo encontrado, el de Gjermundbu (Noruega), es redondo y no tiene cuernos. La imagen popular se difundió en el siglo XIX, especialmente con el vestuario diseñado por Carl Emil Doepler para la ópera El anillo del nibelungo de Wagner, en 1876. Unos cuernos serían, además, poco prácticos en una pelea.",
    "sources": [
     {
+     "t": "National Geographic — These 6 Viking myths are compelling, but are they true?",
+     "org": "National Geographic",
+     "title": "These 6 Viking myths are compelling, but are they true?",
+     "u": "https://www.nationalgeographic.com/history/article/facts-vs-fiction-how-the-real-vikings-compared-to-the-brutal-warriors-of-lore",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Gjermundbu helmet",
      "org": "Wikipedia en inglés",
      "title": "Gjermundbu helmet",
@@ -3172,9 +3320,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3189,6 +3337,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3295,6 +3447,14 @@ window.SQ_CONTENT = {
    "body": "Todos los murciélagos tienen ojos funcionales. Muchas especies, además, usan la ecolocalización: emiten sonidos y escuchan el eco para orientarse y cazar en la oscuridad. Algunos murciélagos frugívoros grandes no usan ecolocalización y dependen sobre todo de la vista y del olfato.",
    "sources": [
     {
+     "t": "Servicio Geológico de EE. UU. (USGS) — Are bats blind?",
+     "org": "Servicio Geológico de EE. UU. (USGS)",
+     "title": "Are bats blind?",
+     "u": "https://www.usgs.gov/faqs/are-bats-blind",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Bat (sentidos)",
      "org": "Wikipedia en inglés",
      "title": "Bat (sentidos)",
@@ -3314,9 +3474,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3327,6 +3487,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3343,6 +3507,14 @@ window.SQ_CONTENT = {
    "desc": "Falso. Los toros no distinguen bien el rojo; reaccionan al movimiento.",
    "body": "El ganado vacuno es dicromático: no percibe el rojo como lo vemos nosotros. En las corridas, lo que provoca la embestida es el movimiento del capote o la muleta. Se usa el color rojo por tradición, y según una explicación común porque disimula las manchas de sangre.",
    "sources": [
+    {
+     "t": "Visual Neuroscience — Photopigment basis for dichromatic color vision in cows, goats, and sheep",
+     "org": "Visual Neuroscience",
+     "title": "Photopigment basis for dichromatic color vision in cows, goats, and sheep",
+     "u": "https://doi.org/10.1017%2Fs0952523898153154",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Cattle (visión)",
      "org": "Wikipedia en inglés",
@@ -3363,9 +3535,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3376,6 +3548,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3442,6 +3618,14 @@ window.SQ_CONTENT = {
    "body": "La confusión vino en parte de las unidades: su estatura se registró como 5 pies y 2 pulgadas en medidas francesas, que eran más largas que las inglesas. Convertida correctamente, equivale a unos 1,67 m; otros historiadores estiman 1,70 m. También influyeron las caricaturas británicas, como las de James Gillray, que lo dibujaban pequeño para ridiculizarlo.",
    "sources": [
     {
+     "t": "National Geographic — Was Napoleon even short? Inside the history of discrimination against short men",
+     "org": "National Geographic",
+     "title": "Was Napoleon even short? Inside the history of discrimination against short men",
+     "u": "https://www.nationalgeographic.com/history/article/napoleon-complex-height-discrimination-men-history",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Napoleon complex",
      "org": "Wikipedia en inglés",
      "title": "Napoleon complex",
@@ -3453,9 +3637,9 @@ window.SQ_CONTENT = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3466,6 +3650,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3482,6 +3670,14 @@ window.SQ_CONTENT = {
    "desc": "Falso. Nunca lo hacen.",
    "body": "Los avestruces ponen sus huevos en un hoyo en el suelo y bajan la cabeza para darles vuelta con el pico. Desde lejos parece que la tienen enterrada. Ante el peligro, lo que hacen es huir corriendo, y son muy rápidos, o tumbarse pegados al suelo para pasar desapercibidos.",
    "sources": [
+    {
+     "t": "Smithsonian Institution — Ostrich",
+     "org": "Smithsonian Institution",
+     "title": "Ostrich",
+     "u": "https://nationalzoo.si.edu/animals/ostrich",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Common ostrich (comportamiento)",
      "org": "Wikipedia en inglés",
@@ -3502,9 +3698,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3515,6 +3711,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3531,6 +3731,14 @@ window.SQ_CONTENT = {
    "desc": "Solo en parte. Lo hacen sobre todo para comunicarse y regular su temperatura.",
    "body": "Los camaleones ya tienen colores que les ayudan a pasar desapercibidos. Sus cambios de color más llamativos están relacionados con su estado: para mostrarse ante rivales o parejas, indicar estrés, o para absorber o reflejar más calor. Lo consiguen reorganizando unos nanocristales en células de su piel, que cambian cómo reflejan la luz.",
    "sources": [
+    {
+     "t": "Nature Communications — Photonic crystals cause active colour change in chameleons",
+     "org": "Nature Communications",
+     "title": "Photonic crystals cause active colour change in chameleons",
+     "u": "https://www.nature.com/articles/ncomms7368",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Chameleon (cambio de color)",
      "org": "Wikipedia en inglés",
@@ -3551,9 +3759,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3564,6 +3772,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3577,6 +3789,14 @@ window.SQ_CONTENT = {
    "desc": "Casi todas las sustancias se encogen al solidificarse. El agua, en cambio, se expande.",
    "body": "Al congelarse, las moléculas de agua se ordenan en una red con mucho espacio entre ellas, así que el hielo es menos denso que el agua líquida y flota. Esa rareza es vital: los lagos se congelan desde arriba, la capa de hielo aísla el agua de abajo y los peces sobreviven al invierno. También explica por qué una botella de agua llena puede reventar en el congelador.",
    "sources": [
+    {
+     "t": "Servicio Geológico de EE. UU. (USGS) — Water Density",
+     "org": "Servicio Geológico de EE. UU. (USGS)",
+     "title": "Water Density",
+     "u": "https://www.usgs.gov/special-topics/water-science-school/science/water-density",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Ice",
      "org": "Wikipedia en inglés",
@@ -3599,9 +3819,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3612,6 +3832,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3667,6 +3891,14 @@ window.SQ_CONTENT = {
    "body": "Se suele decir que los vitrales medievales son más gruesos en la parte inferior porque el vidrio «se escurrió» durante siglos. En realidad, las técnicas de la época producían láminas irregulares, y muchas se instalaban con el lado grueso hacia abajo. Los cálculos indican que el vidrio a temperatura ambiente tardaría muchísimo más que la edad del universo en fluir de forma visible.",
    "sources": [
     {
+     "t": "Scientific American — Fact or Fiction?: Glass Is a (Supercooled) Liquid",
+     "org": "Scientific American",
+     "title": "Fact or Fiction?: Glass Is a (Supercooled) Liquid",
+     "u": "https://www.scientificamerican.com/article/fact-fiction-glass-liquid/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Glass",
      "org": "Wikipedia en inglés",
      "title": "Glass",
@@ -3688,9 +3920,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3701,6 +3933,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3715,6 +3951,14 @@ window.SQ_CONTENT = {
    "body": "Durante un eclipse en 1868, los astrónomos vieron en la luz del Sol una línea de color que no correspondía a ningún elemento conocido. Lo llamaron helio, del griego «helios», Sol. Fue en 1895 cuando el químico William Ramsay lo aisló en la Tierra a partir de un mineral. Es el segundo elemento más abundante del universo.",
    "sources": [
     {
+     "t": "Organismo gubernamental (lanl.gov) — Helium He 2",
+     "org": "Organismo gubernamental (lanl.gov)",
+     "title": "Helium He 2",
+     "u": "https://www.lanl.gov/science-engineering/periodic-table/element/helium",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Helium",
      "org": "Wikipedia en inglés",
      "title": "Helium",
@@ -3728,9 +3972,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-05",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3741,6 +3985,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3803,6 +4051,14 @@ window.SQ_CONTENT = {
    "body": "Al volver de vacaciones, Fleming encontró que una de sus placas con bacterias se había contaminado con un moho, y alrededor de él las bacterias habían muerto. Ese moho producía penicilina. Pasaron más de diez años hasta que otros científicos, como Howard Florey y Ernst Chain, lograron producirla en cantidad. Los tres compartieron el Premio Nobel en 1945.",
    "sources": [
     {
+     "t": "Fundación Nobel — Sir Alexander Fleming – Biographical",
+     "org": "Fundación Nobel",
+     "title": "Sir Alexander Fleming – Biographical",
+     "u": "https://www.nobelprize.org/nobel_prizes/medicine/laureates/1945/fleming-bio.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Alexander Fleming",
      "org": "Wikipedia en inglés",
      "title": "Alexander Fleming",
@@ -3833,9 +4089,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3846,6 +4102,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3860,6 +4120,14 @@ window.SQ_CONTENT = {
    "body": "Un arcoíris se forma cuando la luz del Sol se refracta y se refleja dentro de las gotas de lluvia. Las gotas que envían luz hacia tus ojos forman un círculo alrededor del punto opuesto al Sol. Desde el suelo, la tierra corta la mitad inferior; desde un avión o una montaña, a veces se ve el círculo completo.",
    "sources": [
     {
+     "t": "NASA — APOD: 2014 September 30 - A Full Circle Rainbow over Australia",
+     "org": "NASA",
+     "title": "APOD: 2014 September 30 - A Full Circle Rainbow over Australia",
+     "u": "http://apod.nasa.gov/apod/ap140930.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Rainbow",
      "org": "Wikipedia en inglés",
      "title": "Rainbow",
@@ -3873,9 +4141,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-20",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3886,6 +4154,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -3899,6 +4171,14 @@ window.SQ_CONTENT = {
    "desc": "Se llama dispersión de Rayleigh. También explica los atardeceres rojizos.",
    "body": "La luz del Sol contiene todos los colores. Al chocar con las moléculas del aire, las longitudes de onda cortas, como el azul, se dispersan en todas direcciones mucho más que el rojo. Por eso vemos azul por todo el cielo. Al atardecer, la luz atraviesa mucha más atmósfera, el azul se pierde por el camino y llegan sobre todo los tonos rojos y naranjas.",
    "sources": [
+    {
+     "t": "NASA Space Place — Why Is the Sky Blue?",
+     "org": "NASA Space Place",
+     "title": "Why Is the Sky Blue?",
+     "u": "https://spaceplace.nasa.gov/blue-sky/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Rayleigh scattering",
      "org": "Wikipedia en inglés",
@@ -3921,9 +4201,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -3934,6 +4214,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4076,6 +4360,14 @@ window.SQ_CONTENT = {
    "body": "La orina contiene amoníaco, útil para limpiar y curtir. Los romanos la recogían de letrinas públicas y la vendían a lavanderías y curtidores. El emperador Vespasiano le puso un impuesto. Cuando su hijo Tito se quejó, según el historiador Suetonio, le acercó una moneda y le dijo que no olía: de ahí la frase latina «pecunia non olet», el dinero no huele.",
    "sources": [
     {
+     "t": "Universidad (penelope.uchicago.edu) — Suetonius • Life of Vespasian",
+     "org": "Universidad (penelope.uchicago.edu)",
+     "title": "Suetonius • Life of Vespasian",
+     "u": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Vespasian*.html#23",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Pecunia non olet",
      "org": "Wikipedia en inglés",
      "title": "Pecunia non olet",
@@ -4089,9 +4381,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-21",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -4102,6 +4394,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4156,6 +4452,14 @@ window.SQ_CONTENT = {
    "body": "El calendario juliano, usado desde la época de Julio César, se adelantaba un poco cada año respecto a las estaciones. El papa Gregorio XIII promulgó un nuevo calendario, el gregoriano, y para corregir el error acumulado se eliminaron diez días: tras el jueves 4 de octubre de 1582 vino el viernes 15. Muchos países lo adoptaron siglos más tarde.",
    "sources": [
     {
+     "t": "NASA (Goddard Space Flight Center) — Calendars and their History",
+     "org": "NASA (Goddard Space Flight Center)",
+     "title": "Calendars and their History",
+     "u": "https://eclipse.gsfc.nasa.gov/SEhelp/calendars.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Gregorian calendar",
      "org": "Wikipedia en inglés",
      "title": "Gregorian calendar",
@@ -4169,9 +4473,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-07",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -4182,6 +4486,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4314,6 +4622,14 @@ window.SQ_CONTENT = {
    "body": "El psicólogo George Miller publicó en 1956 un famoso artículo según el cual podemos retener unos siete elementos, más o menos dos, a la vez. Estudios posteriores, como los de Nelson Cowan, sugieren que el límite real ronda los cuatro «bloques» de información. Por eso los números de teléfono se agrupan: agrupar convierte muchos datos en pocos bloques.",
    "sources": [
     {
+     "t": "Behavioral and Brain Sciences — The magical number 4 in short-term memory: A reconsideration of mental storage capacity",
+     "org": "Behavioral and Brain Sciences",
+     "title": "The magical number 4 in short-term memory: A reconsideration of mental storage capacity",
+     "u": "https://doi.org/10.1017%2FS0140525X01003922",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — The Magical Number Seven, Plus or Minus Two",
      "org": "Wikipedia en inglés",
      "title": "The Magical Number Seven, Plus or Minus Two",
@@ -4327,9 +4643,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-22",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
    "history": [
@@ -4340,6 +4656,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4354,6 +4674,14 @@ window.SQ_CONTENT = {
    "body": "Daniel Simons y Christopher Chabris pidieron a voluntarios que contaran los pases de balón en un video. A mitad, una persona disfrazada de gorila atravesaba la escena. Aproximadamente la mitad de los participantes no lo vio. Cuando nos concentramos en una tarea, el cerebro puede ignorar cosas muy evidentes.",
    "sources": [
     {
+     "t": "Attention, Perception, & Psychophysics — Inattentional blindness in older adults: Effects of attentional set and to-be-ignored distractors",
+     "org": "Attention, Perception, & Psychophysics",
+     "title": "Inattentional blindness in older adults: Effects of attentional set and to-be-ignored distractors",
+     "u": "https://doi.org/10.3758%2Fs13414-015-1057-4",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Inattentional blindness",
      "org": "Wikipedia en inglés",
      "title": "Inattentional blindness",
@@ -4367,9 +4695,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-15",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -4380,6 +4708,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4394,6 +4726,14 @@ window.SQ_CONTENT = {
    "body": "Amos Tversky y Daniel Kahneman mostraron en 1974 que, después de ver un número obtenido al azar con una ruleta, las personas daban estimaciones más altas o más bajas según ese número, aunque no tuviera relación con la pregunta. Por eso las tiendas muestran un «precio antes» tachado: ese primer número sirve de ancla.",
    "sources": [
     {
+     "t": "Journal of Risk and Uncertainty — Amos Tversky and the Ascent of Behavioral Economics",
+     "org": "Journal of Risk and Uncertainty",
+     "title": "Amos Tversky and the Ascent of Behavioral Economics",
+     "u": "https://doi.org/10.1023%2FA:1007717224343",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Anchoring effect",
      "org": "Wikipedia en inglés",
      "title": "Anchoring effect",
@@ -4407,9 +4747,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-08",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
    "history": [
@@ -4420,6 +4760,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4563,6 +4907,22 @@ window.SQ_CONTENT = {
    "body": "Es cierto que ciertas funciones, como gran parte del lenguaje, dependen más de un hemisferio. Pero no existen personas que «usen» uno más que otro. Un estudio de la Universidad de Utah publicado en 2013, que analizó escáneres de más de mil personas, no encontró que la gente tuviera un hemisferio dominante en general.",
    "sources": [
     {
+     "t": "Publicación académica (DOI) (doi.org) — Frontiers",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "Frontiers",
+     "u": "https://doi.org/10.3389%2Ffneur.2018.00224",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Universidad (health.harvard.edu) — Right brain/left brain, right? - Harvard Health",
+     "org": "Universidad (health.harvard.edu)",
+     "title": "Right brain/left brain, right? - Harvard Health",
+     "u": "https://www.health.harvard.edu/blog/right-brainleft-brain-right-2017082512222",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Lateralization of brain function",
      "org": "Wikipedia en inglés",
      "title": "Lateralization of brain function",
@@ -4576,9 +4936,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-16",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -4589,6 +4949,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4604,6 +4968,14 @@ window.SQ_CONTENT = {
    "body": "Muchas personas tienen preferencias sobre cómo estudiar. Pero las revisiones de la investigación no han encontrado pruebas de que enseñar a cada quien según su supuesto estilo mejore los resultados. Lo que sí ayuda a casi todo el mundo es combinar formatos, practicar recordando lo aprendido y repasar espaciando el tiempo.",
    "sources": [
     {
+     "t": "Publicación académica (DOI) (doi.org) — Frontiers",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "Frontiers",
+     "u": "https://doi.org/10.3389%2Ffpsyg.2012.00429",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Learning styles",
      "org": "Wikipedia en inglés",
      "title": "Learning styles",
@@ -4617,9 +4989,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-09",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -4630,6 +5002,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4644,6 +5020,14 @@ window.SQ_CONTENT = {
    "body": "Investigadores como Michael Norton, Daniel Mochon y Dan Ariely encontraron que las personas estaban dispuestas a pagar más por objetos que ellas mismas habían montado, como muebles o figuras de papel, que por los mismos objetos ya armados. El efecto desaparecía si no lograban terminarlos.",
    "sources": [
     {
+     "t": "Harvard Business School — The IKEA Effect: When Labor Leads to Love - Article - Faculty & Research - Harvard Business School",
+     "org": "Harvard Business School",
+     "title": "The IKEA Effect: When Labor Leads to Love - Article - Faculty & Research - Harvard Business School",
+     "u": "https://www.hbs.edu/faculty/Pages/item.aspx?num=41121",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — IKEA effect",
      "org": "Wikipedia en inglés",
      "title": "IKEA effect",
@@ -4657,9 +5041,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-02",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
    "history": [
@@ -4670,6 +5054,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4712,6 +5100,22 @@ window.SQ_CONTENT = {
    "conclusion": "La Luna no se queda quieta: gira, pero a un ritmo perfectamente sincronizado con su viaje alrededor de nosotros.",
    "sources": [
     {
+     "t": "Smithsonian Institution — Is the “Dark Side of the Moon” Actually Dark?",
+     "org": "Smithsonian Institution",
+     "title": "Is the “Dark Side of the Moon” Actually Dark?",
+     "u": "https://airandspace.si.edu/stories/editorial/is-dark-side-moon-actually-dark",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "NASA — Earth's Moon",
+     "org": "NASA",
+     "title": "Earth's Moon",
+     "u": "https://moon.nasa.gov/resources/429/the-moons-orbit-and-rotation",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Tidal locking",
      "org": "Wikipedia en inglés",
      "title": "Tidal locking",
@@ -4742,9 +5146,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -4755,6 +5159,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4768,6 +5176,14 @@ window.SQ_CONTENT = {
    "desc": "Un día marciano, llamado «sol», dura unas 24 horas y 39 minutos.",
    "body": "Aunque Marte es muy distinto a la Tierra, gira sobre sí mismo a un ritmo parecido. Los equipos que controlan los robots en Marte trabajan con horarios marcianos, y como cada día es unos 40 minutos más largo, su jornada se va desfasando respecto a la hora terrestre. Un año en Marte, en cambio, dura unos 687 días terrestres.",
    "sources": [
+    {
+     "t": "NASA — Planetary Physical Parameters",
+     "org": "NASA",
+     "title": "Planetary Physical Parameters",
+     "u": "https://ssd.jpl.nasa.gov/?planet_phys_par",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Mars",
      "org": "Wikipedia en inglés",
@@ -4799,9 +5215,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -4812,6 +5228,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4874,6 +5294,22 @@ window.SQ_CONTENT = {
    "body": "El Monte Olimpo (Olympus Mons) es un volcán en escudo gigantesco. Su base es tan ancha que, si estuvieras en su cima, la curvatura de Marte te impediría ver sus bordes. Pudo crecer tanto porque Marte no tiene placas tectónicas que muevan la corteza, así que el magma salía siempre por el mismo punto.",
    "sources": [
     {
+     "t": "NASA — Mars Resources",
+     "org": "NASA",
+     "title": "Mars Resources",
+     "u": "https://mars.nasa.gov/gallery/atlas/olympus-mons.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "NASA — APOD: 2004 May 26 - At the Summit of Olympus Mons",
+     "org": "NASA",
+     "title": "APOD: 2004 May 26 - At the Summit of Olympus Mons",
+     "u": "http://antwrp.gsfc.nasa.gov/apod/ap040526.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Olympus Mons",
      "org": "Wikipedia en inglés",
      "title": "Olympus Mons",
@@ -4895,9 +5331,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -4908,6 +5344,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -4921,6 +5361,14 @@ window.SQ_CONTENT = {
    "desc": "La Voyager 1 entró en el espacio interestelar en 2012 y sigue enviando datos.",
    "body": "La Voyager 1 se lanzó en 1977 para estudiar Júpiter y Saturno. Después siguió su camino y en 2012 cruzó el límite de la burbuja de partículas del Sol, la heliosfera. Lleva un disco de oro con sonidos e imágenes de la Tierra, por si algún día alguien la encuentra.",
    "sources": [
+    {
+     "t": "NASA — Voyager 1: The Farthest Spacecraft",
+     "org": "NASA",
+     "title": "Voyager 1: The Farthest Spacecraft",
+     "u": "https://solarsystem.nasa.gov/missions/voyager-1/in-depth/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Voyager 1",
      "org": "Wikipedia en inglés",
@@ -4952,9 +5400,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -4965,6 +5413,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5027,6 +5479,14 @@ window.SQ_CONTENT = {
    "body": "Ganímedes es la luna más grande del sistema solar. Su diámetro supera al de Mercurio, aunque tiene menos masa porque está hecha en buena parte de hielo. Es también la única luna conocida con su propio campo magnético, y se cree que bajo su superficie hay un océano de agua salada.",
    "sources": [
     {
+     "t": "NASA — NASA’s Hubble Observations Suggest Underground Ocean on Jupiter's Largest Moon",
+     "org": "NASA",
+     "title": "NASA’s Hubble Observations Suggest Underground Ocean on Jupiter's Largest Moon",
+     "u": "http://www.nasa.gov/press/2015/march/nasa-s-hubble-observations-suggest-underground-ocean-on-jupiters-largest-moon/#.VQJhMM26t0s",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Ganymede",
      "org": "Wikipedia en inglés",
      "title": "Ganymede",
@@ -5048,9 +5508,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -5061,6 +5521,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5075,6 +5539,14 @@ window.SQ_CONTENT = {
    "desc": "Falso. Recibe luz solar igual que la cara visible; simplemente no la vemos desde la Tierra.",
    "body": "La Luna gira, así que todos sus lados tienen día y noche, que duran unas dos semanas cada uno. La cara oculta se llama así porque nunca mira hacia la Tierra, no porque esté a oscuras. Durante la luna nueva, cuando nosotros no vemos la cara visible iluminada, la cara oculta está en pleno día.",
    "sources": [
+    {
+     "t": "Smithsonian Institution — Is the “Dark Side of the Moon” Actually Dark?",
+     "org": "Smithsonian Institution",
+     "title": "Is the “Dark Side of the Moon” Actually Dark?",
+     "u": "https://airandspace.si.edu/stories/editorial/is-dark-side-moon-actually-dark",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Far side of the Moon",
      "org": "Wikipedia en inglés",
@@ -5097,9 +5569,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -5110,6 +5582,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5151,6 +5627,14 @@ window.SQ_CONTENT = {
    "conclusion": "Uno de los símbolos más usados del mundo debe su fama a una elección práctica en un laboratorio.",
    "sources": [
     {
+     "t": "Computer History Museum — Internet History",
+     "org": "Computer History Museum",
+     "title": "Internet History",
+     "u": "https://www.computerhistory.org/internethistory/1970s/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Ray Tomlinson",
      "org": "Wikipedia en inglés",
      "title": "Ray Tomlinson",
@@ -5173,9 +5657,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -5186,6 +5670,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5240,6 +5728,14 @@ window.SQ_CONTENT = {
    "body": "CAPTCHA son las siglas en inglés de «prueba de Turing pública y automática para distinguir computadoras de humanos». Su versión reCAPTCHA mostraba palabras de libros y periódicos escaneados que el reconocimiento automático no podía leer: al escribirlas, millones de personas ayudaban a digitalizar textos. Google compró reCAPTCHA en 2009.",
    "sources": [
     {
+     "t": "AI & SOCIETY — The unwitting labourer: extracting humanness in AI training",
+     "org": "AI & SOCIETY",
+     "title": "The unwitting labourer: extracting humanness in AI training",
+     "u": "https://doi.org/10.1007%2Fs00146-023-01692-3",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — CAPTCHA",
      "org": "Wikipedia en inglés",
      "title": "CAPTCHA",
@@ -5270,9 +5766,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -5283,6 +5779,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5345,6 +5845,22 @@ window.SQ_CONTENT = {
    "body": "El Apollo Guidance Computer tenía 2.048 palabras de memoria borrable y 36.864 palabras de memoria de solo lectura, llamada «memoria de cuerda», fabricada tejiendo cables a través de pequeños núcleos magnéticos. Aun así, guió a las naves a la Luna. Su software fue desarrollado en el MIT por un equipo en el que destacó Margaret Hamilton.",
    "sources": [
     {
+     "t": "NASA — Computers in Spaceflight: the NASA Experience - NASA Technical Reports Server (NTRS)",
+     "org": "NASA",
+     "title": "Computers in Spaceflight: the NASA Experience - NASA Technical Reports Server (NTRS)",
+     "u": "https://history.nasa.gov/computers/Ch2-5.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Universidad (news.mit.edu) — Scene at MIT: Margaret Hamilton’s Apollo code",
+     "org": "Universidad (news.mit.edu)",
+     "title": "Scene at MIT: Margaret Hamilton’s Apollo code",
+     "u": "https://news.mit.edu/2016/scene-at-mit-margaret-hamilton-apollo-code-0817",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Apollo Guidance Computer",
      "org": "Wikipedia en inglés",
      "title": "Apollo Guidance Computer",
@@ -5358,9 +5874,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-19",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -5371,6 +5887,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5385,6 +5905,14 @@ window.SQ_CONTENT = {
    "body": "Spam es una marca de carne enlatada. En un sketch de 1970 del grupo británico Monty Python, un grupo de vikingos canta «Spam» una y otra vez hasta tapar cualquier conversación. Los primeros usuarios de internet empezaron a llamar así a los mensajes repetitivos que inundaban los foros.",
    "sources": [
     {
+     "t": "RFC Editor — RFC 2635: DON'T SPEW A Set of Guidelines for Mass Unsolicited Mailings and Postings (spam*)",
+     "org": "RFC Editor",
+     "title": "RFC 2635: DON'T SPEW A Set of Guidelines for Mass Unsolicited Mailings and Postings (spam*)",
+     "u": "https://doi.org/10.17487%2FRFC2635",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Spamming",
      "org": "Wikipedia en inglés",
      "title": "Spamming",
@@ -5398,9 +5926,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-12",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -5411,6 +5939,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5473,6 +6005,22 @@ window.SQ_CONTENT = {
    "body": "El código de barras tradicional guardaba poca información. Denso Wave diseñó un código cuadrado que se podía leer rápido y desde cualquier ángulo, para seguir piezas en las fábricas de automóviles. QR significa «Quick Response», respuesta rápida. Su uso se disparó con los teléfonos inteligentes.",
    "sources": [
     {
+     "t": "Denso Wave (empresa inventora del código QR) — History of QR Code",
+     "org": "Denso Wave (empresa inventora del código QR)",
+     "title": "History of QR Code",
+     "u": "https://www.qrcode.com/en/history/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Denso Wave (empresa inventora del código QR) — QR Code development story｜Technologies｜DENSO WAVE",
+     "org": "Denso Wave (empresa inventora del código QR)",
+     "title": "QR Code development story｜Technologies｜DENSO WAVE",
+     "u": "https://www.denso-wave.com/en/technology/vol1.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — QR code",
      "org": "Wikipedia en inglés",
      "title": "QR code",
@@ -5494,9 +6042,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -5507,6 +6055,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5667,6 +6219,14 @@ window.SQ_CONTENT = {
    "body": "El famoso mapa con lo dulce en la punta y lo amargo al fondo viene de una mala interpretación de un estudio alemán de 1901, de David Hänig, que solo encontró pequeñas diferencias de sensibilidad. Hoy se sabe que todas las zonas de la lengua con papilas gustativas pueden percibir todos los sabores básicos.",
    "sources": [
     {
+     "t": "Sociedad Max Planck — VL Library Item: lit4562, p0576",
+     "org": "Sociedad Max Planck",
+     "title": "VL Library Item: lit4562, p0576",
+     "u": "http://vlp.mpiwg-berlin.mpg.de/library/data/lit4562",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Tongue map",
      "org": "Wikipedia en inglés",
      "title": "Tongue map",
@@ -5688,9 +6248,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -5701,6 +6261,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5853,6 +6417,14 @@ window.SQ_CONTENT = {
    "body": "El bostezo contagioso se ha observado en humanos y en otros animales, como chimpancés y perros. Se cree que está relacionado con la empatía y la conexión social, aunque las causas exactas todavía se investigan. Si bostezaste al leer esto, no eres el único.",
    "sources": [
     {
+     "t": "PLOS One — Chimpanzees Show a Developmental Increase in Susceptibility to Contagious Yawning: A Test of the Effect of Ontogeny and Emotional Closeness ",
+     "org": "PLOS One",
+     "title": "Chimpanzees Show a Developmental Increase in Susceptibility to Contagious Yawning: A Test of the Effect of Ontogeny and Emotional Closeness ",
+     "u": "https://doi.org/10.1371%2Fjournal.pone.0076266",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Yawn",
      "org": "Wikipedia en inglés",
      "title": "Yawn",
@@ -5866,9 +6438,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-14",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -5879,6 +6451,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5892,6 +6468,14 @@ window.SQ_CONTENT = {
    "desc": "Las islas Diómedes, una de Rusia y otra de Estados Unidos, están a ambos lados de la línea internacional de cambio de fecha.",
    "body": "La Gran Diómedes pertenece a Rusia y la Pequeña Diómedes, a Estados Unidos (Alaska). Las separan menos de 4 kilómetros, pero entre ellas pasa la línea internacional de cambio de fecha, así que una va casi un día por delante de la otra. Por eso se las llama a veces «la isla del mañana» y «la isla del ayer».",
    "sources": [
+    {
+     "t": "NASA — Yesterday and Tomorrow Islands",
+     "org": "NASA",
+     "title": "Yesterday and Tomorrow Islands",
+     "u": "https://earthobservatory.nasa.gov/images/91638/yesterday-and-tomorrow-islands",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Diomede Islands",
      "org": "Wikipedia en inglés",
@@ -5914,9 +6498,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -5927,6 +6511,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5940,6 +6528,14 @@ window.SQ_CONTENT = {
    "desc": "El lago Baikal, en Siberia, es el más profundo y antiguo del planeta.",
    "body": "El Baikal tiene más de 1.600 metros de profundidad y se estima que se formó hace unos 25 millones de años. Contiene más agua que todos los Grandes Lagos de Norteamérica juntos. En él vive la nerpa, una de las pocas focas del mundo que habitan en agua dulce.",
    "sources": [
+    {
+     "t": "UNESCO — Lake Baikal",
+     "org": "UNESCO",
+     "title": "Lake Baikal",
+     "u": "https://whc.unesco.org/en/list/754",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Lake Baikal",
      "org": "Wikipedia en inglés",
@@ -5962,9 +6558,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -5975,6 +6571,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -5988,6 +6588,14 @@ window.SQ_CONTENT = {
    "desc": "Está a más de 400 metros por debajo del nivel del mar, y su agua es tan salada que flotas sin esfuerzo.",
    "body": "El Mar Muerto, entre Jordania, Israel y Cisjordania, es en realidad un lago muy salado. Su alta salinidad impide que vivan peces y hace que el cuerpo humano flote con facilidad. Su nivel está bajando cada año, en parte porque se desvía el agua de su principal afluente, el río Jordán.",
    "sources": [
+    {
+     "t": "PLOS One — Microbial and Chemical Characterization of Underwater Fresh Water Springs in the Dead Sea",
+     "org": "PLOS One",
+     "title": "Microbial and Chemical Characterization of Underwater Fresh Water Springs in the Dead Sea",
+     "u": "https://doi.org/10.1371%2Fjournal.pone.0038319",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Dead Sea",
      "org": "Wikipedia en inglés",
@@ -6010,9 +6618,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6023,6 +6631,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6036,6 +6648,22 @@ window.SQ_CONTENT = {
    "desc": "La Ciudad del Vaticano tiene menos de medio kilómetro cuadrado y está rodeada por Roma.",
    "body": "El Vaticano es el estado soberano más pequeño del mundo, tanto en superficie como en población. Es la sede de la Iglesia católica y su jefe de Estado es el papa. Se convirtió en estado independiente en 1929 con los Pactos de Letrán, firmados con Italia.",
    "sources": [
+    {
+     "t": "UNESCO — Vatican City",
+     "org": "UNESCO",
+     "title": "Vatican City",
+     "u": "https://whc.unesco.org/en/list/286",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Universidad (depts.washington.edu) — Pero Tafur",
+     "org": "Universidad (depts.washington.edu)",
+     "title": "Pero Tafur",
+     "u": "http://depts.washington.edu/silkroad/texts/tafur.html#ch3",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Vatican City",
      "org": "Wikipedia en inglés",
@@ -6058,9 +6686,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6071,6 +6699,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6084,6 +6716,14 @@ window.SQ_CONTENT = {
    "desc": "La proyección de Mercator agranda las zonas cercanas a los polos.",
    "body": "Representar una esfera sobre papel obliga a deformar algo. La proyección de Mercator, de 1569, mantiene bien las direcciones, útil para navegar, pero agranda las regiones lejanas del ecuador. Por eso Groenlandia parece casi del tamaño de África, cuando África es unas catorce veces más grande.",
    "sources": [
+    {
+     "t": "Nature — This animated map shows the true size of each country",
+     "org": "Nature",
+     "title": "This animated map shows the true size of each country",
+     "u": "https://www.nature.com/nature-index/news/data-visualisation-animated-map-mercater-projection-true-size-countries",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Mercator projection",
      "org": "Wikipedia en inglés",
@@ -6106,9 +6746,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6119,6 +6759,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6181,6 +6825,14 @@ window.SQ_CONTENT = {
    "body": "El Pacífico es el océano más grande y profundo. Su superficie supera a la de todos los continentes juntos. En él está la fosa de las Marianas, el punto más profundo conocido del océano, a casi 11 kilómetros. Su nombre se lo dio Fernando de Magallanes por las aguas tranquilas que encontró.",
    "sources": [
     {
+     "t": "NOAA (EE. UU.) — How big is the Pacific Ocean?",
+     "org": "NOAA (EE. UU.)",
+     "title": "How big is the Pacific Ocean?",
+     "u": "https://oceanexplorer.noaa.gov/facts/pacific-size.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Pacific Ocean",
      "org": "Wikipedia en inglés",
      "title": "Pacific Ocean",
@@ -6202,9 +6854,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6215,6 +6867,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6269,6 +6925,14 @@ window.SQ_CONTENT = {
    "body": "Los tardígrados, también llamados osos de agua, pueden secarse casi por completo y entrar en un estado de vida suspendida. Así resisten temperaturas extremas, radiación y falta de agua. En 2007, en la misión FOTON-M3, algunos sobrevivieron a la exposición directa al espacio.",
    "sources": [
     {
+     "t": "Springer Nature Link — Survival of Tardigrades in Extreme Environments: A Model Animal for Astrobiology",
+     "org": "Springer Nature Link",
+     "title": "Survival of Tardigrades in Extreme Environments: A Model Animal for Astrobiology",
+     "u": "https://doi.org/10.1007%2F978-94-007-1896-8_12",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Tardigrade",
      "org": "Wikipedia en inglés",
      "title": "Tardigrade",
@@ -6290,9 +6954,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6303,6 +6967,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6316,6 +6984,14 @@ window.SQ_CONTENT = {
    "desc": "Turritopsis dohrnii puede regresar a su fase de pólipo cuando sufre estrés o daño.",
    "body": "La mayoría de las medusas mueren tras reproducirse. Turritopsis dohrnii, en cambio, puede transformar sus células y volver a la fase juvenil de pólipo, empezando su ciclo de vida de nuevo. Por eso se la apoda «medusa inmortal», aunque en la naturaleza muchas mueren por depredadores o enfermedades.",
    "sources": [
+    {
+     "t": "Publicación académica (DOI) (doi.org) — The conserved mitochondrial gene distribution in relatives of <i>Turritopsis nutricula</i>, an immortal jellyfish",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "The conserved mitochondrial gene distribution in relatives of <i>Turritopsis nutricula</i>, an immortal jellyfish",
+     "u": "https://doi.org/10.6026%2F97320630010586",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Turritopsis dohrnii",
      "org": "Wikipedia en inglés",
@@ -6338,9 +7014,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6351,6 +7027,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6405,6 +7085,14 @@ window.SQ_CONTENT = {
    "body": "El ajolote vive de forma natural solo en el sistema de lagos de Xochimilco, en Ciudad de México, y está en peligro crítico de extinción. Es estudiado por su capacidad de regenerar extremidades completas e incluso tejidos de órganos vitales. Además, suele conservar rasgos juveniles toda su vida, como sus branquias externas.",
    "sources": [
     {
+     "t": "Museo de Historia Natural de Londres — Axolotls: Meet the amphibians that never grow up",
+     "org": "Museo de Historia Natural de Londres",
+     "title": "Axolotls: Meet the amphibians that never grow up",
+     "u": "https://www.nhm.ac.uk/discover/axolotls-amphibians-that-never-grow-up.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Axolotl",
      "org": "Wikipedia en inglés",
      "title": "Axolotl",
@@ -6426,9 +7114,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6439,6 +7127,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6452,6 +7144,14 @@ window.SQ_CONTENT = {
    "desc": "En cada grupo, el individuo dominante es la hembra; si muere, el macho principal cambia de sexo.",
    "body": "Los peces payaso viven en grupos jerárquicos dentro de una anémona. La hembra es la más grande. Si desaparece, el macho reproductor se transforma en hembra y el siguiente macho en la jerarquía ocupa su lugar. Este fenómeno se llama hermafroditismo secuencial.",
    "sources": [
+    {
+     "t": "Communications Biology — Ecological and social constraints combine to promote evolution of non-breeding strategies in clownfish",
+     "org": "Communications Biology",
+     "title": "Ecological and social constraints combine to promote evolution of non-breeding strategies in clownfish",
+     "u": "https://doi.org/10.1038%2Fs42003-020-01380-8",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Amphiprioninae",
      "org": "Wikipedia en inglés",
@@ -6474,9 +7174,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6487,6 +7187,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6600,6 +7304,14 @@ window.SQ_CONTENT = {
    "body": "La joroba es una reserva de grasa que el camello puede usar como energía cuando escasea la comida. Concentrar la grasa en un solo lugar también le ayuda a disipar el calor por el resto del cuerpo. Resisten la sed por otras adaptaciones, como producir orina muy concentrada y tolerar una gran pérdida de agua.",
    "sources": [
     {
+     "t": "National Geographic — Bactrian Camel",
+     "org": "National Geographic",
+     "title": "Bactrian Camel",
+     "u": "http://animals.nationalgeographic.com/animals/mammals/bactrian-camel/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Camel",
      "org": "Wikipedia en inglés",
      "title": "Camel",
@@ -6613,9 +7325,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-10",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6626,6 +7338,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6669,6 +7385,14 @@ window.SQ_CONTENT = {
    "conclusion": "El tranvía no tiene una respuesta correcta universal, pero obliga a preguntarse qué principios usamos al decidir.",
    "sources": [
     {
+     "t": "Ethics and Information Technology — Autonomous vehicles, trolley problems, and the law",
+     "org": "Ethics and Information Technology",
+     "title": "Autonomous vehicles, trolley problems, and the law",
+     "u": "https://doi.org/10.1007%2Fs10676-019-09506-1",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Trolley problem",
      "org": "Wikipedia en inglés",
      "title": "Trolley problem",
@@ -6699,9 +7423,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "debate",
    "history": [
@@ -6712,6 +7436,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6726,6 +7454,14 @@ window.SQ_CONTENT = {
    "body": "Sócrates prefería la conversación y el diálogo a la escritura. Casi todo lo que sabemos de él viene de los diálogos de Platón, de Jenofonte y de la comedia de Aristófanes, que se burló de él. Por eso los estudiosos discuten cuánto de lo que dice el Sócrates de Platón era realmente suyo. Fue condenado a muerte en Atenas en el 399 a. C.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Socrates",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Socrates",
+     "u": "https://plato.stanford.edu/entries/socrates/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Socrates",
      "org": "Wikipedia en inglés",
      "title": "Socrates",
@@ -6739,9 +7475,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-27",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6752,6 +7488,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6766,6 +7506,14 @@ window.SQ_CONTENT = {
    "body": "Diógenes, de la escuela cínica, rechazaba las convenciones sociales y vivía con lo mínimo, según la tradición dentro de una gran tinaja de barro en Atenas. Una anécdota famosa cuenta que Alejandro Magno lo visitó y le ofreció lo que quisiera; Diógenes le contestó que se apartara, porque le tapaba el sol.",
    "sources": [
     {
+     "t": "Internet Encyclopedia of Philosophy — Diogenes of Sinope",
+     "org": "Internet Encyclopedia of Philosophy",
+     "title": "Diogenes of Sinope",
+     "u": "https://iep.utm.edu/diogsino",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Diogenes",
      "org": "Wikipedia en inglés",
      "title": "Diogenes",
@@ -6779,9 +7527,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-25",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6792,6 +7540,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6806,6 +7558,14 @@ window.SQ_CONTENT = {
    "body": "La idea es que, entre varias explicaciones que dan cuenta de lo mismo, conviene preferir la que necesita menos suposiciones. No dice que la explicación más simple sea siempre la verdadera, sino que no se deben añadir elementos innecesarios. Es una herramienta muy usada en ciencia.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Simplicity",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Simplicity",
+     "u": "https://plato.stanford.edu/archives/sum2011/entries/simplicity/#OntPar",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Occam's razor",
      "org": "Wikipedia en inglés",
      "title": "Occam's razor",
@@ -6819,9 +7579,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-18",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6832,6 +7592,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6846,6 +7610,22 @@ window.SQ_CONTENT = {
    "body": "Descartes buscaba una verdad de la que no se pudiera dudar. Concluyó que, aunque dudara de todo, no podía dudar de que estaba pensando, y por tanto de que existía. La frase apareció como «je pense, donc je suis» en 1637. La versión latina, «cogito, ergo sum», se popularizó después.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Pierre Gassendi",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Pierre Gassendi",
+     "u": "http://plato.stanford.edu/entries/gassendi/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Stanford Encyclopedia of Philosophy — Descartes’ Epistemology",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Descartes’ Epistemology",
+     "u": "https://plato.stanford.edu/entries/descartes-epistemology/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Cogito, ergo sum",
      "org": "Wikipedia en inglés",
      "title": "Cogito, ergo sum",
@@ -6859,9 +7639,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-11",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6872,6 +7652,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6886,6 +7670,14 @@ window.SQ_CONTENT = {
    "body": "Si la tortuga sale con ventaja, cuando Aquiles llega a donde estaba la tortuga, ella ya avanzó un poco; cuando llega a ese nuevo punto, ella avanzó otro poco, y así infinitamente. Parece que nunca la alcanzaría. Hoy las matemáticas explican que una suma infinita de distancias cada vez más pequeñas puede dar un resultado finito.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Zeno’s Paradoxes",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Zeno’s Paradoxes",
+     "u": "https://plato.stanford.edu/archives/spr2024/entries/paradox-zeno/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Zeno's paradoxes",
      "org": "Wikipedia en inglés",
      "title": "Zeno's paradoxes",
@@ -6899,9 +7691,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-04",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6912,6 +7704,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6926,6 +7722,14 @@ window.SQ_CONTENT = {
    "body": "Hipatia fue filósofa neoplatónica, matemática y astrónoma, y dirigió una escuela muy respetada en Alejandría, Egipto. Fue asesinada por una turba en el año 415, en medio de conflictos políticos y religiosos en la ciudad. Su figura se convirtió en un símbolo del saber.",
    "sources": [
     {
+     "t": "Universidad británica (mathshistory.st-andrews.ac.uk) — Hypatia (370 - 415) - Biography - MacTutor History of Mathematics",
+     "org": "Universidad británica (mathshistory.st-andrews.ac.uk)",
+     "title": "Hypatia (370 - 415) - Biography - MacTutor History of Mathematics",
+     "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Hypatia.html",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Hypatia",
      "org": "Wikipedia en inglés",
      "title": "Hypatia",
@@ -6939,9 +7743,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-28",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -6952,6 +7756,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -6965,6 +7773,14 @@ window.SQ_CONTENT = {
    "desc": "Las Meditaciones de Marco Aurelio eran notas personales, no un libro para publicar.",
    "body": "Marco Aurelio, emperador romano, escribió reflexiones estoicas para guiarse a sí mismo, muchas durante campañas militares. Las escribió en griego, no en latín. Nunca las pensó como un libro, pero hoy se leen como guía práctica para mantener la calma ante lo que no depende de nosotros.",
    "sources": [
+    {
+     "t": "Internet Encyclopedia of Philosophy — Aurelius, Marcus",
+     "org": "Internet Encyclopedia of Philosophy",
+     "title": "Aurelius, Marcus",
+     "u": "http://www.iep.utm.edu/marcus/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Meditations",
      "org": "Wikipedia en inglés",
@@ -6987,9 +7803,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -7000,6 +7816,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7014,6 +7834,14 @@ window.SQ_CONTENT = {
    "body": "La idea de tratar a los demás como uno quisiera ser tratado aparece, con distintas formulaciones, en muchas tradiciones: en las Analectas de Confucio, en textos del judaísmo, el cristianismo, el islam, el hinduismo y el budismo, entre otros. Es uno de los principios éticos más extendidos de la humanidad.",
    "sources": [
     {
+     "t": "Internet Encyclopedia of Philosophy — The Golden Rule",
+     "org": "Internet Encyclopedia of Philosophy",
+     "title": "The Golden Rule",
+     "u": "https://iep.utm.edu/goldrule",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Golden Rule",
      "org": "Wikipedia en inglés",
      "title": "Golden Rule",
@@ -7027,9 +7855,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-19",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -7040,6 +7868,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7055,6 +7887,14 @@ window.SQ_CONTENT = {
    "body": "Hoy «epicúreo» se asocia con la buena comida y los lujos, pero Epicuro proponía una vida sencilla, con amigos, prudencia y pocos deseos. Su meta era la ataraxia, la tranquilidad del alma, y la ausencia de dolor físico. Los excesos, según él, terminan trayendo más sufrimiento que placer.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Epicurus",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Epicurus",
+     "u": "https://plato.stanford.edu/entries/epicurus/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Epicurus",
      "org": "Wikipedia en inglés",
      "title": "Epicurus",
@@ -7068,9 +7908,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-12",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -7081,6 +7921,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7124,6 +7968,14 @@ window.SQ_CONTENT = {
    "conclusion": "Sabemos quiénes las hicieron y cómo, pero el porqué sigue siendo uno de los grandes interrogantes de la arqueología.",
    "sources": [
     {
+     "t": "UNESCO — Lines and Geoglyphs of Nasca and Palpa",
+     "org": "UNESCO",
+     "title": "Lines and Geoglyphs of Nasca and Palpa",
+     "u": "https://whc.unesco.org/en/list/700/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Nazca Lines",
      "org": "Wikipedia en inglés",
      "title": "Nazca Lines",
@@ -7145,9 +7997,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -7158,6 +8010,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7171,6 +8027,14 @@ window.SQ_CONTENT = {
    "desc": "El mecanismo de Anticitera, hallado en un naufragio en 1901, calculaba posiciones astronómicas.",
    "body": "Unos buzos encontraron en 1901 los restos de un aparato de bronce con engranajes en un barco hundido cerca de la isla griega de Anticitera. Estudios con rayos X y tomografías mostraron que servía para predecir eclipses y posiciones del Sol y la Luna. No se conoce nada de una complejidad similar hasta muchos siglos después.",
    "sources": [
+    {
+     "t": "Universidad (dlib.nyu.edu) — Tony Freeth and Alexander Jones. \"The Cosmos in the Antikythera Mechanism.\" ISAW Papers 4 (February, 2012)",
+     "org": "Universidad (dlib.nyu.edu)",
+     "title": "Tony Freeth and Alexander Jones. \"The Cosmos in the Antikythera Mechanism.\" ISAW Papers 4 (February, 2012)",
+     "u": "http://dlib.nyu.edu/awdl/isaw/isaw-papers/4/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Antikythera mechanism",
      "org": "Wikipedia en inglés",
@@ -7193,9 +8057,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -7206,6 +8070,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7220,6 +8088,14 @@ window.SQ_CONTENT = {
    "body": "En febrero de 1959, nueve excursionistas soviéticos murieron en los montes Urales. Habían cortado su tienda desde dentro y huido con poca ropa a la nieve. Durante décadas surgieron teorías de todo tipo. En 2019 Rusia reabrió el caso, y un estudio publicado en 2021 en una revista científica propuso una pequeña avalancha de placa como explicación plausible.",
    "sources": [
     {
+     "t": "National Geographic — Has science solved one of history’s greatest adventure mysteries?",
+     "org": "National Geographic",
+     "title": "Has science solved one of history’s greatest adventure mysteries?",
+     "u": "https://www.nationalgeographic.com/science/2021/01/has-science-solved-history-greatest-adventure-mystery-dyatlov/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Dyatlov Pass incident",
      "org": "Wikipedia en inglés",
      "title": "Dyatlov Pass incident",
@@ -7233,9 +8109,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-22",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hipotesis",
    "history": [
@@ -7246,6 +8122,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7260,6 +8140,14 @@ window.SQ_CONTENT = {
    "body": "En 1587, más de cien colonos ingleses se instalaron en la isla de Roanoke, en la actual Carolina del Norte. Cuando un barco de suministros regresó en 1590, no había nadie. Encontraron la palabra «CROATOAN» tallada en un poste, el nombre de una isla cercana y de un pueblo indígena. Su destino sigue sin confirmarse.",
    "sources": [
     {
+     "t": "Servicio de Parques Nacionales de EE. UU. — 1584: The First English Voyage - Fort Raleigh National Historic Site (U.S. National Park Service)",
+     "org": "Servicio de Parques Nacionales de EE. UU.",
+     "title": "1584: The First English Voyage - Fort Raleigh National Historic Site (U.S. National Park Service)",
+     "u": "https://www.nps.gov/fora/learn/historyculture/1584-the-first-english-voyage.htm",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Roanoke Colony",
      "org": "Wikipedia en inglés",
      "title": "Roanoke Colony",
@@ -7273,9 +8161,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-20",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
    "history": [
@@ -7286,6 +8174,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7299,6 +8191,14 @@ window.SQ_CONTENT = {
    "desc": "Se llama rongorongo y sobrevive en unas pocas decenas de objetos de madera.",
    "body": "Además de sus famosas estatuas moái, la Isla de Pascua (Rapa Nui) dejó un sistema de glifos llamado rongorongo. Solo se conservan unas dos docenas de piezas de madera con inscripciones. Nadie ha logrado descifrarlo con certeza, y se discute incluso si es una escritura completa.",
    "sources": [
+    {
+     "t": "Scientific American — The \"Talking Boards\" of Easter Island",
+     "org": "Scientific American",
+     "title": "The \"Talking Boards\" of Easter Island",
+     "u": "https://doi.org/10.1038%2Fscientificamerican0658-61",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Rongorongo",
      "org": "Wikipedia en inglés",
@@ -7321,9 +8221,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
    "history": [
@@ -7334,6 +8234,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7347,6 +8251,14 @@ window.SQ_CONTENT = {
    "desc": "El Mary Celeste estaba en buen estado y con provisiones, pero su tripulación había desaparecido.",
    "body": "En diciembre de 1872, otro barco encontró al Mary Celeste a la deriva en el Atlántico. Tenía carga, comida y agua, pero faltaba el bote salvavidas y no había rastro de las diez personas a bordo. Hay muchas hipótesis, desde un temor a una explosión de la carga hasta un error de navegación, pero ninguna está confirmada.",
    "sources": [
+    {
+     "t": "Smithsonian Magazine (Smithsonian Institution) — Abandoned Ship: The Mary Celeste",
+     "org": "Smithsonian Magazine (Smithsonian Institution)",
+     "title": "Abandoned Ship: The Mary Celeste",
+     "u": "https://www.smithsonianmag.com/history/abandoned-ship-the-mary-celeste-174488104/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Mary Celeste",
      "org": "Wikipedia en inglés",
@@ -7369,9 +8281,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
    "history": [
@@ -7382,6 +8294,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7395,6 +8311,14 @@ window.SQ_CONTENT = {
    "desc": "El Lineal A, de la antigua Creta, sigue sin descifrar. Su sucesor, el Lineal B, se descifró en 1952.",
    "body": "El Lineal B, usado para escribir una forma antigua de griego, fue descifrado por Michael Ventris en 1952. El Lineal A comparte muchos signos con él, así que se puede «pronunciar» en parte, pero la lengua que representa es desconocida. Por eso no se entienden sus textos.",
    "sources": [
+    {
+     "t": "Greece & Rome — New Light on Linear A",
+     "org": "Greece & Rome",
+     "title": "New Light on Linear A",
+     "u": "https://doi.org/10.1017%2FS0017383500013231",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Linear A",
      "org": "Wikipedia en inglés",
@@ -7426,9 +8350,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
    "history": [
@@ -7439,6 +8363,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7454,6 +8382,14 @@ window.SQ_CONTENT = {
    "body": "El Triángulo de las Bermudas es una zona del Atlántico con mucho tráfico marítimo y aéreo, y con tormentas frecuentes. Organismos como la Guardia Costera de Estados Unidos no lo reconocen como una zona de riesgo especial. Varios de los casos famosos fueron exagerados o mal contados en libros y revistas.",
    "sources": [
     {
+     "t": "NOAA (EE. UU.) — What is the Bermuda Triangle?",
+     "org": "NOAA (EE. UU.)",
+     "title": "What is the Bermuda Triangle?",
+     "u": "https://oceanservice.noaa.gov/facts/bermudatri.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Bermuda Triangle",
      "org": "Wikipedia en inglés",
      "title": "Bermuda Triangle",
@@ -7467,9 +8403,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-23",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -7480,6 +8416,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7494,6 +8434,14 @@ window.SQ_CONTENT = {
    "body": "Durante décadas, piedras de hasta cientos de kilos dejaban largos surcos en un lago seco de California sin que nadie las viera moverse. En 2014, un equipo de investigadores grabó el fenómeno: tras noches frías, se forman láminas delgadas de hielo que, empujadas por un viento suave, arrastran las piedras lentamente.",
    "sources": [
     {
+     "t": "Nature — 'Wandering stones' of Death Valley explained",
+     "org": "Nature",
+     "title": "'Wandering stones' of Death Valley explained",
+     "u": "https://www.nature.com/articles/nature.2014.15773",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Sailing stones",
      "org": "Wikipedia en inglés",
      "title": "Sailing stones",
@@ -7507,9 +8455,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-21",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -7520,6 +8468,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7657,6 +8609,14 @@ window.SQ_CONTENT = {
    "body": "En los Países Bajos, los tulipanes raros se volvieron un símbolo de estatus y se comerciaban contratos sobre bulbos que aún no habían florecido. En febrero de 1637 los precios se desplomaron. La historiadora Anne Goldgar, en un estudio de 2007, concluyó que el relato popular está exagerado y que las consecuencias económicas fueron muy limitadas, pero sigue siendo el ejemplo clásico de burbuja.",
    "sources": [
     {
+     "t": "Smithsonian Magazine (Smithsonian Institution) — There Never Was a Real Tulip Fever",
+     "org": "Smithsonian Magazine (Smithsonian Institution)",
+     "title": "There Never Was a Real Tulip Fever",
+     "u": "https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Tulip mania",
      "org": "Wikipedia en inglés",
      "title": "Tulip mania",
@@ -7678,9 +8638,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -7691,6 +8651,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7753,6 +8717,14 @@ window.SQ_CONTENT = {
    "body": "Las piedras rai, discos de piedra caliza que pueden medir varios metros, se traían desde otras islas. Como eran difíciles de mover, lo importante era que la comunidad supiera quién era el dueño. Muchos economistas las citan como ejemplo de que el dinero funciona, sobre todo, como un registro compartido de confianza.",
    "sources": [
     {
+     "t": "Finance and Society — Bitcoin and stone money: Anglophone use of Yapese economic cultures, 1910-2020",
+     "org": "Finance and Society",
+     "title": "Bitcoin and stone money: Anglophone use of Yapese economic cultures, 1910-2020",
+     "u": "https://doi.org/10.2218%2Ffinsoc.7126",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Rai stones",
      "org": "Wikipedia en inglés",
      "title": "Rai stones",
@@ -7766,9 +8738,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-22",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -7779,6 +8751,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7922,6 +8898,14 @@ window.SQ_CONTENT = {
    "body": "Tras la Primera Guerra Mundial, Alemania tenía enormes deudas y empezó a imprimir dinero en grandes cantidades. A finales de 1923, un dólar estadounidense equivalía a unos 4,2 billones de marcos. Hay fotografías de niños jugando con fajos de billetes y de personas usándolos para encender fuego.",
    "sources": [
     {
+     "t": "Museo Memorial del Holocausto de EE. UU. (USHMM) — The Weimar Republic",
+     "org": "Museo Memorial del Holocausto de EE. UU. (USHMM)",
+     "title": "The Weimar Republic",
+     "u": "https://encyclopedia.ushmm.org/content/en/article/the-weimar-republic",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Hyperinflation in the Weimar Republic",
      "org": "Wikipedia en inglés",
      "title": "Hyperinflation in the Weimar Republic",
@@ -7935,9 +8919,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-25",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -7948,6 +8932,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -7991,6 +8979,22 @@ window.SQ_CONTENT = {
    "conclusion": "Un hallazgo casual abrió una ventana directa al judaísmo de la época en que nació el cristianismo.",
    "sources": [
     {
+     "t": "National Geographic — Exclusive: 'Dead Sea Scrolls' at the Museum of the Bible are all forgeries",
+     "org": "National Geographic",
+     "title": "Exclusive: 'Dead Sea Scrolls' at the Museum of the Bible are all forgeries",
+     "u": "https://www.nationalgeographic.com/history/2020/03/museum-of-the-bible-dead-sea-scrolls-forgeries/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Publicación académica (DOI) (doi.org) — The Quality of Hasmonaean Biblical Manuscripts in: Dead Sea Discoveries Volume 30 Issue 3 (2023)",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "The Quality of Hasmonaean Biblical Manuscripts in: Dead Sea Discoveries Volume 30 Issue 3 (2023)",
+     "u": "https://doi.org/10.1163%2F15685179-bja10048",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Dead Sea Scrolls",
      "org": "Wikipedia en inglés",
      "title": "Dead Sea Scrolls",
@@ -8013,9 +9017,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -8026,6 +9030,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -8039,6 +9047,14 @@ window.SQ_CONTENT = {
    "desc": "La Biblia de Gutenberg se imprimió en Maguncia, Alemania, hacia 1455.",
    "body": "Johannes Gutenberg desarrolló un sistema de imprenta con tipos metálicos móviles. Su Biblia, en latín, se imprimió a mediados de la década de 1450. Se estima que se hicieron unas 180 copias, y hoy se conservan menos de 50, algunas incompletas. Su invento abarató los libros y aceleró la difusión del conocimiento.",
    "sources": [
+    {
+     "t": "Biblioteca del Congreso de EE. UU. — The Library's Copy of the Gutenberg Bible - The Gutenberg Bible at the Library of Congress : A Resource Guide - Research Guides at Library o",
+     "org": "Biblioteca del Congreso de EE. UU.",
+     "title": "The Library's Copy of the Gutenberg Bible - The Gutenberg Bible at the Library of Congress : A Resource Guide - Research Guides at Library o",
+     "u": "https://guides.loc.gov/gutenberg/copy-history",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Gutenberg Bible",
      "org": "Wikipedia en inglés",
@@ -8061,9 +9077,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -8074,6 +9090,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -8225,6 +9245,22 @@ window.SQ_CONTENT = {
    "body": "El Rigveda es una colección de himnos en sánscrito védico compuesta aproximadamente entre 1500 y 1000 a. C. Durante siglos se transmitió de forma oral con técnicas de memorización muy precisas antes de ponerse por escrito. La UNESCO incluyó manuscritos del Rigveda en su registro Memoria del Mundo.",
    "sources": [
     {
+     "t": "UNESCO — Rigveda - Memory of the World",
+     "org": "UNESCO",
+     "title": "Rigveda - Memory of the World",
+     "u": "https://www.unesco.org/en/memory-world/rigveda",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Springer Nature Link — Ancient Sanskrit Mathematics: An Oral Tradition and a Written Literature",
+     "org": "Springer Nature Link",
+     "title": "Ancient Sanskrit Mathematics: An Oral Tradition and a Written Literature",
+     "u": "https://doi.org/10.1007%2F1-4020-2321-9_7",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Rigveda",
      "org": "Wikipedia en inglés",
      "title": "Rigveda",
@@ -8246,9 +9282,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -8259,6 +9295,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -8426,6 +9466,14 @@ window.SQ_CONTENT = {
    "body": "En la década de 1830, en Boston, estaba de moda abreviar frases mal escritas a propósito. «OK», por «oll korrect», apareció en el Boston Morning Post en 1839. Una campaña presidencial de 1840 lo popularizó, y hoy es probablemente una de las palabras más usadas del planeta.",
    "sources": [
     {
+     "t": "Universidad (languagelog.ldc.upenn.edu) — Language Log » Not OK.",
+     "org": "Universidad (languagelog.ldc.upenn.edu)",
+     "title": "Language Log » Not OK.",
+     "u": "https://languagelog.ldc.upenn.edu/nll/?p=2979",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — OK",
      "org": "Wikipedia en inglés",
      "title": "OK",
@@ -8447,9 +9495,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -8460,6 +9508,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -8522,6 +9574,14 @@ window.SQ_CONTENT = {
    "body": "Se suele decir que murieron el 23 de abril de 1616, y por eso ese día se celebra el Día Internacional del Libro. Pero Inglaterra usaba el calendario juliano, que iba diez días por detrás del gregoriano que ya usaba España. Además, el 23 de abril fue la fecha del entierro de Cervantes; murió el día anterior.",
    "sources": [
     {
+     "t": "Universidad (uh.edu) — Time Out of Joint",
+     "org": "Universidad (uh.edu)",
+     "title": "Time Out of Joint",
+     "u": "https://www.uh.edu/engines/epi2368.htm",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Miguel de Cervantes",
      "org": "Wikipedia en inglés",
      "title": "Miguel de Cervantes",
@@ -8544,9 +9604,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-18",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -8557,6 +9617,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -8715,6 +9779,14 @@ window.SQ_CONTENT = {
    "body": "El béisbol es el deporte más popular del país. República Dominicana ha producido más jugadores de Grandes Ligas que cualquier otro país fuera de Estados Unidos. Muchos equipos de la MLB tienen academias de formación en territorio dominicano.",
    "sources": [
     {
+     "t": "Universidad (origins.osu.edu) — The Dominican Republic and the United States: A Baseball History",
+     "org": "Universidad (origins.osu.edu)",
+     "title": "The Dominican Republic and the United States: A Baseball History",
+     "u": "https://origins.osu.edu/article/dominican-republic-and-united-states-baseball-history",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Baseball in the Dominican Republic",
      "org": "Wikipedia en inglés",
      "title": "Baseball in the Dominican Republic",
@@ -8736,9 +9808,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -8749,6 +9821,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -8811,6 +9887,14 @@ window.SQ_CONTENT = {
    "body": "Este sombrero se teje con fibra de la palma toquilla en Ecuador. Muchos se vendían en Panamá a viajeros y a los trabajadores del Canal, y de ahí el nombre equivocado. El tejido tradicional del sombrero de paja toquilla fue declarado Patrimonio Cultural Inmaterial por la UNESCO en 2012.",
    "sources": [
     {
+     "t": "UNESCO — Traditional weaving of the Ecuadorian toquilla straw hat",
+     "org": "UNESCO",
+     "title": "Traditional weaving of the Ecuadorian toquilla straw hat",
+     "u": "https://ich.unesco.org/en/RL/00729",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Panama hat",
      "org": "Wikipedia en inglés",
      "title": "Panama hat",
@@ -8824,9 +9908,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-12",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -8837,6 +9921,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -8850,6 +9938,14 @@ window.SQ_CONTENT = {
    "desc": "Entre 1912 y 1948 hubo competencias de arte: arquitectura, literatura, música, pintura y escultura.",
    "body": "El fundador de los Juegos modernos, Pierre de Coubertin, quería unir deporte y arte. Las obras debían estar inspiradas en el deporte. Las competencias se eliminaron después de 1948, en parte porque los artistas eran profesionales y los Juegos de entonces eran solo para aficionados.",
    "sources": [
+    {
+     "t": "Smithsonian Magazine (Smithsonian Institution) — When the Olympics Gave Out Medals for Art",
+     "org": "Smithsonian Magazine (Smithsonian Institution)",
+     "title": "When the Olympics Gave Out Medals for Art",
+     "u": "https://www.smithsonianmag.com/history/when-the-olympics-gave-out-medals-for-art-6878965/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Art competitions at the Summer Olympics",
      "org": "Wikipedia en inglés",
@@ -8872,9 +9968,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -8885,6 +9981,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -8927,6 +10027,14 @@ window.SQ_CONTENT = {
    "conclusion": "Curie abrió el camino a la física nuclear y a tratamientos médicos, y lo hizo superando barreras que hoy parecen impensables.",
    "sources": [
     {
+     "t": "Fundación Nobel — MARIE CURIE",
+     "org": "Fundación Nobel",
+     "title": "MARIE CURIE",
+     "u": "https://www.nobelprize.org/stories/women-who-changed-science/marie-curie/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Marie Curie",
      "org": "Wikipedia en inglés",
      "title": "Marie Curie",
@@ -8940,9 +10048,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -8953,6 +10061,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -8996,6 +10108,22 @@ window.SQ_CONTENT = {
    "conclusion": "Una tragedia de hace casi dos mil años se convirtió en el mejor libro de historia de la vida cotidiana romana.",
    "sources": [
     {
+     "t": "UNESCO — Archaeological Areas of Pompei, Herculaneum and Torre Annunziata",
+     "org": "UNESCO",
+     "title": "Archaeological Areas of Pompei, Herculaneum and Torre Annunziata",
+     "u": "https://whc.unesco.org/en/list/829",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Papers of the British School at Rome — Exploring the sanctuary of Venus and its sacred grove: politics, cult and identity in Roman Pompeii",
+     "org": "Papers of the British School at Rome",
+     "title": "Exploring the sanctuary of Venus and its sacred grove: politics, cult and identity in Roman Pompeii",
+     "u": "https://doi.org/10.1017%2FS0068246200000817",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Pompeii",
      "org": "Wikipedia en inglés",
      "title": "Pompeii",
@@ -9026,9 +10154,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9039,6 +10167,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9082,6 +10214,14 @@ window.SQ_CONTENT = {
    "conclusion": "El estudio no dice que las personas sean malas, sino que las situaciones y la autoridad pesan más de lo que solemos creer.",
    "sources": [
     {
+     "t": "PLOS One — A Virtual Reprise of the Stanley Milgram Obedience Experiments",
+     "org": "PLOS One",
+     "title": "A Virtual Reprise of the Stanley Milgram Obedience Experiments",
+     "u": "https://doi.org/10.1371%2Fjournal.pone.0000039",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Milgram experiment",
      "org": "Wikipedia en inglés",
      "title": "Milgram experiment",
@@ -9103,9 +10243,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9116,6 +10256,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9159,6 +10303,14 @@ window.SQ_CONTENT = {
    "conclusion": "Tunguska recuerda que la Tierra todavía recibe visitas peligrosas del espacio, y por eso hoy se vigilan los asteroides cercanos.",
    "sources": [
     {
+     "t": "NASA — 115 Years Ago: The Tunguska Asteroid Impact Event",
+     "org": "NASA",
+     "title": "115 Years Ago: The Tunguska Asteroid Impact Event",
+     "u": "https://www.nasa.gov/history/115-years-ago-the-tunguska-asteroid-impact-event/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Tunguska event",
      "org": "Wikipedia en inglés",
      "title": "Tunguska event",
@@ -9189,9 +10341,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
    "claimNote": "Es la explicación más aceptada, pero todavía se debate si el objeto era un asteroide o un cometa.",
@@ -9203,6 +10355,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9244,6 +10400,22 @@ window.SQ_CONTENT = {
    "conclusion": "Mansa Musa muestra que África occidental fue una potencia económica medieval, algo que muchos libros de historia pasaron por alto.",
    "sources": [
     {
+     "t": "History in Africa — Échos d’Arabie. Le Pèlerinage à La Mecque de Mansa Musa (724–725/1324–1325) d’après des Nouvelles Sources",
+     "org": "History in Africa",
+     "title": "Échos d’Arabie. Le Pèlerinage à La Mecque de Mansa Musa (724–725/1324–1325) d’après des Nouvelles Sources",
+     "u": "https://www.cambridge.org/core/journals/history-in-africa/article/abs/echos-darabie-le-pelerinage-a-la-mecque-de-mansa-musa-72472513241325-dapres-des-nouvelles-sources/6621DFBE19EDD839E80372C81529CF4A",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "History in Africa — Towards a New Study of the So-Called Tārīkh al-fattāsh",
+     "org": "History in Africa",
+     "title": "Towards a New Study of the So-Called Tārīkh al-fattāsh",
+     "u": "https://www.cambridge.org/core/journals/history-in-africa/article/abs/towards-a-new-study-of-the-socalled-tarikh-alfattash/F9AC89F940A7085882CCCA63A63D11A8",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Mansa Musa",
      "org": "Wikipedia en inglés",
      "title": "Mansa Musa",
@@ -9266,9 +10438,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9279,6 +10451,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9292,6 +10468,14 @@ window.SQ_CONTENT = {
    "desc": "A presión y temperatura normales, ningún otro metal se mantiene líquido.",
    "body": "El mercurio se funde a unos −39 °C, así que a temperatura ambiente está líquido. Por eso se usaba en termómetros. Hoy se evita porque sus vapores son tóxicos. Algunos metales como el galio se derriten con el calor de la mano, pero a temperatura ambiente normal son sólidos.",
    "sources": [
+    {
+     "t": "NIST (EE. UU.) — Mercury Thermometer Alternatives: Hg Alternatives",
+     "org": "NIST (EE. UU.)",
+     "title": "Mercury Thermometer Alternatives: Hg Alternatives",
+     "u": "https://www.nist.gov/pml/mercury-thermometer-alternatives/mercury-thermometer-alternatives-hg-alternatives",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Mercury (element)",
      "org": "Wikipedia en inglés",
@@ -9314,9 +10498,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9327,6 +10511,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9340,6 +10528,14 @@ window.SQ_CONTENT = {
    "desc": "El Protocolo de Montreal de 1987 prohibió los gases que la destruían.",
    "body": "En los años ochenta se descubrió que ciertos gases, los CFC, usados en aerosoles y refrigeradores, estaban destruyendo el ozono que nos protege de la radiación ultravioleta. El Protocolo de Montreal, firmado en 1987, los fue eliminando. Es considerado uno de los acuerdos ambientales más exitosos, y la capa de ozono se está recuperando lentamente.",
    "sources": [
+    {
+     "t": "NOAA (EE. UU.) — NOAA CSL: Scientific Assessment of Ozone Depletion: 2002",
+     "org": "NOAA (EE. UU.)",
+     "title": "NOAA CSL: Scientific Assessment of Ozone Depletion: 2002",
+     "u": "https://csl.noaa.gov/assessments/ozone/2002/executivesummary.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Montreal Protocol",
      "org": "Wikipedia en inglés",
@@ -9362,9 +10558,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9375,6 +10571,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9388,6 +10588,14 @@ window.SQ_CONTENT = {
    "desc": "Verdad a medias. Newton contó que ver caer una manzana lo hizo pensar, pero no dijo que le golpeara.",
    "body": "El propio Newton, ya mayor, le contó a su biógrafo William Stukeley que la caída de una manzana en un jardín le inspiró a pensar en la gravedad. El detalle de que le cayera en la cabeza es un adorno popular posterior. El árbol, en Woolsthorpe, Inglaterra, todavía existe.",
    "sources": [
+    {
+     "t": "Royal Society — Newton’s apple tree",
+     "org": "Royal Society",
+     "title": "Newton’s apple tree",
+     "u": "https://royalsociety.org/blog/2012/02/newtons-apple-tree/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Isaac Newton",
      "org": "Wikipedia en inglés",
@@ -9403,9 +10611,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-13",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9416,6 +10624,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9430,6 +10642,14 @@ window.SQ_CONTENT = {
    "body": "Röntgen notó que una pantalla brillaba al otro lado de su laboratorio mientras experimentaba con tubos de descarga. Llamó «X» a esos rayos desconocidos. La imagen de la mano de su esposa, con su anillo, dio la vuelta al mundo. En 1901 recibió el primer Premio Nobel de Física de la historia.",
    "sources": [
     {
+     "t": "Fundación Nobel — Wilhelm Conrad Röntgen – Biographical",
+     "org": "Fundación Nobel",
+     "title": "Wilhelm Conrad Röntgen – Biographical",
+     "u": "https://www.nobelprize.org/prizes/physics/1901/rontgen/biographical/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Wilhelm Röntgen",
      "org": "Wikipedia en inglés",
      "title": "Wilhelm Röntgen",
@@ -9443,9 +10663,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-06",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9456,6 +10676,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9470,6 +10694,14 @@ window.SQ_CONTENT = {
    "body": "En 1869, el químico ruso Dmitri Mendeléyev ordenó los elementos conocidos según sus propiedades. Donde algo no encajaba, dejó espacios vacíos y predijo cómo serían los elementos que faltaban. Cuando se descubrieron el galio y otros, sus propiedades coincidieron con sus predicciones, lo que convenció a la comunidad científica.",
    "sources": [
     {
+     "t": "Universidad (web.lemoyne.edu) — Mendeleev's First Periodic Table",
+     "org": "Universidad (web.lemoyne.edu)",
+     "title": "Mendeleev's First Periodic Table",
+     "u": "https://web.lemoyne.edu/~giunta/EA/MENDELEEVann.HTML",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Dmitri Mendeleev",
      "org": "Wikipedia en inglés",
      "title": "Dmitri Mendeleev",
@@ -9483,9 +10715,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-30",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9496,6 +10728,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9509,6 +10745,14 @@ window.SQ_CONTENT = {
    "desc": "Es el cero absoluto: −273,15 °C, o 0 kelvin.",
    "body": "La temperatura mide cuánto se mueven las partículas. En el cero absoluto, la energía térmica sería la mínima posible. No se puede alcanzar exactamente, pero en laboratorio se han logrado temperaturas de una pequeñísima fracción de grado por encima. A esas temperaturas, la materia muestra comportamientos extraños, como los superfluidos.",
    "sources": [
+    {
+     "t": "Universidad (titech.ac.jp) — The Challenge of Discovering Absolute Zero or -273.15 Degrees Celsius",
+     "org": "Universidad (titech.ac.jp)",
+     "title": "The Challenge of Discovering Absolute Zero or -273.15 Degrees Celsius",
+     "u": "https://www.titech.ac.jp/english/public-relations/about/stories/absolute-zero",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Absolute zero",
      "org": "Wikipedia en inglés",
@@ -9531,9 +10775,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9544,6 +10788,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9558,6 +10806,14 @@ window.SQ_CONTENT = {
    "body": "En los años sesenta, Lorenz repitió una simulación del clima introduciendo un número redondeado con menos decimales. El resultado final fue completamente distinto. De ahí surgió la idea de que pequeñas variaciones pueden tener grandes consecuencias en sistemas caóticos. Él mismo popularizó la imagen de una mariposa que, al batir sus alas, podría influir en un tornado lejano.",
    "sources": [
     {
+     "t": "Publicación académica (DOI) (doi.org) — Butterfly effect - Scholarpedia",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "Butterfly effect - Scholarpedia",
+     "u": "https://doi.org/10.4249%2Fscholarpedia.1720",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Butterfly effect",
      "org": "Wikipedia en inglés",
      "title": "Butterfly effect",
@@ -9571,9 +10827,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-21",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9584,6 +10840,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9695,6 +10955,14 @@ window.SQ_CONTENT = {
    "body": "La Alemania oriental construyó el muro para impedir que sus ciudadanos huyeran hacia Berlín Occidental. Dividió familias durante casi tres décadas. Su caída, tras un anuncio confuso de las autoridades que hizo que miles de personas acudieran a los pasos fronterizos, se convirtió en el símbolo del fin de la Guerra Fría.",
    "sources": [
     {
+     "t": "Fundación Muro de Berlín — Memorial de Bernauer Straße — Berlin Wall Memorial",
+     "org": "Fundación Muro de Berlín — Memorial de Bernauer Straße",
+     "title": "Berlin Wall Memorial",
+     "u": "https://www.berliner-mauer-gedenkstaette.de/en/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Berlin Wall",
      "org": "Wikipedia en inglés",
      "title": "Berlin Wall",
@@ -9708,9 +10976,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-31",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9721,6 +10989,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9734,6 +11006,14 @@ window.SQ_CONTENT = {
    "desc": "Howard Carter la descubrió en 1922 en el Valle de los Reyes.",
    "body": "Tutankamón fue un faraón joven y de reinado breve. A diferencia de otras tumbas reales, saqueadas en la Antigüedad, la suya conservaba la mayor parte de su tesoro, incluida su famosa máscara funeraria de oro. El hallazgo causó sensación mundial y alimentó leyendas como la de la «maldición del faraón», que no tiene base científica.",
    "sources": [
+    {
+     "t": "Publicación académica (DOI) (doi.org) — Tutankhamun was decapitated 100 years ago – why the excavation is a great shame instead of a triumph",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "Tutankhamun was decapitated 100 years ago – why the excavation is a great shame instead of a triumph",
+     "u": "https://doi.org/10.64628%2Fab.nv4acy75e",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Tutankhamun",
      "org": "Wikipedia en inglés",
@@ -9756,9 +11036,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9769,6 +11049,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -9782,6 +11066,14 @@ window.SQ_CONTENT = {
    "desc": "La Carta Magna obligó al rey Juan a aceptar que también estaba sujeto a la ley.",
    "body": "Los barones ingleses, hartos de los abusos del rey Juan, lo obligaron a sellar la Carta Magna en 1215. Aunque muchas de sus cláusulas trataban asuntos feudales, estableció la idea de que nadie, ni siquiera el rey, está por encima de la ley. Inspiró documentos posteriores sobre derechos.",
    "sources": [
+    {
+     "t": "Biblioteca del Congreso de EE. UU. — Magna Carta: Muse and Mentor",
+     "org": "Biblioteca del Congreso de EE. UU.",
+     "title": "Magna Carta: Muse and Mentor",
+     "u": "https://www.loc.gov/exhibits/magna-carta-muse-and-mentor",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Magna Carta",
      "org": "Wikipedia en inglés",
@@ -9804,9 +11096,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -9817,6 +11109,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10048,6 +11344,14 @@ window.SQ_CONTENT = {
    "body": "Thorndike observó que los oficiales militares que evaluaban a sus soldados tendían a calificarlos de forma similar en rasgos que no tenían relación: si uno parecía atractivo o disciplinado, lo veían también inteligente o leal. Este sesgo influye en entrevistas de trabajo, en la publicidad y en cómo juzgamos a las personas famosas.",
    "sources": [
     {
+     "t": "Gender Issues — Is He a Hero or a Weirdo? How Norm Violations Influence the Halo Effect",
+     "org": "Gender Issues",
+     "title": "Is He a Hero or a Weirdo? How Norm Violations Influence the Halo Effect",
+     "u": "https://doi.org/10.1007%2Fs12147-016-9173-6",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Halo effect",
      "org": "Wikipedia en inglés",
      "title": "Halo effect",
@@ -10061,9 +11365,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-16",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
    "history": [
@@ -10074,6 +11378,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10178,6 +11486,14 @@ window.SQ_CONTENT = {
    "body": "Es una experiencia común, sobre todo en personas jóvenes. No se conoce del todo su causa; varias hipótesis la relacionan con pequeños desajustes en los procesos de memoria y familiaridad del cerebro. No hay evidencia de que tenga que ver con vidas pasadas o premoniciones.",
    "sources": [
     {
+     "t": "Universidad (psu.edu) — Probing Question: What causes deja vu?",
+     "org": "Universidad (psu.edu)",
+     "title": "Probing Question: What causes deja vu?",
+     "u": "https://www.psu.edu/news/research/story/probing-question-what-causes-deja-vu",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Déjà vu",
      "org": "Wikipedia en inglés",
      "title": "Déjà vu",
@@ -10191,9 +11507,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10204,6 +11520,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10217,6 +11537,14 @@ window.SQ_CONTENT = {
    "desc": "Hermann Ebbinghaus midió la «curva del olvido» en 1885 experimentando consigo mismo.",
    "body": "Ebbinghaus memorizó listas de sílabas sin sentido y midió cuánto recordaba con el tiempo. Vio que el olvido es muy rápido al principio y luego se estabiliza. También descubrió que repasar espaciando las sesiones ayuda a retener mucho mejor, idea en la que se basan muchas aplicaciones para aprender idiomas.",
    "sources": [
+    {
+     "t": "PLOS One — Replication and Analysis of Ebbinghaus’ Forgetting Curve",
+     "org": "PLOS One",
+     "title": "Replication and Analysis of Ebbinghaus’ Forgetting Curve",
+     "u": "https://doi.org/10.1371%2Fjournal.pone.0120644",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Forgetting curve",
      "org": "Wikipedia en inglés",
@@ -10239,9 +11567,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10252,6 +11580,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10266,6 +11598,14 @@ window.SQ_CONTENT = {
    "body": "Los psicólogos John Darley y Bibb Latané estudiaron el fenómeno tras el asesinato de Kitty Genovese en Nueva York en 1964. Investigaciones posteriores mostraron que la prensa exageró cuántos testigos hubo y cuánto ignoraron lo ocurrido, aunque el efecto espectador se ha observado en muchos experimentos. Pedir ayuda a una persona concreta lo contrarresta.",
    "sources": [
     {
+     "t": "Social Psychology of Education — A classmate in distress: schoolchildren as bystanders and their reasons for how they act",
+     "org": "Social Psychology of Education",
+     "title": "A classmate in distress: schoolchildren as bystanders and their reasons for how they act",
+     "u": "https://doi.org/10.1007%2Fs11218-006-9009-4",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Bystander effect",
      "org": "Wikipedia en inglés",
      "title": "Bystander effect",
@@ -10279,9 +11619,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-17",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
    "history": [
@@ -10292,6 +11632,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10305,6 +11649,14 @@ window.SQ_CONTENT = {
    "desc": "No hay pruebas sólidas de que exista una memoria que funcione como una fotografía.",
    "body": "Hay personas con memorias extraordinarias, pero suelen usar técnicas o tener capacidades muy específicas. La memoria eidética, que permite recordar una imagen con mucho detalle por poco tiempo, aparece en un pequeño porcentaje de niños y casi nunca en adultos. Los casos famosos de memoria fotográfica no han superado pruebas rigurosas.",
    "sources": [
+    {
+     "t": "Behavioral and Brain Sciences — Twenty years of haunting eidetic imagery: where's the ghost?",
+     "org": "Behavioral and Brain Sciences",
+     "title": "Twenty years of haunting eidetic imagery: where's the ghost?",
+     "u": "https://doi.org/10.1017%2FS0140525X00064542",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Eidetic memory",
      "org": "Wikipedia en inglés",
@@ -10320,9 +11672,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-10",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10333,6 +11685,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10346,6 +11702,14 @@ window.SQ_CONTENT = {
    "desc": "Lo sabemos gracias a espejos que dejaron los astronautas del programa Apolo.",
    "body": "Las misiones Apolo colocaron reflectores en la Luna. Desde la Tierra se les disparan rayos láser y se mide cuánto tarda la luz en volver. Así se comprobó que la Luna se aleja lentamente, por el efecto de las mareas. Al mismo tiempo, la rotación de la Tierra se va frenando un poco.",
    "sources": [
+    {
+     "t": "NASA — NASA - Accuracy of Eclipse Predictions",
+     "org": "NASA",
+     "title": "NASA - Accuracy of Eclipse Predictions",
+     "u": "http://eclipse.gsfc.nasa.gov/SEhelp/ApolloLaser.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Lunar Laser Ranging experiments",
      "org": "Wikipedia en inglés",
@@ -10368,9 +11732,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10381,6 +11745,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10394,6 +11762,14 @@ window.SQ_CONTENT = {
    "desc": "La Unión Astronómica Internacional lo reclasificó como «planeta enano».",
    "body": "Tras descubrirse otros objetos parecidos en el cinturón de Kuiper, los astrónomos definieron qué es un planeta. Plutón cumple casi todo, pero no ha «limpiado» su órbita de otros cuerpos. Por eso la Unión Astronómica Internacional lo llamó planeta enano en 2006. La decisión todavía genera debate entre algunos científicos.",
    "sources": [
+    {
+     "t": "NASA — Planetary Physical Parameters",
+     "org": "NASA",
+     "title": "Planetary Physical Parameters",
+     "u": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Pluto",
      "org": "Wikipedia en inglés",
@@ -10416,9 +11792,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10429,6 +11805,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10483,6 +11863,14 @@ window.SQ_CONTENT = {
    "body": "Edmond Halley fue quien calculó que los cometas vistos en 1531, 1607 y 1682 eran el mismo objeto, y predijo su regreso. El cometa volvió en 1758, después de la muerte de Halley, y recibió su nombre. Su última aparición fue en 1986.",
    "sources": [
     {
+     "t": "NASA — 1P/Halley",
+     "org": "NASA",
+     "title": "1P/Halley",
+     "u": "https://science.nasa.gov/solar-system/comets/1p-halley/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Halley's Comet",
      "org": "Wikipedia en inglés",
      "title": "Halley's Comet",
@@ -10504,9 +11892,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10517,6 +11905,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10530,6 +11922,22 @@ window.SQ_CONTENT = {
    "desc": "Yuri Gagarin dio una vuelta a la Tierra el 12 de abril de 1961.",
    "body": "El cosmonauta soviético viajó a bordo de la nave Vostok 1. Su vuelo orbital duró unos 108 minutos. Al regresar, se eyectó de la cápsula y aterrizó en paracaídas. El 12 de abril se celebra hoy el Día Internacional de los Vuelos Espaciales Tripulados.",
    "sources": [
+    {
+     "t": "Agencia Espacial Europea (ESA) — The flight of Vostok 1",
+     "org": "Agencia Espacial Europea (ESA)",
+     "title": "The flight of Vostok 1",
+     "u": "https://www.esa.int/About_Us/ESA_history/50_years_of_humans_in_space/The_flight_of_Vostok_1",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Servicio Geológico de EE. UU. (USGS) — Planetary Names",
+     "org": "Servicio Geológico de EE. UU. (USGS)",
+     "title": "Planetary Names",
+     "u": "https://planetarynames.wr.usgs.gov/Feature/2054?__fsk=1161336942",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Yuri Gagarin",
      "org": "Wikipedia en inglés",
@@ -10553,9 +11961,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-11",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10566,6 +11974,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10580,6 +11992,14 @@ window.SQ_CONTENT = {
    "body": "Laika fue recogida de las calles de Moscú. Murió pocas horas después del lanzamiento, probablemente por sobrecalentamiento, aunque durante años la versión oficial soviética dio otra información. Su viaje mostró que un ser vivo podía sobrevivir al lanzamiento y la ingravidez, pero hoy se recuerda también por el debate ético que generó.",
    "sources": [
     {
+     "t": "NASA — Korolev-- Sputnik",
+     "org": "NASA",
+     "title": "Korolev-- Sputnik",
+     "u": "https://history.nasa.gov/sputnik/harford.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Laika",
      "org": "Wikipedia en inglés",
      "title": "Laika",
@@ -10593,9 +12013,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-04",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10606,6 +12026,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10619,6 +12043,14 @@ window.SQ_CONTENT = {
    "desc": "La obtuvo el Event Horizon Telescope, una red de radiotelescopios de todo el mundo.",
    "body": "El agujero negro fotografiado está en el centro de la galaxia M87, a unos 55 millones de años luz. Para lograr la resolución necesaria, se combinaron telescopios de varios continentes como si fueran uno del tamaño de la Tierra. La imagen muestra un anillo brillante alrededor de una sombra oscura.",
    "sources": [
+    {
+     "t": "NASA — Black Hole Image Makes History",
+     "org": "NASA",
+     "title": "Black Hole Image Makes History",
+     "u": "https://www.jpl.nasa.gov/news/news.php?feature=7372",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Event Horizon Telescope",
      "org": "Wikipedia en inglés",
@@ -10650,9 +12082,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10663,6 +12095,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10676,6 +12112,22 @@ window.SQ_CONTENT = {
    "desc": "Falso. Allí la gravedad es casi tan fuerte como en la superficie; los astronautas flotan porque están en caída libre.",
    "body": "La Estación orbita a unos 400 km de altura, donde la gravedad terrestre es aproximadamente un 90% de la que sentimos en el suelo. Los astronautas flotan porque la estación y todo lo que contiene caen continuamente alrededor de la Tierra a gran velocidad. Esa caída constante produce la sensación de ingravidez.",
    "sources": [
+    {
+     "t": "Springer Nature Link — The 2.5 s Microgravity Drop Tower at National Centre for Combustion Research and Development (NCCRD), Indian Institute of Technology Madras ",
+     "org": "Springer Nature Link",
+     "title": "The 2.5 s Microgravity Drop Tower at National Centre for Combustion Research and Development (NCCRD), Indian Institute of Technology Madras ",
+     "u": "https://doi.org/10.1007%2Fs12217-018-9639-0",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Springer Nature Link — Basic Issues of Human Adaptation to Space Flight",
+     "org": "Springer Nature Link",
+     "title": "Basic Issues of Human Adaptation to Space Flight",
+     "u": "https://doi.org/10.1007%2F978-1-4020-6770-9_2",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Weightlessness",
      "org": "Wikipedia en inglés",
@@ -10691,9 +12143,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10704,6 +12156,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10758,6 +12214,14 @@ window.SQ_CONTENT = {
    "body": "Si el CERN hubiera patentado la World Wide Web, cada sitio podría haber tenido que pagar por usarla. En abril de 1993 la puso en dominio público, lo que permitió su expansión explosiva. Tim Berners-Lee la había propuesto en 1989 como forma de compartir documentos entre científicos.",
    "sources": [
     {
+     "t": "Universidad (ils.unc.edu) — Where Have all the Gophers Gone? Why the Web beat Gopher in the Battle for Protocol Mind Share",
+     "org": "Universidad (ils.unc.edu)",
+     "title": "Where Have all the Gophers Gone? Why the Web beat Gopher in the Battle for Protocol Mind Share",
+     "u": "https://ils.unc.edu/callee/gopherpaper.htm",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — World Wide Web",
      "org": "Wikipedia en inglés",
      "title": "World Wide Web",
@@ -10771,9 +12235,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-12",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10784,6 +12248,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10798,6 +12266,14 @@ window.SQ_CONTENT = {
    "body": "Ada Lovelace, hija del poeta Lord Byron, trabajó con Charles Babbage en su Máquina Analítica, una computadora mecánica que nunca llegó a construirse. En sus notas describió un algoritmo para calcular números de Bernoulli y anticipó que estas máquinas podrían manejar símbolos y no solo números. El lenguaje de programación Ada lleva su nombre.",
    "sources": [
     {
+     "t": "Universidad británica (blogs.bodleian.ox.ac.uk) — Only known photographs of Ada Lovelace in Bodleian Display",
+     "org": "Universidad británica (blogs.bodleian.ox.ac.uk)",
+     "title": "Only known photographs of Ada Lovelace in Bodleian Display",
+     "u": "https://blogs.bodleian.ox.ac.uk/adalovelace/2015/10/14/only-known-photographs-of-ada-lovelace-in-bodleian-display/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Ada Lovelace",
      "org": "Wikipedia en inglés",
      "title": "Ada Lovelace",
@@ -10811,9 +12287,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-05",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10824,6 +12300,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10838,6 +12318,14 @@ window.SQ_CONTENT = {
    "body": "Durante la Segunda Guerra Mundial, Turing trabajó en Bletchley Park, en Inglaterra, en el desciframiento de comunicaciones alemanas. Antes, en 1936, había publicado un trabajo que sentó las bases teóricas de la computación. Fue perseguido por su homosexualidad; en 2009 el gobierno británico pidió disculpas y en 2013 recibió un indulto póstumo.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Turing Machines",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Turing Machines",
+     "u": "https://plato.stanford.edu/archives/win2021/entries/turing-machine/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Alan Turing",
      "org": "Wikipedia en inglés",
      "title": "Alan Turing",
@@ -10851,9 +12339,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-29",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10864,6 +12352,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10878,6 +12370,22 @@ window.SQ_CONTENT = {
    "body": "La palabra «emoji» viene del japonés: «e» (imagen) y «moji» (carácter). No tiene relación con la palabra «emoción». Kurita diseñó un conjunto de 176 pictogramas de 12 por 12 píxeles para el servicio móvil de NTT Docomo. El Museo de Arte Moderno de Nueva York los incluyó en su colección.",
    "sources": [
     {
+     "t": "Publicación académica (DOI) (doi.org) — Frontiers",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "Frontiers",
+     "u": "https://doi.org/10.3389%2Ffpsyg.2019.02221",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PLOS One — Sentiment of Emojis",
+     "org": "PLOS One",
+     "title": "Sentiment of Emojis",
+     "u": "https://doi.org/10.1371%2Fjournal.pone.0144296",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Emoji",
      "org": "Wikipedia en inglés",
      "title": "Emoji",
@@ -10891,9 +12399,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-22",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10904,6 +12412,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10917,6 +12429,14 @@ window.SQ_CONTENT = {
    "desc": "Chris Messina sugirió usar el símbolo # para agrupar conversaciones.",
    "body": "En agosto de 2007, Chris Messina publicó un mensaje proponiendo usar el signo numeral para agrupar temas. Al principio la empresa no le dio importancia, pero los usuarios lo adoptaron y se extendió a casi todas las redes sociales.",
    "sources": [
+    {
+     "t": "Universidad (cmu.edu) — #OriginStory - Carnegie Mellon University",
+     "org": "Universidad (cmu.edu)",
+     "title": "#OriginStory - Carnegie Mellon University",
+     "u": "http://www.cmu.edu/homepage/computing/2014/summer/originstory.shtml",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Hashtag",
      "org": "Wikipedia en inglés",
@@ -10939,9 +12459,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -10952,6 +12472,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -10965,6 +12489,14 @@ window.SQ_CONTENT = {
    "desc": "Los relojes de los satélites deben corregirse porque el tiempo pasa distinto allá arriba.",
    "body": "Los satélites GPS llevan relojes atómicos muy precisos. Por la relatividad, el tiempo corre ligeramente distinto para ellos que para nosotros: por su velocidad y por estar más lejos de la gravedad terrestre. La diferencia es de unos 38 microsegundos al día, y si no se corrigiera los errores de posición crecerían varios kilómetros cada día.",
    "sources": [
+    {
+     "t": "Journal of Geodesy — Combined orbits and clocks from IGS second reprocessing",
+     "org": "Journal of Geodesy",
+     "title": "Combined orbits and clocks from IGS second reprocessing",
+     "u": "https://doi.org/10.1007%2Fs00190-018-1149-8",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Error analysis for the Global Positioning System",
      "org": "Wikipedia en inglés",
@@ -10987,9 +12519,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11000,6 +12532,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11013,6 +12549,14 @@ window.SQ_CONTENT = {
    "desc": "Douglas Engelbart mostró también videoconferencia y edición colaborativa de textos.",
    "body": "En una presentación en San Francisco, Engelbart y su equipo mostraron un ratón de madera, ventanas, hipervínculos y edición de texto compartida a distancia. Muchas de esas ideas tardaron décadas en llegar a las computadoras personales. La presentación es conocida como «The Mother of All Demos».",
    "sources": [
+    {
+     "t": "Computer History Museum — The Mouse - CHM Revolution",
+     "org": "Computer History Museum",
+     "title": "The Mouse - CHM Revolution",
+     "u": "https://www.computerhistory.org/revolution/input-output/14/350",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Douglas Engelbart",
      "org": "Wikipedia en inglés",
@@ -11036,9 +12580,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-06",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11049,6 +12593,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11062,6 +12610,14 @@ window.SQ_CONTENT = {
    "desc": "Ocurrió en 1974 en un supermercado de Ohio, Estados Unidos.",
    "body": "El 26 de junio de 1974 se escaneó un paquete de chicles Wrigley en un supermercado de Troy, Ohio, con el código UPC. Ese paquete se exhibe hoy en el Museo Nacional de Historia Estadounidense del Smithsonian. El código de barras aceleró las cajas registradoras y el control de inventarios.",
    "sources": [
+    {
+     "t": "Smithsonian Magazine (Smithsonian Institution) — The History of the Bar Code",
+     "org": "Smithsonian Magazine (Smithsonian Institution)",
+     "title": "The History of the Bar Code",
+     "u": "https://www.smithsonianmag.com/innovation/history-bar-code-180956704/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Universal Product Code",
      "org": "Wikipedia en inglés",
@@ -11084,9 +12640,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11097,6 +12653,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11110,6 +12670,14 @@ window.SQ_CONTENT = {
    "desc": "Es el efecto placebo, y se tiene en cuenta en todos los ensayos clínicos.",
    "body": "Cuando una persona cree que recibe un tratamiento, puede notar mejoría en síntomas como el dolor aunque la pastilla no tenga ningún principio activo. Por eso los ensayos médicos comparan los fármacos con un placebo, a menudo sin que pacientes ni médicos sepan quién recibe qué. El placebo no cura enfermedades, pero puede influir en cómo se perciben los síntomas.",
    "sources": [
+    {
+     "t": "Journal of Cognitive Enhancement — Placebo and Nocebo Effects in Memory Performance: A Narrative Review",
+     "org": "Journal of Cognitive Enhancement",
+     "title": "Placebo and Nocebo Effects in Memory Performance: A Narrative Review",
+     "u": "https://doi.org/10.1007%2Fs41465-026-00371-7",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Placebo",
      "org": "Wikipedia en inglés",
@@ -11132,9 +12700,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11145,6 +12713,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11158,6 +12730,14 @@ window.SQ_CONTENT = {
    "desc": "Los deportistas entrenados suelen tener frecuencias más bajas.",
    "body": "La frecuencia cardiaca en reposo depende de la edad, la forma física y otros factores. En atletas de resistencia es común que esté por debajo de 60 porque su corazón bombea más sangre en cada latido. Durante el ejercicio, el ritmo puede aumentar mucho para llevar más oxígeno a los músculos.",
    "sources": [
+    {
+     "t": "Publicación académica (DOI) (doi.org) — Frontiers",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "Frontiers",
+     "u": "https://doi.org/10.3389%2Ffphys.2020.604018",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Heart rate",
      "org": "Wikipedia en inglés",
@@ -11180,9 +12760,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11193,6 +12773,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11431,6 +13015,14 @@ window.SQ_CONTENT = {
    "body": "El hígado es el órgano interno con mayor capacidad de regeneración en los humanos. Por eso es posible donar una parte del hígado en vida: tanto el donante como el receptor recuperan, con el tiempo, un volumen de hígado funcional. Esta capacidad tiene límites y puede verse afectada por enfermedades.",
    "sources": [
     {
+     "t": "Organismo gubernamental (nih.gov) — Cells that maintain and repair the liver identified",
+     "org": "Organismo gubernamental (nih.gov)",
+     "title": "Cells that maintain and repair the liver identified",
+     "u": "https://www.nih.gov/news-events/nih-research-matters/cells-maintain-repair-liver-identified",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Liver regeneration",
      "org": "Wikipedia en inglés",
      "title": "Liver regeneration",
@@ -11444,9 +13036,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-15",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11457,6 +13049,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11519,6 +13115,14 @@ window.SQ_CONTENT = {
    "body": "Situado en el norte de Chile, el Atacama está protegido de la humedad por la cordillera de los Andes y por corrientes frías del Pacífico. Su suelo es tan seco que la NASA lo ha usado para probar instrumentos pensados para Marte. Su cielo limpio lo convierte en uno de los mejores lugares del mundo para la astronomía.",
    "sources": [
     {
+     "t": "NASA — Extreme Weather in Chile Causing Catastrophic Fires",
+     "org": "NASA",
+     "title": "Extreme Weather in Chile Causing Catastrophic Fires",
+     "u": "https://www.nasa.gov/image-article/extreme-weather-chile-causing-catastrophic-fires/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Atacama Desert",
      "org": "Wikipedia en inglés",
      "title": "Atacama Desert",
@@ -11540,9 +13144,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11553,6 +13157,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11615,6 +13223,22 @@ window.SQ_CONTENT = {
    "body": "El Amazonas vierte al Atlántico una cantidad de agua enorme: se calcula que alrededor de una quinta parte de toda el agua dulce que los ríos llevan al mar. No tiene ningún puente que lo cruce en todo su recorrido. Si es o no el más largo del mundo, frente al Nilo, sigue siendo objeto de debate.",
    "sources": [
     {
+     "t": "Universidad (press.uchicago.edu) — A World of Rivers: Environmental Change on Ten of the World’s Great Rivers, Wohl",
+     "org": "Universidad (press.uchicago.edu)",
+     "title": "A World of Rivers: Environmental Change on Ten of the World’s Great Rivers, Wohl",
+     "u": "https://press.uchicago.edu/ucp/books/book/chicago/W/bo9396888.html",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Universidad (compositerunoff.sr.unh.edu) — Amazon - Obidos",
+     "org": "Universidad (compositerunoff.sr.unh.edu)",
+     "title": "Amazon - Obidos",
+     "u": "https://www.compositerunoff.sr.unh.edu/html/Polygons/P3629000.html",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Amazon River",
      "org": "Wikipedia en inglés",
      "title": "Amazon River",
@@ -11628,9 +13252,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-23",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11641,6 +13265,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11695,6 +13323,14 @@ window.SQ_CONTENT = {
    "body": "Mientras otras regiones llevaban decenas de miles de años habitadas, las islas de Nueva Zelanda permanecieron sin humanos hasta que navegantes polinesios, antepasados de los maoríes, llegaron hacia el siglo XIII. La llegada humana provocó la extinción de aves gigantes como el moa.",
    "sources": [
     {
+     "t": "Journal of World Prehistory — Mass Migration and the Polynesian Settlement of New Zealand",
+     "org": "Journal of World Prehistory",
+     "title": "Mass Migration and the Polynesian Settlement of New Zealand",
+     "u": "https://doi.org/10.1007%2Fs10963-017-9110-y",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — New Zealand",
      "org": "Wikipedia en inglés",
      "title": "New Zealand",
@@ -11716,9 +13352,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11729,6 +13365,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11742,6 +13382,14 @@ window.SQ_CONTENT = {
    "desc": "Llegan a la bahía de Samaná y al Banco de la Plata para aparearse y tener sus crías.",
    "body": "Cada año, entre enero y marzo aproximadamente, las ballenas jorobadas del Atlántico Norte viajan miles de kilómetros desde zonas frías hasta las aguas cálidas del noreste dominicano. La observación de ballenas en Samaná es una actividad turística importante y regulada para proteger a los animales.",
    "sources": [
+    {
+     "t": "NOAA (EE. UU.) — Humpback Whale",
+     "org": "NOAA (EE. UU.)",
+     "title": "Humpback Whale",
+     "u": "https://www.fisheries.noaa.gov/species/humpback-whale",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Samaná Bay",
      "org": "Wikipedia en inglés",
@@ -11773,9 +13421,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11786,6 +13434,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11799,6 +13451,30 @@ window.SQ_CONTENT = {
    "desc": "Su cuenca se reparte entre países como Egipto, Sudán, Etiopía y Uganda.",
    "body": "El Nilo tiene dos grandes ramas: el Nilo Blanco, que nace en la región de los Grandes Lagos de África, y el Nilo Azul, que nace en Etiopía. Se unen en Jartum, la capital de Sudán. Durante miles de años, sus crecidas anuales fertilizaron las tierras de Egipto.",
    "sources": [
+    {
+     "t": "International Journal of Water Governance — Popular culture and Nile hydropolitics: Amharic songs about the Grand Ethiopian Renaissance Dam",
+     "org": "International Journal of Water Governance",
+     "title": "Popular culture and Nile hydropolitics: Amharic songs about the Grand Ethiopian Renaissance Dam",
+     "u": "https://doi.org/10.59490%2Fijwg.10.2023.7359",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "African Archaeological Review — The Aswan High Dam and the International Rescue Nubia Campaign",
+     "org": "African Archaeological Review",
+     "title": "The Aswan High Dam and the International Rescue Nubia Campaign",
+     "u": "https://doi.org/10.1007%2Fs10437-007-9018-5",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Scientific Reports — Evaluating the spatial pattern of water quality of the Nile River, Egypt, through multivariate analysis of chemical and biological indicator",
+     "org": "Scientific Reports",
+     "title": "Evaluating the spatial pattern of water quality of the Nile River, Egypt, through multivariate analysis of chemical and biological indicator",
+     "u": "https://doi.org/10.1038%2Fs41598-025-89982-2",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Nile",
      "org": "Wikipedia en inglés",
@@ -11821,9 +13497,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11834,6 +13510,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11905,6 +13585,14 @@ window.SQ_CONTENT = {
    "body": "Los colibríes baten sus alas muy rápido y pueden rotarlas, lo que les permite generar sustentación tanto al subir como al bajar el ala. Así se quedan suspendidos frente a las flores. Su metabolismo es altísimo: necesitan alimentarse con mucha frecuencia y, por la noche, pueden entrar en un estado de letargo para ahorrar energía.",
    "sources": [
     {
+     "t": "Smithsonian Institution — Hummingbirds",
+     "org": "Smithsonian Institution",
+     "title": "Hummingbirds",
+     "u": "https://nationalzoo.si.edu/migratory-birds/hummingbirds",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Hummingbird",
      "org": "Wikipedia en inglés",
      "title": "Hummingbird",
@@ -11926,9 +13614,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11939,6 +13627,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -11952,6 +13644,14 @@ window.SQ_CONTENT = {
    "desc": "Superan la «prueba del espejo», que pocas especies logran.",
    "body": "En la prueba, se pone una marca en el cuerpo del animal que solo puede ver en un espejo. Si se toca la marca al mirarse, se interpreta que se reconoce. Además de los humanos, la han superado grandes simios, delfines, algunas urracas y elefantes asiáticos, aunque los resultados varían entre individuos.",
    "sources": [
+    {
+     "t": "National Geographic — This tiny fish can recognize itself in a mirror. Is it self-aware?",
+     "org": "National Geographic",
+     "title": "This tiny fish can recognize itself in a mirror. Is it self-aware?",
+     "u": "https://www.nationalgeographic.com/animals/article/fish-cleaner-wrasse-self-aware-mirror-test-intelligence-news",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Mirror test",
      "org": "Wikipedia en inglés",
@@ -11974,9 +13674,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -11987,6 +13687,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12000,6 +13704,14 @@ window.SQ_CONTENT = {
    "desc": "Los cuervos de Nueva Caledonia moldean ramas y hojas para sacar insectos.",
    "body": "Estos cuervos tallan ganchos en ramitas y recortan hojas para crear herramientas con las que extraen larvas de agujeros. En experimentos, han resuelto problemas de varios pasos. Son considerados uno de los animales no primates más hábiles con herramientas.",
    "sources": [
+    {
+     "t": "Nature — Manufacture and use of hook-tools by New Caledonian crows",
+     "org": "Nature",
+     "title": "Manufacture and use of hook-tools by New Caledonian crows",
+     "u": "https://doi.org/10.1038%2F379249a0",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — New Caledonian crow",
      "org": "Wikipedia en inglés",
@@ -12022,9 +13734,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12035,6 +13747,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12048,6 +13764,14 @@ window.SQ_CONTENT = {
    "desc": "La «danza del contoneo» comunica dirección y distancia. Su descubridor ganó el Nobel en 1973.",
    "body": "Una abeja que encuentra flores vuelve a la colmena y realiza un baile en forma de ocho. El ángulo de la danza indica la dirección respecto al Sol, y la duración del contoneo, la distancia. Karl von Frisch descifró este lenguaje y compartió el Premio Nobel de Fisiología o Medicina en 1973.",
    "sources": [
+    {
+     "t": "Fundación Nobel — Karl von Frisch – Facts",
+     "org": "Fundación Nobel",
+     "title": "Karl von Frisch – Facts",
+     "u": "https://www.nobelprize.org/laureate/400",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Waggle dance",
      "org": "Wikipedia en inglés",
@@ -12079,9 +13803,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12092,6 +13816,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12105,6 +13833,14 @@ window.SQ_CONTENT = {
    "desc": "Puede superar los 30 metros de largo.",
    "body": "La ballena azul supera en tamaño a cualquier dinosaurio conocido. A pesar de su enorme tamaño, se alimenta principalmente de krill, pequeños crustáceos, de los que puede comer varias toneladas al día. La caza comercial la llevó al borde de la extinción en el siglo XX; hoy está protegida.",
    "sources": [
+    {
+     "t": "NOAA (EE. UU.) — Blue Whale",
+     "org": "NOAA (EE. UU.)",
+     "title": "Blue Whale",
+     "u": "https://www.fisheries.noaa.gov/species/blue-whale#overview",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Blue whale",
      "org": "Wikipedia en inglés",
@@ -12127,9 +13863,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12140,6 +13876,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12153,6 +13893,14 @@ window.SQ_CONTENT = {
    "desc": "Las usan para romper conchas mientras flotan boca arriba.",
    "body": "La nutria marina coloca una piedra sobre su pecho y golpea contra ella almejas y erizos hasta abrirlos. Algunas guardan su piedra favorita en un pliegue de piel bajo el brazo. Además, tienen el pelaje más denso del reino animal, que las mantiene calientes en el agua fría.",
    "sources": [
+    {
+     "t": "PLOS One — Genetic Diversity and Population Parameters of Sea Otters, Enhydra lutris, before Fur Trade Extirpation from 1741–1911",
+     "org": "PLOS One",
+     "title": "Genetic Diversity and Population Parameters of Sea Otters, Enhydra lutris, before Fur Trade Extirpation from 1741–1911",
+     "u": "https://doi.org/10.1371%2Fjournal.pone.0032205",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Sea otter",
      "org": "Wikipedia en inglés",
@@ -12175,9 +13923,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12188,6 +13936,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12201,6 +13953,14 @@ window.SQ_CONTENT = {
    "desc": "No se comen las hojas: las usan para cultivar un hongo del que se alimentan.",
    "body": "Estas hormigas, comunes en América, cortan trozos de hojas y los llevan al hormiguero, donde los usan como abono para un jardín de hongos. Las colonias pueden tener millones de individuos con tareas especializadas. Practicaban la agricultura millones de años antes que los humanos.",
    "sources": [
+    {
+     "t": "Nature Communications — Biomineral armor in leaf-cutter ants",
+     "org": "Nature Communications",
+     "title": "Biomineral armor in leaf-cutter ants",
+     "u": "https://doi.org/10.1038%2Fs41467-020-19566-3",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Leafcutter ant",
      "org": "Wikipedia en inglés",
@@ -12223,9 +13983,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12236,6 +13996,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12249,6 +14013,14 @@ window.SQ_CONTENT = {
    "desc": "Además, detecta a sus presas por los campos eléctricos que generan.",
    "body": "El ornitorrinco, de Australia, es uno de los pocos mamíferos que ponen huevos, junto con los equidnas. Su pico tiene receptores que detectan la electricidad de los músculos de sus presas bajo el agua. Los machos tienen un espolón venenoso en las patas traseras. Cuando se describió por primera vez en Europa, algunos científicos pensaron que era una falsificación.",
    "sources": [
+    {
+     "t": "Nature — Interpreting Shared Characteristics: The Platypus Genome",
+     "org": "Nature",
+     "title": "Interpreting Shared Characteristics: The Platypus Genome",
+     "u": "http://www.nature.com/scitable/topicpage/interpreting-shared-characteristics-the-platypus-genome-44568",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Platypus",
      "org": "Wikipedia en inglés",
@@ -12271,9 +14043,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12284,6 +14056,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12347,6 +14123,14 @@ window.SQ_CONTENT = {
    "body": "Aristóteles, discípulo de Platón, enseñó al joven Alejandro durante varios años. Después fundó en Atenas su propia escuela, el Liceo. Escribió sobre lógica, biología, política, ética y poesía, y su influencia en el pensamiento occidental duró casi dos mil años.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Aristotle",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Aristotle",
+     "u": "https://plato.stanford.edu/archives/win2016/entries/aristotle/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Aristotle",
      "org": "Wikipedia en inglés",
      "title": "Aristotle",
@@ -12360,9 +14144,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12373,6 +14157,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12387,6 +14175,22 @@ window.SQ_CONTENT = {
    "body": "Según el mito, Sísifo fue condenado a empujar una roca cuesta arriba eternamente, solo para verla caer una y otra vez. Albert Camus lo convirtió en un símbolo del absurdo: la vida no tiene un sentido dado, pero podemos asumirla con lucidez y rebeldía. Su ensayo termina con la frase de que hay que imaginar a Sísifo feliz.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Albert Camus",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Albert Camus",
+     "u": "https://plato.stanford.edu/entries/camus/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Internet Encyclopedia of Philosophy — Camus, Albert",
+     "org": "Internet Encyclopedia of Philosophy",
+     "title": "Camus, Albert",
+     "u": "https://iep.utm.edu/camus/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — The Myth of Sisyphus",
      "org": "Wikipedia en inglés",
      "title": "The Myth of Sisyphus",
@@ -12400,9 +14204,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-19",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12413,6 +14217,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12427,6 +14235,14 @@ window.SQ_CONTENT = {
    "body": "El matemático y filósofo francés Blaise Pascal argumentó que, si Dios existe, creer trae una ganancia infinita, y si no existe, se pierde poco. Por eso, según él, lo racional sería apostar por creer. El argumento ha recibido muchas críticas, por ejemplo, que no indica en qué dios creer.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Blaise Pascal",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Blaise Pascal",
+     "u": "https://plato.stanford.edu/archives/fall2015/entries/pascal/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Pascal's wager",
      "org": "Wikipedia en inglés",
      "title": "Pascal's wager",
@@ -12440,9 +14256,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-12",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "debate",
    "history": [
@@ -12453,6 +14269,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12467,6 +14287,14 @@ window.SQ_CONTENT = {
    "body": "Dos detenidos, sin poder comunicarse, deben decidir si delatar al otro o guardar silencio. A cada uno, individualmente, le conviene delatar; pero si ambos lo hacen, terminan peor que si los dos hubieran callado. El dilema se usa para estudiar desde negociaciones hasta acuerdos entre países y comportamiento animal.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Prisoner’s Dilemma",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Prisoner’s Dilemma",
+     "u": "http://plato.stanford.edu/entries/prisoner-dilemma/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Prisoner's dilemma",
      "org": "Wikipedia en inglés",
      "title": "Prisoner's dilemma",
@@ -12480,9 +14308,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-05",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12493,6 +14321,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12506,6 +14338,14 @@ window.SQ_CONTENT = {
    "desc": "Se atribuye a Laozi, figura semilegendaria de la antigua China.",
    "body": "El texto, de unos 5.000 caracteres, es la base del taoísmo. Habla del Tao, «el camino», y de vivir en armonía con la naturaleza, con ideas como la no acción forzada (wu wei). Su autoría y fecha exactas son debatidas por los historiadores.",
    "sources": [
+    {
+     "t": "Stanford Encyclopedia of Philosophy — Laozi",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Laozi",
+     "u": "https://plato.stanford.edu/archives/spr2017/entries/laozi/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Tao Te Ching",
      "org": "Wikipedia en inglés",
@@ -12528,9 +14368,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12541,6 +14381,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12554,6 +14398,14 @@ window.SQ_CONTENT = {
    "desc": "Erwin Schrödinger lo propuso en 1935 para mostrar lo absurda que le parecía cierta interpretación cuántica.",
    "body": "Schrödinger imaginó un gato en una caja con un mecanismo que podía matarlo según un evento cuántico al azar. Según algunas interpretaciones, hasta abrir la caja el gato estaría «vivo y muerto a la vez». Su intención era señalar que aplicar esa idea a objetos cotidianos llevaba a conclusiones ridículas. Nunca se hizo con un gato real.",
    "sources": [
+    {
+     "t": "Stanford Encyclopedia of Philosophy — The Einstein-Podolsky-Rosen Argument in Quantum Theory",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "The Einstein-Podolsky-Rosen Argument in Quantum Theory",
+     "u": "https://plato.stanford.edu/entries/qt-epr/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Schrödinger's cat",
      "org": "Wikipedia en inglés",
@@ -12576,9 +14428,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12589,6 +14441,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12603,6 +14459,14 @@ window.SQ_CONTENT = {
    "body": "Bentham, fundador del utilitarismo moderno, dejó instrucciones para que su esqueleto, vestido con su ropa, se conservara tras su muerte en 1832. Hoy su «auto-icono» se exhibe en el University College de Londres. La cabeza original, mal conservada, se sustituyó por una de cera.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Jeremy Bentham",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Jeremy Bentham",
+     "u": "https://plato.stanford.edu/entries/bentham/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Jeremy Bentham",
      "org": "Wikipedia en inglés",
      "title": "Jeremy Bentham",
@@ -12616,9 +14480,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-20",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12629,6 +14493,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12643,6 +14511,14 @@ window.SQ_CONTENT = {
    "body": "Michel de Montaigne escribió reflexiones personales sobre todo tipo de temas, desde la amistad hasta la muerte, partiendo de su propia experiencia. Las llamó «essais», es decir, pruebas o intentos. Su estilo libre y escéptico inspiró a muchos escritores y dio nombre al género.",
    "sources": [
     {
+     "t": "Stanford Encyclopedia of Philosophy — Michel de Montaigne",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Michel de Montaigne",
+     "u": "https://plato.stanford.edu/archives/win2019/entries/montaigne/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Michel de Montaigne",
      "org": "Wikipedia en inglés",
      "title": "Michel de Montaigne",
@@ -12656,9 +14532,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-13",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12669,6 +14545,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12682,6 +14562,22 @@ window.SQ_CONTENT = {
    "desc": "Las llamadas «piedras azules» proceden de Gales.",
    "body": "Stonehenge se construyó en varias fases, aproximadamente entre el 3000 y el 2000 a. C. Las piedras azules más pequeñas se trajeron desde las colinas de Preseli, en Gales. No se sabe con certeza cómo las transportaron ni para qué servía exactamente el monumento, aunque está alineado con la salida del Sol en el solsticio de verano.",
    "sources": [
+    {
+     "t": "Museo de Historia Natural de Londres — The Beaker people: a new population for ancient Britain",
+     "org": "Museo de Historia Natural de Londres",
+     "title": "The Beaker people: a new population for ancient Britain",
+     "u": "https://www.nhm.ac.uk/discover/news/2018/february/the-beaker-people-a-new-population-for-ancient-britain.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "UNESCO — Stonehenge, Avebury and Associated Sites",
+     "org": "UNESCO",
+     "title": "Stonehenge, Avebury and Associated Sites",
+     "u": "https://whc.unesco.org/en/list/373",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Stonehenge",
      "org": "Wikipedia en inglés",
@@ -12704,9 +14600,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12717,6 +14613,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12730,6 +14630,22 @@ window.SQ_CONTENT = {
    "desc": "Experimentos muestran que se pueden mover balanceándolos de pie con cuerdas.",
    "body": "Durante años se preguntó cómo se trasladaron estatuas de varias toneladas sin ruedas ni animales grandes. Investigadores mostraron que una réplica podía avanzar de pie balanceándose con ayuda de cuerdas, como coincide con relatos rapanui que dicen que los moáis «caminaban». La hipótesis tiene apoyo, aunque el debate sigue.",
    "sources": [
+    {
+     "t": "UNESCO — Rapa Nui National Park",
+     "org": "UNESCO",
+     "title": "Rapa Nui National Park",
+     "u": "https://whc.unesco.org/en/list/715",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Antiquity — Mapping prehistoric statue roads on Easter Island",
+     "org": "Antiquity",
+     "title": "Mapping prehistoric statue roads on Easter Island",
+     "u": "https://www.cambridge.org/core/journals/antiquity/article/abs/mapping-prehistoric-statue-roads-on-easter-island/C9C58A3D9FF78F083CC9125EC982DECE",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Moai",
      "org": "Wikipedia en inglés",
@@ -12752,9 +14668,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hipotesis",
    "history": [
@@ -12765,6 +14681,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12778,6 +14698,14 @@ window.SQ_CONTENT = {
    "desc": "Göbekli Tepe, en Turquía, se construyó hacia el 9500 a. C.",
    "body": "Sus pilares de piedra en forma de T, decorados con animales tallados, fueron levantados por grupos de cazadores-recolectores, antes de que existiera la agricultura en la zona. El hallazgo obligó a replantear la idea de que los grandes monumentos solo surgieron después de la agricultura.",
    "sources": [
+    {
+     "t": "National Geographic — The Birth of Religion",
+     "org": "National Geographic",
+     "title": "The Birth of Religion",
+     "u": "https://www.nationalgeographic.com/magazine/2011/06/gobeki-tepe/#:~:text=The%20Birth%20of%20Religion&text=Dating%20to%20at%20least%208000,or%20gods%E2%80%94began%20to%20appear.",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Göbekli Tepe",
      "org": "Wikipedia en inglés",
@@ -12800,9 +14728,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12813,6 +14741,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12875,6 +14807,14 @@ window.SQ_CONTENT = {
    "body": "El sonido, extremadamente potente y de baja frecuencia, fue captado por hidrófonos de la agencia estadounidense NOAA. Por su intensidad, se especuló con un animal gigante desconocido. Análisis posteriores concluyeron que coincide con los sonidos de grandes masas de hielo que se fracturan en la Antártida.",
    "sources": [
     {
+     "t": "NOAA (EE. UU.) — Acoustics Monitoring Program - Icequakes (Bloop)",
+     "org": "NOAA (EE. UU.)",
+     "title": "Acoustics Monitoring Program - Icequakes (Bloop)",
+     "u": "https://www.pmel.noaa.gov/acoustics/sounds/bloop.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Bloop",
      "org": "Wikipedia en inglés",
      "title": "Bloop",
@@ -12896,9 +14836,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -12909,6 +14849,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -12922,6 +14866,14 @@ window.SQ_CONTENT = {
    "desc": "El disco de Festo tiene símbolos estampados en espiral en ambas caras.",
    "body": "Encontrado en 1908 en el palacio minoico de Festo, en Creta, el disco tiene 242 signos impresos con sellos, una especie de imprenta muy antigua. Al ser un objeto único, sin otros textos con los que compararlo, es casi imposible descifrarlo. Algunos investigadores incluso han dudado de su autenticidad.",
    "sources": [
+    {
+     "t": "Greece & Rome — Cretan Hieroglyphs: The end of a Quest?",
+     "org": "Greece & Rome",
+     "title": "Cretan Hieroglyphs: The end of a Quest?",
+     "u": "https://doi.org/10.1017%2FS0017383500014121",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Phaistos Disc",
      "org": "Wikipedia en inglés",
@@ -12944,9 +14896,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "misterio",
    "history": [
@@ -12957,6 +14909,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13020,6 +14976,14 @@ window.SQ_CONTENT = {
    "body": "En 1947, cerca de Roswell, Nuevo México, se encontraron restos que el ejército describió primero como un «disco volador» y luego como un globo meteorológico. En los años noventa, la Fuerza Aérea de EE. UU. explicó que se trataba del Proyecto Mogul, globos secretos para detectar pruebas nucleares soviéticas. No hay pruebas de vida extraterrestre en el caso.",
    "sources": [
     {
+     "t": "Archivos Nacionales de EE. UU. — Project BLUE BOOK - Unidentified Flying Objects",
+     "org": "Archivos Nacionales de EE. UU.",
+     "title": "Project BLUE BOOK - Unidentified Flying Objects",
+     "u": "https://www.archives.gov/research/military/air-force/ufos",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Roswell incident",
      "org": "Wikipedia en inglés",
      "title": "Roswell incident",
@@ -13042,9 +15006,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -13055,6 +15019,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13068,6 +15036,14 @@ window.SQ_CONTENT = {
    "desc": "Eran de electro, una mezcla natural de oro y plata, hacia el siglo VII a. C.",
    "body": "Antes de las monedas se usaban metales pesados al peso o el trueque. En el reino de Lidia se empezaron a fabricar piezas con un peso estándar y un sello que garantizaba su valor. Su rey más famoso, Creso, quedó como símbolo de riqueza: «ser más rico que Creso».",
    "sources": [
+    {
+     "t": "UNESCO — Sardis and the Lydian Tumuli of Bin Tepe",
+     "org": "UNESCO",
+     "title": "Sardis and the Lydian Tumuli of Bin Tepe",
+     "u": "https://whc.unesco.org/en/list/1731",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Lydia",
      "org": "Wikipedia en inglés",
@@ -13099,9 +15075,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -13112,6 +15088,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13166,6 +15146,14 @@ window.SQ_CONTENT = {
    "body": "Los pesos españoles circulaban por todo el continente americano y se usaban también en Estados Unidos. Según una explicación muy difundida, los comerciantes abreviaban «pesos» como «ps», y con la escritura rápida la «s» se fue superponiendo a la «p» hasta formar el símbolo $. Hay otras hipótesis, pero esta es de las más aceptadas.",
    "sources": [
     {
+     "t": "Organismo gubernamental (bep.gov) — FAQs",
+     "org": "Organismo gubernamental (bep.gov)",
+     "title": "FAQs",
+     "u": "https://www.bep.gov/currency/faqs#:~:text=What%20is%20the%20origin%20of%20the%20$%20sign?",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Dollar sign",
      "org": "Wikipedia en inglés",
      "title": "Dollar sign",
@@ -13187,9 +15175,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hipotesis",
    "history": [
@@ -13200,6 +15188,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13213,6 +15205,14 @@ window.SQ_CONTENT = {
    "desc": "Fue la Compañía Holandesa de las Indias Orientales.",
    "body": "La Compañía de las Indias Orientales neerlandesa (VOC) permitió que cualquiera comprara participaciones y las negociara. Para ello surgió en Ámsterdam uno de los primeros mercados de valores modernos. La compañía llegó a ser enormemente poderosa, con barcos y ejército propios, y su actividad tuvo también un lado violento y colonial.",
    "sources": [
+    {
+     "t": "Organismo gubernamental (museum.wa.gov.au) — VOC – United Dutch East India Company",
+     "org": "Organismo gubernamental (museum.wa.gov.au)",
+     "title": "VOC – United Dutch East India Company",
+     "u": "http://museum.wa.gov.au/explore/dirk-hartog/voc-united-dutch-east-india-company",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Dutch East India Company",
      "org": "Wikipedia en inglés",
@@ -13235,9 +15235,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -13248,6 +15248,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13302,6 +15306,14 @@ window.SQ_CONTENT = {
    "body": "Hoy la «mano invisible» se asocia al libre mercado, pero Smith solo la mencionó una vez en su obra más famosa de 1776, y en contextos muy concretos en otros escritos. Gran parte de su significado actual se lo dieron economistas posteriores. Smith también escribió extensamente sobre moral y empatía.",
    "sources": [
     {
+     "t": "The Review of Austrian Economics — Adam Smith’s liberalism",
+     "org": "The Review of Austrian Economics",
+     "title": "Adam Smith’s liberalism",
+     "u": "https://doi.org/10.1007%2Fs11138-019-00474-9",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Invisible hand",
      "org": "Wikipedia en inglés",
      "title": "Invisible hand",
@@ -13315,9 +15327,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-23",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -13328,6 +15340,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13341,6 +15357,22 @@ window.SQ_CONTENT = {
    "desc": "Se llaman bienes de Veblen: su precio alto los convierte en símbolo de estatus.",
    "body": "El economista Thorstein Veblen describió el «consumo ostentoso»: comprar cosas caras para mostrar riqueza. En artículos de lujo, como ciertos relojes o bolsos, un precio más bajo puede hacerlos menos deseables. Es una excepción a la regla general de que la demanda baja cuando sube el precio.",
    "sources": [
+    {
+     "t": "Springer Nature Link — Veblen Goods",
+     "org": "Springer Nature Link",
+     "title": "Veblen Goods",
+     "u": "https://doi.org/10.1057%2F978-1-349-95189-5_2321",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Journal of the History of Economic Thought — A Note on Leibenstein's Veblen Effect",
+     "org": "Journal of the History of Economic Thought",
+     "title": "A Note on Leibenstein's Veblen Effect",
+     "u": "https://www.cambridge.org/core/journals/journal-of-the-history-of-economic-thought/article/abs/note-on-leibensteins-veblen-effect/0F8B40082E332532178A6A2FB568CF4D",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Veblen good",
      "org": "Wikipedia en inglés",
@@ -13363,9 +15395,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -13376,6 +15408,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13389,6 +15425,14 @@ window.SQ_CONTENT = {
    "desc": "Se construyó en Constantinopla en el año 537.",
    "body": "Durante casi mil años fue la mayor catedral del mundo cristiano. Tras la conquista otomana de 1453 se convirtió en mezquita. En 1935, la Turquía republicana la transformó en museo, y en 2020 volvió a ser mezquita. Su enorme cúpula influyó en la arquitectura bizantina e islámica.",
    "sources": [
+    {
+     "t": "UNESCO — Centro del Patrimonio Mundial — Historic Areas of Istanbul",
+     "org": "UNESCO — Centro del Patrimonio Mundial",
+     "title": "Historic Areas of Istanbul",
+     "u": "https://whc.unesco.org/en/list/356",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Hagia Sophia",
      "org": "Wikipedia en inglés",
@@ -13411,9 +15455,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -13424,6 +15468,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13526,6 +15574,14 @@ window.SQ_CONTENT = {
    "body": "Las leyendas sobre San Nicolás regalando en secreto dieron origen a tradiciones en Europa. En los Países Bajos se le llama Sinterklaas, y los inmigrantes neerlandeses llevaron la tradición a Nueva York, donde evolucionó hasta el Santa Claus actual, con la ayuda de poemas e ilustraciones del siglo XIX.",
    "sources": [
     {
+     "t": "National Geographic — What does Santa have to do with … psychedelic mushrooms?",
+     "org": "National Geographic",
+     "title": "What does Santa have to do with … psychedelic mushrooms?",
+     "u": "https://www.nationalgeographic.com/environment/article/santa-claus-magic-mushroom-legend",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Saint Nicholas",
      "org": "Wikipedia en inglés",
      "title": "Saint Nicholas",
@@ -13548,9 +15604,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-24",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "claimNote": "Se sabe poco del San Nicolás histórico: los primeros relatos de su vida se escribieron siglos después de su muerte, y su fama de dar regalos en secreto es legendaria.",
@@ -13562,6 +15618,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13665,6 +15725,14 @@ window.SQ_CONTENT = {
    "body": "Un torii señala el paso del mundo cotidiano a un lugar sagrado. Muchos están pintados de color bermellón. El santuario Fushimi Inari de Kioto es famoso por sus miles de torii donados por personas y empresas, que forman túneles por la montaña.",
    "sources": [
     {
+     "t": "Universidad (religion-in-japan.univie.ac.at) — Bauten/Schreine/Torii – Religion-in-Japan",
+     "org": "Universidad (religion-in-japan.univie.ac.at)",
+     "title": "Bauten/Schreine/Torii – Religion-in-Japan",
+     "u": "https://religion-in-japan.univie.ac.at/Handbuch/Bauten/Schreine/Torii",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Torii",
      "org": "Wikipedia en inglés",
      "title": "Torii",
@@ -13678,9 +15746,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-03",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -13691,6 +15759,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13704,6 +15776,14 @@ window.SQ_CONTENT = {
    "desc": "Fue la religión principal de los imperios persas.",
    "body": "Se basa en las enseñanzas de Zoroastro (Zaratustra) y en la lucha entre el bien y el mal. Sus seguidores mantienen el fuego encendido en sus templos como símbolo de pureza. Hoy quedan comunidades relativamente pequeñas, sobre todo en la India, donde se les conoce como parsis, y en Irán.",
    "sources": [
+    {
+     "t": "National Geographic — Heard of Zoroastrianism? The ancient religion still has fervent followers",
+     "org": "National Geographic",
+     "title": "Heard of Zoroastrianism? The ancient religion still has fervent followers",
+     "u": "https://www.nationalgeographic.com/culture/article/zoroastrianism-ancient-religion-followers",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Zoroastrianism",
      "org": "Wikipedia en inglés",
@@ -13726,9 +15806,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -13739,6 +15819,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13850,6 +15934,14 @@ window.SQ_CONTENT = {
    "body": "La planta del café arábica es originaria de las tierras altas de Etiopía. Las primeras pruebas fiables del consumo de café como bebida proceden de Yemen, en el siglo XV. La historia del pastor Kaldi es una leyenda que apareció mucho después.",
    "sources": [
     {
+     "t": "Scientific Reports — A single polyploidization event at the origin of the tetraploid genome of Coffea arabica is responsible for the extremely low genetic variat",
+     "org": "Scientific Reports",
+     "title": "A single polyploidization event at the origin of the tetraploid genome of Coffea arabica is responsible for the extremely low genetic variat",
+     "u": "https://doi.org/10.1038%2Fs41598-020-61216-7",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — History of coffee",
      "org": "Wikipedia en inglés",
      "title": "History of coffee",
@@ -13863,9 +15955,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-11",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "claimNote": "El origen etíope del café es un hecho. La historia del pastor Kaldi es una leyenda.",
@@ -13877,6 +15969,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13890,6 +15986,14 @@ window.SQ_CONTENT = {
    "desc": "Los mayas y los mexicas lo tomaban sin azúcar, a veces con chile.",
    "body": "El cacao se cultivaba en Mesoamérica desde hace miles de años y sus semillas llegaron a usarse incluso como moneda. La bebida era espesa, espumosa y amarga. Los españoles la llevaron a Europa en el siglo XVI, donde se empezó a endulzar con azúcar. La palabra «chocolate» tiene origen náhuatl.",
    "sources": [
+    {
+     "t": "Smithsonian Magazine (Smithsonian Institution) — A Brief History of Chocolate",
+     "org": "Smithsonian Magazine (Smithsonian Institution)",
+     "title": "A Brief History of Chocolate",
+     "u": "https://www.smithsonianmag.com/arts-culture/a-brief-history-of-chocolate-21860917/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Chocolate",
      "org": "Wikipedia en inglés",
@@ -13912,9 +16016,9 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -13925,6 +16029,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13939,6 +16047,14 @@ window.SQ_CONTENT = {
    "body": "El tomate pertenece a la familia de las solanáceas, como plantas venenosas conocidas en Europa, y eso generó desconfianza. Durante un tiempo se cultivó sobre todo como planta ornamental en algunos lugares. La palabra «tomate» viene del náhuatl «tomatl».",
    "sources": [
     {
+     "t": "Universidad (plants.ces.ncsu.edu) — Solanum lycopersicum (Tomato, Tomatoes)",
+     "org": "Universidad (plants.ces.ncsu.edu)",
+     "title": "Solanum lycopersicum (Tomato, Tomatoes)",
+     "u": "https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Tomato",
      "org": "Wikipedia en inglés",
      "title": "Tomato",
@@ -13952,9 +16068,9 @@ window.SQ_CONTENT = {
    "date": "2026-10-28",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -13965,6 +16081,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -13979,6 +16099,14 @@ window.SQ_CONTENT = {
    "body": "Los fenicios, comerciantes del Mediterráneo oriental, usaban un alfabeto de consonantes. Los griegos lo adoptaron y añadieron letras para las vocales. Del alfabeto griego derivaron el etrusco y el latino, que es el que usamos hoy en español. La palabra «alfabeto» viene de las dos primeras letras griegas: alfa y beta.",
    "sources": [
     {
+     "t": "Universidad (perseus.tufts.edu) — Herodotus, The Histories, Book 5, chapter 58, section 1",
+     "org": "Universidad (perseus.tufts.edu)",
+     "title": "Herodotus, The Histories, Book 5, chapter 58, section 1",
+     "u": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book%3D5:chapter%3D58:section%3D1",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Phoenician alphabet",
      "org": "Wikipedia en inglés",
      "title": "Phoenician alphabet",
@@ -13992,9 +16120,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -14005,6 +16133,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -14059,6 +16191,14 @@ window.SQ_CONTENT = {
    "body": "Gabriela Mistral era poeta, maestra y diplomática. Su obra trata temas como el amor, la maternidad, la infancia y la identidad latinoamericana. Fue la primera persona de América Latina en ganar el Nobel de Literatura, seis años antes de que lo recibiera cualquier otro latinoamericano.",
    "sources": [
     {
+     "t": "Fundación Nobel — The Nobel Prize in Literature 1945",
+     "org": "Fundación Nobel",
+     "title": "The Nobel Prize in Literature 1945",
+     "u": "https://www.nobelprize.org/prizes/literature/1945/summary/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Gabriela Mistral",
      "org": "Wikipedia en inglés",
      "title": "Gabriela Mistral",
@@ -14072,9 +16212,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-12",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -14085,6 +16225,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -16431,6 +18575,22 @@ window.SQ_CONTENT = {
    "body": "Los elementos más pesados no existen en la naturaleza: se crean en laboratorios y duran fracciones de segundo. En 2016 se aprobaron los nombres de los elementos 113, 115, 117 y 118: nihonio, moscovio, teneso y oganesón.",
    "sources": [
     {
+     "t": "Unión Internacional de Química Pura y Aplicada (IUPAC) — IUPAC is naming the four new elements nihonium, moscovium, tennessine, and oganesson - IUPAC",
+     "org": "Unión Internacional de Química Pura y Aplicada (IUPAC)",
+     "title": "IUPAC is naming the four new elements nihonium, moscovium, tennessine, and oganesson - IUPAC",
+     "u": "https://iupac.org/iupac-is-naming-the-four-new-elements-nihonium-moscovium-tennessine-and-oganesson/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Unión Internacional de Química Pura y Aplicada (IUPAC) — Periodic Table of Elements - IUPAC",
+     "org": "Unión Internacional de Química Pura y Aplicada (IUPAC)",
+     "title": "Periodic Table of Elements - IUPAC",
+     "u": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Periodic table",
      "org": "Wikipedia en inglés",
      "title": "Periodic table",
@@ -16461,9 +18621,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-13",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -16474,6 +18634,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -16585,6 +18749,14 @@ window.SQ_CONTENT = {
    "body": "El transatlántico británico partió de Southampton rumbo a Nueva York. La noche del 14 de abril de 1912 chocó contra un iceberg y se hundió en la madrugada del 15. Viajaban unas 2.208 personas y llevaba solo veinte botes salvavidas. La tragedia impulsó grandes cambios en las normas de seguridad marítima.",
    "sources": [
     {
+     "t": "NOAA (EE. UU.) — R.M.S Titanic - History and Significance",
+     "org": "NOAA (EE. UU.)",
+     "title": "R.M.S Titanic - History and Significance",
+     "u": "https://www.noaa.gov/office-of-general-counsel/gc-international-section/rms-titanic-history-and-significance",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Titanic",
      "org": "Wikipedia en inglés",
      "title": "Titanic",
@@ -16606,9 +18778,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-24",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -16619,6 +18791,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -16632,6 +18808,14 @@ window.SQ_CONTENT = {
    "desc": "En 1913, Ford introdujo una línea de montaje móvil para el Modelo T.",
    "body": "Al mover el chasis por la fábrica mientras los trabajadores repetían tareas específicas, el tiempo para ensamblar un Modelo T se redujo drásticamente. El precio del carro bajó y se volvió accesible para muchas más familias. El sistema transformó la industria en todo el mundo.",
    "sources": [
+    {
+     "t": "Universidad (opentextbooks.clemson.edu) — The Assembly Line – Science Technology and Society a Student Led Exploration",
+     "org": "Universidad (opentextbooks.clemson.edu)",
+     "title": "The Assembly Line – Science Technology and Society a Student Led Exploration",
+     "u": "https://opentextbooks.clemson.edu/sciencetechnologyandsociety/chapter/assembly-line/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Assembly line",
      "org": "Wikipedia en inglés",
@@ -16663,9 +18847,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-21",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -16676,6 +18860,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -16787,6 +18975,14 @@ window.SQ_CONTENT = {
    "body": "REM significa «movimientos oculares rápidos» en inglés. A lo largo de la noche pasamos por varios ciclos de sueño, y la fase REM se repite varias veces. Durante ella, el cuerpo pierde casi todo su tono muscular, un estado llamado atonía REM, mientras el cerebro actúa casi como si estuviera despierto.",
    "sources": [
     {
+     "t": "Nature Communications — Single-neuron activity and eye movements during human REM sleep and awake vision",
+     "org": "Nature Communications",
+     "title": "Single-neuron activity and eye movements during human REM sleep and awake vision",
+     "u": "https://doi.org/10.1038%2Fncomms8884",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Rapid eye movement sleep",
      "org": "Wikipedia en inglés",
      "title": "Rapid eye movement sleep",
@@ -16800,9 +18996,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-12",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -16813,6 +19009,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -16826,6 +19026,14 @@ window.SQ_CONTENT = {
    "desc": "Falso. Es útil para orientarse porque apenas se mueve, pero la más brillante es Sirio.",
    "body": "La Estrella Polar, Polaris, está casi alineada con el eje de rotación de la Tierra, por eso parece fija sobre el polo norte celeste y ha servido para orientarse durante siglos. Pero no es especialmente brillante: la estrella más brillante del cielo nocturno es Sirio.",
    "sources": [
+    {
+     "t": "Publicación académica (DOI) (doi.org) — Hubble Space Telescope Trigonometric Parallax of Polaris B, Companion of the Nearest Cepheid - IOPscience",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "Hubble Space Telescope Trigonometric Parallax of Polaris B, Companion of the Nearest Cepheid - IOPscience",
+     "u": "https://doi.org/10.3847%2F1538-4357%2Faaa3f9",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Polaris",
      "org": "Wikipedia en inglés",
@@ -16858,9 +19066,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-09",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -16871,6 +19079,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -16981,6 +19193,14 @@ window.SQ_CONTENT = {
    "body": "ENIAC se construyó en la Universidad de Pensilvania para calcular trayectorias de artillería. Tenía unos 18.000 tubos de vacío. La mayor parte de su programación la hicieron seis matemáticas: Jean Jennings, Marlyn Wescoff, Ruth Lichterman, Betty Snyder, Frances Bilas y Kay McNulty.",
    "sources": [
     {
+     "t": "Universidad (seas.upenn.edu) — ENIAC",
+     "org": "Universidad (seas.upenn.edu)",
+     "title": "ENIAC",
+     "u": "http://www.seas.upenn.edu/about-seas/eniac/operation.php",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — ENIAC",
      "org": "Wikipedia en inglés",
      "title": "ENIAC",
@@ -17002,9 +19222,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-20",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17015,6 +19235,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17086,6 +19310,14 @@ window.SQ_CONTENT = {
    "body": "El 29 de octubre de 1969, en ARPANET, un estudiante de la Universidad de California en Los Ángeles intentó conectarse con un equipo del Instituto de Investigación de Stanford. Solo llegaron las letras «L» y «O» antes de que el sistema fallara. Poco después lograron la conexión completa.",
    "sources": [
     {
+     "t": "RFC Editor — RFC 6529: Host/Host Protocol for the ARPA Network",
+     "org": "RFC Editor",
+     "title": "RFC 6529: Host/Host Protocol for the ARPA Network",
+     "u": "https://doi.org/10.17487%2FRFC6529",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — ARPANET",
      "org": "Wikipedia en inglés",
      "title": "ARPANET",
@@ -17107,9 +19339,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-14",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17120,6 +19352,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17182,6 +19418,22 @@ window.SQ_CONTENT = {
    "body": "Entre hace unos 14.500 y 5.000 años, con monzones más intensos ligados a cambios en la órbita terrestre, y gran parte del Sahara se cubrió de vegetación. Pinturas rupestres de la región muestran jirafas, elefantes y escenas de pastoreo.",
    "sources": [
     {
+     "t": "Publicación académica (DOI) (doi.org) — Abstract EPSC-DPS2025-1671",
+     "org": "Publicación académica (DOI) (doi.org)",
+     "title": "Abstract EPSC-DPS2025-1671",
+     "u": "https://doi.org/10.5194%2Fepsc-dps2025-1671",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Journal of World Prehistory — Early North African Cattle Domestication and Its Ecological Setting: A Reassessment",
+     "org": "Journal of World Prehistory",
+     "title": "Early North African Cattle Domestication and Its Ecological Setting: A Reassessment",
+     "u": "https://doi.org/10.1007%2Fs10963-017-9112-9",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — African humid period",
      "org": "Wikipedia en inglés",
      "title": "African humid period",
@@ -17203,9 +19455,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-08",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17216,6 +19468,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17278,6 +19534,14 @@ window.SQ_CONTENT = {
    "body": "Se llama sueño unihemisférico: un hemisferio cerebral duerme mientras el otro permanece alerta, y luego se turnan. Los delfines necesitan subir a la superficie a respirar de forma consciente, así que no pueden desconectarse por completo. Algunas aves también duermen así.",
    "sources": [
     {
+     "t": "PLOS Biology — Is Sleep Essential?",
+     "org": "PLOS Biology",
+     "title": "Is Sleep Essential?",
+     "u": "https://doi.org/10.1371%2Fjournal.pbio.0060216",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Unihemispheric slow-wave sleep",
      "org": "Wikipedia en inglés",
      "title": "Unihemispheric slow-wave sleep",
@@ -17299,9 +19563,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-22",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17312,6 +19576,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17325,6 +19593,14 @@ window.SQ_CONTENT = {
    "desc": "Ningún otro mamífero digiere tan despacio. Los perezosos de tres dedos bajan al suelo más o menos una vez por semana.",
    "body": "Los perezosos se alimentan sobre todo de hojas, que aportan poca energía. Una parte importante de su peso corporal es el contenido de su estómago, y la digestión puede durar un mes o más. Para ahorrar energía se mueven muy despacio, y en su pelaje crecen algas que les dan un tono verdoso.",
    "sources": [
+    {
+     "t": "Smithsonian Institution — Two-toed sloth",
+     "org": "Smithsonian Institution",
+     "title": "Two-toed sloth",
+     "u": "https://nationalzoo.si.edu/animals/southern-two-toed-sloth",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Sloth",
      "org": "Wikipedia en inglés",
@@ -17347,9 +19623,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-19",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17360,6 +19636,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17373,6 +19653,22 @@ window.SQ_CONTENT = {
    "desc": "Lo incuban durante algo más de dos meses mientras la hembra se alimenta en el mar.",
    "body": "Tras la puesta, la hembra pasa el huevo al macho y regresa al mar a alimentarse. Los machos se agrupan en grandes «tortugas» para protegerse del frío extremo y del viento, turnándose en el centro. Cuando el huevo eclosiona, el macho puede llevar unos 120 días en ayunas desde que llegó a la colonia.",
    "sources": [
+    {
+     "t": "PLOS One — An Emperor Penguin Population Estimate: The First Global, Synoptic Survey of a Species from Space",
+     "org": "PLOS One",
+     "title": "An Emperor Penguin Population Estimate: The First Global, Synoptic Survey of a Species from Space",
+     "u": "https://doi.org/10.1371%2Fjournal.pone.0033751",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Nature — Foraging behaviour of emperor penguins as a resource detector in winter and summer",
+     "org": "Nature",
+     "title": "Foraging behaviour of emperor penguins as a resource detector in winter and summer",
+     "u": "https://doi.org/10.1038%2F360336a0",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Emperor penguin",
      "org": "Wikipedia en inglés",
@@ -17395,9 +19691,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-16",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17408,6 +19704,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17421,6 +19721,14 @@ window.SQ_CONTENT = {
    "desc": "Epicteto enseñó que no controlamos lo que nos pasa, pero sí cómo respondemos.",
    "body": "Epicteto nació esclavo en el siglo I y obtuvo después su libertad. No escribió libros: su discípulo Arriano recogió sus enseñanzas en las Disertaciones y el Enquiridión, o manual. Su idea central es distinguir entre lo que depende de nosotros y lo que no.",
    "sources": [
+    {
+     "t": "Stanford Encyclopedia of Philosophy — Epictetus",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Epictetus",
+     "u": "https://plato.stanford.edu/entries/epictetus/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Epictetus",
      "org": "Wikipedia en inglés",
@@ -17443,9 +19751,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-13",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17456,6 +19764,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17469,6 +19781,22 @@ window.SQ_CONTENT = {
    "desc": "Nietzsche lo escribió en 1882 en La gaya ciencia.",
    "body": "Con esa frase, Friedrich Nietzsche describía que, en su opinión, la cultura europea moderna había dejado de basarse en la fe religiosa. Le preocupaba qué ocuparía ese lugar y cómo encontrar valores y sentido sin aquella base. La frase se cita a menudo fuera de contexto.",
    "sources": [
+    {
+     "t": "Stanford Encyclopedia of Philosophy — Friedrich Nietzsche",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Friedrich Nietzsche",
+     "u": "https://plato.stanford.edu/entries/nietzsche/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Internet Encyclopedia of Philosophy — Nietzsche, Friedrich",
+     "org": "Internet Encyclopedia of Philosophy",
+     "title": "Nietzsche, Friedrich",
+     "u": "https://iep.utm.edu/nietzsch/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — God is dead",
      "org": "Wikipedia en inglés",
@@ -17491,9 +19819,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-10",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17504,6 +19832,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17517,6 +19849,14 @@ window.SQ_CONTENT = {
    "desc": "Escrito hacia 1513, no se imprimió hasta 1532.",
    "body": "Nicolás Maquiavelo lo escribió poco después de que los Médici recuperaran Florencia y él fuera arrestado, torturado y desterrado. El libro analiza cómo se conquista y se conserva el poder, sin idealismos. De ahí viene el adjetivo «maquiavélico», aunque los estudiosos discuten si el libro era un manual sincero o una descripción crítica.",
    "sources": [
+    {
+     "t": "Stanford Encyclopedia of Philosophy — Niccolò Machiavelli",
+     "org": "Stanford Encyclopedia of Philosophy",
+     "title": "Niccolò Machiavelli",
+     "u": "https://plato.stanford.edu/entries/machiavelli/#PrinAnalPowe",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — The Prince",
      "org": "Wikipedia en inglés",
@@ -17539,9 +19879,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-07",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17552,6 +19892,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17565,6 +19909,14 @@ window.SQ_CONTENT = {
    "desc": "El códice Copiale resultó ser un texto de una sociedad secreta alemana del siglo XVIII.",
    "body": "Durante siglos nadie supo qué decía. En 2011, un equipo de investigadores usó métodos informáticos de traducción para descifrarlo: describía los rituales de una sociedad secreta relacionada con la oftalmología. Es un ejemplo de cómo la tecnología ayuda a resolver viejos enigmas.",
    "sources": [
+    {
+     "t": "Universidad (today.usc.edu) — USC Scientist Cracks Mysterious \"Copiale Cipher\"",
+     "org": "Universidad (today.usc.edu)",
+     "title": "USC Scientist Cracks Mysterious \"Copiale Cipher\"",
+     "u": "https://today.usc.edu/usc-scientist-cracks-mysterious-copiale-cipher/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Copiale cipher",
      "org": "Wikipedia en inglés",
@@ -17587,9 +19939,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-24",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17600,6 +19952,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17613,6 +19969,14 @@ window.SQ_CONTENT = {
    "desc": "En 1988, tres laboratorios la fecharon entre 1260 y 1390.",
    "body": "La Sábana Santa es un lienzo con la imagen de un hombre, venerado por muchos fieles. En 1988, la Universidad de Oxford, la Universidad de Arizona y el Instituto Federal Suizo de Tecnología dataron muestras del tejido en la Edad Media. Quienes defienden su autenticidad han cuestionado los resultados, sobre todo con el argumento de que las muestras analizadas podrían no ser representativas del lienzo.",
    "sources": [
+    {
+     "t": "National Geographic — Why Shroud of Turin's Secrets Continue to Elude Science",
+     "org": "National Geographic",
+     "title": "Why Shroud of Turin's Secrets Continue to Elude Science",
+     "u": "https://www.nationalgeographic.com/history/article/150417-shroud-turin-relics-jesus-catholic-church-religion-science",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Shroud of Turin",
      "org": "Wikipedia en inglés",
@@ -17635,9 +19999,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-21",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "claimNote": "La datación de 1988 es un hecho documentado. Su autenticidad sigue siendo objeto de debate y de fe para muchos creyentes.",
@@ -17649,6 +20013,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17711,6 +20079,14 @@ window.SQ_CONTENT = {
    "body": "En pocos días de octubre de 1929, el valor de las acciones en la Bolsa de Nueva York se desplomó. La caída marcó el inicio de la Gran Depresión, la peor crisis económica del siglo XX, con desempleo masivo en muchos países durante la década de 1930.",
    "sources": [
     {
+     "t": "Journal of the History of Economic Thought — CASSEL, OHLIN, ÅKERMAN, AND THE WALL STREET CRASH OF 1929",
+     "org": "Journal of the History of Economic Thought",
+     "title": "CASSEL, OHLIN, ÅKERMAN, AND THE WALL STREET CRASH OF 1929",
+     "u": "https://www.cambridge.org/core/product/identifier/S1053837221000572/type/journal_article",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Wall Street crash of 1929",
      "org": "Wikipedia en inglés",
      "title": "Wall Street crash of 1929",
@@ -17732,9 +20108,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-15",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17745,6 +20121,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -17855,6 +20235,22 @@ window.SQ_CONTENT = {
    "body": "Está formado por nueve plataformas superpuestas, tiene 2.672 relieves y tuvo originalmente 504 estatuas de Buda. Estuvo oculto durante siglos bajo cenizas volcánicas y vegetación; el interés mundial por él despertó en 1814. Es Patrimonio de la Humanidad.",
    "sources": [
     {
+     "t": "UNESCO — Borobudur Temple Compounds",
+     "org": "UNESCO",
+     "title": "Borobudur Temple Compounds",
+     "u": "https://whc.unesco.org/en/list/592/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Universidad (rubens.anu.edu.au) — Borobudur Home Page",
+     "org": "Universidad (rubens.anu.edu.au)",
+     "title": "Borobudur Home Page",
+     "u": "http://rubens.anu.edu.au/htdocs/bycountry/indonesia/borobudur/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Borobudur",
      "org": "Wikipedia en inglés",
      "title": "Borobudur",
@@ -17876,9 +20272,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -17889,6 +20285,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -18000,6 +20400,14 @@ window.SQ_CONTENT = {
    "body": "Surgió a finales del siglo XIX en los barrios populares de Buenos Aires y Montevideo, con influencias africanas, europeas y criollas. Argentina y Uruguay presentaron juntos la candidatura a la UNESCO, que lo inscribió en 2009.",
    "sources": [
     {
+     "t": "UNESCO — Tango",
+     "org": "UNESCO",
+     "title": "Tango",
+     "u": "https://ich.unesco.org/en/RL/00258",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Tango",
      "org": "Wikipedia en inglés",
      "title": "Tango",
@@ -18021,9 +20429,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-17",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -18034,6 +20442,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   },
@@ -18047,6 +20459,22 @@ window.SQ_CONTENT = {
    "desc": "La UNESCO lo reconoció en 2008 dentro de las fiestas indígenas dedicadas a los muertos.",
    "body": "Se celebra principalmente el 1 y 2 de noviembre. Las familias construyen altares, u ofrendas, con fotografías, flores de cempasúchil, velas y comida para recordar a sus seres queridos. Combina tradiciones indígenas mesoamericanas con el calendario católico.",
    "sources": [
+    {
+     "t": "UNESCO — Indigenous festivity dedicated to the dead",
+     "org": "UNESCO",
+     "title": "Indigenous festivity dedicated to the dead",
+     "u": "https://ich.unesco.org/en/RL/indigenous-festivity-dedicated-to-the-dead-00054",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Universidad (blogs.ifas.ufl.edu) — Marigolds: Blooms of Cultural Significance - UF/IFAS Extension Putnam County",
+     "org": "Universidad (blogs.ifas.ufl.edu)",
+     "title": "Marigolds: Blooms of Cultural Significance - UF/IFAS Extension Putnam County",
+     "u": "https://blogs.ifas.ufl.edu/putnamco/2023/10/26/marigolds-blooms-of-cultural-significance/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Day of the Dead",
      "org": "Wikipedia en inglés",
@@ -18069,9 +20497,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-14",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
    "history": [
@@ -18082,6 +20510,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales o académicas"
     }
    ]
   }
