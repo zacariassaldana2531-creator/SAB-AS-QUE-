@@ -3815,6 +3815,16 @@ window.SQ_CONTENT = {
    "body": "La base del chicle no se digiere del todo, pero el sistema digestivo la mueve como a cualquier otra cosa no digerible y sale de forma natural, normalmente en unos días. Solo tragar grandes cantidades de forma repetida, sobre todo en niños pequeños, ha causado obstrucciones en casos raros.",
    "sources": [
     {
+     "t": "Mayo Clinic — Swallowing gum: Is it harmful?",
+     "org": "Mayo Clinic",
+     "title": "Swallowing gum: Is it harmful?",
+     "u": "https://www.mayoclinic.org/digestive-system/expert-answers/faq-20058446",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "note": "Respuesta de la Dra. Elizabeth Rajan: el chicle tragado no se digiere, pero no se queda en el estómago.",
+     "date": "2019-12-31"
+    },
+    {
      "t": "Wikipedia — Chewing gum",
      "org": "Wikipedia en inglés",
      "title": "Chewing gum",
@@ -3834,7 +3844,7 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
@@ -3847,6 +3857,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Fuentes reforzadas en la revisión de contenidos con respaldo débil"
     }
    ]
   },
@@ -9777,10 +9791,28 @@ window.SQ_CONTENT = {
    "cat": "religion",
    "sub": "Creencias del Caribe",
    "level": 2,
-   "title": "Los taínos representaban a sus espíritus en objetos llamados cemíes",
+   "title": "Para los taínos, un cemí era una fuerza espiritual que se encarnaba en objetos",
    "desc": "Eran figuras de piedra, madera o algodón que encarnaban deidades y ancestros.",
-   "body": "En la religión taína, un cemí era tanto el espíritu como el objeto que lo representaba. Podían ser piedras de tres puntas, figuras talladas en madera o hechas con algodón. Se les ofrecía culto y se creía que influían en las cosechas, la lluvia o la salud. En museos de República Dominicana se conservan muchos ejemplares.",
+   "body": "En la lengua taína, cemí (o zemí) designaba la fuerza espiritual y vital de deidades y ancestros. Esa fuerza se manifestaba en figuras rituales: piedras de tres puntas, tallas de madera u objetos de algodón. Se les ofrecía culto y se creía que influían en las cosechas, la lluvia o la salud. En museos de República Dominicana se conservan muchos ejemplares.",
    "sources": [
+    {
+     "t": "The Metropolitan Museum of Art — Indigenous Arts of the Caribbean (Heilbrunn Timeline of Art History)",
+     "org": "The Metropolitan Museum of Art",
+     "title": "Indigenous Arts of the Caribbean (Heilbrunn Timeline of Art History)",
+     "u": "https://www.metmuseum.org/toah/hd/incr/hd_incr.htm",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "note": "Zemí o cemí: fuerza divina de deidades y ancestros que se manifestaba en esculturas usadas en rituales."
+    },
+    {
+     "t": "The Metropolitan Museum of Art — Beads — Taíno (ficha de colección)",
+     "org": "The Metropolitan Museum of Art",
+     "title": "Beads — Taíno (ficha de colección)",
+     "u": "https://www.metmuseum.org/art/collection/search/314813",
+     "kind": "institucional",
+     "accessed": "2026-11-26",
+     "note": "Zemí designa una fuerza espiritual y vital de deidades y ancestros, no solo un objeto."
+    },
     {
      "t": "Wikipedia — Zemi",
      "org": "Wikipedia en inglés",
@@ -9803,7 +9835,7 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
@@ -9816,6 +9848,14 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Fuentes reforzadas en la revisión de contenidos con respaldo débil"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Corrección: matiz sobre el significado de «cemí»"
     }
    ]
   },
@@ -15255,6 +15295,26 @@ window.SQ_CONTENT = {
    "body": "Hay muchos testimonios de bolas de luz que flotan durante segundos durante tormentas eléctricas. Durante mucho tiempo fueron difíciles de estudiar porque son raras e impredecibles. En 2012, científicos chinos registraron por casualidad el espectro de uno. Hay varias hipótesis, pero ninguna explicación definitiva.",
    "sources": [
     {
+     "t": "Nature — Plasma fireballs formed by microwave interference in air",
+     "org": "Nature",
+     "title": "Plasma fireballs formed by microwave interference in air",
+     "u": "https://www.nature.com/articles/350139a0",
+     "kind": "academica",
+     "accessed": "2026-11-26",
+     "note": "Pese a muchos estudios, no hay una explicación del rayo globular ampliamente aceptada.",
+     "date": "1991"
+    },
+    {
+     "t": "Nature — Ball lightning caused by oxidation of nanoparticle networks from normal lightning strikes on soil",
+     "org": "Nature",
+     "title": "Ball lightning caused by oxidation of nanoparticle networks from normal lightning strikes on soil",
+     "u": "https://www.nature.com/articles/35000525",
+     "kind": "academica",
+     "accessed": "2026-11-26",
+     "note": "Propone un modelo con apoyo experimental; el origen del fenómeno sigue siendo un enigma.",
+     "date": "2000"
+    },
+    {
      "t": "Wikipedia — Ball lightning",
      "org": "Wikipedia en inglés",
      "title": "Ball lightning",
@@ -15276,7 +15336,7 @@ window.SQ_CONTENT = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
@@ -15289,6 +15349,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Fuentes reforzadas en la revisión de contenidos con respaldo débil"
     }
    ]
   },
@@ -15423,6 +15487,15 @@ window.SQ_CONTENT = {
    "body": "La fotografía más famosa del monstruo, publicada en 1934, se atribuyó a un médico para darle credibilidad. En 1994 se reveló que era un fraude: la figura era un modelo con un cuello de madera montado sobre un submarino de juguete. Nunca se han encontrado pruebas científicas de la existencia del monstruo.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Loch Ness monster",
+     "org": "Encyclopaedia Britannica",
+     "title": "Loch Ness monster",
+     "u": "https://www.britannica.com/topic/Loch-Ness-monster-legendary-creature",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: la «foto del cirujano» de 1934 resultó ser un fraude."
+    },
+    {
      "t": "Wikipedia — Loch Ness Monster",
      "org": "Wikipedia en inglés",
      "title": "Loch Ness Monster",
@@ -15458,6 +15531,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Fuentes reforzadas en la revisión de contenidos con respaldo débil"
     }
    ]
   },
@@ -16333,6 +16410,15 @@ window.SQ_CONTENT = {
    "body": "El chaturanga se jugaba en la India alrededor del siglo VI. Pasó a Persia y al mundo árabe, y de ahí llegó a Europa a través de la península ibérica e Italia. La reina, que antes era una pieza débil, se convirtió en la más poderosa del tablero a finales del siglo XV, en España.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Chess: History",
+     "org": "Encyclopaedia Britannica",
+     "title": "Chess: History",
+     "u": "https://www.britannica.com/topic/chess/History",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: el origen es controvertido y no hay pruebas creíbles de un juego parecido al ajedrez moderno antes del siglo VI; el chaturanga fue un antecedente indio."
+    },
+    {
      "t": "Wikipedia — Chess",
      "org": "Wikipedia en inglés",
      "title": "Chess",
@@ -16367,7 +16453,7 @@ window.SQ_CONTENT = {
     "reviewed": "2026-11-26",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
-   "claim": "hecho",
+   "claim": "interpretacion",
    "history": [
     {
      "date": "2026-11-25",
@@ -16376,8 +16462,13 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Fuentes reforzadas en la revisión de contenidos con respaldo débil"
     }
-   ]
+   ],
+   "claimNote": "El origen exacto del ajedrez se debate; la opinión más aceptada lo sitúa en la India hacia el siglo VI."
   },
   {
    "id": "c-sandwich",
@@ -21601,7 +21692,7 @@ window.SQ_CONTENT = {
     "Las flores"
    ],
    "a": 1,
-   "exp": "Los primeros parientes de los tiburones tienen más de 430 millones de años; los árboles, unos 385 millones."
+   "exp": "Hay escamas fósiles parecidas a las de tiburón de hace entre 458 y 444 millones de años; los primeros árboles verdaderos surgieron hace unos 385 millones."
   },
   {
    "id": "q37",
@@ -21841,7 +21932,7 @@ window.SQ_CONTENT = {
     "Fútbol"
    ],
    "a": 1,
-   "exp": "Huracán, hamaca y barbacoa son de origen taíno. Chocolate viene del náhuatl."
+   "exp": "Huracán, hamaca, barbacoa, canoa y maíz vienen del taíno y pasaron al español."
   },
   {
    "id": "q52",
@@ -22097,7 +22188,7 @@ window.SQ_CONTENT = {
     "1977"
    ],
    "a": 3,
-   "exp": "El mismo año en que se estrenó la primera película de La guerra de las galaxias."
+   "exp": "Fue en septiembre de 1977, con la ejecución de Hamida Djandoubi. Francia abolió la pena de muerte en 1981."
   },
   {
    "id": "q68",
@@ -22385,7 +22476,7 @@ window.SQ_CONTENT = {
     "Exactamente el 90%"
    ],
    "a": 2,
-   "exp": "Todos los planetas, lunas y asteroides juntos son apenas un resto."
+   "exp": "El Sol concentra cerca del 99,86 % de la masa del sistema solar; de lo que queda, la mayor parte corresponde a Júpiter."
   },
   {
    "id": "q86",
@@ -24001,7 +24092,7 @@ window.SQ_CONTENT = {
     "En la Biblia"
    ],
    "a": 1,
-   "exp": "Falso, según los historiadores. No hay ninguna prueba de que lo dijera."
+   "exp": "Rousseau la atribuyó a «una gran princesa» sin nombre cuando María Antonieta aún era una niña en Austria. No hay pruebas de que ella la dijera."
   },
   {
    "id": "q187",
@@ -25857,7 +25948,7 @@ window.SQ_CONTENT = {
     "Ninguna"
    ],
    "a": 1,
-   "exp": "Se estiman unos 38 billones de bacterias frente a entre 30 y 40 billones de células humanas."
+   "exp": "Un estudio de 2016 estimó unos 38 billones de bacterias frente a unos 30 billones de células humanas en un adulto típico."
   },
   {
    "id": "q303",
@@ -26530,7 +26621,7 @@ window.SQ_CONTENT = {
     "406"
    ],
    "a": 1,
-   "exp": "El armazón del cuerpo: sostiene, protege y produce células de la sangre."
+   "exp": "Al nacer tenemos unos 270 huesos; algunos se fusionan y en la edad adulta quedan unos 206."
   },
   {
    "id": "q345",
@@ -26547,7 +26638,7 @@ window.SQ_CONTENT = {
     "Voluntario"
    ],
    "a": 2,
-   "exp": "Los músculos que nos mueven, bombean la sangre y mueven los alimentos."
+   "exp": "El músculo cardíaco es exclusivo del corazón. Los otros dos tipos son el esquelético, que movemos a voluntad, y el liso."
   },
   {
    "id": "q346",
@@ -26564,7 +26655,7 @@ window.SQ_CONTENT = {
     "El sistema linfático"
    ],
    "a": 1,
-   "exp": "La red de comunicación del cuerpo: recibe información, la procesa y da órdenes."
+   "exp": "El encéfalo y la médula espinal forman el sistema nervioso central; la red de nervios que llega a todo el cuerpo es el periférico."
   },
   {
    "id": "q347",
@@ -26581,7 +26672,7 @@ window.SQ_CONTENT = {
     "Aorta"
    ],
    "a": 2,
-   "exp": "El corazón y los vasos sanguíneos llevan oxígeno y nutrientes a cada célula."
+   "exp": "Los capilares, finísimos, conectan arterias y venas e intercambian sustancias con los tejidos."
   },
   {
    "id": "q348",
@@ -26598,7 +26689,7 @@ window.SQ_CONTENT = {
     "En el diafragma"
    ],
    "a": 1,
-   "exp": "Toma oxígeno del aire y expulsa dióxido de carbono."
+   "exp": "Los alvéolos son pequeños sacos de los pulmones donde el oxígeno pasa a la sangre y sale el dióxido de carbono."
   },
   {
    "id": "q349",
@@ -26615,7 +26706,7 @@ window.SQ_CONTENT = {
     "Fotosíntesis"
    ],
    "a": 1,
-   "exp": "Transforma los alimentos en nutrientes que el cuerpo puede absorber."
+   "exp": "Son contracciones de la pared muscular que empujan los alimentos, por ejemplo a lo largo del esófago."
   },
   {
    "id": "q350",
@@ -26632,7 +26723,7 @@ window.SQ_CONTENT = {
     "Por los huesos"
    ],
    "a": 1,
-   "exp": "Glándulas que envían mensajes químicos, las hormonas, a través de la sangre."
+   "exp": "Las glándulas endocrinas liberan las hormonas directamente en la sangre, que las reparte por el cuerpo."
   },
   {
    "id": "q351",
@@ -26649,7 +26740,7 @@ window.SQ_CONTENT = {
     "La digestiva"
    ],
    "a": 1,
-   "exp": "Las defensas del cuerpo contra virus, bacterias y otras amenazas."
+   "exp": "La inmunidad adaptativa es más lenta que la innata, pero específica, y recuerda las infecciones anteriores. Esa memoria es la base de las vacunas."
   },
   {
    "id": "q352",
@@ -26666,7 +26757,7 @@ window.SQ_CONTENT = {
     "El hígado"
    ],
    "a": 1,
-   "exp": "Filtra la sangre y elimina los desechos en forma de orina."
+   "exp": "La orina baja de los riñones por los uréteres hasta la vejiga, donde se almacena hasta que se expulsa por la uretra."
   },
   {
    "id": "q353",
@@ -26683,7 +26774,7 @@ window.SQ_CONTENT = {
     "Riñones"
    ],
    "a": 1,
-   "exp": "Los órganos que permiten la reproducción y producen hormonas sexuales."
+   "exp": "Los ovarios producen óvulos y los testículos, espermatozoides. También fabrican hormonas sexuales."
   },
   {
    "id": "q354",
@@ -26700,7 +26791,7 @@ window.SQ_CONTENT = {
     "Vitamina K"
    ],
    "a": 2,
-   "exp": "La piel, el pelo y las uñas: la barrera del cuerpo con el exterior."
+   "exp": "Además de proteger y regular la temperatura, la piel produce vitamina D con la luz solar."
   },
   {
    "id": "q355",
@@ -26717,7 +26808,7 @@ window.SQ_CONTENT = {
     "El hipocampo"
    ],
    "a": 1,
-   "exp": "Es el centro de control del cuerpo. Interpreta la información de los sentidos, controla los movimientos y hace posibles el pensamiento, la memoria, el lenguaje y las emociones."
+   "exp": "El cerebelo coordina el equilibrio y los movimientos finos; el tronco encefálico controla funciones automáticas como la respiración."
   },
   {
    "id": "q356",
@@ -26734,7 +26825,7 @@ window.SQ_CONTENT = {
     "El esternón"
    ],
    "a": 1,
-   "exp": "Es el gran cable que conecta el encéfalo con el resto del cuerpo. Lleva las órdenes de movimiento hacia los músculos y la información de los sentidos hacia el cerebro, y controla algunos reflejos."
+   "exp": "Las vértebras de la columna la protegen; por eso la columna se describe como protectora de la médula espinal."
   },
   {
    "id": "q357",
@@ -26751,7 +26842,7 @@ window.SQ_CONTENT = {
     "Cinco"
    ],
    "a": 2,
-   "exp": "Es un músculo que funciona como una bomba. Sus contracciones impulsan la sangre hacia los pulmones, para oxigenarla, y hacia el resto del cuerpo."
+   "exp": "Tiene dos aurículas y dos ventrículos. Sus válvulas impiden que la sangre retroceda."
   },
   {
    "id": "q358",
@@ -26768,7 +26859,7 @@ window.SQ_CONTENT = {
     "Cuatro"
    ],
    "a": 1,
-   "exp": "Son los órganos donde el oxígeno del aire pasa a la sangre y el dióxido de carbono sale de ella. Lo hacen a través de millones de alvéolos."
+   "exp": "El derecho tiene tres lóbulos y el izquierdo dos, porque deja espacio al corazón."
   },
   {
    "id": "q359",
@@ -26785,7 +26876,7 @@ window.SQ_CONTENT = {
     "Pepsina"
    ],
    "a": 1,
-   "exp": "Es el órgano interno más grande y realiza cientos de tareas: produce la bilis para digerir las grasas, almacena energía, fabrica proteínas de la sangre y neutraliza sustancias tóxicas."
+   "exp": "La bilis la produce el hígado y la almacena la vesícula, que la libera al intestino al comer."
   },
   {
    "id": "q360",
@@ -26802,7 +26893,7 @@ window.SQ_CONTENT = {
     "Plasma"
    ],
    "a": 1,
-   "exp": "Es una bolsa muscular que recibe los alimentos, los mezcla con ácido y enzimas, y los convierte en una papilla espesa llamada quimo antes de pasarla al intestino."
+   "exp": "El estómago mezcla los alimentos con ácido y enzimas y los convierte en el quimo, que pasa al intestino."
   },
   {
    "id": "q361",
@@ -26819,7 +26910,7 @@ window.SQ_CONTENT = {
     "Colon"
    ],
    "a": 2,
-   "exp": "Es donde se absorbe la mayor parte de los nutrientes. Tiene tres partes: duodeno, yeyuno e íleon. Su pared está cubierta de diminutas vellosidades que multiplican la superficie de absorción."
+   "exp": "El intestino delgado tiene tres partes: duodeno, yeyuno e íleon."
   },
   {
    "id": "q362",
@@ -26836,7 +26927,7 @@ window.SQ_CONTENT = {
     "Oxígeno"
    ],
    "a": 1,
-   "exp": "Absorbe agua y sales de los restos de la digestión y forma las heces. Alberga una enorme comunidad de bacterias que ayudan a descomponer lo que el intestino delgado no digirió."
+   "exp": "Absorbe agua y sales de los restos de la digestión y forma las heces."
   },
   {
    "id": "q363",
@@ -26853,7 +26944,7 @@ window.SQ_CONTENT = {
     "El bazo"
    ],
    "a": 1,
-   "exp": "Tiene dos trabajos. Como glándula digestiva, produce enzimas que ayudan a digerir los alimentos. Como glándula endocrina, fabrica hormonas como la insulina y el glucagón, que regulan el azúcar en la sangre."
+   "exp": "La fabrican las células beta de los islotes de Langerhans, en la pequeña parte del páncreas que produce hormonas."
   },
   {
    "id": "q364",
@@ -26870,7 +26961,7 @@ window.SQ_CONTENT = {
     "Sangre"
    ],
    "a": 1,
-   "exp": "Es una pequeña bolsa que almacena y concentra la bilis producida por el hígado, y la libera al intestino cuando comemos, sobre todo alimentos grasos."
+   "exp": "La vesícula almacena y concentra la bilis que produce el hígado."
   },
   {
    "id": "q365",
@@ -26887,7 +26978,7 @@ window.SQ_CONTENT = {
     "Que es un músculo"
    ],
    "a": 1,
-   "exp": "Es un pequeño tubo cerrado unido al ciego. Durante mucho tiempo se consideró un órgano vestigial, sin función. Contiene tejido linfático, y hoy se investiga si participa en la inmunidad y si sirve de reserva de bacterias beneficiosas del intestino; su función en los humanos todavía no está clara."
+   "exp": "Contiene tejido linfático y se investiga si participa en la inmunidad o sirve de reserva de bacterias beneficiosas, pero su función todavía no está clara."
   },
   {
    "id": "q366",
@@ -26904,7 +26995,7 @@ window.SQ_CONTENT = {
     "Vellosidades"
    ],
    "a": 1,
-   "exp": "Filtran la sangre para eliminar desechos y exceso de agua en forma de orina. También ayudan a regular la presión arterial y producen hormonas, entre ellas una que estimula la fabricación de glóbulos rojos."
+   "exp": "Cada riñón tiene alrededor de un millón de nefronas, que filtran la sangre y forman la orina."
   },
   {
    "id": "q367",
@@ -26921,7 +27012,7 @@ window.SQ_CONTENT = {
     "Agua"
    ],
    "a": 1,
-   "exp": "Filtra la sangre, retira los glóbulos rojos viejos o dañados y participa en la defensa del cuerpo, ya que alberga glóbulos blancos."
+   "exp": "Filtra la sangre y retira los glóbulos rojos viejos o dañados; también alberga glóbulos blancos."
   },
   {
    "id": "q368",
@@ -26938,7 +27029,7 @@ window.SQ_CONTENT = {
     "Sodio"
    ],
    "a": 2,
-   "exp": "Tiene forma de mariposa y produce hormonas que regulan el metabolismo, es decir, la velocidad a la que el cuerpo usa la energía. Para fabricarlas necesita yodo."
+   "exp": "Fabrica tiroxina (T4) y triyodotironina (T3) con el yodo que se obtiene de la dieta."
   },
   {
    "id": "q369",
@@ -26955,7 +27046,7 @@ window.SQ_CONTENT = {
     "La corteza visual"
    ],
    "a": 1,
-   "exp": "Es una glándula de alrededor de 1 cm, del tamaño de un frijol. Sus hormonas ayudan a controlar el crecimiento, la presión arterial, la tiroides, el metabolismo y los órganos sexuales. Junto con el hipotálamo, dirige gran parte del sistema endocrino."
+   "exp": "El hipotálamo y la hipófisis dirigen juntos gran parte del sistema endocrino; el lóbulo posterior de la hipófisis libera hormonas que produce el hipotálamo."
   },
   {
    "id": "q370",
@@ -26972,7 +27063,7 @@ window.SQ_CONTENT = {
     "Tiroxina"
    ],
    "a": 1,
-   "exp": "Producen hormonas como la adrenalina, que prepara al cuerpo para reaccionar ante un peligro, y el cortisol, que interviene en la respuesta al estrés y en el metabolismo."
+   "exp": "La producen las glándulas suprarrenales, situadas sobre los riñones, junto con el cortisol."
   },
   {
    "id": "q371",
@@ -26989,7 +27080,7 @@ window.SQ_CONTENT = {
     "Los glóbulos rojos"
    ],
    "a": 1,
-   "exp": "Capta la luz y la convierte en señales nerviosas. La córnea y el cristalino enfocan la imagen sobre la retina, donde los conos detectan el color y los bastones permiten ver con poca luz."
+   "exp": "Los conos detectan el color y los bastones permiten ver con poca luz."
   },
   {
    "id": "q372",
@@ -27006,7 +27097,7 @@ window.SQ_CONTENT = {
     "La trompa de Eustaquio"
    ],
    "a": 1,
-   "exp": "Capta los sonidos y también nos da el sentido del equilibrio. Tiene tres partes: oído externo, medio e interno. En el interno, la cóclea convierte las vibraciones en señales nerviosas."
+   "exp": "La cóclea, en el oído interno, convierte las vibraciones del sonido en señales nerviosas."
   },
   {
    "id": "q373",
@@ -27023,7 +27114,7 @@ window.SQ_CONTENT = {
     "Músculo"
    ],
    "a": 1,
-   "exp": "Es el órgano más grande del sistema tegumentario y la primera barrera contra el exterior. Tiene tres capas: la epidermis, la dermis y la hipodermis, o tejido subcutáneo."
+   "exp": "La piel tiene tres capas: epidermis, la más externa, dermis e hipodermis."
   },
   {
    "id": "q374",
@@ -27040,7 +27131,7 @@ window.SQ_CONTENT = {
     "Linfocitos"
    ],
    "a": 1,
-   "exp": "Son órganos vivos formados por tejido óseo, que se renueva gracias a células que lo destruyen (osteoclastos) y otras que lo construyen (osteoblastos). En su interior está la médula ósea."
+   "exp": "Los osteoblastos construyen el hueso y los osteoclastos lo reabsorben; así el hueso se renueva."
   },
   {
    "id": "q375",
@@ -27057,7 +27148,7 @@ window.SQ_CONTENT = {
     "La hemoglobina"
    ],
    "a": 1,
-   "exp": "Es un tejido líquido formado por plasma y células: glóbulos rojos, que llevan oxígeno; glóbulos blancos, que defienden el cuerpo; y plaquetas, que ayudan a la coagulación."
+   "exp": "La sangre tiene plasma, glóbulos rojos, glóbulos blancos y plaquetas, que ayudan a la coagulación."
   },
   {
    "id": "q376",
@@ -27074,7 +27165,7 @@ window.SQ_CONTENT = {
     "El cartílago"
    ],
    "a": 1,
-   "exp": "Cortan y trituran los alimentos, el primer paso de la digestión. Su capa exterior, el esmalte, es la sustancia más dura del cuerpo humano."
+   "exp": "El esmalte es la capa exterior del diente y la sustancia más dura del cuerpo."
   },
   {
    "id": "q377",
@@ -27091,7 +27182,7 @@ window.SQ_CONTENT = {
     "Esfínter anal"
    ],
    "a": 1,
-   "exp": "Es un órgano hueco y elástico que almacena la orina que llega desde los riñones por los uréteres, hasta que se expulsa por la uretra."
+   "exp": "El detrusor forma la pared muscular de la vejiga, que es muy elástica y se estira al llenarse."
   },
   {
    "id": "q378",
@@ -27108,7 +27199,7 @@ window.SQ_CONTENT = {
     "La tráquea"
    ],
    "a": 1,
-   "exp": "Es el órgano de la voz. Contiene las cuerdas vocales, que vibran al paso del aire para producir sonidos. También protege la vía respiratoria al tragar."
+   "exp": "Las cuerdas vocales vibran al paso del aire y producen el sonido de la voz."
   },
   {
    "id": "q379",
@@ -27125,7 +27216,7 @@ window.SQ_CONTENT = {
     "Grasa"
    ],
    "a": 1,
-   "exp": "Es el tubo por el que el aire viaja hacia los pulmones. Se mantiene abierta gracias a anillos de cartílago en forma de C, y al final se divide en dos bronquios."
+   "exp": "Unos anillos de cartílago en forma de C impiden que se cierre."
   },
   {
    "id": "q380",
@@ -27142,7 +27233,7 @@ window.SQ_CONTENT = {
     "La laringe"
    ],
    "a": 1,
-   "exp": "Es el tubo muscular que lleva los alimentos desde la boca hasta el estómago mediante contracciones llamadas peristaltismo."
+   "exp": "El esófago lleva los alimentos desde la garganta hasta el estómago mediante peristaltismo."
   },
   {
    "id": "q381",
@@ -27159,7 +27250,7 @@ window.SQ_CONTENT = {
     "Sí, el amargo solo se nota atrás"
    ],
    "a": 1,
-   "exp": "Es un órgano muscular que mueve los alimentos al masticar y tragar, es esencial para hablar y contiene las papilas gustativas."
+   "exp": "El «mapa de la lengua», según el cual cada zona detecta en exclusiva un sabor, es un error muy extendido."
   },
   {
    "id": "q382",
@@ -27176,7 +27267,7 @@ window.SQ_CONTENT = {
     "Las suprarrenales"
    ],
    "a": 1,
-   "exp": "Producen la saliva, que humedece los alimentos, facilita tragar y empieza la digestión gracias a enzimas como la amilasa."
+   "exp": "Las paperas son una infección viral que inflama sobre todo las parótidas, las glándulas salivales más grandes."
   },
   {
    "id": "q383",
@@ -27193,7 +27284,7 @@ window.SQ_CONTENT = {
     "El esfínter"
    ],
    "a": 1,
-   "exp": "Es un músculo en forma de cúpula. Al contraerse baja y agranda el tórax, lo que hace entrar el aire en los pulmones. Es el principal músculo de la respiración."
+   "exp": "El hipo se produce por contracciones involuntarias y repentinas del diafragma."
   },
   {
    "id": "q384",
@@ -27210,7 +27301,7 @@ window.SQ_CONTENT = {
     "Ninguno"
    ],
    "a": 1,
-   "exp": "Son los músculos que movemos a voluntad. Están formados por fibras largas y, al contraerse, tiran de los huesos a través de los tendones para producir el movimiento."
+   "exp": "Los músculos esqueléticos son de control voluntario; el cardíaco y el liso trabajan sin que lo pensemos."
   },
   {
    "id": "q385",
@@ -27227,7 +27318,7 @@ window.SQ_CONTENT = {
     "Un nervio"
    ],
    "a": 1,
-   "exp": "Los tendones unen los músculos a los huesos y transmiten su fuerza. Los ligamentos unen huesos entre sí y estabilizan las articulaciones. Ambos están hechos sobre todo de colágeno."
+   "exp": "Los tendones unen músculo con hueso; los ligamentos, hueso con hueso."
   },
   {
    "id": "q386",
@@ -27244,7 +27335,7 @@ window.SQ_CONTENT = {
     "La linfa"
    ],
    "a": 1,
-   "exp": "Son las uniones entre huesos. Algunas son casi fijas, como las del cráneo, y otras permiten mucho movimiento, como el hombro o la rodilla. En las móviles, un cartílago y un líquido lubricante evitan el roce."
+   "exp": "En las articulaciones móviles, el cartílago y el líquido sinovial evitan el roce."
   },
   {
    "id": "q387",
@@ -27261,7 +27352,7 @@ window.SQ_CONTENT = {
     "24"
    ],
    "a": 1,
-   "exp": "Es el eje del cuerpo: sostiene el tronco y la cabeza, permite doblarse y girar, y protege la médula espinal en su interior."
+   "exp": "Casi todos los mamíferos tienen siete vértebras cervicales, también los humanos."
   },
   {
    "id": "q388",
@@ -27278,7 +27369,7 @@ window.SQ_CONTENT = {
     "Meninges"
    ],
    "a": 1,
-   "exp": "Es la estructura ósea de la cabeza. Protege el encéfalo, sostiene la cara y aloja los órganos de la vista, el oído, el olfato y el gusto."
+   "exp": "En los bebés los huesos del cráneo no están soldados: las fontanelas permiten que crezca."
   },
   {
    "id": "q389",
@@ -27295,7 +27386,7 @@ window.SQ_CONTENT = {
     "La pulmonar"
    ],
    "a": 1,
-   "exp": "Son los conductos por los que circula la sangre. Las arterias la llevan desde el corazón, las venas la devuelven y los capilares, finísimos, conectan unas con otras e intercambian sustancias con los tejidos."
+   "exp": "La aorta es la arteria más grande del cuerpo; las arterias llevan la sangre desde el corazón."
   },
   {
    "id": "q390",
@@ -27312,7 +27403,7 @@ window.SQ_CONTENT = {
     "La bilis"
    ],
    "a": 1,
-   "exp": "Son pequeñas estructuras en forma de frijol que filtran la linfa. En ellos se concentran linfocitos que detectan y combaten infecciones."
+   "exp": "Filtran la linfa y concentran linfocitos que detectan y combaten infecciones."
   },
   {
    "id": "q391",
@@ -27329,7 +27420,7 @@ window.SQ_CONTENT = {
     "Las plaquetas"
    ],
    "a": 1,
-   "exp": "Es el lugar donde maduran los linfocitos T, células clave de la defensa del cuerpo. Es muy activo en la infancia."
+   "exp": "La «T» de los linfocitos T viene de «timo», donde maduran."
   },
   {
    "id": "q392",
@@ -27346,7 +27437,7 @@ window.SQ_CONTENT = {
     "En el corazón"
    ],
    "a": 1,
-   "exp": "Es el tejido blando del interior de los huesos donde se fabrican las células de la sangre: glóbulos rojos, glóbulos blancos y plaquetas."
+   "exp": "En la médula ósea roja se fabrican glóbulos rojos, glóbulos blancos y plaquetas."
   },
   {
    "id": "q393",
@@ -27363,7 +27454,7 @@ window.SQ_CONTENT = {
     "Tiroxina"
    ],
    "a": 1,
-   "exp": "Son las glándulas reproductoras femeninas. Producen los óvulos y hormonas como los estrógenos y la progesterona."
+   "exp": "Los ovarios producen óvulos y hormonas como los estrógenos y la progesterona."
   },
   {
    "id": "q394",
@@ -27380,7 +27471,7 @@ window.SQ_CONTENT = {
     "Peritoneo"
    ],
    "a": 1,
-   "exp": "Es un órgano muscular hueco donde se desarrolla el embarazo. Su capa interna, el endometrio, se renueva en cada ciclo menstrual."
+   "exp": "El endometrio se engrosa en cada ciclo menstrual y, si no hay embarazo, se desprende."
   },
   {
    "id": "q395",
@@ -27397,7 +27488,7 @@ window.SQ_CONTENT = {
     "Melatonina"
    ],
    "a": 1,
-   "exp": "Son las glándulas reproductoras masculinas. Producen los espermatozoides y la testosterona."
+   "exp": "Los testículos producen espermatozoides y la testosterona, su hormona principal."
   },
   {
    "id": "q396",
@@ -27414,7 +27505,7 @@ window.SQ_CONTENT = {
     "La tráquea"
    ],
    "a": 1,
-   "exp": "Es una glándula del sistema reproductor masculino que produce parte del líquido seminal."
+   "exp": "La próstata, del tamaño aproximado de una nuez, rodea la uretra."
   },
   {
    "id": "q397",
@@ -27431,7 +27522,7 @@ window.SQ_CONTENT = {
     "El cornete"
    ],
    "a": 1,
-   "exp": "Es la entrada principal del aire: lo filtra, lo calienta y lo humedece. En su parte alta está el epitelio olfatorio, responsable del sentido del olfato."
+   "exp": "El tabique nasal separa las dos fosas nasales."
   },
   {
    "id": "q398",
@@ -27448,7 +27539,7 @@ window.SQ_CONTENT = {
     "Insulina"
    ],
    "a": 1,
-   "exp": "Está formado por queratina y nace en los folículos pilosos de la piel. Protege del sol, ayuda a conservar el calor y aumenta la sensibilidad al tacto."
+   "exp": "El cabello está hecho de queratina y nace en los folículos pilosos."
   },
   {
    "id": "q399",
@@ -27465,7 +27556,7 @@ window.SQ_CONTENT = {
     "Falange"
    ],
    "a": 1,
-   "exp": "Son placas de queratina que protegen la punta de los dedos y ayudan a manipular objetos pequeños. Crecen desde la matriz, una zona bajo la piel en su base."
+   "exp": "La lúnula es la media luna blanca de la base de la uña."
   },
   {
    "id": "q400",
@@ -27482,7 +27573,7 @@ window.SQ_CONTENT = {
     "Cortisol"
    ],
    "a": 1,
-   "exp": "Es una pequeña glándula que produce melatonina, una hormona que ayuda a regular el ciclo de sueño y vigilia según la luz y la oscuridad."
+   "exp": "La melatonina ayuda a regular el ciclo de sueño y vigilia según la luz y la oscuridad."
   }
  ],
  "series": [
@@ -27775,6 +27866,13 @@ window.SQ_CONTENT = {
    "before": "Watson y Crick la vieron sin que Franklin lo supiera.",
    "after": "Maurice Wilkins se la mostró a James Watson sin que Franklin lo supiera.",
    "why": "Precisión según el King’s College de Londres."
+  },
+  {
+   "id": "c-cemies",
+   "date": "2026-11-26",
+   "before": "Los taínos representaban a sus espíritus en objetos llamados cemíes",
+   "after": "Para los taínos, un cemí era una fuerza espiritual que se encarnaba en objetos",
+   "why": "El Museo Metropolitano de Arte precisa que «cemí» designa ante todo la fuerza espiritual, no solo el objeto que la representa."
   }
  ]
 };
