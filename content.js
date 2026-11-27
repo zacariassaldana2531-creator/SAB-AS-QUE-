@@ -453,6 +453,15 @@ window.SQ_CONTENT = {
    "conclusion": "La historia antigua no es un bloque: es una línea larguísima, y nosotros estamos más cerca de Cleopatra de lo que ella estaba de los constructores de pirámides.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Great Pyramid of Giza",
+     "org": "Encyclopaedia Britannica",
+     "title": "Great Pyramid of Giza",
+     "u": "https://www.britannica.com/place/Great-Pyramid-of-Giza",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: completada a comienzos del siglo XXV a. C.."
+    },
+    {
      "t": "Wikipedia — Great Pyramid of Giza",
      "org": "Wikipedia en inglés",
      "title": "Great Pyramid of Giza",
@@ -492,7 +501,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -511,6 +520,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -555,6 +568,15 @@ window.SQ_CONTENT = {
    "conclusion": "Fue breve, pero no fue una anécdota inocente: muestra el enorme desequilibrio de poder de la época colonial.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Anglo-Zanzibar War",
+     "org": "Encyclopaedia Britannica",
+     "title": "Anglo-Zanzibar War",
+     "u": "https://www.britannica.com/event/Anglo-Zanzibar-War",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: 27 de agosto de 1896; no más de 40 minutos; la guerra más corta registrada."
+    },
+    {
      "t": "Wikipedia — Anglo-Zanzibar War",
      "org": "Wikipedia en inglés",
      "title": "Anglo-Zanzibar War",
@@ -576,7 +598,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -587,6 +609,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -796,6 +822,15 @@ window.SQ_CONTENT = {
    "conclusion": "Cada vez que miras una estrella, recibes un mensaje que salió hace años, siglos o milenios.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Andromeda Galaxy",
+     "org": "Encyclopaedia Britannica",
+     "title": "Andromeda Galaxy",
+     "u": "https://www.britannica.com/place/Andromeda-Galaxy",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: a unos 2.480.000 años luz de la Tierra."
+    },
+    {
      "t": "Wikipedia — Astronomical unit",
      "org": "Wikipedia en inglés",
      "title": "Astronomical unit",
@@ -835,7 +870,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -850,6 +885,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -1085,6 +1124,15 @@ window.SQ_CONTENT = {
    "conclusion": "Crecer no es solo hacerse más grande: es también una lenta reorganización del esqueleto.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — The Human Skeleton Quiz",
+     "org": "Encyclopaedia Britannica",
+     "title": "The Human Skeleton Quiz",
+     "u": "https://www.britannica.com/quiz/the-skeletal-puzzle",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: los recién nacidos tienen algo más de 300 huesos; el adulto, 206."
+    },
+    {
      "t": "Wikipedia — Human skeleton",
      "org": "Wikipedia en inglés",
      "title": "Human skeleton",
@@ -1115,7 +1163,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -1126,6 +1174,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -1171,6 +1223,15 @@ window.SQ_CONTENT = {
    "conclusion": "El pulpo demuestra que la inteligencia puede evolucionar por caminos muy diferentes al nuestro.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Cephalopod: Form and function",
+     "org": "Encyclopaedia Britannica",
+     "title": "Cephalopod: Form and function",
+     "u": "https://www.britannica.com/animal/cephalopod/Form-and-function",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: hemocianina azul; tres corazones (uno sistémico y dos branquiales)."
+    },
+    {
      "t": "Wikipedia — Octopus",
      "org": "Wikipedia en inglés",
      "title": "Octopus",
@@ -1201,7 +1262,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -1212,6 +1273,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -1782,6 +1847,15 @@ window.SQ_CONTENT = {
    "body": "El potasio es esencial para el cuerpo, y una fracción mínima del potasio natural es potasio-40, que es radiactivo. Por eso el plátano, rico en potasio, emite una radiactividad diminuta. Es tan baja que comer plátanos es completamente seguro: tu propio cuerpo contiene potasio-40. Incluso se ha usado, de forma informal, la «dosis equivalente a un plátano» para explicar cantidades pequeñas de radiación.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Are Bananas Radioactive?",
+     "org": "Encyclopaedia Britannica",
+     "title": "Are Bananas Radioactive?",
+     "u": "https://www.britannica.com/science/Are-Bananas-Radioactive",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: potasio-40; unos 0,1 microsieverts."
+    },
+    {
      "t": "Wikipedia — Banana equivalent dose",
      "org": "Wikipedia en inglés",
      "title": "Banana equivalent dose",
@@ -1803,7 +1877,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -1814,6 +1888,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -2037,6 +2115,15 @@ window.SQ_CONTENT = {
    "body": "Francia no es solo el territorio europeo: también incluye lugares como la Guayana Francesa, Martinica, Guadalupe, la isla de la Reunión, la Polinesia Francesa y Nueva Caledonia, repartidos por todo el planeta. Si se cuenta su reclamación en la Antártida, la cifra sube a 13.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — The Country Quiz",
+     "org": "Encyclopaedia Britannica",
+     "title": "The Country Quiz",
+     "u": "https://www.britannica.com/quiz/the-country-quiz",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: Francia y sus territorios abarcan 12 husos horarios."
+    },
+    {
      "t": "Wikipedia — Time in France",
      "org": "Wikipedia en inglés",
      "title": "Time in France",
@@ -2058,7 +2145,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -2069,6 +2156,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -2291,6 +2382,15 @@ window.SQ_CONTENT = {
    "body": "Los flamencos se alimentan de algas y pequeños crustáceos ricos en carotenoides, los mismos pigmentos que dan color a la zanahoria. Su cuerpo los procesa y los deposita en las plumas, la piel y el pico. Si su alimentación cambia, pueden perder parte del color. En los zoológicos se les añaden carotenoides a la comida para que no se pongan pálidos.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Why Are Flamingos Pink?",
+     "org": "Encyclopaedia Britannica",
+     "title": "Why Are Flamingos Pink?",
+     "u": "https://www.britannica.com/story/why-are-flamingos-pink",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: nacen grises; el color viene del betacaroteno de su dieta."
+    },
+    {
      "t": "Wikipedia — Flamingo",
      "org": "Wikipedia en inglés",
      "title": "Flamingo",
@@ -2312,7 +2412,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -2323,6 +2423,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -2338,6 +2442,15 @@ window.SQ_CONTENT = {
    "desc": "La córnea es transparente precisamente porque no tiene vasos sanguíneos.",
    "body": "La córnea es la capa transparente de la parte delantera del ojo. Si tuviera vasos sanguíneos, bloquearían la luz. En lugar de recibir oxígeno de la sangre, lo toma en gran parte directamente del aire, disuelto en la película de lágrimas, y sus nutrientes llegan desde el líquido interior del ojo.",
    "sources": [
+    {
+     "t": "Encyclopaedia Britannica — Cornea",
+     "org": "Encyclopaedia Britannica",
+     "title": "Cornea",
+     "u": "https://www.britannica.com/science/cornea",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: salvo en sus bordes, la córnea no contiene vasos sanguíneos."
+    },
     {
      "t": "Wikipedia — Cornea",
      "org": "Wikipedia en inglés",
@@ -2360,7 +2473,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -2371,6 +2484,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -2386,6 +2503,15 @@ window.SQ_CONTENT = {
    "desc": "Se llama estribo y mide unos 3 milímetros.",
    "body": "El estribo es uno de los tres huesecillos del oído medio, junto con el martillo y el yunque. Juntos transmiten y amplifican las vibraciones del sonido desde el tímpano hacia el oído interno. Su nombre viene de su forma, parecida al estribo de una montura de caballo.",
    "sources": [
+    {
+     "t": "Encyclopaedia Britannica — Human ear: Tympanic membrane and middle ear",
+     "org": "Encyclopaedia Britannica",
+     "title": "Human ear: Tympanic membrane and middle ear",
+     "u": "https://www.britannica.com/science/ear/Tympanic-membrane-and-middle-ear",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: el estribo es el hueso más pequeño del cuerpo; unos 3 mm."
+    },
     {
      "t": "Wikipedia — Stapes",
      "org": "Wikipedia en inglés",
@@ -2408,7 +2534,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -2419,6 +2545,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -2434,6 +2564,15 @@ window.SQ_CONTENT = {
    "desc": "Se envió el 3 de diciembre de 1992, desde una computadora a un teléfono móvil.",
    "body": "El ingeniero Neil Papworth envió el mensaje «Merry Christmas» (Feliz Navidad) desde una computadora a un teléfono de Vodafone en el Reino Unido. En esa época los teléfonos todavía no podían escribir mensajes, solo recibirlos. Los SMS tenían un límite de 160 caracteres.",
    "sources": [
+    {
+     "t": "Encyclopaedia Britannica — Text messaging",
+     "org": "Encyclopaedia Britannica",
+     "title": "Text messaging",
+     "u": "https://www.britannica.com/technology/text-messaging",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: confirma la fecha: el primer mensaje de texto se envió el 3 de diciembre de 1992."
+    },
     {
      "t": "Wikipedia — SMS (historia)",
      "org": "Wikipedia en inglés",
@@ -2456,7 +2595,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -2467,6 +2606,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -2535,6 +2678,24 @@ window.SQ_CONTENT = {
    "body": "No hay una fecha exacta de fundación de Oxford, pero hay evidencia de enseñanza allí desde 1096. Tenochtitlan, la capital de los mexicas o aztecas, se fundó en 1325, y su imperio alcanzó su máximo poder en el siglo XV. Es decir, cuando nació la gran capital azteca, Oxford ya llevaba más de dos siglos funcionando.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — University of Oxford",
+     "org": "Encyclopaedia Britannica",
+     "title": "University of Oxford",
+     "u": "https://www.britannica.com/topic/University-of-Oxford",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: ya había escuelas en Oxford a comienzos del siglo XII."
+    },
+    {
+     "t": "Encyclopaedia Britannica — Tenochtitlán",
+     "org": "Encyclopaedia Britannica",
+     "title": "Tenochtitlán",
+     "u": "https://www.britannica.com/place/Tenochtitlan",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: fundada hacia 1325."
+    },
+    {
      "t": "Wikipedia — University of Oxford",
      "org": "Wikipedia en inglés",
      "title": "University of Oxford",
@@ -2565,7 +2726,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -2576,6 +2737,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -3466,6 +3631,15 @@ window.SQ_CONTENT = {
    "body": "La hemoglobina le da a la sangre su color rojo: rojo brillante cuando está cargada de oxígeno y rojo oscuro cuando tiene menos. Las venas se ven azuladas a través de la piel por la forma en que la piel absorbe y refleja las distintas longitudes de onda de la luz, no porque la sangre sea azul.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Why Is Blood Red?",
+     "org": "Encyclopaedia Britannica",
+     "title": "Why Is Blood Red?",
+     "u": "https://www.britannica.com/video/Why-is-blood-red/-300798",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: la sangre humana nunca es azul; las venas lo parecen por cómo el tejido interactúa con la luz."
+    },
+    {
      "t": "Wikipedia — Blood (color)",
      "org": "Wikipedia en inglés",
      "title": "Blood (color)",
@@ -3487,7 +3661,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -3498,6 +3672,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -4071,6 +4249,15 @@ window.SQ_CONTENT = {
    "body": "Cuando cortas una cebolla, rompes sus células y se mezclan sustancias que estaban separadas. La reacción produce un gas llamado óxido de syn-propanotial-S, que llega a tus ojos y estimula las glándulas lagrimales. Enfriar la cebolla antes de cortarla y usar un cuchillo bien afilado reduce el efecto.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Why Do Onions Make You Cry?",
+     "org": "Encyclopaedia Britannica",
+     "title": "Why Do Onions Make You Cry?",
+     "u": "https://www.britannica.com/story/why-do-onions-make-you-cry",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: al cortarla se forma syn-propanotial-S-óxido."
+    },
+    {
      "t": "Wikipedia — Onion",
      "org": "Wikipedia en inglés",
      "title": "Onion",
@@ -4094,7 +4281,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -4105,6 +4292,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -4340,6 +4531,15 @@ window.SQ_CONTENT = {
    "body": "No fue una guerra continua, sino una serie de conflictos y treguas por el trono de Francia. Comenzó en 1337 y terminó en 1453. En ella se hizo famosa Juana de Arco, y al final Inglaterra perdió casi todas sus posesiones en Francia. El nombre «de los Cien Años» se lo dieron historiadores siglos después.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Hundred Years' War",
+     "org": "Encyclopaedia Britannica",
+     "title": "Hundred Years' War",
+     "u": "https://www.britannica.com/event/Hundred-Years-War",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: 1337–1453."
+    },
+    {
      "t": "Wikipedia — Hundred Years' War",
      "org": "Wikipedia en inglés",
      "title": "Hundred Years' War",
@@ -4363,7 +4563,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -4374,6 +4574,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -4480,6 +4684,15 @@ window.SQ_CONTENT = {
    "body": "La guillotina se asocia con la Revolución francesa, pero siguió siendo el método de ejecución en Francia hasta mucho después. La última vez fue en septiembre de 1977, con Hamida Djandoubi. Francia abolió la pena de muerte en 1981.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Guillotine",
+     "org": "Encyclopaedia Britannica",
+     "title": "Guillotine",
+     "u": "https://www.britannica.com/topic/guillotine",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: solo ocho ejecuciones entre 1965 y la última, en 1977."
+    },
+    {
      "t": "Wikipedia — Hamida Djandoubi",
      "org": "Wikipedia en inglés",
      "title": "Hamida Djandoubi",
@@ -4495,7 +4708,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -4506,6 +4719,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -4650,6 +4867,15 @@ window.SQ_CONTENT = {
    "conclusion": "La próxima vez que estés en minoría, recuerda que una sola voz distinta puede liberar a otras personas para decir lo que ven.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Conformity",
+     "org": "Encyclopaedia Britannica",
+     "title": "Conformity",
+     "u": "https://www.britannica.com/topic/conformity",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: tarea de comparar la longitud de una línea estándar con tres líneas; un solo participante ingenuo por grupo."
+    },
+    {
      "t": "Wikipedia — Asch conformity experiments",
      "org": "Wikipedia en inglés",
      "title": "Asch conformity experiments",
@@ -4665,7 +4891,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -4676,6 +4902,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -4846,6 +5076,15 @@ window.SQ_CONTENT = {
    "body": "Reconocer rostros rápidamente fue muy importante para nuestra supervivencia como especie social. Por eso el cerebro tiende a ver caras en cualquier cosa con dos puntos y una línea: enchufes, frentes de carros o manchas en la pared. Es un fenómeno normal, no un error de la vista.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Pareidolia",
+     "org": "Encyclopaedia Britannica",
+     "title": "Pareidolia",
+     "u": "https://www.britannica.com/topic/pareidolia",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: tendencia a percibir imágenes con significado, como caras, en patrones aleatorios; el cerebro está optimizado para reconocer caras."
+    },
+    {
      "t": "Wikipedia — Pareidolia",
      "org": "Wikipedia en inglés",
      "title": "Pareidolia",
@@ -4869,7 +5108,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "teoria",
    "history": [
@@ -4880,6 +5119,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -5326,6 +5569,15 @@ window.SQ_CONTENT = {
    "body": "Saturno es enorme, pero está formado sobre todo por hidrógeno y helio. Su densidad media es de unos 0,69 gramos por centímetro cúbico, menor que la del agua. Suele decirse que «flotaría en una bañera gigante», aunque es solo una forma de explicarlo: un planeta de gas no se comportaría como un barco.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Saturn",
+     "org": "Encyclopaedia Britannica",
+     "title": "Saturn",
+     "u": "https://www.britannica.com/place/Saturn-planet",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: densidad media de un 70 % de la del agua, la más baja del sistema solar."
+    },
+    {
      "t": "Wikipedia — Saturn",
      "org": "Wikipedia en inglés",
      "title": "Saturn",
@@ -5349,7 +5601,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -5360,6 +5612,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -5511,6 +5767,15 @@ window.SQ_CONTENT = {
    "body": "El Sol es tan masivo que concentra casi toda la masa del sistema solar. De lo que queda, la mayor parte corresponde a Júpiter. La Tierra, comparada con el Sol, es diminuta: en su volumen cabrían alrededor de un millón de Tierras.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Sun",
+     "org": "Encyclopaedia Britannica",
+     "title": "Sun",
+     "u": "https://www.britannica.com/place/Sun",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: el Sol constituye más del 99 % de la masa del sistema solar."
+    },
+    {
      "t": "Wikipedia — Sun",
      "org": "Wikipedia en inglés",
      "title": "Sun",
@@ -5534,7 +5799,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -5545,6 +5810,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -5877,6 +6146,15 @@ window.SQ_CONTENT = {
    "body": "La tecnología pretendía unificar la comunicación entre dispositivos, así como el rey Harald Bluetooth unificó tribus danesas. El nombre iba a ser provisional, pero se quedó. El logo combina las runas de las iniciales de Harald Bluetooth.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Bluetooth",
+     "org": "Encyclopaedia Britannica",
+     "title": "Bluetooth",
+     "u": "https://www.britannica.com/technology/Bluetooth",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: nombrado por Harald I Diente Azul, rey danés del siglo X."
+    },
+    {
      "t": "Wikipedia — Bluetooth",
      "org": "Wikipedia en inglés",
      "title": "Bluetooth",
@@ -5900,7 +6178,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -5911,6 +6189,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -6037,6 +6319,15 @@ window.SQ_CONTENT = {
    "body": "El nombre lo creó en 1999 la consultora de marcas Interbrand, por encargo de la alianza de empresas que promovía la tecnología, porque el nombre técnico, IEEE 802.11b, era poco atractivo. La explicación de que significa «Wireless Fidelity» se usó después en algunas campañas, pero no es su origen.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Wi-Fi",
+     "org": "Encyclopaedia Britannica",
+     "title": "Wi-Fi",
+     "u": "https://www.britannica.com/technology/Wi-Fi",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: no es abreviatura de «wireless fidelity»; el nombre lo creó una empresa de marketing contratada por la WECA."
+    },
+    {
      "t": "Wikipedia — Wi-Fi",
      "org": "Wikipedia en inglés",
      "title": "Wi-Fi",
@@ -6060,7 +6351,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -6071,6 +6362,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
@@ -6153,6 +6448,15 @@ window.SQ_CONTENT = {
    "body": "El estómago produce ácido clorhídrico para descomponer los alimentos y eliminar muchos microbios. Su pH está entre 1 y 3, muy ácido. El estómago no se daña gracias a una capa de moco y bicarbonato que recubre sus paredes.",
    "sources": [
     {
+     "t": "Encyclopaedia Britannica — Gastric juice",
+     "org": "Encyclopaedia Britannica",
+     "title": "Gastric juice",
+     "u": "https://www.britannica.com/science/gastric-juice",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-26",
+     "note": "Enciclopedia con revisión editorial. Confirma: el jugo gástrico es principalmente ácido clorhídrico."
+    },
+    {
      "t": "Wikipedia — Gastric acid",
      "org": "Wikipedia en inglés",
      "title": "Gastric acid",
@@ -6176,7 +6480,7 @@ window.SQ_CONTENT = {
     "status": "verificado",
     "level": "enciclopedica",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "hecho",
    "history": [
@@ -6187,6 +6491,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
     }
    ]
   },
