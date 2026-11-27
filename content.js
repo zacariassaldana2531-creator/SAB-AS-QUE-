@@ -3251,7 +3251,8 @@ window.SQ_CONTENT = {
    "sub": "Preferencias",
    "title": "Te gusta más algo solo por verlo muchas veces",
    "desc": "Se llama efecto de mera exposición y lo describió el psicólogo Robert Zajonc en 1968.",
-   "body": "En sus experimentos, las personas valoraban de forma más positiva palabras, caras o símbolos que habían visto más veces, aunque no recordaran haberlos visto. Es una de las razones por las que una canción que al principio no te convencía termina gustándote, y por las que la publicidad repite los mismos anuncios. El efecto tiene límites: con demasiada repetición puede aparecer el cansancio.",
+   "body": "El «efecto de mera exposición» describe algo sorprendente: tendemos a sentir más agrado por las cosas simplemente porque nos resultan familiares. El psicólogo Robert Zajonc lo demostró en una serie de experimentos en los años sesenta: las personas valoraban de forma más positiva palabras, caras o símbolos que habían visto más veces, aunque no recordaran haberlos visto. El efecto se ha comprobado con palabras, caracteres chinos, pinturas, fotos de caras, figuras geométricas y sonidos.\n\nEs una de las razones por las que una canción que al principio no te convencía termina gustándote, y por las que la publicidad repite los mismos anuncios. También ocurre con las personas: cuanto más a menudo vemos a alguien, más agradable nos parece. El efecto tiene límites: con demasiada repetición puede aparecer el cansancio, y el agrado, en lugar de seguir subiendo, empieza a bajar.",
+   "deep": "La idea es antigua: el alemán Gustav Fechner hizo en 1876 la primera investigación conocida sobre este efecto, y Edward Titchener describió el «resplandor de calidez» que se siente ante algo familiar. Algunos experimentos encontraron el efecto incluso con exposiciones subliminales, es decir, imágenes mostradas tan rápido que no se podían percibir de forma consciente, aunque esos efectos son poco probables fuera del laboratorio. En la publicidad, los resultados son mixtos: en un estudio, estudiantes que leían un artículo mientras aparecían anuncios en la parte superior de la pantalla valoraron mejor el anuncio que habían visto más, aunque no le prestaran atención.",
    "sources": [
     {
      "t": "Current Psychology — Repeated exposure and the attractiveness of synthetic speech: An inverted-U relationship",
@@ -3274,7 +3275,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
@@ -3290,6 +3291,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -3303,7 +3308,8 @@ window.SQ_CONTENT = {
    "sub": "Atención",
    "title": "Cuando aprendes una palabra nueva, de pronto la ves en todas partes",
    "desc": "Es la ilusión de frecuencia, también llamada fenómeno Baader-Meinhof.",
-   "body": "Después de fijarte en algo nuevo, como una palabra o un modelo de carro, tu atención lo detecta con más facilidad, y además tiendes a recordar las veces que lo ves. El resultado es la sensación de que ahora aparece mucho más, aunque su frecuencia real no haya cambiado. El lingüista Arnold Zwicky la llamó «ilusión de frecuencia» en 2005.",
+   "body": "Después de fijarte en algo nuevo, como una palabra o un modelo de carro, tu atención lo detecta con más facilidad, y además tiendes a recordar las veces que lo ves. El resultado es la sensación de que ahora aparece mucho más, aunque su frecuencia real no haya cambiado. El lingüista Arnold Zwicky, de la Universidad de Stanford, la llamó «ilusión de frecuencia» en 2005, en su blog.\n\nSegún Zwicky, la ilusión es el resultado de dos procesos psicológicos: la atención selectiva, que hace que nos fijemos en lo que acabamos de aprender, y el sesgo de confirmación, que hace que cada nueva aparición nos parezca una prueba de que ahora está en todas partes. Zwicky describió también una ilusión parecida, la «ilusión de lo reciente»: creer que algo que hemos notado hace poco es, en realidad, nuevo.",
+   "deep": "El fenómeno también se conoce como «fenómeno Baader-Meinhof». El nombre lo acuñó en 1994 Terry Mullen en una carta a un periódico de Minnesota, el St. Paul Pioneer Press: contaba que, después de mencionar una vez el nombre del grupo militante alemán Baader-Meinhof, no dejaba de encontrárselo. Otros lectores compartieron experiencias parecidas, y el nombre se popularizó. Hoy la ilusión es más frecuente por la curación algorítmica de internet: cuando buscas algo, los algoritmos te lo muestran más, así que a veces sí aparece más a menudo. El consejo de Zwicky es sencillo: no confíes en tus impresiones y comprueba los datos.",
    "sources": [
     {
      "t": "Universidad de Pensilvania (Language Log) — Language Log: Just between Dr. Language and I",
@@ -3326,7 +3332,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
@@ -3342,6 +3348,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5248,7 +5258,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Tu memoria de corto plazo guarda muchas menos cosas de las que crees",
    "desc": "En 1956 se habló del «número mágico siete»; investigaciones posteriores sugieren que son unas cuatro.",
-   "body": "El psicólogo George Miller publicó en 1956 un famoso artículo según el cual podemos retener unos siete elementos, más o menos dos, a la vez. Estudios posteriores, como los de Nelson Cowan, sugieren que el límite real ronda los cuatro «bloques» de información. Por eso los números de teléfono se agrupan: agrupar convierte muchos datos en pocos bloques.",
+   "body": "El psicólogo George Miller, de la Universidad de Harvard, publicó en 1956 en la revista Psychological Review un famoso artículo, «El número mágico siete, más o menos dos», según el cual podemos retener unos siete elementos, más o menos dos, a la vez en la memoria de corto plazo. Es uno de los artículos más citados de la historia de la psicología, y a veces se habla incluso de la «ley de Miller».\n\nEstudios posteriores, como los del psicólogo Nelson Cowan, publicados en 2001, sugieren que el límite real ronda los cuatro «bloques» de información. El propio número siete era más una estimación aproximada y un recurso retórico que un límite preciso. Por eso los números de teléfono se agrupan: agrupar convierte muchos datos en pocos bloques.",
+   "deep": "La clave está en los bloques, en inglés «chunks»: un bloque es una unidad de información con significado, que puede contener muchos datos. Por ejemplo, la secuencia de letras «FBICIAONU» es difícil de recordar como nueve letras sueltas, pero fácil si la vemos como tres siglas conocidas. Agrupar la información de forma que tenga sentido es, por tanto, uno de los mejores trucos para recordar más. En su artículo, Miller también señaló una coincidencia entre los límites de la memoria de corto plazo y los límites de nuestra capacidad para distinguir estímulos sencillos, como tonos o intensidades.",
    "sources": [
     {
      "t": "Behavioral and Brain Sciences — The magical number 4 in short-term memory: A reconsideration of mental storage capacity",
@@ -5273,7 +5284,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
@@ -5289,6 +5300,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5300,7 +5315,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Mucha gente no ve a una persona disfrazada de gorila que cruza delante de ella",
    "desc": "Se llama ceguera por falta de atención. El experimento más famoso es de 1999.",
-   "body": "Daniel Simons y Christopher Chabris pidieron a voluntarios que contaran los pases de balón en un video. A mitad, una persona disfrazada de gorila atravesaba la escena. Aproximadamente la mitad de los participantes no lo vio. Cuando nos concentramos en una tarea, el cerebro puede ignorar cosas muy evidentes.",
+   "body": "En un experimento publicado en 1999 en la revista Perception, los psicólogos Daniel Simons, de la Universidad de Illinois, y Christopher Chabris, de Harvard, pidieron a voluntarios que vieran un video corto en el que dos equipos, uno con camisetas negras y otro con camisetas blancas, se pasaban un balón de baloncesto. Su tarea era contar los pases de uno de los equipos.\n\nA mitad del video, una persona disfrazada de gorila atravesaba la escena. Al terminar, se preguntaba a los participantes si habían notado algo fuera de lo normal: en la mayoría de los grupos, aproximadamente la mitad no había visto al gorila. Cuando nos concentramos en una tarea, el cerebro puede ignorar cosas muy evidentes.",
+   "deep": "Este fenómeno se llama «ceguera por falta de atención»: no vemos un estímulo inesperado que está a plena vista porque nuestra atención está en otra parte, no por un problema de la vista. El término lo eligieron los psicólogos Arien Mack e Irvin Rock en 1992. El experimento del gorila era una versión de estudios anteriores de Ulric Neisser, de 1975, en los que una mujer con un paraguas cruzaba la escena sin que muchos lo notaran. Tiene consecuencias prácticas: un conductor concentrado en el velocímetro y no en la carretera puede no ver un peligro evidente, y testigos de un suceso pueden no haber visto algo que ocurrió justo delante.",
    "sources": [
     {
      "t": "Attention, Perception, & Psychophysics — Inattentional blindness in older adults: Effects of attentional set and to-be-ignored distractors",
@@ -5325,7 +5341,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -5341,6 +5357,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5352,7 +5372,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Un número al azar puede cambiar lo que estás dispuesto a pagar",
    "desc": "Es el efecto ancla: la primera cifra que vemos condiciona nuestras estimaciones.",
-   "body": "Amos Tversky y Daniel Kahneman mostraron en 1974 que, después de ver un número obtenido al azar con una ruleta, las personas daban estimaciones más altas o más bajas según ese número, aunque no tuviera relación con la pregunta. Por eso las tiendas muestran un «precio antes» tachado: ese primer número sirve de ancla.",
+   "body": "Amos Tversky y Daniel Kahneman mostraron en 1974 que, después de ver un número obtenido al azar, las personas daban estimaciones más altas o más bajas según ese número, aunque no tuviera relación con la pregunta. En su experimento, los participantes veían girar una ruleta, preparada para detenerse en 10 o en 65, y después debían estimar qué porcentaje de los países de las Naciones Unidas eran africanos.\n\nQuienes habían visto el 10 respondieron, de media, un 25 %; quienes habían visto el 65, un 45 %. Un número sin ningún sentido había movido sus respuestas. Por eso las tiendas muestran un «precio antes» tachado: ese primer número sirve de ancla, y el precio rebajado parece una gran oferta aunque no lo sea.",
+   "deep": "El efecto ancla se ha encontrado en muchos otros contextos. En un estudio de Dan Ariely, se pidió a los participantes que escribieran los dos últimos dígitos de su número de seguridad social y que pensaran si pagarían esa cantidad en dólares por productos como vino o chocolate; después, quienes tenían números más altos ofrecían pagar más. También se ha documentado en el mercado inmobiliario, donde los precios anteriores de una vivienda influyen en lo que se acaba pagando por ella. Kahneman y Tversky lo describieron como un «atajo mental» que usamos para hacer estimaciones cuando no estamos seguros.",
    "sources": [
     {
      "t": "Journal of Risk and Uncertainty — Amos Tversky and the Ascent of Behavioral Economics",
@@ -5377,7 +5398,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
@@ -5393,6 +5414,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5404,7 +5429,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Ves caras en enchufes y nubes porque tu cerebro está programado para buscarlas",
    "desc": "Se llama pareidolia: percibir patrones con significado donde no los hay.",
-   "body": "Reconocer rostros rápidamente fue muy importante para nuestra supervivencia como especie social. Por eso el cerebro tiende a ver caras en cualquier cosa con dos puntos y una línea: enchufes, frentes de carros o manchas en la pared. Es un fenómeno normal, no un error de la vista.",
+   "body": "La pareidolia es la tendencia a ver un objeto, un patrón o un significado donde no lo hay, a partir de un estímulo vago, casi siempre visual. Reconocer rostros rápidamente fue muy importante para nuestra supervivencia como especie social. Por eso el cerebro tiende a ver caras en cualquier cosa con dos puntos y una línea: enchufes, frentes de carros o manchas en la pared.\n\nEs un fenómeno normal, no un error de la vista. Ejemplos clásicos son las formas de animales o caras en las nubes, el «hombre de la Luna» o el «conejo de la Luna», que diferentes culturas ven en las manchas lunares. También se ha observado pareidolia de caras en monos macacos, lo que sugiere que no es exclusiva de los humanos.",
+   "deep": "Un estudio con magnetoencefalografía encontró que los objetos que percibimos como caras activan muy rápido, en unos 165 milisegundos, una zona del cerebro especializada en reconocer rostros, de forma parecida a como lo hacen las caras reales. La pareidolia se ha usado en el arte durante siglos, y fue importante para los surrealistas como Salvador Dalí. Un ejemplo famoso es la «cara de Marte», una formación rocosa que en ciertas fotos de satélite parecía un rostro humano. La palabra viene del griego «pará», junto a, y «eídolon», imagen, y la introdujo en alemán el psiquiatra Karl Ludwig Kahlbaum en 1866.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Pareidolia",
@@ -5438,7 +5464,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones. Contrastado además con Encyclopaedia Britannica."
    },
    "claim": "teoria",
@@ -5454,6 +5480,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Segunda fuente enciclopédica independiente (Encyclopaedia Britannica)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5465,7 +5495,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La gente se fija en ti mucho menos de lo que piensas",
    "desc": "Es el efecto foco: sobrestimamos cuánto notan los demás nuestra apariencia o errores.",
-   "body": "En un estudio del psicólogo Thomas Gilovich, estudiantes debían entrar a una sala con una camiseta vergonzosa. Calculaban que la mitad de los presentes lo notaría; en realidad, muchos menos lo hicieron. Como vivimos dentro de nuestra cabeza, creemos que todos están pendientes de nosotros.",
+   "body": "El «efecto foco» es la tendencia a creer que los demás se fijan en nosotros mucho más de lo que realmente lo hacen. En un estudio del psicólogo Thomas Gilovich, estudiantes debían entrar a una sala con una camiseta vergonzosa. Calculaban que la mitad de los presentes lo notaría; en realidad, muchos menos lo hicieron.\n\nComo vivimos dentro de nuestra cabeza, creemos que todos están pendientes de nosotros. Cada persona es el centro de su propio mundo, y nos cuesta recordar que no somos el centro del mundo de los demás. La tendencia es especialmente fuerte cuando hacemos algo fuera de lo normal, como cometer una torpeza en público.",
+   "deep": "El término lo acuñaron Thomas Gilovich, Victoria Husted Medvec y Kenneth Savitsky, y apareció por primera vez en la revista Current Directions in Psychological Science en 1999, aunque Gilovich llevaba años estudiando el fenómeno. Está relacionado con la «ilusión de transparencia»: la tendencia a creer que los demás notan con facilidad lo que sentimos, como nervios o vergüenza, cuando en realidad se nota mucho menos. Saberlo puede ser útil: si te preocupa haber hecho el ridículo o tener un mal día de aspecto, lo más probable es que casi nadie lo haya notado, porque cada uno está ocupado pensando en sí mismo.",
    "sources": [
     {
      "t": "Wikipedia — Spotlight effect",
@@ -5482,7 +5513,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "teoria",
@@ -5494,6 +5525,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5505,7 +5540,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Es posible recordar con detalle algo que nunca te pasó",
    "desc": "La psicóloga Elizabeth Loftus demostró que se pueden implantar recuerdos falsos.",
-   "body": "En un estudio, Loftus y su equipo contaron a participantes varias historias de su infancia, una de ellas inventada: haberse perdido en un centro comercial. Una parte de los participantes llegó a «recordar» el episodio falso, a veces con detalles. La memoria no es una grabación: se reconstruye cada vez que recordamos.",
+   "body": "La psicóloga Elizabeth Loftus es una de las mayores expertas en memorias falsas. En un estudio, su equipo contó a participantes varias historias de su infancia, supuestamente aportadas por sus familiares, pero una de ellas era inventada: haberse perdido en un centro comercial a los cinco o seis años. Aproximadamente un 25 % de los participantes llegó a creer, total o parcialmente, el episodio falso, a veces con detalles.\n\nLa técnica se diseñó por primera vez como un trabajo de clase: Loftus invitó a sus estudiantes a idear un experimento, y uno de ellos, Jim Coan, probó con su madre, su hermana y su hermano, a quienes dio cuadernillos con cuatro historias breves de su infancia. La memoria no es una grabación: se reconstruye cada vez que recordamos.",
+   "deep": "El experimento se desarrolló en medio de un intenso debate sobre los «recuerdos reprimidos»: la idea de que se pueden olvidar por completo hechos traumáticos y recuperarlos años después, por ejemplo en terapia. Loftus dedicó mucha investigación a mostrar que algunos de esos recuerdos «recuperados» podían ser falsos, y participó como experta en juicios muy conocidos. Sus estudios muestran que la sugestión, por ejemplo cuando alguien de confianza asegura que algo ocurrió, puede crear recuerdos de hechos que nunca sucedieron, sin que la persona que los recuerda mienta.",
    "sources": [
     {
      "t": "Universidad de Washington — Artículo de Elizabeth Loftus (premio de la American Psychological Association)",
@@ -5530,7 +5566,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -5546,6 +5582,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -5681,7 +5721,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Valoramos más lo que armamos con nuestras manos",
    "desc": "Se llama efecto IKEA: el esfuerzo propio aumenta el valor que le damos a algo.",
-   "body": "Investigadores como Michael Norton, Daniel Mochon y Dan Ariely encontraron que las personas estaban dispuestas a pagar más por objetos que ellas mismas habían montado, como muebles o figuras de papel, que por los mismos objetos ya armados. El efecto desaparecía si no lograban terminarlos.",
+   "body": "El «efecto IKEA» es un sesgo por el cual damos un valor desproporcionado a los productos que hemos creado o armado nosotros mismos, aunque sea en parte. Lo identificaron y le pusieron nombre Michael Norton, de la Escuela de Negocios de Harvard, Daniel Mochon, de Yale, y Dan Ariely, de Duke, que publicaron sus resultados en 2011. El nombre viene de la cadena sueca de muebles IKEA, que vende muchos muebles para armar en casa.\n\nEn sus estudios, los participantes armaban cajas de IKEA, doblaban figuras de origami o construían juegos de Lego. Las personas estaban dispuestas a pagar más por los objetos que ellas mismas habían montado que por los mismos objetos ya armados: según un estudio de 2011, hasta un 63 % más por un mueble armado por ellos mismos. El efecto desaparecía si no lograban terminarlos.",
+   "deep": "Los investigadores resumieron su hallazgo con una frase: «el trabajo lleva al amor», pero solo cuando el trabajo termina con éxito. Cuando los participantes armaban algo y luego lo destruían, o no conseguían completarlo, el efecto IKEA se esfumaba. Los investigadores también mostraron que el trabajo aumenta el valor que le damos a un objeto tanto en los aficionados al bricolaje como en los principiantes, y que los participantes veían sus creaciones de aficionados como tan valiosas como las de los expertos, y esperaban que los demás opinaran igual.",
    "sources": [
     {
      "t": "Harvard Business School — The IKEA Effect: When Labor Leads to Love - Article - Faculty & Research - Harvard Business School",
@@ -5706,7 +5747,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
@@ -5722,6 +5763,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12484,7 +12529,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Tendemos a buscar la información que nos da la razón",
    "desc": "Se llama sesgo de confirmación y afecta incluso a personas muy preparadas.",
-   "body": "Cuando creemos algo, prestamos más atención a lo que lo confirma y descartamos lo que lo contradice. El psicólogo Peter Wason estudió este fenómeno en los años sesenta con tareas lógicas. Una forma de combatirlo es buscar a propósito argumentos que contradigan nuestra opinión.",
+   "body": "El sesgo de confirmación es la tendencia a buscar, interpretar, preferir y recordar la información que confirma lo que ya creemos. Cuando creemos algo, prestamos más atención a lo que lo confirma y descartamos lo que lo contradice. El efecto es más fuerte cuando deseamos un resultado, cuando el tema es emocional y cuando se trata de creencias muy arraigadas.\n\nEl psicólogo inglés Peter Wason estudió este fenómeno en los años sesenta con tareas lógicas. En su primer experimento, publicado en 1960, pidió a los participantes que descubrieran una regla que cumplían tríos de números, diciéndoles que el trío 2, 4, 6 la cumplía. La regla real era simplemente «cualquier secuencia ascendente», pero a los participantes les costó mucho encontrarla: solo probaban tríos que encajaban con la regla que imaginaban, en lugar de intentar demostrar que estaba equivocada.",
+   "deep": "El fenómeno se conocía desde hace mucho: el historiador griego Tucídides ya escribió sobre el error de razonar según lo que uno desea, y el filósofo inglés Francis Bacon señaló que esta forma sesgada de valorar las pruebas alimentaba todas las supersticiones. El sesgo de confirmación ayuda a explicar la polarización de opiniones: dos personas pueden ver las mismas pruebas y salir aún más convencidas de posturas opuestas. Una forma de combatirlo es buscar a propósito argumentos que contradigan nuestra opinión, y preguntarnos qué prueba nos haría cambiar de idea.",
    "sources": [
     {
      "t": "Springer Nature Link — Psychology of the scientist: An analysis of problem-solving bias | Cognitive Therapy and Research",
@@ -12509,7 +12555,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
@@ -12525,6 +12571,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12536,7 +12586,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Si alguien nos cae bien en algo, tendemos a creer que es bueno en todo",
    "desc": "Es el efecto halo, descrito por Edward Thorndike en 1920.",
-   "body": "Thorndike observó que los oficiales militares que evaluaban a sus soldados tendían a calificarlos de forma similar en rasgos que no tenían relación: si uno parecía atractivo o disciplinado, lo veían también inteligente o leal. Este sesgo influye en entrevistas de trabajo, en la publicidad y en cómo juzgamos a las personas famosas.",
+   "body": "El «efecto halo» es la tendencia a que una impresión positiva sobre un aspecto de una persona, una marca o un producto influya en cómo valoramos todos sus demás aspectos. El término lo acuñó el psicólogo estadounidense Edward Thorndike, que en 1920 aportó la primera prueba empírica del fenómeno.\n\nThorndike pidió a dos oficiales militares que evaluaran a sus soldados en cualidades físicas, como el aspecto o la energía, en inteligencia, en liderazgo y en cualidades personales, como la lealtad o la responsabilidad. Observó que tendían a calificarlos de forma similar en rasgos que no tenían relación: si uno parecía atractivo o disciplinado, lo veían también inteligente o leal. Este sesgo influye en entrevistas de trabajo, en la publicidad y en cómo juzgamos a las personas famosas.",
+   "deep": "El efecto también funciona al revés: cuando una característica negativa empeora nuestra opinión sobre todo lo demás, se habla a veces de «efecto cuerno». Un estudio de 1974 encontró que los participantes eran más indulgentes al imponer castigos a personas atractivas que a personas poco atractivas, aunque hubieran cometido exactamente el mismo delito. En el marketing, el término se usa para explicar por qué la buena imagen de un producto de una marca hace que los consumidores valoren mejor otros productos de la misma marca. Conocerlo ayuda a evaluar a las personas por lo que realmente hacen, y no por una primera impresión.",
    "sources": [
     {
      "t": "Gender Issues — Is He a Hero or a Weirdo? How Norm Violations Influence the Halo Effect",
@@ -12561,7 +12612,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
@@ -12577,6 +12628,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12588,7 +12643,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Tener demasiadas opciones puede hacer que no elijas ninguna",
    "desc": "Se llama sobrecarga de elección. El término lo popularizó Alvin Toffler en 1970.",
-   "body": "Cuando hay muchísimas alternativas, comparar se vuelve agotador y aparece la indecisión: hay quien termina por no elegir nada o queda menos satisfecho con lo que eligió. Alvin Toffler introdujo el concepto en su libro El shock del futuro, de 1970. La investigadora Sheena Iyengar es conocida por su «estudio de las mermeladas», uno de los experimentos más citados sobre el tema. Investigaciones posteriores indican que el efecto depende del contexto y no aparece siempre.",
+   "body": "Cuando hay muchísimas alternativas, comparar se vuelve agotador y aparece la indecisión: hay quien termina por no elegir nada o queda menos satisfecho con lo que eligió. Es lo que se llama «sobrecarga de opciones». Tener demasiadas opciones parecidas cansa la mente, porque cada una debe compararse con todas las demás para elegir la mejor, y aumenta el miedo a equivocarse.\n\nAlvin Toffler introdujo el concepto en su libro El shock del futuro, de 1970. La investigadora Sheena Iyengar, profesora de la Escuela de Negocios de la Universidad de Columbia, es conocida por su «estudio de las mermeladas», uno de los experimentos más citados sobre el tema. Investigaciones posteriores indican que el efecto depende del contexto y no aparece siempre.",
+   "deep": "Iyengar ha dedicado su carrera a estudiar por qué queremos poder elegir, qué influye en cómo elegimos y cómo se pueden tomar mejores decisiones, y escribió el libro «El arte de elegir», de 2010. El psicólogo Barry Schwartz popularizó una idea relacionada en su libro «La paradoja de la elección», de 2004, cuyo subtítulo resume la tesis: «por qué más es menos». La sobrecarga de opciones está relacionada con fenómenos como la «parálisis por análisis» o el arrepentimiento del comprador. Un consejo práctico es reducir primero las opciones a unas pocas y comparar solo esas.",
    "sources": [
     {
      "t": "Wikipedia — Overchoice",
@@ -12614,7 +12670,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "teoria",
@@ -12626,6 +12682,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12637,7 +12697,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Solo podemos mantener unas 150 relaciones estables",
    "desc": "Es el «número de Dunbar», propuesto por el antropólogo Robin Dunbar.",
-   "body": "Dunbar relacionó el tamaño del cerebro de los primates con el tamaño de sus grupos sociales y estimó que los humanos podemos mantener relaciones significativas con alrededor de 150 personas. La cifra es una estimación muy discutida: otros investigadores obtienen rangos distintos con métodos diferentes.",
+   "body": "El antropólogo británico Robin Dunbar propuso en los años noventa un límite cognitivo para el número de personas con las que podemos mantener relaciones sociales estables: relaciones en las que sabemos quién es cada persona y cómo se relaciona con las demás. Relacionó el tamaño del cerebro de los primates, en concreto la proporción de neocorteza, con el tamaño de sus grupos sociales.\n\nExtrapolando esos datos al tamaño medio del cerebro humano, en 1992 estimó que los humanos podemos mantener relaciones significativas con alrededor de 150 personas. Dunbar lo explicó de forma sencilla: es el número de personas con las que no te daría vergüenza sentarte a tomar algo sin invitación si te las encontraras en un bar. La cifra es una estimación muy discutida: otros investigadores obtienen rangos distintos con métodos diferentes.",
+   "deep": "Dunbar encontró que varios grupos humanos parecían acercarse a esa cifra: unas 150 personas era el tamaño estimado de una aldea agrícola del Neolítico y el punto en que se dividían los asentamientos de los huteritas, una comunidad religiosa. En su libro «Acicalamiento, chismes y evolución del lenguaje», propuso además que el lenguaje surgió en parte para mantener unidos grupos grandes: los primates refuerzan sus lazos acicalándose, pero en grupos de unas 150 personas nuestros antepasados habrían tenido que pasar casi la mitad del tiempo acicalándose unos a otros, algo imposible. Hablar, y también chismear, habría sido una forma más eficiente de cuidar las relaciones.",
    "sources": [
     {
      "t": "Harvard University Press — Grooming, Gossip, and the Evolution of Language — Harvard University Press",
@@ -12662,7 +12723,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hipotesis",
@@ -12679,6 +12740,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12690,7 +12755,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Déjà vu» significa «ya visto» en francés",
    "desc": "Es la sensación de haber vivido antes una situación que es nueva.",
-   "body": "Es una experiencia común, sobre todo en personas jóvenes. No se conoce del todo su causa; varias hipótesis la relacionan con pequeños desajustes en los procesos de memoria y familiaridad del cerebro. No hay evidencia de que tenga que ver con vidas pasadas o premoniciones.",
+   "body": "El déjà vu es la sensación de haber vivido antes la situación presente. El término, que en francés significa «ya visto», lo acuñó el filósofo e investigador francés Émile Boirac en 1876. Es una ilusión de la memoria: aunque sentimos con fuerza que lo recordamos, el momento, el lugar y el contexto de esa experiencia «anterior» son inciertos o imposibles.\n\nEs una experiencia común: según distintas encuestas, alrededor de dos tercios de las personas dicen haberlo vivido al menos una vez, y suele durar apenas entre diez y treinta segundos. Ocurre más a menudo en la adolescencia tardía, y su frecuencia disminuye con la edad. No se conoce del todo su causa; varias hipótesis la relacionan con pequeños desajustes en los procesos de memoria y familiaridad del cerebro.",
+   "deep": "Se ha estudiado sobre todo en personas con epilepsia, que a veces lo experimentan justo antes de una crisis, lo que ha llevado a pensar que intervienen las regiones de la memoria situadas en los lóbulos temporales del cerebro. Sentir déjà vu de vez en cuando es normal; solo cuando es muy frecuente o constante algunos investigadores lo han asociado con problemas neurológicos, y en ese caso conviene consultar a un médico. Curiosamente, se ha asociado con un mayor nivel educativo y con personas que viajan a menudo o ven muchas películas. No hay evidencia de que tenga que ver con vidas pasadas o premoniciones, aunque desde que se acuñó el término hubo quien lo interpretó así.",
    "sources": [
     {
      "t": "Universidad (psu.edu) — Probing Question: What causes deja vu?",
@@ -12715,7 +12781,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12731,6 +12797,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12742,7 +12812,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Olvidamos la mayor parte de lo aprendido en pocos días si no lo repasamos",
    "desc": "Hermann Ebbinghaus midió la «curva del olvido» en 1885 experimentando consigo mismo.",
-   "body": "Ebbinghaus memorizó listas de sílabas sin sentido y midió cuánto recordaba con el tiempo. Vio que el olvido es muy rápido al principio y luego se estabiliza. También descubrió que repasar espaciando las sesiones ayuda a retener mucho mejor, idea en la que se basan muchas aplicaciones para aprender idiomas.",
+   "body": "A finales del siglo XIX, el psicólogo alemán Hermann Ebbinghaus hizo uno de los experimentos más importantes de la historia de la psicología. Usándose a sí mismo como único sujeto, memorizó listas de sílabas sin sentido y midió cuánto recordaba con el tiempo. Usó sílabas sin sentido, en lugar de palabras, porque las palabras evocan significados que alteran la medición.\n\nCon sus resultados dibujó la famosa «curva del olvido»: el olvido es muy rápido al principio y luego se estabiliza. Una gráfica típica de esta curva sugiere que, si no repasamos lo aprendido, olvidamos la mitad en cuestión de días o semanas. Ebbinghaus sostuvo que repasar con recuerdo activo, y especialmente espaciando las sesiones, ayuda a retener mucho mejor, idea en la que se basan muchas aplicaciones para aprender idiomas.",
+   "deep": "Para medir el olvido, Ebbinghaus usó el «método del ahorro»: contaba cuántas repeticiones necesitaba para volver a aprender una lista y las comparaba con las que había necesitado la primera vez. Si al principio necesitaba 25 repeticiones y un día después solo 20, había «ahorrado» un 20 %. En 2015, dos investigadores de la Universidad de Ámsterdam repitieron su experimento: uno de ellos pasó unas 70 horas aprendiendo listas y volviéndolas a aprender después de intervalos que iban de 20 minutos a 31 días, y obtuvo resultados parecidos a los de Ebbinghaus. Su idea central sigue en pie: cada repaso alarga el tiempo que podemos esperar antes del siguiente.",
    "sources": [
     {
      "t": "PLOS One — Replication and Analysis of Ebbinghaus’ Forgetting Curve",
@@ -12775,7 +12846,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -12791,6 +12862,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -12802,7 +12877,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Cuantas más personas presencian una emergencia, menos probable es que alguien ayude",
    "desc": "Es el efecto espectador: la responsabilidad se diluye en el grupo.",
-   "body": "Los psicólogos John Darley y Bibb Latané estudiaron el fenómeno tras el asesinato de Kitty Genovese en Nueva York en 1964. Investigaciones posteriores mostraron que la prensa exageró cuántos testigos hubo y cuánto ignoraron lo ocurrido, aunque el efecto espectador se ha observado en muchos experimentos. Pedir ayuda a una persona concreta lo contrarresta.",
+   "body": "El «efecto espectador» es la teoría según la cual es menos probable que una persona ayude a una víctima cuando hay otras personas presentes. Los psicólogos John Darley y Bibb Latané lo estudiaron en el laboratorio a partir de 1968, tras el asesinato de Kitty Genovese en Nueva York en 1964. Un periódico publicó que 38 testigos habían visto u oído el ataque sin ayudarla ni llamar a la policía.\n\nInvestigaciones posteriores mostraron que la prensa exageró cuántos testigos hubo y cuánto ignoraron lo ocurrido, aunque el efecto espectador se ha observado en muchos experimentos. Una de sus explicaciones es la «difusión de la responsabilidad»: cuando hay muchas personas, cada una siente que le corresponde menos actuar. Pedir ayuda a una persona concreta lo contrarresta.",
+   "deep": "En uno de los experimentos de Latané y Darley, mientras unos estudiantes rellenaban un cuestionario, se introducía humo en la sala. Cuando estaban solos, notaban el humo casi de inmediato, en unos 5 segundos; en grupo, tardaban hasta 20 segundos, y a menudo interpretaban la situación como si no fuera una emergencia al ver que los demás no reaccionaban. Sin embargo, la vida real ofrece una imagen más esperanzadora: un estudio de 2019 analizó más de 200 grabaciones de cámaras de seguridad de conflictos reales en el Reino Unido, los Países Bajos y Sudáfrica, y encontró que en más del 90 % de los casos al menos un testigo intervino para ayudar.",
    "sources": [
     {
      "t": "Social Psychology of Education — A classmate in distress: schoolchildren as bystanders and their reasons for how they act",
@@ -12827,7 +12903,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
@@ -12843,6 +12919,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20610,7 +20690,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Las expectativas de un maestro pueden influir en el rendimiento de sus alumnos",
    "desc": "Se llama efecto Pigmalión o efecto Rosenthal.",
-   "body": "En un estudio clásico, Robert Rosenthal y Lenore Jacobson dijeron a maestros que ciertos alumnos, elegidos al azar, tenían gran potencial. Al final del curso, algunos de esos alumnos mejoraron más. El estudio ha sido criticado y replicado con resultados variables, pero la idea de que las expectativas influyen sigue estudiándose.",
+   "body": "El «efecto Pigmalión» es el fenómeno por el que las expectativas altas sobre una persona mejoran su rendimiento. Debe su nombre al mito griego de Pigmalión, el escultor que se enamoró tanto de la estatua perfecta que había creado que esta cobró vida. Es un ejemplo de «profecía autocumplida»: una expectativa que, por sí misma, contribuye a hacerse realidad.\n\nEn un estudio clásico, publicado en 1968 en el libro «Pigmalión en el aula», Robert Rosenthal y Lenore Jacobson dijeron a maestros que ciertos alumnos, elegidos al azar, mostrarían grandes aumentos de su coeficiente intelectual durante el curso. Al final del curso, algunos de esos alumnos mejoraron más. El estudio ha sido criticado y replicado con resultados variables, pero la idea de que las expectativas influyen sigue estudiándose.",
+   "deep": "Las críticas al estudio original fueron duras: varios investigadores señalaron problemas metodológicos y estadísticos, y el psicólogo Lee Jussim concluyó en una revisión que, aunque las profecías autocumplidas son reales, de media tienden a ser débiles y frágiles. El efecto contrario, cuando las expectativas bajas empeoran el rendimiento, se conoce como «efecto Golem». Los investigadores describieron también un «efecto Galatea», por el nombre que la tradición da a la estatua: cuando la propia persona cree en su capacidad, rinde más. Según el modelo, los cambios en cómo se trata a quienes se espera mucho no suelen ser conscientes ni deliberados.",
    "sources": [
     {
      "t": "Universidad de Illinois — Teacher expectations: self-fulfilling prophecies (Jussim, Behavioral and Brain Sciences)",
@@ -20643,7 +20724,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hipotesis",
@@ -20660,6 +20741,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20671,7 +20756,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Cuando nuestras acciones contradicen nuestras creencias, sentimos incomodidad",
    "desc": "Leon Festinger lo llamó disonancia cognitiva en 1957.",
-   "body": "Para reducir esa tensión solemos cambiar una creencia o justificar lo que hicimos. Festinger ya había explorado la idea en su libro «Cuando la profecía falla» (1956), y la desarrolló en 1957 en su obra sobre la disonancia cognitiva.",
+   "body": "La disonancia cognitiva es la incomodidad que sentimos cuando mantenemos a la vez ideas, creencias o acciones que se contradicen. Para reducir esa tensión solemos cambiar una creencia, justificar lo que hicimos o actuar de forma que la contradicción parezca menor. El psicólogo Leon Festinger propuso que los seres humanos buscamos la coherencia interna para funcionar mentalmente en el mundo real.\n\nFestinger ya había explorado la idea en su libro «Cuando la profecía falla» (1956), y la desarrolló en 1957 en su obra sobre la disonancia cognitiva. En 1959, con Merrill Carlsmith, hizo un famoso experimento con 71 estudiantes de la Universidad de Stanford: debían pasar una hora haciendo tareas aburridas, como girar clavijas un cuarto de vuelta, y después convencer a otra persona de que eran divertidas.",
+   "deep": "A unos les pagaron 20 dólares por mentir, y a otros solo 1 dólar. Al final, cuando se les pidió valorar las tareas, los que habían recibido 1 dólar las calificaron como más agradables que los que habían recibido 20. La explicación: quienes cobraron 20 dólares tenían una buena razón para haber mentido, pero quienes cobraron solo 1 no tenían una justificación externa suficiente, así que, para reducir la disonancia, terminaron convenciéndose de que las tareas no eran tan aburridas. La disonancia cognitiva se ha estudiado también en fumadores, que, según un estudio de 2012 en cuatro países, usan creencias justificativas para reducir la disonancia que les produce seguir fumando a pesar de sus consecuencias.",
    "sources": [
     {
      "t": "Wikipedia — Cognitive dissonance",
@@ -20696,7 +20782,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "teoria",
@@ -20708,6 +20794,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20719,7 +20809,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Los sueños más vívidos ocurren durante la fase REM",
    "desc": "Durante esa fase los ojos se mueven rápido bajo los párpados y casi todos los músculos se relajan.",
-   "body": "REM significa «movimientos oculares rápidos» en inglés. A lo largo de la noche pasamos por varios ciclos de sueño, y la fase REM se repite varias veces. Durante ella, el cuerpo pierde casi todo su tono muscular, un estado llamado atonía REM, mientras el cerebro actúa casi como si estuviera despierto.",
+   "body": "REM significa «movimientos oculares rápidos» en inglés. La fase REM es una etapa del sueño que tienen todos los mamíferos, las aves y algunos reptiles, y se caracteriza por movimientos rápidos de los ojos, un tono muscular muy bajo en todo el cuerpo y la tendencia a tener sueños vívidos. En 1953, el profesor Nathaniel Kleitman y su estudiante Eugene Aserinsky la definieron y la relacionaron con los sueños.\n\nA lo largo de la noche pasamos por varios ciclos de sueño de unos 90 minutos, y la fase REM se repite varias veces. Durante ella, el cuerpo pierde casi todo su tono muscular, un estado llamado atonía REM, mientras el cerebro actúa casi como si estuviera despierto. Por eso también se la llama «sueño paradójico».",
+   "deep": "En los adultos, la fase REM ocupa entre el 20 y el 25 % del sueño total, unos 90 a 120 minutos por noche. El primer episodio REM llega unos 70 minutos después de quedarse dormido, y cada ciclo siguiente incluye una proporción mayor de sueño REM. Un recién nacido pasa más del 80 % de su sueño en esta fase. La atonía tiene una función protectora: impide que representemos físicamente lo que soñamos. Cuando falla, aparece el llamado trastorno de conducta del sueño REM, en el que la persona se mueve y actúa sus sueños. Aunque los sueños más vívidos ocurren en la fase REM, también se sueña en otras fases del sueño.",
    "sources": [
     {
      "t": "Nature Communications — Single-neuron activity and eye movements during human REM sleep and awake vision",
@@ -20744,7 +20835,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -20760,6 +20851,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
