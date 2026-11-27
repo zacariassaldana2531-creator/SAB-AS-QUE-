@@ -440,7 +440,7 @@ input{font:inherit;color:inherit}
 
 /* ===== Atlas del cuerpo humano y medicina ===== */
 .banners{display:grid;gap:12px;margin-top:12px}
-@media (min-width:1100px){.banners{grid-template-columns:1fr 1fr}.banners .ctry-banner,.banners .anat-banner,.banners .chem-banner{grid-template-columns:1fr}}
+@media (min-width:1100px){.banners{grid-template-columns:1fr 1fr}.banners .ctry-banner,.banners .anat-banner,.banners .chem-banner,.banners .gov-banner{grid-template-columns:1fr}}
 .anat-banner{display:grid;grid-template-columns:1fr;overflow:hidden;border-radius:var(--r3);background:radial-gradient(120% 140% at 100% 0%,rgba(255,122,107,.22),transparent 60%),var(--g2);border:1px solid var(--line);box-shadow:var(--shadow);transition:transform .2s var(--ease)}
 .anat-banner:active{transform:scale(.99)}
 .anat-banner .mosaic{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:16px 16px 0}
@@ -643,3 +643,104 @@ input{font:inherit;color:inherit}
 .prose .deep p+p{margin-top:.8em}
 .more-link{margin-top:10px}
 .prose .deep .deep-h svg{width:12px;height:12px}
+/* ===== Reyes, emperadores y conquistadores ===== */
+.gov-banner{display:grid;grid-template-columns:1fr;overflow:hidden;border-radius:var(--r3);border:1px solid var(--line);box-shadow:var(--shadow);transition:transform .2s var(--ease)}
+.gov-banner:active{transform:scale(.99)}
+.gov-banner .mosaic{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:16px 16px 0}
+.gov-banner .mosaic img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:10px;background:#f4f1ea;box-shadow:0 0 0 1px rgba(255,255,255,.1)}
+.gov-banner .txt{padding:20px 20px 22px;display:grid;gap:6px}
+.gov-banner b{font-family:var(--serif);font-size:24px;letter-spacing:-.3px}
+.gov-banner .txt>span:not(.eyebrow){color:var(--tx2);font-size:14.5px}
+.gov-banner .go{display:inline-flex;align-items:center;gap:6px;color:#ff9a8a!important;font-weight:650;margin-top:4px}
+.gov-banner .go svg{width:16px;height:16px}
+@media (min-width:760px){.gov-banner{grid-template-columns:1.1fr 1fr;align-items:center}.gov-banner .mosaic{padding:18px}}
+.gov-banner .mosaic{grid-template-columns:repeat(4,1fr)}
+.gov-banner .mt{position:relative;display:grid;place-items:center;aspect-ratio:1;border-radius:10px;background:color-mix(in srgb,var(--fc) 16%,var(--g3));border:1px solid color-mix(in srgb,var(--fc) 45%,transparent)}
+.gov-banner .mt i{position:absolute;top:5px;left:7px;font-style:normal;font-size:10px;font-weight:700;color:var(--tx3)}
+.gov-banner .mt b{font-family:var(--serif);font-size:24px;color:var(--fc);letter-spacing:-.3px}
+.gov-banner .mt.gm b{font-size:21px;letter-spacing:.5px}
+.gov-banner .mt.gm i{font-size:9px}
+.gov-banner{background:radial-gradient(120% 140% at 100% 0%,rgba(227,178,95,.24),transparent 60%),var(--g2)}
+.gov-banner .mt.gm b{font-size:21px;letter-spacing:.5px}
+.gov-banner .mt.gm i{font-size:9px}
+.gov-cover{display:grid;place-items:center;position:relative;isolation:isolate;background:radial-gradient(90% 90% at 30% 20%,color-mix(in srgb,var(--fc) 30%,transparent),transparent 70%),linear-gradient(160deg,color-mix(in srgb,var(--fc) 14%,var(--g3)),var(--g1))!important;border:1px solid color-mix(in srgb,var(--fc) 38%,transparent)}
+.gov-cover::before{content:"";position:absolute;inset:7px;border:1px solid color-mix(in srgb,var(--fc) 28%,transparent);border-radius:inherit;z-index:-1}
+.gov-cover b{font-family:var(--serif);font-size:30px;font-weight:600;color:var(--fc);letter-spacing:1px;line-height:1}
+.gov-cover em{position:absolute;bottom:22%;font-style:normal;font-family:var(--serif);font-size:12px;color:color-mix(in srgb,var(--fc) 80%,var(--tx));letter-spacing:2px}
+.gov-cover i{position:absolute;top:8px;left:10px;font-style:normal;font-size:10.5px;font-weight:700;color:var(--tx3)}
+.gov-cover small{display:none}
+.gov-cover.has-img img{object-fit:cover}
+.gov-cover.big{aspect-ratio:4/3;border-radius:var(--r2) var(--r2) 0 0;border-width:0 0 1px}
+.gov-cover.big b{font-size:54px}.gov-cover.big em{font-size:16px;bottom:18%}
+.gov-cover.big small{display:block;position:absolute;bottom:10px;right:12px;font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--tx3)}
+.gov-cover.hero{width:112px;aspect-ratio:3/4;border-radius:16px;flex:none}
+.gov-cover.hero b{font-size:40px}
+.gov-hero{margin-top:8px}
+.gov-hero p{color:var(--tx2);margin-top:8px;max-width:62ch}
+.gov-stats{margin-top:16px}
+.gov-filters{display:grid;gap:10px;margin:18px 0 6px}
+.gov-filters .seg{margin-top:0}
+.seg button .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:1px}
+.gov-sel{display:grid;gap:5px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--tx3)}
+.gov-sel select{height:42px;padding:0 12px;border-radius:12px;background:var(--g2);color:var(--tx);border:1px solid var(--line);font:inherit;font-size:15px;font-weight:550;letter-spacing:0;text-transform:none}
+.gov-grid{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:760px){.gov-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:1100px){.gov-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.gov-card{display:flex;flex-direction:column;border-radius:var(--r2);background:var(--g2);border:1px solid var(--line);overflow:hidden;color:var(--tx);text-decoration:none;transition:border-color .2s,transform .2s var(--ease)}
+.gov-card:hover{border-color:var(--line2)}.gov-card:active{transform:scale(.985)}
+.gov-card[hidden]{display:none}
+.gov-card .in{padding:12px 13px 14px;display:grid;gap:5px}
+.gov-card .kind{font-size:9.5px;font-weight:800;letter-spacing:1.1px;text-transform:uppercase;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.gov-card h3{font-family:var(--serif);font-size:18px;line-height:1.18;letter-spacing:-.2px}
+.gov-card p{color:var(--tx2);font-size:13px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.gov-card .meta{font-size:12px;color:var(--tx3)}
+@media (max-width:420px){.gov-card p{display:none}}
+.gov-chrono{margin-top:30px}
+.gch{margin:14px 0 6px;padding:14px 14px 10px;border-radius:var(--r2);background:var(--g2);border:1px solid var(--line)}
+.gch-axis{position:relative;height:18px;margin-left:38%;font-size:10.5px;color:var(--tx3)}
+.gch-axis span{position:absolute;transform:translateX(-50%);white-space:nowrap}
+.gch-axis span:first-child{transform:none}.gch-axis span:last-child{transform:translateX(-100%)}
+.gch-bars{display:grid;gap:3px;margin-top:4px}
+.gch-row{display:grid;grid-template-columns:38% 1fr;align-items:center;gap:0;min-height:26px;color:var(--tx);text-decoration:none;border-radius:8px}
+.gch-row:hover{background:var(--g3)}
+.gch-n{font-size:12.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:8px}
+.gch-t{position:relative;height:10px;border-radius:99px;background:color-mix(in srgb,var(--line) 70%,transparent)}
+.gch-b{position:absolute;top:0;bottom:0;border-radius:99px;background:color-mix(in srgb,var(--fc) 55%,transparent)}
+.gch-r{position:absolute;top:-3px;width:3px;height:16px;border-radius:2px;background:var(--fc);transform:translateX(-1px)}
+.gch-leg{font-size:11.5px;color:var(--tx3);margin-top:8px}
+.gch-leg .b,.gch-leg .r{display:inline-block;vertical-align:-1px;margin-right:4px}
+.gch-leg .b{width:18px;height:8px;border-radius:99px;background:color-mix(in srgb,var(--fc) 55%,transparent)}
+.gch-leg .r{width:3px;height:12px;border-radius:2px;background:var(--fc)}
+.gch-h{font-size:12px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--tx3);margin:20px 0 10px}
+.gev{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.gev-b{width:100%;display:grid;grid-template-columns:92px 1fr;gap:12px;align-items:start;text-align:left;padding:11px 13px;border-radius:14px;background:var(--g2);border:1px solid var(--line);color:var(--tx);font:inherit;cursor:pointer}
+.gev-b[aria-expanded="true"]{border-color:var(--line2);border-radius:14px 14px 0 0}
+.gev-b .y{font-family:var(--serif);font-size:15px;font-weight:650;color:var(--fc,var(--ac))}
+.gov-chrono .gev-b .y{color:#e3b25f}
+.gev-b .t b{display:block;font-weight:600;font-size:14.5px;line-height:1.35}
+.gev-b .t small{display:block;color:var(--tx3);font-size:12.5px;margin-top:3px}
+.gev-x{padding:12px 14px 14px;border:1px solid var(--line2);border-top:0;border-radius:0 0 14px 14px;background:var(--g1);font-size:14.5px;line-height:1.55;display:grid;gap:8px}
+.gev-x .btn{justify-self:start}
+.gov-head{display:flex;gap:16px;align-items:center}
+.gov-head h1{margin-top:10px}
+@media (max-width:420px){.gov-cover.hero{width:84px}.gov-cover.hero b{font-size:30px}}
+.gov-kvs{margin:18px 0 6px}
+.gov-facts ul{margin:0;padding-left:1.1em}.gov-facts li{margin:0 0 .7em}
+.gov-tl::before{left:86px}
+.gov-tl li{grid-template-columns:80px 1fr}
+.gov-tl li::after{left:82px;background:#e3b25f}
+.gov-tl .tl-y{font-size:13px;text-align:right}
+.gov-rel{display:grid;gap:10px}
+@media (min-width:760px){.gov-rel{grid-template-columns:1fr 1fr}}
+.gov-relc{display:grid;grid-template-columns:72px 1fr;gap:12px;align-items:start;padding:10px;border-radius:var(--r2);background:var(--g2);border:1px solid var(--line);color:var(--tx);text-decoration:none}
+.gov-relc .cover{aspect-ratio:1;border-radius:12px}.gov-relc .cover b{font-size:22px}.gov-relc .cover i{display:none}
+.gov-relc b{font-family:var(--serif);font-size:16.5px}.gov-relc small{display:block;color:var(--tx3);font-size:12px;margin-top:2px}.gov-relc p{color:var(--tx2);font-size:13.5px;line-height:1.45;margin-top:5px}
+.rowc .gov-cover b{font-size:28px}
+.credit-line{font-size:12px;margin-top:6px}
+.gov-stats{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.gov-stats .kv{padding:12px 13px}.gov-stats .kv b{font-size:17px}
+.gov-jump{display:inline-flex;align-items:center;gap:6px;margin-top:12px;color:#e3b25f;font-weight:650;font-size:14.5px;text-decoration:none}
+.gov-jump svg{width:16px;height:16px}
+.gov-cover i{top:12px;left:14px}
+.gov-kvs .kv{padding:11px 13px}.gov-kvs .kv b{font-size:14.5px}
+.gov-jump{background:none;border:0;padding:0;font:inherit;font-weight:650;cursor:pointer}

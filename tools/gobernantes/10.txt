@@ -1,0 +1,165 @@
+@carlos-v
+name: Carlos V
+alt: Carlos I de España
+title: Emperador del Sacro Imperio y rey de España
+kind: emperador
+era: moderna
+civ: Habsburgo
+realm: Monarquía hispánica y Sacro Imperio Romano Germánico
+region: Europa y América
+y: 1519
+born: 24 de febrero de 1500, Gante (actual Bélgica)
+died: 21 de septiembre de 1558, monasterio de Yuste (Extremadura, España)
+reign: rey de España de 1516 a 1556; emperador de 1519 a 1556
+lead: Por una cadena de herencias, reunió bajo su mando España, los Países Bajos, gran parte de Italia, las tierras de los Habsburgo y un imperio en América: de ahí la frase de que en sus dominios «nunca se ponía el sol». Pasó la vida en guerra y terminó retirándose a un monasterio.
+## El heredero de medio mundo
+Carlos nació el 24 de febrero de 1500 en Gante, en los Países Bajos. Era hijo de Felipe el Hermoso, de la casa de Habsburgo, y de Juana de Castilla, hija de los Reyes Católicos. Sus cuatro abuelos le dejaron herencias enormes: en 1506 recibió los Países Bajos y los territorios de Borgoña; en 1516, las coronas españolas, con sus posesiones en Italia y América; y en 1519, las tierras de los Habsburgo en Austria.
+## Emperador
+En 1519 fue elegido emperador del Sacro Imperio Romano Germánico, tras una costosa competición con el rey Francisco I de Francia. En 1530 el papa lo coronó en Bolonia; fue el último emperador coronado por un papa. En España, al principio, se le veía como un rey extranjero que apenas hablaba castellano, y tuvo que sofocar la revuelta de los Comuneros en Castilla.
+## Contra Lutero
+En 1521, en la Dieta de Worms, se enfrentó al reformador Martín Lutero, que se negó a retractarse, y lo declaró fuera de la ley. Durante décadas intentó frenar la Reforma protestante. En 1547 venció a los príncipes protestantes alemanes en la batalla de Mühlberg, pero finalmente tuvo que aceptar la Paz de Augsburgo, en 1555, que permitía a cada príncipe alemán elegir entre el catolicismo y el luteranismo para su territorio.
+## Guerras sin fin
+Pasó la mayor parte de su reinado en guerra contra Francia, contra el Imperio otomano y contra los príncipes protestantes. En 1525, en la batalla de Pavía, sus tropas capturaron al rey Francisco I de Francia. En 1527, sus soldados, sin paga y amotinados, saquearon Roma. En 1529 Viena resistió el asedio de Solimán el Magnífico, y en 1535 Carlos conquistó Túnez. Estas guerras constantes lo dejaron profundamente endeudado.
+## Un imperio en América
+Durante su reinado, Hernán Cortés conquistó el Imperio azteca y Francisco Pizarro el Imperio inca. Las riquezas americanas financiaron sus guerras. Ante las denuncias de abusos contra los indígenas, como las de fray Bartolomé de las Casas, en 1542 promulgó las Leyes Nuevas para protegerlos, y en 1550 se celebró en Valladolid un célebre debate sobre la forma de tratar a los pueblos de América.
+## Familia y salud
+En 1526 se casó con Isabel de Portugal, a quien amó profundamente; tras su muerte en 1539 no volvió a casarse. Sufría de gota, que le causaba dolores terribles, y tenía la mandíbula inferior muy prominente, el llamado «prognatismo de los Habsburgo», que le dificultaba masticar.
+## La renuncia
+Agotado y enfermo, entre 1554 y 1556 hizo algo excepcional para un monarca de su tiempo: renunció a sus coronas en vida. Dio España, sus posesiones en Italia, los Países Bajos y América a su hijo Felipe II, y el título imperial a su hermano Fernando. En su discurso de despedida, según se cuenta, dijo que su vida había sido un largo viaje. Se retiró al monasterio de Yuste, en Extremadura, donde murió el 21 de septiembre de 1558.
+* En sus dominios, se decía, «nunca se ponía el sol».
+* Fue el último emperador coronado por un papa.
+* Se le atribuye una frase sobre las lenguas: que hablaba español a Dios, italiano a las mujeres, francés a los hombres y alemán a su caballo, aunque probablemente sea apócrifa.
+- 1500 | Nace en Gante
+- 1516 | Rey de España
+- 1519 | Es elegido emperador
+- 1521 | Dieta de Worms contra Lutero
+- 1525 | Captura de Francisco I en Pavía
+- 1527 | Saco de Roma
+- 1547 | Victoria en Mühlberg
+- 1556 | Renuncia a sus coronas
+- 1558 | Muere en Yuste
+rel: isabel-la-catolica | Su abuela, de quien heredó Castilla.
+rel: soliman-el-magnifico | Su gran rival otomano.
+rel: moctezuma-ii | El Imperio azteca cayó ante Cortés durante su reinado.
+rel: atahualpa | El Imperio inca cayó ante Pizarro durante su reinado.
+src: https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor | Wikipedia: Charles V, Holy Roman Emperor
+
+@moctezuma-ii
+name: Moctezuma II
+alt: Moctezuma Xocoyotzin, Motecuhzoma
+title: Huey tlatoani de los mexicas
+kind: emperador
+era: moderna
+civ: Mexicas (aztecas)
+realm: Imperio azteca (Triple Alianza)
+region: América del Norte
+y: 1502
+born: hacia 1466, Tenochtitlan
+died: 29 de junio de 1520, Tenochtitlan
+reign: 1502 o 1503 – 1520
+lead: Gobernó el Imperio azteca en su máxima extensión y recibió a Hernán Cortés en Tenochtitlan en 1519. Murió prisionero de los españoles en circunstancias que todavía se discuten, y poco después su imperio cayó.
+## Guerrero y sacerdote
+Moctezuma nació hacia 1466 en Tenochtitlan, la gran capital de los mexicas, construida sobre un lago en el valle de México. Era hijo del emperador Axayácatl. Antes de reinar se formó como guerrero y como sacerdote. En 1502 o 1503 fue elegido huey tlatoani, el máximo gobernante, que significa «gran orador». Se le llama Xocoyotzin, «el joven», para distinguirlo de Moctezuma I, su bisabuelo.
+## El imperio en su apogeo
+Bajo su gobierno, el imperio alcanzó su mayor extensión, llegando por el sur hasta el Soconusco y el istmo de Tehuantepec. Muchas de sus campañas, sin embargo, buscaban aplastar rebeliones más que conquistar nuevas tierras. Moctezuma centralizó el poder en su persona y reforzó la separación entre nobles y plebeyos. En los primeros años de su reinado, una sequía y una hambruna le obligaron a tomar medidas de emergencia y a aumentar los tributos.
+## Enemigos cercanos
+No todo el mundo mesoamericano estaba sometido. Los mexicas mantenían las llamadas «guerras floridas» con sus vecinos, en parte para capturar prisioneros para los sacrificios. Moctezuma sufrió una humillante derrota en Atlixco frente a Huejotzingo, y el conflicto con Tlaxcala se agravó. Los tlaxcaltecas, enemigos de los mexicas, se convertirían más tarde en los principales aliados de los españoles.
+## La llegada de los españoles
+En 1518 recibió las primeras noticias de unos extranjeros llegados por el mar. En noviembre de 1519, Hernán Cortés entró en Tenochtitlan con sus soldados y miles de aliados indígenas, y Moctezuma lo recibió. Poco después, Cortés lo tomó prisionero en su propio palacio y gobernó a través de él.
+## ¿Creyó que Cortés era un dios?
+Según una famosa historia, Moctezuma habría creído que Cortés era el dios Quetzalcóatl, que regresaba. Muchos historiadores dudan de esta leyenda y creen que fue elaborada después de la conquista para explicar su comportamiento. Las fuentes españolas suelen presentarlo como un hombre débil y supersticioso, pero otras lo describen como un gobernante capaz, o como un tirano.
+## Una muerte discutida
+En mayo de 1520, el capitán Pedro de Alvarado ordenó una matanza de nobles mexicas durante una fiesta religiosa en el Templo Mayor, y la ciudad se rebeló. Moctezuma murió el 29 de junio de 1520. Las fuentes no se ponen de acuerdo: los relatos españoles dicen que murió por las piedras que le lanzó su propio pueblo cuando intentaba calmarlo, mientras que varias fuentes indígenas afirman que lo mataron los españoles.
+## El fin del imperio
+Lo sucedió su hermano Cuitláhuac, que murió pocos meses después, probablemente de viruela, y luego Cuauhtémoc. En 1521, Tenochtitlan cayó ante los españoles y sus aliados, y sobre sus ruinas se construyó la Ciudad de México.
+* En Viena se conserva un famoso penacho de plumas conocido como el «penacho de Moctezuma», aunque no hay pruebas de que fuera suyo.
+* Su nombre significa aproximadamente «el que se enoja como señor».
+* Algunos de sus descendientes se integraron en la nobleza española.
+- 1466 | Nace en Tenochtitlan (fecha aproximada)
+- 1502 | Es elegido huey tlatoani
+- 1519 | Cortés entra en Tenochtitlan
+- 1520 | Muere prisionero de los españoles
+- 1521 | Caída de Tenochtitlan
+rel: carlos-v | Rey de España durante la conquista del Imperio azteca.
+rel: atahualpa | Su caso es parecido: otro emperador americano capturado por un pequeño grupo de españoles.
+rel: pachacutec | Contemporáneo de sus antecesores, fundador del otro gran imperio americano.
+src: https://en.wikipedia.org/wiki/Moctezuma_II | Wikipedia: Moctezuma II
+
+@pachacutec
+name: Pachacútec
+alt: Pachacuti Inca Yupanqui, Cusi Yupanqui
+title: Sapa Inca, fundador del Imperio inca
+kind: emperador
+era: media
+civ: Incas
+realm: Tahuantinsuyo (Imperio inca)
+region: América del Sur
+y: 1438
+born: desconocido
+died: hacia 1471, según la cronología más usada
+reign: hacia 1438 – hacia 1471 (según John Rowe; las fechas están discutidas)
+lead: Convirtió un pequeño reino en torno a Cusco en el Imperio inca, el mayor de la América precolombina. Reconstruyó Cusco como capital imperial, y según la mayoría de los arqueólogos, Machu Picchu fue construida como una de sus residencias.
+## «El que da vuelta al mundo»
+Su nombre en quechua, Pachakutiy Inka Yupanki, suele traducirse como «el que da vuelta al mundo» o «el que transforma el mundo». La forma «Pachacútec» procede del cronista Garcilaso de la Vega, en una obra de 1609. Su nombre original era Cusi Yupanqui.
+## La guerra contra los chancas
+Según la tradición, era hijo del inca Viracocha. Cuando los chancas, un pueblo poderoso, atacaron Cusco, el viejo rey y su heredero, Urco, abandonaron la ciudad. Cusi Yupanqui se quedó a defenderla y venció a los chancas en Yahuar Pampa. Tras una breve guerra civil en la que murió Urco, fue coronado y tomó el nombre de Pachacútec. La historiadora María Rostworowski sostuvo que en realidad no era hijo de Viracocha.
+## La expansión del imperio
+Pachacútec extendió el dominio inca a la región del lago Titicaca, a parte de las laderas amazónicas, a la cuenca de Quito y a zonas de la costa. Conquistó a pueblos como los collas, los lupacas y los chinchas. Su hijo, Túpac Inca Yupanqui, dirigió campañas contra el poderoso reino chimú de la costa norte. El imperio se llamaba Tahuantinsuyo, «las cuatro regiones juntas».
+## Un gran organizador
+Pachacútec reconstruyó Cusco como capital imperial y reconstruyó el Coricancha, el gran templo dorado. Para mantener unido el imperio usó la reciprocidad y el intercambio de regalos con los jefes locales, y también traslados forzosos de población, los llamados mitimaes, para asegurar las regiones conquistadas. A su reinado se atribuye también la expansión de la red de caminos. Las fuentes no se ponen de acuerdo sobre si promovió sobre todo el culto al Sol, Inti, o al dios creador Viracocha.
+## Machu Picchu
+La mayoría de los arqueólogos creen que Machu Picchu, en lo alto de los Andes, fue construida como finca o residencia real de Pachacútec. Hoy es Patrimonio de la Humanidad y uno de los lugares más visitados de América.
+## La sucesión
+Primero nombró corregente y heredero a su hijo Amaru Yupanqui, pero luego lo sustituyó por Túpac Inca Yupanqui, que tenía más talento militar. Según la cronología más usada, Pachacútec murió de enfermedad hacia 1471. Su momia fue venerada y trasladada después de la conquista española.
+## ¿Historia o mito?
+Como los incas no tenían escritura alfabética, lo que sabemos de él procede de crónicas españolas escritas décadas después. Por eso algunos historiadores lo consideran un personaje real, el primer emperador inca, mientras que otros, como Pierre Duviols o Tom Zuidema, ven en él una figura en parte mitológica. Tampoco hay acuerdo sobre las fechas: John Rowe propuso de 1438 a 1471, y las dataciones por radiocarbono apuntan a un inicio de la expansión a principios del siglo XV.
+* Se le atribuye un poema en su lecho de muerte, en el que compara la vida con una flor que crece, envejece y se marchita.
+* El nombre «Pachacútec» lo popularizó Garcilaso de la Vega.
+* Aparece como líder en varios videojuegos de estrategia.
+- 1438 | Vence a los chancas y es coronado (fecha según Rowe)
+- 1471 | Muere (fecha según Rowe)
+- 1609 | Garcilaso de la Vega publica la obra que populariza el nombre «Pachacútec»
+rel: atahualpa | Su descendiente, último gran soberano del imperio que él fundó.
+rel: moctezuma-ii | El otro gran imperio de la América precolombina.
+src: https://en.wikipedia.org/wiki/Pachacuti | Wikipedia: Pachacuti
+
+@atahualpa
+name: Atahualpa
+alt: Atawallpa
+title: Último Sapa Inca efectivo
+kind: emperador
+era: moderna
+civ: Incas
+realm: Tahuantinsuyo (Imperio inca)
+region: América del Sur
+y: 1532
+born: hacia 1502 (se discute si en Cusco, Quito o Caranqui)
+died: 26 de julio de 1533, Cajamarca (actual Perú), ejecutado
+reign: 1532–1533
+lead: Ganó una guerra civil contra su hermano por el trono inca y, justo en ese momento, fue capturado por un pequeño grupo de españoles dirigidos por Francisco Pizarro. Ofreció llenar una habitación de oro y plata para salvarse, pero fue ejecutado.
+## Hijo del gran Huayna Cápac
+Atahualpa nació hacia 1502. Era hijo del emperador Huayna Cápac, que llevó al Imperio inca a su mayor extensión. Los historiadores no se ponen de acuerdo sobre dónde nació: se han propuesto Cusco, Quito y Caranqui. El propio Atahualpa, interrogado antes de morir, dijo que en Caranqui.
+## Una epidemia y una guerra civil
+Hacia 1525, una epidemia de viruela, enfermedad llegada con los europeos antes que los propios conquistadores, mató a Huayna Cápac y a su heredero. El trono pasó a Huáscar, medio hermano de Atahualpa, mientras Atahualpa gobernaba la región de Quito. Las relaciones entre ambos empeoraron hasta estallar una guerra civil, de 1529 a 1532. Los generales de Atahualpa, Quisquis y Chalcuchímac, ganaron las batallas decisivas, capturaron a Huáscar y tomaron Cusco.
+## Cajamarca
+Atahualpa, ya victorioso, estaba acampado en Cajamarca cuando llegó el pequeño ejército de Francisco Pizarro, el 15 de noviembre de 1532. Al día siguiente, Atahualpa acudió a la plaza de la ciudad con su séquito, sin esperar un ataque. Los españoles les tendieron una emboscada, mataron a muchos de sus acompañantes y lo capturaron.
+## El rescate
+Prisionero, Atahualpa ofreció a cambio de su libertad llenar una habitación de oro y otras dos de plata. Durante meses llegaron a Cajamarca objetos de oro y plata de todo el imperio, que los españoles fundieron. Mientras tanto, desde su cautiverio, Atahualpa ordenó matar a su hermano Huáscar, temiendo que los españoles lo usaran contra él.
+## Juicio y ejecución
+A pesar del rescate, los españoles lo juzgaron y lo condenaron a muerte, acusándolo, entre otras cosas, de la muerte de Huáscar. Lo iban a quemar, pero aceptó ser bautizado, y por eso fue ejecutado por garrote, el 26 de julio de 1533. Su muerte causó polémica incluso entre los propios españoles, y el rey Carlos V la desaprobó.
+## Después de Atahualpa
+Los españoles nombraron emperador a su hermano Túpac Huallpa, y después a Manco Inca, que acabaría rebelándose contra ellos. La resistencia inca continuó durante décadas desde Vilcabamba, pero el imperio estaba ya en manos españolas.
+## Una leyenda viva
+Tras su muerte, se extendió entre los pueblos andinos un mito según el cual Atahualpa resucitaría algún día para restaurar el mundo inca. Su historia ha inspirado obras como la pieza teatral «La caza real del sol», de Peter Shaffer, y la novela «Civilizaciones», de Laurent Binet.
+* La habitación del rescate, en Cajamarca, se puede visitar hoy.
+* La viruela mató a su padre años antes de que los españoles llegaran al imperio.
+* En Ecuador es una figura histórica muy reivindicada.
+- 1502 | Nace (fecha aproximada)
+- 1525 | Muere su padre, Huayna Cápac, de viruela (fecha aproximada)
+- 1529 | Comienza la guerra civil contra Huáscar
+- 1532 | Vence a Huáscar; es capturado en Cajamarca (16 de noviembre)
+- 1533 | Es ejecutado (26 de julio)
+rel: pachacutec | Su antepasado, fundador del Imperio inca.
+rel: moctezuma-ii | Otro emperador americano capturado por conquistadores españoles.
+rel: carlos-v | Rey de España durante la conquista del Imperio inca.
+src: https://en.wikipedia.org/wiki/Atahualpa | Wikipedia: Atahualpa

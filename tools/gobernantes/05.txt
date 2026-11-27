@@ -1,0 +1,165 @@
+@jerjes-i
+name: Jerjes I
+alt: Jerjes el Grande
+title: Rey de reyes de Persia
+kind: rey
+era: antigua
+civ: Persia
+realm: Imperio aqueménida
+region: Persia (Irán)
+y: -486
+born: hacia 518 a. C.
+died: agosto de 465 a. C., asesinado
+reign: 486–465 a. C.
+lead: Heredó el mayor imperio de su tiempo y quiso conquistar Grecia con un ejército gigantesco. Ganó en las Termópilas e incendió Atenas, pero fue derrotado en Salamina. Murió asesinado por el jefe de su propia guardia.
+## El heredero elegido
+Jerjes nació hacia el año 518 antes de Cristo. Era hijo de Darío el Grande y de Atosa, hija de Ciro, el fundador del imperio. Su nombre, en persa antiguo Xshayarsha, significa «el que gobierna sobre héroes». Aunque tenía un hermano mayor, Artobazanes, Darío lo eligió a él como sucesor. Fue coronado a finales del 486 antes de Cristo, con unos 32 años.
+## Rebeliones en Egipto y Babilonia
+Al comienzo de su reinado tuvo que sofocar dos grandes revueltas. La de Egipto fue aplastada en enero del 484 antes de Cristo, y Jerjes nombró gobernador a su hermano Aquémenes. En Babilonia hubo dos rebeliones; tras la segunda, sofocada en el 481, Jerjes dejó de usar el título de «rey de Babilonia» y dividió esa gran provincia en partes más pequeñas.
+## La invasión de Grecia
+En el 480 antes de Cristo, Jerjes invadió Grecia para vengar la derrota de su padre en Maratón. El historiador griego Heródoto habló de un ejército de un millón de hombres, más los 10.000 Inmortales, la guardia de élite. Los historiadores modernos consideran esa cifra imposible y calculan unos 60.000 combatientes, que aun así formaban un ejército enorme para la época.
+Para cruzar a Europa mandó construir puentes de barcos sobre el estrecho del Helesponto. Una tormenta destruyó los primeros, y según Heródoto, Jerjes, furioso, ordenó azotar el mar 300 veces y arrojar grilletes a sus aguas. El segundo intento tuvo éxito. También hizo excavar un canal a través de la península del monte Athos, para evitar las peligrosas tormentas de su costa.
+## Termópilas, Atenas y Salamina
+En el desfiladero de las Termópilas, una pequeña fuerza griega dirigida por el rey espartano Leónidas resistió durante días, hasta que un griego llamado Efialtes mostró a los persas un sendero de montaña para rodearlos. Leónidas y sus hombres murieron. Jerjes tomó Atenas y la incendió: los arqueólogos todavía encuentran la capa de destrucción. Pero en septiembre del 480 antes de Cristo, la flota griega venció a la persa en la batalla de Salamina. Jerjes regresó a Asia con gran parte de su ejército, dejando en Grecia a su general Mardonio, que fue derrotado al año siguiente en Platea. Los persas nunca volvieron a invadir Grecia.
+## Un gran constructor
+En Persépolis, Jerjes terminó la Puerta de Todas las Naciones y el Apadana, la gran sala de audiencias, y construyó la Sala de las Cien Columnas. También decoró los muros del Apadana con ladrillos esmaltados de colores.
+## Un final violento
+En agosto del 465 antes de Cristo, Artabano, comandante de la guardia real, asesinó a Jerjes con ayuda de un eunuco de palacio. También fue asesinado su heredero, Darío. Finalmente lo sucedió su tercer hijo, Artajerjes I.
+## Entre la historia y la Biblia
+A Jerjes se le identifica con Asuero, el rey persa del libro bíblico de Ester, aunque muchos estudiosos consideran ese relato una ficción histórica. Su imagen en Occidente procede sobre todo de los historiadores griegos, sus enemigos, que lo presentaron como un rey soberbio; por eso los historiadores actuales tratan esas descripciones con cautela.
+* Según Heródoto, mandó azotar el mar 300 veces por haber destruido sus puentes.
+* El compositor Händel le dedicó una ópera, «Serse», estrenada en Londres en 1738.
+* Aparece en la película «300», de 2007, basada en el cómic de Frank Miller, una versión muy fantasiosa de la batalla de las Termópilas.
+- -518 | Nace (fecha aproximada)
+- -486 | Sucede a su padre, Darío I
+- -484 | Sofoca la rebelión de Egipto
+- -480 | Termópilas, incendio de Atenas y derrota en Salamina
+- -479 | Derrota persa en Platea
+- -465 | Es asesinado por Artabano
+rel: dario-i | Su padre, cuya derrota en Maratón quiso vengar invadiendo Grecia.
+rel: alejandro-magno | Siglo y medio después, Alejandro conquistó Persia e incendió Persépolis, la ciudad que Jerjes embelleció.
+src: https://en.wikipedia.org/wiki/Xerxes_I | Wikipedia: Xerxes I
+
+@filipo-ii
+name: Filipo II de Macedonia
+alt: Filipo de Macedonia
+title: Rey de Macedonia
+kind: rey
+era: antigua
+civ: Grecia
+realm: Reino de Macedonia
+region: Grecia
+y: -359
+born: 382 a. C., Pela
+died: octubre de 336 a. C., Egas, asesinado
+reign: 359–336 a. C.
+lead: Convirtió un reino pobre y amenazado del norte de Grecia en la mayor potencia militar de su tiempo, sometió a las ciudades griegas y preparó la invasión de Persia. Fue asesinado antes de iniciarla, y su hijo Alejandro la llevó a cabo.
+## Rehén en Tebas
+Filipo nació en el año 382 antes de Cristo en Pela, la capital de Macedonia. Era el hijo menor del rey Amintas III y de Eurídice. De joven pasó unos tres años como rehén en la ciudad griega de Tebas, entonces la más poderosa de Grecia. Allí recibió formación militar y diplomática del gran general tebano Epaminondas, algo que marcaría su vida.
+## Un reino en crisis
+Macedonia era entonces un reino débil, rodeado de enemigos. En el 359 antes de Cristo, su hermano, el rey Perdicas III, murió luchando contra los ilirios. Filipo gobernó al principio como regente de su sobrino, todavía un bebé, pero pronto tomó el trono para sí mismo. En poco tiempo venció a los peonios y a los tracios.
+## El ejército que cambió la guerra
+Filipo transformó el ejército macedonio. Mejoró el entrenamiento y la disciplina, premió a los soldados más valientes con ascensos y pagas, y amplió la caballería de 600 a 4.000 jinetes. Creó la famosa falange macedonia, una formación de infantería cuyos soldados llevaban la sarisa, una lanza muy larga que se le atribuye a él. Combinó la infantería, la caballería, las máquinas de asedio, la diplomacia y las alianzas matrimoniales: tuvo siete esposas.
+## Oro y expansión
+En el 357 antes de Cristo tomó Anfípolis, para controlar las minas de oro del monte Pangeo, y fundó cerca la ciudad de Filipos. Ese oro financió sus campañas. Durante el asedio de Metone, en el 355 o 354 antes de Cristo, una flecha le hizo perder el ojo derecho. En el 348 destruyó la ciudad de Olinto.
+## El dueño de Grecia
+En el 338 antes de Cristo derrotó a Atenas y Tebas en la batalla de Queronea, y se convirtió en el amo de Grecia. Organizó a las ciudades griegas en la Liga de Corinto, que lo nombró jefe militar supremo para una gran invasión del Imperio persa.
+## Asesinado en una boda
+En octubre del 336 antes de Cristo, en Egas, la antigua capital de Macedonia, se celebraba la boda de su hija Cleopatra. Durante la fiesta, Pausanias, uno de sus guardaespaldas, lo apuñaló. Pausanias intentó huir, pero su caballo tropezó y sus perseguidores lo mataron. Los motivos del crimen se discuten desde la Antigüedad: algunos sospecharon de su esposa Olimpia y de su hijo Alejandro, que se convirtió en rey ese mismo año.
+## Su legado
+Filipo dejó a su hijo un ejército formidable y una Grecia sometida, la base de las conquistas de Alejandro Magno. En Vergina, en el norte de Grecia, se descubrieron tumbas reales, y la llamada Tumba II se atribuye generalmente a Filipo, aunque un estudio de 2015 propuso que su tumba es la Tumba I. Fundó ciudades como Filipópolis, la actual Plovdiv, en Bulgaria.
+* Su caballo de carreras ganó en los Juegos Olímpicos del 356 antes de Cristo, el mismo año en que nació Alejandro.
+* Cuando amenazó a Esparta con lo que haría si la conquistaba, los espartanos le respondieron con una sola palabra: «Si».
+* Perdió el ojo derecho en el asedio de Metone.
+- -382 | Nace en Pela
+- -359 | Llega al trono de Macedonia
+- -357 | Toma Anfípolis y sus minas de oro
+- -338 | Vence a Atenas y Tebas en Queronea
+- -336 | Asesinado en Egas
+rel: alejandro-magno | Su hijo y sucesor, que usó el ejército de Filipo para conquistar Persia.
+rel: dario-i | Filipo preparaba la invasión del imperio que Darío había organizado.
+src: https://en.wikipedia.org/wiki/Philip_II_of_Macedon | Wikipedia: Philip II of Macedon
+
+@anibal
+name: Aníbal Barca
+alt: Aníbal
+title: General de Cartago
+kind: general
+era: antigua
+civ: Cartago
+realm: República de Cartago
+region: Mediterráneo
+y: -221
+born: 247 a. C., probablemente en Cartago
+died: entre 183 y 181 a. C., Libisa (Bitinia)
+reign: Jefe del ejército cartaginés desde 221 a. C.
+lead: Cruzó los Alpes con elefantes, derrotó a Roma en su propio territorio y logró en Cannas una de las victorias más estudiadas de la historia militar. No fue rey, sino el general de una república, pero estuvo a punto de cambiar el destino del Mediterráneo.
+## Un juramento de niño
+Aníbal nació en el año 247 antes de Cristo, probablemente en Cartago, la gran potencia comercial del norte de África, en la actual Túnez. Era hijo de Amílcar Barca, un general que había luchado contra Roma en la Primera Guerra Púnica. Según el historiador Polibio, Amílcar le hizo jurar de niño que nunca sería amigo de Roma.
+## General en Hispania
+Amílcar y después su yerno Asdrúbal extendieron el dominio de Cartago por Hispania. Cuando Asdrúbal fue asesinado, en el 221 antes de Cristo, Aníbal, con 26 años, fue proclamado jefe del ejército. Se casó con Imilce, una mujer de Cástulo, en el sur de la península. En el 218 sitió durante ocho meses Sagunto, una ciudad aliada de Roma, y su ataque desencadenó la Segunda Guerra Púnica.
+## El cruce de los Alpes
+En la primavera del 218 antes de Cristo salió de Cartago Nova, la actual Cartagena, y marchó hacia Italia por tierra. Al llegar al río Ródano tenía unos 38.000 soldados de infantería, 8.000 jinetes y 38 elefantes. Atravesó los Alpes en condiciones terribles, y según Polibio llegó a Italia con unos 20.000 infantes, 6.000 jinetes y unos pocos elefantes. El paso exacto que usó sigue siendo un misterio.
+## Cannas: la victoria perfecta
+En Italia venció a los romanos en el río Tesino, en el Trebia y en el lago Trasimeno, donde murió el cónsul Flaminio. En el 216 antes de Cristo logró en Cannas su obra maestra: una maniobra de doble envolvimiento que rodeó al ejército romano por ambos lados. Según las estimaciones, entre 50.000 y 70.000 romanos murieron o fueron capturados, entre ellos el cónsul Lucio Emilio Paulo. Siglos después, estrategas militares como el alemán Schlieffen estudiaron esa maniobra.
+## Quince años en Italia
+Pero Roma no se rindió. El general Fabio Máximo evitó las grandes batallas y desgastó a Aníbal poco a poco, que se mantuvo unos quince años en el sur de Italia sin poder tomar Roma. Su hermano Asdrúbal, que venía con refuerzos, fue derrotado y muerto en el Metauro en el 207. En el 203, Aníbal fue llamado a defender Cartago.
+## Zama y la derrota
+En el 202 antes de Cristo, el general romano Escipión, llamado después el Africano, lo derrotó en la batalla de Zama, en el norte de África. Cartago perdió la guerra.
+## Gobernante y exiliado
+Después de la guerra, Aníbal fue elegido sufete, uno de los principales magistrados de Cartago. Reformó las finanzas para pagar la enorme indemnización de guerra que exigía Roma. Pero, temiendo que lo entregaran a los romanos, huyó a Oriente. Sirvió al rey seléucida Antíoco III y después se refugió en Bitinia, en la actual Turquía.
+## Su muerte
+Hacia el 183 o 181 antes de Cristo, cuando los romanos exigían su entrega, Aníbal se quitó la vida con veneno, según los historiadores Livio y Cornelio Nepote. Según la tradición, dijo: «Liberemos a los romanos de la angustia que han sufrido tanto tiempo».
+* Los romanos usaban la expresión «Hannibal ad portas», «Aníbal está a las puertas», como grito de alarma.
+* Según la tradición, en los Alpes rompió una roca que bloqueaba el camino con fuego y vinagre.
+* Su retrato aparece en el billete tunecino de cinco dinares de 1993.
+* Uno de sus oficiales, Maharbal, le reprochó: «Sabes vencer, Aníbal, pero no sabes aprovechar la victoria».
+- -247 | Nace, probablemente en Cartago
+- -221 | Es proclamado jefe del ejército en Hispania
+- -218 | Asedio de Sagunto y cruce de los Alpes
+- -216 | Victoria de Cannas
+- -202 | Derrota en Zama ante Escipión
+- -183 | Muere en Bitinia (fecha aproximada)
+rel: julio-cesar | Un siglo y medio después, César también se convertiría en uno de los grandes generales de la historia romana.
+rel: alejandro-magno | La tradición antigua comparaba a Aníbal con Alejandro como uno de los mejores generales de la Antigüedad.
+src: https://en.wikipedia.org/wiki/Hannibal | Wikipedia: Hannibal
+
+@trajano
+name: Trajano
+alt: Marco Ulpio Trajano
+title: Emperador romano
+kind: emperador
+era: antigua
+civ: Roma
+realm: Imperio romano
+region: Roma
+y: 98
+born: 18 de septiembre de 53, Itálica (Hispania)
+died: hacia el 9 de agosto de 117, Selinunte (Cilicia)
+reign: 98–117
+lead: Nacido en Hispania, en la actual Sevilla, conquistó la Dacia, llevó el Imperio romano a su máxima extensión y llenó Roma de grandes obras. El Senado lo llamó «el mejor de los príncipes».
+## Un hispano en el trono
+Marco Ulpio Trajano nació el 18 de septiembre del año 53 en Itálica, una ciudad romana de la provincia de la Bética, cerca de la actual Sevilla, en España. Hizo carrera como militar y llegó a ser un general prestigioso. En el verano del 97, el emperador Nerva, un anciano sin hijos presionado por el ejército, lo adoptó como sucesor. Nerva murió el 28 de enero del 98, y Trajano subió al trono sin conflictos.
+## Las guerras de Dacia
+Su gran campaña fue contra la Dacia, un reino situado en la actual Rumanía, gobernado por el rey Decébalo. En la primera guerra, del 101 al 102, convirtió Dacia en un reino sometido a Roma. En la segunda, la anexionó como provincia. Decébalo, acorralado, se quitó la vida, y su cabeza fue enviada a Roma.
+## La columna y el foro
+Para celebrar la victoria se levantó la Columna Trajana, terminada en el 113, decorada con un relieve en espiral que narra las guerras de Dacia y que se conserva en Roma. El Foro de Trajano, diseñado por el arquitecto Apolodoro de Damasco, se inauguró el 1 de enero del 112 e incluía los llamados Mercados de Trajano. También reconstruyó el Circo Máximo, construyó las Termas de Trajano y un acueducto, y un gran puente sobre el río Danubio.
+## Ayuda a los niños pobres
+Trajano impulsó los «alimenta», un programa que daba dinero, comida y educación a huérfanos y niños pobres, financiado con el botín de guerra, impuestos y donaciones. El Senado le concedió el título de «optimus princeps», «el mejor de los príncipes», que aparece en sus monedas desde el 105.
+## La máxima extensión del imperio
+En el 113 inició una gran campaña contra el Imperio parto, en Oriente, y puso bajo control romano Armenia, Mesopotamia y Asiria. Antes ya había anexionado el reino de los nabateos, en Arabia. A su muerte, el Imperio romano había alcanzado su mayor extensión territorial de toda su historia. Su sucesor, Adriano, abandonó poco después Mesopotamia.
+## Trajano y los cristianos
+Se conserva su correspondencia con el gobernador Plinio el Joven. Hacia el 112, Plinio le preguntó qué hacer con los cristianos de su provincia, y Trajano le respondió que no debían buscarse activamente, pero que quienes fueran denunciados y se negaran a renunciar a su fe debían ser castigados; muchos fueron ejecutados.
+## Muerte y legado
+Trajano enfermó mientras navegaba de regreso a Roma y murió hacia el 9 de agosto del 117 en Selinunte, en Cilicia, en la actual Turquía. Lo sucedió su primo Adriano. Según el historiador Dion Casio, su esposa Plotina ocultó su muerte el tiempo necesario para asegurar la adopción de Adriano. El Senado lo declaró dios, y en el siglo IV, a los nuevos emperadores se les deseaba ser «más afortunados que Augusto y mejores que Trajano».
+* Nació en Hispania, en la provincia de la Bética.
+* La Columna Trajana, con su relieve en espiral, todavía se conserva en Roma.
+* Una leyenda medieval cuenta que el papa Gregorio I rezó por su alma.
+- 53 | Nace en Itálica, Hispania
+- 98 | Se convierte en emperador
+- 106 | Conquista definitiva de la Dacia (fecha aproximada)
+- 113 | Se termina la Columna Trajana; campaña contra los partos
+- 117 | Muere en Cilicia; el imperio alcanza su máxima extensión
+rel: augusto | Fundador del Imperio romano; a los emperadores se les deseaba ser «más afortunados que Augusto y mejores que Trajano».
+rel: constantino | Dos siglos después, Constantino gobernaría un imperio muy transformado.
+src: https://en.wikipedia.org/wiki/Trajan | Wikipedia: Trajan

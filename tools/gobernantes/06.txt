@@ -1,0 +1,174 @@
+@constantino
+name: Constantino I
+alt: Constantino el Grande
+title: Emperador romano
+kind: emperador
+era: antigua
+civ: Roma
+realm: Imperio romano
+region: Roma y Constantinopla
+y: 306
+born: 27 de febrero de 272 (año más probable), Naissus (actual Niš, Serbia)
+died: 22 de mayo de 337, cerca de Nicomedia, a los 65 años
+reign: 306–337
+lead: Legalizó el cristianismo, reunificó el Imperio romano bajo un solo emperador y fundó Constantinopla, que sería capital durante más de mil años. Su reinado marcó el paso del mundo romano pagano al cristiano.
+## Hijo de un oficial y de una mujer humilde
+Constantino nació el 27 de febrero, probablemente del año 272, en Naissus, la actual Niš, en Serbia. Su padre, Constancio Cloro, era un oficial del ejército que llegó a ser uno de los emperadores. Su madre, Helena, era una mujer de origen humilde que después fue canonizada como santa Elena.
+## El sistema de los cuatro emperadores
+En aquella época, el Imperio romano estaba gobernado por la Tetrarquía, un sistema creado por el emperador Diocleciano con cuatro gobernantes a la vez: dos principales, los augustos, y dos ayudantes, los césares. Constantino sirvió en la corte de Diocleciano y de Galerio, donde en la práctica estaba retenido como rehén para asegurar la lealtad de su padre. En el 305 escapó y se reunió con su padre en Britania.
+## Proclamado en York
+Cuando Constancio murió el 25 de julio del 306 en Eboracum, la actual York, en Inglaterra, sus tropas proclamaron a Constantino augusto. Galerio solo le concedió el título menor de césar, pero Constantino siguió llamándose augusto. Comenzaron años de guerras civiles entre los distintos aspirantes al poder.
+## El puente Milvio y la cruz
+El 28 de octubre del 312, Constantino derrotó a su rival Majencio en la batalla del Puente Milvio, a las afueras de Roma. Según los escritores cristianos Lactancio y Eusebio, antes de la batalla tuvo una visión del crismón, el símbolo formado por las letras griegas ji y ro, las primeras de «Cristo», y mandó ponerlo en los escudos de sus soldados. Al año siguiente, en el 313, junto con el emperador Licinio, promulgó el Edicto de Milán, que legalizó el cristianismo.
+## Emperador único
+Con el tiempo rompió con Licinio, lo derrotó en el 324 y se convirtió en el único emperador de todo el imperio. Lo mandó ejecutar en el 325.
+## Grandes reformas
+Constantino separó la autoridad civil de la militar, reorganizó el ejército en unidades móviles y guarniciones de frontera, y disolvió la Guardia Pretoriana. Creó el sólido, una moneda de oro (72 sólidos equivalían a una libra de oro), que fue una moneda de referencia durante siglos.
+## La nueva Roma
+Su gran obra fue Constantinopla, fundada sobre la antigua ciudad griega de Bizancio e inaugurada el 11 de mayo del 330. Fue la capital del Imperio romano de Oriente, el Imperio bizantino, durante más de mil años, y hoy es Estambul.
+## Constantino y la Iglesia
+En el 325 convocó el Concilio de Nicea, el primer gran concilio de la Iglesia, que redactó el Credo niceno. Mandó construir la iglesia del Santo Sepulcro en Jerusalén y la antigua basílica de San Pedro en Roma. Se le llama tradicionalmente el «primer emperador cristiano», aunque los historiadores discuten hasta qué punto llegó a serlo.
+## Tragedias familiares
+Su reinado también tuvo episodios oscuros. En el 326 mandó ejecutar a su hijo mayor, Crispo, y poco después hizo morir a su esposa Fausta en un baño sobrecalentado. Los motivos nunca se han aclarado del todo.
+## Muerte y legado
+Constantino fue bautizado en su lecho de muerte y murió el 22 de mayo del 337 en una villa cerca de Nicomedia, con 65 años. Fue enterrado en la iglesia de los Santos Apóstoles de Constantinopla, aunque sus restos se han perdido. Lo sucedieron sus tres hijos. Es venerado como santo en las iglesias de Oriente.
+* Volvió a poner de moda el rostro afeitado de los primeros emperadores.
+* Su moneda de oro, el sólido, se mantuvo en uso durante siglos.
+* Constantinopla, la ciudad que fundó, es la actual Estambul.
+- 272 | Nace en Naissus (año más probable)
+- 306 | Sus tropas lo proclaman emperador en York
+- 312 | Victoria en el Puente Milvio
+- 313 | Edicto de Milán
+- 325 | Concilio de Nicea
+- 330 | Inauguración de Constantinopla
+- 337 | Muere cerca de Nicomedia
+rel: trajano | Dos siglos antes, Trajano llevó el imperio a su máxima extensión.
+rel: mehmed-ii | Más de mil años después, Mehmed II conquistó la ciudad fundada por Constantino.
+src: https://en.wikipedia.org/wiki/Constantine_the_Great | Wikipedia: Constantine the Great
+
+@qin-shi-huang
+name: Qin Shi Huang
+alt: Ying Zheng
+title: Primer emperador de China
+kind: emperador
+era: antigua
+civ: China
+realm: Dinastía Qin
+region: China
+y: -221
+born: febrero de 259 a. C., Handan
+died: julio de 210 a. C., Shaqiu, a los 49 años
+reign: Rey de Qin desde 247 a. C.; emperador de 221 a 210 a. C.
+lead: Unificó China por primera vez, inventó el título de emperador que se usó durante dos mil años y unificó la escritura, las monedas y las medidas. Lo enterraron con un ejército de miles de soldados de barro.
+## Un rey niño
+Ying Zheng nació en febrero del 259 antes de Cristo en Handan, la capital del estado de Zhao. Era hijo del rey Zhuangxiang de Qin, uno de los siete grandes estados en que estaba dividida China, en una época de guerras constantes llamada periodo de los Reinos Combatientes. En el 247 antes de Cristo, con unos 13 años, se convirtió en rey de Qin. Al principio gobernó como regente Lü Buwei, un rico comerciante, al que más tarde desterró.
+## Atentados y conquistas
+En el 227 antes de Cristo, el príncipe heredero del estado de Yan envió a un asesino, Jing Ke, para matarlo, pero el intento fracasó. Entre el 230 y el 221 antes de Cristo, los ejércitos de Qin conquistaron uno a uno los otros seis estados: Han, Zhao, Wei, Chu, Yan y Qi. Por primera vez, China quedó unificada bajo un solo gobierno.
+## El primer emperador
+En el 221 antes de Cristo creó un título nuevo, «huangdi», emperador, combinando antiguos títulos de soberanos míticos. Se hizo llamar Qin Shi Huang, «primer emperador de Qin». Ese título lo usaron los gobernantes chinos durante unos dos mil años, hasta 1911.
+## Una China unificada
+Con su ministro Li Si, aplicó las ideas del legalismo, una filosofía que defendía leyes estrictas y un poder central fuerte. Sustituyó el antiguo sistema feudal por provincias y distritos gobernados por funcionarios. Unificó los pesos y las medidas, la moneda, el ancho de los ejes de los carros y, sobre todo, la escritura, algo que ayudó a mantener unida la cultura china durante siglos. Construyó carreteras y canales, y mandó unir los muros que ya existían en el norte en una muralla que fue precursora de la Gran Muralla.
+## Libros quemados
+En el 213 antes de Cristo ordenó quemar la mayoría de los libros que no fueran de temas prácticos, para eliminar las críticas a su gobierno. Una tradición posterior cuenta que también mandó enterrar vivos a 460 sabios, pero hoy muchos historiadores lo consideran una leyenda, o creen que las víctimas eran más bien alquimistas.
+## La búsqueda de la inmortalidad
+Obsesionado con vivir para siempre, envió expediciones en busca del elixir de la inmortalidad. Se cree que pudo intoxicarse con elixires a base de mercurio, aunque la causa de su muerte se desconoce. Murió en julio del 210 antes de Cristo, con 49 años, durante un viaje por el este de China. Su ministro Li Si ocultó su muerte hasta volver a la capital, y con el eunuco Zhao Gao falsificó una carta que llevó al suicidio a su hijo mayor.
+## El ejército de terracota
+Su enorme mausoleo, cerca del monte Li, empezó a construirse en el 215 antes de Cristo. El 29 de marzo de 1974, unos campesinos que cavaban un pozo descubrieron el ejército de terracota: hasta ahora se han excavado unas 6.000 figuras de soldados, además de carros y unas 40.000 armas de bronce. La tumba principal no se ha abierto, y los análisis del suelo detectaron niveles de mercurio unas cien veces superiores a lo normal.
+## Una dinastía breve
+Su dinastía se derrumbó poco después de su muerte, en el 206 antes de Cristo. Los historiadores chinos posteriores lo presentaron como un tirano, pero hoy se valora también su papel como unificador: su reinado inició una forma de imperio que duró más de dos mil años.
+* El título de emperador que inventó se usó en China hasta 1911.
+* Según una tradición, que muchos consideran una calumnia, su verdadero padre era el comerciante Lü Buwei.
+* El escritor Jorge Luis Borges le dedicó un ensayo en 1952.
+- -259 | Nace en Handan
+- -247 | Se convierte en rey de Qin
+- -227 | Fracasa el atentado de Jing Ke
+- -221 | Unifica China y se proclama emperador
+- -213 | Ordena quemar libros
+- -210 | Muere durante un viaje
+- 1974 | Descubrimiento del ejército de terracota
+rel: wu-de-han | Un siglo después, el emperador Wu consolidó y expandió el imperio unificado por Qin.
+rel: ashoka | Contemporáneo aproximado en la India: otro gran unificador de la Antigüedad asiática.
+src: https://en.wikipedia.org/wiki/Qin_Shi_Huang | Wikipedia: Qin Shi Huang
+
+@wu-de-han
+name: Emperador Wu de Han
+alt: Liu Che, Han Wudi
+title: Emperador de China
+kind: emperador
+era: antigua
+civ: China
+realm: Dinastía Han
+region: China
+y: -141
+born: 156 a. C., Chang'an
+died: 29 de marzo de 87 a. C., Chang'an
+reign: 141–87 a. C. (54 años)
+lead: Gobernó China durante 54 años, convirtió el confucianismo en la ideología del Estado, expulsó a los nómadas xiongnu y abrió el contacto con Asia Central que dio origen a la Ruta de la Seda.
+## Un emperador adolescente
+Liu Che nació en el 156 antes de Cristo en Chang'an, la capital de la dinastía Han. Era hijo del emperador Jing. Subió al trono en el 141 antes de Cristo, con solo 15 años, y reinó 54 años, un récord para un emperador de etnia han que no se superó hasta el siglo XVII. Se le conoce como Wudi, el «emperador guerrero».
+## El confucianismo en el poder
+Al principio de su reinado intentó reformas que favorecían el confucianismo, pero su abuela, la gran emperatriz viuda Dou, se opuso, y tuvo que esperar a su muerte, en el 135 antes de Cristo. En el 136 fundó la Universidad Imperial, y el confucianismo, la doctrina de Confucio, se convirtió en la ideología oficial del Estado, aunque en la práctica también aplicó los castigos y recompensas del legalismo. Organizó exámenes para seleccionar a los funcionarios, en los que destacó el pensador Dong Zhongshu.
+## La guerra contra los xiongnu
+Los xiongnu, un pueblo nómada del norte, atacaban China constantemente. Wu abandonó la política de pagarles y pasó a la ofensiva con una caballería poderosa. Sus generales Wei Qing y Huo Qubing los expulsaron de grandes territorios entre el 127 y el 119 antes de Cristo.
+## Zhang Qian y la Ruta de la Seda
+En el 139 antes de Cristo, Wu envió al diplomático Zhang Qian hacia el oeste para buscar una alianza contra los xiongnu. Aunque no la consiguió, su viaje abrió el contacto diplomático y comercial con Asia Central y ayudó a crear la Ruta de la Seda del norte. Una de las campañas posteriores, contra el reino de Dayuan, sirvió para conseguir los famosos caballos del valle de Ferganá.
+## Un imperio mucho mayor
+Wu amplió enormemente el territorio chino: conquistó Nanyue, en el sur, incluido el norte del actual Vietnam, hacia el 111 antes de Cristo; Gojoseon, en el norte de Corea, hacia el 108; y el reino de Dian, en la actual provincia de Yunnan.
+## Monopolios e impuestos
+Las guerras vaciaron el tesoro. Para llenarlo, su ministro Sang Hongyang propuso que el Estado controlara la producción de sal y de hierro, y se impusieron nuevos impuestos a los comercios. En el 104 antes de Cristo adoptó un nuevo calendario. Los impuestos y las campañas provocaron revueltas campesinas.
+## La tragedia de la brujería
+Sus últimos años fueron sombríos. En el 91 antes de Cristo, acusado falsamente de brujería, el príncipe heredero Liu Ju se rebeló y murió durante la revuelta, y la emperatriz se suicidó. Más tarde, Wu publicó un edicto en el que se arrepentía y frenaba la expansión.
+## Muerte y legado
+Murió el 29 de marzo del 87 antes de Cristo, con 68 o 69 años. Lo sucedió su hijo menor, de unos seis años, bajo la regencia de Huo Guang. Su reinado convirtió a la dinastía Han en una de las grandes potencias de su tiempo, y su apuesta por el confucianismo marcó la cultura china durante dos mil años.
+* De niño prometió que construiría «una casa de oro» para su prima Chen Jiao, que después fue su primera emperatriz.
+* El gran historiador Sima Qian, autor de las «Memorias históricas», fue castrado por orden suya tras disgustarle.
+* Se le atribuye la creación de la Oficina de la Música, que recopiló canciones populares.
+- -156 | Nace en Chang'an
+- -141 | Sube al trono con 15 años
+- -139 | Viaje de Zhang Qian hacia el oeste
+- -119 | Gran victoria sobre los xiongnu en Mobei
+- -108 | Conquista de Gojoseon, en Corea
+- -91 | Crisis de la brujería y muerte del príncipe heredero
+- -87 | Muere en Chang'an
+rel: qin-shi-huang | El primer emperador, que unificó China un siglo antes.
+rel: kublai-kan | Siglos después, otro emperador de China, de origen mongol, gobernaría un imperio aún mayor.
+src: https://en.wikipedia.org/wiki/Emperor_Wu_of_Han | Wikipedia: Emperor Wu of Han
+
+@ashoka
+name: Ashoka
+alt: Asoka, Ashoka el Grande
+title: Emperador maurya de la India
+kind: emperador
+era: antigua
+civ: India
+realm: Imperio maurya
+region: India
+y: -268
+born: hacia 304 a. C.
+died: 232 a. C., a los 72 años
+reign: hacia 268–232 a. C.
+lead: Fue un conquistador implacable hasta que la sangrienta guerra de Kalinga le hizo arrepentirse. Después promovió el budismo, la tolerancia y el bienestar de personas y animales, y grabó sus mensajes en rocas y columnas por toda la India. Su león es hoy el emblema del país.
+## Nieto de un fundador
+Ashoka fue el tercer gobernante de la dinastía maurya, que dominó gran parte del subcontinente indio. Nació hacia el 304 antes de Cristo y era nieto de Chandragupta, el fundador del imperio, e hijo del emperador Bindusara. Gobernó desde hacia el 268 antes de Cristo hasta su muerte, en el 232, desde la capital, Pataliputra. Su imperio llegaba desde el actual Afganistán hasta Bangladés.
+## Una llegada al trono discutida
+Las leyendas budistas cuentan que no era el príncipe heredero y que su llegada al trono fue disputada. Una crónica de Sri Lanka afirma que mató a 99 medio hermanos, y otra dice que a 100, pero los historiadores consideran estas cifras muy exageradas. Las leyendas lo llaman en esa época «Ashoka el feroz».
+## La guerra de Kalinga
+Según sus propias inscripciones, en el octavo año de su reinado, hacia el 260 antes de Cristo, conquistó Kalinga, una región de la costa oriental de la India. En su Edicto de Roca 13, el propio Ashoka cuenta las consecuencias: 100.000 muertos en combate, muchas veces esa cifra de fallecidos por otras causas y 150.000 deportados. El edicto expresa su profundo arrepentimiento y su decisión de seguir el «dhamma», la ley moral. Su conversión al budismo fue gradual, no repentina.
+## Los edictos de Ashoka
+Ashoka mandó grabar sus mensajes en rocas y columnas por todo su imperio, en varias lenguas y escrituras, entre ellas la brahmi. Durante siglos nadie supo leerlos, hasta que el investigador británico James Prinsep descifró la escritura brahmi en el siglo XIX. Hoy se conservan unas veinte de sus columnas.
+## Un gobierno para el bienestar
+En sus edictos, Ashoka anuncia medidas sorprendentes para su época: centros médicos para personas y animales, pozos y árboles de sombra a lo largo de los caminos, restricciones a la matanza de animales y tolerancia hacia todas las religiones. Creó funcionarios especiales encargados del bienestar de la población y de los grupos religiosos.
+## La expansión del budismo
+Según la tradición de Sri Lanka, su hijo Mahinda llevó el budismo a esa isla y su hija Sanghamitta fundó allí una orden de monjas, llevando un retoño del árbol bajo el que Buda alcanzó la iluminación. Las leyendas budistas le atribuyen la construcción de 84.000 estupas o monasterios. Sus misiones ayudaron a que el budismo se extendiera fuera de la India.
+## Su legado en la India actual
+El capitel de los leones de Sarnath, que coronaba una de sus columnas, es la base del emblema nacional de la India, y la rueda de Ashoka, el «chakra», aparece en el centro de la bandera del país. Es considerado uno de los gobernantes más importantes de la historia de la India.
+* Su nombre suele interpretarse como «sin pena».
+* Las leyendas hablan de una prisión cruel, «el infierno de Ashoka», antes de su conversión.
+* La rueda de su columna está en el centro de la bandera de la India.
+- -304 | Nace (fecha aproximada)
+- -268 | Comienza su reinado (fecha aproximada)
+- -260 | Guerra de Kalinga (fecha aproximada)
+- -232 | Muere
+rel: chandragupta | Su abuelo, fundador del Imperio maurya.
+rel: alejandro-magno | Alejandro llegó a la India pocas décadas antes del nacimiento del Imperio maurya.
+src: https://en.wikipedia.org/wiki/Ashoka | Wikipedia: Ashoka

@@ -1,0 +1,164 @@
+@chandragupta
+name: Chandragupta Maurya
+alt: Sandrokottos (para los griegos)
+title: Fundador del Imperio maurya
+kind: emperador
+era: antigua
+civ: India
+realm: Imperio maurya
+region: India
+y: -320
+born: desconocido
+died: hacia 297–293 a. C.
+reign: hacia 320 – hacia 298 a. C.
+lead: Derrocó a una dinastía impopular, expulsó a los gobernadores que había dejado Alejandro Magno en el noroeste de la India y fundó el Imperio maurya, uno de los mayores de la historia de la India. Según la tradición jainista, terminó sus días como monje.
+## Unos orígenes misteriosos
+Sobre la juventud de Chandragupta no se conserva ningún dato histórico seguro, y las fuentes se contradicen. El historiador romano Justino dice que era de origen humilde; los textos budistas relacionan a su familia con un clan guerrero; y algunos textos brahmánicos consideraban ilegítima a la dinastía por un supuesto origen en una casta baja.
+## El maestro Chanakya
+Según la tradición, recogida en la obra de teatro «Mudrarakshasa», su gran mentor fue Chanakya, un sabio que después sería su principal ministro. A Chanakya se le suele identificar con Kautilya, el autor del «Arthashastra», un famoso tratado sobre el arte de gobernar, pero hoy los especialistas creen que esa obra es varios siglos posterior.
+## La caída de los Nanda
+Chandragupta encabezó una revuelta contra la dinastía Nanda, que gobernaba el reino de Magadha, en el actual estado indio de Bihar, y era muy impopular. Lo conquistó hacia el 322–319 antes de Cristo, según la mayoría de los historiadores, aunque algunos proponen fechas posteriores.
+## Contra los herederos de Alejandro
+Alejandro Magno había llegado hasta el noroeste de la India en el 326 antes de Cristo. Tras su muerte, en el 323, Chandragupta atacó a los gobernadores que Alejandro había dejado y se hizo con el control del valle del Indo. Hacia el 305–303 antes de Cristo se enfrentó a Seleuco I, uno de los generales herederos de Alejandro. Firmaron un acuerdo: Seleuco le cedió territorios en el oeste, y Chandragupta le entregó 500 elefantes de guerra. Ambas familias sellaron además una alianza matrimonial.
+## Un embajador griego en la corte
+Seleuco envió como embajador a Megástenes, que vivió unos cuatro años en la capital, Pataliputra, y escribió una descripción de la India. Según él, la administración tenía tres grandes órganos: uno para las aldeas, otro para las ciudades y otro para el ejército. El rey tomaba precauciones extraordinarias para evitar ser asesinado.
+## Un imperio organizado
+Bajo Chandragupta se construyeron embalses de riego, carreteras y minas, y se encargó el gran lago artificial de Sudarshana. El imperio incluía el actual Gujarat y probablemente otras regiones del centro de la India, aunque su expansión hacia el sur es incierta. Su reinado es tan importante para fechar la historia india que los historiadores lo llaman «el ancla de la cronología india», porque las fuentes griegas permiten datarlo con precisión.
+## El rey que se hizo monje
+Según las tradiciones jainistas, Chandragupta abdicó en favor de su hijo Bindusara, se hizo monje bajo la guía del maestro Bhadrabahu y se retiró a Shravanabelagola, en el sur de la India, donde murió ayunando hasta la muerte, una práctica religiosa jainista. Algunos historiadores consideran que estos relatos son tardíos y dudosos. Su nieto Ashoka llevaría el imperio a su máxima extensión.
+* Los griegos lo llamaban Sandrokottos.
+* En 1793, el estudioso británico William Jones identificó por primera vez al «Sandracottus» de los griegos con Chandragupta.
+* En 2001, la India emitió un sello postal en su honor.
+- -323 | Muere Alejandro Magno; Chandragupta ataca a sus gobernadores
+- -320 | Comienza su reinado (fecha aproximada)
+- -305 | Tratado con Seleuco I (fecha aproximada)
+- -298 | Abdica en favor de su hijo Bindusara (fecha aproximada)
+rel: ashoka | Su nieto, que llevó el Imperio maurya a su apogeo.
+rel: alejandro-magno | Chandragupta expulsó a los gobernadores que Alejandro dejó en la India.
+src: https://en.wikipedia.org/wiki/Chandragupta_Maurya | Wikipedia: Chandragupta Maurya
+
+@kublai-kan
+name: Kublai Kan
+alt: Emperador Shizu de Yuan
+title: Gran kan de los mongoles y emperador de China
+kind: kan
+era: media
+civ: Mongoles y China
+realm: Imperio mongol y dinastía Yuan
+region: Asia
+y: 1260
+born: 23 de septiembre de 1215
+died: 18 de febrero de 1294, Dadu (actual Pekín), a los 78 años
+reign: 1260–1294
+lead: Nieto de Gengis Kan, completó la conquista de China, fundó la dinastía Yuan y convirtió Pekín en su capital. En su corte vivió Marco Polo, y su intento de invadir Japón terminó en desastre.
+## Nieto de Gengis Kan
+Kublai nació el 23 de septiembre de 1215. Era el segundo hijo de Tolui, el hijo menor de Gengis Kan, y de su esposa principal, Sorghaghtani Beki, una mujer muy influyente. Desde la infancia recibió influencias budistas: su madre eligió para él una nodriza tangut.
+## La lucha por el trono
+Antes de reinar, gobernó el norte de China como virrey de su hermano, el gran kan Möngke, y se ganó el apoyo de funcionarios chinos. Cuando Möngke murió, una asamblea proclamó a Kublai gran kan el 15 de abril de 1260. Pero su hermano menor, Ariq Böke, también reclamó el trono, y estalló una guerra civil entre ellos, que Kublai ganó en 1264.
+## La dinastía Yuan
+En 1271 adoptó para su dinastía el nombre chino de «Gran Yuan», y se presentó como sucesor legítimo de las antiguas dinastías chinas. Construyó como capital Janbalic, en chino Dadu, la actual Pekín, y usó como residencia de verano Shangdu, la Xanadú de las leyendas europeas. En 1260 creó el primer papel moneda unificado del imperio, aunque con el tiempo la emisión excesiva provocó inflación.
+## La conquista de China
+En 1279, tras la batalla naval de Yamen, completó la conquista de la dinastía Song del sur. Así se convirtió en el primer emperador no chino que gobernó toda China. También intentó extender su dominio fuera del continente: invadió Japón en 1274 y en 1281, pero ambas expediciones fracasaron, en parte por las tormentas y por barcos mal diseñados. Sus expediciones contra Vietnam, Birmania, Champa y Java tuvieron resultados desiguales: varios estados se convirtieron en tributarios, pero la expedición a Java de 1293 fracasó.
+## Obras y gobierno
+Kublai reconstruyó el Gran Canal, que unía el norte y el sur de China, reparó edificios públicos y amplió las carreteras. Favoreció el budismo y nombró preceptor imperial al lama tibetano Phagpa, que en 1270 creó una nueva escritura para la lengua mongola, la escritura 'phags-pa. Durante años confió en consejeros chinos, aunque después se apoyó más en la aristocracia mongola.
+## Marco Polo en su corte
+El comerciante veneciano Marco Polo vivió en China en la década de 1270 y sirvió como enviado de Kublai. Su relato de viajes describió con asombro la riqueza del imperio y dio a conocer en Europa la figura del gran kan.
+## Una vejez triste
+Sus últimos años fueron difíciles: su esposa favorita, Chabi, murió en 1281, y su hijo y heredero, Zhenjin, en 1286. Sufría gota y diabetes, y cayó en una profunda tristeza. Murió el 18 de febrero de 1294 en Dadu. Lo sucedió su nieto Temür. Al igual que con su abuelo, no se sabe dónde fue enterrado. Su gran legado fue volver a unificar China, algo que siglos después imitarían otras dinastías.
+* Fue el primer emperador no chino que gobernó toda China.
+* Su residencia de verano, Shangdu, inspiró el mito de Xanadú.
+* En 1258 convirtió 237 templos taoístas en budistas.
+- 1215 | Nace, nieto de Gengis Kan
+- 1260 | Es proclamado gran kan; crea el papel moneda
+- 1264 | Vence a su hermano Ariq Böke
+- 1271 | Funda la dinastía Yuan
+- 1274 | Primer intento de invadir Japón
+- 1279 | Completa la conquista de la China Song
+- 1294 | Muere en Dadu
+rel: gengis-kan | Su abuelo, fundador del Imperio mongol.
+rel: wu-de-han | Otro emperador de China que expandió el imperio hacia Asia Central, trece siglos antes.
+src: https://en.wikipedia.org/wiki/Kublai_Khan | Wikipedia: Kublai Khan
+
+@tamerlan
+name: Tamerlán
+alt: Timur
+title: Emir y conquistador de Asia Central
+kind: conquistador
+era: media
+civ: Timúridas
+realm: Imperio timúrida
+region: Asia Central
+y: 1370
+born: década de 1320 (la tradición dice 8 de abril de 1336), cerca de Kesh (actual Shahrisabz, Uzbekistán)
+died: 17 o 18 de febrero de 1405, Farab
+reign: 1370–1405
+lead: Herido de joven en una pierna, llegó a dominar desde Persia hasta la India, derrotó a los otomanos y saqueó Delhi, Damasco y Bagdad. Fue uno de los conquistadores más temidos de la historia, y también un gran mecenas de Samarcanda.
+## «Timur el cojo»
+Timur nació en la década de 1320, cerca de la ciudad de Kesh, la actual Shahrisabz, en Uzbekistán, a unos 80 kilómetros de Samarcanda. Las crónicas posteriores de su dinastía dan la fecha del 8 de abril de 1336, pero varios historiadores creen que se eligió por motivos simbólicos. Pertenecía a la tribu barlas, de origen mongol pero con lengua y cultura turcas. Su nombre, Temür, significa «hierro».
+Hacia 1363 recibió flechazos en la pierna derecha y en la mano derecha, en la que perdió dos dedos. Esas heridas lo dejaron cojo para siempre, y por eso los persas lo llamaron «Timur-i lang», «Timur el cojo», de donde viene el nombre de Tamerlán.
+## El ascenso al poder
+Hacia 1370 ya controlaba la parte occidental del kanato de Chagatai, en Asia Central. Tras la rendición y el asesinato de su rival, el emir Husayn, fue proclamado soberano en Balj, y se casó con la viuda de Husayn, descendiente de Gengis Kan. Como él no lo era, nunca se llamó kan, sino emir.
+## Campañas sin fin
+Desde 1383 hizo campaña en Persia; en 1387, cuando la ciudad de Isfahán se rebeló, ordenó una terrible matanza. Combatió contra Toqtamish, el kan de la Horda de Oro, a quien venció en 1391 y 1395, y destruyó ciudades como Sarai y Astracán. En 1398 invadió la India y saqueó Delhi. En 1400 tomó Alepo y Damasco, y en 1401, Bagdad.
+## Ankara: la derrota de los otomanos
+El 20 de julio de 1402, en la batalla de Ankara, derrotó al sultán otomano Bayezid I, que fue capturado y murió en cautiverio. La derrota casi destruyó al joven Imperio otomano, que tardó años en recuperarse.
+## Muerte camino de China
+Tamerlán murió en Farab el 17 o 18 de febrero de 1405, mientras preparaba una gran campaña contra la China de la dinastía Ming. Fue enterrado en el mausoleo de Gur-e Amir, en Samarcanda. Tras su muerte estalló una guerra entre sus herederos, que terminó en 1409 con su hijo Shah Rukh en el trono.
+## La «maldición de Tamerlán»
+El 19 de junio de 1941, un equipo del antropólogo soviético Mijaíl Guerásimov abrió su tumba para estudiar sus restos. Tres días después, Alemania invadió la Unión Soviética, y nació la leyenda de la «maldición de Tamerlán». Sus restos fueron enterrados de nuevo con ritos islámicos en noviembre de 1942.
+## Su legado
+Sus conquistas fueron extremadamente violentas, con masacres en muchas ciudades. Pero también convirtió Samarcanda en una gran capital y fue mecenas de sabios y poetas: con él conversó el historiador Ibn Jaldún. Su reinado dio paso al llamado Renacimiento timúrida. Su nieto Ulugh Beg fue un gran astrónomo, y un descendiente suyo, Babur, fundó el Imperio mogol de la India.
+* Se le atribuye la invención de una variante del ajedrez, el ajedrez de Tamerlán, que se juega en un tablero de 10 por 11 casillas.
+* Su lema, en persa, era «rasti rusti»: «la verdad es la salvación».
+* Se llamaba a sí mismo «señor de la conjunción» de los astros.
+- 1336 | Fecha tradicional de su nacimiento
+- 1370 | Es proclamado soberano en Balj
+- 1398 | Invasión de la India y saqueo de Delhi
+- 1401 | Toma Bagdad
+- 1402 | Derrota al sultán otomano en Ankara
+- 1405 | Muere preparando la invasión de China
+rel: gengis-kan | Tamerlán quiso presentarse como heredero de su imperio, casándose con una descendiente suya.
+rel: akbar | Su descendiente Babur fundó el Imperio mogol, que Akbar llevó a su esplendor.
+src: https://en.wikipedia.org/wiki/Timur | Wikipedia: Timur
+
+@harun-al-rashid
+name: Harún al-Rashid
+alt: Harun al-Rashid
+title: Califa abasí
+kind: califa
+era: media
+civ: Mundo islámico
+realm: Califato abasí
+region: Oriente Próximo
+y: 786
+born: entre 763 y 766, Rey (Persia)
+died: 24 de marzo de 809, Tus
+reign: 786–809
+lead: Gobernó el califato abasí en su época de mayor esplendor, cuando Bagdad era uno de los grandes centros del saber y del comercio del mundo. Envió un elefante a Carlomagno, y su corte inspiró muchos de los cuentos de «Las mil y una noches».
+## Hijo de califa
+Harún nació entre los años 763 y 766 en Rey, en el actual Irán. Era hijo del califa abasí al-Mahdi y de al-Jaizurán, una mujer muy influyente en la corte. Los abasíes gobernaban un enorme imperio islámico, desde el norte de África hasta Asia Central, con capital en Bagdad, una ciudad fundada pocos años antes.
+## Califa a los veintipocos años
+El 14 de septiembre del 786, tras la muerte de su hermano al-Hadi, Harún se convirtió en el quinto califa abasí. Ese mismo día nació su hijo al-Mamún, que también llegaría a ser califa. Su sobrenombre, al-Rashid, significa «el bien guiado».
+## Los visires barmákidas
+Durante gran parte de su reinado, Harún confió el gobierno a una familia de poderosos visires, los barmákidas, en especial a Yahya ibn Jálid. Pero en el 803 la familia cayó en desgracia de forma repentina, por razones que los historiadores todavía discuten, y sus miembros fueron perseguidos.
+## Bagdad, ciudad del saber
+Bajo su reinado, Bagdad floreció como centro de conocimiento, cultura y comercio. Se le atribuye la fundación de la Casa de la Sabiduría, una institución donde se reunían y traducían obras científicas y filosóficas. Su reinado se considera tradicionalmente el comienzo de la Edad de Oro islámica. Aun así, en el 796 trasladó su corte a la ciudad de Raqqa, en la actual Siria, donde pasó unos doce años.
+## Guerra y diplomacia
+Harún hizo campañas contra el Imperio bizantino. Cuando el emperador Nicéforo I se negó a pagarle tributo, Harún le respondió con una carta en la que lo llamaba «perro de los romanos», y lo obligó después a aceptar un tratado humillante. Al mismo tiempo mantuvo buenas relaciones con lejanos gobernantes: en el 802 envió a Carlomagno sedas, candelabros, piezas de ajedrez, un elefante llamado Abul-Abbas y un reloj de agua con caballeros mecánicos. También se alió con la dinastía Tang de China.
+## Peregrino a La Meca
+Harún hizo varias veces la peregrinación a La Meca en camello: en los años 793, 795, 797, 802 y 803.
+## Una sucesión que acabó en guerra
+Para evitar disputas, nombró herederos a dos de sus hijos: primero a al-Amín y después a al-Mamún. La solución fracasó: tras su muerte, los dos hermanos se enfrentaron en una guerra civil que ganó al-Mamún.
+## Muerte y leyenda
+Harún murió en Tus, en el este de Persia, en marzo del 809, cuando marchaba a sofocar una rebelión. Su tumba está en la actual ciudad de Mashhad, en Irán. Su corte inspiró muchos relatos de «Las mil y una noches», y el rey Shahriar de esos cuentos podría estar basado en parte en él.
+* El elefante que regaló a Carlomagno, Abul-Abbas, llegó a Aquisgrán en el 802.
+* El historiador al-Masudi llamó a su época «la luna de miel».
+* El poeta irlandés W. B. Yeats le dedicó en 1923 un poema, «El regalo de Harún al-Rashid».
+- 786 | Se convierte en califa
+- 796 | Traslada la corte a Raqqa
+- 802 | Envía un elefante a Carlomagno
+- 803 | Caída de los visires barmákidas
+- 809 | Muere en Tus
+rel: carlomagno | Mantuvieron relaciones diplomáticas y Harún le envió un elefante.
+rel: saladino | Otro gran gobernante del mundo islámico medieval, cuatro siglos después.
+src: https://en.wikipedia.org/wiki/Harun_al-Rashid | Wikipedia: Harun al-Rashid

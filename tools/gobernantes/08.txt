@@ -1,0 +1,161 @@
+@shaka-zulu
+name: Shaka Zulu
+alt: Shaka kaSenzangakhona
+title: Rey de los zulúes
+kind: rey
+era: moderna
+civ: Zulúes
+realm: Reino zulú
+region: África austral
+y: 1816
+born: hacia julio de 1787, cerca de la actual Melmoth (KwaZulu-Natal, Sudáfrica)
+died: 1828 (casi siempre se fecha en septiembre), asesinado
+reign: 1816–1828
+lead: Hijo rechazado de un jefe, convirtió a un pequeño clan en el reino más poderoso del sureste de África. Su figura es una de las más debatidas de la historia africana: genio militar para unos, tirano sanguinario para otros, y en buena parte una imagen construida por quienes escribieron sobre él.
+## Un niño rechazado
+Shaka nació hacia julio de 1787 en la actual provincia de KwaZulu-Natal, en Sudáfrica. Era hijo de Senzangakhona, jefe de los zulúes, que entonces eran un clan pequeño, y de Nandi. Como se le consideraba hijo ilegítimo, él y su madre tuvieron que marcharse y acabaron viviendo entre los mthethwa, un pueblo vecino más poderoso.
+## Al servicio de Dingiswayo
+Shaka creció como guerrero bajo las órdenes de Dingiswayo, el jefe de los mthethwa. Dingiswayo descubrió que era de sangre real y le dio el mando de un regimiento. Con su apoyo, en 1816 Shaka se convirtió en jefe de los zulúes tras la muerte de su padre.
+## La guerra contra Zwide
+Cuando Zwide, jefe de los ndwandwe, mató a Dingiswayo, Shaka se convirtió en su gran enemigo. En la batalla de la colina de Gqokli, una fuerza de reserva que atacó al enemigo por el flanco decidió la victoria. Más tarde, junto al río Mhlatuze, los zulúes vencieron de nuevo a los ndwandwe y Shaka destruyó la residencia real de Zwide. Así amplió su reino, combinando la guerra con la diplomacia y la incorporación de los pueblos vencidos y de jefaturas amigas.
+## Las reformas militares
+A Shaka se le atribuyen varias innovaciones. La más famosa es el iklwa, una lanza corta para apuñalar en el combate cuerpo a cuerpo; algunos historiadores, como John Laband, señalan que la lanza arrojadiza se siguió usando antes del choque. También se le atribuye la formación en «cuernos de toro»: un centro, el «pecho», que sujetaba al enemigo; dos alas, los «cuernos», que lo rodeaban; y una reserva oculta, los «lomos». Organizó los regimientos por edades, con escudos de colores distintos, y sometió a sus guerreros a un duro entrenamiento. Las afirmaciones de que sus tropas marchaban 80 kilómetros al día están discutidas; Laband calcula como mucho unos 19.
+## El Mfecane: una época de guerras
+Su reinado coincidió con el Mfecane, un periodo de grandes guerras y migraciones en el sur de África, aproximadamente entre 1815 y 1840. El papel de Shaka en él es muy debatido. Las estimaciones de muertos, de uno a dos millones, son muy controvertidas. El historiador Julian Cobbing sostiene que la imagen de Shaka como monstruo fue moldeada en parte por historiadores de la época del apartheid; otros especialistas responden que la violencia está documentada en relatos de víctimas y refugiados.
+## El duelo por Nandi
+Su madre, Nandi, murió en octubre de 1827. Shaka impuso un duelo durísimo: prohibió sembrar y tomar leche, y castigó con la muerte a las mujeres embarazadas. Según el historiador Donald Morris, al menos 7.000 personas fueron ejecutadas, aunque esa cifra procede de relatos de la época.
+## El asesinato
+En 1828, normalmente se dice que en septiembre, Shaka fue asesinado por sus medio hermanos Dingane y Mhlangana, con la ayuda de un sirviente, Mbopha, que lo distrajo. Su cuerpo fue arrojado a un pozo de grano, y hoy no se sabe con certeza dónde está. Dingane lo sucedió.
+## ¿Quién fue de verdad?
+Gran parte de lo que se sabe de Shaka viene de dos comerciantes británicos, Nathaniel Isaacs y Henry Francis Fynn, que tenían intereses propios: según el investigador Dan Wylie, Isaacs le pidió a Fynn que lo describiera de la forma más sanguinaria posible. La historiadora Carolyn Hamilton sostiene que la imagen de Shaka se ha «inventado» una y otra vez para servir a distintos intereses. Aun así, el historiador militar John Keegan lo consideró el mayor comandante que ha dado África. Hoy el aeropuerto internacional de Durban lleva su nombre.
+* Un relato zulú lo describe con nariz grande, dientes delanteros prominentes y un defecto en el habla, aunque procede de sus enemigos.
+* Se dice que rechazó la escritura y opinaba que las armas de fuego tardaban demasiado en recargarse frente a una carga de guerreros.
+* En 1986 la televisión sudafricana estrenó la famosa miniserie «Shaka Zulu».
+- 1787 | Nace (fecha aproximada)
+- 1816 | Se convierte en jefe de los zulúes
+- 1827 | Muere su madre, Nandi
+- 1828 | Es asesinado por sus medio hermanos
+rel: mansa-musa | Otro gran gobernante africano, aunque de una época y una región muy distintas.
+rel: napoleon | Contemporáneo de Shaka; ambos revolucionaron la forma de hacer la guerra en sus continentes.
+src: https://en.wikipedia.org/wiki/Shaka | Wikipedia: Shaka
+
+@ezana
+name: Ezana de Aksum
+alt: Ezana, Abreha (según la tradición)
+title: Rey de Aksum
+kind: rey
+era: antigua
+civ: Aksum
+realm: Reino de Aksum
+region: África oriental
+y: 330
+born: desconocido
+died: hacia el año 360
+reign: hacia los años 320 – hacia el 360
+lead: Rey de Aksum, un poderoso reino comercial en las actuales Etiopía y Eritrea, fue el primer gobernante de su reino en adoptar el cristianismo. Sus monedas pasaron de mostrar la luna a mostrar la cruz, y la Iglesia etíope lo venera como santo.
+## Un reino entre África, Arabia y la India
+En el siglo IV, Aksum era uno de los grandes reinos del mundo. Desde las tierras altas de las actuales Etiopía y Eritrea controlaba rutas comerciales que unían el mar Rojo con el Imperio romano, Arabia y la India. Acuñaba sus propias monedas de oro, plata y bronce, algo que muy pocos reinos de su época hacían. Ezana sucedió a Ousanas, también llamado Ella Amida, en la década de 320.
+## Un rey niño
+Según la tradición, Ezana subió al trono siendo un niño, y su madre, Sofya, gobernó como regente hasta que alcanzó la mayoría de edad. En esa época llegó a la corte un joven cristiano llamado Frumencio, procedente del Mediterráneo oriental. Las fuentes lo describen de forma distinta: como esclavo de origen fenicio o como cristiano sirio. Frumencio se convirtió en maestro del joven rey.
+## La conversión al cristianismo
+Ezana fue el primer rey de Aksum que abrazó el cristianismo, bajo la influencia de Frumencio, que más tarde sería el primer obispo de la Iglesia etíope. El cambio se ve en sus propias inscripciones: en las primeras se presenta como hijo de Ares, un dios de la guerra, y en las posteriores muestra una creciente fe cristiana. También se nota en sus monedas, que pasaron de llevar el símbolo pagano del disco y la media luna a llevar una cruz. Fue uno de los primeros gobernantes del mundo en poner una cruz en sus monedas.
+## Una carta del emperador romano
+El emperador romano Constancio II escribió a Ezana y a su hermano Saizana pidiéndoles que enviaran a Frumencio a Alejandría para examinarlo, porque sospechaba de sus ideas religiosas. El historiador Stuart Munro-Hay supone que Ezana se negó o simplemente ignoró la carta.
+## Inscripciones de un conquistador
+Ezana dejó inscripciones en piedra en las que relataba sus campañas militares. En una inscripción en griego enumera los territorios que decía dominar: Aksum, los himyaritas y los sabeos del sur de Arabia, los etíopes y otros pueblos. Una pareja de inscripciones en ge'ez, la antigua lengua de Etiopía, en una estela encontrada en Meroe, en el actual Sudán, parece registrar una campaña del siglo IV. Los historiadores discuten si fue una conquista del antiguo reino de Kush, una ayuda militar contra revueltas de los nubios, o incluso obra de un rey anterior.
+## Monedas que llegaron a la India
+Algunas de sus monedas llevan en griego el lema «que esto agrade al país». A finales de los años noventa se encontraron monedas con su nombre en la India, lo que muestra los contactos comerciales de Aksum. Se le atribuye además la construcción de varias estelas y obeliscos.
+## Misterios y debates
+Curiosamente, Ezana no aparece en las listas tradicionales de reyes de Etiopía, aunque sus monedas llevan su nombre. La tradición etíope habla de dos reyes, Abreha y Asbeha, que habrían gobernado cuando llegó el cristianismo; podrían ser nombres posteriores o nombres de bautismo de Ezana y su hermano Saizana. Munro-Hay lo llamó el más famoso de los reyes de Aksum antes de Kaleb.
+* Él y su hermano Saizana son venerados como santos por la Iglesia ortodoxa etíope y por la Iglesia católica.
+* Sus fiestas se celebran el 1 y el 27 de octubre.
+* Sus inscripciones están en griego y en ge'ez, la lengua que todavía se usa en la liturgia etíope.
+- 330 | Reina en Aksum (fecha aproximada)
+- 340 | Se convierte al cristianismo con Frumencio (fecha aproximada)
+- 360 | Fin de su reinado (fecha aproximada)
+rel: constantino | Ambos fueron de los primeros gobernantes en adoptar el cristianismo, en la misma época.
+rel: mansa-musa | Otro gran rey africano cuyo poder se basaba en el comercio a larga distancia.
+src: https://en.wikipedia.org/wiki/Ezana_of_Axum | Wikipedia: Ezana of Axum
+
+@sundiata-keita
+name: Sundiata Keita
+alt: Sunjata, Mari Diata
+title: Fundador del Imperio de Malí
+kind: emperador
+era: media
+civ: Mandinga
+realm: Imperio de Malí
+region: África occidental
+y: 1235
+born: hacia 1217, Dakadjalan (actual Malí)
+died: hacia 1255
+reign: hacia 1235 – hacia 1255
+lead: Fundador del Imperio de Malí, su vida se conoce sobre todo por la «Epopeya de Sundiata», que los griots, los narradores tradicionales de África occidental, han transmitido oralmente durante siglos. Venció al rey de Sosso en la batalla de Kirina y dio origen al imperio que haría famoso a Mansa Musa.
+## Historia y leyenda
+Casi todo lo que se sabe de Sundiata procede de la tradición oral: la epopeya que los griots han contado y cantado de generación en generación. Por eso es muy difícil separar los hechos de la leyenda. Las fechas de su vida son estimaciones basadas en la epopeya y en escritos árabes y norteafricanos. Se calcula que nació hacia 1217, en Dakadjalan, en el actual Malí. Su padre fue Naré Maghan Konaté y su madre, Sogolon Condé.
+## El niño que no podía caminar
+Según la epopeya, Sundiata nació con una discapacidad: no podía caminar, y su madre sufría las burlas de la corte. Un día, de forma milagrosa, se levantó y empezó a caminar. La leyenda también llama a su madre «la mujer búfalo». Estos episodios forman parte de la tradición y no pueden comprobarse.
+## El exilio
+Según la tradición, tras la muerte de su padre, Sundiata y su familia tuvieron que huir por la hostilidad de la corte. Encontró refugio en el reino de Mema, donde se cumplió la profecía de que estaba destinado a gobernar. Estas partes del relato tampoco están verificadas de forma independiente.
+## La batalla de Kirina
+Mientras tanto, Sumaoro Kanté, el rey de Sosso, había conquistado las tierras de los mandingas. Sundiata regresó, reunió a los pueblos de la región y, hacia 1235, lo derrotó en la batalla de Kirina. Fue el acontecimiento fundacional del Imperio de Malí.
+## El primer mansa
+Sundiata fue el primer rey mandinga en usar el título de mansa, que significa «rey» o «emperador», y estableció su capital en Niani. Según las fuentes, el imperio funcionaba como una especie de federación, con jefes de los distintos clanes en la corte. Una asamblea, la Gbara, limitaba el poder del mansa y elegía a sus sucesores. Durante su reinado se proclamó la Carta del Manden, que hoy figura en la lista del patrimonio cultural inmaterial de la UNESCO.
+## Pruebas escritas
+Aunque la epopeya mezcla historia y leyenda, la existencia de Sundiata está respaldada por escritores árabes. El historiador Ibn Jaldún y el viajero Ibn Battuta, que visitaron Malí o escribieron sobre él aproximadamente un siglo después, lo mencionan, lo que confirma de forma independiente que existió.
+## Una muerte misteriosa
+La versión más aceptada dice que murió ahogado en el río Sankarani, cerca de Niani, donde hay un santuario con su nombre. Otras versiones, discutidas, hablan de una flecha accidental o de un asesinato durante una ceremonia. Según la tradición mandinga, el lugar de su tumba se mantiene en secreto. Lo sucedieron sus hijos, y Mansa Musa, el famoso rey de Malí, era su sobrino nieto.
+## Debates
+Los historiadores discuten su religión: algunas fuentes lo presentan como musulmán, pero la epopeya y la mayoría de sus súbditos seguían las religiones tradicionales. Las genealogías que lo vinculan con figuras del islam se consideran añadidos posteriores para darle legitimidad religiosa. Tampoco hay acuerdo sobre si «Keita» era su apellido o un título real.
+* Algunos autores han señalado parecidos entre su epopeya y la película «El rey león», de 1994; Disney ha dicho que se inspiró en «Hamlet».
+* Su epopeya se sigue cantando hoy por los griots de África occidental.
+* En 1995 se estrenó la película burkinesa «Keïta! La herencia del griot», basada en su historia.
+- 1217 | Nace (fecha aproximada)
+- 1235 | Vence a Sumaoro Kanté en Kirina y funda el Imperio de Malí
+- 1255 | Muere (fecha aproximada)
+rel: mansa-musa | Su sobrino nieto, que llevó al Imperio de Malí a su mayor esplendor.
+rel: shaka-zulu | Otro fundador de un reino africano, cuya imagen también está envuelta en relatos y leyendas.
+src: https://en.wikipedia.org/wiki/Sundiata_Keita | Wikipedia: Sundiata Keita
+
+@guillermo-el-conquistador
+name: Guillermo el Conquistador
+alt: Guillermo I de Inglaterra, Guillermo el Bastardo
+title: Duque de Normandía y rey de Inglaterra
+kind: rey
+era: media
+civ: Normandos
+realm: Ducado de Normandía y Reino de Inglaterra
+region: Europa
+y: 1066
+born: hacia 1027–1028, Falaise (Normandía, Francia)
+died: 9 de septiembre de 1087, Ruan
+reign: duque de Normandía desde 1035; rey de Inglaterra de 1066 a 1087
+lead: Duque de Normandía desde niño, cruzó el canal de la Mancha, venció en la batalla de Hastings y se coronó rey de Inglaterra en la Navidad de 1066. La conquista normanda transformó para siempre la lengua, la nobleza y la Iglesia inglesas.
+## «El Bastardo»
+Guillermo nació hacia 1027 o 1028 en Falaise, en Normandía. Era el único hijo del duque Roberto I y de Herleva, una mujer que no estaba casada con él, por lo que a veces se le llama «Guillermo el Bastardo». En 1035, cuando su padre murió durante una peregrinación, Guillermo heredó el ducado con solo siete u ocho años.
+## Una infancia peligrosa
+Su minoría de edad fue una época de anarquía, con nobles enfrentados entre sí. En 1047, con la ayuda del rey de Francia, venció a los nobles rebeldes en la batalla de Val-ès-Dunes. Hacia 1060 ya había consolidado su autoridad sobre el ducado. A principios de la década de 1050 se casó con Matilde de Flandes, a pesar de la oposición del papa León IX.
+## La disputa por Inglaterra
+El rey de Inglaterra, Eduardo el Confesor, no tenía hijos. Según las fuentes, hacia 1051 parece que eligió a Guillermo, pariente suyo, como sucesor. Pero en enero de 1066, en su lecho de muerte, nombró rey a Haroldo Godwinson, el noble más poderoso de Inglaterra. Guillermo no lo aceptó y preparó una invasión.
+## La batalla de Hastings
+En septiembre de 1066, Guillermo desembarcó en el sur de Inglaterra. El 14 de octubre se enfrentó a Haroldo en la batalla de Hastings. Haroldo murió en el combate, y los normandos vencieron. El día de Navidad de 1066, Guillermo fue coronado rey en la abadía de Westminster.
+## Una conquista dura
+Los ingleses se rebelaron varias veces en los años siguientes. La represión más brutal fue la «devastación del norte», terminada en abril de 1070, en la que sus tropas arrasaron grandes zonas del norte de Inglaterra. Guillermo mandó construir numerosos castillos para controlar el país, entre ellos la Torre Blanca, el núcleo de la Torre de Londres.
+## El Domesday Book
+En 1086 ordenó un enorme censo de las tierras y propiedades de Inglaterra, conocido como el Domesday Book, o «Libro del Juicio Final». Se completó en gran parte en pocos meses, antes del 1 de agosto de 1086, y es hoy una fuente única para conocer la Inglaterra medieval.
+## Una muerte y un entierro desastrosos
+En 1087, mientras combatía cerca de Mantes, en Francia, cayó enfermo o se hirió. Murió el 9 de septiembre en el priorato de San Gervasio, en Ruan. Fue enterrado en Caen, y su entierro fue un desastre: el cuerpo era demasiado grande para la tumba y reventó al intentar meterlo. Sus restos fueron destruidos siglos después, y solo se conserva un fémur, que sugiere que medía cerca de 1,78 metros.
+## Su legado
+Normandía pasó a su hijo mayor, Roberto, e Inglaterra a su hijo Guillermo el Rojo; su hijo menor, Enrique I, también llegaría a ser rey. La conquista normanda cambió la Iglesia, la nobleza, la cultura y la lengua de Inglaterra: el inglés se llenó de palabras de origen francés. Los historiadores aún debaten lo radicales que fueron esos cambios.
+* No se conserva ningún retrato auténtico suyo; las imágenes del tapiz de Bayeux son convencionales.
+* Le apasionaba la caza, y según las fuentes intentó aprender inglés antiguo ya mayor, pero se rindió.
+* Muchas palabras inglesas como «beef» (carne de res) o «pork» (cerdo) proceden del francés que trajeron los normandos.
+- 1028 | Nace en Falaise (fecha aproximada)
+- 1035 | Hereda el ducado de Normandía de niño
+- 1047 | Vence en Val-ès-Dunes
+- 1066 | Batalla de Hastings y coronación en Navidad
+- 1086 | Encarga el Domesday Book
+- 1087 | Muere en Ruan
+rel: ricardo-corazon-de-leon | Su descendiente: Ricardo era rey de Inglaterra y duque de Normandía, como él.
+rel: carlomagno | Otro gran gobernante medieval que unió reinos y reorganizó su administración.
+src: https://en.wikipedia.org/wiki/William_the_Conqueror | Wikipedia: William the Conqueror

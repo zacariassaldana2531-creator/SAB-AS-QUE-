@@ -2,7 +2,7 @@
  * Crea una página HTML real por artículo, dato y país, con título, descripción,
  * vista previa para redes (Open Graph) y datos estructurados (JSON-LD), más sitemap.xml y robots.txt.
  * Uso:  node tools/build-pages.js            (desde la carpeta del proyecto)
- * Vuelve a ejecutarlo cada vez que cambie content.js, countries.js, anatomy.js o chemistry.js.
+ * Vuelve a ejecutarlo cada vez que cambie content.js, countries.js, anatomy.js, chemistry.js o rulers.js.
  */
 const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
@@ -12,8 +12,9 @@ require(path.join(ROOT, 'content.js'));
 require(path.join(ROOT, 'countries.js'));
 require(path.join(ROOT, 'anatomy.js'));
 require(path.join(ROOT, 'chemistry.js'));
+require(path.join(ROOT, 'rulers.js'));
 const { build: buildReco } = require(path.join(ROOT, 'reco.js'));
-const C = window.SQ_CONTENT, P = window.SQ_COUNTRIES || [], AN = window.SQ_ANATOMY || { systems: [], organs: [] }, CH = window.SQ_CHEM || { elements: [], lessons: [], families: [] };
+const C = window.SQ_CONTENT, P = window.SQ_COUNTRIES || [], AN = window.SQ_ANATOMY || { systems: [], organs: [] }, CH = window.SQ_CHEM || { elements: [], lessons: [], families: [] }, RU = (window.SQ_RULERS || { rulers: [] }).rulers;
 const MED = 'Contenido educativo y de divulgación. No sustituye el diagnóstico, el tratamiento ni el consejo de un profesional de la salud.';
 const medNote = `<aside class="med-note" role="note"><b>⚕️ Aviso</b> ${MED}</aside>`;
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -71,7 +72,7 @@ const conceptsBox = i => (i.concepts || []).length ? `<aside class="box concepts
 const write = (rel, html) => { const f = path.join(ROOT, rel, 'index.html'); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, html); };
 
 /* Limpiar las carpetas generadas para no dejar páginas de contenido borrado */
-for (const d of ['articulo', 'dato', 'pais', 'anatomia', 'quimica']) fs.rmSync(path.join(ROOT, d), { recursive: true, force: true });
+for (const d of ['articulo', 'dato', 'pais', 'anatomia', 'quimica', 'gobernantes']) fs.rmSync(path.join(ROOT, d), { recursive: true, force: true });
 
 const urls = [{ loc: `${SITE}/`, pri: '1.0' }];
 const items = C.items.filter(i => i.status === 'publicado' && (!i.verif || i.verif.status === 'verificado'));
@@ -165,6 +166,31 @@ ${rel.length ? `<h2>${isSys ? 'Órganos de este sistema' : 'Forma parte de'}</h2
     urls.push({ loc: url, pri: '0.6' });
   });
 }
+/* Reyes, emperadores y conquistadores */
+{
+  const R = RU.filter(r => !r.verif || r.verif.status === 'verificado').sort((a, b) => a.y - b.y);
+  const ERA = { antigua: 'Antigüedad', media: 'Edad Media', moderna: 'Edad Moderna y contemporánea' };
+  const fy = y => y < 0 ? `${-y} a. C.` : String(y);
+  const url = `${SITE}/gobernantes/`;
+  const desc = `${R.length} biografías verificadas de reyes, emperadores y conquistadores de cinco continentes, de Narmer a Napoleón: cómo llegaron al poder, qué hicieron y cómo terminó su reinado.`;
+  const body = `<header class="art-head"><span class="chip" style="color:#e3b25f"><span class="dot"></span>Historia</span><h1 style="margin-top:12px">Reyes, emperadores y conquistadores</h1><p class="sub">${esc(desc)}</p></header><div class="prose">${Object.entries(ERA).map(([k, n]) => `<h2>${n}</h2><ul class="anat-list">${R.filter(r => r.era === k).map(r => `<li><a href="/gobernantes/${r.slug}/">${esc(r.name)}</a> — ${esc(r.title)} (${esc(r.reign)})</li>`).join('')}</ul>`).join('')}</div>`;
+  write('gobernantes', page({ url, appUrl: '/#/gobernantes', title: 'Reyes, emperadores y conquistadores: biografías verificadas', desc, image: `${SITE}/og-default.png`, type: 'website', jsonld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Reyes, emperadores y conquistadores', description: desc, inLanguage: 'es', url }, body }));
+  urls.push({ loc: url, pri: '0.8' });
+  const by = Object.fromEntries(R.map(r => [r.slug, r]));
+  R.forEach((r, k) => {
+    const url = `${SITE}/gobernantes/${r.slug}/`, appUrl = `/#/gobernantes/${r.slug}`, desc = clip(r.lead, 200);
+    const kv = (a, b) => `<div class="kv"><span>${a}</span><b>${esc(b)}</b></div>`;
+    const prev = R[k - 1], next = R[k + 1];
+    const body = `<header class="art-head"><span class="chip" style="color:#e3b25f"><span class="dot"></span>${ERA[r.era]} · ${esc(r.civ)}</span><h1 style="margin-top:12px">${esc(r.name)}</h1><p class="sub">${esc(r.title)} · ${esc(r.reign)}</p></header>
+<div class="kvs">${kv('También conocido como', r.alt)}${kv('Reino o imperio', r.realm)}${kv('Región', r.region)}${kv('Nacimiento', r.born)}${kv('Muerte', r.died)}${kv('Reinado', r.reign)}</div>
+<div class="prose"><p class="lead">${esc(r.lead)}</p>${r.sections.map(s => `<h2>${esc(s.h)}</h2>${s.p.map(t => `<p>${esc(t)}</p>`).join('')}`).join('')}<aside class="box"><h3>Curiosidades verificadas</h3><ul>${r.facts.map(f => `<li>${esc(f)}</li>`).join('')}</ul></aside><h2>Cronología</h2><ol class="tl">${r.timeline.map(e => `<li><span class="tl-y">${esc(fy(e.y))}</span><div><p>${esc(e.t)}</p></div></li>`).join('')}</ol>
+<h2>Figuras relacionadas</h2><ul class="anat-list">${r.rel.filter(x => by[x.s]).map(x => `<li><a href="/gobernantes/${x.s}/">${esc(by[x.s].name)}</a> — ${esc(x.t)}</li>`).join('')}</ul>
+<p>${prev ? `<a href="/gobernantes/${prev.slug}/">← ${esc(prev.name)}</a> · ` : ''}<a href="/gobernantes/">Todos los gobernantes</a>${next ? ` · <a href="/gobernantes/${next.slug}/">${esc(next.name)} →</a>` : ''}</p></div>${sources(r.sources, r)}`;
+    const jsonld = { '@context': 'https://schema.org', '@type': 'ProfilePage', name: `${r.name}: biografía`, description: desc, inLanguage: 'es', url, mainEntity: { '@type': 'Person', name: r.name, alternateName: r.alt, jobTitle: r.title }, citation: r.sources.map(s => s.u), isAccessibleForFree: true };
+    write(`gobernantes/${r.slug}`, page({ url, appUrl, title: `${r.name}: biografía, reinado y legado`, desc, image: `${SITE}/og-default.png`, type: 'article', jsonld, body }));
+    urls.push({ loc: url, pri: '0.6' });
+  });
+}
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `<url><loc>${u.loc}</loc>${u.mod ? `<lastmod>${u.mod}</lastmod>` : ''}<priority>${u.pri}</priority></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /admin.html\nSitemap: ${SITE}/sitemap.xml\n`);
-console.log(`Páginas: ${items.length} contenidos + ${P.length} países + ${AN.systems.length + AN.organs.length + 1} del atlas + ${CH.elements.length + CH.lessons.length + 1} de química · sitemap con ${urls.length} direcciones`);
+console.log(`Páginas: ${items.length} contenidos + ${P.length} países + ${AN.systems.length + AN.organs.length + 1} del atlas + ${CH.elements.length + CH.lessons.length + 1} de química + ${RU.length + 1} de gobernantes · sitemap con ${urls.length} direcciones`);

@@ -1,0 +1,41 @@
+@akbar
+name: Akbar el Grande
+alt: Jalal-ud-din Muhammad Akbar
+title: Emperador mogol de la India
+kind: emperador
+era: moderna
+civ: Mogoles
+realm: Imperio mogol
+region: India
+y: 1556
+born: 15 de octubre de 1542, Amarkot (actual Umerkot, Pakistán)
+died: octubre de 1605, Agra
+reign: 1556–1605
+lead: Llegó al trono con unos 14 años y convirtió el Imperio mogol en uno de los estados más ricos y poderosos del mundo. Nunca aprendió a leer, pero reunió una biblioteca enorme y fue famoso por su tolerancia religiosa: invitaba a sabios de todas las religiones a debatir en su palacio.
+## Nacido en el exilio
+Akbar nació el 15 de octubre de 1542 en Amarkot, en la actual provincia pakistaní de Sindh. Su padre, el emperador Humayun, había perdido su trono y vivía en el exilio; su madre era Hamida Banu Begum. Era nieto de Babur, el fundador del Imperio mogol, que a su vez descendía de Tamerlán. Akbar creció en Kabul, donde aprendió a cazar, montar y combatir, pero nunca aprendió a leer ni a escribir. Durante toda su vida se hacía leer los libros en voz alta.
+## Un emperador adolescente
+Humayun recuperó el trono, pero murió poco después. En febrero de 1556, Akbar, con unos 14 años, se convirtió en emperador. Durante sus primeros años gobernó en su nombre un regente, Bairam Khan. Ese mismo año, el ejército mogol venció a Hemu, un poderoso general hindú que había tomado Delhi, en la segunda batalla de Panipat, lo que salvó el imperio.
+## Las conquistas
+En las décadas siguientes, Akbar incorporó al imperio Malwa, Gujarat, Bengala, Cachemira, Sindh y Kandahar. En 1568 tomó la fortaleza de Chittorgarh, uno de los grandes bastiones de los rajputs, después de un asedio de cuatro meses. Al final de su reinado, el imperio dominaba la mayor parte del norte y el centro de la India.
+## Alianzas con los rajputs
+En lugar de gobernar solo con la fuerza, Akbar usó el matrimonio y la diplomacia para ganarse a los príncipes rajputs hindúes y a otros gobernantes, a muchos de los cuales integró en su administración y su ejército. Así logró la lealtad de una parte importante de la nobleza hindú.
+## Un imperio bien organizado
+Reorganizó el sistema de rangos de la nobleza, llamado mansabdari, por el que cada noble tenía un rango que fijaba su sueldo y el número de soldados que debía mantener. También introdujo un sistema de impuestos sobre la tierra basado en el trabajo de su ministro Todar Mal, que calculaba los impuestos según la producción real.
+## Tolerancia religiosa
+Aunque era musulmán, Akbar se alejó del islam más estricto y defendió la tolerancia entre religiones, en un imperio donde la mayoría de la población era hindú. Suprimió el impuesto que pagaban los no musulmanes, la yizia. En su Ibadat Jana, o «Casa del Culto», organizaba debates entre musulmanes, hindúes, jainistas, zoroastrianos y misioneros cristianos jesuitas. Creó además una doctrina llamada Din-i Ilahi, la «fe divina», que mezclaba ideas de varias religiones; muchos especialistas creen que nunca fue una religión aparte, sino un círculo de fieles en torno al emperador.
+## Una corte brillante
+Sus cortes en Delhi, Agra y Fatehpur Sikri, una ciudad que mandó construir, reunieron a poetas, artistas y sabios. Entre ellos estaban los llamados «nueve joyas», como el historiador Abul Fazl, el músico Tansen y el consejero Birbal, protagonista de muchos cuentos populares. Abul Fazl escribió la crónica de su reinado, el Akbarnama, y la biblioteca del emperador llegó a tener más de 24.000 volúmenes.
+## Muerte y legado
+Akbar murió en octubre de 1605, tras un ataque de disentería, y fue enterrado en Sikandra, cerca de Agra. Lo sucedió su hijo Jahangir. Su nieto, Shah Jahan, construiría el Taj Mahal. Akbar es recordado como uno de los grandes gobernantes de la historia de la India.
+* No sabía leer ni escribir, pero tenía una biblioteca de más de 24.000 volúmenes.
+* Su consejero Birbal es protagonista de muchos cuentos populares indios.
+* Descendía de Tamerlán y, por la madre de su abuelo Babur, de Gengis Kan.
+- 1542 | Nace en Amarkot, durante el exilio de su padre
+- 1556 | Se convierte en emperador; batalla de Panipat
+- 1568 | Toma Chittorgarh
+- 1605 | Muere en Agra
+rel: tamerlan | Su antepasado: la dinastía mogol descendía de Tamerlán.
+rel: ashoka | Otro gran emperador de la India recordado por su tolerancia religiosa.
+rel: soliman-el-magnifico | Contemporáneo; ambos gobernaron grandes imperios islámicos en el siglo XVI.
+src: https://en.wikipedia.org/wiki/Akbar | Wikipedia: Akbar

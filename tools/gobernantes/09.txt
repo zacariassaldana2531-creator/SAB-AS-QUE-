@@ -1,0 +1,171 @@
+@ricardo-corazon-de-leon
+name: Ricardo Corazón de León
+alt: Ricardo I de Inglaterra
+title: Rey de Inglaterra, duque de Normandía y de Aquitania
+kind: rey
+era: media
+civ: Plantagenet
+realm: Reino de Inglaterra e Imperio angevino
+region: Europa
+y: 1189
+born: 8 de septiembre de 1157, Oxford (Inglaterra)
+died: 6 de abril de 1199, Châlus (Francia)
+reign: 1189–1199
+lead: El rey guerrero por excelencia de la Edad Media: lideró la Tercera Cruzada contra Saladino, fue capturado al volver y liberado tras un enorme rescate. Fue rey de Inglaterra durante diez años, pero pasó allí apenas unos seis meses.
+## Un tercer hijo
+Ricardo nació el 8 de septiembre de 1157 en Oxford. Era hijo del rey Enrique II de Inglaterra y de Leonor de Aquitania, una de las mujeres más poderosas de su tiempo. Como era el tercer hijo varón, no se esperaba que heredara el trono. Pasó la mayor parte de su vida adulta en Aquitania, en el suroeste de Francia, la tierra de su madre, y su lengua era el francés, no el inglés.
+## Contra su propio padre
+Con solo 16 años encabezó un ejército contra el gobierno de su padre en Poitou. Más tarde se reconcilió con él y recibió Aquitania, aunque volvió a enfrentarse a Enrique II en sus últimos años. Tras la muerte de sus hermanos mayores y de su padre, en 1189 fue coronado rey de Inglaterra.
+## La Tercera Cruzada
+En 1187, Saladino había reconquistado Jerusalén para el islam. Ricardo se unió a la Tercera Cruzada junto al rey Felipe II de Francia. En el camino, en 1191, se casó en Chipre con Berenguela de Navarra. Ese mismo año participó en la toma de Acre. Cuando Felipe II regresó a Francia, Ricardo quedó al frente de los cruzados y venció a Saladino en batallas como la de Arsuf y la de Jaffa. Sin embargo, nunca intentó tomar Jerusalén: consideró que no podría conservarla. En 1192 firmó una tregua con Saladino que permitía a los peregrinos cristianos visitar la ciudad.
+## Prisionero
+En el viaje de regreso, Ricardo fue capturado por el duque Leopoldo de Austria, con quien se había enemistado durante la cruzada, y entregado después al emperador Enrique VI del Sacro Imperio. Fue liberado en febrero de 1194 tras el pago de un enorme rescate, de 150.000 marcos según las fuentes, que obligó a cobrar fuertes impuestos en Inglaterra.
+## Guerra con Francia
+Tras su liberación, Ricardo dedicó sus últimos años a luchar contra Felipe II de Francia, que había aprovechado su ausencia para atacar sus tierras. En Normandía mandó construir Château Gaillard, una gran fortaleza a orillas del Sena.
+## Muerte por una flecha
+En 1199, durante el asedio de un castillo en Châlus, en el centro de Francia, recibió un disparo de ballesta en el hombro. La herida se gangrenó, y murió el 6 de abril. Su corazón fue enterrado en Ruan, sus vísceras en Châlus y su cuerpo en la abadía de Fontevraud, junto a su padre. No tuvo hijos legítimos, y lo sucedió su hermano Juan, conocido como Juan sin Tierra.
+## Héroe o mal rey
+Los historiadores han debatido mucho sobre él. Para unos fue un modelo de caballero cruzado y un gran estratega; para otros, un rey que trató a Inglaterra sobre todo como una fuente de dinero para sus guerras, ya que pasó allí, en total, unos seis meses de su reinado. Ya en vida se le llamaba Corazón de León por su valor en combate.
+* Su lengua materna era el francés; probablemente apenas hablaba inglés.
+* En las leyendas posteriores de Robin Hood aparece como el rey bueno cuyo regreso se espera.
+* Tuvo un hijo ilegítimo, Felipe de Cognac.
+- 1157 | Nace en Oxford
+- 1189 | Es coronado rey de Inglaterra
+- 1191 | Toma de Acre y victoria en Arsuf
+- 1192 | Tregua con Saladino; es capturado al volver
+- 1194 | Es liberado tras pagar un rescate
+- 1199 | Muere por una herida de ballesta en Châlus
+rel: saladino | Su gran rival en la Tercera Cruzada.
+rel: guillermo-el-conquistador | Su antepasado, que unió Normandía e Inglaterra.
+src: https://en.wikipedia.org/wiki/Richard_I_of_England | Wikipedia: Richard I of England
+
+@soliman-el-magnifico
+name: Solimán el Magnífico
+alt: Solimán I, Kanuni («el Legislador»)
+title: Sultán del Imperio otomano
+kind: sultan
+era: moderna
+civ: Otomanos
+realm: Imperio otomano
+region: Europa y Oriente Próximo
+y: 1520
+born: probablemente el 6 de noviembre de 1494, Trebisonda (actual Trabzon, Turquía)
+died: 6 de septiembre de 1566, Szigetvár (Hungría)
+reign: 1520–1566
+lead: El sultán que más tiempo reinó en la historia otomana. Conquistó Belgrado, Rodas y Hungría, llegó a sitiar Viena y reformó las leyes de su imperio, por lo que los turcos lo llaman «el Legislador». Su reinado se considera la edad de oro otomana.
+## Príncipe en Trebisonda
+Solimán nació probablemente el 6 de noviembre de 1494 en Trebisonda, en la costa turca del mar Negro, donde su padre era gobernador. Era hijo de Selim I y de Hafsa Sultan. Como era costumbre, se formó gobernando provincias del imperio. El 30 de septiembre de 1520, tras la muerte de su padre, se convirtió en sultán.
+## Conquistas en Europa
+Al año siguiente, en 1521, tomó Belgrado, y en 1522 conquistó la isla de Rodas, defendida por los caballeros hospitalarios. En 1526 obtuvo su mayor victoria en la batalla de Mohács, que destruyó al reino de Hungría. En 1529 llegó hasta Viena y la sitió, pero no consiguió tomarla: fue el punto más lejano de su avance hacia el corazón de Europa. Durante décadas fue el gran rival del emperador Carlos V.
+## Guerras en Oriente y en el mar
+Hacia el este luchó contra el Imperio safávida de Persia y entró en Bagdad a mediados de la década de 1530. La guerra con los persas terminó con la Paz de Amasya, en 1555. En el mar, su flota, dirigida por el famoso almirante Barbarroja, dominó gran parte del Mediterráneo.
+## «El Legislador»
+En Europa se le llama «el Magnífico», pero los turcos lo conocen como Kanuni, «el Legislador». Junto al gran muftí Ebussuud trabajó para unificar las leyes del sultán con la ley islámica, y organizó la administración de un imperio enorme y diverso.
+## Poeta y mecenas
+Solimán escribió poesía bajo el seudónimo de Muhibbi, que significa «el amante». Su reinado fue una edad de oro para las artes. El gran arquitecto Mimar Sinan diseñó para él el complejo de la mezquita de Solimán, o Süleymaniye, en Estambul.
+## Hürrem
+Solimán se enamoró de Hürrem Sultan, conocida en Europa como Roxelana, una mujer que había llegado al harén como esclava. Hacia 1534 se casó con ella, algo excepcional para un sultán otomano, y Hürrem se convirtió en una figura muy influyente en los asuntos del Estado.
+## Tragedias en la familia
+Solimán ordenó ejecutar a dos de las personas más cercanas a él: su gran visir y amigo de la infancia, Pargalı Ibrahim Pachá, y su propio hijo mayor, el príncipe Mustafá, ejecutado en 1553 por sospechas de traición. Muchos historiadores creen que las intrigas de la corte, y quizá de Hürrem, influyeron en estas decisiones, aunque es un tema debatido.
+## Muerte en campaña
+A los 71 años, Solimán dirigía todavía su ejército. Murió el 6 de septiembre de 1566 durante el asedio de Szigetvár, en Hungría. Su muerte se mantuvo en secreto durante 48 días para no desmoralizar a las tropas. Lo sucedió su hijo Selim II.
+* Su reinado, de 46 años, fue el más largo de la historia otomana.
+* Escribía poesía con el seudónimo Muhibbi.
+* Su esposa Hürrem es protagonista de muchas series de televisión turcas.
+- 1494 | Nace en Trebisonda
+- 1520 | Se convierte en sultán
+- 1521 | Conquista Belgrado
+- 1522 | Conquista Rodas
+- 1526 | Victoria en la batalla de Mohács
+- 1529 | Asedio de Viena, sin éxito
+- 1553 | Ejecución de su hijo Mustafá
+- 1566 | Muere durante el asedio de Szigetvár
+rel: carlos-v | Su gran rival en Europa durante décadas.
+rel: mehmed-ii | Su bisabuelo, que conquistó Constantinopla.
+src: https://en.wikipedia.org/wiki/Suleiman_the_Magnificent | Wikipedia: Suleiman the Magnificent
+
+@mehmed-ii
+name: Mehmed II
+alt: Mehmed el Conquistador, Fatih
+title: Sultán del Imperio otomano
+kind: sultan
+era: media
+civ: Otomanos
+realm: Imperio otomano
+region: Europa y Oriente Próximo
+y: 1451
+born: 30 de marzo de 1432, Edirne
+died: 3 de mayo de 1481, cerca de Gebze
+reign: 1444–1446 y 1451–1481
+lead: Con solo 21 años conquistó Constantinopla y puso fin al Imperio bizantino, que había durado más de mil años. Convirtió la ciudad en la capital otomana y se proclamó «césar de Roma». Los turcos lo llaman Fatih, «el Conquistador».
+## Sultán dos veces
+Mehmed nació en 1432 en Edirne, entonces capital otomana. Era hijo del sultán Murad II y de Hüma Hatun. Se educó en Amasya bajo la influencia de sabios islámicos como Akshamsaddin. Con solo 12 años, en 1444, su padre abdicó en él, pero el joven sultán no logró imponerse y Murad volvió al poder en 1446. Cuando su padre murió en 1451, Mehmed subió al trono por segunda vez, ya decidido a conquistar Constantinopla.
+## La preparación
+Constantinopla, capital del Imperio bizantino, estaba rodeada por territorio otomano, pero sus enormes murallas habían resistido durante siglos. Mehmed construyó la fortaleza de Rumelihisarı en la orilla europea del Bósforo para controlar el estrecho y cortar la llegada de ayuda por mar. También reunió una gran artillería, con cañones gigantes fundidos por un ingeniero llamado Orbán.
+## La caída de Constantinopla
+El asedio duró 57 días. Para burlar la cadena que cerraba el puerto del Cuerno de Oro, Mehmed hizo transportar barcos por tierra, sobre colinas, hasta meterlos en el puerto. El 29 de mayo de 1453, los otomanos tomaron la ciudad. El último emperador bizantino, Constantino XI, murió en la lucha. Era el fin del Imperio romano de Oriente.
+## Una nueva capital
+Mehmed trasladó la capital otomana a la ciudad y reclamó el título de «césar de Roma», como heredero de los emperadores. Repobló la ciudad y emprendió grandes obras, como la mezquita de Fatih y el palacio de Topkapı, que sería la residencia de los sultanes durante siglos.
+## Más conquistas
+Después conquistó Serbia, el Peloponeso, el Imperio de Trebisonda y Bosnia. No todo fueron victorias: en 1456 fracasó en su intento de tomar Belgrado. Luchó también contra Vlad III de Valaquia, conocido como Vlad el Empalador. En 1480 sus tropas tomaron Otranto, en el sur de Italia, aunque la ocupación terminó tras su muerte.
+## Un sultán culto
+Mehmed se interesaba por la cultura de Oriente y de Occidente. Encargó obras a artistas italianos, entre ellos un retrato al pintor veneciano Gentile Bellini, y reunió una gran biblioteca con libros en varias lenguas. Centralizó el gobierno con funcionarios reclutados mediante el devşirme, un sistema de reclutamiento de muchachos cristianos, y publicó un código de leyes entre 1477 y 1481. Ese código incluía una norma muy polémica que permitía al sultán que llegara al trono ejecutar a sus hermanos para evitar guerras civiles.
+## Muerte
+Mehmed murió el 3 de mayo de 1481 cerca de Gebze, durante una campaña, y fue enterrado en la mezquita de Fatih, en Estambul. Lo sucedió su hijo Bayezid II.
+* Tenía solo 21 años cuando conquistó Constantinopla.
+* Su retrato pintado por Gentile Bellini se conserva hoy en la National Gallery de Londres.
+* La caída de Constantinopla se usa a menudo como una de las fechas que marcan el fin de la Edad Media.
+- 1432 | Nace en Edirne
+- 1444 | Primer reinado, con 12 años
+- 1451 | Vuelve al trono
+- 1453 | Conquista Constantinopla (29 de mayo)
+- 1456 | Fracasa ante Belgrado
+- 1480 | Sus tropas toman Otranto, en Italia
+- 1481 | Muere cerca de Gebze
+rel: constantino | El fundador de Constantinopla, la ciudad que Mehmed conquistó once siglos después.
+rel: soliman-el-magnifico | Su bisnieto, que llevó al imperio a su apogeo.
+rel: tamerlan | Tamerlán había derrotado a su bisabuelo Bayezid I medio siglo antes.
+src: https://en.wikipedia.org/wiki/Mehmed_II | Wikipedia: Mehmed II
+
+@isabel-la-catolica
+name: Isabel I de Castilla
+alt: Isabel la Católica
+title: Reina de Castilla y de Aragón
+kind: reina
+era: moderna
+civ: España
+realm: Corona de Castilla
+region: Europa
+y: 1474
+born: 22 de abril de 1451, Madrigal de las Altas Torres (Castilla)
+died: 26 de noviembre de 1504, Medina del Campo
+reign: 1474–1504
+lead: Junto a su esposo, Fernando de Aragón, unió las coronas que darían origen a España, conquistó Granada y financió el viaje de Colón a América, todo en el mismo año: 1492. Ese año también ordenó la expulsión de los judíos, una decisión que sigue marcando su legado.
+## Una infancia lejos del trono
+Isabel nació el 22 de abril de 1451 en Madrigal de las Altas Torres, en Castilla. Era hija del rey Juan II de Castilla y de Isabel de Portugal. Durante gran parte de su juventud vivió bajo el control de su medio hermano, el rey Enrique IV.
+## Una boda secreta
+En 1468, por el Tratado de los Toros de Guisando, Enrique IV la reconoció como heredera. Pero en 1469 Isabel se casó en Valladolid con su primo Fernando, heredero de Aragón, sin el permiso del rey, que denunció el matrimonio.
+## La guerra por el trono
+Cuando Enrique IV murió en 1474, Isabel se proclamó reina. Su rival era Juana, hija de Enrique, a la que sus enemigos llamaban «la Beltraneja» porque decían que era hija de un noble, Beltrán de la Cueva. Juana contaba con el apoyo de Portugal. Tras la batalla de Toro, en 1476, el bando de Isabel se impuso, y el Tratado de Alcáçovas, de 1479, le aseguró el trono. Ese mismo año Fernando se convirtió en rey de Aragón.
+## Reformas
+Isabel creó la Santa Hermandad, una fuerza de policía; recuperó tierras de la Corona que habían pasado a manos de la nobleza; redujo el número de cecas de moneda; reorganizó el Consejo Real y ordenó recopilar las leyes.
+## 1492: el año clave
+En 1492 los Reyes Católicos conquistaron Granada, el último reino musulmán de la península ibérica, poniendo fin a la Reconquista. Ese mismo año firmaron el Edicto de Granada, que ordenaba la expulsión de los judíos que no se convirtieran al cristianismo. Isabel apoyó también el viaje de Cristóbal Colón, que llegó a América en octubre. Y Antonio de Nebrija le dedicó la primera gramática de la lengua castellana.
+## La Inquisición
+Durante su reinado se estableció la Inquisición española, con Tomás de Torquemada como primer inquisidor general, para perseguir a los conversos sospechosos de seguir practicando su antigua religión. Más tarde se ordenó a los musulmanes de Granada que se convirtieran o se marcharan. Por todo ello, su figura es muy controvertida.
+## Los pueblos de América
+Según las fuentes, Isabel se opuso a que los indígenas americanos fueran esclavizados, y en su testamento pidió que se les tratara con justicia. Sin embargo, la conquista de América que comenzó bajo su reinado tuvo consecuencias terribles para esos pueblos.
+## Familia y muerte
+Casó a sus hijos con las casas reales de Portugal, Inglaterra y los Habsburgo. Su hija Juana, conocida como Juana la Loca, fue madre del emperador Carlos V, y su hija Catalina fue reina de Inglaterra como esposa de Enrique VIII. La muerte de su único hijo varón, Juan, en 1497, y de su hija Isabel, en 1498, la afectaron profundamente. Murió en Medina del Campo el 26 de noviembre de 1504 y está enterrada en la Capilla Real de Granada. En 1974 se abrió su causa de beatificación, que fue suspendida en 1991 por la expulsión de los judíos.
+* El título de «Reyes Católicos» se lo concedió el papa Alejandro VI.
+* La primera gramática del castellano, de Nebrija, se publicó en 1492 y estaba dedicada a ella.
+* Fue abuela del emperador Carlos V.
+- 1451 | Nace en Madrigal de las Altas Torres
+- 1469 | Se casa con Fernando de Aragón
+- 1474 | Se proclama reina de Castilla
+- 1479 | El Tratado de Alcáçovas le asegura el trono
+- 1492 | Toma de Granada, expulsión de los judíos y viaje de Colón
+- 1504 | Muere en Medina del Campo
+rel: carlos-v | Su nieto, que heredó Castilla y Aragón.
+rel: moctezuma-ii | La conquista de América que comenzó con Colón terminaría con el imperio de Moctezuma.
+src: https://en.wikipedia.org/wiki/Isabella_I_of_Castile | Wikipedia: Isabella I of Castile

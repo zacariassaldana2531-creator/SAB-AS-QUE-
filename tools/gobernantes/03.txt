@@ -1,0 +1,162 @@
+@atila
+name: Atila
+alt: Atila el Huno
+title: Rey de los hunos
+kind: rey
+era: antigua
+civ: Hunos
+realm: Imperio huno
+region: Europa central
+y: 434
+born: hacia 406
+died: principios de 453
+reign: 434–453 (con su hermano Bleda hasta hacia 445)
+lead: Durante casi dos décadas fue el enemigo más temido de Roma: cobró toneladas de oro como tributo, arrasó los Balcanes, invadió la Galia e Italia. Los cronistas lo llamaron «el azote de Dios», pero su imperio se derrumbó poco después de su muerte.
+## Sobrino de un rey
+Atila nació hacia el año 406, aunque algunos historiadores proponen fechas en la década de 390. Era hijo de Mundzuk y sobrino de Rugila, rey de los hunos, un pueblo de jinetes nómadas que se había instalado en las llanuras de Europa central. Cuando Rugila murió en el 434, Atila y su hermano Bleda heredaron juntos el poder. Gobernaron en común hasta que Bleda murió, hacia el 445, y Atila quedó como único rey. Algunas fuentes antiguas afirman que fue Atila quien lo hizo matar, aunque no se sabe con certeza.
+## El hombre que cobraba a Roma
+Atila convirtió el miedo en un negocio. En el 435, el tratado de Margus obligó al Imperio romano de Oriente a duplicar el tributo anual que pagaba a los hunos, hasta 700 libras romanas de oro, y a pagar un rescate por cada prisionero romano. Entre el 441 y el 443, los hunos saquearon las ciudades de los Balcanes, como Sirmio y Naissus, la actual Niš, usando arietes y torres de asedio. Solo las grandes murallas dobles de Constantinopla los detuvieron. El nuevo tratado fue durísimo para los romanos: 6.000 libras de oro como castigo y un tributo anual triplicado, de 2.100 libras de oro, unos 700 kilos. En el 447 volvió a vencer a un ejército romano y llegó hasta las Termópilas, en Grecia.
+## La propuesta de Honoria
+En el 450, Honoria, hermana del emperador de Occidente Valentiniano III, pidió ayuda a Atila para librarse de un matrimonio que le imponían. Atila interpretó su carta como una propuesta de matrimonio y reclamó como dote la mitad del Imperio de Occidente. Fue una excusa perfecta para atacar.
+## La Galia y los Campos Cataláunicos
+En el 451, Atila invadió la Galia, la actual Francia, y tomó Metz. El general romano Aecio se alió con el rey visigodo Teodorico I, y juntos frenaron a Atila en la batalla de los Campos Cataláunicos, una de las grandes batallas de la Antigüedad tardía, en la que murió el propio Teodorico. Atila tuvo que retirarse.
+## Italia y el papa León
+Al año siguiente, en el 452, invadió Italia y arrasó la ciudad de Aquilea. El papa León I salió a su encuentro junto al río Mincio y consiguió que prometiera retirarse. La tradición cristiana atribuyó la retirada al papa, pero los historiadores señalan otras causas: el hambre, las enfermedades que sufría su ejército y el ataque de tropas del Imperio de Oriente.
+## Una muerte en su noche de bodas
+Atila murió a principios del 453, durante la celebración de su boda con una joven llamada Ildico. Según el historiador Prisco, que lo conoció en persona, sufrió una fuerte hemorragia, quizá nasal o interna, mientras dormía. Un cronista posterior afirmó que lo mató su esposa, pero la mayoría de los historiadores lo consideran un rumor. Según la tradición, fue enterrado en tres ataúdes, de oro, plata y hierro, y los hombres que lo enterraron fueron asesinados para mantener en secreto el lugar.
+## El fin del imperio huno
+Sus hijos se disputaron la herencia, y los pueblos sometidos se rebelaron. En el 454, una coalición dirigida por Ardarico, rey de los gépidos, derrotó a los hunos en la batalla del Nedao. En pocos años, el poder huno desapareció.
+* Prisco es la única fuente que describe su aspecto: bajo, de pecho ancho, cabeza grande, ojos pequeños y nariz chata.
+* La mayoría de los estudiosos creen que su nombre viene de la palabra gótica «atta», «padre», con un diminutivo: algo así como «padrecito».
+* Giuseppe Verdi le dedicó una ópera, «Atila», estrenada en 1846.
+* Las crónicas medievales húngaras decían descender de él, y al rey Matías Corvino lo llamaron «el segundo Atila».
+- 434 | Atila y Bleda heredan el poder de Rugila
+- 435 | Tratado de Margus con el Imperio de Oriente
+- 445 | Muere Bleda; Atila gobierna solo
+- 451 | Batalla de los Campos Cataláunicos
+- 452 | Invasión de Italia y encuentro con el papa León I
+- 453 | Muere durante su boda con Ildico
+rel: julio-cesar | Siglos antes, César conquistó la Galia que Atila invadió en el 451.
+rel: constantino | Las murallas de Constantinopla, la ciudad fundada por Constantino, frenaron a los hunos.
+src: https://en.wikipedia.org/wiki/Attila | Wikipedia: Attila
+
+@carlomagno
+name: Carlomagno
+alt: Carlos el Grande
+title: Rey de los francos y emperador
+kind: emperador
+era: media
+civ: Francos
+realm: Imperio carolingio
+region: Europa occidental
+y: 768
+born: 2 de abril de 748 (fecha más aceptada)
+died: 28 de enero de 814, Aquisgrán
+reign: Rey desde 768; emperador desde 800
+lead: Unió bajo su mando gran parte de Europa occidental, fue coronado emperador por el papa en la Navidad del año 800 e impulsó un renacimiento de la cultura y la escritura. Por eso se le ha llamado el «padre de Europa».
+## El hijo de Pipino
+Carlomagno nació probablemente el 2 de abril del 748, aunque una tradición antigua situaba su nacimiento en el 742; no se sabe dónde. Era el hijo mayor de Pipino el Breve, rey de los francos, y de Bertrada de Laon, y llevaba el nombre de su abuelo, Carlos Martel. Los francos eran un pueblo germánico que dominaba la antigua Galia romana desde hacía siglos.
+## Rey de los francos
+El 9 de octubre del 768, tras la muerte de su padre, Carlos se convirtió en rey de los francos junto a su hermano Carlomán. La convivencia fue tensa, pero Carlomán murió en diciembre del 771, y Carlos quedó como único rey.
+## Un rey en guerra permanente
+Carlomagno pasó casi todo su reinado en campaña. En el 774, tras el asedio de Pavía, derrotó al rey Desiderio y se convirtió también en rey de los lombardos, en el norte de Italia. Contra los sajones, en el norte de la actual Alemania, combatió durante más de treinta años casi sin descanso, y quiso imponerles el cristianismo por la fuerza. En la llamada masacre de Verden, en el 782, según las crónicas fueron ejecutados 4.500 prisioneros sajones, aunque la cifra podría estar exagerada.
+En el 778 hizo una expedición a Hispania, pero a su regreso, en el paso de Roncesvalles, en los Pirineos, la retaguardia de su ejército fue atacada por los vascones. Ese episodio inspiró siglos después el famoso «Cantar de Roldán». También anexionó Baviera en el 788 y venció a los ávaros, un pueblo nómada de Europa central.
+## Emperador en la Navidad del 800
+El 25 de diciembre del año 800, en la antigua basílica de San Pedro de Roma, el papa León III lo coronó emperador. Era la primera vez en más de tres siglos que Occidente tenía un emperador, desde la caída del Imperio romano de Occidente.
+## Gobernar un imperio
+Para controlar territorios tan extensos, Carlomagno enviaba por todo el reino a los «missi dominici», los enviados del señor, que viajaban en parejas, un clérigo y un noble, para vigilar a los gobernantes locales. Estableció su capital en Aquisgrán, donde construyó un palacio y una capilla que hoy forma parte de la catedral de la ciudad. También reformó la moneda.
+## El renacimiento carolingio
+Carlomagno atrajo a su corte a sabios como Alcuino de York, Teodulfo de Orléans y Eginardo, su biógrafo. Bajo su impulso, los monasterios copiaron enormes cantidades de libros: se calcula que en el siglo IX se produjeron unos 90.000 manuscritos, que salvaron muchas obras de la Antigüedad. También se desarrolló la minúscula carolina, una letra clara y legible que es la base de nuestras letras minúsculas actuales. Curiosamente, según Eginardo, el propio Carlomagno solo intentó aprender a escribir ya mayor, y los historiadores discuten si sabía leer.
+## Muerte y legado
+Carlomagno murió el 28 de enero del 814 en Aquisgrán, probablemente de pleuresía, y fue enterrado en su capilla palatina. Lo sucedió su hijo Luis el Piadoso, y más tarde el imperio se dividió entre sus nietos. Su figura inspiró más de mil leyendas, y en el siglo XIX empezó a llamársele «padre de Europa», porque su imperio reunió gran parte de los territorios de las actuales Francia, Alemania e Italia.
+* El califa Harún al-Rashid le regaló un elefante, Abul-Abbas, que llegó a Aquisgrán en el año 802.
+* Se casó al menos cuatro veces: con Desiderata, Hildegarda, Fastrada y Liutgarda.
+* El emperador Federico Barbarroja mandó exhumar sus restos en 1165.
+- 748 | Nace, probablemente el 2 de abril
+- 768 | Rey de los francos junto a su hermano Carlomán
+- 774 | Se convierte en rey de los lombardos
+- 778 | Emboscada de Roncesvalles
+- 800 | El papa León III lo corona emperador
+- 814 | Muere en Aquisgrán
+rel: harun-al-rashid | El califa de Bagdad mantuvo relaciones diplomáticas con él y le regaló un elefante.
+rel: guillermo-el-conquistador | Siglos después, otro gobernante de origen franco y normando conquistaría Inglaterra.
+src: https://en.wikipedia.org/wiki/Charlemagne | Wikipedia: Charlemagne
+
+@saladino
+name: Saladino
+alt: Salah ad-Din Yusuf ibn Ayyub
+title: Sultán de Egipto y Siria
+kind: sultan
+era: media
+civ: Mundo islámico
+realm: Sultanato ayubí
+region: Oriente Próximo
+y: 1174
+born: hacia 1137, Tikrit (actual Irak)
+died: 4 de marzo de 1193, Damasco
+reign: 1174–1193
+lead: Unificó Egipto y Siria, derrotó a los cruzados en Hattin y recuperó Jerusalén en 1187. Murió casi sin dinero, porque lo había repartido, y hasta sus enemigos europeos lo admiraron por su generosidad.
+## Un kurdo al servicio de Nur al-Din
+Saladino, en árabe Salah ad-Din Yusuf ibn Ayyub, nació hacia el año 1137 en Tikrit, en el actual Irak. Su familia era de origen kurdo, y se le considera el kurdo más famoso de la historia. Su padre, Ayyub, era un militar, y su tío Shirkuh, un comandante al servicio de Nur al-Din, el poderoso gobernante de Siria, fue su gran maestro militar.
+## Visir y señor de Egipto
+En 1164, Nur al-Din envió a Shirkuh y a Saladino a Egipto, entonces gobernado por la dinastía de los fatimíes. Cuando Shirkuh murió en 1169, Saladino fue nombrado visir, el principal cargo del gobierno, el 26 de marzo de 1169. En 1171, tras la muerte del último califa fatimí, Saladino, que era musulmán suní, puso fin al califato fatimí, de la rama ismailí del islam, y devolvió Egipto a la obediencia del califa abasí de Bagdad.
+## Fundador de una dinastía
+Saladino fundó la dinastía ayubí, que lleva el nombre de su padre, y fue el primer sultán de Egipto y de Siria. En 1174 entró pacíficamente en Damasco, y en los años siguientes fue sometiendo el resto de Siria; en 1183 tomó Alepo. Así, por primera vez en mucho tiempo, los territorios musulmanes que rodeaban a los reinos cruzados quedaron bajo un solo mando.
+## Hattin y Jerusalén
+El 4 de julio de 1187, su ejército derrotó de forma aplastante a los cruzados en la batalla de los Cuernos de Hattin, cerca del lago de Tiberíades, un momento decisivo de las cruzadas. Pocos meses después, el viernes 2 de octubre de 1187, Jerusalén se rindió. Saladino ofreció condiciones: cada cristiano franco debía pagar un rescate para salir libre. Muchos pobres no pudieron pagarlo: unos 18.000 fueron liberados con fondos reunidos por el patriarca Heraclio, pero alrededor de 15.000 fueron esclavizados. El hermano de Saladino, al-Adil, compró la libertad de mil de ellos. Saladino también invitó a los judíos a volver a vivir en la ciudad.
+## La Tercera Cruzada y Ricardo Corazón de León
+La caída de Jerusalén provocó la Tercera Cruzada, dirigida en gran parte por el rey Ricardo I de Inglaterra, Ricardo Corazón de León. Saladino perdió la batalla de Arsuf, el 7 de septiembre de 1191, pero los cruzados no lograron recuperar Jerusalén. En 1192, ambos firmaron el tratado de Jaffa: una paz de tres años en la que los cruzados conservaban la costa entre Tiro y Jaffa, y los peregrinos cristianos podían visitar Jerusalén sin armas.
+## Muerte y legado
+Saladino murió de fiebre en Damasco el 4 de marzo de 1193, y fue enterrado en un mausoleo junto a la Gran Mezquita de los Omeyas. Había repartido casi toda su riqueza entre sus súbditos: al morir solo tenía una pieza de oro y cuarenta de plata, y no quedó dinero ni para su funeral. En Europa, los escritores medievales admiraron su generosidad, y Dante lo colocó entre los no cristianos virtuosos. La novela «El talismán», de Walter Scott, de 1825, reforzó su imagen romántica.
+* El águila de Saladino se convirtió en símbolo de Egipto y de otros países árabes.
+* En 1898, el káiser alemán Guillermo II visitó su tumba en Damasco.
+* También tuvo episodios polémicos: en 1191 ordenó ejecutar al filósofo sufí Yahya al-Suhrawardi.
+- 1137 | Nace en Tikrit (fecha aproximada)
+- 1169 | Es nombrado visir de Egipto
+- 1171 | Pone fin al califato fatimí
+- 1187 | Victoria de Hattin y conquista de Jerusalén
+- 1192 | Tratado de Jaffa con Ricardo Corazón de León
+- 1193 | Muere en Damasco
+rel: ricardo-corazon-de-leon | Su gran rival en la Tercera Cruzada; terminaron firmando la paz de Jaffa en 1192.
+rel: harun-al-rashid | Ambos son figuras célebres del mundo islámico medieval, separados por cuatro siglos.
+src: https://en.wikipedia.org/wiki/Saladin | Wikipedia: Saladin
+
+@mansa-musa
+name: Mansa Musa
+alt: Kanku Musa
+title: Emperador (mansa) de Malí
+kind: emperador
+era: media
+civ: Malí
+realm: Imperio de Malí
+region: África occidental
+y: 1312
+born: hacia 1280
+died: hacia 1337
+reign: hacia 1312 – hacia 1337
+lead: Gobernó uno de los mayores imperios de África, enriquecido por el comercio de sal y oro. Su peregrinación a La Meca, en 1324, fue tan fastuosa que la recordaron durante siglos los cronistas árabes y los cartógrafos europeos.
+## El noveno mansa de Malí
+Musa fue el noveno «mansa», el título de los emperadores del Imperio de Malí, en África occidental. Su nombre es la forma árabe de Moisés, y en la tradición oral se le conoce también como Kanku Musa. La fecha de su llegada al trono se discute, pero la más aceptada es 1312. Según el historiador Ibn Jaldún, reinó unos 25 años.
+## Un antecesor que se fue al océano
+Según el propio Musa contó en Egipto, el mansa anterior organizó una gran expedición para explorar el océano Atlántico, partió con ella y dejó a Musa como su suplente. Como nunca regresó, Musa fue coronado. Algunos historiadores sospechan que Musa pudo derrocarlo e inventar la historia del viaje, y la cuestión sigue sin resolverse.
+## Un imperio de sal y oro
+En su apogeo, el Imperio de Malí ocupaba alrededor de 1.300.000 kilómetros cuadrados, en territorios de las actuales Guinea, Senegal, Mauritania, Gambia y Malí. Su riqueza no venía tanto de controlar las minas de oro como de cobrar impuestos sobre el comercio de sal y de oro que cruzaba la región, y de los tributos.
+## La peregrinación más famosa
+Entre 1324 y 1325, Musa hizo la peregrinación a La Meca. Los cronistas árabes describen una comitiva gigantesca, de hasta 12.000 esclavos y 80 camellos cargados de oro, aunque los historiadores modernos consideran esas cifras más retóricas que exactas. La caravana llegó a El Cairo en julio de 1324 y se quedó unos tres meses. Musa repartió tanto oro que, según el cronista al-Umari, su valor bajó en la ciudad. Al final se quedó sin dinero y tuvo que pedir préstamos a intereses altos, que muchos prestamistas nunca llegaron a cobrar.
+## Tombuctú, ciudad del saber
+De vuelta de La Meca, Musa llevó a Malí al poeta andalusí Abu Ishaq al-Sahili y a juristas musulmanes, y Tombuctú se convirtió en un gran centro de estudio. La tradición atribuye a al-Sahili el diseño de la gran mezquita de Djinguereber, pero los estudios modernos lo ponen en duda. Bajo su reinado también se anexionó la ciudad de Gao, aunque algunas fuentes atribuyen esa conquista a otro mansa.
+## Muerte y legado
+Musa murió probablemente hacia 1337. Su reinado se considera la época dorada de Malí, aunque esa imagen puede deberse en parte a que las fuentes árabes hablan mucho de él. Su fama llegó hasta Europa: el Atlas catalán de 1375 lo representa sentado en un trono, con una corona y una pepita de oro en la mano.
+## ¿El hombre más rico de la historia?
+A menudo se dice que fue la persona más rica de la historia. Pero los historiadores advierten que su riqueza no puede calcularse con exactitud, y que convertirla a dinero actual no tiene sentido. Lo que sí está claro es que su generosidad y su riqueza impresionaron profundamente a sus contemporáneos.
+* Según las crónicas, difundió el rumor de que en su reino el oro crecía como una planta.
+* Los cronistas cuentan que construyó una mezquita cada viernes durante su viaje, aunque esto no está comprobado.
+* En la tradición oral africana su figura es menos prominente que en las fuentes árabes.
+- 1312 | Llega al trono de Malí (fecha más aceptada)
+- 1324 | Comienza su peregrinación a La Meca; llega a El Cairo
+- 1325 | Regreso a Malí con sabios y juristas
+- 1337 | Muere (fecha probable)
+- 1375 | El Atlas catalán lo representa con una pepita de oro
+rel: sundiata-keita | El fundador del Imperio de Malí, del que Musa fue el noveno gobernante.
+rel: saladino | Ambos gobernaron grandes estados islámicos medievales con El Cairo como escenario clave.
+src: https://en.wikipedia.org/wiki/Mansa_Musa | Wikipedia: Mansa Musa

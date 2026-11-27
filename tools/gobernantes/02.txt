@@ -1,0 +1,168 @@
+@ramses-ii
+name: Ramsés II
+alt: Ramsés el Grande
+title: Faraón de Egipto
+kind: faraon
+era: antigua
+civ: Antiguo Egipto
+realm: Egipto (dinastía XIX)
+region: Egipto
+y: -1279
+born: hacia 1303 a. C.
+died: 13 de agosto de 1213 a. C., a los 90 o 91 años
+reign: 1279–1213 a. C. (66 años)
+lead: Reinó Egipto durante 66 años, levantó templos colosales como Abu Simbel, firmó uno de los tratados de paz más antiguos que se conservan y tuvo, según los cálculos, entre 88 y 103 hijos. Siglos después, los faraones lo llamaban «el gran dios».
+## Un príncipe preparado para reinar
+Ramsés II fue el tercer faraón de la dinastía XIX del antiguo Egipto. Era hijo del faraón Seti I y de la reina Tuya, y nieto de Ramsés I, un militar que había llegado al trono. Su padre lo nombró príncipe regente cuando tenía unos catorce años, para prepararlo para gobernar. Subió al trono el 31 de mayo del 1279 antes de Cristo.
+## La batalla de Kadesh y el primer tratado de paz
+En el segundo año de su reinado derrotó a los sherden, unos piratas del mar. Su campaña más famosa fue contra los hititas, el gran imperio rival de Anatolia. En el quinto año de su reinado se enfrentó al rey hitita Muwatalli II en la batalla de Kadesh, en la actual Siria, una de las mayores batallas de carros de la Antigüedad. Ramsés se proclamó vencedor y mandó grabar la batalla en muchos templos, pero los historiadores consideran que terminó en empate: los hititas conservaron el control de la región.
+Años después, hacia el 1259 antes de Cristo, Ramsés firmó un tratado de paz con el nuevo rey hitita, Hattusili III. Es uno de los tratados de paz más antiguos que se conocen, y se conserva en dos versiones, una egipcia, grabada en el templo de Karnak, y otra hitita.
+## Un constructor colosal
+Ramsés fue uno de los mayores constructores de la historia de Egipto. Trasladó la capital a una nueva ciudad en el delta del Nilo, Pi-Ramsés. Mandó tallar en la roca los templos de Abu Simbel, inaugurados hacia el 1255 antes de Cristo junto a su esposa favorita, la reina Nefertari, con estatuas gigantes del faraón en la fachada. En Tebas levantó su templo funerario, el Rameseo, donde había una estatua colosal que se calcula que pesaba más de mil toneladas. También construyó mucho en los templos de Karnak, Luxor y Abidos.
+## Una familia enorme
+Tuvo varias esposas principales, entre ellas Nefertari e Isetnofret, y muchas otras secundarias. Se calcula que fue padre de entre 88 y 103 hijos. Una gran tumba del Valle de los Reyes, la KV5, pudo albergar a algunos de sus hijos varones, que se estiman en unos 52. Vivió tanto que muchos de ellos murieron antes que él, y lo sucedió su hijo Merneptah.
+## El faraón eterno
+Celebró trece o catorce festivales Sed, unas fiestas de renovación del poder real que se celebraban por primera vez a los treinta años de reinado y después cada pocos años: más que ningún otro faraón. Incluso fue adorado como un dios en vida. Murió el 13 de agosto del 1213 antes de Cristo, con unos 90 años, tras sufrir abscesos dentales, artritis y problemas del corazón.
+## La momia que viajó a París
+Su momia se descubrió en 1881, escondida en una tumba de Deir el-Bahari junto a otras momias reales, protegidas allí por sacerdotes antiguos de los saqueadores. En 1976 fue enviada a París para someterla a un tratamiento de conservación, y fue recibida con honores militares. Circula la historia de que viajó con pasaporte, pero no es cierta. Hoy se exhibe en el Museo Nacional de la Civilización Egipcia, en El Cairo.
+## Su legado
+Los griegos lo llamaban Ozymandias, y ese nombre inspiró un famoso poema de Percy Shelley sobre la fugacidad del poder. En la cultura popular se le suele presentar como el faraón del Éxodo bíblico, pero los especialistas lo discuten y no hay pruebas de ello.
+* Su momia tenía el pelo pelirrojo de forma natural, un color que los egipcios asociaban con el dios Set.
+* El tratado de Kadesh es uno de los tratados de paz más antiguos que se conocen.
+* En 2023 se identificó un fragmento de sarcófago de granito con su nombre.
+- -1279 | Sube al trono de Egipto
+- -1274 | Batalla de Kadesh contra los hititas
+- -1259 | Tratado de paz con los hititas
+- -1255 | Inauguración de Abu Simbel
+- -1213 | Muere tras 66 años de reinado
+rel: hatshepsut | Otra gran constructora del Imperio Nuevo, dos siglos antes.
+rel: narmer | El primer unificador de Egipto, casi dos mil años antes.
+src: https://en.wikipedia.org/wiki/Ramesses_II | Wikipedia: Ramesses II
+
+@ciro-el-grande
+name: Ciro el Grande
+alt: Ciro II de Persia
+title: Fundador del Imperio persa aqueménida
+kind: rey
+era: antigua
+civ: Persia
+realm: Imperio aqueménida
+region: Persia (Irán)
+y: -559
+born: hacia 600 a. C., Anshan (Persia)
+died: hacia diciembre de 530 a. C.
+reign: 559–530 a. C.
+lead: Fundó el primer gran imperio persa, que llegó desde Asia Menor hasta el río Indo, el mayor que el mundo había conocido. La Biblia lo recuerda por permitir a los judíos volver a Jerusalén, y su tumba sigue en pie en Irán.
+## Una infancia de leyenda
+Ciro nació hacia el año 600 antes de Cristo en Anshan, en la región de Persia, en el actual Irán. Era hijo de Cambises I y de Mandane, hija de Astiages, rey de los medos, el pueblo que entonces dominaba a los persas.
+El historiador griego Heródoto contó una leyenda sobre su infancia: Astiages soñó que su nieto lo derrocaría y ordenó matarlo. El general Harpago no se atrevió y entregó al bebé a un pastor, que lo crió como hijo suyo. A los 10 años, el niño fue llevado a la corte tras golpear al hijo de un noble, y su abuelo lo reconoció y lo envió con sus verdaderos padres.
+## De vasallo a rey de reyes
+En el 559 antes de Cristo sucedió a su padre como rey de Persia, todavía vasallo de los medos. Pero se rebeló, con el apoyo del propio Harpago, y hacia el 550 tomó Ecbatana, la capital meda, y derrocó a su abuelo Astiages. Después se dirigió hacia el oeste: en el 546 derrotó al riquísimo rey Creso de Lidia y tomó su capital, Sardes, en la actual Turquía.
+## La conquista de Babilonia
+En el 539 antes de Cristo conquistó Babilonia, la gran ciudad de Mesopotamia: sus tropas entraron sin resistencia, y el 29 de octubre Ciro hizo su entrada en la ciudad. Se proclamó «rey de Babilonia, rey de Súmer y Acad, rey de las cuatro esquinas del mundo». El llamado Cilindro de Ciro, un cilindro de arcilla escrito en cuneiforme, lo presenta como un rey favorecido por el dios Marduk que restauró templos y permitió volver a sus tierras a los pueblos desplazados. Se descubrió en 1879 y se conserva en el Museo Británico.
+## El libertador de los judíos
+La Biblia atribuye a Ciro la liberación de los judíos desterrados en Babilonia y el permiso para reconstruir el Templo de Jerusalén. El profeta Isaías llega a llamarlo «ungido», en hebreo «mesías», y es la única persona no judía que recibe ese título en la Biblia. Los historiadores discuten si el decreto que recoge el libro de Esdras es auténtico.
+## Un gobierno tolerante
+Ciro organizó su enorme imperio en provincias llamadas satrapías, gobernadas por sátrapas bajo el control del rey, y tuvo cuatro capitales: Pasargada, Babilonia, Susa y Ecbatana. Su guardia de élite, los Inmortales, contaba con 10.000 hombres. Es recordado por respetar las costumbres y religiones de los pueblos conquistados, algo que facilitó gobernar un territorio tan diverso.
+## Una muerte con varias versiones
+Los documentos cuneiformes sitúan su muerte hacia diciembre del 530 antes de Cristo. Según Heródoto, murió luchando contra los masagetas, un pueblo de Asia Central gobernado por la reina Tomiris, y ella mandó sumergir su cabeza en un odre lleno de sangre. Otros autores antiguos, como Jenofonte, cuentan en cambio que murió en paz en Pasargada.
+## Su tumba y su legado
+Su tumba de piedra caliza en Pasargada, construida hacia el 540–530 antes de Cristo, sigue en pie y es Patrimonio de la Humanidad. Según Plutarco, su epitafio comenzaba con las palabras «Oh, hombre, quienquiera que seas». Alejandro Magno lo admiraba y ordenó restaurar la tumba. Siglos después, el presidente estadounidense Thomas Jefferson tuvo dos ejemplares de la «Ciropedia», la obra de Jenofonte sobre su vida.
+* Su nombre persa era Kurush, y de él derivó el nombre de una moneda.
+* En la década de 1970, el sha de Irán usó el Cilindro de Ciro para celebrar los 2.500 años de la monarquía persa.
+* Según Plutarco, los persas admiraban las narices aguileñas porque Ciro tenía una.
+- -600 | Nace en Anshan (fecha aproximada)
+- -559 | Se convierte en rey de Persia
+- -550 | Derroca a Astiages y domina a los medos
+- -546 | Conquista Lidia y su capital, Sardes
+- -539 | Conquista Babilonia
+- -530 | Muere (según las fuentes cuneiformes)
+rel: dario-i | Continuó y organizó el imperio que Ciro fundó.
+rel: jerjes-i | Heredero de su dinastía.
+rel: alejandro-magno | Admiraba a Ciro y ordenó restaurar su tumba en Pasargada.
+src: https://en.wikipedia.org/wiki/Cyrus_the_Great | Wikipedia: Cyrus the Great
+
+@cleopatra
+name: Cleopatra VII
+alt: Cleopatra
+title: Última reina del Egipto ptolemaico
+kind: reina
+era: antigua
+civ: Egipto ptolemaico
+realm: Reino ptolemaico de Egipto
+region: Egipto
+y: -51
+born: finales del 70 o principios del 69 a. C., Alejandría
+died: 10 o 12 de agosto de 30 a. C., Alejandría, a los 39 años
+reign: 51–30 a. C.
+lead: Fue la última gobernante activa de la dinastía que reinó Egipto durante casi tres siglos. Hablaba varios idiomas, se alió con Julio César y con Marco Antonio, y desafió a Roma. Su muerte marcó el fin del mundo helenístico.
+## Una reina griega en Egipto
+Cleopatra VII nació a finales del 70 o principios del 69 antes de Cristo en Alejandría. Pertenecía a la dinastía ptolemaica, fundada por Ptolomeo I, un general macedonio compañero de Alejandro Magno: por eso su familia era de origen griego macedonio, y su lengua materna era el griego. Su nombre significa «gloria de su padre».
+Fue la primera de su dinastía de la que se sabe que aprendió la lengua egipcia, y según las fuentes hablaba varios idiomas más. Su padre, Ptolomeo XII, la nombró heredera antes de morir, en el 51 antes de Cristo.
+## Guerra contra su hermano
+Según la costumbre de la dinastía, Cleopatra empezó a reinar junto a su hermano Ptolomeo XIII, pero pronto se enfrentaron y estalló una guerra civil. En el 48 antes de Cristo llegó a Egipto el general romano Pompeyo, derrotado por Julio César, y fue asesinado allí. César ocupó Alejandría poco después.
+Las fuentes antiguas no se ponen de acuerdo sobre cómo llegó Cleopatra hasta César. El historiador Dion Casio cuenta que se presentó ante él abiertamente y lo cautivó. Plutarco narra una versión más novelesca: que fue introducida a escondidas en el palacio dentro de un saco de dormir. En la guerra que siguió, Ptolomeo XIII murió ahogado en el Nilo.
+## Cleopatra y César
+César nombró a Cleopatra reina junto a su hermano menor, Ptolomeo XIV. Con César tuvo un hijo, Cesarión. Cleopatra visitó Roma como reina aliada y se alojó en la villa de César. Tras el asesinato de César, en el 44 antes de Cristo, Ptolomeo XIV murió de repente, quizá envenenado por orden de ella, y Cleopatra nombró corregente a su hijo Cesarión.
+## Cleopatra y Marco Antonio
+En el 41 antes de Cristo conoció en Tarso al general romano Marco Antonio, con quien inició una relación de la que nacieron tres hijos: Alejandro Helios, Cleopatra Selene II y Ptolomeo Filadelfo. Antonio repartió territorios entre esos hijos en las llamadas Donaciones de Alejandría, algo que su rival en Roma, Octavio, presentó como una traición a Roma.
+## Actium y el final
+Octavio declaró la guerra a Cleopatra, y el 2 de septiembre del 31 antes de Cristo la flota de Antonio y Cleopatra fue derrotada en la batalla naval de Actium, en Grecia. Al año siguiente, Octavio invadió Egipto y Antonio se quitó la vida. Cleopatra murió poco después, en agosto del 30 antes de Cristo, con 39 años, para no ser exhibida como prisionera en el desfile triunfal de Octavio en Roma. Según la tradición, se dejó morder por una serpiente venenosa, un áspid, aunque probablemente murió envenenada y la forma exacta se discute.
+## Su legado
+Tras su muerte, Egipto se convirtió en una provincia romana, lo que marcó el final del periodo helenístico. Los historiadores y poetas romanos la retrataron de forma muy negativa, y esa imagen influyó durante siglos en la literatura de la Edad Media y del Renacimiento. Desde entonces ha inspirado obras de teatro, óperas y películas, y es uno de los iconos de la fascinación por el antiguo Egipto.
+* Era de origen macedonio griego, no egipcio.
+* Se conserva en Berlín, en el Altes Museum, un busto suyo de mediados del siglo I antes de Cristo.
+* Con su muerte terminó una dinastía que había gobernado Egipto desde la época de Alejandro Magno.
+- -69 | Nace en Alejandría (fecha aproximada)
+- -51 | Sube al trono junto a su hermano Ptolomeo XIII
+- -48 | Llega Julio César a Alejandría
+- -41 | Conoce a Marco Antonio en Tarso
+- -31 | Derrota en la batalla de Actium
+- -30 | Muere en Alejandría; Egipto pasa a ser provincia romana
+rel: julio-cesar | Su aliado y padre de su hijo Cesarión.
+rel: augusto | Su gran enemigo, que la derrotó en Accio.
+rel: alejandro-magno | Su dinastía, los Ptolomeos, descendía de uno de sus generales.
+src: https://en.wikipedia.org/wiki/Cleopatra | Wikipedia: Cleopatra
+
+@augusto
+name: Augusto
+alt: Octavio, César Augusto
+title: Primer emperador romano
+kind: emperador
+era: antigua
+civ: Roma
+realm: Imperio romano
+region: Roma
+y: -27
+born: 23 de septiembre de 63 a. C., Roma
+died: 19 de agosto de 14 d. C., Nola, a los 75 años
+reign: 27 a. C. – 14 d. C.
+lead: El sobrino nieto de Julio César llegó al poder con solo 19 años, venció a Marco Antonio y Cleopatra y se convirtió en el primer emperador de Roma. Su largo gobierno inauguró la Pax Romana, y el mes de agosto lleva su nombre.
+## El heredero de César
+Augusto nació con el nombre de Cayo Octavio el 23 de septiembre del 63 antes de Cristo, en Roma, en una propiedad familiar del monte Palatino. Su familia era de rango ecuestre, por debajo de la gran aristocracia. Su tío abuelo, Julio César, lo nombró su principal heredero en su testamento. Cuando César fue asesinado, en el 44 antes de Cristo, el joven Octavio tomó su nombre y reclamó su herencia política.
+## La lucha por el poder
+En el 43 antes de Cristo, con unos 19 años, ya era cónsul. Ese mismo año formó con Marco Antonio y Lépido el Segundo Triunvirato, que gobernó Roma de hecho. Los triunviros publicaron listas de proscritos: declararon fuera de la ley a unos 300 senadores y caballeros y confiscaron los bienes de miles de personas más. En el 42 derrotaron en Filipos a los asesinos de César.
+Con el tiempo, la alianza con Marco Antonio se rompió. El 2 de septiembre del 31 antes de Cristo, la flota de Octavio, dirigida por su amigo el general Agripa, derrotó a Antonio y Cleopatra en Actium. Tras la muerte de ambos, Egipto pasó a ser parte de Roma.
+## «Augusto», el venerado
+Octavio fue muy hábil: en lugar de proclamarse rey, mantuvo la apariencia de la República, mientras controlaba el ejército y los resortes del poder. El 16 de enero del 27 antes de Cristo, el Senado le concedió el título de Augusto, que significa «el venerado». También recibió los títulos de «princeps», primer ciudadano, y de «padre de la patria». Por eso su régimen se llama principado.
+## Un gran reformador
+Augusto creó un ejército profesional permanente y la Guardia Pretoriana, la escolta del emperador, además de servicios de policía y de bomberos para la ciudad de Roma. Reformó los impuestos y la moneda, construyó redes de carreteras con un sistema de correos y renovó gran parte de la ciudad. Fue protector de poetas como Virgilio, el autor de la «Eneida».
+## La Pax Romana
+Su reinado inició la Pax Romana, un largo periodo en gran medida libre de grandes guerras. Pero también sufrió derrotas: la más dura fue la de la batalla del bosque de Teutoburgo, en Germania, donde los germanos aniquilaron tres legiones romanas.
+## Familia y sucesión
+Augusto se casó tres veces: con Claudia, con Escribonia y con Livia, su gran compañera política. Su única hija que sobrevivió fue Julia la Mayor. Como varios de los herederos que eligió murieron antes que él, finalmente lo sucedió su hijastro e hijo adoptivo, Tiberio. Sobre Livia circularon durante siglos rumores de envenenamientos.
+## Muerte y legado
+Augusto murió el 19 de agosto del año 14, con 75 años, en Nola, en Italia, por causas naturales. El Senado lo declaró dios después de su muerte, y fue enterrado en el Mausoleo de Augusto, en Roma. Gobernó unos cuarenta años y fue el fundador del Imperio romano, que duraría siglos. El mes de agosto lleva su nombre.
+* Se convirtió en cónsul con solo unos 19 años.
+* Gobernó como emperador, pero nunca usó el título de rey.
+* El mes de agosto se llama así en su honor.
+- -63 | Nace en Roma como Cayo Octavio
+- -44 | Asesinato de César: Octavio es su heredero
+- -43 | Forma el Segundo Triunvirato
+- -31 | Victoria de Actium contra Antonio y Cleopatra
+- -27 | El Senado le concede el título de Augusto
+- 14 | Muere en Nola
+rel: julio-cesar | Su tío abuelo y padre adoptivo.
+rel: cleopatra | La derrotó en Accio y anexionó Egipto.
+rel: trajano | Un sucesor que llevó el imperio a su máxima extensión.
+src: https://en.wikipedia.org/wiki/Augustus | Wikipedia: Augustus

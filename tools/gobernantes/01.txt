@@ -1,0 +1,186 @@
+@alejandro-magno
+name: Alejandro Magno
+alt: Alejandro III de Macedonia
+title: Rey de Macedonia y conquistador del Imperio persa
+kind: rey
+era: antigua
+civ: Macedonios
+realm: Reino de Macedonia e imperio de Alejandro
+region: Grecia y Asia
+y: -336
+born: 20 o 21 de julio de 356 a. C., Pela (Macedonia)
+died: 10 u 11 de junio de 323 a. C., Babilonia, a los 32 años
+reign: 336–323 a. C.
+lead: En apenas trece años de reinado, un joven rey macedonio cruzó a Asia, derrotó al Imperio persa, llegó hasta la India y fundó más de veinte ciudades. Murió a los 32 años sin haber perdido, según la tradición, una sola batalla.
+## Un príncipe educado por Aristóteles
+Alejandro nació en Pela, la capital de Macedonia, en julio del 356 antes de Cristo. Era hijo del rey Filipo II, que convirtió Macedonia en una gran potencia militar, y de Olimpia, hija del rey Neoptólemo I de Epiro. Desde los 13 hasta los 16 años tuvo como maestro al filósofo Aristóteles, que le daba clases en Mieza.
+Una anécdota famosa cuenta que, con unos 10 años, domó un caballo que nadie lograba montar. Su padre se lo compró y Alejandro lo llamó Bucéfalo, «cabeza de buey». Lo acompañó en sus campañas durante años, y cuando el caballo murió, Alejandro fundó en su honor una ciudad, Bucéfala.
+## Rey a los 20 años
+En octubre del 336 antes de Cristo, Filipo II fue asesinado por Pausanias, y Alejandro fue proclamado rey con solo 20 años. Al año siguiente sofocó las revueltas: hizo campaña en los Balcanes y destruyó la ciudad griega de Tebas, que se había rebelado. Así se aseguró el liderazgo de la Liga de Corinto, la alianza de ciudades griegas.
+## La conquista del Imperio persa
+En el 334 antes de Cristo cruzó el Helesponto, el estrecho que separa Europa de Asia, con unos 48.000 soldados de infantería, 6.100 jinetes y 120 barcos. Ese mismo año ganó su primera batalla en Asia, junto al río Gránico. En el 333 derrotó al rey persa Darío III en Issos, y Darío huyó. Según la tradición, en la ciudad de Gordio cortó con su espada el famoso nudo gordiano, que según la leyenda solo podría deshacer quien fuera a dominar Asia.
+En el 332 tomó la ciudad fenicia de Tiro después de un largo asedio, y después Gaza. A finales de ese año entró en Egipto, donde fue recibido como un libertador y coronado en Menfis. En el oasis de Siwa, el oráculo lo declaró hijo del dios Amón, y en la costa fundó Alejandría, que siglos después sería una de las grandes ciudades del mundo antiguo.
+En el 331 derrotó definitivamente a Darío en la batalla de Gaugamela y tomó Babilonia. Darío fue asesinado al año siguiente por uno de sus propios sátrapas, Beso, y Alejandro lo hizo enterrar con honores junto a los reyes persas. En Persépolis, la capital ceremonial persa, un incendio destruyó gran parte de la ciudad, algo de lo que más tarde se arrepintió.
+## Hasta la India
+Después avanzó por Bactriana y Sogdiana, en Asia Central, donde se casó con Roxana. En el 326 antes de Cristo llegó a la India y venció al rey Poro en la batalla del río Hidaspes; después lo convirtió en su aliado y en gobernador de la región. Pero junto al río Hífasis sus soldados, agotados tras años de campaña, se amotinaron y se negaron a seguir hacia el este. Alejandro tuvo que dar la vuelta. En una de las últimas campañas, una flecha le atravesó un pulmón y estuvo a punto de morir.
+El regreso fue durísimo: guió a parte de su ejército por el desierto de Gedrosia, donde murieron muchos hombres. En el 324, en Susa, organizó una boda masiva entre sus oficiales y mujeres de la nobleza persa, en un intento de unir a los dos pueblos.
+## Una muerte misteriosa
+Alejandro murió en Babilonia, en el palacio de Nabucodonosor II, el 10 u 11 de junio del 323 antes de Cristo, con 32 años. La causa sigue siendo un misterio: se ha hablado de envenenamiento, de fiebre tifoidea, de malaria, de pancreatitis e incluso de una enfermedad neurológica. Su cuerpo se colocó en un sarcófago de oro lleno de miel, y Ptolomeo, uno de sus generales, se apoderó del cortejo fúnebre y lo llevó a Egipto.
+## Su legado
+No dejó un heredero claro. Según la tradición, cuando le preguntaron a quién dejaba el imperio, respondió: «Al más fuerte». Sus generales, los diádocos, se lo disputaron durante unos 40 años, hasta que quedó dividido en grandes reinos, como el de los Ptolomeos en Egipto y el de los Seléucidas en Siria y Persia. Su hijo, Alejandro IV, nacido después de su muerte, fue asesinado.
+Su imperio llegó a extenderse desde el mar Adriático hasta el río Indo. Su muerte marca el inicio convencional del periodo helenístico, en el que la cultura griega se extendió hacia Oriente, hasta la India.
+* Según la tradición, nunca perdió una batalla.
+* Se cuenta que el filósofo Diógenes, cuando Alejandro le ofreció lo que quisiera, solo le pidió que se apartara porque le tapaba el sol.
+* En sus monedas aparecía con cuernos de carnero, el símbolo del dios Amón.
+* La «Novela de Alejandro», con aventuras legendarias sobre su vida, fue una de las obras más traducidas de la literatura premoderna.
+- -356 | Nace en Pela, Macedonia
+- -336 | Asesinato de Filipo II; Alejandro es proclamado rey
+- -334 | Cruza a Asia y vence en el Gránico
+- -333 | Derrota a Darío III en Issos
+- -331 | Funda Alejandría y vence en Gaugamela
+- -326 | Batalla del Hidaspes contra el rey Poro
+- -323 | Muere en Babilonia
+rel: filipo-ii | Su padre, que creó el ejército con el que Alejandro conquistó Persia.
+rel: dario-i | Alejandro destruyó el Imperio persa que Darío había organizado.
+rel: chandragupta | Tras la muerte de Alejandro, expulsó a sus gobernadores de la India.
+src: https://en.wikipedia.org/wiki/Alexander_the_Great | Wikipedia: Alexander the Great
+src: https://www.britannica.com/summary/Alexander-the-Great | Encyclopaedia Britannica: Alexander the Great
+src: https://www.worldhistory.org/Alexander_the_Great/ | World History Encyclopedia: Alexander the Great
+
+@gengis-kan
+name: Gengis Kan
+alt: Temuyín
+title: Fundador y primer kan del Imperio mongol
+kind: kan
+era: media
+civ: Mongoles
+realm: Imperio mongol
+region: Asia
+y: 1206
+born: hacia 1162, junto al río Onón (Mongolia)
+died: 18 o 25 de agosto de 1227, en territorio del reino de Xia Occidental
+reign: 1206–1227
+lead: Nació como Temuyín, un niño abandonado y casi en la miseria. Murió como fundador del Imperio mongol, que después de su muerte se convertiría en el mayor imperio de territorio continuo de la historia.
+## Una infancia de penurias
+Temuyín nació hacia el año 1162, aunque las fechas propuestas van de 1155 a 1167. Según la «Historia secreta de los mongoles», la principal crónica de su vida, nació junto al río Onón, en la actual Mongolia. Su padre, Yesugei, era un jefe del clan Borjigin, y su madre, Hoelun, había sido raptada por Yesugei. Una leyenda cuenta que nació con un coágulo de sangre en la mano, señal de un gran destino.
+Cuando Temuyín tenía ocho años, su padre murió envenenado por los tártaros. El clan abandonó a la familia, que quedó casi en la miseria. Fue una infancia durísima: según las crónicas, Temuyín y su hermano Qasar mataron a su medio hermano Behter, y el propio Temuyín fue capturado por una tribu rival, los taichiud, y logró escapar con ayuda de un hombre llamado Sorkan-Shira.
+## De jefe de clan a señor de todos los mongoles
+A los ocho años ya estaba prometido con Börte, con quien se casó a los quince. Poco después, Börte fue raptada por los merkitas, y Temuyín la recuperó con la ayuda de dos aliados: Toghrul, un poderoso jefe, y Jamuka, su amigo de la infancia. Con los años, Jamuka se convirtió en su gran rival.
+Temuyín fue venciendo a las tribus de la estepa una tras otra, aunque también sufrió derrotas. En mayo de 1204 venció a los naimanes, y poco después Jamuka fue ejecutado. En 1206, una gran asamblea de jefes, el kurultai, lo proclamó soberano con el título de Gengis Kan. El significado exacto del título es incierto.
+## Un ejército organizado por méritos
+Gengis Kan reorganizó la sociedad mongola con un sistema decimal: unidades de 10, de 100 y de 1.000 hombres. Todos los hombres de entre 15 y 70 años podían ser llamados a las armas. Su guardia personal llegó a tener 10.000 hombres, y los mandos se elegían por sus méritos y su lealtad, no por su origen familiar, algo poco común en su época. También hizo adoptar la escritura uigur para la lengua mongola, con ayuda de un escriba capturado.
+## Las grandes campañas
+Primero atacó el reino de Xia Occidental, en el noroeste de China, al que invadió en 1209. En 1211 invadió el imperio de la dinastía Jin, en el norte de China, y su capital, Zhongdu, la actual Pekín, se rindió en 1215 y fue saqueada. Después se lanzó contra el Imperio corasmio, en Asia Central: entre 1219 y 1220 cayeron ciudades como Otrar, Bujará y Samarcanda. Las conquistas fueron extremadamente violentas: autores persas de la época hablaron de millones de muertos, cifras que los historiadores modernos consideran exageradas, aunque la destrucción fue enorme.
+## Muerte y tumba perdida
+Gengis Kan murió en agosto de 1227, durante una nueva campaña contra Xia Occidental. No se sabe con certeza de qué: se ha propuesto que pudo ser malaria, tifus o peste, y Marco Polo contó, en cambio, que murió por una flecha. Su tumba nunca se ha encontrado; se cree que está cerca de la montaña sagrada de Burkhan Khaldun, en Mongolia. En 1229, tras dos años de regencia, una asamblea eligió como sucesor a su tercer hijo, Ogodei.
+## Su legado
+Después de su muerte, el imperio siguió creciendo hasta convertirse en el mayor imperio de territorio continuo de la historia, y luego se dividió en varios estados, como la Horda de Oro o la dinastía Yuan de China. Las conquistas mongolas ampliaron enormemente el comercio entre Oriente y Occidente. Gengis Kan sigue siendo una figura controvertida: para muchos fue un conquistador brutal, mientras que en Mongolia se le considera el padre fundador de la nación.
+* Según algunas fuentes, tenía miedo a los perros.
+* De niño, intercambió con Jamuka huesos de juego y flechas como señal de amistad.
+* En la década de 1990, el diario The Washington Post lo eligió «el hombre del milenio».
+* Su política fue tolerante con las distintas religiones: llegó a eximir de impuestos a los seguidores del maestro taoísta Changchun.
+- 1162 | Nace Temuyín (fecha aproximada)
+- 1206 | El kurultai lo proclama Gengis Kan
+- 1211 | Invade el imperio Jin del norte de China
+- 1215 | Cae Zhongdu, la actual Pekín
+- 1219 | Comienza la campaña contra el Imperio corasmio
+- 1227 | Muere durante la campaña contra Xia Occidental
+rel: kublai-kan | Su nieto, que completó la conquista de China.
+rel: tamerlan | Se presentó como heredero de su imperio.
+src: https://en.wikipedia.org/wiki/Genghis_Khan | Wikipedia: Genghis Khan
+src: https://www.worldhistory.org/Genghis_Khan/ | World History Encyclopedia: Genghis Khan
+src: https://www.britannica.com/biography/Genghis-Khan | Encyclopaedia Britannica: Genghis Khan
+
+@julio-cesar
+name: Julio César
+alt: Cayo Julio César
+title: General y dictador de la República romana
+kind: dictador
+era: antigua
+civ: Roma
+realm: República romana
+region: Roma
+y: -49
+born: 12 o 13 de julio de 100 a. C., Roma
+died: 15 de marzo de 44 a. C., Roma, asesinado
+reign: Dictador desde 49 a. C. hasta su muerte
+lead: Conquistó la Galia, cruzó el Rubicón, venció a Pompeyo y gobernó Roma como dictador. Su asesinato, en los idus de marzo, abrió el camino al Imperio romano, y su nombre se convirtió en sinónimo de emperador.
+## Un patricio ambicioso
+Cayo Julio César nació en julio del año 100 antes de Cristo en la Subura, un barrio popular de Roma, en el seno de la antigua familia patricia de los Julios. Su tía Julia estaba casada con Mario, uno de los grandes generales de la época. De joven se negó a obedecer al dictador Sila, que le ordenó divorciarse de su esposa, Cornelia, y tuvo que esconderse.
+Una de las historias más famosas de su juventud ocurrió cuando unos piratas lo secuestraron de camino a la isla de Rodas. Según Plutarco y Suetonio, pidieron un rescate de 50 talentos. Después, ya liberado, persiguió a sus captores.
+## La carrera política
+César fue escalando cargos: cuestor en Hispania en el año 69 antes de Cristo, edil, pretor y, en el 63, pontífice máximo, el principal cargo religioso de Roma. Hacia el año 60 formó una alianza informal con los dos hombres más poderosos de Roma, el general Pompeyo y el millonario Craso: el llamado Primer Triunvirato. En el 59 fue cónsul, el cargo más alto de la República, y después obtuvo el gobierno de las provincias de la Galia.
+## La conquista de la Galia
+Entre el 58 y el 51 antes de Cristo, César conquistó la Galia, un territorio que incluía la actual Francia y Bélgica. Venció a los helvecios y a los suevos, construyó un puente para cruzar el Rin y desembarcó dos veces en Britania, en el 55 y el 54. Su gran rival fue el jefe galo Vercingétorix, que lo derrotó en Gergovia. César lo cercó en Alesia y obtuvo allí una victoria decisiva. Vercingétorix se rindió y años después fue ejecutado en Roma. El propio César narró la guerra en sus «Comentarios sobre la guerra de las Galias».
+## «La suerte está echada»
+Las conquistas dieron a César fama, riqueza y un ejército leal, y sus enemigos en el Senado, aliados con Pompeyo, quisieron frenarlo. En enero del 49 antes de Cristo, César cruzó con sus tropas el río Rubicón, el límite que un general no podía atravesar con su ejército sin declarar la guerra a Roma. Según la tradición, citó una frase en griego del poeta Menandro: «Que se eche la suerte». Comenzó así una guerra civil. Pompeyo huyó a Grecia, y César lo derrotó en Farsalia, el 9 de agosto del 48.
+## Cleopatra y «Vine, vi, vencí»
+Persiguiendo a Pompeyo, que fue asesinado en Egipto, César llegó a Alejandría e intervino en la guerra entre Cleopatra y su hermano Ptolomeo XIII, del lado de Cleopatra. Con ella tuvo un hijo, Cesarión, nacido en el 47. Ese mismo año, tras derrotar al rey Farnaces II en Zela, en una campaña rapidísima, resumió su victoria en una frase célebre: «Veni, vidi, vici», «Vine, vi, vencí».
+## El dictador reformista
+César fue nombrado dictador varias veces y, en febrero del 44, dictador perpetuo. Hizo muchas reformas: la más duradera fue el calendario juliano, con años de 365 días y uno bisiesto cada cuatro, que se usó en Europa durante más de dieciséis siglos. También amplió el Senado de 600 a 900 miembros, redujo el reparto gratuito de grano y fundó colonias en Cartago y Corinto.
+## Los idus de marzo
+Su poder casi absoluto alarmó a muchos senadores. El 15 de marzo del 44 antes de Cristo, los idus de marzo, unos sesenta conspiradores, encabezados por Bruto y Casio, lo atacaron en la Curia de Pompeyo, en Roma, y lo apuñalaron al menos veintitrés veces. Pero el asesinato no salvó la República: Marco Antonio levantó a la multitud contra los asesinos, y el sobrino nieto de César, Octavio, al que había adoptado en su testamento, terminó convirtiéndose en Augusto, el primer emperador.
+## Su legado
+Su apellido, César, se convirtió en un título para los emperadores, y de él vienen las palabras «káiser», en alemán, y «zar», en las lenguas eslavas. El mes de julio lleva su nombre: antes se llamaba quintilis.
+* Según Suetonio, usaba una corona de laurel en parte para disimular su calvicie.
+* El retrato de Túsculo es la única escultura que se conserva hecha mientras él vivía.
+* Escribió sus «Comentarios» en tercera persona, como si hablara de otro.
+- -100 | Nace en Roma
+- -63 | Es elegido pontífice máximo
+- -59 | Primer consulado
+- -52 | Victoria en Alesia sobre Vercingétorix
+- -49 | Cruza el Rubicón: comienza la guerra civil
+- -48 | Vence a Pompeyo en Farsalia
+- -44 | Asesinado en los idus de marzo
+rel: augusto | Su sobrino nieto e hijo adoptivo, primer emperador de Roma.
+rel: cleopatra | Su aliada y amante en Egipto; tuvieron un hijo, Cesarión.
+rel: alejandro-magno | César admiraba a Alejandro y, según se cuenta, lloró al compararse con él.
+src: https://en.wikipedia.org/wiki/Julius_Caesar | Wikipedia: Julius Caesar
+src: https://www.worldhistory.org/Julius_Caesar/ | World History Encyclopedia: Julius Caesar
+src: https://www.britannica.com/biography/Julius-Caesar-Roman-ruler | Encyclopaedia Britannica: Julius Caesar
+
+@napoleon
+name: Napoleón Bonaparte
+alt: Napoleón I
+title: Emperador de los franceses
+kind: emperador
+era: moderna
+civ: Francia
+realm: Primer Imperio francés
+region: Europa
+y: 1804
+born: 15 de agosto de 1769, Ajaccio (Córcega)
+died: 5 de mayo de 1821, isla de Santa Elena, a los 51 años
+reign: Emperador de 1804 a 1814, y en 1815
+lead: Un oficial de artillería nacido en Córcega llegó a dominar casi toda Europa, se coronó emperador y cambió para siempre las leyes de medio mundo. Terminó sus días exiliado en una isla perdida del Atlántico.
+## Un corso en la escuela militar
+Napoleón nació el 15 de agosto de 1769 en Ajaccio, en la isla de Córcega, con el nombre italiano de Napoleone di Buonaparte. Sus padres eran Carlo Buonaparte y Letizia Ramolino, y tuvo siete hermanos. Su madre fue la gran influencia de su infancia; él mismo diría después que «el destino del niño es siempre obra de la madre».
+A los 9 años fue enviado a Francia para aprender francés y estudiar en la academia militar de Brienne, donde sus compañeros se burlaban de él. Después ingresó en la Escuela Militar de París y en 1785 se graduó como subteniente de artillería.
+## Ascenso fulgurante
+Su primer gran éxito llegó en 1793, durante la Revolución francesa: como jefe de artillería, planeó el ataque que permitió recuperar el puerto de Tolón. En 1796, poco después de casarse con Josefina de Beauharnais, recibió el mando del ejército de Italia y venció una y otra vez a los austríacos. En 1798 dirigió una expedición a Egipto, donde ganó la batalla de las Pirámides, aunque el almirante británico Nelson destruyó casi toda su flota. En la expedición iban 167 científicos, y entre sus hallazgos estuvo la piedra de Rosetta, clave para descifrar los jeroglíficos egipcios.
+## De cónsul a emperador
+En noviembre de 1799 dio un golpe de Estado, el del 18 de brumario, y se convirtió en primer cónsul, el hombre más poderoso de Francia. Durante esos años impulsó el Código Civil, conocido como Código Napoleónico, considerado su legado más duradero. En 1803 vendió a Estados Unidos el enorme territorio de Luisiana por 15 millones de dólares. El 2 de diciembre de 1804 fue coronado emperador de los franceses en la catedral de Notre Dame de París.
+## El dueño de Europa
+En 1805 sufrió una gran derrota naval en Trafalgar, que acabó con sus planes de invadir Gran Bretaña, pero poco después, el 2 de diciembre, logró su victoria más famosa en Austerlitz, contra Austria y Rusia. Después venció a Prusia y a Rusia, e impuso un bloqueo comercial contra Gran Bretaña, el Bloqueo Continental. En 1808 puso a su hermano José como rey de España, lo que desató una larga guerra de guerrillas; Napoleón la llamaría «la desgraciada guerra que me arruinó».
+## La catástrofe de Rusia
+En 1812 invadió Rusia con unos 450.000 soldados en primera línea. Ganó la sangrienta batalla de Borodinó y entró en Moscú en septiembre, pero los rusos no se rindieron, y la retirada en pleno invierno fue un desastre: las muertes militares de la campaña llegaron, según algunas estimaciones, a cerca de un millón. En 1813 fue derrotado en Leipzig por una gran coalición, y en abril de 1814 tuvo que abdicar y fue desterrado a la pequeña isla de Elba.
+## Los Cien Días y Waterloo
+En febrero de 1815 escapó de Elba con unos mil hombres, desembarcó en Francia y volvió a entrar en París en marzo. Fue el periodo de los Cien Días. El 18 de junio de 1815 fue derrotado definitivamente en Waterloo, en la actual Bélgica, por el duque de Wellington y el ejército prusiano de Blücher. Se rindió a los británicos, que lo desterraron a Santa Elena, una isla remota en el Atlántico Sur. Allí murió el 5 de mayo de 1821, con 51 años, de cáncer de estómago. En 1840 sus restos fueron trasladados a París, a Los Inválidos.
+## Su legado
+Napoleón difundió por Europa muchas reformas legales y administrativas, la educación pública y el fin de los restos del feudalismo, y su Código Civil influyó en las leyes de muchos países. Pero también restableció la esclavitud en las colonias francesas en 1802, eliminó la libertad de prensa y restauró la nobleza hereditaria.
+* Se casó dos veces: con Josefina de Beauharnais, matrimonio anulado en 1810, y con María Luisa de Austria, con quien tuvo un hijo en 1811.
+* La famosa historia de la guerra de bolas de nieve que dirigió de niño en Brienne solo se contó cuando ya era famoso.
+* En Elba, la isla de su primer destierro, vivían unas 12.000 personas.
+- 1769 | Nace en Ajaccio, Córcega
+- 1799 | Golpe de Estado del 18 de brumario
+- 1804 | Se corona emperador de los franceses
+- 1805 | Victoria de Austerlitz
+- 1812 | Invasión de Rusia
+- 1815 | Derrota en Waterloo y destierro a Santa Elena
+- 1821 | Muere en Santa Elena
+rel: carlomagno | Napoleón se presentó como heredero de Carlomagno.
+rel: julio-cesar | Otro general que tomó el poder en una república y se convirtió en gobernante absoluto.
+rel: shaka-zulu | Contemporáneo; ambos revolucionaron la guerra en sus continentes.
+src: https://en.wikipedia.org/wiki/Napoleon | Wikipedia: Napoleon
+src: https://www.worldhistory.org/Napoleon_Bonaparte/ | World History Encyclopedia: Napoleon Bonaparte
+src: https://www.britannica.com/biography/Napoleon-I | Encyclopaedia Britannica: Napoleon I

@@ -1,0 +1,157 @@
+@sargon-de-acad
+name: Sargón de Acad
+alt: Sargón el Grande
+title: Rey de Acad y de Sumer
+kind: rey
+era: antigua
+civ: Mesopotamia
+realm: Imperio acadio
+region: Mesopotamia (actual Irak)
+y: -2334
+born: desconocido
+died: hacia 2279 a. C.
+reign: hacia 2334–2279 a. C. (según la cronología media)
+lead: Hace más de 4.300 años, un hombre de origen humilde llegó al trono en Mesopotamia y sometió a las ciudades de Sumer y regiones mucho más lejanas. Por eso a menudo se le considera el fundador del primer imperio de la historia.
+## Una historia entre la realidad y la leyenda
+Sargón vivió en el sur de Mesopotamia, en el actual Irak, en el siglo XXIV antes de Cristo. Las fechas exactas son inseguras: según la llamada cronología media, reinó aproximadamente entre el 2334 y el 2279 antes de Cristo, pero las distintas copias de la Lista Real Sumeria le atribuyen entre 40 y 56 años de reinado, y solo se conservan cuatro nombres de años fechados de su gobierno.
+Sobre sus orígenes hay varias versiones. La Lista Real Sumeria dice que era hijo de un jardinero y que había sido copero de Ur-Zababa, el rey de la ciudad de Kish. Una autobiografía legendaria escrita mucho después, en el siglo VII antes de Cristo, cuenta que era hijo ilegítimo de una sacerdotisa, que su madre lo dejó en el río dentro de una cesta de juncos sellada con betún y que lo recogió y crió un aguador llamado Akki. Esta historia recuerda mucho a la de Moisés en la Biblia, y los estudiosos la consideran una leyenda.
+## La conquista de Sumer
+Sargón se hizo con el poder al derrotar a Lugalzagesi, el rey de Uruk, que dominaba buena parte de Sumer. Según una de sus inscripciones, lo llevó con un collar al cuello hasta la puerta del templo del dios Enlil, en Nippur. Después conquistó ciudades como Ur, Lagash y Umma, y presumió de haber «lavado sus armas en el mar», es decir, de haber llegado hasta el golfo Pérsico. Estableció su capital en Acad, una ciudad cuya ubicación exacta todavía no se ha encontrado.
+## Del mar Inferior al mar Superior
+Sus campañas hacia el oeste llegaron a ciudades como Mari y Ebla, en la actual Siria, y hasta el «bosque de los cedros», probablemente en el Líbano. Afirmaba gobernar desde el «mar Superior», el Mediterráneo, hasta el «mar Inferior», el golfo Pérsico. También venció a los gobernantes de Elam, en el actual Irán. Según sus inscripciones, triunfó sobre 34 ciudades, y en el puerto de Acad atracaban barcos de tierras lejanas como Meluhha, probablemente el valle del Indo, Magán y Dilmún. Su corte era enorme: decía alimentar cada día a 5.400 hombres que «comían pan ante él».
+## Gobernar un imperio
+Para controlar un territorio tan extenso, Sargón colocó funcionarios a lo largo de las rutas del imperio. Su nombre, en acadio, una lengua semítica, contiene la palabra «sharru», «rey». Con él, el acadio se convirtió en una lengua de gobierno en una región donde hasta entonces dominaba el sumerio.
+## Una familia célebre
+Su hija Enheduanna fue gran sacerdotisa del dios de la Luna en la ciudad de Ur, y compuso himnos religiosos: es una de las primeras autoras de la historia cuyo nombre conocemos. Sus hijos Rimush y Manishtushu reinaron después de él, y su nieto Naram-Sin fue otro gran rey acadio.
+## El final de su reinado
+En sus últimos años, Sargón tuvo que enfrentarse a rebeliones, a un asedio de su propia capital y al hambre. Murió hacia el 2279 antes de Cristo. Su dinastía duró aproximadamente un siglo más, hasta la conquista de Sumer por los guti. Fragmentos de una estela que celebraba sus victorias se conservan hoy en el Museo del Louvre: fueron llevados a la ciudad de Susa como botín de guerra siglos después.
+## ¿El primer imperio?
+A menudo se dice que Sargón fue el primer gobernante de un imperio de la historia escrita, porque unió bajo su mando muchas ciudades y pueblos distintos. Algunos historiadores matizan que Lugalzagesi, al que derrotó, ya había dominado una gran parte de Sumer.
+* La leyenda de su nacimiento en una cesta en el río es muy anterior a otras historias parecidas, como la de Moisés.
+* Siglos después, un rey de Asiria adoptó su nombre: Sargón II.
+* La ubicación de su capital, Acad, sigue siendo un misterio arqueológico.
+- -2334 | Comienza su reinado (cronología media)
+- -2300 | Domina Sumer tras vencer a Lugalzagesi (fecha aproximada)
+- -2279 | Muere (cronología media)
+rel: narmer | Ambos son considerados fundadores de los primeros grandes estados de la historia, en Mesopotamia y en Egipto.
+rel: ciro-el-grande | Siglos después, Ciro también se proclamó rey de Súmer y Acad al conquistar Babilonia.
+src: https://en.wikipedia.org/wiki/Sargon_of_Akkad | Wikipedia: Sargon of Akkad
+
+@narmer
+name: Narmer
+alt: Posiblemente el legendario Menes
+title: Faraón que unificó Egipto
+kind: faraon
+era: antigua
+civ: Antiguo Egipto
+realm: Egipto (dinastía I)
+region: Egipto
+y: -3100
+born: desconocido
+died: desconocido
+reign: hacia 3100 a. C.
+lead: Hace unos 5.100 años, un rey del sur de Egipto completó la unificación del país y se convirtió, para muchos especialistas, en el primer faraón de la primera dinastía. Su famosa paleta es uno de los documentos históricos más antiguos de la humanidad.
+## El fundador de una civilización
+Narmer gobernó Egipto hacia el año 3100 antes de Cristo, con un margen de unos 150 años, a finales del cuarto milenio antes de Cristo. Según los estudios, sucedió a un rey llamado Ka y fue sucedido por Hor-Aha. Muchos especialistas lo consideran el fundador de la primera dinastía de Egipto, el comienzo de los casi tres mil años de historia de los faraones.
+## La unificación de Egipto
+Antes de Narmer, Egipto estaba dividido en dos grandes regiones: el Alto Egipto, en el sur, a lo largo del valle del Nilo, y el Bajo Egipto, en el norte, en el delta. Tradicionalmente se le atribuye la unificación del país, cuando el rey del sur conquistó el norte. La arqueología sugiere que el proceso empezó antes, con reyes como Ka e Iry-Hor, y que Narmer lo completó al conquistar un territorio en el noroeste del delta.
+## La paleta de Narmer
+La paleta de Narmer, una placa de piedra decorada, fue descubierta por el arqueólogo James Quibell en Hieracómpolis, en la temporada de excavación de 1897 a 1898. En una cara aparece Narmer con la corona blanca del Alto Egipto, golpeando a un enemigo, y en la otra, con la corona roja del Bajo Egipto. Los especialistas aún discuten si narra un acontecimiento real o si es simbólica, pero una etiqueta fechada hallada en Abidos en 1993 apoya que refleja hechos históricos. Hoy se conserva en el Museo Egipcio de El Cairo.
+## ¿Narmer o Menes?
+Las tradiciones egipcias posteriores atribuían la unificación a un rey llamado Menes. La mayoría de los egiptólogos identifican a Menes con Narmer: en una encuesta de 2014, 41 especialistas lo identificaron con Narmer y 31 con su sucesor, Hor-Aha. La prueba más fuerte son unos sellos de la necrópolis de Abidos que colocan a Narmer en primer lugar de la lista de reyes.
+## Su tumba y su familia
+Su tumba se encuentra en Umm el-Qaab, cerca de Abidos, y está formada por dos cámaras unidas, construidas con ladrillos de adobe; el arqueólogo Werner Kaiser la identificó como suya en 1964. Curiosamente, la tumba de su sucesor, Hor-Aha, es más de tres veces mayor. Se cree que su esposa fue la reina Neithhotep, probablemente madre de Hor-Aha, aunque se discute.
+## Más allá de Egipto
+Se han encontrado unos 20 «serejs», el recuadro donde se escribía el nombre del rey, que podrían ser de Narmer, en ocho yacimientos de Canaán, en la actual Israel y Palestina. La presencia egipcia en la región alcanzó su punto máximo durante su reinado.
+## Un nombre escrito con un pez
+Su nombre se escribía con dos signos: un pez gato, «nar», y un cincel, «mer». A menudo se traduce como «pez gato feroz», aunque no hay consenso sobre su significado. En vasijas y en inscripciones en roca, a veces solo aparece el pez gato.
+* La paleta de Narmer es uno de los documentos históricos más antiguos que se conocen.
+* Es una de las primeras representaciones de un rey con las coronas del Alto y del Bajo Egipto.
+* Su tumba es más pequeña que la de su sucesor.
+- -3100 | Reinado de Narmer y unificación de Egipto (fecha aproximada)
+- 1898 | Descubrimiento de la paleta de Narmer en Hieracómpolis
+- 1964 | Identificación de su tumba en Abidos
+rel: ramses-ii | Unos 1.800 años después, Ramsés II gobernaría el Egipto que Narmer ayudó a unificar.
+rel: hatshepsut | Otra gran soberana del Egipto faraónico, de la dinastía XVIII.
+src: https://en.wikipedia.org/wiki/Narmer | Wikipedia: Narmer
+
+@hatshepsut
+name: Hatshepsut
+alt: Maatkare
+title: Faraona de Egipto
+kind: reina
+era: antigua
+civ: Antiguo Egipto
+realm: Egipto (dinastía XVIII)
+region: Egipto
+y: -1479
+born: entre 1505 y 1495 a. C.
+died: hacia 1458 a. C.
+reign: hacia 1479–1458 a. C.
+lead: Fue una de las pocas mujeres que gobernaron Egipto como faraón. Se hizo representar con barba postiza, envió una famosa expedición al país de Punt y levantó uno de los templos más bellos de Egipto. Después, alguien intentó borrar su nombre de la historia.
+## Hija y esposa de faraones
+Hatshepsut fue la sexta gobernante de la dinastía XVIII de Egipto. Nació entre el 1505 y el 1495 antes de Cristo, hija del faraón Tutmosis I y de la gran esposa real Ahmose. Con unos 14 o 15 años se casó con su medio hermano, Tutmosis II, como era costumbre en la familia real; tuvieron una hija, Neferura.
+## De regente a faraón
+Cuando murió Tutmosis II, el heredero era su hijo con otra esposa, Tutmosis III, un niño de unos dos años. Hatshepsut empezó a gobernar como regente en su nombre. Pero hacia el séptimo año del reinado, alrededor del 1472 antes de Cristo, ya se la reconocía como faraón, y su reinado se contó desde el primer año. Tutmosis III quedó como corregente menor.
+En las imágenes oficiales se hizo representar con los atributos tradicionales del faraón: la barba postiza, el faldellín, el tocado real y la cobra sagrada en la frente. Los primeros traductores modernos se confundieron al encontrar textos con gramática femenina referidos a un rey con barba.
+## La expedición al país de Punt
+Hatshepsut restableció las redes comerciales que se habían interrumpido en épocas anteriores. Hacia el noveno año de su reinado, en torno al 1471 antes de Cristo, envió una expedición al país de Punt, en algún lugar de la costa del mar Rojo o del Cuerno de África. Volvió con 31 árboles vivos de mirra y con incienso. Se cuenta que ella misma usó incienso quemado y molido como kohl, el maquillaje negro de los ojos, el primer uso registrado de esta resina.
+## Una gran constructora
+Su obra más famosa es su templo funerario de Deir el-Bahari, junto a Tebas, construido en terrazas al pie de los acantilados; su arquitecto pudo ser Senenmut, uno de sus colaboradores más cercanos. En el templo de Karnak mandó levantar dos obeliscos que fueron en su día los más altos del mundo, y uno de ellos sigue en pie. Otro obelisco encargado por ella se rompió mientras se tallaba, y todavía yace en la cantera de Asuán: es el famoso Obelisco Inacabado.
+## Muerte y desaparición
+La última fecha que se conserva de su reinado es del año 20, y probablemente murió hacia el año 22. Su tumba fue la KV20, en el Valle de los Reyes, que amplió para enterrar también a su padre.
+Al final del reinado de Tutmosis III y en tiempos de su hijo, Amenhotep II, sus estatuas fueron destrozadas y su nombre fue borrado o sustituido en muchos monumentos. Durante mucho tiempo se pensó que fue una venganza de Tutmosis III, pero hoy los motivos se discuten: pudo ser propaganda política para reforzar a su propia línea familiar, un ahorro en obras, o un rechazo a la idea de que una mujer fuera faraón.
+## ¿Se encontró su momia?
+En 2007, el arqueólogo Zahi Hawass anunció que una momia hallada en la tumba KV60 era probablemente la de Hatshepsut, por una muela guardada en una caja con su nombre. Pero en 2011 otros estudios señalaron que la pieza no encajaba, y la identificación sigue en duda.
+* El historiador James Henry Breasted la llamó «la primera gran mujer de la historia».
+* El Obelisco Inacabado de Asuán, roto mientras se tallaba, era un encargo suyo.
+* Celebró su fiesta de renovación del poder, el festival Sed, antes de lo habitual: en su año 15.
+- -1479 | Comienza a gobernar como regente de Tutmosis III
+- -1472 | Ya es reconocida como faraón (fecha aproximada)
+- -1471 | Expedición al país de Punt (fecha aproximada)
+- -1458 | Muere (fecha aproximada)
+rel: ramses-ii | Otro gran faraón constructor, de la dinastía XIX, unos dos siglos después.
+rel: cleopatra | Más de mil años después, otra mujer gobernaría Egipto: la última de los Ptolomeos.
+src: https://en.wikipedia.org/wiki/Hatshepsut | Wikipedia: Hatshepsut
+
+@dario-i
+name: Darío I
+alt: Darío el Grande
+title: Rey de reyes de Persia
+kind: rey
+era: antigua
+civ: Persia
+realm: Imperio aqueménida
+region: Persia (Irán)
+y: -522
+born: hacia 550 a. C.
+died: octubre de 486 a. C., a los 64 años aproximadamente
+reign: 522–486 a. C.
+lead: Llegó al trono tras eliminar a un supuesto impostor, organizó el Imperio persa en provincias, creó una moneda de oro y una red de caminos, y lo llevó a su máxima extensión. Pero los griegos lo vencieron en Maratón.
+## Un noble que llegó al trono
+Darío nació hacia el año 550 antes de Cristo. Era el mayor de los cinco hijos de Histaspes, un noble persa de la familia aqueménida. Entre sus muchas esposas estuvo Atosa, hija de Ciro el Grande, el fundador del imperio.
+Según el relato oficial del propio Darío, el rey Cambises II, hijo de Ciro, había mandado matar a su hermano Bardiya, y un mago llamado Gaumata se hizo pasar por él para apoderarse del trono. Darío y otros seis nobles lo mataron en septiembre del 522 antes de Cristo, y Darío se convirtió en rey. Muchos historiadores creen que esta versión pudo ser una justificación para su propia toma del poder, y que el hombre asesinado pudo ser el verdadero Bardiya.
+## La inscripción de Behistún
+Darío mandó grabar su versión de los hechos en un acantilado del monte Behistún, en el actual Irán, en tres lenguas: persa antiguo, elamita y babilonio. Cuenta su linaje y cómo sofocó las rebeliones. Siglos después, esta inscripción fue clave para descifrar la escritura cuneiforme, igual que la piedra de Rosetta lo fue para los jeroglíficos.
+## Un imperio en orden
+En su primer año de reinado sofocó revueltas en todo el imperio; afirmó haber matado a nueve «reyes mentirosos». Después lo reorganizó: lo dividió en veinte satrapías o provincias, cada una con su gobernador y un tributo fijo, hizo del arameo una lengua oficial, unificó pesos y medidas y mejoró el Camino Real, una gran ruta que cruzaba el imperio. Antes del 500 antes de Cristo introdujo el «dárico», una moneda de oro que facilitó el comercio.
+## Grandes obras
+Inició construcciones en Susa, Babilonia y Egipto, y comenzó Persépolis, la gran capital ceremonial. En Egipto hizo construir un canal que unía el Nilo con el mar Rojo, inaugurado en el 497 antes de Cristo, un antecesor del canal de Suez.
+## Conquistas y guerras con Grecia
+Darío llevó el imperio hasta el valle del Indo, invadió las tierras de los escitas, al norte del mar Negro, y conquistó Tracia y Macedonia. Cuando las ciudades griegas de Jonia, en la costa de la actual Turquía, se rebelaron con ayuda de Atenas y Eretria, Darío quiso castigarlas. Pero en el 490 antes de Cristo su ejército fue derrotado por los atenienses en la batalla de Maratón. Planeó una segunda invasión, pero murió antes de llevarla a cabo.
+## Fe y tolerancia
+Darío creía firmemente en Ahura Mazda, el dios supremo del zoroastrismo: «Ahura Mazda es mío, yo soy de Ahura Mazda», escribió. Aun así, toleró otras religiones y financió la reconstrucción del Segundo Templo de Jerusalén.
+## Muerte y legado
+Murió en octubre del 486 antes de Cristo, con unos 64 años, y fue enterrado en una tumba excavada en la roca en Naqsh-e Rostam, cerca de Persépolis. Lo sucedió su hijo Jerjes, nacido de Atosa. Bajo Darío, el Imperio persa alcanzó su mayor extensión territorial, y su organización sirvió de modelo a imperios posteriores.
+* Según Heródoto, su llegada al trono se decidió en parte por el relincho de un caballo al amanecer.
+* La inscripción de Behistún fue clave para descifrar el cuneiforme.
+* Su canal entre el Nilo y el mar Rojo se inauguró hacia el 497 antes de Cristo.
+- -550 | Nace (fecha aproximada)
+- -522 | Llega al trono tras la muerte de Gaumata
+- -513 | Campaña contra los escitas
+- -497 | Inauguración del canal entre el Nilo y el mar Rojo
+- -490 | Derrota persa en Maratón
+- -486 | Muere y lo sucede Jerjes
+rel: ciro-el-grande | Fundador del imperio que Darío organizó; Darío se casó con su hija Atosa.
+rel: jerjes-i | Su hijo y sucesor, que intentó de nuevo conquistar Grecia.
+src: https://en.wikipedia.org/wiki/Darius_the_Great | Wikipedia: Darius the Great

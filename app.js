@@ -253,7 +253,7 @@ const paras = t => String(t || '').split(/\n\s*\n/).map(x => x.trim()).filter(Bo
 const deepBlock = i => i.deep ? `<aside class="deep"><span class="deep-h">${ICON.spark || '✦'} A fondo</span>${paras(i.deep)}</aside>` : '';
 const metaLine = (i, extra = '') => `<div class="meta"><span>${ICON.clock}${i.read} min</span><span>${lvlBars(i.level || 1)} ${LEVEL[i.level || 1]}</span>${extra}</div>`;
 const kindColor = t => t === 'mito' ? '#ffb08a' : t === 'curiosidad' ? 'var(--ac2)' : 'var(--tx3)';
-const href = i => i.type === 'articulo' ? `#/articulo/${i.id}` : i.type === 'pais' ? `#/pais/${i.iso.toLowerCase()}` : i.type === 'anat' ? `#/anatomia/${i.slug}` : i.type === 'elem' ? `#/quimica/elemento/${i.slug}` : i.type === 'quim' ? `#/quimica/tema/${i.slug}` : `#/dato/${i.id}`;
+const href = i => i.type === 'articulo' ? `#/articulo/${i.id}` : i.type === 'pais' ? `#/pais/${i.iso.toLowerCase()}` : i.type === 'anat' ? `#/anatomia/${i.slug}` : i.type === 'elem' ? `#/quimica/elemento/${i.slug}` : i.type === 'quim' ? `#/quimica/tema/${i.slug}` : i.type === 'gob' ? `#/gobernantes/${i.slug}` : `#/dato/${i.id}`;
 
 /* Tarjeta de descubrimiento rápido: muestra la afirmación y abre la explicación en una hoja */
 const quickCard = i => {
@@ -297,15 +297,15 @@ const firstSrc = x => x && x.sources && x.sources[0];
 const refMarks = srcs => (srcs && srcs.length) ? `<p class="refs">Fuentes de este texto: ${srcs.map((s, k) => `<button class="ref" data-act="toref" data-n="${k + 1}" aria-label="Ir a la fuente ${k + 1}">[${k + 1}]</button>`).join(' ')}</p>` : '';
 /* Dirección pública: páginas estáticas indexables con vista previa al compartir (las genera tools/build-pages.js) */
 const SITE = /vercel\.app$|sabiasque|lumbrario/i.test(location.hostname) ? location.origin : 'https://cultura-khaki.vercel.app';
-const publicUrl = i => i.type === 'pais' ? `${SITE}/pais/${i.iso.toLowerCase()}/` : i.type === 'anat' ? `${SITE}/anatomia/${i.slug}/` : i.type === 'elem' ? `${SITE}/quimica/${i.slug}/` : i.type === 'quim' ? `${SITE}/quimica/tema/${i.slug}/` : `${SITE}/${i.type === 'articulo' ? 'articulo' : 'dato'}/${i.id}/`;
+const publicUrl = i => i.type === 'pais' ? `${SITE}/pais/${i.iso.toLowerCase()}/` : i.type === 'anat' ? `${SITE}/anatomia/${i.slug}/` : i.type === 'elem' ? `${SITE}/quimica/${i.slug}/` : i.type === 'quim' ? `${SITE}/quimica/tema/${i.slug}/` : i.type === 'gob' ? `${SITE}/gobernantes/${i.slug}/` : `${SITE}/${i.type === 'articulo' ? 'articulo' : 'dato'}/${i.id}/`;
 const credit = (x, cls = 'credit') => x && x.imgCredit ? `<figcaption class="${cls}">Imagen: ${esc(x.imgCredit.artist)} · <a href="${esc(x.imgCredit.page)}" target="_blank" rel="noopener noreferrer">${esc(x.imgCredit.license)} · Wikimedia Commons</a></figcaption>` : '';
 const MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
 const LAUNCH = Date.UTC(2026, 10, 25);
 const edition = () => { const d = new Date(); return { n: Math.max(1, Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - LAUNCH) / 864e5) + 1), date: d.toLocaleDateString('es-DO', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) }; };
 const apa = i => { const d = new Date((i.date || '2026-11-25') + 'T12:00:00'); return `Redacción Lumbrario (${d.getFullYear()}, ${d.getDate()} de ${MONTHS[d.getMonth()]}). ${i.title}. Lumbrario ${publicUrl(i)}`; };
-const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || []), s.example && 'Ejemplo. ' + s.example]), ...(i.timeline || []).map(e => `${e.y}: ${e.t}`), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, ...String(i.body || '').split(/\n\s*\n/), i.deep && 'A fondo. ' + i.deep, i.lead, i.name_origin, i.history, i.where && 'Dónde está. ' + i.where, i.what !== i.desc && i.what, ...(i.functions || []), ...(Array.isArray(i.curious) ? i.curious : [i.curious]), i.uses && 'Para qué sirve. ' + i.uses.join('. '), i.disc, i.origin].filter(Boolean).join('. ').replace(/\.\./g, '.');
+const readText = i => [i.title, i.subtitle || i.desc, i.intro, ...(i.sections || []).flatMap(s => [s.h, ...(s.p || []), s.example && 'Ejemplo. ' + s.example]), ...(i.timeline || []).map(e => `${typeof e.y === 'number' && e.y < 0 ? -e.y + ' antes de Cristo' : e.y}: ${e.t}`), i.facts && i.facts.length ? 'Datos complementarios. ' + i.facts.join(' ') : '', i.conclusion, ...String(i.body || '').split(/\n\s*\n/), i.deep && 'A fondo. ' + i.deep, i.lead, i.name_origin, i.history, i.where && 'Dónde está. ' + i.where, i.what !== i.desc && i.what, ...(i.functions || []), ...(Array.isArray(i.curious) ? i.curious : [i.curious]), i.uses && 'Para qué sirve. ' + i.uses.join('. '), i.disc, i.origin].filter(Boolean).join('. ').replace(/\.\./g, '.');
 const toolBtns = (id, extra = '') => `<div class="art-actions">${favBtn(id)}<button class="btn sm" data-act="share" data-id="${id}">${ICON.share}<span>Compartir</span></button><button class="btn sm" data-act="card" data-id="${id}">${ICON.image}<span>Imagen</span></button><button class="btn sm" data-act="listen" data-id="${id}">${ICON.sound}<span>Escuchar</span></button><button class="btn sm" data-act="cite" data-id="${id}">${ICON.quote}<span>Citar</span></button>${extra}</div>`;
-const getAny = id => String(id).startsWith('pais-') ? Countries.get(id) : String(id).startsWith('anat-') ? Anatomy.get(id) : /^(elem|quim)-/.test(String(id)) ? Chem.get(id) : ContentRepo.get(id);
+const getAny = id => String(id).startsWith('pais-') ? Countries.get(id) : String(id).startsWith('anat-') ? Anatomy.get(id) : /^(elem|quim)-/.test(String(id)) ? Chem.get(id) : String(id).startsWith('gob-') ? Gov.get(id) : ContentRepo.get(id);
 
 function toast(msg) {
   const t = $('#toast'); t.textContent = msg; t.classList.add('on');
@@ -433,7 +433,7 @@ Views.home = () => {
 
   <div class="sec"><div><h2>Explorar categorías</h2><p>${ContentRepo.categories().length} áreas del conocimiento</p></div><a class="more" href="#/explorar">Ver todo</a></div>
   ${catsGrid()}
-  <div class="banners">${chemBanner()}${anatomyBanner()}${countriesBanner()}</div>
+  <div class="banners">${govBanner()}${chemBanner()}${anatomyBanner()}${countriesBanner()}</div>
 
   ${series.length ? `<div class="sec"><div><h2>Dosieres</h2><p>Series temáticas para leer de principio a fin</p></div><a class="more" href="#/dosieres">Ver todos</a></div>
   <div class="rail">${series.map(seriesCard).join('')}</div>` : ''}
@@ -471,7 +471,7 @@ Views.explore = (p, q) => {
   <a class="searchbar" href="#/buscar" style="margin-bottom:14px">${ICON.search}<span>Buscar en todo el catálogo…</span></a>
   ${typeSeg(tipo, '#/explorar')}
   ${list ? `<div class="sec"><div><h2>${TYPE[tipo]}${tipo === 'mito' ? '' : 's'}</h2><p>${plural(list.length, 'resultado', 'resultados')}</p></div></div><div class="list two">${list.map(rowCard).join('')}</div>`
-      : `<div class="banners" style="margin-top:16px">${chemBanner()}${anatomyBanner()}${countriesBanner()}</div><div style="margin-top:12px">${catsGrid()}</div>`}`;
+      : `<div class="banners" style="margin-top:16px">${govBanner()}${chemBanner()}${anatomyBanner()}${countriesBanner()}</div><div style="margin-top:12px">${catsGrid()}</div>`}`;
 };
 
 Views.category = ([id], q) => {
@@ -483,7 +483,7 @@ Views.category = ([id], q) => {
   <button class="back" data-act="back">${ICON.back} Volver</button>
   <header class="cat-hero${c.img ? ' has-img' : ''}" style="--cc:${c.color}">${c.img ? `<img class="cat-bg" src="${esc(c.img)}" alt="" decoding="async" referrerpolicy="no-referrer">` : ''}<div class="gl">${c.icon}</div><h1 class="h1">${esc(c.name)}</h1><p>${esc(c.desc)}</p></header>
   ${c.imgCredit ? credit(c, 'credit sm') : ''}
-  ${id === 'medicina' ? medNote() : ''}${id === 'cuerpo' || id === 'medicina' ? `<div style="margin:12px 0">${anatomyBanner()}</div>` : ''}${id === 'ciencia' ? `<div style="margin:12px 0">${chemBanner()}</div>` : ''}${id === 'lengua' ? `<a class="dict-banner" href="#/diccionario"><span class="gl">📖</span><span><b>Diccionario</b><small>Busca una palabra o selecciónala mientras lees para ver su significado en contexto.</small></span><span class="arr">${ICON.arrow}</span></a>` : ''}
+  ${id === 'medicina' ? medNote() : ''}${id === 'cuerpo' || id === 'medicina' ? `<div style="margin:12px 0">${anatomyBanner()}</div>` : ''}${id === 'ciencia' ? `<div style="margin:12px 0">${chemBanner()}</div>` : ''}${id === 'historia' ? `<div style="margin:12px 0">${govBanner()}</div>` : ''}${id === 'lengua' ? `<a class="dict-banner" href="#/diccionario"><span class="gl">📖</span><span><b>Diccionario</b><small>Busca una palabra o selecciónala mientras lees para ver su significado en contexto.</small></span><span class="arr">${ICON.arrow}</span></a>` : ''}
   ${typeSeg(tipo, '#/categoria/' + id)}
   <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(rowCard).join('')}</div>`
       : emptyState(c.icon, 'Nada por aquí todavía', 'No hay contenidos de este tipo en esta categoría. Prueba con otro filtro.', `<a class="btn" href="#/categoria/${id}">Ver todo en ${esc(c.name)}</a>`)}</div>`;
@@ -508,11 +508,11 @@ function searchResults(term) {
   const r = ContentRepo.search(term);
   const pc = Countries.search(term).slice(0, 8);
   const an = Anatomy.search(term).slice(0, 6);
-  const ch = Chem.search(term), ce = ch.els.slice(0, 6), cl = ch.ls.slice(0, 4);
-  const pcBlock = (ce.length || cl.length ? `<div class="sec" style="margin-top:4px"><div><h2>Química</h2></div></div><div class="list two" style="margin-bottom:8px">${ce.map(elRow).join('')}${cl.map(lessonRow).join('')}</div>` : '') + (an.length ? `<div class="sec" style="margin-top:4px"><div><h2>Atlas del cuerpo</h2></div></div><div class="list two" style="margin-bottom:8px">${an.map(anatRow).join('')}</div>` : '') + (pc.length ? `<div class="sec" style="margin-top:4px"><div><h2>Países</h2></div></div><div class="list two" style="margin-bottom:8px">${pc.map(countryRow).join('')}</div>` : '');
-  if (!r.length && (pc.length || an.length || ce.length || cl.length)) return pcBlock;
+  const ch = Chem.search(term), ce = ch.els.slice(0, 6), cl = ch.ls.slice(0, 4), gv = Gov.search(term).slice(0, 6);
+  const pcBlock = (gv.length ? `<div class="sec" style="margin-top:4px"><div><h2>Reyes, emperadores y conquistadores</h2></div></div><div class="list two" style="margin-bottom:8px">${gv.map(govRow).join('')}</div>` : '') + (ce.length || cl.length ? `<div class="sec" style="margin-top:4px"><div><h2>Química</h2></div></div><div class="list two" style="margin-bottom:8px">${ce.map(elRow).join('')}${cl.map(lessonRow).join('')}</div>` : '') + (an.length ? `<div class="sec" style="margin-top:4px"><div><h2>Atlas del cuerpo</h2></div></div><div class="list two" style="margin-bottom:8px">${an.map(anatRow).join('')}</div>` : '') + (pc.length ? `<div class="sec" style="margin-top:4px"><div><h2>Países</h2></div></div><div class="list two" style="margin-bottom:8px">${pc.map(countryRow).join('')}</div>` : '');
+  if (!r.length && (pc.length || an.length || ce.length || cl.length || gv.length)) return pcBlock;
   if (!r.length) return emptyState('🔍', 'Sin resultados', `No encontramos nada para «${esc(term)}». Prueba con otra palabra o explora por categorías.`, '<a class="btn" href="#/explorar">Explorar categorías</a>');
-  return `${pcBlock}<div class="faint" style="font-size:13px;margin-bottom:10px">${plural(r.length, 'resultado', 'resultados')}${pc.length || an.length || ce.length || cl.length ? ' en artículos y curiosidades' : ''}</div><div class="list two">${r.map(rowCard).join('')}</div>`;
+  return `${pcBlock}<div class="faint" style="font-size:13px;margin-bottom:10px">${plural(r.length, 'resultado', 'resultados')}${pc.length || an.length || ce.length || cl.length || gv.length ? ' en artículos y curiosidades' : ''}</div><div class="list two">${r.map(rowCard).join('')}</div>`;
 }
 
 /* Bloques enriquecidos del artículo: apartados con imagen, ejemplo y fuente directa; cronología; conceptos relacionados */
@@ -591,12 +591,13 @@ Views.saved = (p, q) => {
   const ids = UserRepo.get().favs;
   if (ids.some(x => x.startsWith('pais-')) && !Countries.data) return needCountries();
   if (ids.some(x => /^(elem|quim)-/.test(x)) && !Chem.data) return needChem();
+  if (ids.some(x => x.startsWith('gob-')) && !Gov.data) return needGov();
   const favs = ids.map(getAny).filter(Boolean);
-  const list = favs.filter(i => tab === 'todo' || (tab === 'articulo' ? i.type === 'articulo' : tab === 'paises' ? i.type === 'pais' : tab === 'cuerpo' ? i.type === 'anat' : tab === 'quimica' ? ['elem', 'quim'].includes(i.type) : !['articulo', 'pais', 'anat', 'elem', 'quim'].includes(i.type)));
+  const list = favs.filter(i => tab === 'todo' || (tab === 'articulo' ? i.type === 'articulo' : tab === 'paises' ? i.type === 'pais' : tab === 'cuerpo' ? i.type === 'anat' : tab === 'quimica' ? ['elem', 'quim'].includes(i.type) : tab === 'gobernantes' ? i.type === 'gob' : !['articulo', 'pais', 'anat', 'elem', 'quim', 'gob'].includes(i.type)));
   return `
   <div class="sec" style="margin-top:8px"><div><h1 class="h1">Guardados</h1><p>Tu biblioteca personal${favs.length ? ' · ' + plural(favs.length, 'elemento', 'elementos') : ''}</p></div></div>
-  ${favs.length ? `<div class="seg">${[['todo', 'Todo'], ['articulo', 'Artículos'], ['datos', 'Curiosidades y mitos'], ['paises', 'Países'], ['cuerpo', 'Cuerpo humano'], ['quimica', 'Química']].map(([v, l]) => `<button class="${tab === v ? 'on' : ''}" data-act="nav" data-to="#/guardados${v === 'todo' ? '' : '?tab=' + v}">${l}</button>`).join('')}</div>` : ''}
-  <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(i => i.type === 'pais' ? countryRow(i) : i.type === 'anat' ? anatRow(i) : i.type === 'elem' ? elRow(i) : i.type === 'quim' ? lessonRow(i) : rowCard(i)).join('')}</div>`
+  ${favs.length ? `<div class="seg">${[['todo', 'Todo'], ['articulo', 'Artículos'], ['datos', 'Curiosidades y mitos'], ['paises', 'Países'], ['cuerpo', 'Cuerpo humano'], ['quimica', 'Química'], ['gobernantes', 'Gobernantes']].map(([v, l]) => `<button class="${tab === v ? 'on' : ''}" data-act="nav" data-to="#/guardados${v === 'todo' ? '' : '?tab=' + v}">${l}</button>`).join('')}</div>` : ''}
+  <div style="margin-top:14px">${list.length ? `<div class="list two">${list.map(i => i.type === 'pais' ? countryRow(i) : i.type === 'anat' ? anatRow(i) : i.type === 'elem' ? elRow(i) : i.type === 'quim' ? lessonRow(i) : i.type === 'gob' ? govRow(i) : rowCard(i)).join('')}</div>`
       : favs.length ? emptyState('🗂️', 'Nada en esta pestaña', 'Lo que guardes de este tipo aparecerá aquí.')
         : emptyState('🔖', 'Tu biblioteca está vacía', 'Toca «Guardar» en cualquier artículo o curiosidad y lo tendrás aquí siempre, incluso sin conexión.', '<button class="btn ac" data-act="surprise">' + ICON.shuffle + ' Descubrir algo ahora</button>')}</div>`;
 };
@@ -608,7 +609,7 @@ Views.quiz = () => {
   if (Quiz.list.length && Quiz.i >= Quiz.list.length) return quizResult();
   const best = UserRepo.get().quiz.best;
   const levels = [[0, '🎲', 'Mixto', 'Todos los niveles'], [1, '🌱', 'Fácil', 'Cultura general básica'], [2, '🔥', 'Medio', 'Para curiosos'], [3, '🧠', 'Difícil', 'Solo para expertos']];
-  const avail = Quiz.cat === 'paises' || Quiz.cat === 'quimica' ? 10 : Services.buildQuiz(Quiz.level, Quiz.cat, 999).length;
+  const avail = Quiz.cat === 'paises' || Quiz.cat === 'quimica' || Quiz.cat === 'gobernantes' ? 10 : Services.buildQuiz(Quiz.level, Quiz.cat, 999).length;
   return `<div class="quiz-wrap">
     <div class="sec" style="margin-top:8px"><div><h1 class="h1">Quiz</h1><p>${plural(ContentRepo.questions().length, 'pregunta', 'preguntas')} con explicación y fuente. Las que no has visto salen primero.</p></div></div>
     <div class="eyebrow">Dificultad</div>
@@ -618,6 +619,7 @@ Views.quiz = () => {
       <button class="${Quiz.cat === 'all' ? 'on' : ''}" data-act="q-cat" data-v="all">Todos</button>
       <button class="${Quiz.cat === 'paises' ? 'on' : ''}" data-act="q-cat" data-v="paises">🌎 Banderas y capitales</button>
       <button class="${Quiz.cat === 'quimica' ? 'on' : ''}" data-act="q-cat" data-v="quimica">⚗️ Tabla periódica</button>
+      <button class="${Quiz.cat === 'gobernantes' ? 'on' : ''}" data-act="q-cat" data-v="gobernantes">👑 Reyes y emperadores</button>
       ${ContentRepo.categories().filter(c => ContentRepo.questions().some(q => q.cat === c.id)).map(c => `<button class="${Quiz.cat === c.id ? 'on' : ''}" data-act="q-cat" data-v="${c.id}">${c.icon} ${esc(c.name)}</button>`).join('')}
     </div>
     <div style="margin-top:22px">${avail ? `<button class="btn ac block" data-act="q-start">Empezar · ${Math.min(10, avail)} preguntas</button>`
@@ -628,7 +630,7 @@ function quizQuestion() {
   const q = Quiz.list[Quiz.i], n = Quiz.list.length;
   return `<div class="quiz-wrap">
     <div class="qbar"><button class="icon-btn" data-act="q-quit" aria-label="Salir del quiz">${ICON.close}</button><div class="track"><i style="width:${Quiz.i / n * 100}%"></i></div><span>${Quiz.i + 1}/${n}</span></div>
-    <div class="card qcard">${q.cat === 'paises' ? '<span class="chip" style="color:var(--ac2)"><span class="dot"></span>Países</span>' : q.cat === 'quimica' ? `<span class="chip" style="color:${CHEM_COLOR}"><span class="dot"></span>Química</span>` : catChip(q)} <span class="chip">${LEVEL[q.level]}</span><h2>${esc(q.q)}</h2>${q.img ? `<img class="qflag" src="${q.img}" alt="Bandera para adivinar">` : ''}</div>
+    <div class="card qcard">${q.cat === 'paises' ? '<span class="chip" style="color:var(--ac2)"><span class="dot"></span>Países</span>' : q.cat === 'quimica' ? `<span class="chip" style="color:${CHEM_COLOR}"><span class="dot"></span>Química</span>` : q.cat === 'gobernantes' ? `<span class="chip" style="color:${GOV_COLOR}"><span class="dot"></span>Reyes y emperadores</span>` : catChip(q)} <span class="chip">${LEVEL[q.level]}</span><h2>${esc(q.q)}</h2>${q.img ? `<img class="qflag" src="${q.img}" alt="Bandera para adivinar">` : ''}</div>
     <div id="answers">${q.opts.map((o, k) => `<button class="ans" data-act="q-ans" data-i="${k}"><span class="k">${'ABCD'[k]}</span><span>${esc(o.t)}</span></button>`).join('')}</div>
     <div id="fb"></div>
   </div>`;
@@ -648,7 +650,7 @@ function quizAnswer(k) {
   const last = Quiz.i === Quiz.list.length - 1;
   $('#fb').innerHTML = `<div class="feedback"><b class="${ok ? 'ok' : 'bad'}">${ok ? '¡Correcto! +' + 10 * q.level + ' XP' : 'No era esa'}</b>${ok ? '' : `<p class="fb-ans">Respuesta correcta: <b>${esc(q.opts.find(o => o.ok).t)}</b></p>`}<p>${esc(q.exp)}</p>${refSrc ? `<p class="fb-src">Fuente: <a href="${esc(refSrc.u)}" target="_blank" rel="noopener noreferrer">${esc(refSrc.org ? refSrc.org + ' — ' : '')}${esc(refSrc.title || refSrc.t)}</a></p>` : ''}
     <div class="row"><button class="btn ac" data-act="q-next">${last ? 'Ver resultado' : 'Siguiente'} ${ICON.arrow}</button>
-    ${q.href ? `<a class="btn sm" href="${q.href}">${q.href.startsWith('#/anatomia') ? 'Ver en el atlas' : q.href.startsWith('#/quimica') ? 'Ver el elemento' : 'Ver país'}</a>` : ref ? `<a class="btn sm" href="${href(ref)}" ${ref.type !== 'articulo' ? `data-act="open" data-id="${ref.id}"` : ''}>Saber más</a>` : ''}</div></div>`;
+    ${q.href ? `<a class="btn sm" href="${q.href}">${q.href.startsWith('#/anatomia') ? 'Ver en el atlas' : q.href.startsWith('#/quimica') ? 'Ver el elemento' : q.href.startsWith('#/gobernantes') ? 'Leer la biografía' : 'Ver país'}</a>` : ref ? `<a class="btn sm" href="${href(ref)}" ${ref.type !== 'articulo' ? `data-act="open" data-id="${ref.id}"` : ''}>Saber más</a>` : ''}</div></div>`;
   $('#fb').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 function quizResult() {
@@ -669,7 +671,8 @@ function quizResult() {
 function quizStart() {
   if (Quiz.cat === 'paises' && !Countries.data) { $('#view').innerHTML = loadingView('Preparando banderas…'); Countries.load().then(quizStart).catch(() => { toast('No se pudieron cargar los países'); render(); }); return; }
   if (Quiz.cat === 'quimica' && !Chem.data) { $('#view').innerHTML = loadingView('Preparando la tabla periódica…'); Chem.load().then(quizStart).catch(() => { toast('No se pudo cargar la química'); render(); }); return; }
-  Object.assign(Quiz, { list: Quiz.cat === 'paises' ? Countries.buildQuiz(Quiz.level, 10) : Quiz.cat === 'quimica' ? Chem.buildQuiz(Quiz.level, 10) : Services.buildQuiz(Quiz.level, Quiz.cat, 10), i: 0, correct: 0, xp: 0, wrong: [], answered: false, saved: false, isBest: false });
+  if (Quiz.cat === 'gobernantes' && !Gov.data) { $('#view').innerHTML = loadingView('Preparando el quiz de gobernantes…'); Gov.load().then(quizStart).catch(() => { toast('No se pudo cargar la sección'); render(); }); return; }
+  Object.assign(Quiz, { list: Quiz.cat === 'paises' ? Countries.buildQuiz(Quiz.level, 10) : Quiz.cat === 'quimica' ? Chem.buildQuiz(Quiz.level, 10) : Quiz.cat === 'gobernantes' ? Gov.buildQuiz(Quiz.level, 10) : Services.buildQuiz(Quiz.level, Quiz.cat, 10), i: 0, correct: 0, xp: 0, wrong: [], answered: false, saved: false, isBest: false });
   render();
 }
 
@@ -701,6 +704,7 @@ Views.profile = () => {
     <div class="stat"><b>${Object.keys(u.seen).filter(k => k.startsWith('pais-')).length}<span class="faint" style="font-size:16px">/195</span></b><span>Países explorados</span></div>
     <div class="stat"><b>${Anatomy.all().filter(x => u.seen[x.id]).length}<span class="faint" style="font-size:16px">/${Anatomy.all().length}</span></b><span>Atlas del cuerpo</span></div>
     <div class="stat"><b>${Object.keys(u.seen).filter(k => k.startsWith('elem-')).length}<span class="faint" style="font-size:16px">/118</span></b><span>Elementos químicos</span></div>
+    <div class="stat"><b>${Object.keys(u.seen).filter(k => k.startsWith('gob-')).length}<span class="faint" style="font-size:16px">/41</span></b><span>Biografías de gobernantes</span></div>
     <div class="stat"><b>${acc}%</b><span>Acierto en quiz</span></div>
   </div>
   <div class="sec"><div><h2>Récords por nivel</h2></div></div>
@@ -1113,6 +1117,192 @@ function chemFilter() {
 }
 function chemAfter() { const inp = $('#eq'); if (inp) inp.addEventListener('input', chemFilter); chemFilter(); }
 
+/* ================= REYES, EMPERADORES Y CONQUISTADORES =================
+ * Datos: rulers.js (window.SQ_RULERS), cargado bajo demanda: biografías de elaboración propia verificadas contra sus fuentes.
+ * Identificador público: «gob-<slug>». Las portadas son diseños propios (monogramas): no se muestran retratos inventados. */
+const GOV_COLOR = '#e3b25f';
+const GOV_ERAS = { antigua: { name: 'Antigüedad', short: 'Antigua', color: '#e3b25f' }, media: { name: 'Edad Media', short: 'Medieval', color: '#9d8cff' }, moderna: { name: 'Edad Moderna y contemporánea', short: 'Moderna', color: '#5fb8d3' } };
+const GOV_KINDS = { rey: 'Rey', reina: 'Reina', emperador: 'Emperador', faraon: 'Faraón', kan: 'Kan', sultan: 'Sultán', califa: 'Califa', dictador: 'Dictador', general: 'General', conquistador: 'Conquistador' };
+const GOV_KIND_GROUPS = [['rey', 'Reyes y reinas', ['rey', 'reina', 'faraon']], ['emperador', 'Emperadores y kanes', ['emperador', 'kan']], ['sultan', 'Sultanes y califas', ['sultan', 'califa']], ['militar', 'Generales y conquistadores', ['dictador', 'general', 'conquistador']]];
+const GOV_CONTS = [['africa', 'África'], ['oriente', 'Oriente Próximo'], ['europa', 'Europa'], ['asia', 'Asia'], ['america', 'América']];
+const govCont = r => { const g = norm(r.region + ' ' + r.civ); return /egipto|africa|cartago|aksum|mali|zulu/.test(g) ? 'africa' : /america/.test(g) ? 'america' : /mesopotamia|persia|oriente/.test(g) ? 'oriente' : /india|china|asia central|^asia|mongol/.test(g) ? 'asia' : 'europa'; };
+const fmtYear = y => y < 0 ? `${-y} a. C.` : String(y);
+const Gov = {
+  data: null, map: {}, loading: null, events: [],
+  load() {
+    if (this.data) return Promise.resolve(this.data);
+    if (!this.loading) this.loading = new Promise((res, rej) => {
+      const s = document.createElement('script'); s.src = 'rulers.js'; s.async = true;
+      s.onload = () => { this.init(window.SQ_RULERS); res(this.data); };
+      s.onerror = () => { this.loading = null; rej(new Error('No se pudo cargar')); };
+      document.head.appendChild(s);
+    });
+    return this.loading;
+  },
+  init(D) {
+    D = D || { rulers: [] };
+    this.data = D.rulers.filter(r => !r.verif || r.verif.status === 'verificado').map((r, k) => {
+      const ys = r.timeline.map(e => e.y).filter(y => y <= r.y + 90);
+      const from = Math.min(r.y, ...ys), to = Math.max(r.y, ...ys);
+      return { ...r, role: r.title, title: r.name, n: k, id: 'gob-' + r.slug, type: 'gob', desc: r.lead, intro: r.lead, subtitle: r.title, cat: 'historia', cont: govCont(r), from, to, _k: norm([r.name, r.alt, r.title, r.civ, r.realm, r.region, GOV_KINDS[r.kind], ...r.sections.map(s => s.h), ...r.timeline.map(e => e.t)].join(' ')),
+        sections: r.sections.map(s => ({ h: s.h, p: s.p })),
+        _s: norm([r.name, r.alt, r.title, r.civ, r.realm, r.region, GOV_KINDS[r.kind], r.lead, ...r.sections.flatMap(s => [s.h, ...s.p])].join(' ')) };
+    });
+    this.map = Object.fromEntries(this.data.map(r => [r.slug, r]));
+    this.events = this.data.flatMap(r => r.timeline.map((e, j) => ({ ...e, r, k: r.slug + '-' + j }))).sort((a, b) => a.y - b.y);
+  },
+  get(id) { if (!this.data) return null; return this.map[String(id || '').replace(/^gob-/, '')] || null; },
+  era(r) { return GOV_ERAS[r.era] || GOV_ERAS.antigua; },
+  search(q) {
+    if (!this.data) return [];
+    const t = norm(q).split(/\s+/).filter(x => x.length > 1);
+    if (!t.length) return [];
+    return this.data.filter(r => t.every(x => r._s.includes(x))).sort((a, b) => (norm(a.name).includes(t[0]) ? -1 : 0) - (norm(b.name).includes(t[0]) ? -1 : 0));
+  },
+  contemporaries(r) { return this.data.filter(x => x !== r && x.from <= r.to && x.to >= r.from); },
+  buildQuiz(level, n = 10) {
+    const seen = UserRepo.get().quiz.qSeen, D = this.data;
+    const lvOf = r => ['alejandro-magno', 'julio-cesar', 'napoleon', 'cleopatra', 'gengis-kan', 'carlomagno', 'isabel-la-catolica', 'ramses-ii', 'moctezuma-ii', 'atahualpa', 'augusto', 'carlos-v', 'ricardo-corazon-de-leon'].includes(r.slug) ? 1 : r.words > 640 ? 2 : 3;
+    let pool = D.filter(r => !level || lvOf(r) === level);
+    pool = [...new Set([...shuffle(pool.filter(r => !Object.keys(seen).some(k => k.startsWith('g-' + r.slug + '-')))), ...shuffle(pool)])].slice(0, n);
+    const pick = (list, ok, key) => { const out = []; for (const x of shuffle(list)) { const v = key(x); if (v && v !== ok && !out.includes(v)) out.push(v); if (out.length === 3) break; } return out; };
+    return pool.map(r => {
+      const lv = level || lvOf(r), kinds = ['realm', 'who', 'civ', 'old'];
+      const kind = kinds[Math.floor(Math.random() * kinds.length)];
+      let q, ok, o;
+      if (kind === 'realm') { q = `¿Qué reino o imperio gobernó ${r.name}?`; ok = r.realm; o = [ok, ...pick(D.filter(x => x.civ !== r.civ), ok, x => x.realm)]; }
+      else if (kind === 'civ') { q = `¿A qué civilización o pueblo perteneció ${r.name}?`; ok = r.civ; o = [ok, ...pick(D.filter(x => x.civ !== r.civ && x.era === r.era).concat(D.filter(x => x.civ !== r.civ)), ok, x => x.civ)]; }
+      else if (kind === 'who') { q = `¿Quién fue «${r.role.charAt(0).toLowerCase() + r.role.slice(1)}» (${r.reign})?`; ok = r.name; o = [ok, ...pick(D.filter(x => x.role !== r.role && Math.abs(x.y - r.y) < 1500), ok, x => x.name)]; }
+      else { const others = []; for (const x of shuffle(D)) { if (x.y > r.y + 150 && !others.some(o2 => Math.abs(o2.y - x.y) < 60)) others.push(x); if (others.length === 3) break; }
+        if (others.length < 3) { q = `¿Qué reino o imperio gobernó ${r.name}?`; ok = r.realm; o = [ok, ...pick(D.filter(x => x.civ !== r.civ), ok, x => x.realm)]; }
+        else { q = '¿Cuál de estos gobernantes vivió antes?'; ok = r.name; o = [ok, ...others.map(x => x.name)]; } }
+      if (o.length < 4) { const key = kind === 'realm' ? 'realm' : kind === 'civ' ? 'civ' : 'name'; for (const x of shuffle(D)) { const v = x[key]; if (v && !o.includes(v) && (key !== 'name' || x.role !== r.role)) o.push(v); if (o.length === 4) break; } }
+      o = shuffle(o.slice(0, 4));
+      const exp = `${r.name} (${r.reign}): ${r.role.charAt(0).toLowerCase() + r.role.slice(1)}, ${r.realm}. ${r.lead.split(/(?<=\.)\s/)[0]}`;
+      return { id: `g-${r.slug}-${kind}`, cat: 'gobernantes', level: lv, q, img: null, o, a: o.indexOf(ok), opts: o.map(t => ({ t, ok: t === ok })), exp, href: '#/gobernantes/' + r.slug, src: r.sources[0] };
+    });
+  }
+};
+const needGov = () => { Gov.load().then(() => render(true)).catch(() => toast('No se pudo cargar la sección. Revisa tu conexión.')); return loadingView('Cargando reyes, emperadores y conquistadores…'); };
+const govInitials = r => r.name.replace(/\b(de|del|el|la|I{1,3}V?|VI{0,3}|II|III)\b/g, '').split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase();
+const govRoman = r => (r.name.match(/\b([IVX]+)\b/) || [])[1] || '';
+const govCover = (r, cls = '') => r.img && r.img.src
+  ? `<div class="cover gov-cover has-img ${cls}" style="--fc:${Gov.era(r).color}"><img src="${esc(r.img.src)}" alt="${esc(r.name)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>`
+  : `<div class="cover gov-cover ${cls}" style="--fc:${Gov.era(r).color}" aria-hidden="true"><i>${esc(fmtYear(r.y))}</i><b>${esc(govInitials(r))}</b>${govRoman(r) ? `<em>${govRoman(r)}</em>` : ''}<small>${esc(r.civ)}</small></div>`;
+const govRow = r => `<a class="rowc" href="#/gobernantes/${r.slug}">${govCover(r)}<div><span class="kind" style="color:${Gov.era(r).color}">${esc(GOV_KINDS[r.kind])} · ${esc(r.civ)}${UserRepo.isSeen(r.id) ? ' · <span style="color:var(--ok)">✓ leído</span>' : ''}</span><h4>${esc(r.name)}</h4><div class="meta"><span>${esc(r.reign)}</span></div></div></a>`;
+const govCard = r => `<a class="gov-card" href="#/gobernantes/${r.slug}" data-s="${esc(r._k)}">${govCover(r, 'big')}<div class="in"><span class="kind" style="color:${Gov.era(r).color}">${esc(GOV_KINDS[r.kind])} · ${esc(r.realm)}</span><h3>${esc(r.name)}</h3><p>${esc(r.lead.length > 140 ? r.lead.slice(0, 137).replace(/\s+\S*$/, '') + '…' : r.lead)}</p><span class="meta">${esc(r.reign)}${UserRepo.isSeen(r.id) ? ' · <span style="color:var(--ok)">✓ leído</span>' : ''}</span></div></a>`;
+const govBanner = () => {
+  const demo = [['NA', '3100 a. C.', '#e3b25f'], ['AM', '336 a. C.', '#e3b25f'], ['JC', '49 a. C.', '#e3b25f'], ['CM', '768', '#9d8cff'], ['GK', '1206', '#9d8cff'], ['MM', '1312', '#9d8cff'], ['PA', '1438', '#5fb8d3'], ['NB', '1804', '#5fb8d3']];
+  return `<a class="gov-banner" href="#/gobernantes">
+  <div class="mosaic">${demo.map(([s, y, c]) => `<span class="mt gm" style="--fc:${c}"><i>${y}</i><b>${s}</b></span>`).join('')}</div>
+  <div class="txt"><span class="eyebrow" style="color:${GOV_COLOR}">Nuevo · Historia</span><b>Reyes, emperadores y conquistadores</b><span>41 biografías verificadas, de Narmer a Napoleón: cómo llegaron al poder, qué hicieron y cómo cayeron. Con cronología interactiva.</span><span class="go" style="color:${GOV_COLOR}!important">Abrir la galería ${ICON.arrow}</span></div></a>`;
+};
+
+/* Cronología: barras de reinado por época y lista de acontecimientos que se abren al tocarlos */
+const govChrono = (list, era) => {
+  const rs = list.filter(r => r.era === era).sort((a, b) => a.from - b.from);
+  if (!rs.length) return `<p class="muted">No hay gobernantes de esta época con los filtros elegidos.</p>`;
+  const lo = Math.min(...rs.map(r => r.from)), hi = Math.max(...rs.map(r => r.to)), span = Math.max(1, hi - lo);
+  const ticks = [0, .25, .5, .75, 1].map(f => Math.round(lo + f * span));
+  const ids = new Set(rs.map(r => r.slug));
+  const evs = Gov.events.filter(e => ids.has(e.r.slug));
+  return `<div class="gch" style="--fc:${GOV_ERAS[era].color}">
+    <div class="gch-axis">${ticks.map(t => `<span style="left:${((t - lo) / span) * 100}%">${esc(fmtYear(t))}</span>`).join('')}</div>
+    <div class="gch-bars">${rs.map(r => `<a class="gch-row" href="#/gobernantes/${r.slug}" aria-label="${esc(r.name)}, ${esc(r.reign)}"><span class="gch-n">${esc(r.name)}</span><span class="gch-t"><span class="gch-b" style="left:${((r.from - lo) / span) * 100}%;width:max(6px,${((r.to - r.from) / span) * 100}%)"></span><span class="gch-r" style="left:${((r.y - lo) / span) * 100}%"></span></span></a>`).join('')}</div>
+    <p class="gch-leg"><span class="b"></span> Vida documentada en la cronología &nbsp; <span class="r"></span> Llegada al poder</p>
+  </div>
+  <h3 class="gch-h">${plural(evs.length, 'acontecimiento', 'acontecimientos')} · toca uno para ver la explicación</h3>
+  <ol class="gev">${evs.map(e => `<li><button class="gev-b" data-act="gov-ev" data-k="${e.k}" aria-expanded="false"><span class="y">${esc(fmtYear(e.y))}</span><span class="t"><b>${esc(e.t)}</b><small>${esc(e.r.name)}</small></span></button><div class="gev-x" hidden></div></li>`).join('')}</ol>`;
+};
+const govEvDetail = k => {
+  const e = Gov.events.find(x => x.k === k); if (!e) return '';
+  const r = e.r, near = Gov.events.filter(x => x.r !== r && Math.abs(x.y - e.y) <= 15).slice(0, 3);
+  return `<p><b>${esc(fmtYear(e.y))} · ${esc(r.name)}</b>, ${esc(r.role.charAt(0).toLowerCase() + r.role.slice(1))} (${esc(r.reign)}).</p><p>${esc(r.lead)}</p>${near.length ? `<p class="faint">Por esas mismas fechas: ${near.map(x => `${esc(fmtYear(x.y))}, ${esc(x.r.name)}: ${esc(x.t.charAt(0).toLowerCase() + x.t.slice(1))}`).join(' · ')}.</p>` : ''}<a class="btn sm" href="#/gobernantes/${r.slug}">Leer la biografía de ${esc(r.name)} ${ICON.arrow}</a>`;
+};
+
+Views.rulers = (p, q) => {
+  if (!Gov.data) return needGov();
+  const f = { epoca: q.get('epoca') || '', region: q.get('region') || '', tipo: q.get('tipo') || '', civ: q.get('civ') || '' }, cr = q.get('crono') || f.epoca || 'antigua';
+  const grp = GOV_KIND_GROUPS.find(g => g[0] === f.tipo);
+  const list = Gov.data.filter(r => (!f.epoca || r.era === f.epoca) && (!f.region || r.cont === f.region) && (!grp || grp[2].includes(r.kind)) && (!f.civ || r.civ === f.civ));
+  const link = ch => { const o = { ...f, ...ch }; const s = Object.entries(o).filter(([, v]) => v).map(([k, v]) => `${k}=${encodeURIComponent(v)}`).join('&'); return '#/gobernantes' + (s ? '?' + s : ''); };
+  const seen = Gov.data.filter(r => UserRepo.isSeen(r.id)).length;
+  const civs = [...new Set(Gov.data.map(r => r.civ))].sort((a, b) => a.localeCompare(b, 'es'));
+  const chip = (k, v, l, c) => `<button class="${f[k] === v ? 'on' : ''}" data-act="nav" data-to="${link({ [k]: v })}"${c ? ` style="--fc:${c}"` : ''}>${c ? `<span class="dot" style="background:${c}"></span>` : ''}${esc(l)}</button>`;
+  return `<div class="gov-hero">
+    <span class="eyebrow" style="color:${GOV_COLOR}">Historia · Biografías verificadas</span>
+    <h1 class="h1">Reyes, emperadores y conquistadores</h1>
+    <p>${Gov.data.length} gobernantes de cinco continentes y cinco mil años de historia: cómo llegaron al poder, qué hicieron, qué guerras libraron y cómo terminó su reinado. Separamos lo documentado de la leyenda.</p>
+    <div class="kvs gov-stats"><div class="kv"><span>Biografías</span><b>${Gov.data.length}</b></div><div class="kv"><span>Desde</span><b>${esc(fmtYear(Gov.data[0].y))}</b><small>${esc(Gov.data[0].name)}</small></div><div class="kv"><span>Leídas</span><b>${seen} de ${Gov.data.length}</b></div></div>
+    <button class="gov-jump" data-act="gov-jump">Ver la cronología interactiva ${ICON.arrow}</button>
+  </div>
+  <div class="gov-filters">
+    <div class="seg" role="group" aria-label="Época">${chip('epoca', '', 'Todas las épocas')}${Object.entries(GOV_ERAS).map(([k, e]) => chip('epoca', k, e.short, e.color)).join('')}</div>
+    <div class="seg" role="group" aria-label="Región">${chip('region', '', 'Todo el mundo')}${GOV_CONTS.map(([k, l]) => chip('region', k, l)).join('')}</div>
+    <div class="seg" role="group" aria-label="Tipo de gobernante">${chip('tipo', '', 'Todos')}${GOV_KIND_GROUPS.map(([k, l]) => chip('tipo', k, l)).join('')}</div>
+    <label class="gov-sel"><span>Civilización, reino o imperio</span><select data-act="gov-civ" aria-label="Civilización">${[['', 'Todas'], ...civs.map(c => [c, c])].map(([v, l]) => `<option value="${esc(v)}"${f.civ === v ? ' selected' : ''}>${esc(l)}</option>`).join('')}</select></label>
+    <label class="searchbar" for="gq">${ICON.search}<input id="gq" type="search" autocomplete="off" placeholder="Busca un nombre, una batalla, un imperio…"></label>
+  </div>
+  <div class="sec"><div><h2>${plural(list.length, 'gobernante', 'gobernantes')}</h2><p>${Object.values(f).some(Boolean) ? `<a href="#/gobernantes" style="color:${GOV_COLOR}">Quitar filtros</a> · ` : ''}Ordenados de más antiguo a más reciente</p></div></div>
+  <div class="gov-grid" id="ggrid">${list.map(govCard).join('')}</div>
+  <p class="muted" id="gempty" hidden>Ningún gobernante coincide con la búsqueda.</p>
+  ${list.length ? '' : emptyState('👑', 'Sin resultados', 'Ningún gobernante coincide con estos filtros.', '<a class="btn" href="#/gobernantes">Ver todos</a>')}
+  <section class="gov-chrono" id="cronologia">
+    <div class="sec"><div><h2>Cronología interactiva</h2><p>Quién gobernó al mismo tiempo, y qué pasaba en el mundo mientras tanto</p></div></div>
+    <div class="seg" role="group" aria-label="Época de la cronología">${Object.entries(GOV_ERAS).map(([k, e]) => `<button class="${cr === k ? 'on' : ''}" data-act="nav" data-to="${link({})}${Object.values(f).some(Boolean) ? '&' : '?'}crono=${k}" style="--fc:${e.color}"><span class="dot" style="background:${e.color}"></span>${esc(e.name)}</button>`).join('')}</div>
+    ${govChrono(list, cr)}
+  </section>
+  <button class="btn ac block" data-act="q-gov" style="margin-top:20px">Hacer el quiz de reyes y emperadores ${ICON.arrow}</button>
+  <p class="foot-note">Biografías de elaboración propia, comprobadas dato a dato contra el texto de sus fuentes: Wikipedia (edición en inglés, con la bibliografía académica que cita), Encyclopaedia Britannica y World History Encyclopedia. Lo que procede de la leyenda, de la tradición o de una sola fuente tardía se indica en el texto. Las portadas son diseños propios: no mostramos retratos inventados ni imágenes generadas por inteligencia artificial.</p>`;
+};
+
+Views.ruler = ([slug]) => {
+  if (!Gov.data) return needGov();
+  const r = Gov.get(slug);
+  if (!r) return Views.notFound();
+  if (UserRepo.markSeen(r.id)) renderAvatar();
+  const e = Gov.era(r), prev = Gov.data[r.n - 1], next = Gov.data[r.n + 1];
+  const rel = r.rel.map(x => ({ x, g: Gov.get(x.s) })).filter(o => o.g);
+  const relSet = new Set(rel.map(o => o.g.slug));
+  const cont = Gov.contemporaries(r).filter(x => !relSet.has(x.slug)).slice(0, 6);
+  const kv = [['También conocido como', r.alt], ['Título', r.role], ['Tipo', GOV_KINDS[r.kind]], ['Civilización', r.civ], ['Reino o imperio', r.realm], ['Región', r.region], ['Nacimiento', r.born], ['Muerte', r.died], ['Reinado', r.reign]];
+  return `<article class="art gov-art">
+    <div class="art-top"><button class="back" data-act="back">${ICON.back} Volver</button>
+      <div style="display:flex;gap:8px">${favBtn(r.id, false)}<button class="btn sm" data-act="share" data-id="${r.id}" aria-label="Compartir">${ICON.share}</button></div></div>
+    <header class="art-head gov-head" style="margin-top:12px;--fc:${e.color}">
+      ${govCover(r, 'hero')}
+      <div>
+        <a class="chip" href="#/gobernantes?epoca=${r.era}" style="color:${e.color}"><span class="dot"></span>${esc(e.name)} · ${esc(r.civ)}</a>
+        <h1 style="margin-top:12px">${esc(r.name)}</h1>
+        <p class="sub">${esc(r.role)} · ${esc(r.reign)}</p>
+      </div>
+    </header>
+    ${r.img && r.img.src ? `<p class="faint credit-line">Imagen: ${esc(r.img.credit)} · ${esc(r.img.license)}</p>` : ''}
+    ${toolBtns(r.id)}
+    <div class="kvs gov-kvs">${kv.map(([k, v]) => `<div class="kv"><span>${k}</span><b>${esc(v)}</b></div>`).join('')}</div>
+    <div class="prose">
+      <p class="lead">${esc(r.lead)}</p>
+      ${r.sections.map((s, k) => `<h2><span class="n">${String(k + 1).padStart(2, '0')}</span>${esc(s.h)}</h2>${s.p.map(t => `<p>${esc(t)}</p>`).join('')}`).join('')}
+      <aside class="box gov-facts"><h3>Curiosidades verificadas</h3><ul>${r.facts.map(t => `<li>${esc(t)}</li>`).join('')}</ul></aside>
+      <h2><span class="n">CRONOLOGÍA</span>Su vida y su época</h2>
+      <ol class="tl gov-tl">${r.timeline.map(x => `<li><span class="tl-y">${esc(fmtYear(x.y))}</span><div><p>${esc(x.t)}</p></div></li>`).join('')}</ol>
+      ${refMarks(r.sources)}
+    </div>
+    ${rel.length ? `<div class="sec"><div><h2>Figuras relacionadas</h2><p>Por qué su historia está conectada</p></div></div><div class="gov-rel">${rel.map(({ x, g }) => `<a class="gov-relc" href="#/gobernantes/${g.slug}">${govCover(g)}<div><b>${esc(g.name)}</b><small>${esc(g.reign)}</small><p>${esc(x.t)}</p></div></a>`).join('')}</div>` : ''}
+    ${cont.length ? `<div class="sec"><div><h2>Sus contemporáneos</h2><p>Otros gobernantes de esta colección que vivieron en la misma época</p></div></div><div class="list two">${cont.map(govRow).join('')}</div>` : ''}
+    ${sourcesBlock(r.sources, r)}
+    <p class="verify">Biografía de elaboración propia comprobada contra sus fuentes. Lo legendario, lo tradicional y lo que los historiadores discuten se indica en el texto. Consulta <a href="#/metodologia">cómo verificamos</a>.</p>
+    <nav class="el-nav" aria-label="Gobernantes">${prev ? `<a href="#/gobernantes/${prev.slug}"><small>← Anterior en el tiempo</small><b>${esc(prev.name)}</b></a>` : '<span></span>'}${next ? `<a class="r" href="#/gobernantes/${next.slug}"><small>Siguiente en el tiempo →</small><b>${esc(next.name)}</b></a>` : `<a class="r" href="#/gobernantes"><small>Fin de la colección →</small><b>Volver a la galería</b></a>`}</nav>
+  </article>`;
+};
+function govAfter() {
+  const sel = $('select[data-act="gov-civ"]');
+  if (sel) sel.addEventListener('change', () => { const q = parse().q; if (sel.value) q.set('civ', sel.value); else q.delete('civ'); q.delete('crono'); const s = q.toString(); location.hash = '#/gobernantes' + (s ? '?' + s : ''); });
+  const inp = $('#gq'); if (!inp) return;
+  const cards = $$('#ggrid .gov-card');
+  inp.addEventListener('input', () => { const t = norm(inp.value).split(/\s+/).filter(Boolean); let n = 0; cards.forEach(el => { const ok = t.every(x => el.dataset.s.includes(x)); el.hidden = !ok; if (ok) n++; }); $('#gempty').hidden = n > 0; });
+}
+
 /* ================= SECCIONES EDITORIALES ================= */
 
 /* Hoy en la historia: efemérides seleccionadas por Wikipedia en español (se actualiza sola cada día). */
@@ -1252,9 +1442,9 @@ const Speech = {
 async function makeCard(i) {
   const W = 1080, H = 1350, cv = document.createElement('canvas'); cv.width = W; cv.height = H;
   const x = cv.getContext('2d');
-  const cat = i.type === 'pais' ? { name: 'Países del mundo', color: '#5b8cff', icon: '🌎' } : i.type === 'anat' ? { name: 'Atlas del cuerpo humano', color: '#ff7a6b', icon: i.icon || '🫀' } : i.type === 'elem' ? { name: 'Química · ' + Chem.fam(i).name, color: Chem.fam(i).color, icon: '⚗️' } : i.type === 'quim' ? { name: 'Química · Fundamentos', color: CHEM_COLOR, icon: '⚗️' } : (ContentRepo.cat(i.cat) || { name: '', color: '#8f7cff', icon: '✦' });
+  const cat = i.type === 'pais' ? { name: 'Países del mundo', color: '#5b8cff', icon: '🌎' } : i.type === 'anat' ? { name: 'Atlas del cuerpo humano', color: '#ff7a6b', icon: i.icon || '🫀' } : i.type === 'elem' ? { name: 'Química · ' + Chem.fam(i).name, color: Chem.fam(i).color, icon: '⚗️' } : i.type === 'quim' ? { name: 'Química · Fundamentos', color: CHEM_COLOR, icon: '⚗️' } : i.type === 'gob' ? { name: 'Reyes, emperadores y conquistadores', color: GOV_COLOR, icon: '👑' } : (ContentRepo.cat(i.cat) || { name: '', color: '#8f7cff', icon: '✦' });
   x.fillStyle = '#07080b'; x.fillRect(0, 0, W, H);
-  const imgUrl = i.type === 'pais' ? Countries.flag(i.iso) : i.img;
+  const imgUrl = i.type === 'pais' ? Countries.flag(i.iso) : i.type === 'gob' ? (i.img && i.img.src) : i.img;
   let drew = false;
   if (imgUrl) {
     try {
@@ -1301,6 +1491,8 @@ const ROUTES = [
   [/^\/quimica$/, 'chem', Views.chem, 'explorar'],
   [/^\/quimica\/elemento\/([\w-]+)$/, 'element', Views.element, 'explorar'],
   [/^\/quimica\/tema\/([\w-]+)$/, 'chemLesson', Views.chemLesson, 'explorar'],
+  [/^\/gobernantes$/, 'rulers', Views.rulers, 'explorar'],
+  [/^\/gobernantes\/([\w-]+)$/, 'ruler', Views.ruler, 'explorar'],
   [/^\/anatomia$/, 'anatomy', Views.anatomy, 'explorar'],
   [/^\/anatomia\/([\w-]+)$/, 'anatItem', Views.anatItem, 'explorar'],
   [/^\/hoy$/, 'otd', Views.otd, 'inicio'],
@@ -1344,6 +1536,8 @@ function afterRender(name) {
   if (name === 'otd') fillOtd('#otd-full', 40);
   if (Speech.id) Speech.paint();
   $('#progress').style.width = '0';
+  if (name === 'search' && !Gov.data) Gov.load().then(() => { const inp = $('#q'); if (current.name === 'search' && inp && inp.value.trim()) $('#results').innerHTML = searchResults(inp.value); }).catch(() => {});
+  if (name === 'rulers') govAfter();
   if (name === 'search' && !Chem.data) Chem.load().then(() => { const inp = $('#q'); if (current.name === 'search' && inp && inp.value.trim()) $('#results').innerHTML = searchResults(inp.value); }).catch(() => {});
   if (name === 'chem') chemAfter();
   if (name === 'search' && !Countries.data) Countries.load().then(() => { const inp = $('#q'); if (current.name === 'search' && inp && inp.value.trim()) $('#results').innerHTML = searchResults(inp.value); }).catch(() => {});
@@ -1444,6 +1638,7 @@ document.addEventListener('click', e => {
       break;
     }
     case 'copy-cite': { const t = $('#cite-text'); if (t) navigator.clipboard.writeText(t.textContent).then(() => toast('Cita copiada'), () => toast('Selecciona el texto y cópialo')); break; }
+    case 'gov-jump': { const c = $('#cronologia'); if (c) c.scrollIntoView({ behavior: 'smooth', block: 'start' }); break; }
     case 'toref': { const li = $('#src-' + el.dataset.n); if (li) { li.scrollIntoView({ behavior: 'smooth', block: 'center' }); li.classList.add('flash'); setTimeout(() => li.classList.remove('flash'), 1400); } break; }
     case 'share': { const i = getAny(id); if (i) share(i.type === 'pais' ? { ...i, title: `${i.name}: capital ${i.capital}` } : i); break; }
     case 'back':
@@ -1458,6 +1653,8 @@ document.addEventListener('click', e => {
     case 'q-level': Quiz.level = +el.dataset.v; render(); break;
     case 'q-cat': Quiz.cat = el.dataset.v; render(); break;
     case 'q-start': quizStart(); break;
+    case 'q-gov': Quiz.cat = 'gobernantes'; Quiz.level = 0; Quiz.list = []; location.hash = '#/quiz'; setTimeout(quizStart, 0); break;
+    case 'gov-ev': { const box = el.nextElementSibling, open = el.getAttribute('aria-expanded') === 'true'; $$('.gev-b[aria-expanded="true"]').forEach(b => { b.setAttribute('aria-expanded', 'false'); b.nextElementSibling.hidden = true; }); if (!open) { box.innerHTML = govEvDetail(el.dataset.k); box.hidden = false; el.setAttribute('aria-expanded', 'true'); } break; }
     case 'q-chem': Quiz.cat = 'quimica'; Quiz.level = 0; Quiz.list = []; location.hash = '#/quiz'; setTimeout(quizStart, 0); break;
     case 'pt-fam': { const v = el.dataset.v || ''; history.replaceState(null, '', '#/quimica' + (v ? '?familia=' + v : '')); $$('.pt-legend button').forEach(b => b.classList.toggle('on', (b.dataset.v || '') === v)); chemFilter(); break; }
     case 'q-anat': Quiz.cat = 'cuerpo'; Quiz.level = 0; Quiz.list = []; if (current.name === 'quiz') quizStart(); else { Object.assign(Quiz, { list: Services.buildQuiz(0, 'cuerpo', 10), i: 0, correct: 0, xp: 0, wrong: [], answered: false, saved: false, isBest: false }); location.hash = '#/quiz'; } break;

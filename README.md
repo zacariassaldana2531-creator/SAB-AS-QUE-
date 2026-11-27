@@ -37,3 +37,10 @@ HTML + CSS + JavaScript puro. Sin dependencias ni compilación.
 Tabla periódica con los 118 elementos (qué es, usos, datos, descubrimiento y origen del nombre) y 13 temas de fundamentos.
 Textos propios verificados contra PubChem (NIH: Jefferson Lab, Los Álamos, CIAAW-IUPAC) y OpenStax Chemistry 2e (CC BY 4.0).
 Se carga bajo demanda en `#/quimica`. Páginas estáticas en `/quimica/<elemento>/` y `/quimica/tema/<tema>/` (`node tools/build-pages.js`).
+
+## Reyes, emperadores y conquistadores (rulers.js)
+41 biografías (de Narmer a Napoleón) con ficha de datos, apartados, curiosidades, cronología, figuras relacionadas y fuentes.
+Textos propios comprobados dato a dato contra Wikipedia (edición en inglés), Encyclopaedia Britannica y World History Encyclopedia; lo legendario o discutido se indica en el texto.
+Las fichas se escriben en `tools/gobernantes/*.txt` y se compilan con `node tools/build-rulers.js` (falla si falta un campo, una fuente o una relación). Luego `node tools/build-pages.js`.
+Se carga bajo demanda en `#/gobernantes` (filtros por época, región, tipo y civilización; cronología interactiva; quiz). Páginas estáticas en `/gobernantes/<slug>/`.
+Imágenes: portadas de diseño propio. Para añadir una pieza real (escultura, moneda, arte de época) de dominio público, añade a la ficha una línea `img: URL | crédito | licencia`.
