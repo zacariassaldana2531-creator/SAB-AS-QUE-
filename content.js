@@ -14167,6 +14167,22 @@ window.SQ_CONTENT = {
    "conclusion": "La viruela demuestra lo que la ciencia y la cooperación internacional pueden lograr juntas.",
    "sources": [
     {
+     "t": "Organización Mundial de la Salud (OMS) — Smallpox",
+     "org": "Organización Mundial de la Salud (OMS)",
+     "title": "Smallpox",
+     "u": "https://www.who.int/health-topics/smallpox",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Organización Mundial de la Salud (OMS) — History of smallpox vaccination",
+     "org": "Organización Mundial de la Salud (OMS)",
+     "title": "History of smallpox vaccination",
+     "u": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Smallpox",
      "org": "Wikipedia en inglés",
      "title": "Smallpox",
@@ -14197,9 +14213,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14210,6 +14226,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14247,10 +14267,38 @@ window.SQ_CONTENT = {
    ],
    "facts": [
     "El «reflejo Semmelweis» es una expresión que describe el rechazo automático a ideas nuevas que contradicen lo establecido.",
-    "Hoy la higiene de manos es una de las medidas más eficaces contra las infecciones en los hospitales."
+    "Hoy la higiene de manos es una de las medidas más eficaces contra las infecciones en los hospitales.",
+    "En la clínica de Semmelweis, la mortalidad materna por fiebre puerperal bajó del 7,8 % al 1,8 % en los tres meses siguientes a la medida."
    ],
    "conclusion": "A veces el problema no es encontrar la respuesta, sino conseguir que los demás la acepten.",
    "sources": [
+    {
+     "t": "OMS — Directrices sobre higiene de manos en la atención sanitaria (NCBI Bookshelf) — Historical perspective on hand hygiene in health care",
+     "org": "OMS — Directrices sobre higiene de manos en la atención sanitaria (NCBI Bookshelf)",
+     "title": "Historical perspective on hand hygiene in health care",
+     "date": "2009",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK144018/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Ignaz Semmelweis: “The Savior of Mothers”",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Ignaz Semmelweis: “The Savior of Mothers”",
+     "date": "2015",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6333090/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed (Biblioteca Nacional de Medicina de EE. UU.) — Semmelweis and the aetiology of puerperal sepsis 160 years on: an historical review",
+     "org": "PubMed (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Semmelweis and the aetiology of puerperal sepsis 160 years on: an historical review",
+     "date": "2008",
+     "u": "https://pubmed.ncbi.nlm.nih.gov/17553179/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Ignaz Semmelweis",
      "org": "Wikipedia en inglés",
@@ -14273,9 +14321,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14286,6 +14334,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14327,6 +14379,30 @@ window.SQ_CONTENT = {
    "conclusion": "La anestesia convirtió la cirugía de un último recurso desesperado en una herramienta médica habitual.",
    "sources": [
     {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Ether day: an intriguing history",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Ether day: an intriguing history",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4920664/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Tarnished Idol: William Thomas Green Morton and the Introduction of Surgical Anesthesia",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Tarnished Idol: William Thomas Green Morton and the Introduction of Surgical Anesthesia",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1279690/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed (Biblioteca Nacional de Medicina de EE. UU.) — Crawford Williamson Long - The true discoverer of anesthesia?",
+     "org": "PubMed (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Crawford Williamson Long - The true discoverer of anesthesia?",
+     "u": "https://pubmed.ncbi.nlm.nih.gov/27764872/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — William T. G. Morton",
      "org": "Wikipedia en inglés",
      "title": "William T. G. Morton",
@@ -14357,9 +14433,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14370,6 +14446,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14388,7 +14468,7 @@ window.SQ_CONTENT = {
      "h": "El hallazgo de Toronto",
      "p": [
       "En 1921, en la Universidad de Toronto, Frederick Banting y su ayudante Charles Best, con el apoyo de John Macleod y luego del bioquímico James Collip, lograron extraer insulina del páncreas.",
-      "En enero de 1922, Leonard Thompson, un joven de 14 años con diabetes grave, recibió las primeras inyecciones y mejoró notablemente."
+      "El 11 de enero de 1922, Leonard Thompson, un joven de 14 años con diabetes grave, recibió en el Hospital General de Toronto la primera inyección, que tuvo poco efecto. El 23 de enero recibió un extracto purificado por Collip y mejoró de forma notable. Vivió 13 años más con insulina."
      ]
     },
     {
@@ -14410,6 +14490,30 @@ window.SQ_CONTENT = {
    ],
    "conclusion": "Un descubrimiento en un laboratorio universitario permitió que millones de personas con diabetes pudieran vivir.",
    "sources": [
+    {
+     "t": "Fundación Nobel (NobelPrize.org) — The Nobel Prize in Physiology or Medicine 1923",
+     "org": "Fundación Nobel (NobelPrize.org)",
+     "title": "The Nobel Prize in Physiology or Medicine 1923",
+     "u": "https://www.nobelprize.org/prizes/medicine/1923/summary/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Fundación Nobel (NobelPrize.org) — The “miracle” discovery that reversed the diabetes death sentence",
+     "org": "Fundación Nobel (NobelPrize.org)",
+     "title": "The “miracle” discovery that reversed the diabetes death sentence",
+     "u": "https://www.nobelprize.org/the-miracle-discovery-that-reversed-the-diabetes-death-sentence/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Universidad de Toronto — Biblioteca Thomas Fisher — Leonard Thompson (exposición The Discovery of Insulin)",
+     "org": "Universidad de Toronto — Biblioteca Thomas Fisher",
+     "title": "Leonard Thompson (exposición The Discovery of Insulin)",
+     "u": "https://fisherdigitus.library.utoronto.ca/exhibits/show/insulin100/early-patients/leonard-thompson",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Insulin",
      "org": "Wikipedia en inglés",
@@ -14441,9 +14545,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14454,6 +14558,14 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Corrección registrada en la fe de erratas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14464,9 +14576,35 @@ window.SQ_CONTENT = {
    "sub": "Instrumentos médicos",
    "level": 1,
    "title": "El primer estetoscopio fue un rollo de papel",
-   "desc": "René Laennec lo inventó en 1816 por pudor: no quería apoyar la oreja en el pecho de una paciente.",
+   "desc": "René Laennec lo inventó en 1816. Según el relato más difundido, no quería apoyar la oreja en el pecho de una paciente.",
    "body": "El médico francés René Laennec enrolló unas hojas de papel y descubrió que, apoyando un extremo en el pecho de la paciente, escuchaba el corazón mejor que con la oreja directamente. Después construyó un tubo de madera. Lo llamó estetoscopio, del griego «pecho» y «examinar».",
    "sources": [
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Rene Theophile Hyacinthe Laënnec (1781–1826): The Man Behind the Stethoscope",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Rene Theophile Hyacinthe Laënnec (1781–1826): The Man Behind the Stethoscope",
+     "date": "2006",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1570491/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — An Ear to the Chest: an Illustrated History of the Evolution of the Stethoscope",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "An Ear to the Chest: an Illustrated History of the Evolution of the Stethoscope",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1279298/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — The History and Evolution of the Stethoscope",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "The History and Evolution of the Stethoscope",
+     "date": "2022",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9482790/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — René Laennec",
      "org": "Wikipedia en inglés",
@@ -14498,9 +14636,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14511,6 +14649,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14524,6 +14666,24 @@ window.SQ_CONTENT = {
    "desc": "William Harvey demostró que el corazón bombea la sangre en un circuito cerrado.",
    "body": "Durante siglos se aceptó la idea del médico griego Galeno de que la sangre se producía en el hígado y se consumía en el cuerpo. El médico inglés William Harvey midió cuánta sangre bombeaba el corazón y concluyó que era imposible fabricar tanta: la sangre tenía que circular. Lo publicó en 1628.",
    "sources": [
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — De Motu Cordis: the Lumleian Lecture of 1616",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "De Motu Cordis: the Lumleian Lecture of 1616",
+     "date": "2007",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1847732/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed (Biblioteca Nacional de Medicina de EE. UU.) — Blood money: Harvey's De motu cordis (1628) as an exercise in accounting",
+     "org": "PubMed (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Blood money: Harvey's De motu cordis (1628) as an exercise in accounting",
+     "date": "2018",
+     "u": "https://pubmed.ncbi.nlm.nih.gov/29650057/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — William Harvey",
      "org": "Wikipedia en inglés",
@@ -14546,9 +14706,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14559,6 +14719,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14570,8 +14734,35 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La aspirina tiene su origen en la corteza de un árbol",
    "desc": "La corteza de sauce se usaba desde la Antigüedad contra el dolor y la fiebre.",
-   "body": "La corteza de sauce contiene salicina, de la que se obtiene el ácido salicílico. En 1897, en la empresa alemana Bayer, se sintetizó una versión más tolerable, el ácido acetilsalicílico, comercializado como Aspirina. Es uno de los medicamentos más usados del mundo.",
+   "body": "La corteza de sauce contiene salicina, de la que se obtiene el ácido salicílico, y se usó durante milenios contra el dolor y la fiebre. En 1897, en la empresa alemana Bayer, el químico Felix Hoffmann obtuvo una forma pura y estable de ácido acetilsalicílico, comercializado como Aspirina. Curiosamente, el ácido salicílico que usó Bayer no procedía del sauce sino de otra planta, la ulmaria (Spiraea), de la que viene el nombre «aspirina». Es uno de los medicamentos más usados del mundo.",
    "sources": [
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — The Discovery of Aspirin's Antithrombotic Effects",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "The Discovery of Aspirin's Antithrombotic Effects",
+     "date": "2007",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1894700/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — From plant extract to molecular panacea: a commentary on Stone (1763)",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "From plant extract to molecular panacea: a commentary on Stone (1763)",
+     "date": "2015",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360122/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed (Biblioteca Nacional de Medicina de EE. UU.) — The first 3500 years of aspirin history from its roots - A concise summary",
+     "org": "PubMed (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "The first 3500 years of aspirin history from its roots - A concise summary",
+     "date": "2018",
+     "u": "https://pubmed.ncbi.nlm.nih.gov/30391545/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Aspirin",
      "org": "Wikipedia en inglés",
@@ -14594,9 +14785,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14607,6 +14798,14 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Añadido el matiz sobre la ulmaria (Spiraea) según fuentes académicas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14618,8 +14817,33 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Una fotografía de rayos X fue clave para descubrir la forma del ADN",
    "desc": "La «Fotografía 51», tomada en el laboratorio de Rosalind Franklin, mostró el patrón en hélice.",
-   "body": "La imagen fue obtenida en 1952 en el King’s College de Londres por el equipo de Rosalind Franklin y su estudiante Raymond Gosling. James Watson y Francis Crick la vieron sin que Franklin lo supiera, y les ayudó a proponer en 1953 el modelo de doble hélice. El papel de Franklin tardó décadas en reconocerse.",
+   "body": "La imagen fue obtenida en mayo de 1952 en el King’s College de Londres por Rosalind Franklin y su estudiante de doctorado Raymond Gosling. Su colega Maurice Wilkins se la mostró a James Watson sin que Franklin lo supiera, y la información ayudó a Watson y Francis Crick a proponer en 1953 el modelo de doble hélice. El papel de Franklin tardó décadas en reconocerse.",
    "sources": [
+    {
+     "t": "King's College London — The story behind Photograph 51",
+     "org": "King's College London",
+     "title": "The story behind Photograph 51",
+     "u": "https://www.kcl.ac.uk/the-story-behind-photograph-51",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "King's College London — Rosalind Franklin (biografía)",
+     "org": "King's College London",
+     "title": "Rosalind Franklin (biografía)",
+     "u": "https://www.kcl.ac.uk/people/rosalind-franklin",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Nature — What Rosalind Franklin truly contributed to the discovery of DNA's structure",
+     "org": "Nature",
+     "title": "What Rosalind Franklin truly contributed to the discovery of DNA's structure",
+     "date": "2023",
+     "u": "https://www.nature.com/articles/d41586-023-01313-5",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Photo 51",
      "org": "Wikipedia en inglés",
@@ -14634,9 +14858,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14647,8 +14871,17 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Corrección registrada en la fe de erratas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
-   ]
+   ],
+   "claimNote": "Historiadores recientes, en publicaciones de Nature (2023) y del King’s College de Londres, matizan el relato popular de que la foto fue «robada» y destacan que Franklin ya había calculado rasgos clave del ADN."
   },
   {
    "id": "c-trasplante-corazon",
@@ -14660,6 +14893,23 @@ window.SQ_CONTENT = {
    "desc": "El cirujano Christiaan Barnard lo realizó en Ciudad del Cabo; el paciente vivió 18 días.",
    "body": "El paciente, Louis Washkansky, murió de una neumonía 18 días después, en parte porque los fármacos para evitar el rechazo debilitaban sus defensas. Con el desarrollo de mejores medicamentos inmunosupresores, el trasplante de corazón se convirtió en un tratamiento establecido.",
    "sources": [
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — The first human heart transplant and further advances in cardiac transplantation at Groote Schuur Hospital and the University of Cape Town",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "The first human heart transplant and further advances in cardiac transplantation at Groote Schuur Hospital and the University of Cape Town",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4200566/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Christiaan Barnard—The surgeon who dared",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Christiaan Barnard—The surgeon who dared",
+     "date": "2018",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6062759/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Heart transplantation",
      "org": "Wikipedia en inglés",
@@ -14682,9 +14932,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14695,6 +14945,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14708,6 +14962,15 @@ window.SQ_CONTENT = {
    "desc": "El juramento hipocrático se atribuye a la escuela de Hipócrates, del siglo V a. C.",
    "body": "El texto original incluye compromisos como actuar en beneficio de los enfermos y guardar en secreto lo que se sepa de ellos. Hoy muchas facultades de medicina usan versiones modernizadas, como la Declaración de Ginebra de la Asociación Médica Mundial.",
    "sources": [
+    {
+     "t": "Asociación Médica Mundial — Declaración de Ginebra",
+     "org": "Asociación Médica Mundial",
+     "title": "Declaración de Ginebra",
+     "date": "1948 (enmendada en 2017)",
+     "u": "https://www.wma.net/policies-post/wma-declaration-of-geneva/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Hippocratic Oath",
      "org": "Wikipedia en inglés",
@@ -14730,9 +14993,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14743,6 +15006,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14756,6 +15023,14 @@ window.SQ_CONTENT = {
    "desc": "Louis Pasteur lo trató en 1885 tras ser mordido por un perro rabioso, y sobrevivió.",
    "body": "Joseph Meister había sido mordido gravemente. Pasteur, que no era médico, le aplicó una serie de inyecciones con virus debilitado que había probado en animales. El niño sobrevivió. Pasteur fue también clave para demostrar que muchos microbios causan enfermedades y para desarrollar la pasteurización.",
    "sources": [
+    {
+     "t": "Institut Pasteur — History of the Institut Pasteur",
+     "org": "Institut Pasteur",
+     "title": "History of the Institut Pasteur",
+     "u": "https://www.pasteur.fr/en/institut-pasteur/history",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Louis Pasteur",
      "org": "Wikipedia en inglés",
@@ -14778,9 +15053,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14791,6 +15066,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14804,6 +15083,30 @@ window.SQ_CONTENT = {
    "desc": "El 24 de marzo de 1882, Robert Koch anunció que había identificado la bacteria que la causa.",
    "body": "Robert Koch identificó el Mycobacterium tuberculosis y lo presentó en Berlín. Recibió el Premio Nobel en 1905. La tuberculosis es una enfermedad prevenible y curable, pero sigue siendo una de las enfermedades infecciosas que más muertes causan en el mundo.",
    "sources": [
+    {
+     "t": "Fundación Nobel (NobelPrize.org) — Robert Koch – Facts",
+     "org": "Fundación Nobel (NobelPrize.org)",
+     "title": "Robert Koch – Facts",
+     "u": "https://www.nobelprize.org/prizes/medicine/1905/koch/facts/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Organización Mundial de la Salud (OMS) — World Tuberculosis Day",
+     "org": "Organización Mundial de la Salud (OMS)",
+     "title": "World Tuberculosis Day",
+     "u": "https://www.who.int/campaigns/world-tb-day",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Organización Mundial de la Salud (OMS) — Tuberculosis (nota descriptiva)",
+     "org": "Organización Mundial de la Salud (OMS)",
+     "title": "Tuberculosis (nota descriptiva)",
+     "u": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Robert Koch",
      "org": "Wikipedia en inglés",
@@ -14835,9 +15138,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14848,6 +15151,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14861,6 +15168,24 @@ window.SQ_CONTENT = {
    "desc": "Joseph Lister introdujo el ácido carbólico para limpiar heridas e instrumentos.",
    "body": "El cirujano británico Joseph Lister empezó a usar ácido carbólico (fenol) en la cirugía. Las infecciones tras las operaciones disminuyeron mucho. El enjuague bucal Listerine lleva su nombre en su honor.",
    "sources": [
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Joseph Lister and the performance of antiseptic surgery",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Joseph Lister and the performance of antiseptic surgery",
+     "date": "2013",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3744349/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed (Biblioteca Nacional de Medicina de EE. UU.) — Joseph Lister (1827-1912): A Pioneer of Antiseptic Surgery",
+     "org": "PubMed (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Joseph Lister (1827-1912): A Pioneer of Antiseptic Surgery",
+     "date": "2022",
+     "u": "https://pubmed.ncbi.nlm.nih.gov/36686094/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Joseph Lister",
      "org": "Wikipedia en inglés",
@@ -14883,9 +15208,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14896,6 +15221,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14909,6 +15238,33 @@ window.SQ_CONTENT = {
    "desc": "Carl Wunderlich la fijó en un libro de 1868; estudios más recientes encuentran un promedio algo más bajo, de unos 36,4 °C.",
    "body": "En 1868, el médico alemán Carl Wunderlich publicó que la temperatura normal del cuerpo era de unos 37 °C. Estudios más recientes sitúan el promedio en unos 36,4 °C. Además, la temperatura varía alrededor de medio grado a lo largo del día: es más baja por la mañana y más alta al final de la tarde.",
    "sources": [
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Normal Body Temperature: A Systematic Review",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Normal Body Temperature: A Systematic Review",
+     "date": "2019",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6456186/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed (Biblioteca Nacional de Medicina de EE. UU.) — A critical appraisal of 98.6 degrees F ... legacies of Carl Reinhold August Wunderlich (JAMA)",
+     "org": "PubMed (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "A critical appraisal of 98.6 degrees F ... legacies of Carl Reinhold August Wunderlich (JAMA)",
+     "date": "1992",
+     "u": "https://pubmed.ncbi.nlm.nih.gov/1302471/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "eLife — Decreasing human body temperature in the United States since the Industrial Revolution",
+     "org": "eLife",
+     "title": "Decreasing human body temperature in the United States since the Industrial Revolution",
+     "date": "2020",
+     "u": "https://elifesciences.org/articles/49555",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Human body temperature",
      "org": "Wikipedia en inglés",
@@ -14931,9 +15287,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14944,6 +15300,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -14957,6 +15317,24 @@ window.SQ_CONTENT = {
    "desc": "Esperar efectos negativos de un tratamiento puede hacer que la persona los sienta.",
    "body": "Si a alguien le advierten de posibles efectos secundarios, puede llegar a experimentarlos aunque reciba una sustancia sin principio activo. Este fenómeno se llama efecto nocebo, del latín «haré daño». Muestra cuánto influyen las expectativas en cómo percibimos nuestro cuerpo.",
    "sources": [
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — The Nocebo Effect",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "The Nocebo Effect",
+     "date": "2023",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10868531/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed (Biblioteca Nacional de Medicina de EE. UU.) — The nocebo effect and its relevance for clinical practice",
+     "org": "PubMed (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "The nocebo effect and its relevance for clinical practice",
+     "date": "2011",
+     "u": "https://pubmed.ncbi.nlm.nih.gov/21862825/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Nocebo",
      "org": "Wikipedia en inglés",
@@ -14979,9 +15357,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -14992,6 +15370,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15005,6 +15387,14 @@ window.SQ_CONTENT = {
    "desc": "Katalin Karikó y Drew Weissman recibieron el Nobel de Medicina 2023 por los descubrimientos que las hicieron posibles.",
    "body": "Estas vacunas no contienen el virus: llevan instrucciones para que las células produzcan una proteína inofensiva que entrena al sistema inmunitario. Karikó y Weissman descubrieron cómo modificar el ARN para que no provocara una reacción inflamatoria excesiva. Las primeras autorizadas fueron contra la COVID-19, en diciembre de 2020.",
    "sources": [
+    {
+     "t": "Fundación Nobel (NobelPrize.org) — The Nobel Prize in Physiology or Medicine 2023 – Press release",
+     "org": "Fundación Nobel (NobelPrize.org)",
+     "title": "The Nobel Prize in Physiology or Medicine 2023 – Press release",
+     "u": "https://www.nobelprize.org/prizes/medicine/2023/press-release/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — mRNA vaccine",
      "org": "Wikipedia en inglés",
@@ -15027,9 +15417,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15040,6 +15430,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15053,6 +15447,22 @@ window.SQ_CONTENT = {
    "desc": "Así los cirujanos comprueban en tiempo real que no dañan zonas importantes, como las del lenguaje.",
    "body": "En la craneotomía con el paciente despierto, se adormecen con anestesia local la piel y el hueso de la cabeza. Durante la cirugía, el equipo médico habla con el paciente y le hace preguntas, a veces con ayuda de un logopeda o un neuropsicólogo. Se usa sobre todo para extirpar tumores cerca de zonas delicadas.",
    "sources": [
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Awake craniotomy in brain tumors - Technique systematization and the state of the art",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Awake craniotomy in brain tumors - Technique systematization and the state of the art",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10683424/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Awake surgery with direct electrical stimulation mapping and real-time cognitive monitoring",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Awake surgery with direct electrical stimulation mapping and real-time cognitive monitoring",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12414027/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Awake craniotomy",
      "org": "Wikipedia en inglés",
@@ -15075,9 +15485,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15088,6 +15498,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15101,6 +15515,14 @@ window.SQ_CONTENT = {
    "desc": "Por eso se usa en emergencias cuando no hay tiempo de comprobar el grupo del paciente.",
    "body": "Los glóbulos rojos del grupo O negativo no tienen los antígenos A, B ni RhD, así que el riesgo de una reacción grave en cualquier receptor es muy bajo. Para el plasma ocurre lo contrario: el donante universal es el grupo AB.",
    "sources": [
+    {
+     "t": "Cruz Roja Americana — Blood Types",
+     "org": "Cruz Roja Americana",
+     "title": "Blood Types",
+     "u": "https://www.redcrossblood.org/donate-blood/blood-types.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Blood type",
      "org": "Wikipedia en inglés",
@@ -15123,9 +15545,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15136,6 +15558,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15149,6 +15575,22 @@ window.SQ_CONTENT = {
    "desc": "El poliovirus salvaje solo sigue circulando de forma endémica en dos países: Pakistán y Afganistán.",
    "body": "La iniciativa mundial para erradicarla comenzó en 1988, liderada por la OMS, UNICEF y otras organizaciones. De los tres tipos de poliovirus salvaje, el tipo 2 se declaró erradicado en 2015 y el tipo 3 en 2019. Mientras el virus circule en algún lugar, la vacunación sigue siendo necesaria.",
    "sources": [
+    {
+     "t": "Organización Mundial de la Salud (OMS) — Poliomyelitis (nota descriptiva)",
+     "org": "Organización Mundial de la Salud (OMS)",
+     "title": "Poliomyelitis (nota descriptiva)",
+     "u": "https://www.who.int/news-room/fact-sheets/detail/poliomyelitis",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Iniciativa Mundial para la Erradicación de la Poliomielitis (GPEI) — History of polio",
+     "org": "Iniciativa Mundial para la Erradicación de la Poliomielitis (GPEI)",
+     "title": "History of polio",
+     "u": "https://polioeradication.org/about-polio/history-of-polio/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Polio eradication",
      "org": "Wikipedia en inglés",
@@ -15171,9 +15613,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15184,6 +15626,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15197,6 +15643,22 @@ window.SQ_CONTENT = {
    "desc": "La Organización Mundial de la Salud se fundó el 7 de abril de 1948.",
    "body": "La OMS es la agencia de las Naciones Unidas dedicada a la salud pública internacional. Tiene su sede en Ginebra, Suiza. Coordinó campañas como la erradicación de la viruela y elabora la Clasificación Internacional de Enfermedades, usada en todo el mundo.",
    "sources": [
+    {
+     "t": "Organización Mundial de la Salud (OMS) — History of WHO",
+     "org": "Organización Mundial de la Salud (OMS)",
+     "title": "History of WHO",
+     "u": "https://www.who.int/about/history",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Organización Mundial de la Salud (OMS) — World Health Day",
+     "org": "Organización Mundial de la Salud (OMS)",
+     "title": "World Health Day",
+     "u": "https://www.who.int/campaigns/world-health-day",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — World Health Organization",
      "org": "Wikipedia en inglés",
@@ -15219,9 +15681,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15232,6 +15694,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15245,6 +15711,22 @@ window.SQ_CONTENT = {
    "desc": "Henri Dunant quedó impactado por los heridos de Solferino, en Italia, y propuso una organización neutral para atenderlos.",
    "body": "Dunant escribió un libro sobre lo que vio, y en 1863 se fundó en Ginebra el Comité Internacional de la Cruz Roja. Su emblema es la bandera suiza con los colores invertidos. Dunant recibió el primer Premio Nobel de la Paz, en 1901.",
    "sources": [
+    {
+     "t": "Comité Internacional de la Cruz Roja (CICR) — History of the ICRC",
+     "org": "Comité Internacional de la Cruz Roja (CICR)",
+     "title": "History of the ICRC",
+     "u": "https://www.icrc.org/en/who-we-are/history",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Fundación Nobel (NobelPrize.org) — Henry Dunant – Facts",
+     "org": "Fundación Nobel (NobelPrize.org)",
+     "title": "Henry Dunant – Facts",
+     "u": "https://www.nobelprize.org/prizes/peace/1901/dunant/facts/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — International Committee of the Red Cross",
      "org": "Wikipedia en inglés",
@@ -15276,9 +15758,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15289,6 +15771,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15302,6 +15788,23 @@ window.SQ_CONTENT = {
    "desc": "La quinina se extrae de la corteza del árbol de la quina, nativo de Sudamérica.",
    "body": "La corteza de quina se usaba en Perú y se llevó a Europa en el siglo XVII. De ella se aisló la quinina en 1820. Durante siglos fue el principal tratamiento contra la malaria. También es el ingrediente que da su sabor amargo al agua tónica.",
    "sources": [
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Quinine, an old anti-malarial drug in a modern world: role in the treatment of malaria",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Quinine, an old anti-malarial drug in a modern world: role in the treatment of malaria",
+     "date": "2011",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3121651/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "PubChem (Biblioteca Nacional de Medicina de EE. UU.) — Quinine",
+     "org": "PubChem (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Quinine",
+     "u": "https://pubchem.ncbi.nlm.nih.gov/compound/Quinine",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Quinine",
      "org": "Wikipedia en inglés",
@@ -15324,9 +15827,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15337,6 +15840,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15350,6 +15857,22 @@ window.SQ_CONTENT = {
    "desc": "Lo transmiten las hembras del mosquito Anopheles.",
    "body": "El parásito Plasmodium se transmite a las personas por la picadura de mosquitos Anopheles infectados. En 1897, el médico británico Ronald Ross demostró el papel de los mosquitos en la transmisión. Hoy existen tratamientos eficaces, mosquiteros tratados con insecticida y vacunas recomendadas por la OMS.",
    "sources": [
+    {
+     "t": "Organización Mundial de la Salud (OMS) — Malaria (nota descriptiva)",
+     "org": "Organización Mundial de la Salud (OMS)",
+     "title": "Malaria (nota descriptiva)",
+     "u": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Fundación Nobel (NobelPrize.org) — Ronald Ross – Facts",
+     "org": "Fundación Nobel (NobelPrize.org)",
+     "title": "Ronald Ross – Facts",
+     "u": "https://www.nobelprize.org/prizes/medicine/1902/ross/facts/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Malaria",
      "org": "Wikipedia en inglés",
@@ -15372,9 +15895,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15385,6 +15908,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15395,9 +15922,18 @@ window.SQ_CONTENT = {
    "sub": "Microbiología",
    "level": 2,
    "title": "En tu cuerpo viven aproximadamente tantas bacterias como células humanas",
-   "desc": "Se estiman unos 38 billones de bacterias frente a entre 30 y 40 billones de células humanas.",
-   "body": "Las cifras son del mismo orden de magnitud. Muchos de estos microorganismos son comensales: conviven con nosotros sin causar daño, y otros nos benefician. El conjunto de microbios que habitan el cuerpo se llama microbiota.",
+   "desc": "Un estudio de 2016 estimó unos 38 billones de bacterias frente a unos 30 billones de células humanas.",
+   "body": "Durante décadas se repitió que en el cuerpo había diez bacterias por cada célula humana. Un estudio publicado en 2016 en PLOS Biology revisó esa cifra: en un adulto típico hay unos 30 billones de células humanas y unos 38 billones de bacterias, es decir, aproximadamente una por cada una. Muchos de estos microorganismos son comensales: conviven con nosotros sin causar daño, y otros nos benefician.",
    "sources": [
+    {
+     "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Revised Estimates for the Number of Human and Bacteria Cells in the Body (PLOS Biology)",
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Revised Estimates for the Number of Human and Bacteria Cells in the Body (PLOS Biology)",
+     "date": "2016",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4991899/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Human microbiome",
      "org": "Wikipedia en inglés",
@@ -15420,9 +15956,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15433,6 +15969,14 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Corrección registrada en la fe de erratas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15446,6 +15990,14 @@ window.SQ_CONTENT = {
    "desc": "Funciona con imanes potentes y ondas de radio.",
    "body": "A diferencia de los rayos X o la tomografía computarizada, la resonancia magnética no expone al paciente a radiación ionizante. Utiliza un campo magnético muy intenso, por lo que se pregunta a los pacientes por implantes o fragmentos metálicos antes de entrar en el equipo.",
    "sources": [
+    {
+     "t": "Instituto Nacional de Imágenes Biomédicas y Bioingeniería de EE. UU. (NIBIB) — Magnetic Resonance Imaging (MRI)",
+     "org": "Instituto Nacional de Imágenes Biomédicas y Bioingeniería de EE. UU. (NIBIB)",
+     "title": "Magnetic Resonance Imaging (MRI)",
+     "u": "https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Magnetic resonance imaging",
      "org": "Wikipedia en inglés",
@@ -15468,9 +16020,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15481,6 +16033,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15492,8 +16048,24 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Fleming ya advirtió del problema de las superbacterias en 1945",
    "desc": "Predijo que un mal uso de la penicilina podía crear bacterias resistentes.",
-   "body": "La resistencia a los antimicrobianos aparece cuando bacterias y otros microbios dejan de responder a los medicamentos. El mal uso y el uso excesivo de los antimicrobianos son las principales causas. La OMS la considera una de las mayores amenazas para la salud pública mundial: se estima que la resistencia bacteriana causó directamente 1,27 millones de muertes en 2019.",
+   "body": "La resistencia a los antimicrobianos aparece cuando bacterias y otros microbios dejan de responder a los medicamentos. El mal uso y el uso excesivo de los antimicrobianos son las principales causas. La OMS la considera una de las mayores amenazas para la salud pública mundial: la OMS estima que la resistencia bacteriana estuvo asociada a más de 4,7 millones de muertes en el mundo en 2021.",
    "sources": [
+    {
+     "t": "Organización Mundial de la Salud (OMS) — Antimicrobial resistance (nota descriptiva)",
+     "org": "Organización Mundial de la Salud (OMS)",
+     "title": "Antimicrobial resistance (nota descriptiva)",
+     "u": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Fundación Nobel (NobelPrize.org) — Alexander Fleming – Nobel Lecture (1945)",
+     "org": "Fundación Nobel (NobelPrize.org)",
+     "title": "Alexander Fleming – Nobel Lecture (1945)",
+     "u": "https://www.nobelprize.org/prizes/medicine/1945/fleming/lecture/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Antimicrobial resistance",
      "org": "Wikipedia en inglés",
@@ -15516,9 +16088,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15529,6 +16101,14 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Corrección registrada en la fe de erratas"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15542,6 +16122,14 @@ window.SQ_CONTENT = {
    "desc": "Falso. Los antibióticos actúan contra bacterias, no contra virus.",
    "body": "La gripe y el resfriado común están causados por virus, así que los antibióticos no sirven para curarlos. Tomarlos sin necesidad no ayuda y favorece la aparición de bacterias resistentes. Ante cualquier duda, la indicación debe darla un profesional de la salud.",
    "sources": [
+    {
+     "t": "MedlinePlus (Biblioteca Nacional de Medicina de EE. UU.) — Antibiotics",
+     "org": "MedlinePlus (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Antibiotics",
+     "u": "https://medlineplus.gov/antibiotics.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Antibiotic",
      "org": "Wikipedia en inglés",
@@ -15565,9 +16153,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15578,6 +16166,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15591,6 +16183,22 @@ window.SQ_CONTENT = {
    "desc": "Falso. El estudio de 1998 que lo sugirió era fraudulento y fue retractado en 2010.",
    "body": "El artículo de Andrew Wakefield, publicado en The Lancet, relacionaba la vacuna triple vírica con el autismo. Se descubrió que los datos habían sido manipulados; la revista lo retractó y Wakefield fue expulsado del registro médico británico en 2010. Numerosos estudios con millones de niños no han encontrado ninguna relación.",
    "sources": [
+    {
+     "t": "Organización Mundial de la Salud (OMS) — Autism (nota descriptiva)",
+     "org": "Organización Mundial de la Salud (OMS)",
+     "title": "Autism (nota descriptiva)",
+     "u": "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "StatPearls — NCBI Bookshelf — MMR Vaccine",
+     "org": "StatPearls — NCBI Bookshelf",
+     "title": "MMR Vaccine",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK554450/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — MMR vaccine and autism",
      "org": "Wikipedia en inglés",
@@ -15614,9 +16222,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15627,6 +16235,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15640,6 +16252,22 @@ window.SQ_CONTENT = {
    "desc": "Verdad a medias. Los resfriados los causan virus; el frío por sí solo no los produce.",
    "body": "El resfriado común lo causan virus, sobre todo los rinovirus. Es más frecuente en épocas frías, entre otras razones porque pasamos más tiempo en espacios cerrados con otras personas. Algunos estudios sugieren que el frío podría influir en las defensas, pero sin virus no hay resfriado.",
    "sources": [
+    {
+     "t": "MedlinePlus (Biblioteca Nacional de Medicina de EE. UU.) — Common Cold",
+     "org": "MedlinePlus (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Common Cold",
+     "u": "https://medlineplus.gov/commoncold.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "t": "Instituto Nacional de Alergias y Enfermedades Infecciosas de EE. UU. (NIAID) — Common Cold",
+     "org": "Instituto Nacional de Alergias y Enfermedades Infecciosas de EE. UU. (NIAID)",
+     "title": "Common Cold",
+     "u": "https://www.niaid.nih.gov/diseases-conditions/common-cold",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Common cold",
      "org": "Wikipedia en inglés",
@@ -15663,9 +16291,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15676,6 +16304,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -15689,6 +16321,14 @@ window.SQ_CONTENT = {
    "desc": "Verdad a medias. En la población general no los previene, aunque tomarla a diario puede acortarlos un poco.",
    "body": "Las revisiones de estudios indican que tomar suplementos de vitamina C de forma regular no reduce cuántos resfriados se tienen en la población general, aunque se asocia con una ligera reducción de su duración. Tomarla solo cuando ya han aparecido los síntomas no ha mostrado un beneficio claro.",
    "sources": [
+    {
+     "t": "Oficina de Suplementos Dietéticos de los NIH (EE. UU.) — Vitamin C – Fact Sheet for Health Professionals",
+     "org": "Oficina de Suplementos Dietéticos de los NIH (EE. UU.)",
+     "title": "Vitamin C – Fact Sheet for Health Professionals",
+     "u": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Vitamin C and the common cold",
      "org": "Wikipedia en inglés",
@@ -15712,9 +16352,9 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -15725,6 +16365,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -23295,15 +23939,15 @@ window.SQ_CONTENT = {
    "status": "publicado",
    "ref": null,
    "href": "#/anatomia/apendice",
-   "q": "¿Es el apéndice un órgano totalmente inútil?",
+   "q": "¿Qué se sabe hoy de la función del apéndice?",
    "o": [
-    "Sí, no tiene ninguna función",
-    "No, se cree que participa en la inmunidad",
-    "Sí, solo causa problemas",
-    "Es un músculo"
+    "Que es totalmente inútil",
+    "Que se investiga su posible papel inmunitario, sin conclusión definitiva",
+    "Que produce insulina",
+    "Que es un músculo"
    ],
    "a": 1,
-   "exp": "Es un pequeño tubo cerrado unido al ciego. Durante mucho tiempo se consideró inútil, pero hoy se cree que tiene un papel en la inmunidad y que puede servir de reserva para las bacterias beneficiosas del intestino."
+   "exp": "Es un pequeño tubo cerrado unido al ciego. Durante mucho tiempo se consideró un órgano vestigial, sin función. Contiene tejido linfático, y hoy se investiga si participa en la inmunidad y si sirve de reserva de bacterias beneficiosas del intestino; su función en los humanos todavía no está clara."
   },
   {
    "id": "q366",
@@ -24163,6 +24807,34 @@ window.SQ_CONTENT = {
    "before": "La única fuente era una lista en formato de tabla.",
    "after": "Se añadió el artículo general sobre desiertos, que afirma explícitamente que la Antártida es el mayor desierto frío.",
    "why": "Reforzar el respaldo documental."
+  },
+  {
+   "id": "c-resistencia-antibioticos",
+   "date": "2026-11-26",
+   "before": "Se estima que la resistencia bacteriana causó directamente 1,27 millones de muertes en 2019.",
+   "after": "La OMS estima que la resistencia bacteriana estuvo asociada a más de 4,7 millones de muertes en el mundo en 2021.",
+   "why": "Actualización con la cifra más reciente de la nota descriptiva de la OMS."
+  },
+  {
+   "id": "c-microbiota",
+   "date": "2026-11-26",
+   "before": "Se estiman unos 38 billones de bacterias frente a entre 30 y 40 billones de células humanas.",
+   "after": "Un estudio de 2016 estimó unos 38 billones de bacterias frente a unos 30 billones de células humanas.",
+   "why": "Ajuste a la cifra del estudio original (PLOS Biology, 2016)."
+  },
+  {
+   "id": "a-insulina",
+   "date": "2026-11-26",
+   "before": "En enero de 1922, Leonard Thompson, un joven de 14 años con diabetes grave, recibió las primeras inyecciones y mejoró notablemente.",
+   "after": "El 11 de enero de 1922, Leonard Thompson, un joven de 14 años con diabetes grave, recibió en el Hospital General de Toronto la primera inyección, que tuvo poco efecto. El 23 de enero recibió un extracto purificado por Collip y mejoró de forma notable. Vivió 13 años más con insulina.",
+   "why": "Precisión según los archivos de la Universidad de Toronto y la Fundación Nobel: la primera inyección apenas tuvo efecto."
+  },
+  {
+   "id": "c-foto-51",
+   "date": "2026-11-26",
+   "before": "Watson y Crick la vieron sin que Franklin lo supiera.",
+   "after": "Maurice Wilkins se la mostró a James Watson sin que Franklin lo supiera.",
+   "why": "Precisión según el King’s College de Londres."
   }
  ]
 };

@@ -2,7 +2,7 @@
  * Textos de elaboración propia, verificados contra sus fuentes. Imágenes de Wikimedia Commons con autor y licencia.
  * Contenido educativo: no sustituye el consejo de un profesional de la salud. */
 window.SQ_ANATOMY = {
- "version": 3,
+ "version": 4,
  "updated": "2026-11-26",
  "systems": [
   {
@@ -34,6 +34,43 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Introduction to the Skeletal System",
+     "u": "https://training.seer.cancer.gov/anatomy/skeletal/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Structure of Bone Tissue",
+     "u": "https://training.seer.cancer.gov/anatomy/skeletal/tissue.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Divisions of the Skeleton",
+     "u": "https://training.seer.cancer.gov/anatomy/skeletal/divisions/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Bone",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK441968/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Bones",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK537199/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Human skeleton",
      "org": "Wikipedia en inglés",
      "title": "Human skeleton",
@@ -62,9 +99,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -75,6 +112,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -103,6 +144,27 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Introduction to the Muscular System",
+     "u": "https://training.seer.cancer.gov/anatomy/muscular/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Muscle Types",
+     "u": "https://training.seer.cancer.gov/anatomy/muscular/types.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Structure of Skeletal Muscle",
+     "u": "https://training.seer.cancer.gov/anatomy/muscular/structure.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Muscular system",
      "org": "Wikipedia en inglés",
      "title": "Muscular system",
@@ -114,9 +176,9 @@ window.SQ_ANATOMY = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -127,6 +189,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -158,6 +224,34 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Introduction to the Nervous System",
+     "u": "https://training.seer.cancer.gov/anatomy/nervous/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Organization of the Nervous System",
+     "u": "https://training.seer.cancer.gov/anatomy/nervous/organization/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "The Central Nervous System",
+     "u": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "The Peripheral Nervous System",
+     "u": "https://training.seer.cancer.gov/anatomy/nervous/organization/pns.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Nervous system",
      "org": "Wikipedia en inglés",
      "title": "Nervous system",
@@ -186,9 +280,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -199,6 +293,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -228,6 +326,27 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Introduction to the Cardiovascular System",
+     "u": "https://training.seer.cancer.gov/anatomy/cardiovascular/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Classification & Structure of Blood Vessels",
+     "u": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/classification.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Circulatory Pathways",
+     "u": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Circulatory system",
      "org": "Wikipedia en inglés",
      "title": "Circulatory system",
@@ -247,9 +366,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -260,6 +379,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -289,6 +412,27 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Introduction to the Respiratory System",
+     "u": "https://training.seer.cancer.gov/anatomy/respiratory/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Mechanics of Ventilation",
+     "u": "https://training.seer.cancer.gov/anatomy/respiratory/mechanics.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Conducting Passages",
+     "u": "https://training.seer.cancer.gov/anatomy/respiratory/passages/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Respiratory system",
      "org": "Wikipedia en inglés",
      "title": "Respiratory system",
@@ -308,9 +452,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -321,6 +465,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -356,6 +504,27 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Introduction to the Digestive System",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "General Structure of the Digestive System",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/structure.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Regions of the Digestive System",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Human digestive system",
      "org": "Wikipedia en inglés",
      "title": "Human digestive system",
@@ -375,9 +544,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -388,6 +557,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -420,6 +593,27 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Introduction to the Endocrine System",
+     "u": "https://training.seer.cancer.gov/anatomy/endocrine/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Characteristics of Hormones",
+     "u": "https://training.seer.cancer.gov/anatomy/endocrine/hormones.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Endocrine Glands & Their Hormones",
+     "u": "https://training.seer.cancer.gov/anatomy/endocrine/glands/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Endocrine system",
      "org": "Wikipedia en inglés",
      "title": "Endocrine system",
@@ -439,9 +633,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -452,6 +646,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -482,6 +680,27 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Introduction to the Lymphatic System",
+     "u": "https://training.seer.cancer.gov/anatomy/lymphatic/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Components of the Lymphatic System",
+     "u": "https://training.seer.cancer.gov/anatomy/lymphatic/components/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional de Alergias y Enfermedades Infecciosas de EE. UU. (NIAID)",
+     "title": "Overview of the Immune System",
+     "u": "https://www.niaid.nih.gov/research/immune-system-overview",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Immune system",
      "org": "Wikipedia en inglés",
      "title": "Immune system",
@@ -501,9 +720,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -514,6 +733,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -540,6 +763,20 @@ window.SQ_ANATOMY = {
     "prostata"
    ],
    "sources": [
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Introduction to the Urinary System",
+     "u": "https://training.seer.cancer.gov/anatomy/urinary/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Components of the Urinary System",
+     "u": "https://training.seer.cancer.gov/anatomy/urinary/components/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Urinary system",
      "org": "Wikipedia en inglés",
@@ -569,9 +806,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -582,6 +819,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -609,6 +850,27 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Introduction to the Reproductive System",
+     "u": "https://training.seer.cancer.gov/anatomy/reproductive/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Male Reproductive System",
+     "u": "https://training.seer.cancer.gov/anatomy/reproductive/male/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Female Reproductive System",
+     "u": "https://training.seer.cancer.gov/anatomy/reproductive/female/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Human reproductive system",
      "org": "Wikipedia en inglés",
      "title": "Human reproductive system",
@@ -620,9 +882,9 @@ window.SQ_ANATOMY = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -633,6 +895,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -659,6 +925,28 @@ window.SQ_ANATOMY = {
     "unas"
    ],
    "sources": [
+    {
+     "org": "MedlinePlus — Enciclopedia médica (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "MedlinePlus Encyclopedia article",
+     "u": "https://medlineplus.gov/ency/article/002303.htm",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "MedlinePlus — Enciclopedia médica (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Skin layers",
+     "u": "https://medlineplus.gov/ency/imagepages/8912.htm",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Integument",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK554386/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Integumentary system",
      "org": "Wikipedia en inglés",
@@ -688,9 +976,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -701,6 +989,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   }
@@ -740,6 +1032,27 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "The Central Nervous System",
+     "u": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Institutos Nacionales de Salud de EE. UU. (NIH) — NCBI Bookshelf",
+     "title": "Information about the Brain (NIH Curriculum Supplement Series)",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK20367/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Programmed to be human? (Neuron, 2014)",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3950304/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Human brain",
      "org": "Wikipedia en inglés",
      "title": "Human brain",
@@ -759,9 +1072,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -772,6 +1085,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -786,7 +1103,7 @@ window.SQ_ANATOMY = {
    "facts": [
     [
      "Longitud",
-     "Unos 45 cm en hombres y 43 cm en mujeres"
+     "Unos 45 cm en hombres y 43 cm en mujeres según referencias de anatomía; algunos estudios han medido promedios menores, de unos 42 y 39 cm"
     ],
     [
      "Protección",
@@ -801,6 +1118,29 @@ window.SQ_ANATOMY = {
     "Hernia de disco que comprime nervios"
    ],
    "sources": [
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "The Central Nervous System",
+     "u": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Neuroanatomy, Spinal Cord Morphology",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK545206/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Neuroanatomy, Spinal Cord",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK559056/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Spinal cord",
      "org": "Wikipedia en inglés",
@@ -821,9 +1161,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -834,6 +1174,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas; texto corregido tras contrastarlo"
     }
    ]
   },
@@ -872,6 +1216,27 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Heart",
+     "u": "https://training.seer.cancer.gov/anatomy/cardiovascular/heart/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Structure of the Heart",
+     "u": "https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Physiology of the Heart",
+     "u": "https://training.seer.cancer.gov/anatomy/cardiovascular/heart/physiology.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Heart",
      "org": "Wikipedia en inglés",
      "title": "Heart",
@@ -891,9 +1256,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -904,6 +1269,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -937,6 +1306,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Bronchi, Bronchial Tree, & Lungs",
+     "u": "https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Lung",
      "org": "Wikipedia en inglés",
      "title": "Lung",
@@ -956,9 +1332,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -969,6 +1345,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -988,6 +1368,10 @@ window.SQ_ANATOMY = {
     [
      "Bilis",
      "La produce el hígado y la almacena la vesícula"
+    ],
+    [
+     "Dato",
+     "Es la glándula más grande del cuerpo"
     ]
    ],
    "curious": [
@@ -999,6 +1383,13 @@ window.SQ_ANATOMY = {
     "Cirrosis"
    ],
    "sources": [
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Accessory Organs",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Liver",
      "org": "Wikipedia en inglés",
@@ -1019,9 +1410,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1032,6 +1423,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1063,6 +1458,21 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Stomach",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/stomach.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Stomach",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK535425/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Stomach",
      "org": "Wikipedia en inglés",
      "title": "Stomach",
@@ -1082,9 +1492,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1095,6 +1505,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1125,6 +1539,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Small & Large Intestine",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Small intestine",
      "org": "Wikipedia en inglés",
      "title": "Small intestine",
@@ -1144,9 +1565,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1157,6 +1578,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1188,6 +1613,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Small & Large Intestine",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Large intestine",
      "org": "Wikipedia en inglés",
      "title": "Large intestine",
@@ -1207,9 +1639,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1220,6 +1652,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1252,6 +1688,20 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Accessory Organs",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Pancreas—Islets of Langerhans",
+     "u": "https://training.seer.cancer.gov/anatomy/endocrine/glands/pancreas.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Pancreas",
      "org": "Wikipedia en inglés",
      "title": "Pancreas",
@@ -1271,9 +1721,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1284,6 +1734,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1310,6 +1764,28 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Accessory Organs",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional de la Diabetes y las Enfermedades Digestivas y Renales de EE. UU. (NIDDK)",
+     "title": "Treatment for Gallstones",
+     "u": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/treatment",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Gallbladder",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK482488/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Gallbladder",
      "org": "Wikipedia en inglés",
      "title": "Gallbladder",
@@ -1329,9 +1805,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1342,6 +1818,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1353,7 +1833,7 @@ window.SQ_ANATOMY = {
     "inmunitario"
    ],
    "where": "Al inicio del intestino grueso, en la parte inferior derecha del abdomen.",
-   "what": "Es un pequeño tubo cerrado unido al ciego. Durante mucho tiempo se consideró inútil, pero hoy se cree que tiene un papel en la inmunidad y que puede servir de reserva para las bacterias beneficiosas del intestino.",
+   "what": "Es un pequeño tubo cerrado unido al ciego. Durante mucho tiempo se consideró un órgano vestigial, sin función. Contiene tejido linfático, y hoy se investiga si participa en la inmunidad y si sirve de reserva de bacterias beneficiosas del intestino; su función en los humanos todavía no está clara.",
    "facts": [
     [
      "Forma",
@@ -1367,6 +1847,28 @@ window.SQ_ANATOMY = {
     "Apendicitis"
    ],
    "sources": [
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Small & Large Intestine",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "MedlinePlus (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Appendicitis",
+     "u": "https://medlineplus.gov/appendicitis.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Abdomen and Pelvis: Appendix",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK459205/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Appendix (anatomy)",
      "org": "Wikipedia en inglés",
@@ -1387,9 +1889,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1400,8 +1902,13 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas; texto corregido tras contrastarlo"
     }
-   ]
+   ],
+   "claimNote": "Su posible función inmunitaria y como «reserva» de bacterias son hipótesis en estudio, no hechos comprobados."
   },
   {
    "id": "rinones",
@@ -1431,6 +1938,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Kidneys",
+     "u": "https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Kidney",
      "org": "Wikipedia en inglés",
      "title": "Kidney",
@@ -1450,9 +1964,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1463,6 +1977,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1490,6 +2008,20 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Spleen",
+     "u": "https://training.seer.cancer.gov/anatomy/lymphatic/components/spleen.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "MedlinePlus (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Spleen Diseases",
+     "u": "https://medlineplus.gov/spleendiseases.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Spleen",
      "org": "Wikipedia en inglés",
      "title": "Spleen",
@@ -1509,9 +2041,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1522,6 +2054,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1541,6 +2077,10 @@ window.SQ_ANATOMY = {
     [
      "Necesita",
      "Yodo, que se obtiene de la dieta"
+    ],
+    [
+     "Hormona más abundante",
+     "Cerca del 95 % de la hormona tiroidea activa es tiroxina"
     ]
    ],
    "curious": [
@@ -1552,6 +2092,13 @@ window.SQ_ANATOMY = {
     "Bocio"
    ],
    "sources": [
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Thyroid & Parathyroid Glands",
+     "u": "https://training.seer.cancer.gov/anatomy/endocrine/glands/thyroid.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Thyroid",
      "org": "Wikipedia en inglés",
@@ -1572,9 +2119,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1585,6 +2132,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1619,6 +2170,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Pituitary & Pineal Glands",
+     "u": "https://training.seer.cancer.gov/anatomy/endocrine/glands/pituitary.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Pituitary gland",
      "org": "Wikipedia en inglés",
      "title": "Pituitary gland",
@@ -1638,9 +2196,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1651,6 +2209,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1681,6 +2243,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Adrenal Gland",
+     "u": "https://training.seer.cancer.gov/anatomy/endocrine/glands/adrenal.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Adrenal gland",
      "org": "Wikipedia en inglés",
      "title": "Adrenal gland",
@@ -1700,9 +2269,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1713,6 +2282,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1745,6 +2318,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Ojo de EE. UU. (NEI)",
+     "title": "How the Eyes Work",
+     "u": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Human eye",
      "org": "Wikipedia en inglés",
      "title": "Human eye",
@@ -1764,9 +2344,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1777,6 +2357,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1808,6 +2392,20 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional de la Sordera y Otros Trastornos de la Comunicación de EE. UU. (NIDCD)",
+     "title": "How Do We Hear?",
+     "u": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional de la Sordera y Otros Trastornos de la Comunicación de EE. UU. (NIDCD)",
+     "title": "Balance Disorders",
+     "u": "https://www.nidcd.nih.gov/health/balance-disorders",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Ear",
      "org": "Wikipedia en inglés",
      "title": "Ear",
@@ -1827,9 +2425,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1840,6 +2438,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1871,6 +2473,30 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Skin (Integument)",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK441980/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Integument",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK554386/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Skin (Integument), Epidermis",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK470464/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Skin",
      "org": "Wikipedia en inglés",
      "title": "Skin",
@@ -1899,9 +2525,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1912,6 +2538,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -1943,6 +2573,28 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Structure of Bone Tissue",
+     "u": "https://training.seer.cancer.gov/anatomy/skeletal/tissue.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Bone Development & Growth",
+     "u": "https://training.seer.cancer.gov/anatomy/skeletal/growth.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Bone",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK441968/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Bone",
      "org": "Wikipedia en inglés",
      "title": "Bone",
@@ -1962,9 +2614,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -1975,6 +2627,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2008,6 +2664,34 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Blood",
+     "u": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "MedlinePlus (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Blood",
+     "u": "https://medlineplus.gov/blood.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Corazón, los Pulmones y la Sangre de EE. UU. (NHLBI)",
+     "title": "Blood Tests",
+     "u": "https://www.nhlbi.nih.gov/health/blood-tests",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "InformedHealth.org — Instituto de Calidad y Eficiencia en la Atención Sanitaria (IQWiG, Alemania), en NCBI Bookshelf",
+     "title": "In brief: What does blood do?",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK279392/",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Blood",
      "org": "Wikipedia en inglés",
      "title": "Blood",
@@ -2027,9 +2711,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2040,6 +2724,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2071,6 +2759,20 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Mouth",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional de Investigación Dental y Craneofacial de EE. UU. (NIDCR)",
+     "title": "Tooth Decay",
+     "u": "https://www.nidcr.nih.gov/health-info/tooth-decay",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Human tooth",
      "org": "Wikipedia en inglés",
      "title": "Human tooth",
@@ -2090,9 +2792,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2103,6 +2805,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2135,6 +2841,20 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Urinary Bladder",
+     "u": "https://training.seer.cancer.gov/anatomy/urinary/components/bladder.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Ureters",
+     "u": "https://training.seer.cancer.gov/anatomy/urinary/components/ureters.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Urinary bladder",
      "org": "Wikipedia en inglés",
      "title": "Urinary bladder",
@@ -2154,9 +2874,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2167,6 +2887,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2199,6 +2923,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Larynx & Trachea",
+     "u": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Larynx",
      "org": "Wikipedia en inglés",
      "title": "Larynx",
@@ -2218,9 +2949,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2231,6 +2962,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2261,6 +2996,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Larynx & Trachea",
+     "u": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Trachea",
      "org": "Wikipedia en inglés",
      "title": "Trachea",
@@ -2280,9 +3022,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2293,6 +3035,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2324,6 +3070,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Pharynx & Esophagus",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Esophagus",
      "org": "Wikipedia en inglés",
      "title": "Esophagus",
@@ -2343,9 +3096,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2356,6 +3109,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2387,6 +3144,20 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Mouth",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional de la Sordera y Otros Trastornos de la Comunicación de EE. UU. (NIDCD)",
+     "title": "Taste Disorders",
+     "u": "https://www.nidcd.nih.gov/health/taste-disorders",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Tongue",
      "org": "Wikipedia en inglés",
      "title": "Tongue",
@@ -2415,9 +3186,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2428,6 +3199,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2447,10 +3222,14 @@ window.SQ_ANATOMY = {
     [
      "Enzima destacada",
      "Amilasa"
+    ],
+    [
+     "La más grande",
+     "La parótida, que aporta cerca de la mitad de la saliva"
     ]
    ],
    "curious": [
-    "Además de las tres parejas principales, hay entre 800 y 1.000 glándulas salivales menores repartidas por la boca.",
+    "Además de las tres parejas principales, hay cientos de glándulas salivales menores: las estimaciones van de unas 600 a 1.000, según la fuente.",
     "Las paperas son una infección viral que inflama sobre todo las glándulas parótidas."
    ],
    "conditions": [
@@ -2459,6 +3238,29 @@ window.SQ_ANATOMY = {
     "Boca seca (xerostomía)"
    ],
    "sources": [
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Mouth",
+     "u": "https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Histology, Salivary Glands",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK551688/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Salivation",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK542251/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Salivary gland",
      "org": "Wikipedia en inglés",
@@ -2479,9 +3281,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2492,6 +3294,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas; texto corregido tras contrastarlo"
     }
    ]
   },
@@ -2523,6 +3329,28 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Mechanics of Ventilation",
+     "u": "https://training.seer.cancer.gov/anatomy/respiratory/mechanics.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Muscles of the Trunk",
+     "u": "https://training.seer.cancer.gov/anatomy/muscular/groups/trunk.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Thorax: Diaphragm",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK519558/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Thoracic diaphragm",
      "org": "Wikipedia en inglés",
      "title": "Thoracic diaphragm",
@@ -2551,9 +3379,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2564,6 +3392,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2595,6 +3427,20 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Structure of Skeletal Muscle",
+     "u": "https://training.seer.cancer.gov/anatomy/muscular/structure.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Muscle Types",
+     "u": "https://training.seer.cancer.gov/anatomy/muscular/types.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Skeletal muscle",
      "org": "Wikipedia en inglés",
      "title": "Skeletal muscle",
@@ -2614,9 +3460,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2627,6 +3473,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2662,6 +3512,28 @@ window.SQ_ANATOMY = {
     "Rotura del tendón de Aquiles"
    ],
    "sources": [
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Structure of Skeletal Muscle",
+     "u": "https://training.seer.cancer.gov/anatomy/muscular/structure.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Articulations",
+     "u": "https://training.seer.cancer.gov/anatomy/skeletal/articulations.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Tendons",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK513237/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Tendon",
      "org": "Wikipedia en inglés",
@@ -2700,9 +3572,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2713,6 +3585,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2735,7 +3611,7 @@ window.SQ_ANATOMY = {
     ]
    ],
    "curious": [
-    "El crujido de los nudillos se debe a burbujas de nitrógeno que se forman en el líquido sinovial al bajar bruscamente la presión de la articulación."
+    "El crujido de los nudillos se relaciona con la formación de una cavidad o burbuja de gas en el líquido sinovial; los investigadores todavía debaten el mecanismo exacto del sonido."
    ],
    "conditions": [
     "Artrosis",
@@ -2743,6 +3619,27 @@ window.SQ_ANATOMY = {
     "Luxación"
    ],
    "sources": [
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Articulations",
+     "u": "https://training.seer.cancer.gov/anatomy/skeletal/articulations.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Real-Time Visualization of Joint Cavitation (PLOS ONE, 2015)",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4398549/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "PubMed (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Let's get a hand on this: Review of the clinical anatomy of \"knuckle cracking\" (Clinical Anatomy, 2018)",
+     "u": "https://pubmed.ncbi.nlm.nih.gov/30080300/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Joint",
      "org": "Wikipedia en inglés",
@@ -2781,9 +3678,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2794,8 +3691,13 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas; texto corregido tras contrastarlo"
     }
-   ]
+   ],
+   "claimNote": "Los estudios disponibles, sobre todo observacionales, no han encontrado relación entre tronarse los dedos y la artrosis."
   },
   {
    "id": "columna",
@@ -2831,6 +3733,21 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Axial Skeleton (80 bones)",
+     "u": "https://training.seer.cancer.gov/anatomy/skeletal/divisions/axial.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Back, Vertebral Column",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK525969/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Vertebral column",
      "org": "Wikipedia en inglés",
      "title": "Vertebral column",
@@ -2850,9 +3767,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2863,6 +3780,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2893,6 +3814,21 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Axial Skeleton (80 bones)",
+     "u": "https://training.seer.cancer.gov/anatomy/skeletal/divisions/axial.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Head and Neck, Skull",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK499834/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Skull",
      "org": "Wikipedia en inglés",
      "title": "Skull",
@@ -2921,9 +3857,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -2934,6 +3870,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -2966,6 +3906,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Classification & Structure of Blood Vessels",
+     "u": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/classification.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Blood vessel",
      "org": "Wikipedia en inglés",
      "title": "Blood vessel",
@@ -2994,9 +3941,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3007,6 +3954,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -3037,6 +3988,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Lymph Nodes",
+     "u": "https://training.seer.cancer.gov/anatomy/lymphatic/components/nodes.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Lymph node",
      "org": "Wikipedia en inglés",
      "title": "Lymph node",
@@ -3056,9 +4014,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3069,6 +4027,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -3101,6 +4063,21 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Thymus",
+     "u": "https://training.seer.cancer.gov/anatomy/lymphatic/components/thymus.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Head and Neck, Thymus",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK539748/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Thymus",
      "org": "Wikipedia en inglés",
      "title": "Thymus",
@@ -3120,9 +4097,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3133,6 +4110,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -3166,6 +4147,43 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Structure of Bone Tissue",
+     "u": "https://training.seer.cancer.gov/anatomy/skeletal/tissue.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional del Corazón, los Pulmones y la Sangre de EE. UU. (NHLBI)",
+     "title": "Blood and Bone Marrow Treatments",
+     "u": "https://www.nhlbi.nih.gov/health/blood-bone-marrow-treatments",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Bone",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK441968/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Bones",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK537199/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Bone Marrow, Blood Cells, and the Lymphoid/Lymphatic System",
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7158316/",
+     "kind": "academica",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Bone marrow",
      "org": "Wikipedia en inglés",
      "title": "Bone marrow",
@@ -3185,9 +4203,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3198,6 +4216,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -3231,6 +4253,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Ovaries",
+     "u": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Ovary",
      "org": "Wikipedia en inglés",
      "title": "Ovary",
@@ -3242,9 +4271,9 @@ window.SQ_ANATOMY = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3255,6 +4284,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -3286,6 +4319,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Genital Tract",
+     "u": "https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Uterus",
      "org": "Wikipedia en inglés",
      "title": "Uterus",
@@ -3297,9 +4337,9 @@ window.SQ_ANATOMY = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3310,6 +4350,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -3342,6 +4386,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Testes",
+     "u": "https://training.seer.cancer.gov/anatomy/reproductive/male/testes.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Testicle",
      "org": "Wikipedia en inglés",
      "title": "Testicle",
@@ -3353,9 +4404,9 @@ window.SQ_ANATOMY = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3366,6 +4417,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -3398,6 +4453,13 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Accessory Glands",
+     "u": "https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Prostate",
      "org": "Wikipedia en inglés",
      "title": "Prostate",
@@ -3409,9 +4471,9 @@ window.SQ_ANATOMY = {
    ],
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3422,6 +4484,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -3455,6 +4521,44 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Nose, Nasal Cavities, & Paranasal Sinuses",
+     "u": "https://training.seer.cancer.gov/anatomy/respiratory/passages/nose.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "Instituto Nacional de la Sordera y Otros Trastornos de la Comunicación de EE. UU. (NIDCD)",
+     "title": "Smell Disorders",
+     "u": "https://www.nidcd.nih.gov/health/smell-disorders",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Head and Neck, Nasal Cavity",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK544232/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Nasal",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK526086/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Neuroanatomy, Cranial Nerve 1 (Olfactory)",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK556051/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Human nose",
      "org": "Wikipedia en inglés",
      "title": "Human nose",
@@ -3483,9 +4587,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3496,6 +4600,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -3531,6 +4639,22 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Hair",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK499948/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Histology, Skin Appendages",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK482237/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Hair",
      "org": "Wikipedia en inglés",
      "title": "Hair",
@@ -3559,9 +4683,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3572,6 +4696,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -3603,6 +4731,22 @@ window.SQ_ANATOMY = {
    ],
    "sources": [
     {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Integument",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK554386/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Anatomy, Shoulder and Upper Limb, Nails",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK534769/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
+    {
      "t": "Wikipedia — Nail (anatomy)",
      "org": "Wikipedia en inglés",
      "title": "Nail (anatomy)",
@@ -3622,9 +4766,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3635,6 +4779,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   },
@@ -3654,6 +4802,10 @@ window.SQ_ANATOMY = {
     [
      "Forma",
      "Parecida a una piña pequeña"
+    ],
+    [
+     "Tamaño",
+     "Unos 0,8 cm"
     ]
    ],
    "curious": [
@@ -3665,6 +4817,21 @@ window.SQ_ANATOMY = {
     "Alteraciones del sueño"
    ],
    "sources": [
+    {
+     "org": "Instituto Nacional del Cáncer de EE. UU. (NIH) — SEER Training Modules",
+     "title": "Pituitary & Pineal Glands",
+     "u": "https://training.seer.cancer.gov/anatomy/endocrine/glands/pituitary.html",
+     "kind": "institucional",
+     "accessed": "2026-11-26"
+    },
+    {
+     "org": "StatPearls — NCBI Bookshelf (Biblioteca Nacional de Medicina de EE. UU.)",
+     "title": "Physiology, Pineal Gland",
+     "u": "https://www.ncbi.nlm.nih.gov/books/NBK525955/",
+     "kind": "academica",
+     "note": "Capítulo revisado por pares y actualizado periódicamente.",
+     "accessed": "2026-11-26"
+    },
     {
      "t": "Wikipedia — Pineal gland",
      "org": "Wikipedia en inglés",
@@ -3685,9 +4852,9 @@ window.SQ_ANATOMY = {
    },
    "verif": {
     "status": "verificado",
-    "level": "enciclopedica",
+    "level": "institucional",
     "reviewed": "2026-11-26",
-    "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
+    "method": "Datos principales comprobados en fuentes institucionales y académicas (NIH: SEER, StatPearls, MedlinePlus e institutos especializados); los detalles complementarios que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
    "history": [
@@ -3698,6 +4865,10 @@ window.SQ_ANATOMY = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-26",
+     "note": "Incorporación de fuentes institucionales y académicas"
     }
    ]
   }
