@@ -2946,7 +2946,8 @@ window.SQ_CONTENT = {
    "sub": "Idioma",
    "title": "Huracán, hamaca y barbacoa son palabras taínas",
    "desc": "Los taínos de La Española y otras islas del Caribe dejaron palabras que hoy se usan en todo el mundo.",
-   "body": "Los taínos fueron los habitantes de la isla donde hoy están República Dominicana y Haití cuando llegaron los europeos. De su lengua vienen palabras como huracán, hamaca, barbacoa, canoa y maíz, que pasaron al español y desde ahí al inglés y a muchos otros idiomas. Por ejemplo, el inglés «hurricane» viene de «huracán».",
+   "body": "Los taínos fueron los habitantes de la isla donde hoy están República Dominicana y Haití cuando llegaron los europeos, a la que llamaban Ayiti. Su lengua, el taíno, pertenecía a la familia arahuaca y, cuando llegaron los españoles, era la lengua más hablada en todo el Caribe: se usaba en buena parte de La Española, en Puerto Rico, que ellos llamaban Boriquén, en el este de Cuba y en islas de las Antillas Menores.\n\nFue la primera lengua indígena americana con la que se encontraron los europeos, y por eso se convirtió en una gran fuente de palabras nuevas. De ella vienen huracán, hamaca, barbacoa, canoa, maíz, tabaco, iguana, manatí, sabana, yuca y batata, que pasaron al español y desde ahí al inglés y a muchos otros idiomas. Por ejemplo, el inglés «hurricane» viene de «huracán», y «barbecue», de «barbacoa».",
+   "deep": "El taíno es hoy una lengua extinta, pero su huella sigue viva en el habla diaria, sobre todo en el Caribe. Además de las palabras más conocidas, del taíno vienen voces como ají, auyama, cacique, caoba, guanábana, guaraguao, jaiba, maní o nigua. Sus parientes más cercanos eran probablemente el lokono y el wayuunaiki, dos lenguas arahuacas de la costa norte de Sudamérica, lo que indica de dónde llegaron sus hablantes. En varias comunidades de descendientes de taínos existen hoy proyectos para reconstruir una versión moderna de la lengua.",
    "sources": [
     {
      "t": "RAE — Diccionario de la lengua española: huracán",
@@ -2969,7 +2970,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -2985,6 +2986,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Movido a la nueva categoría Lengua y literatura"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -4978,7 +4983,7 @@ window.SQ_CONTENT = {
    "title": "Francia usó la guillotina por última vez en 1977",
    "desc": "El mismo año en que se estrenó la primera película de La guerra de las galaxias.",
    "body": "La guillotina se asocia con la Revolución francesa, pero siguió siendo el método de ejecución en Francia hasta mucho después. La primera persona ejecutada con guillotina en Francia fue Nicolas Jacques Pelletier, en 1792. La última fue Hamida Djandoubi, en septiembre de 1977, casi dos siglos después.\n\nDjandoubi, nacido en Túnez en 1949, vivía en Marsella. Fue condenado por el secuestro, la tortura y el asesinato de una joven de 21 años, y fue guillotinado el 10 de septiembre de 1977. Fue la última persona ejecutada en Francia antes de la abolición de la pena de muerte, y también la última ejecutada legalmente por decapitación en todo el mundo occidental.",
-   "deep": "Francia abolió la pena de muerte el 9 de octubre de 1981. Djandoubi no fue el último condenado a muerte: después de él, otros acusados recibieron esa sentencia, pero ninguno llegó a ser ejecutado antes de la abolición. Que la guillotina se usara hasta 1977 sorprende porque la asociamos con la Europa del siglo XVIII, pero entre la primera ejecución con guillotina en Francia, en 1792, y la última, en 1977, pasaron 185 años.",
+   "deep": "Francia abolió la pena de muerte el 9 de octubre de 1981. Djandoubi no fue el último condenado a muerte: después de él, otros acusados recibieron esa sentencia, pero ninguno llegó a ser ejecutado antes de la abolición. Que la guillotina se usara hasta 1977 sorprende porque la asociamos con la Europa del siglo XVIII, pero entre la primera ejecución con guillotina en Francia, en 1792, y la última, en 1977, pasaron casi dos siglos, y la guillotina siguió en uso durante todo ese tiempo.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Guillotine",
@@ -10432,7 +10437,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«OK» nació como un chiste de periódico en 1839",
    "desc": "Era la abreviatura de «oll korrect», una forma graciosa de escribir «all correct».",
-   "body": "En la década de 1830, en Boston, estaba de moda abreviar frases mal escritas a propósito. «OK», por «oll korrect», apareció en el Boston Morning Post en 1839. Una campaña presidencial de 1840 lo popularizó, y hoy es probablemente una de las palabras más usadas del planeta.",
+   "body": "En la década de 1830, en Boston, estaba de moda un juego de periodistas: abreviar frases escritas mal a propósito. «OK», por «oll korrect», una forma deliberadamente mal escrita de «all correct», «todo correcto», apareció en un artículo humorístico del Boston Morning Post en 1839. Ese origen lo documentó el lingüista Allen Walker Read en una serie de seis artículos publicados en 1963 y 1964.\n\nLa palabra podría haber desaparecido como tantas otras bromas de la época, pero una campaña presidencial la salvó. En las elecciones de 1840 en Estados Unidos, los partidarios del Partido Demócrata afirmaron que «OK» significaba «Old Kinderhook», «el viejo de Kinderhook», el apodo del presidente Martin Van Buren, nacido en ese pueblo de Nueva York, que buscaba la reelección. El juego de palabras le dio fama en todo el país.",
+   "deep": "Durante mucho tiempo circularon otras explicaciones sobre su origen, desde lenguas indígenas americanas hasta el griego o el escocés, pero la mayoría de las obras de referencia modernas aceptan la teoría de Read, la misma que recoge el diccionario de Oxford. El lingüista Allan Metcalf le dedicó un libro entero, titulado «OK: la improbable historia de la mejor palabra de Estados Unidos». Una de las razones de su éxito es su enorme versatilidad: sirve para aprobar, para decir que algo está bien, para pedir confirmación o para cerrar una conversación. Hoy es probablemente una de las palabras más usadas del planeta.",
    "sources": [
     {
      "t": "Universidad (languagelog.ldc.upenn.edu) — Language Log » Not OK.",
@@ -10465,7 +10471,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -10485,6 +10491,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Movido a la nueva categoría Lengua y literatura"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10544,7 +10554,8 @@ window.SQ_CONTENT = {
    "level": 3,
    "title": "Cervantes y Shakespeare no murieron el mismo día",
    "desc": "Ambos murieron en abril de 1616, pero España e Inglaterra usaban calendarios distintos.",
-   "body": "Se suele decir que murieron el 23 de abril de 1616, y por eso ese día se celebra el Día Internacional del Libro. Pero Inglaterra usaba el calendario juliano, que iba diez días por detrás del gregoriano que ya usaba España. Además, el 23 de abril fue la fecha del entierro de Cervantes; murió el día anterior.",
+   "body": "Se suele decir que Miguel de Cervantes y William Shakespeare murieron el mismo día, el 23 de abril de 1616, y por eso ese día se celebra el Día Internacional del Libro: la UNESCO lo eligió inspirada por esa aparente coincidencia. Pero en realidad no murieron el mismo día. El problema está en los calendarios.\n\nEspaña ya usaba el calendario gregoriano, que el papa Gregorio XIII había introducido en 1582 para corregir los errores del calendario juliano. Inglaterra, en cambio, protestante, seguía usando el juliano, que iba diez días por detrás. Así, el 23 de abril inglés en que murió Shakespeare era el 3 de mayo en España. Además, el 23 de abril fue probablemente la fecha del entierro de Cervantes: en la España de la época, las fechas solían registrar el día de la sepultura, y él murió el día anterior, el 22.",
+   "deep": "Inglaterra y su imperio no adoptaron el calendario gregoriano hasta 1752, y para entonces tuvieron que eliminar 11 días del calendario. Mientras tanto, los historiadores necesitan llevar dos cuentas a la vez para comparar fechas de países distintos. Cervantes, nacido probablemente en 1547, es considerado el mayor escritor en lengua española, y Shakespeare, nacido en Stratford-upon-Avon, el más grande de la lengua inglesa. Que coincidieran casi en la misma época convierte la fecha en un símbolo poderoso, aunque la coincidencia exacta del día sea solo aparente.",
    "sources": [
     {
      "t": "Universidad (uh.edu) — Time Out of Joint",
@@ -10578,7 +10589,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -10598,6 +10609,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Movido a la nueva categoría Lengua y literatura"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -10609,7 +10624,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La ñ nació como una abreviatura de «nn»",
    "desc": "Los copistas medievales escribían una n pequeña sobre otra para ahorrar espacio.",
-   "body": "En los manuscritos medievales era habitual abreviar letras repetidas. La doble n se escribía como una n con una pequeña marca encima, que con el tiempo se convirtió en la tilde de la ñ. Por eso el latín «annus» dio en español «año».",
+   "body": "En los manuscritos medievales era habitual abreviar letras repetidas para ahorrar tiempo y espacio. En el español medieval, la doble n del latín empezó a escribirse como una sola n con una pequeña línea ondulada encima, que con el tiempo se convirtió en la tilde de la ñ. Por eso el latín «annus» dio en español «año». A esa rayita se la llama también «virgulilla», para distinguirla de otras tildes.\n\nOtras lenguas romances eligieron soluciones distintas para representar el mismo sonido: el italiano y el francés usan «gn», como en «cognac», el portugués usa «nh», como en «vinho», y el catalán «ny». En español, la ñ se considera una letra propia, con nombre propio, «eñe», y un lugar propio en el abecedario, después de la n. La adoptaron también otras lenguas, como el gallego, el asturiano, el euskera, el guaraní, el quechua o el filipino.",
+   "deep": "La ñ llegó a ser un símbolo de la lengua española. En 1991, un informe de la Comunidad Europea recomendó anular una norma que impedía vender en España productos informáticos sin soporte para la ñ, lo que habría permitido distribuir teclados sin esa tecla. La Real Academia Española calificó la propuesta de grave ataque contra la lengua, y la ñ conservó su lugar: hoy tiene su propia tecla en los teclados de España y de América Latina. Cuando el código Morse se extendió a otros idiomas además del inglés, también se le asignó una secuencia propia.",
    "sources": [
     {
      "t": "Wikipedia — Ñ",
@@ -10634,7 +10650,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -10650,6 +10666,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Movido a la nueva categoría Lengua y literatura"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17567,7 +17587,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Nuestras letras descienden de un alfabeto fenicio de hace unos 3.000 años",
    "desc": "Los griegos lo adaptaron añadiendo vocales; de ahí vino el alfabeto latino.",
-   "body": "Los fenicios, comerciantes del Mediterráneo oriental, usaban un alfabeto de consonantes. Los griegos lo adoptaron y añadieron letras para las vocales. Del alfabeto griego derivaron el etrusco y el latino, que es el que usamos hoy en español. La palabra «alfabeto» viene de las dos primeras letras griegas: alfa y beta.",
+   "body": "Los fenicios, comerciantes del Mediterráneo oriental, en la costa del actual Líbano, usaban un alfabeto de 22 letras que solo representaban consonantes, y que se escribía de derecha a izquierda. Las vocales no se escribían: el lector las deducía. Gracias a su comercio por todo el Mediterráneo, su escritura se difundió y fue adoptada y adaptada por muchos otros pueblos.\n\nLos griegos lo adoptaron y añadieron letras para las vocales. El historiador griego Heródoto ya contaba que fueron los fenicios llegados con Cadmo quienes llevaron a Grecia, entre otros conocimientos, el alfabeto, hasta entonces desconocido allí. Una variante del alfabeto griego, la de Cumas, en Italia, dio origen a los alfabetos itálicos, entre ellos el etrusco y el latino, que es el que usamos hoy en español.",
+   "deep": "El alfabeto fenicio es una continuación directa de la escritura protocananea de la Edad del Bronce, y una de sus inscripciones más famosas es el epitafio del rey Ahiram, grabado en su sarcófago en Biblos, en el Líbano. De la misma raíz salieron también otros alfabetos: sus descendientes directos incluyen el arameo y el samaritano, y, a través del griego, nació el cirílico. Incluso las runas germánicas derivan de los alfabetos itálicos. La palabra «alfabeto» viene de las dos primeras letras griegas, alfa y beta, que tienen su origen en las primeras letras del alfabeto fenicio.",
    "sources": [
     {
      "t": "Universidad (perseus.tufts.edu) — Herodotus, The Histories, Book 5, chapter 58, section 1",
@@ -17592,7 +17613,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -17612,6 +17633,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Movido a la nueva categoría Lengua y literatura"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -17663,7 +17688,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El primer Nobel de Literatura de América Latina fue para una mujer",
    "desc": "La chilena Gabriela Mistral lo recibió en 1945.",
-   "body": "Gabriela Mistral era poeta, maestra y diplomática. Su obra trata temas como el amor, la maternidad, la infancia y la identidad latinoamericana. Fue la primera persona de América Latina en ganar el Nobel de Literatura, seis años antes de que lo recibiera cualquier otro latinoamericano.",
+   "body": "Gabriela Mistral, cuyo nombre real era Lucila Godoy Alcayaga, nació en 1889 en Vicuña, Chile, y creció en Montegrande, un pueblo andino donde estudió en una escuela primaria en la que enseñaba su hermana mayor. Era poeta, maestra, periodista y diplomática. Desde los quince años trabajó para mantenerse a sí misma y a su madre, y llegó a dirigir liceos en distintas ciudades de Chile.\n\nEn 1945 se convirtió en la primera persona de América Latina en ganar el Premio Nobel de Literatura, «por su poesía lírica». Su obra trata temas como el amor, la maternidad, la infancia, la naturaleza, la religión y la identidad latinoamericana. Su primer libro, «Desolación», de 1922, sigue siendo celebrado en todo el mundo hispanohablante. Fue la primera latinoamericana en recibir el Nobel, seis años antes de que lo recibiera cualquier otro latinoamericano.",
+   "deep": "Mistral conoció a un joven Pablo Neruda cuando se mudó a Temuco, su ciudad natal, en 1920: le dio a conocer su poesía y le recomendó lecturas, y entre ambos nació una amistad para toda la vida. Neruda sería el segundo chileno en ganar el Nobel de Literatura. Como muchos artistas e intelectuales latinoamericanos, Mistral trabajó como cónsul de Chile desde 1932 hasta su muerte, en ciudades como Nápoles, Madrid, Lisboa, Niza, Petrópolis, Los Ángeles o Veracruz. Murió en 1957 en Hempstead, en el estado de Nueva York. Su rostro aparece en el billete de 5000 pesos chilenos, y su seudónimo combina el nombre del arcángel Gabriel y el mistral, un viento del sur de Francia.",
    "sources": [
     {
      "t": "Fundación Nobel — The Nobel Prize in Literature 1945",
@@ -17688,7 +17714,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -17708,6 +17734,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Movido a la nueva categoría Lengua y literatura"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -22046,7 +22076,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La primera parte del Quijote se publicó en 1605",
    "desc": "Muchos la consideran la primera novela moderna.",
-   "body": "Miguel de Cervantes publicó la segunda parte en 1615. Entre medias apareció una continuación falsa escrita por un autor con seudónimo, Alonso Fernández de Avellaneda, y Cervantes se burló de ella en su propia segunda parte. El Quijote es una de las obras más traducidas de la historia.",
+   "body": "«El ingenioso hidalgo don Quijote de la Mancha», de Miguel de Cervantes, se publicó en dos partes, en 1605 y 1615. Cuenta la historia de Alonso Quijano, un hidalgo de La Mancha que lee tantos libros de caballerías que pierde el juicio y decide convertirse en caballero andante. Se pone una vieja armadura, se rebautiza como don Quijote, llama Rocinante a su viejo caballo y elige como dama a Aldonza Lorenzo, a la que llama Dulcinea.\n\nLo acompaña como escudero Sancho Panza, un labrador sencillo y analfabeto, cuyo sentido común contrasta con los delirios idealistas de su señor. Entre las dos partes apareció una continuación falsa escrita por un autor con seudónimo, Alonso Fernández de Avellaneda, cuya identidad nunca se ha aclarado, y Cervantes se burló de ella en su propia segunda parte, que escribió con prisa por su aparición.",
+   "deep": "El Quijote se considera una obra fundacional de la literatura occidental y la primera novela moderna. Es uno de los libros más traducidos del mundo y uno de los más vendidos de la historia. Parte de su genialidad está en que, a la vez que parodia las novelas de caballerías que estaban de moda, plantea preguntas profundas sobre la realidad y la imaginación, la locura y la cordura, los ideales y el mundo práctico. De su protagonista nació incluso un adjetivo: «quijotesco», que se usa para describir a quien defiende ideales nobles de forma idealista, aunque sea poco práctica.",
    "sources": [
     {
      "t": "Wikipedia — Don Quixote",
@@ -22071,7 +22102,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -22087,6 +22118,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Movido a la nueva categoría Lengua y literatura"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -23656,7 +23691,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Solo» y «este» se escriben, en principio, sin tilde",
    "desc": "Según las reglas generales de acentuación, «solo» y los demostrativos no llevan tilde. Solo es opcional ponerla si quien escribe ve riesgo de ambigüedad.",
-   "body": "Según la FundéuRAE, la palabra «solo», sea adjetivo («está solo») o adverbio («solamente»), no lleva tilde por las reglas generales de acentuación: es una palabra llana terminada en vocal. Lo mismo ocurre con los demostrativos «este», «ese» y «aquel» y sus femeninos y plurales. A estas palabras no se les aplica la tilde diacrítica, que sirve para distinguir palabras iguales en las que una es tónica y la otra átona, como «té» y «te» o «más» y «mas», porque «solo» y los demostrativos siempre son tónicos. Por eso, no tildarlas nunca es adecuado en cualquier contexto. Aun así, según la segunda edición del Diccionario panhispánico de dudas, es opcional tildar el adverbio «solo» y los demostrativos cuando funcionan como pronombres si quien escribe percibe riesgo de ambigüedad. El adjetivo nunca se tilda: «está bastante solo», no «está bastante sólo». Y «esto», «eso» y «aquello» no llevan tilde nunca.",
+   "body": "Según la FundéuRAE, la palabra «solo», sea adjetivo («está solo») o adverbio («solamente»), no lleva tilde por las reglas generales de acentuación: es una palabra llana terminada en vocal. Lo mismo ocurre con los demostrativos «este», «ese» y «aquel» y sus femeninos y plurales. A estas palabras no se les aplica la tilde diacrítica, que sirve para distinguir palabras iguales en las que una es tónica y la otra átona, como «té» y «te» o «más» y «mas», porque «solo» y los demostrativos siempre son tónicos. Por eso, no tildarlas nunca es adecuado en cualquier contexto.\n\nAun así, según la segunda edición del Diccionario panhispánico de dudas, es opcional tildar el adverbio «solo» y los demostrativos cuando funcionan como pronombres si quien escribe percibe riesgo de ambigüedad. El adjetivo nunca se tilda: «está bastante solo», no «está bastante sólo». Y «esto», «eso» y «aquello» no llevan tilde nunca.",
+   "deep": "En los medios todavía es frecuente ver frases como «Sólo se permite circular a los vehículos diésel» o «Éste es el barrio más barato». Según la FundéuRAE, lo adecuado en principio es escribir «solo» y «este» sin tilde, aunque la tilde también se acepta, de forma opcional, si quien redactó la frase percibe que sin ella podría ser ambigua. Un ejemplo con los demostrativos: «Vino aquélla», usado como pronombre, frente a «Vino aquella chica», donde acompaña a un sustantivo. Los neutros «esto», «eso» y «aquello» siempre funcionan como pronombres, y por eso no hay nada que distinguir: nunca llevan tilde. La FundéuRAE actualizó estas recomendaciones para incorporar lo que dice la segunda edición del Diccionario panhispánico de dudas.",
    "sources": [
     {
      "t": "FundéuRAE (Fundación del Español Urgente) — «solo» no necesita tilde",
@@ -23697,13 +23733,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (nueva categoría Lengua y literatura)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -23715,7 +23755,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Guion» se escribe sin tilde, y antes de 1884 tampoco la llevaba",
    "desc": "Para la ortografía, «guion», «truhan», «fie» o «liais» son monosílabos, aunque mucha gente los pronuncie en dos sílabas.",
-   "body": "Según la FundéuRAE, todas las ediciones del diccionario académico entre 1780 y 1869 escribían «guion» sin tilde. Desde la edición de 1884 se tildaba, pero la Ortografía de 2010 volvió a quitársela, porque era una anomalía del sistema. La explicación está en las sílabas: unos hablantes pronuncian «guion» en una sola sílaba y otros en dos (gui-ón). Para evitar que cada persona tildara según su pronunciación, la Ortografía estableció convenciones fijas, y según ellas palabras como «guion», «truhan», la forma verbal «fie» o «liais» se consideran monosílabas a efectos ortográficos. Como las palabras de una sola sílaba no se acentúan nunca, salvo en los casos de tilde diacrítica, lo apropiado es escribir «el guion de la película» y «un truhan», sin tilde.",
+   "body": "Según la FundéuRAE, todas las ediciones del diccionario académico entre 1780 y 1869 escribían «guion» sin tilde. Desde la edición de 1884 se tildaba, pero la Ortografía de 2010 volvió a quitársela, porque era una anomalía del sistema. La explicación está en las sílabas: unos hablantes pronuncian «guion» en una sola sílaba y otros en dos (gui-ón).\n\nPara evitar que cada persona tildara según su pronunciación, la Ortografía estableció convenciones fijas, y según ellas palabras como «guion», «truhan», la forma verbal «fie» o «liais» se consideran monosílabas a efectos ortográficos. Como las palabras de una sola sílaba no se acentúan nunca, salvo en los casos de tilde diacrítica, lo apropiado es escribir «el guion de la película» y «un truhan», sin tilde.",
+   "deep": "La tilde de «guion» solo se justificaba si se entendía que, pronunciada en dos sílabas, era una palabra aguda terminada en «n», como «camión». Pero la Ortografía de la lengua española explica que la unión de una vocal cerrada átona, «i» o «u», con una vocal abierta, «a», «e» u «o», puede pronunciarse como diptongo, en una sola sílaba, o como hiato, en dos, según factores diversos. Para evitar lo que llama «una indeseable falta de unidad ortográfica», se fijaron convenciones que deciden qué secuencias se consideran siempre diptongos a efectos de escritura, se pronuncien como se pronuncien. Por eso, en noticias de cine lo correcto es «el Goya al mejor guion adaptado», sin tilde, y, del mismo modo, «un régimen truhan». Recuerda: las palabras de una sola sílaba como «mes», «sol», «fe» o «ya» nunca se tildan.",
    "sources": [
     {
      "t": "FundéuRAE (Fundación del Español Urgente) — guion se escribe sin tilde",
@@ -23746,13 +23787,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (nueva categoría Lengua y literatura)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -23764,7 +23809,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Porque», «porqué», «por qué» y «por que» no son lo mismo",
    "desc": "Cuatro formas que suenan casi igual y cumplen funciones distintas. Hay trucos sencillos para distinguirlas.",
-   "body": "La FundéuRAE resume así la diferencia. «Porqué» es un sustantivo que significa «causa», «motivo» o «razón», y tiene plural: «explica el porqué de su valor», «los porqués del entrenador». «Por qué» une la preposición «por» y el interrogativo «qué»; se reconoce porque se le puede añadir «razón»: «le preguntaron por qué (razón) ingresó al club». «Porque» es una conjunción que equivale a «puesto que» o «ya que»: «es difícil porque hay tres equipos muy buenos»; con un verbo en subjuntivo también puede significar «para que», y en ese caso vale escribirlo junto o separado. «Por que» combina «por» con el relativo «que», y casi siempre admite un artículo en medio: «ese es el motivo por (el) que decidió no ir». También aparece cuando el verbo exige «por»: «votaron por que no se convoque la huelga».",
+   "body": "La FundéuRAE resume así la diferencia. «Porqué» es un sustantivo que significa «causa», «motivo» o «razón», y tiene plural: «explica el porqué de su valor», «los porqués del entrenador». «Por qué» une la preposición «por» y el interrogativo «qué»; se reconoce porque se le puede añadir «razón»: «le preguntaron por qué (razón) ingresó al club».\n\n«Porque» es una conjunción que equivale a «puesto que» o «ya que»: «es difícil porque hay tres equipos muy buenos»; con un verbo en subjuntivo también puede significar «para que», y en ese caso vale escribirlo junto o separado. «Por que» combina «por» con el relativo «que», y casi siempre admite un artículo en medio: «ese es el motivo por (el) que decidió no ir». También aparece cuando el verbo exige «por»: «votaron por que no se convoque la huelga».",
+   "deep": "Un buen truco para recordarlo es fijarse en las pistas de cada forma. Si se puede poner un artículo delante, como en «el porqué» o «los porqués», es el sustantivo y va junto y con tilde. Si se trata de una pregunta, directa o indirecta, y admite añadir «razón», es «por qué», separado y con tilde: «¿Por qué no aumenta el número de viviendas?» o «no sé por qué se fue». Si responde a una pregunta o explica una causa, es «porque», junto y sin tilde. Y si entre «por» y «que» cabe un artículo, como «el», «la», «los» o «las», es «por que», separado y sin tilde. Según la FundéuRAE, en los medios escritos es muy frecuente confundir estas cuatro formas, así que vale la pena repasarlas.",
    "sources": [
     {
      "t": "FundéuRAE (Fundación del Español Urgente) — «porqué», «porque», «por que» y «por qué»",
@@ -23794,13 +23840,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (nueva categoría Lengua y literatura)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -23812,7 +23862,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«A ver» y «haber» suenan igual, pero no significan lo mismo",
    "desc": "Son homófonas. Un truco: si sigue un participio («haber dicho»), es el verbo «haber».",
-   "body": "Según la FundéuRAE, «a ver» y «haber» son homófonas: se escriben distinto pero suenan igual. «A ver» (preposición «a» más el verbo «ver») sirve, entre otros usos, para pedir ver algo («¿A ver tu coche nuevo?»), para expresar interés por saber algo («A ver cómo salimos de esta»), para llamar la atención de alguien («A ver, necesito tu ayuda») y, seguido de «si», para expresar temor, deseo o mandato («A ver si llega pronto»). En cambio, se escribe «haber» cuando va seguido de un participio y forma un tiempo compuesto («Siento haber dicho eso»), cuando se reprocha algo que alguien hizo o no hizo («¡Haber llamado antes de venir!») y cuando significa «existir» o «hallarse» («Tiene que haber mucha gente»).",
+   "body": "Según la FundéuRAE, «a ver» y «haber» son homófonas: se escriben distinto pero suenan igual. «A ver» (preposición «a» más el verbo «ver») sirve, entre otros usos, para pedir ver algo («¿A ver tu coche nuevo?»), para expresar interés por saber algo («A ver cómo salimos de esta»), para llamar la atención de alguien («A ver, necesito tu ayuda») y, seguido de «si», para expresar temor, deseo o mandato («A ver si llega pronto»).\n\nEn cambio, se escribe «haber» cuando va seguido de un participio y forma un tiempo compuesto («Siento haber dicho eso»), cuando se reprocha algo que alguien hizo o no hizo («¡Haber llamado antes de venir!») y cuando significa «existir» o «hallarse» («Tiene que haber mucha gente»).",
+   "deep": "«A ver» tiene todavía otros usos. Sirve para aceptar algo que se cree inevitable, con el sentido de «claro» o «naturalmente»: «¡A ver! Teníamos que solucionarlo de alguna manera». Y también aparece combinado con otros verbos, con el sentido de «para ver»: «Vienen a ver la casa», «Fuimos a ver la película» o «Salgo a ver qué pasa». En todos estos casos, la clave es que hay un verbo «ver» detrás. Con «haber», en cambio, suele haber un participio, como «comprado» o «dicho», o el sentido de existir: «Podrías haber comprado otro libro», «Puede haber más de un premiado». Un truco útil: si la frase se refiere a mirar, conocer o comprobar algo, es «a ver»; si puedes cambiarla por «existir» o va seguida de un participio, es «haber».",
    "sources": [
     {
      "t": "FundéuRAE (Fundación del Español Urgente) — a ver y haber, diferencias",
@@ -23843,13 +23894,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (nueva categoría Lengua y literatura)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -23861,7 +23916,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Las mayúsculas sí llevan tilde: la costumbre de quitarla viene de las imprentas",
    "desc": "«Épico», «CAPÍTULO» y «Los Ángeles» se escriben con tilde. Las siglas, en cambio, no la llevan nunca.",
-   "body": "Está muy extendida la idea de que las mayúsculas no se tildan, pero, como recuerda la FundéuRAE citando la Ortografía de la lengua española, las mayúsculas se acentúan obligatoriamente cuando la palabra lo requiere, tanto si es solo la inicial como si toda la palabra va en mayúsculas: «Los Ángeles», «Épico triunfo», «CAPÍTULO 1». La costumbre de no tildarlas empezó con la composición manual en las imprentas, por problemas técnicos, y siguió con las máquinas de escribir, por razones estéticas. La excepción son las siglas escritas enteramente en mayúsculas, que nunca llevan tilde, aunque la palabra de la que proceden sí la tenga: se escribe «IMC» aunque venga de «índice».",
+   "body": "Está muy extendida la idea de que las mayúsculas no se tildan, pero, como recuerda la FundéuRAE citando la Ortografía de la lengua española, las mayúsculas se acentúan obligatoriamente cuando la palabra lo requiere, tanto si es solo la inicial como si toda la palabra va en mayúsculas: «Los Ángeles», «Épico triunfo», «CAPÍTULO 1».\n\nLa costumbre de no tildarlas empezó con la composición manual en las imprentas, por problemas técnicos, y siguió con las máquinas de escribir, por razones estéticas. La excepción son las siglas escritas enteramente en mayúsculas, que nunca llevan tilde, aunque la palabra de la que proceden sí la tenga: se escribe «IMC» aunque venga de «índice».",
+   "deep": "Hoy la composición de textos ya no depende de la imprenta manual ni de la máquina de escribir, y los teclados de computadoras y teléfonos permiten tildar las mayúsculas sin dificultad. Escribir «Los Angeles» o «CAPITULO» sin tilde es, según la norma, un error. Otro ejemplo de sigla es «CIA»: aunque contiene un hiato que en una palabra normal exigiría tildar la «i», como sigla se escribe siempre sin tilde. Lo mismo ocurre con «IMC», que no lleva tilde aunque la palabra «índice», de la que sale la «I», sí la tenga.",
    "sources": [
     {
      "t": "FundéuRAE (Fundación del Español Urgente) — mayúsculas, sí se tildan",
@@ -23892,13 +23948,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (nueva categoría Lengua y literatura)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -23910,7 +23970,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Sino» o «si no»: el truco para no equivocarse",
    "desc": "Si se puede meter una palabra entre «si» y «no» sin que cambie el sentido, se escribe separado.",
-   "body": "Según la FundéuRAE, «si no» se escribe en dos palabras cuando tiene valor condicional negativo: «declarará el estado de emergencia si no se aprueba el presupuesto». También cuando equivale a «de lo contrario». En los demás casos se escribe «sino», junto: cuando contrapone una afirmación a algo negado («no piensa despedir a nadie, sino retomar el plan»), cuando equivale a «más que», «salvo» o «excepto» («¿Quién sino ellos podría haberlo hecho?»), en la construcción «no solo…, sino también», y cuando es un sustantivo que significa «destino» o «fatalidad». El truco: si entre «si» y «no» se puede intercalar algo sin perder el sentido («si el juez no hubiera intervenido»), se trata de «si» más «no», y va separado.",
+   "body": "Según la FundéuRAE, «si no» se escribe en dos palabras cuando tiene valor condicional negativo: «declarará el estado de emergencia si no se aprueba el presupuesto». También cuando equivale a «de lo contrario».\n\nEn los demás casos se escribe «sino», junto: cuando contrapone una afirmación a algo negado («no piensa despedir a nadie, sino retomar el plan»), cuando equivale a «más que», «salvo» o «excepto» («¿Quién sino ellos podría haberlo hecho?»), en la construcción «no solo…, sino también», y cuando es un sustantivo que significa «destino» o «fatalidad». El truco: si entre «si» y «no» se puede intercalar algo sin perder el sentido («si el juez no hubiera intervenido»), se trata de «si» más «no», y va separado.",
+   "deep": "Algunos ejemplos ayudan a fijarlo. «Exige que se apruebe el presupuesto y amenaza, si no, con declarar el estado de emergencia»: aquí «si no» significa «en caso contrario», y va separado. «La película no solo habla de la manipulación de la información, sino también de la manipulación humana»: es la construcción «no solo…, sino también», y va junto. «Ese encuentro no hizo sino agravar las discrepancias»: equivale a «no hizo más que», y va junto. Y en «el sino educativo», «sino» es un sustantivo que significa «destino». En resumen, la FundéuRAE lo explica así: «si no» va separado cuando expresa una condición negativa, y «sino» va junto en todos los demás casos.",
    "sources": [
     {
      "t": "FundéuRAE (Fundación del Español Urgente) — sino y si no, claves de redacción",
@@ -23932,13 +23993,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (nueva categoría Lengua y literatura)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -23950,7 +24015,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La «ch» y la «ll» fueron letras del abecedario hasta 2010",
    "desc": "Hoy el abecedario español tiene 27 letras. La «ch» y la «ll» siguen existiendo, pero como dígrafos.",
-   "body": "Según el Diccionario panhispánico de dudas de la RAE, la «ch» fue considerada una letra del abecedario español, con el nombre de «che», desde 1803 hasta la Ortografía académica de 2010. Esa edición las excluyó definitivamente, a ella y a la «ll», porque en realidad no son letras sino dígrafos: combinaciones de dos letras que representan un solo sonido. Ningún dígrafo forma parte del abecedario, tampoco «qu», «gu» o «rr». Así, el abecedario del español quedó formado por 27 letras: a, b, c, d, e, f, g, h, i, j, k, l, m, n, ñ, o, p, q, r, s, t, u, v, w, x, y, z. Con esa decisión, el español se igualó a las demás lenguas de escritura alfabética, en las que solo los signos simples cuentan como letras. La «ch» y la «ll» no desaparecen de la escritura: se siguen usando igual.",
+   "body": "Según el Diccionario panhispánico de dudas de la RAE, la «ch» fue considerada una letra del abecedario español, con el nombre de «che», desde 1803 hasta la Ortografía académica de 2010. Esa edición las excluyó definitivamente, a ella y a la «ll», porque en realidad no son letras sino dígrafos: combinaciones de dos letras que representan un solo sonido. Ningún dígrafo forma parte del abecedario, tampoco «qu», «gu» o «rr».\n\nAsí, el abecedario del español quedó formado por 27 letras: a, b, c, d, e, f, g, h, i, j, k, l, m, n, ñ, o, p, q, r, s, t, u, v, w, x, y, z. Con esa decisión, el español se igualó a las demás lenguas de escritura alfabética, en las que solo los signos simples cuentan como letras. La «ch» y la «ll» no desaparecen de la escritura: se siguen usando igual.",
+   "deep": "Que sean dígrafos tiene consecuencias prácticas a la hora de escribir. Como todo dígrafo, la «ch» no puede dividirse con un guion al final de una línea: no se puede separar la «c» de la «h». Cuando una palabra que empieza por «ch» se escribe con mayúscula inicial, solo va en mayúscula la primera letra: «Chile», y no «CHile». Y en las siglas se usa únicamente la «C» mayúscula, como en «PCCh». En cuanto a su sonido, en el español general la «ch» representa una consonante llamada africada palatal, aunque en algunas zonas de Hispanoamérica y del sur de España se pronuncia de forma parecida a la «sh» del inglés. Su nombre es femenino: «la che», y su plural, «las ches».",
    "sources": [
     {
      "t": "Real Academia Española (RAE) — Exclusión de «ch» y «ll» del abecedario (Español al día)",
@@ -23996,13 +24062,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados contra el texto publicado por la RAE (consultado mediante su buscador y extractos oficiales); revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (nueva categoría Lengua y literatura)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -24064,7 +24134,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Cristina Fernández Cubas, Premio Cervantes 2026: la séptima mujer en recibirlo",
    "desc": "El jurado premió una obra que, según su fallo, renovó el cuento contemporáneo y la literatura fantástica en español.",
-   "body": "Según la FundéuRAE, el jurado concedió el Premio Cervantes 2026 a la escritora y periodista Cristina Fernández Cubas por una obra que, en palabras del fallo, «ha renovado el cuento contemporáneo y transformado la literatura fantástica en español». Nacida en Arenys de Mar (Barcelona) en 1945, es la séptima mujer que obtiene el galardón, después de María Zambrano (1988), Dulce María Loynaz (1992), Ana María Matute (2010), Elena Poniatowska (2013), Ida Vitale (2018) y Cristina Peri Rossi (2021). Entre sus libros de relatos figuran Mi hermana Elba (1980), El ángulo del horror (1990) y La habitación de Nona (2015). También recibió el Premio Nacional de Narrativa en 2016 y el Premio Nacional de las Letras Españolas en 2023.",
+   "body": "Según la FundéuRAE, el jurado concedió el Premio Cervantes 2026 a la escritora y periodista Cristina Fernández Cubas por una obra que, en palabras del fallo, «ha renovado el cuento contemporáneo y transformado la literatura fantástica en español». Nacida en Arenys de Mar (Barcelona) en 1945, es la séptima mujer que obtiene el galardón, después de María Zambrano (1988), Dulce María Loynaz (1992), Ana María Matute (2010), Elena Poniatowska (2013), Ida Vitale (2018) y Cristina Peri Rossi (2021).\n\nEntre sus libros de relatos figuran Mi hermana Elba (1980), El ángulo del horror (1990) y La habitación de Nona (2015). También recibió el Premio Nacional de Narrativa en 2016 y el Premio Nacional de las Letras Españolas en 2023.",
+   "deep": "El fallo destaca que su trayectoria ha ayudado a revalorizar el relato breve como una forma de expresión autónoma, capaz de alcanzar la máxima intensidad. También subraya que sus cuentos no ofrecen explicaciones tranquilizadoras, sino que preservan la ambigüedad y usan la imaginación para explorar la experiencia humana, con personajes que desafían las convenciones. Fernández Cubas estudió Derecho y Periodismo y trabajó como periodista antes de dedicarse por completo a la literatura, y ha vivido en ciudades como El Cairo, Lima, Buenos Aires, Berlín y París. El jurado lo presidió el escritor Gonzalo Celorio, ganador del premio en la edición anterior, e incluía representantes de la Real Academia Española, el Instituto Cervantes y la Asociación Internacional de Hispanistas, entre otros.",
    "sources": [
     {
      "t": "FundéuRAE (Fundación del Español Urgente) — Cristina Fernández Cubas, Premio Cervantes 2026",
@@ -24095,13 +24166,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (nueva categoría Lengua y literatura)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -24113,7 +24188,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "García Márquez ganó el Nobel por mezclar lo fantástico y lo real",
    "desc": "En 1982, la Academia Sueca premió al autor de Cien años de soledad, uno de los grandes del realismo mágico.",
-   "body": "El Premio Nobel de Literatura de 1982 fue para el colombiano Gabriel García Márquez, «por sus novelas y cuentos, en los que lo fantástico y lo realista se combinan en un mundo de imaginación ricamente compuesto, que refleja la vida y los conflictos de un continente», según la Fundación Nobel. Nació el 6 de marzo de 1927 en Aracataca (Colombia), dejó los estudios de Derecho para dedicarse al periodismo y a la escritura, y en las décadas de 1950 y 1960 trabajó como corresponsal en lugares como París y Nueva York. Su gran salto internacional llegó con la novela Cien años de soledad (1967). La Fundación Nobel lo describe como uno de los principales exponentes del realismo mágico, un género en el que la historia transcurre en un lugar y un tiempo reales, pero incluye elementos sobrenaturales y oníricos. Murió el 17 de abril de 2014 en Ciudad de México.",
+   "body": "El Premio Nobel de Literatura de 1982 fue para el colombiano Gabriel García Márquez, «por sus novelas y cuentos, en los que lo fantástico y lo realista se combinan en un mundo de imaginación ricamente compuesto, que refleja la vida y los conflictos de un continente», según la Fundación Nobel. Nació el 6 de marzo de 1927 en Aracataca (Colombia), dejó los estudios de Derecho para dedicarse al periodismo y a la escritura, y en las décadas de 1950 y 1960 trabajó como corresponsal en lugares como París y Nueva York.\n\nSu gran salto internacional llegó con la novela Cien años de soledad (1967). La Fundación Nobel lo describe como uno de los principales exponentes del realismo mágico, un género en el que la historia transcurre en un lugar y un tiempo reales, pero incluye elementos sobrenaturales y oníricos. Murió el 17 de abril de 2014 en Ciudad de México.",
+   "deep": "Según la Fundación Nobel, a los 13 años se fue a Bogotá para estudiar la secundaria, y a finales de los años sesenta dejó el periodismo para dedicarse por completo a escribir. Terminó estableciéndose en Ciudad de México, donde vivía cuando recibió el premio y donde vivió hasta su muerte. Después de «Cien años de soledad», novelas como «El otoño del patriarca», de 1975, y «El amor en los tiempos del cólera», de 1985, consolidaron su lugar como uno de los mayores escritores latinoamericanos de todos los tiempos. Recibió el premio completo, sin compartirlo con nadie, y su lengua de escritura fue siempre el español. En el momento del premio residía en México, el país donde pasó buena parte de su vida.",
    "sources": [
     {
      "t": "Fundación Nobel (nobelprize.org) — Gabriel García Márquez — Facts",
@@ -24142,13 +24218,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (nueva categoría Lengua y literatura)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
