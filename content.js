@@ -3480,7 +3480,8 @@ window.SQ_CONTENT = {
    "sub": "Platón",
    "title": "Hace 2.400 años, Platón describió prisioneros que solo veían sombras",
    "desc": "La alegoría de la caverna sigue usándose para hablar de educación, medios y realidad.",
-   "body": "En su obra La República, Platón imagina personas encadenadas en una cueva desde su nacimiento, que solo ven sombras proyectadas en una pared y creen que eso es todo lo que existe. Uno de ellos escapa, ve el mundo real y vuelve para contarlo, pero los demás no le creen. Para Platón, representaba el paso de la ignorancia al conocimiento.",
+   "body": "En el libro VII de su obra La República, escrita hace unos 2.400 años, Platón pone en boca de Sócrates una de las imágenes más famosas de la filosofía. Imagina personas encadenadas en una cueva desde su nacimiento, que solo ven sombras proyectadas en una pared y creen que eso es todo lo que existe. Detrás de ellas arde un fuego, y por un camino pasan figuras que llevan objetos cuyas sombras se proyectan en la pared; los ecos de sus voces parecen salir de las propias sombras.\n\nUno de ellos escapa, sube hacia la salida y, deslumbrado al principio, ve poco a poco el mundo real y finalmente el sol. Después vuelve para contarlo, pero los demás no le creen y se burlan de él. Para Platón, representaba el paso de la ignorancia al conocimiento: la verdadera educación es «girar el alma» de las sombras hacia la comprensión de la realidad.",
+   "deep": "La alegoría forma parte de una serie de tres imágenes, junto con las del Sol y de la línea, con las que Platón explica su teoría de las Formas o Ideas: el mundo que percibimos con los sentidos sería como las sombras de la cueva, mientras que la verdadera realidad serían las Formas, que solo se conocen con la razón. El sol fuera de la cueva representa la Forma del Bien, el principio supremo. En la República, Platón sostiene que quien logra salir de la cueva, el filósofo, tiene el deber de volver a ella para ayudar a gobernar a los demás, aunque no lo deseen ni lo entiendan.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Plato’s Ethics: An Overview",
@@ -3519,7 +3520,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -3535,6 +3536,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -8437,7 +8442,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Sócrates, uno de los filósofos más famosos, no escribió nada",
    "desc": "Lo conocemos sobre todo por lo que escribieron sus discípulos, como Platón y Jenofonte.",
-   "body": "Sócrates prefería la conversación y el diálogo a la escritura. Casi todo lo que sabemos de él viene de los diálogos de Platón, de Jenofonte y de la comedia de Aristófanes, que se burló de él. Por eso los estudiosos discuten cuánto de lo que dice el Sócrates de Platón era realmente suyo. Fue condenado a muerte en Atenas en el 399 a. C.",
+   "body": "Sócrates, que vivió en Atenas entre el 469 y el 399 antes de Cristo, es considerado uno de los pocos filósofos que cambiaron para siempre la forma de entender la filosofía, y sin embargo no escribió nada. Prefería la conversación y el diálogo a la escritura. Su método, llamado «elenchos» o método socrático, consistía en hacer preguntas cortas para examinar las ideas de su interlocutor hasta mostrar sus contradicciones.\n\nCasi todo lo que sabemos de él viene de los diálogos de Platón, de Jenofonte y de la comedia «Las nubes» de Aristófanes, que se burló de él. Por eso los estudiosos discuten cuánto de lo que dice el Sócrates de Platón era realmente suyo: es lo que se llama «el problema socrático». Fue condenado a muerte en Atenas en el 399 a. C.",
+   "deep": "Un ciudadano llamado Meleto lo acusó de impiedad, es decir, de no honrar a los dioses de Atenas, y de corromper a la juventud. Sócrates se defendió ante el tribunal, como narra Platón en la «Apología», pero fue condenado y murió bebiendo cicuta, el veneno usado en las ejecuciones. Según Platón, el oráculo de Delfos había dicho que no había nadie más sabio que Sócrates, y él lo interpretó en el sentido de que, a diferencia de los demás, era consciente de su propia ignorancia. También hablaba de una voz interior, su «daimonion», que le advertía cuando iba a cometer un error.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Socrates",
@@ -8462,7 +8468,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -8478,6 +8484,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -8489,7 +8499,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Un filósofo vivía en una tinaja y le pidió a Alejandro Magno que se apartara",
    "desc": "Diógenes de Sinope practicaba una vida de extrema sencillez.",
-   "body": "Diógenes, de la escuela cínica, rechazaba las convenciones sociales y vivía con lo mínimo, según la tradición dentro de una gran tinaja de barro en Atenas. Una anécdota famosa cuenta que Alejandro Magno lo visitó y le ofreció lo que quisiera; Diógenes le contestó que se apartara, porque le tapaba el sol.",
+   "body": "Diógenes de Sinope, que vivió aproximadamente entre el 404 y el 323 antes de Cristo, fue el más ilustre de los filósofos cínicos. Rechazaba las convenciones sociales y vivía con lo mínimo, según la tradición dentro de una gran tinaja de barro en Atenas. Para los cínicos, vivir según la razón era vivir según la naturaleza, y todo lo demás sobraba. Se proclamaba «ciudadano del mundo», una de las primeras formulaciones del cosmopolitismo.\n\nUna anécdota famosa cuenta que Alejandro Magno lo visitó y le ofreció lo que quisiera; Diógenes le contestó que se apartara, porque le tapaba el sol. Se cuenta también que caminaba a plena luz del día con una lámpara encendida y decía: «Busco a un ser humano».",
+   "deep": "Diógenes nació en una familia acomodada de Sinope, pero un escándalo por la falsificación de moneda provocó su exilio. Según la tradición, fue discípulo de Antístenes, y mantuvo su austeridad y su interés por la ética, pero con un sentido del humor sin igual. Cuando Platón definió al ser humano como «un bípedo sin plumas», Diógenes desplumó un pollo, lo llevó a su escuela y dijo: «Aquí tienes al hombre de Platón»; Platón tuvo que añadir a su definición «de uñas anchas». Preguntado por Diógenes, Platón lo describió como «un Sócrates enloquecido». Según otra historia, fue capturado por piratas y vendido como esclavo en Corinto: cuando le preguntaron qué sabía hacer, respondió: «Gobernar hombres».",
    "sources": [
     {
      "t": "Internet Encyclopedia of Philosophy — Diogenes of Sinope",
@@ -8514,7 +8525,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -8530,6 +8541,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -8541,7 +8556,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La «navaja de Ockham» recomienda no complicar las explicaciones sin necesidad",
    "desc": "Se atribuye al fraile y filósofo inglés Guillermo de Ockham, del siglo XIV.",
-   "body": "La idea es que, entre varias explicaciones que dan cuenta de lo mismo, conviene preferir la que necesita menos suposiciones. No dice que la explicación más simple sea siempre la verdadera, sino que no se deben añadir elementos innecesarios. Es una herramienta muy usada en ciencia.",
+   "body": "La «navaja de Ockham», también llamada principio de parsimonia, lleva el nombre de Guillermo de Ockham, un filósofo y teólogo inglés del siglo XIV. La idea es que, entre varias explicaciones que dan cuenta de lo mismo, conviene preferir la que necesita menos suposiciones. Se suele citar con la frase latina «no hay que multiplicar los entes sin necesidad», aunque Ockham nunca usó esas palabras exactas.\n\nNo dice que la explicación más simple sea siempre la verdadera, sino que no se deben añadir elementos innecesarios. Es una herramienta muy usada en ciencia. Se llama «navaja» porque sirve para «afeitar» de una teoría todo lo que sobra.",
+   "deep": "La idea es más antigua que Ockham: Aristóteles ya escribió en sus «Analíticos posteriores» que era preferible la demostración que se apoya en menos postulados o hipótesis, y Tomás de Aquino defendió que, si algo puede hacerse bien con un solo medio, es superfluo usar varios. Siglos después, Albert Einstein expresó un ideal parecido: el gran objetivo de la ciencia sería explicar el mayor número posible de hechos a partir del menor número posible de hipótesis. Los filósofos distinguen dos tipos de simplicidad: la elegancia, que mide cuántas hipótesis tiene una teoría, y la parsimonia, que mide cuántos tipos de cosas supone que existen.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Simplicity",
@@ -8566,7 +8582,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -8582,6 +8598,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -8593,7 +8613,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Pienso, luego existo» se publicó primero en francés, no en latín",
    "desc": "René Descartes lo escribió en 1637 en el Discurso del método.",
-   "body": "Descartes buscaba una verdad de la que no se pudiera dudar. Concluyó que, aunque dudara de todo, no podía dudar de que estaba pensando, y por tanto de que existía. La frase apareció como «je pense, donc je suis» en 1637. La versión latina, «cogito, ergo sum», se popularizó después.",
+   "body": "El filósofo francés René Descartes buscaba una verdad de la que no se pudiera dudar, sobre la que construir todo el conocimiento. Para encontrarla, decidió dudar de todo: de los sentidos, que a veces engañan, e incluso de que existiera el mundo, imaginando que un genio maligno podía estar engañándolo. Concluyó que, aunque dudara de todo, no podía dudar de que estaba pensando, y por tanto de que existía.\n\nLa frase apareció como «je pense, donc je suis» en 1637, en francés, en su «Discurso del método». La versión latina, «cogito, ergo sum», se popularizó después. Curiosamente, esa formulación exacta no aparece en sus «Meditaciones metafísicas», su obra más famosa sobre el tema. Descartes consideraba esta certeza la primera y más segura a la que llega cualquiera que filosofe con orden.",
+   "deep": "La idea tuvo precursores y desarrollos. Una versión más completa se atribuye a una obra posterior de Descartes: «dubito, ergo sum, vel, quod idem est, cogito, ergo sum», es decir, «dudo, luego soy, o, lo que es lo mismo, pienso, luego soy». El filósofo Pierre Gassendi fue uno de sus críticos más conocidos: objetó que Descartes no necesitaba imaginar un genio maligno que nos engaña, y que habría bastado con señalar la oscuridad de la mente humana o la debilidad de nuestra naturaleza. Pese a las críticas, el «pienso, luego existo» se convirtió en una de las frases más famosas de la filosofía y en el punto de partida de la filosofía moderna.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Pierre Gassendi",
@@ -8626,7 +8647,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -8642,6 +8663,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -8653,7 +8678,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Según una paradoja griega, Aquiles nunca alcanzaría a una tortuga",
    "desc": "Zenón de Elea propuso paradojas para cuestionar el movimiento.",
-   "body": "Si la tortuga sale con ventaja, cuando Aquiles llega a donde estaba la tortuga, ella ya avanzó un poco; cuando llega a ese nuevo punto, ella avanzó otro poco, y así infinitamente. Parece que nunca la alcanzaría. Hoy las matemáticas explican que una suma infinita de distancias cada vez más pequeñas puede dar un resultado finito.",
+   "body": "Zenón de Elea, un filósofo griego nacido hacia el año 490 antes de Cristo, fue cercano a Parmenides y escribió un libro de paradojas para defender su filosofía, según la cual el cambio y el movimiento son ilusiones. La más famosa es la de Aquiles y la tortuga. Si la tortuga sale con ventaja, cuando Aquiles llega a donde estaba la tortuga, ella ya avanzó un poco; cuando llega a ese nuevo punto, ella avanzó otro poco, y así infinitamente. Parece que nunca la alcanzaría.\n\nHoy las matemáticas explican que una suma infinita de distancias cada vez más pequeñas puede dar un resultado finito, y por eso Aquiles alcanza a la tortuga en un tiempo finito. Pero la paradoja obligó durante siglos a pensar con más cuidado sobre el infinito, el espacio y el tiempo.",
+   "deep": "El libro de Zenón no se conserva: conocemos sus paradojas sobre todo por Aristóteles, que las discute en su «Física», y por sus comentaristas, como Simplicio, que escribió mil años después pero aún tenía al menos parte del libro. Además de la de Aquiles, hay otras paradojas famosas sobre el movimiento: la de la dicotomía, según la cual para recorrer una distancia primero hay que recorrer la mitad, luego la mitad de lo que queda, y así infinitamente; la de la flecha, que en cada instante estaría quieta; y la del estadio. Según Platón, Zenón tenía casi 40 años cuando Sócrates era un joven de unos 20.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Zeno’s Paradoxes",
@@ -8678,7 +8704,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -8694,6 +8720,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -8705,7 +8735,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Hipatia de Alejandría fue una de las primeras matemáticas conocidas de la historia",
    "desc": "Enseñó filosofía y astronomía en Alejandría y fue asesinada en el año 415.",
-   "body": "Hipatia fue filósofa neoplatónica, matemática y astrónoma, y dirigió una escuela muy respetada en Alejandría, Egipto. Fue asesinada por una turba en el año 415, en medio de conflictos políticos y religiosos en la ciudad. Su figura se convirtió en un símbolo del saber.",
+   "body": "Hipatia fue filósofa neoplatónica, matemática y astrónoma, y una de las primeras matemáticas conocidas de la historia. Era hija del matemático Teón de Alejandría, con quien estudió, y hacia el año 400 llegó a dirigir la escuela platónica de Alejandría, en Egipto, donde enseñaba matemáticas y filosofía. Escribió comentarios sobre obras matemáticas como la «Aritmética» de Diofanto y las «Cónicas» de Apolonio.\n\nFue asesinada por una turba en el año 415, en medio de conflictos políticos y religiosos en la ciudad. El obispo Cirilo y el prefecto romano Orestes eran rivales políticos, y Hipatia era amiga de Orestes; eso, junto con los prejuicios de algunos cristianos contra sus ideas filosóficas, consideradas paganas, la convirtió en blanco del odio. Su figura se convirtió en un símbolo del saber.",
+   "deep": "Muchas de las cartas que le escribió su alumno Sinesio de Cirene, que después sería obispo, se conservan, y muestran la admiración que sentía por sus conocimientos científicos. En ellas se habla de instrumentos que se le atribuyen, como un astrolabio y un hidroscopio. Las fuentes antiguas describen su muerte con detalles muy crueles. Con los siglos, Hipatia se convirtió en una figura legendaria: el escritor Charles Kingsley la hizo protagonista de una novela, y muchas obras la presentaron como una mártir de la ciencia frente al fanatismo. Los historiadores advierten que algunas de esas versiones exageran o simplifican lo que realmente se sabe de ella.",
    "sources": [
     {
      "t": "Universidad británica (mathshistory.st-andrews.ac.uk) — Hypatia (370 - 415) - Biography - MacTutor History of Mathematics",
@@ -8730,7 +8761,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -8746,6 +8777,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -8757,7 +8792,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Uno de los libros de filosofía más leídos fue escrito por un emperador para sí mismo",
    "desc": "Las Meditaciones de Marco Aurelio eran notas personales, no un libro para publicar.",
-   "body": "Marco Aurelio, emperador romano, escribió reflexiones estoicas para guiarse a sí mismo, muchas durante campañas militares. Las escribió en griego, no en latín. Nunca las pensó como un libro, pero hoy se leen como guía práctica para mantener la calma ante lo que no depende de nosotros.",
+   "body": "Marco Aurelio, emperador romano que reinó entre los años 161 y 180, escribió reflexiones estoicas para guiarse a sí mismo, muchas durante campañas militares. Las escribió en griego koiné, no en latín, en 12 libros. Es posible que buena parte se escribiera en Sirmio, en la actual Serbia, donde planeaba campañas militares; un pasaje indica que una parte se escribió junto al río Hron, en la actual Eslovaquia, y otra en Carnuntum.\n\nNunca las pensó como un libro: la obra no tiene título oficial, y el griego «ta eis heauton», «para sí mismo», es probablemente un añadido posterior. Hoy se leen como guía práctica para mantener la calma ante lo que no depende de nosotros.",
+   "deep": "Las «Meditaciones» muestran la influencia del estoicismo y, en especial, de las enseñanzas de Epicteto. Pueden leerse como una serie de ejercicios filosóficos prácticos para asimilar y poner en práctica la teoría. El texto moderno se basa sobre todo en dos fuentes: un manuscrito conservado en el Vaticano y otro que se perdió, en el que se basó la primera edición impresa, de 1558. Además de las «Meditaciones», se conserva parte de la correspondencia de Marco Aurelio con su maestro de retórica, Frontón, descubierta en 1815 en un palimpsesto, un manuscrito reescrito sobre otro anterior.",
    "sources": [
     {
      "t": "Internet Encyclopedia of Philosophy — Aurelius, Marcus",
@@ -8790,7 +8826,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -8806,6 +8842,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -8817,7 +8857,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La «regla de oro» aparece en culturas de todo el mundo",
    "desc": "Confucio ya enseñaba: «No hagas a otros lo que no quieres que te hagan a ti».",
-   "body": "La idea de tratar a los demás como uno quisiera ser tratado aparece, con distintas formulaciones, en muchas tradiciones: en las Analectas de Confucio, en textos del judaísmo, el cristianismo, el islam, el hinduismo y el budismo, entre otros. Es uno de los principios éticos más extendidos de la humanidad.",
+   "body": "La idea de tratar a los demás como uno quisiera ser tratado aparece, con distintas formulaciones, en muchas tradiciones: en las Analectas de Confucio, en textos del judaísmo, el cristianismo, el islam, el hinduismo y el budismo, entre otros. Es uno de los principios éticos más extendidos de la humanidad. A esta idea se la llama «regla de oro».\n\nPuede formularse en positivo, «trata a los demás como quieres que te traten», o en negativo, «no hagas a los demás lo que no quieres que te hagan a ti». En el cristianismo aparece en el Evangelio de Mateo, capítulo 7, versículo 12, y en el judaísmo se relaciona con el mandamiento del Levítico de amar al prójimo como a uno mismo.",
+   "deep": "También en la Grecia antigua hubo formulaciones parecidas: a Tales de Mileto, del siglo VI antes de Cristo, se le atribuye la máxima de no hacer a otros lo que censuramos en ellos. Los filósofos han debatido mucho sobre la regla. Algunos la critican porque los gustos de cada persona son distintos: lo que yo quiero para mí no siempre es lo que el otro quiere. Otros la comparan con principios más abstractos, como el imperativo categórico de Kant o el utilitarismo, y señalan que la regla de oro tiene la ventaja de ser práctica: no es tanto una teoría como una guía que se puede aplicar en la vida diaria.",
    "sources": [
     {
      "t": "Internet Encyclopedia of Philosophy — The Golden Rule",
@@ -8842,7 +8883,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -8858,6 +8899,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -15720,7 +15765,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Aristóteles fue maestro de Alejandro Magno",
    "desc": "Fue llamado por Filipo II de Macedonia para educar a su hijo.",
-   "body": "Aristóteles, discípulo de Platón, enseñó al joven Alejandro durante varios años. Después fundó en Atenas su propia escuela, el Liceo. Escribió sobre lógica, biología, política, ética y poesía, y su influencia en el pensamiento occidental duró casi dos mil años.",
+   "body": "Aristóteles, nacido en el año 384 antes de Cristo en Estagira, en el norte de Grecia, fue discípulo de Platón durante unos veinte años en la Academia de Atenas. Más tarde, el rey Filipo II de Macedonia lo llamó para que fuera tutor de su hijo, y enseñó al joven Alejandro, el futuro Alejandro Magno, durante varios años.\n\nDespués fundó en Atenas su propia escuela, el Liceo. Escribió sobre lógica, biología, política, ética y poesía, y su influencia en el pensamiento occidental duró casi dos mil años. Solo se conserva una parte de sus escritos, y lo que nos ha llegado son sobre todo apuntes para sus clases y borradores para un círculo de alumnos, no obras pensadas para el gran público.",
+   "deep": "Aristóteles fue uno de los primeros en estudiar la naturaleza de forma sistemática: clasificó animales, observó su anatomía y su comportamiento, y es considerado uno de los fundadores de la biología. También creó la lógica formal, con su teoría del silogismo, que se estudió durante siglos. En la Edad Media, sus obras llegaron a Europa en gran parte a través de traducciones y comentarios de pensadores árabes, y Tomás de Aquino las integró en la filosofía cristiana. Murió en el 322 antes de Cristo. A diferencia de su maestro Platón, que buscaba la verdad en un mundo de Ideas separado, Aristóteles defendía que el conocimiento empieza por la observación del mundo que nos rodea.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Aristotle",
@@ -15745,7 +15791,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -15761,6 +15807,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -15772,7 +15822,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Para Camus, hay que imaginar a Sísifo feliz",
    "desc": "En su ensayo de 1942 usó el mito griego para hablar del sentido de la vida.",
-   "body": "Según el mito, Sísifo fue condenado a empujar una roca cuesta arriba eternamente, solo para verla caer una y otra vez. Albert Camus lo convirtió en un símbolo del absurdo: la vida no tiene un sentido dado, pero podemos asumirla con lucidez y rebeldía. Su ensayo termina con la frase de que hay que imaginar a Sísifo feliz.",
+   "body": "Según el mito griego, Sísifo fue condenado por los dioses a empujar una roca cuesta arriba eternamente, solo para verla caer una y otra vez. En «El mito de Sísifo», un ensayo de 1942, Albert Camus lo convirtió en un símbolo del absurdo: el choque entre nuestra necesidad de encontrar sentido y un universo que no nos lo da.\n\nPara Camus, la vida no tiene un sentido dado, pero podemos asumirla con lucidez y rebeldía. El ensayo empieza planteando una pregunta radical, si la vida merece ser vivida, y la responde rechazando la desesperación. Su ensayo termina con la frase de que hay que imaginar a Sísifo feliz: la lucha misma por llegar a la cima basta para llenar el corazón de un hombre.",
+   "deep": "Camus, nacido en Argelia en 1913, publicó el ensayo en octubre de 1942, durante la Segunda Guerra Mundial, el mismo año que su novela «El extranjero», que explora ideas relacionadas. Distingue el absurdo de la simple desesperación: reconocer que el mundo no tiene un sentido último no obliga a rendirse, sino que puede vivirse con libertad y pasión. Aunque a menudo se le asocia con el existencialismo, Camus negó más de una vez ser un filósofo, y desconfiaba de los grandes sistemas filosóficos. En 1957 recibió el Premio Nobel de Literatura, y murió en 1960 en un accidente de tráfico, con solo 46 años.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Albert Camus",
@@ -15805,7 +15856,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -15821,6 +15872,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -15832,7 +15887,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Pascal propuso «apostar» por la existencia de Dios",
    "desc": "Su argumento compara lo que se gana y se pierde al creer o no creer.",
-   "body": "El matemático y filósofo francés Blaise Pascal argumentó que, si Dios existe, creer trae una ganancia infinita, y si no existe, se pierde poco. Por eso, según él, lo racional sería apostar por creer. El argumento ha recibido muchas críticas, por ejemplo, que no indica en qué dios creer.",
+   "body": "El matemático y filósofo francés Blaise Pascal, del siglo XVII, argumentó que, si Dios existe, creer trae una ganancia infinita, y si no existe, se pierde poco. Por eso, según él, lo racional sería apostar por creer. El argumento aparece en sus «Pensamientos», notas para una defensa del cristianismo que planeaba escribir y que se publicaron después de su muerte, en 1670.\n\nPascal no pretendía demostrar que Dios existe: partía de que la razón no puede decidir la cuestión y proponía pensarla como una apuesta inevitable, en la que no elegir también es elegir. El argumento ha recibido muchas críticas, por ejemplo, que no indica en qué dios creer, ya que hay muchas religiones que afirman tener la verdad exclusiva.",
+   "deep": "La apuesta de Pascal es considerada una de las primeras aplicaciones de la teoría de la decisión, la rama de las matemáticas que estudia cómo elegir cuando hay incertidumbre: se comparan los posibles resultados de cada opción y se ponderan por su probabilidad. Pascal fue además un gran científico: hizo aportaciones fundamentales a la teoría de la probabilidad, junto con Pierre de Fermat, y construyó una de las primeras calculadoras mecánicas. Otra crítica habitual a su apuesta es que no se puede creer a voluntad, solo porque convenga, y que una fe así sería, como mucho, débil. En sus «Pensamientos», Pascal no afirma que la gente pueda elegir creer; reconoce más bien que algunos no pueden.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Blaise Pascal",
@@ -15857,7 +15913,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "debate",
@@ -15873,6 +15929,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -15884,7 +15944,8 @@ window.SQ_CONTENT = {
    "level": 3,
    "title": "El «dilema del prisionero» muestra por qué cooperar es difícil aunque convenga",
    "desc": "Fue formulado en 1950 en la RAND Corporation y bautizado por Albert Tucker.",
-   "body": "Dos detenidos, sin poder comunicarse, deben decidir si delatar al otro o guardar silencio. A cada uno, individualmente, le conviene delatar; pero si ambos lo hacen, terminan peor que si los dos hubieran callado. El dilema se usa para estudiar desde negociaciones hasta acuerdos entre países y comportamiento animal.",
+   "body": "Dos detenidos, sin poder comunicarse, deben decidir si delatar al otro o guardar silencio. A cada uno, individualmente, le conviene delatar: si el otro calla, el que delata sale libre, y si el otro también delata, al menos evita la peor condena. Pero si ambos lo hacen, terminan peor que si los dos hubieran callado.\n\nEs el ejemplo más famoso de la teoría de juegos, la rama de las matemáticas que estudia las decisiones cuando el resultado depende también de lo que hagan los demás. El dilema muestra por qué cooperar es difícil aunque convenga a todos. Se usa para estudiar desde negociaciones hasta acuerdos entre países y comportamiento animal.",
+   "deep": "El problema lo plantearon los matemáticos Merrill Flood y Melvin Dresher, que trabajaban para la corporación RAND pensando en estrategia militar después de la Segunda Guerra Mundial; en 1950 hicieron que dos colegas jugaran el juego cien veces seguidas. Albert Tucker le dio después la forma de la historia de los prisioneros, para explicarlo a un público de psicólogos. Las cosas cambian cuando el juego se repite muchas veces con las mismas personas: entonces cooperar puede ser lo más inteligente. En un famoso torneo organizado por el politólogo Robert Axelrod, donde distintos programas de computadora se enfrentaban en un dilema repetido, ganó una estrategia muy sencilla llamada «toma y daca», en inglés «tit for tat», basada en devolver al otro lo que él hizo.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Prisoner’s Dilemma",
@@ -15909,7 +15970,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -15925,6 +15986,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -15936,7 +16001,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El Tao Te King es uno de los libros más traducidos del mundo",
    "desc": "Se atribuye a Laozi, figura semilegendaria de la antigua China.",
-   "body": "El texto, de unos 5.000 caracteres, es la base del taoísmo. Habla del Tao, «el camino», y de vivir en armonía con la naturaleza, con ideas como la no acción forzada (wu wei). Su autoría y fecha exactas son debatidas por los historiadores.",
+   "body": "El Tao Te King, o Daodejing, es un texto chino de unos 5.000 caracteres que es la base del taoísmo. Se atribuye tradicionalmente a Laozi, o Lao Tse, un sabio que, según la tradición, fue contemporáneo de Confucio, aunque su autoría y fecha exactas son debatidas por los historiadores, y muchos creen que la obra se fue formando con el tiempo.\n\nHabla del Tao, «el camino», y de vivir en armonía con la naturaleza, con ideas como la no acción forzada (wu wei). Está formado por 81 capítulos breves, escritos en un estilo poético y a menudo paradójico, y es uno de los libros más traducidos del mundo.",
+   "deep": "Según el relato tradicional, recogido por el historiador chino Sima Qian, Laozi era el encargado de los archivos de la corte de la dinastía Zhou, y Confucio lo consultó sobre cuestiones rituales y lo elogió después. El descubrimiento en el siglo XX de manuscritos antiguos, como los de Mawangdui y Guodian, ha dado a los estudiosos versiones mucho más antiguas que las conocidas hasta entonces. Una de sus ideas más citadas es que lo blando y flexible vence a lo duro y rígido, como el agua, que parece débil pero termina desgastando la roca.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Laozi",
@@ -15969,7 +16035,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -15985,6 +16051,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -15996,7 +16066,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El gato de Schrödinger se inventó para criticar una idea, no para defenderla",
    "desc": "Erwin Schrödinger lo propuso en 1935 para mostrar lo absurda que le parecía cierta interpretación cuántica.",
-   "body": "Schrödinger imaginó un gato en una caja con un mecanismo que podía matarlo según un evento cuántico al azar. Según algunas interpretaciones, hasta abrir la caja el gato estaría «vivo y muerto a la vez». Su intención era señalar que aplicar esa idea a objetos cotidianos llevaba a conclusiones ridículas. Nunca se hizo con un gato real.",
+   "body": "En 1935, el físico austriaco Erwin Schrödinger imaginó un gato en una caja con un mecanismo que podía matarlo según un evento cuántico al azar: si un átomo radiactivo se desintegraba, un contador Geiger activaría un martillo que rompería un frasco de veneno. Según algunas interpretaciones de la mecánica cuántica, hasta abrir la caja el gato estaría «vivo y muerto a la vez».\n\nSu intención era señalar que aplicar esa idea a objetos cotidianos llevaba a conclusiones ridículas. Schrödinger planteó el experimento mental en medio de un debate con Albert Einstein sobre la llamada interpretación de Copenhague. Nunca se hizo con un gato real.",
+   "deep": "La interpretación de Copenhague decía que una partícula está en una «superposición» de estados, por ejemplo desintegrada y no desintegrada a la vez, hasta que se la observa. Schrödinger quiso mostrar que, si eso se aplicaba al gato, el resultado era absurdo, porque nadie ha visto nunca un gato vivo y muerto a la vez. Paradójicamente, el gato se convirtió en el símbolo más popular de la propia mecánica cuántica. El experimento sigue usándose para discutir cuándo y por qué un sistema cuántico deja de estar en superposición, y hay distintas respuestas según la interpretación, como la de los «muchos mundos».",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — The Einstein-Podolsky-Rosen Argument in Quantum Theory",
@@ -16029,7 +16100,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -16045,6 +16116,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16056,7 +16131,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El cuerpo del filósofo Jeremy Bentham se exhibe en una universidad",
    "desc": "Él mismo pidió ser conservado y expuesto: se le llama su «auto-icono».",
-   "body": "Bentham, fundador del utilitarismo moderno, dejó instrucciones para que su esqueleto, vestido con su ropa, se conservara tras su muerte en 1832. Hoy su «auto-icono» se exhibe en el University College de Londres. La cabeza original, mal conservada, se sustituyó por una de cera.",
+   "body": "El filósofo británico Jeremy Bentham, fundador del utilitarismo moderno, defendía que las acciones correctas son las que producen la mayor felicidad para el mayor número de personas. Dejó instrucciones para que su esqueleto, vestido con su ropa, se conservara tras su muerte en 1832.\n\nHoy su «auto-icono» se exhibe en el University College de Londres, una universidad en cuya fundación influyeron sus ideas. La cabeza original, mal conservada, se sustituyó por una de cera. La cabeza real se guardó aparte, y durante años fue objeto de bromas de estudiantes.",
+   "deep": "Bentham pidió que su cuerpo se usara también para la ciencia: fue diseccionado en público, en una clase de anatomía, en una época en que la ley solo permitía estudiar cadáveres de criminales ejecutados, y él quería ayudar a cambiar esa situación. Además del utilitarismo, Bentham defendió ideas muy avanzadas para su tiempo: la igualdad de derechos para las mujeres, la separación entre la Iglesia y el Estado, la abolición de la esclavitud y de la pena de muerte, y el trato ético a los animales, a los que consideraba capaces de sufrir. También diseñó el «panóptico», una cárcel circular en la que un vigilante podía observar a todos los presos sin que ellos supieran si los estaban mirando.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Jeremy Bentham",
@@ -16081,7 +16157,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -16097,6 +16173,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -16108,7 +16188,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La palabra «ensayo» como género literario se la debemos a Montaigne",
    "desc": "En 1580 publicó sus «Essais», que significa «intentos» en francés.",
-   "body": "Michel de Montaigne escribió reflexiones personales sobre todo tipo de temas, desde la amistad hasta la muerte, partiendo de su propia experiencia. Las llamó «essais», es decir, pruebas o intentos. Su estilo libre y escéptico inspiró a muchos escritores y dio nombre al género.",
+   "body": "Michel de Montaigne, un filósofo y escritor francés que vivió entre 1533 y 1592, escribió reflexiones personales sobre todo tipo de temas, desde la amistad hasta la muerte, partiendo de su propia experiencia. Las llamó «essais», es decir, pruebas o intentos. Su estilo libre y escéptico inspiró a muchos escritores y dio nombre al género.\n\nEn 1571, con solo 37 años, Montaigne se retiró al castillo de su padre, en el Périgord, en el suroeste de Francia, para dedicarse a leer y escribir. Publicó la primera edición de sus «Ensayos» en 1580, y siguió ampliándolos y corrigiéndolos el resto de su vida. Su lema era una pregunta: «¿Qué sé yo?».",
+   "deep": "Montaigne quería pintarse a sí mismo tal como era, con sus dudas, sus contradicciones y sus manías, y escribió que él mismo era la materia de su libro. Fue uno de los grandes representantes del escepticismo: desconfiaba de las certezas absolutas y recordaba lo poco que sabemos y lo mucho que varían las costumbres entre los pueblos. En su ensayo sobre los caníbales, por ejemplo, escribió que hay más barbarie en comerse a un hombre vivo que muerto, y en torturar un cuerpo todavía lleno de sensibilidad, criticando así las crueldades de los propios europeos. Su forma de escribir influyó en autores como Shakespeare, Pascal o Descartes.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Michel de Montaigne",
@@ -16133,7 +16214,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -16149,6 +16230,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -21701,7 +21786,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Uno de los grandes filósofos estoicos nació esclavo",
    "desc": "Epicteto enseñó que no controlamos lo que nos pasa, pero sí cómo respondemos.",
-   "body": "Epicteto nació esclavo en el siglo I y obtuvo después su libertad. No escribió libros: su discípulo Arriano recogió sus enseñanzas en las Disertaciones y el Enquiridión, o manual. Su idea central es distinguir entre lo que depende de nosotros y lo que no.",
+   "body": "Epicteto nació esclavo en el siglo I, en Hierápolis, en la actual Turquía, y vivió en Roma, donde obtuvo después su libertad. Allí estudió con el filósofo estoico Musonio Rufo. Cuando el emperador Domiciano expulsó a los filósofos de Roma, se trasladó a Nicópolis, en Grecia, donde fundó su propia escuela.\n\nNo escribió libros: su discípulo Arriano recogió sus enseñanzas en las Disertaciones y el Enquiridión, o manual. Su idea central es distinguir entre lo que depende de nosotros y lo que no. Para Epicteto, lo único que de verdad está en nuestras manos es nuestra capacidad de elegir y el uso correcto de las impresiones que recibimos.",
+   "deep": "Para Epicteto, nuestros sentimientos y nuestra conducta expresan lo que nos parece correcto, condicionado por nuestros juicios de valor: si corregimos nuestros juicios, también se corregirán nuestros sentimientos. Fue esclavo de Epafrodito, un importante funcionario de la corte de Nerón, y enseñó en Nicópolis hasta su muerte, hacia el año 135. Caminaba cojeando, algo que se atribuye a la artritis o a malos tratos sufridos como esclavo. El emperador Marco Aurelio nunca fue su alumno, pero lo admiró tanto por lo que había leído de él que se consideraba su seguidor.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Epictetus",
@@ -21734,7 +21820,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -21750,6 +21836,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -21761,7 +21851,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "«Dios ha muerto» no era una celebración, sino un diagnóstico",
    "desc": "Nietzsche lo escribió en 1882 en La gaya ciencia.",
-   "body": "Con esa frase, Friedrich Nietzsche describía que, en su opinión, la cultura europea moderna había dejado de basarse en la fe religiosa. Le preocupaba qué ocuparía ese lugar y cómo encontrar valores y sentido sin aquella base. La frase se cita a menudo fuera de contexto.",
+   "body": "Con la frase «Dios ha muerto», el filósofo alemán Friedrich Nietzsche describía que, en su opinión, la cultura europea moderna había dejado de basarse en la fe religiosa. La frase aparece en su libro «La gaya ciencia», de 1882, en boca de un loco que la anuncia en una plaza ante gente que no cree en Dios, y que no entiende la magnitud de lo que ha ocurrido.\n\nLe preocupaba qué ocuparía ese lugar y cómo encontrar valores y sentido sin aquella base. Nietzsche temía que la pérdida de la fe llevara al «nihilismo», la sensación de que nada tiene valor. La frase se cita a menudo fuera de contexto.",
+   "deep": "En el texto, el loco dice: «Dios ha muerto. Y nosotros lo hemos matado», y se pregunta cómo podrán los humanos asumir algo así. Para Nietzsche, no se trataba de un hecho literal, sino de un cambio cultural: la ciencia, la razón y la vida moderna habían quitado a Dios el papel central que tenía en la moral europea. Su respuesta fue la idea del «superhombre», un ser humano capaz de crear sus propios valores. Aunque a menudo se le presenta como un simple enemigo de la religión, Nietzsche veía la muerte de Dios como un peligro enorme, además de una oportunidad.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Friedrich Nietzsche",
@@ -21802,7 +21893,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -21818,6 +21909,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -21829,7 +21924,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El Príncipe de Maquiavelo se publicó después de que su autor muriera",
    "desc": "Escrito hacia 1513, no se imprimió hasta 1532.",
-   "body": "Nicolás Maquiavelo lo escribió poco después de que los Médici recuperaran Florencia y él fuera arrestado, torturado y desterrado. El libro analiza cómo se conquista y se conserva el poder, sin idealismos. De ahí viene el adjetivo «maquiavélico», aunque los estudiosos discuten si el libro era un manual sincero o una descripción crítica.",
+   "body": "Nicolás Maquiavelo, diplomático y funcionario de la República de Florencia, escribió «El Príncipe» en 1513, poco después de que los Médici recuperaran Florencia y él fuera arrestado, torturado y desterrado. Lo dedicó a Lorenzo de Médici, quizá con la esperanza de volver a la vida política.\n\nEl libro analiza cómo se conquista y se conserva el poder, sin idealismos: Maquiavelo dice que prefiere atenerse a la «verdad efectiva» de las cosas antes que a lo que se imagina de ellas, y se basa en cómo actúan realmente los gobernantes, no en cómo deberían actuar. Circuló en copias manuscritas y no se publicó hasta 1532, cinco años después de la muerte de su autor. De ahí viene el adjetivo «maquiavélico», aunque los estudiosos discuten si el libro era un manual sincero o una descripción crítica.",
+   "deep": "Una de sus ideas más famosas es que, para un gobernante, es más seguro ser temido que amado, si no puede ser ambas cosas, aunque debe evitar ser odiado. También habla de la «virtù», la capacidad de actuar con decisión y astucia, y de la «fortuna», el azar, que según él gobierna la mitad de nuestras acciones. En 1559 la Iglesia católica incluyó el libro en su índice de libros prohibidos. Durante mucho tiempo se le consideró el fundador de la ciencia política «moderna», porque separaba el análisis del poder de la moral, aunque hoy esa interpretación es más discutida.",
    "sources": [
     {
      "t": "Stanford Encyclopedia of Philosophy — Niccolò Machiavelli",
@@ -21862,7 +21958,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -21878,6 +21974,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
