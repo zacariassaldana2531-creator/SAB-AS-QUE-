@@ -18796,7 +18796,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El primer estetoscopio fue un rollo de papel",
    "desc": "René Laennec lo inventó en 1816. Según el relato más difundido, no quería apoyar la oreja en el pecho de una paciente.",
-   "body": "El médico francés René Laennec enrolló unas hojas de papel y descubrió que, apoyando un extremo en el pecho de la paciente, escuchaba el corazón mejor que con la oreja directamente. Después construyó un tubo de madera. Lo llamó estetoscopio, del griego «pecho» y «examinar».",
+   "body": "En 1816, el médico francés René Laennec tenía que examinar a una joven con síntomas de una enfermedad del corazón, y por su edad y su sexo le parecía impropio apoyar la oreja directamente sobre su pecho, como se hacía entonces. Enrolló unas hojas de papel y descubrió que, apoyando un extremo en el pecho de la paciente, escuchaba el corazón mejor que con la oreja directamente.\n\nDespués construyó un tubo de madera hueco. Lo llamó estetoscopio, del griego «pecho» y «examinar». Laennec usó su invento para estudiar los sonidos del pecho y relacionarlos con las enfermedades que veía en las autopsias, y en 1819 publicó un tratado sobre la «auscultación mediata», es decir, escuchar el cuerpo a través de un instrumento.",
+   "deep": "Su trabajo convirtió la auscultación en una herramienta básica de la medicina: describió y puso nombre a muchos de los sonidos que todavía usan los médicos, y mejoró el diagnóstico de enfermedades del pulmón y del corazón, como la tuberculosis o la neumonía. Paradójicamente, el propio Laennec murió de tuberculosis en 1826, con solo 45 años. Con el tiempo, el estetoscopio evolucionó: en 1851 apareció el modelo con dos auriculares, para escuchar con ambos oídos, y en el siglo XX se añadió el diafragma. Hoy sigue siendo uno de los símbolos más reconocibles de la profesión médica.",
    "sources": [
     {
      "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Rene Theophile Hyacinthe Laënnec (1781–1826): The Man Behind the Stethoscope",
@@ -18856,7 +18857,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -18872,6 +18873,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -18883,7 +18888,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Hasta 1628 nadie sabía que la sangre circula",
    "desc": "William Harvey demostró que el corazón bombea la sangre en un circuito cerrado.",
-   "body": "Durante siglos se aceptó la idea del médico griego Galeno de que la sangre se producía en el hígado y se consumía en el cuerpo. El médico inglés William Harvey midió cuánta sangre bombeaba el corazón y concluyó que era imposible fabricar tanta: la sangre tenía que circular. Lo publicó en 1628.",
+   "body": "Durante siglos se aceptó la idea del médico griego Galeno, del siglo II, de que la sangre se producía continuamente en el hígado. El médico inglés William Harvey, médico del rey Jacobo I y después de Carlos I, midió cuánta sangre bombeaba el corazón y concluyó que era imposible fabricar tanta: la sangre tenía que circular.\n\nHarvey demostró que el corazón funciona como una bomba que impulsa la sangre por las arterias, y que la sangre vuelve al corazón por las venas, cuyas válvulas impiden que retroceda. Lo publicó en 1628, en un libro titulado «Sobre el movimiento del corazón y de la sangre en los animales».",
+   "deep": "Para llegar a su conclusión, Harvey hizo experimentos y disecciones de muchos animales, y razonó que la cantidad de sangre del cuerpo debía ser fija y que no podía formarse continuamente en el hígado. Su teoría fue criticada por anatomistas respetados, como Jean Riolan, y al principio su consulta médica se resintió. Quedaba una pieza por descubrir: cómo pasaba la sangre de las arterias a las venas. Harvey no pudo verlo, pero lo resolvió poco después de su muerte el italiano Marcello Malpighi, que en 1661 observó con el microscopio los capilares.",
    "sources": [
     {
      "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — De Motu Cordis: the Lumleian Lecture of 1616",
@@ -18926,7 +18932,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -18942,6 +18948,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -18953,7 +18963,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La aspirina tiene su origen en la corteza de un árbol",
    "desc": "La corteza de sauce se usaba desde la Antigüedad contra el dolor y la fiebre.",
-   "body": "La corteza de sauce contiene salicina, de la que se obtiene el ácido salicílico, y se usó durante milenios contra el dolor y la fiebre. En 1897, en la empresa alemana Bayer, el químico Felix Hoffmann obtuvo una forma pura y estable de ácido acetilsalicílico, comercializado como Aspirina. Curiosamente, el ácido salicílico que usó Bayer no procedía del sauce sino de otra planta, la ulmaria (Spiraea), de la que viene el nombre «aspirina». Es uno de los medicamentos más usados del mundo.",
+   "body": "La corteza de sauce contiene salicina, de la que se obtiene el ácido salicílico, y se usó durante milenios contra el dolor y la fiebre: ya aparece en textos de la antigua Sumeria y del antiguo Egipto. En 1763, el reverendo inglés Edward Stone describió el uso de la corteza de sauce para tratar fiebres. En el siglo XIX, los químicos aislaron la salicina y obtuvieron el ácido salicílico, pero este irritaba mucho el estómago.\n\nEn 1897, en la empresa alemana Bayer, el químico Felix Hoffmann obtuvo una forma pura y estable de ácido acetilsalicílico, comercializado como Aspirina en 1899. Curiosamente, el ácido salicílico que usó Bayer no procedía del sauce sino de otra planta, la ulmaria (Spiraea), de la que viene el nombre «aspirina». Es uno de los medicamentos más usados del mundo.",
+   "deep": "Durante décadas se usó la aspirina sin saber cómo funcionaba. En 1971, el farmacólogo británico John Vane descubrió que actúa bloqueando la producción de unas sustancias del cuerpo llamadas prostaglandinas, relacionadas con el dolor, la fiebre y la inflamación, un hallazgo por el que recibió el Premio Nobel de Medicina en 1982. Más tarde se descubrió también que reduce la capacidad de las plaquetas para formar coágulos, y por eso, en dosis bajas, los médicos la indican a algunas personas para prevenir problemas cardiovasculares. Como cualquier medicamento, tiene riesgos y efectos secundarios, como sangrados, así que debe usarse según indicación médica.",
    "sources": [
     {
      "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — The Discovery of Aspirin's Antithrombotic Effects",
@@ -19005,7 +19016,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19025,6 +19036,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19036,7 +19051,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Una fotografía de rayos X fue clave para descubrir la forma del ADN",
    "desc": "La «Fotografía 51», tomada en el laboratorio de Rosalind Franklin, mostró el patrón en hélice.",
-   "body": "La imagen fue obtenida en mayo de 1952 en el King’s College de Londres por Rosalind Franklin y su estudiante de doctorado Raymond Gosling. Su colega Maurice Wilkins se la mostró a James Watson sin que Franklin lo supiera, y la información ayudó a Watson y Francis Crick a proponer en 1953 el modelo de doble hélice. El papel de Franklin tardó décadas en reconocerse.",
+   "body": "La imagen fue obtenida en mayo de 1952 en el King’s College de Londres por Rosalind Franklin y su estudiante de doctorado Raymond Gosling, usando una técnica llamada cristalografía o difracción de rayos X. Muestra un patrón en forma de «X» que indica que la molécula de ADN tiene forma de hélice. La foto, la número 51, requirió muchas horas de exposición.\n\nSu colega Maurice Wilkins se la mostró a James Watson sin que Franklin lo supiera, y la información ayudó a Watson y Francis Crick, de la Universidad de Cambridge, a proponer en 1953 el modelo de doble hélice. El papel de Franklin tardó décadas en reconocerse.",
+   "deep": "Watson, Crick y Wilkins recibieron el Premio Nobel de Fisiología o Medicina en 1962. Franklin no pudo ser incluida, porque había muerto de cáncer en 1958, con solo 37 años, y el Nobel no se concede a título póstumo. Además de la fotografía, Watson y Crick vieron datos de un informe de investigación de Franklin, que contenían medidas clave. Durante mucho tiempo se la presentó como una víctima pasiva, pero historiadores que estudiaron sus notas, en un artículo publicado en 2023 en la revista Nature, sostienen que fue una colaboradora en igualdad de condiciones, y que tenía su propia interpretación avanzada de la estructura. Hoy muchas instituciones, premios y edificios llevan su nombre.",
    "sources": [
     {
      "t": "King's College London — The story behind Photograph 51",
@@ -19078,7 +19094,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19098,6 +19114,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ],
    "claimNote": "Historiadores recientes, en publicaciones de Nature (2023) y del King’s College de Londres, matizan el relato popular de que la foto fue «robada» y destacan que Franklin ya había calculado rasgos clave del ADN."
@@ -19110,7 +19130,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El primer trasplante de corazón entre humanos se hizo en Sudáfrica en 1967",
    "desc": "El cirujano Christiaan Barnard lo realizó en Ciudad del Cabo; el paciente vivió 18 días.",
-   "body": "El paciente, Louis Washkansky, murió de una neumonía 18 días después, en parte porque los fármacos para evitar el rechazo debilitaban sus defensas. Con el desarrollo de mejores medicamentos inmunosupresores, el trasplante de corazón se convirtió en un tratamiento establecido.",
+   "body": "El 3 de diciembre de 1967, el cirujano sudafricano Christiaan Barnard realizó en el hospital Groote Schuur de Ciudad del Cabo el primer trasplante de corazón entre humanos. La donante fue Denise Darvall, una joven de 25 años, y el receptor, Louis Washkansky, un hombre de 53 años con una enfermedad cardíaca grave.\n\nEl paciente, Louis Washkansky, murió de una neumonía 18 días después, en parte porque los fármacos para evitar el rechazo debilitaban sus defensas. Al año siguiente se hicieron más de cien trasplantes en el mundo, pero la mayoría de los pacientes murieron pronto por el rechazo. Con el desarrollo de mejores medicamentos inmunosupresores, el trasplante de corazón se convirtió en un tratamiento establecido.",
+   "deep": "El gran cambio llegó cuando se generalizó la ciclosporina, un medicamento inmunosupresor que permitió usar dosis mucho menores de corticoides para evitar el rechazo y mejoró mucho la supervivencia de los pacientes. Barnard se apoyó en técnicas desarrolladas por los cirujanos estadounidenses Norman Shumway y Richard Lower. Hoy se realizan miles de trasplantes de corazón al año en todo el mundo, más de la mitad en Estados Unidos, y su número creció un 53 % entre 2011 y 2022. El principal límite sigue siendo la falta de donantes, por lo que la donación de órganos es fundamental.",
    "sources": [
     {
      "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — The first human heart transplant and further advances in cardiac transplantation at Groote Schuur Hospital and the University of Cape Town",
@@ -19152,7 +19173,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19168,6 +19189,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19179,7 +19204,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Los médicos todavía hacen un juramento de origen griego",
    "desc": "El juramento hipocrático se atribuye a la escuela de Hipócrates, del siglo V a. C.",
-   "body": "El texto original incluye compromisos como actuar en beneficio de los enfermos y guardar en secreto lo que se sepa de ellos. Hoy muchas facultades de medicina usan versiones modernizadas, como la Declaración de Ginebra de la Asociación Médica Mundial.",
+   "body": "El juramento hipocrático es uno de los textos de ética médica más antiguos que se conocen. Se atribuye tradicionalmente a Hipócrates, el gran médico de la antigua Grecia, aunque los estudiosos creen que pudo escribirlo otro autor. Es uno de los textos médicos griegos más conocidos, y en su forma original empieza invocando a los dioses de la curación.\n\nEl texto original incluye compromisos como actuar en beneficio de los enfermos, no hacerles daño y guardar en secreto lo que se sepa de ellos. Hoy muchas facultades de medicina usan versiones modernizadas, como la Declaración de Ginebra de la Asociación Médica Mundial.",
+   "deep": "La Declaración de Ginebra se adoptó en 1948, después de la Segunda Guerra Mundial y de los crímenes cometidos por médicos en los campos de concentración nazis, y se ha revisado varias veces, la última en 2017. En ella, el médico promete, entre otras cosas, velar ante todo por la salud y el bienestar del paciente, respetar su autonomía y su dignidad, guardar sus secretos incluso después de su muerte, y no permitir que el credo, la nacionalidad, el origen étnico, el género o la posición social influyan en su atención. La versión de 2017 añadió también el compromiso del médico de cuidar su propia salud y bienestar. Una frase que se suele atribuir al juramento, «primero, no hacer daño», en realidad no aparece así en el texto original.",
    "sources": [
     {
      "t": "Asociación Médica Mundial — Declaración de Ginebra",
@@ -19213,7 +19239,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19229,6 +19255,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19240,7 +19270,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Un niño de 9 años fue el primero en recibir la vacuna contra la rabia",
    "desc": "Louis Pasteur lo trató en 1885 tras ser mordido por un perro rabioso, y sobrevivió.",
-   "body": "Joseph Meister había sido mordido gravemente. Pasteur, que no era médico, le aplicó una serie de inyecciones con virus debilitado que había probado en animales. El niño sobrevivió. Pasteur fue también clave para demostrar que muchos microbios causan enfermedades y para desarrollar la pasteurización.",
+   "body": "El 6 de julio de 1885, Joseph Meister, un niño alsaciano, llegó a París después de haber sido mordido gravemente por un perro con rabia. La rabia era entonces una enfermedad mortal. Pasteur, que no era médico, le aplicó una serie de inyecciones con virus debilitado que había probado en animales.\n\nEl niño sobrevivió, y el éxito causó sensación en todo el mundo. Llegaron a París personas mordidas de muchos países, y gracias a una suscripción internacional se fundó en 1887 el Instituto Pasteur, inaugurado en 1888. Pasteur fue también clave para demostrar que muchos microbios causan enfermedades y para desarrollar la pasteurización.",
+   "deep": "Pasteur trabajó durante años en su laboratorio con conejos infectados, de los que obtenía el material con el que debilitaba el agente de la rabia. En aquella época nadie podía ver el virus de la rabia, porque los virus son demasiado pequeños para los microscopios de entonces. La pasteurización, que consiste en calentar un líquido para eliminar microbios sin estropearlo, la desarrolló estudiando el vino y la cerveza. Hoy el Instituto Pasteur es un gran centro de investigación, del que han salido diez premios Nobel. Hoy, la rabia sigue siendo mortal una vez aparecen los síntomas, pero se puede prevenir con vacunación a tiempo tras una mordedura.",
    "sources": [
     {
      "t": "Institut Pasteur — History of the Institut Pasteur",
@@ -19273,7 +19304,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19289,6 +19320,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19300,7 +19335,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El Día Mundial de la Tuberculosis recuerda un descubrimiento de 1882",
    "desc": "El 24 de marzo de 1882, Robert Koch anunció que había identificado la bacteria que la causa.",
-   "body": "Robert Koch identificó el Mycobacterium tuberculosis y lo presentó en Berlín. Recibió el Premio Nobel en 1905. La tuberculosis es una enfermedad prevenible y curable, pero sigue siendo una de las enfermedades infecciosas que más muertes causan en el mundo.",
+   "body": "El 24 de marzo de 1882, el médico alemán Robert Koch anunció en Berlín que había identificado la bacteria que causa la tuberculosis, el Mycobacterium tuberculosis. Por eso cada 24 de marzo se celebra el Día Mundial de la Tuberculosis. Koch ya había presentado antes sus métodos ante figuras como Louis Pasteur, en un congreso médico en Londres en 1881.\n\nKoch es considerado uno de los fundadores de la microbiología moderna: también identificó la bacteria del ántrax y la del cólera, y desarrolló técnicas para cultivar bacterias en el laboratorio. Recibió el Premio Nobel en 1905. La tuberculosis es una enfermedad prevenible y curable, pero sigue siendo una de las enfermedades infecciosas que más muertes causan en el mundo.",
+   "deep": "Koch formuló, junto con su colaborador Friedrich Loeffler, unos criterios que sirven para demostrar que un microbio causa una enfermedad concreta, conocidos como «postulados de Koch». Según la Organización Mundial de la Salud, la tuberculosis se transmite por el aire, cuando una persona enferma tose, estornuda o escupe, y afecta sobre todo a los pulmones. Se puede curar con un tratamiento de antibióticos durante varios meses, y existe una vacuna, la BCG. Aun así, cada año enferman millones de personas en el mundo, y la resistencia a los medicamentos complica su control. El objetivo internacional es acabar con la epidemia en las próximas décadas.",
    "sources": [
     {
      "t": "Fundación Nobel (NobelPrize.org) — Robert Koch – Facts",
@@ -19358,7 +19394,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19374,6 +19410,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19385,7 +19425,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Antes de 1867, la cirugía no usaba desinfectantes",
    "desc": "Joseph Lister introdujo el ácido carbólico para limpiar heridas e instrumentos.",
-   "body": "El cirujano británico Joseph Lister empezó a usar ácido carbólico (fenol) en la cirugía. Las infecciones tras las operaciones disminuyeron mucho. El enjuague bucal Listerine lleva su nombre en su honor.",
+   "body": "A mediados del siglo XIX, muchos pacientes morían de infecciones después de las operaciones, incluso cuando la cirugía salía bien. Los cirujanos operaban con la ropa manchada de sangre y sin lavarse las manos. El cirujano británico Joseph Lister, inspirado por los trabajos de Louis Pasteur sobre los microbios, pensó que las infecciones podían deberse a gérmenes que entraban en las heridas.\n\nLister empezó a usar ácido carbólico (fenol) en la cirugía: lo aplicaba sobre las heridas, en los vendajes y en el instrumental, y después lo rociaba en el aire del quirófano. Publicó sus resultados en 1867, en la revista médica The Lancet. Las infecciones tras las operaciones disminuyeron mucho. El enjuague bucal Listerine lleva su nombre en su honor.",
+   "deep": "Lister había observado que el ácido carbólico se usaba para tratar las aguas residuales y reducir los malos olores, y decidió probarlo en las heridas. Su primer éxito llegó el 12 de agosto de 1865, cuando usó ácido carbólico para desinfectar la herida de una fractura abierta, una lesión que entonces a menudo terminaba en amputación o en muerte. Sus ideas encontraron resistencia al principio, pero con el tiempo transformaron la cirugía. Lister usó el ácido carbólico para esterilizar instrumentos, la piel de los pacientes, las suturas, las manos de los cirujanos y las salas del hospital, y así impulsó el principio de la antisepsia. Llegó a operar a la reina Victoria, y fue nombrado barón.",
    "sources": [
     {
      "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Joseph Lister and the performance of antiseptic surgery",
@@ -19428,7 +19469,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19444,6 +19485,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19455,7 +19500,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La «temperatura normal» de 37 °C viene de un médico del siglo XIX",
    "desc": "Carl Wunderlich la fijó en un libro de 1868; estudios más recientes encuentran un promedio algo más bajo, de unos 36,4 °C.",
-   "body": "En 1868, el médico alemán Carl Wunderlich publicó que la temperatura normal del cuerpo era de unos 37 °C. Estudios más recientes sitúan el promedio en unos 36,4 °C. Además, la temperatura varía alrededor de medio grado a lo largo del día: es más baja por la mañana y más alta al final de la tarde.",
+   "body": "En 1868, el médico alemán Carl Wunderlich publicó que la temperatura normal del cuerpo era de unos 37 °C, en un libro que popularizó el uso de las gráficas de temperatura en los hospitales. Estudios más recientes sitúan el promedio en unos 36,4 °C. Además, la temperatura varía alrededor de medio grado a lo largo del día: es más baja por la mañana y más alta al final de la tarde.\n\nTambién cambia según dónde se mida: en la boca, en el oído o en la axila se obtienen valores algo distintos. Depende además de la edad, del sexo y de la persona: los adultos mayores suelen tener temperaturas algo más bajas, y en las mujeres varía con el ciclo menstrual. Por eso los médicos hablan de un rango normal, y no de una cifra exacta.",
+   "deep": "La temperatura sigue un ciclo regular a lo largo del día, controlado por el ritmo circadiano, y en las mujeres cambia con las hormonas del ciclo menstrual: tras la ovulación baja el estrógeno y sube la progesterona, y la temperatura aumenta ligeramente, un cambio que usan algunos métodos de planificación familiar. También influyen la actividad física, la digestión o la hora del día. Sea cual sea la causa, el viejo número de 37 °C sigue siendo una referencia útil, pero no una regla exacta para cada persona. Para saber si una temperatura es fiebre, conviene seguir las indicaciones médicas.",
    "sources": [
     {
      "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Normal Body Temperature: A Systematic Review",
@@ -19507,7 +19553,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19523,6 +19569,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19534,7 +19584,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El placebo tiene un gemelo malvado: el efecto nocebo",
    "desc": "Esperar efectos negativos de un tratamiento puede hacer que la persona los sienta.",
-   "body": "Si a alguien le advierten de posibles efectos secundarios, puede llegar a experimentarlos aunque reciba una sustancia sin principio activo. Este fenómeno se llama efecto nocebo, del latín «haré daño». Muestra cuánto influyen las expectativas en cómo percibimos nuestro cuerpo.",
+   "body": "Si a alguien le advierten de posibles efectos secundarios, puede llegar a experimentarlos aunque reciba una sustancia sin principio activo. Este fenómeno se llama efecto nocebo, del latín «haré daño», en contraste con placebo, que significa «agradaré». El término lo acuñó en 1961 el investigador Walter Kennedy.\n\nEn los ensayos clínicos, muchas personas que reciben un placebo, una pastilla sin principio activo, informan de efectos adversos, a menudo los mismos que se les advirtió que podía causar el medicamento real. Muestra cuánto influyen las expectativas en cómo percibimos nuestro cuerpo.",
+   "deep": "Los investigadores creen que el efecto nocebo depende sobre todo de las expectativas: cuando un paciente anticipa un efecto secundario, puede llegar a sentirlo. Las expectativas negativas pueden incluso hacer que desaparezca el efecto analgésico de algunos anestésicos. Esto plantea un dilema ético a los médicos: deben informar de los riesgos de un tratamiento, pero la forma de comunicarlos puede influir en lo que siente el paciente. Por eso se estudian maneras de informar de forma honesta sin aumentar la ansiedad. Ningún paciente debe dejar un tratamiento por su cuenta: ante cualquier efecto, lo indicado es consultar con el médico.",
    "sources": [
     {
      "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — The Nocebo Effect",
@@ -19577,7 +19628,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19593,6 +19644,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19604,7 +19659,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Las vacunas de ARN mensajero se aprobaron por primera vez en 2020",
    "desc": "Katalin Karikó y Drew Weissman recibieron el Nobel de Medicina 2023 por los descubrimientos que las hicieron posibles.",
-   "body": "Estas vacunas no contienen el virus: llevan instrucciones para que las células produzcan una proteína inofensiva que entrena al sistema inmunitario. Karikó y Weissman descubrieron cómo modificar el ARN para que no provocara una reacción inflamatoria excesiva. Las primeras autorizadas fueron contra la COVID-19, en diciembre de 2020.",
+   "body": "Estas vacunas no contienen el virus: llevan instrucciones, en forma de ARN mensajero, para que las células produzcan una proteína inofensiva que entrena al sistema inmunitario. Después, el propio cuerpo elimina ese ARN. Karikó y Weissman descubrieron cómo modificar el ARN para que no provocara una reacción inflamatoria excesiva.\n\nLa bioquímica húngara Katalin Karikó y el inmunólogo estadounidense Drew Weissman publicaron su hallazgo clave en 2005, y por ello recibieron el Premio Nobel de Fisiología o Medicina en 2023. Las primeras autorizadas fueron contra la COVID-19, en diciembre de 2020.",
+   "deep": "Durante años, la idea de usar ARN mensajero como medicamento tuvo pocos apoyos, porque el ARN fabricado en el laboratorio provocaba inflamación y se producía poca proteína. Karikó y Weissman descubrieron que, al modificar una de las «letras» del ARN, las bases, el sistema inmunitario ya no reaccionaba de forma excesiva y la producción de proteína aumentaba mucho. Según la Fundación Nobel, su trabajo contribuyó a una velocidad sin precedentes en el desarrollo de vacunas durante la pandemia. Una ventaja de esta tecnología es que las vacunas se pueden diseñar y adaptar rápidamente a nuevas variantes, y hoy se investiga su uso contra otras enfermedades.",
    "sources": [
     {
      "t": "Fundación Nobel (NobelPrize.org) — The Nobel Prize in Physiology or Medicine 2023 – Press release",
@@ -19637,7 +19693,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19653,6 +19709,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19664,7 +19724,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Algunas operaciones de cerebro se hacen con el paciente despierto",
    "desc": "Así los cirujanos comprueban en tiempo real que no dañan zonas importantes, como las del lenguaje.",
-   "body": "En la craneotomía con el paciente despierto, se adormecen con anestesia local la piel y el hueso de la cabeza. Durante la cirugía, el equipo médico habla con el paciente y le hace preguntas, a veces con ayuda de un logopeda o un neuropsicólogo. Se usa sobre todo para extirpar tumores cerca de zonas delicadas.",
+   "body": "En la craneotomía con el paciente despierto, se adormecen con anestesia local la piel y el hueso de la cabeza. Durante la cirugía, el equipo médico habla con el paciente y le hace preguntas, a veces con ayuda de un logopeda o un neuropsicólogo.\n\nSe usa sobre todo para extirpar tumores cerca de zonas delicadas, como las que controlan el habla o el movimiento, y también en algunas cirugías para la epilepsia. Mientras opera, el cirujano estimula pequeñas zonas del cerebro con una corriente eléctrica suave y comprueba si el paciente puede seguir hablando o moviéndose con normalidad: así sabe qué zonas debe evitar.",
+   "deep": "Esta técnica permite quitar la mayor cantidad posible del tumor protegiendo funciones como el lenguaje, el movimiento, la sensibilidad y la visión, y hay pruebas de que reduce el tiempo de recuperación y de hospitalización. Se desarrolló al principio para localizar focos de epilepsia, y después se convirtió en la técnica estándar para extirpar gliomas en zonas cerebrales «elocuentes», es decir, que controlan funciones importantes. Existen distintos protocolos de anestesia: por ejemplo, el llamado «dormido-despierto-dormido», en el que el paciente solo se despierta durante la fase en que se necesita su colaboración. No todos los pacientes son candidatos: el equipo médico evalúa cada caso.",
    "sources": [
     {
      "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Awake craniotomy in brain tumors - Technique systematization and the state of the art",
@@ -19705,7 +19766,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19721,6 +19782,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19732,7 +19797,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La sangre O negativo es la «donante universal» de glóbulos rojos",
    "desc": "Por eso se usa en emergencias cuando no hay tiempo de comprobar el grupo del paciente.",
-   "body": "Los glóbulos rojos del grupo O negativo no tienen los antígenos A, B ni RhD, así que el riesgo de una reacción grave en cualquier receptor es muy bajo. Para el plasma ocurre lo contrario: el donante universal es el grupo AB.",
+   "body": "La sangre se clasifica en grupos según los antígenos, unas moléculas que hay en la superficie de los glóbulos rojos. Los sistemas más importantes son el ABO, que distingue los grupos A, B, AB y O, y el Rh, que distingue entre positivo y negativo. El sistema ABO lo descubrió el austriaco Karl Landsteiner en 1901, un hallazgo por el que recibió el Premio Nobel.\n\nLos glóbulos rojos del grupo O negativo no tienen los antígenos A, B ni RhD, así que el riesgo de una reacción grave en cualquier receptor es muy bajo. Por eso se usan en emergencias, cuando no hay tiempo de saber el grupo del paciente. Para el plasma ocurre lo contrario: el donante universal es el grupo AB.",
+   "deep": "El plasma, la parte líquida de la sangre, contiene anticuerpos contra los antígenos que la persona no tiene, y el plasma AB no tiene anticuerpos anti-A ni anti-B, por eso puede darse a cualquiera. A la inversa, las personas con grupo AB positivo pueden recibir glóbulos rojos de cualquier grupo: se les llama «receptores universales». Según la Cruz Roja estadounidense, la combinación de los sistemas ABO y Rh da los ocho grupos más comunes, y la sangre O negativo se usa en transfusiones de emergencia y para bebés con defensas débiles. La frecuencia de cada grupo varía entre poblaciones: por ejemplo, en Estados Unidos, alrededor del 45 % de las personas blancas son del grupo O, frente al 51 % de los afroamericanos y el 57 % de los hispanos.",
    "sources": [
     {
      "t": "Cruz Roja Americana — Blood Types",
@@ -19765,7 +19831,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19781,6 +19847,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19792,7 +19862,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La polio está muy cerca de desaparecer",
    "desc": "El poliovirus salvaje solo sigue circulando de forma endémica en dos países: Pakistán y Afganistán.",
-   "body": "La iniciativa mundial para erradicarla comenzó en 1988, liderada por la OMS, UNICEF y otras organizaciones. De los tres tipos de poliovirus salvaje, el tipo 2 se declaró erradicado en 2015 y el tipo 3 en 2019. Mientras el virus circule en algún lugar, la vacunación sigue siendo necesaria.",
+   "body": "La poliomielitis es una enfermedad causada por un virus que se transmite sobre todo por el contacto con heces contaminadas, y que afecta principalmente a niños menores de cinco años. En algunos casos ataca el sistema nervioso y puede causar parálisis permanente. No tiene cura, pero se puede prevenir con vacunas.\n\nLa iniciativa mundial para erradicarla comenzó en 1988, liderada por la OMS, UNICEF y otras organizaciones, cuando la polio paralizaba cada año a unos 350.000 niños en más de 125 países. De los tres tipos de poliovirus salvaje, el tipo 2 se declaró erradicado en 2015 y el tipo 3 en 2019. Mientras el virus circule en algún lugar, la vacunación sigue siendo necesaria.",
+   "deep": "Hoy el poliovirus salvaje solo sigue circulando de forma endémica en dos países, Afganistán y Pakistán, y si no se detiene allí, la enfermedad podría resurgir en todo el mundo. Hay dos tipos de vacuna: la inyectable, de virus inactivado, desarrollada por Jonas Salk, y la oral, de virus vivo atenuado, desarrollada por Albert Sabin en 1961, que pronto se convirtió en la preferida de la mayoría de los programas nacionales. En raras ocasiones, el virus atenuado de la vacuna oral puede circular en comunidades poco vacunadas: son los llamados poliovirus derivados de la vacuna. Si se logra, la polio sería la segunda enfermedad humana erradicada, después de la viruela.",
    "sources": [
     {
      "t": "Organización Mundial de la Salud (OMS) — Poliomyelitis (nota descriptiva)",
@@ -19833,7 +19904,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19849,6 +19920,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19860,7 +19935,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El Día Mundial de la Salud celebra el nacimiento de la OMS",
    "desc": "La Organización Mundial de la Salud se fundó el 7 de abril de 1948.",
-   "body": "La OMS es la agencia de las Naciones Unidas dedicada a la salud pública internacional. Tiene su sede en Ginebra, Suiza. Coordinó campañas como la erradicación de la viruela y elabora la Clasificación Internacional de Enfermedades, usada en todo el mundo.",
+   "body": "La Organización Mundial de la Salud (OMS) es la agencia de las Naciones Unidas dedicada a la salud pública internacional. Su constitución entró en vigor el 7 de abril de 1948, y por eso cada 7 de abril se celebra el Día Mundial de la Salud. Tiene su sede en Ginebra, Suiza, y nació tras una propuesta de Brasil y China en la conferencia de San Francisco de 1945, donde se creó la ONU.\n\nSu constitución define la salud como «un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades». Coordinó campañas como la erradicación de la viruela y elabora la Clasificación Internacional de Enfermedades, usada en todo el mundo.",
+   "deep": "La erradicación de la viruela es uno de sus mayores logros: la viruela fue la primera enfermedad humana eliminada del planeta, y la OMS también ha estado a punto de erradicar la polio y apoyó el desarrollo de una vacuna contra el ébola. Entre sus prioridades actuales están enfermedades transmisibles como el VIH, el ébola, la malaria y la tuberculosis, además de enfermedades no transmisibles. Cada Día Mundial de la Salud se dedica a un tema distinto: algunos han sido las enfermedades transmitidas por vectores, en 2014, el envejecimiento saludable, en 2012, y la resistencia a los medicamentos, en 2011.",
    "sources": [
     {
      "t": "Organización Mundial de la Salud (OMS) — History of WHO",
@@ -19901,7 +19977,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19917,6 +19993,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -19928,7 +20008,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La Cruz Roja nació tras una batalla en 1859",
    "desc": "Henri Dunant quedó impactado por los heridos de Solferino, en Italia, y propuso una organización neutral para atenderlos.",
-   "body": "Dunant escribió un libro sobre lo que vio, y en 1863 se fundó en Ginebra el Comité Internacional de la Cruz Roja. Su emblema es la bandera suiza con los colores invertidos. Dunant recibió el primer Premio Nobel de la Paz, en 1901.",
+   "body": "En junio de 1859, el empresario suizo Henry Dunant presenció la batalla de Solferino, en el norte de Italia, entre los ejércitos de Francia y Cerdeña contra el de Austria. Miles de soldados heridos quedaron abandonados en el campo de batalla sin atención. Dunant organizó a la población local para ayudar a los heridos de ambos bandos.\n\nDunant escribió un libro sobre lo que vio, «Recuerdo de Solferino», publicado en 1862, en el que proponía crear sociedades de socorro voluntarias y un acuerdo internacional para proteger a los heridos. En 1863 se fundó en Ginebra el Comité Internacional de la Cruz Roja. Su emblema es la bandera suiza con los colores invertidos. Dunant recibió el primer Premio Nobel de la Paz, en 1901.",
+   "deep": "En 1864 se firmó el primer Convenio de Ginebra, que obligaba a cuidar a los soldados heridos sin importar su bando y a respetar a quienes los atendían. Es el origen del derecho internacional humanitario, que hoy se basa en los cuatro Convenios de Ginebra de 1949. En muchos países de mayoría musulmana se usa el emblema de la Media Luna Roja, y desde 2005 existe también el Cristal Rojo, sin connotaciones religiosas. Dunant recibió el Nobel cuando vivía en Heiden, en Suiza.",
    "sources": [
     {
      "t": "Comité Internacional de la Cruz Roja (CICR) — History of the ICRC",
@@ -19978,7 +20059,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -19994,6 +20075,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20005,7 +20090,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Un árbol de los Andes fue la primera gran arma contra la malaria",
    "desc": "La quinina se extrae de la corteza del árbol de la quina, nativo de Sudamérica.",
-   "body": "La corteza de quina se usaba en Perú y se llevó a Europa en el siglo XVII. De ella se aisló la quinina en 1820. Durante siglos fue el principal tratamiento contra la malaria. También es el ingrediente que da su sabor amargo al agua tónica.",
+   "body": "La quina es un árbol del género Cinchona, cuya corteza contiene quinina. La corteza de quina se usaba en Perú y se llevó a Europa en el siglo XVII, gracias en parte a misioneros jesuitas que volvían del Nuevo Mundo. Era una de las pocas sustancias eficaces contra las fiebres de la malaria.\n\nDe ella se aisló la quinina en 1820, gracias a los químicos franceses Pierre Joseph Pelletier y Joseph Bienaimé Caventou. Durante siglos fue el principal tratamiento contra la malaria. También es el ingrediente que da su sabor amargo al agua tónica.",
+   "deep": "La quinina tuvo un enorme impacto histórico: permitió a los europeos sobrevivir en regiones tropicales donde la malaria era muy común, lo que facilitó la expansión colonial en África y Asia en el siglo XIX. Por eso se crearon grandes plantaciones de quina fuera de Sudamérica, sobre todo en Java, en Indonesia, que llegó a producir el 97 % de la quinina del mundo. La quinina figura en la lista de medicamentos esenciales de la OMS. Hoy, para tratar la malaria se prefieren otros medicamentos, como los derivados de la artemisinina, y la quinina se reserva para algunos casos, siempre bajo indicación médica, porque puede tener efectos secundarios importantes.",
    "sources": [
     {
      "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Quinine, an old anti-malarial drug in a modern world: role in the treatment of malaria",
@@ -20047,7 +20133,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -20063,6 +20149,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20074,7 +20164,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La malaria no la causa el mosquito, sino un parásito que viaja en él",
    "desc": "Lo transmiten las hembras del mosquito Anopheles.",
-   "body": "El parásito Plasmodium se transmite a las personas por la picadura de mosquitos Anopheles infectados. En 1897, el médico británico Ronald Ross demostró el papel de los mosquitos en la transmisión. Hoy existen tratamientos eficaces, mosquiteros tratados con insecticida y vacunas recomendadas por la OMS.",
+   "body": "El parásito Plasmodium se transmite a las personas por la picadura de mosquitos Anopheles hembra infectados. Una vez en el cuerpo, el parásito viaja al hígado, se multiplica y después invade los glóbulos rojos, lo que causa los ataques de fiebre y escalofríos típicos de la enfermedad. El médico francés Alphonse Laveran detectó el parásito en la sangre de personas infectadas.\n\nEn 1897, el médico británico Ronald Ross demostró el papel de los mosquitos en la transmisión, al encontrar el parásito en mosquitos que habían picado a personas enfermas. Ross recibió el Premio Nobel de Medicina en 1902. Hoy existen tratamientos eficaces, mosquiteros tratados con insecticida y vacunas recomendadas por la OMS.",
+   "deep": "Según la OMS, la malaria sigue siendo una de las enfermedades más graves del mundo: en 2024 hubo unos 282 millones de casos y 610.000 muertes en 80 países, y la región africana soporta una parte desproporcionada de la carga. Hay cinco especies de Plasmodium que causan malaria en los humanos, y la malaria por Plasmodium falciparum puede convertirse en grave y causar la muerte en 24 horas. Desde 2021, la OMS recomienda el uso amplio de la vacuna RTS,S en niños que viven en zonas con transmisión moderada o alta. La malaria se puede prevenir y curar.",
    "sources": [
     {
      "t": "Organización Mundial de la Salud (OMS) — Malaria (nota descriptiva)",
@@ -20115,7 +20206,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -20131,6 +20222,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20142,7 +20237,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En tu cuerpo viven aproximadamente tantas bacterias como células humanas",
    "desc": "Un estudio de 2016 estimó unos 38 billones de bacterias frente a unos 30 billones de células humanas.",
-   "body": "Durante décadas se repitió que en el cuerpo había diez bacterias por cada célula humana. Un estudio publicado en 2016 en PLOS Biology revisó esa cifra: en un adulto típico hay unos 30 billones de células humanas y unos 38 billones de bacterias, es decir, aproximadamente una por cada una. Muchos de estos microorganismos son comensales: conviven con nosotros sin causar daño, y otros nos benefician.",
+   "body": "Durante décadas se repitió que en el cuerpo había diez bacterias por cada célula humana. Esa cifra se basaba en estimaciones antiguas y poco precisas. Un estudio publicado en 2016 en PLOS Biology revisó esa cifra: en un adulto típico hay unos 30 billones de células humanas y unos 38 billones de bacterias, es decir, aproximadamente una por cada una.\n\nEl conjunto de microorganismos que viven en nosotros se llama microbiota, y sus genes, microbioma. Muchos de estos microorganismos son comensales: conviven con nosotros sin causar daño, y otros nos benefician.",
+   "deep": "Aunque los números de células se parecen, nuestros microbios tienen muchos más genes: se calcula que el número de genes bacterianos ronda los 2 millones, unas 100 veces más que los aproximadamente 20.000 genes humanos. Algunos microbios mantienen una relación mutualista con nosotros, en la que ambas partes salen ganando. Pero si microbios normalmente inofensivos llegan a zonas del cuerpo que suelen ser estériles, como la sangre o la cavidad abdominal, pueden causar enfermedades como sepsis o peritonitis. El Proyecto del Microbioma Humano, de Estados Unidos, se dedicó a estudiar esta comunidad, y su relación con la salud sigue investigándose.",
    "sources": [
     {
      "t": "PubMed Central (Biblioteca Nacional de Medicina de EE. UU.) — Revised Estimates for the Number of Human and Bacteria Cells in the Body (PLOS Biology)",
@@ -20176,7 +20272,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -20196,6 +20292,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20207,7 +20307,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La resonancia magnética no usa radiación ionizante",
    "desc": "Funciona con imanes potentes y ondas de radio.",
-   "body": "A diferencia de los rayos X o la tomografía computarizada, la resonancia magnética no expone al paciente a radiación ionizante. Utiliza un campo magnético muy intenso, por lo que se pregunta a los pacientes por implantes o fragmentos metálicos antes de entrar en el equipo.",
+   "body": "La resonancia magnética es una técnica que permite obtener imágenes muy detalladas del interior del cuerpo, sobre todo de tejidos blandos como el cerebro, los músculos o los órganos. A diferencia de los rayos X o la tomografía computarizada, la resonancia magnética no expone al paciente a radiación ionizante.\n\nUtiliza un campo magnético muy intenso y ondas de radio, por lo que se pregunta a los pacientes por implantes o fragmentos metálicos antes de entrar en el equipo. El campo magnético alinea los protones de los átomos de hidrógeno del cuerpo, presentes sobre todo en el agua; las ondas de radio los desplazan, y al volver a su posición emiten señales que el equipo convierte en imágenes.",
+   "deep": "Como los distintos tejidos tienen cantidades diferentes de agua y los protones vuelven a su posición a ritmos distintos, la resonancia distingue muy bien unos tejidos de otros. El equipo es ruidoso: hace clics y pitidos que en algunos aparatos alcanzan los 120 decibelios, y por eso se dan protectores para los oídos. Los pacientes deben quedarse quietos dentro de un tubo durante varios minutos, lo que puede resultar incómodo para quienes tienen claustrofobia. A veces se inyecta por vía intravenosa un medio de contraste, a menudo a base de gadolinio, que acelera el realineamiento de los protones y hace que la imagen sea más brillante. El químico Paul Lauterbur propuso usar un gradiente de campo magnético para generar las imágenes en un plano, una idea clave para la técnica.",
    "sources": [
     {
      "t": "Instituto Nacional de Imágenes Biomédicas y Bioingeniería de EE. UU. (NIBIB) — Magnetic Resonance Imaging (MRI)",
@@ -20240,7 +20341,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -20256,6 +20357,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
@@ -20267,7 +20372,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Fleming ya advirtió del problema de las superbacterias en 1945",
    "desc": "Predijo que un mal uso de la penicilina podía crear bacterias resistentes.",
-   "body": "La resistencia a los antimicrobianos aparece cuando bacterias y otros microbios dejan de responder a los medicamentos. El mal uso y el uso excesivo de los antimicrobianos son las principales causas. La OMS la considera una de las mayores amenazas para la salud pública mundial: la OMS estima que la resistencia bacteriana estuvo asociada a más de 4,7 millones de muertes en el mundo en 2021.",
+   "body": "El científico escocés Alexander Fleming descubrió la penicilina, el primer gran antibiótico. En 1945, al recibir el Premio Nobel, advirtió en su discurso que las bacterias podían volverse resistentes si se usaba la penicilina de forma incorrecta, por ejemplo en dosis demasiado bajas.\n\nLa resistencia a los antimicrobianos aparece cuando bacterias y otros microbios dejan de responder a los medicamentos. El mal uso y el uso excesivo de los antimicrobianos son las principales causas. La OMS la considera una de las mayores amenazas para la salud pública mundial: la OMS estima que la resistencia bacteriana estuvo asociada a más de 4,7 millones de muertes en el mundo en 2021.",
+   "deep": "En su discurso, Fleming lo dijo con claridad: una persona ignorante podía tomar dosis demasiado bajas y, al exponer a sus microbios a cantidades no letales del medicamento, volverlos resistentes. Según la OMS, la resistencia afecta a bacterias, virus, hongos y parásitos, y aparece tanto en personas como en animales y plantas. Cuando aparece, las infecciones se vuelven difíciles o imposibles de tratar, y aumentan los riesgos de procedimientos como las cirugías, la quimioterapia o los trasplantes de órganos. La falta de acceso a vacunas, diagnósticos y medicamentos adecuados también agrava el problema.",
    "sources": [
     {
      "t": "Organización Mundial de la Salud (OMS) — Antimicrobial resistance (nota descriptiva)",
@@ -20308,7 +20414,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -20328,6 +20434,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
     }
    ]
   },
