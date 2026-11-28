@@ -44,7 +44,7 @@
 - **Sin verificación visual:** no se pudo abrir Wikimedia Commons desde el entorno de trabajo, así que ninguna imagen se ha comprobado a la vista.
 
 ## Quiz
-- 277 explicaciones eran idénticas a la descripción del contenido. Las 144 que ya explicaban la respuesta se dejaron como estaban. Las otras 133 se reescribieron, en su mayoría con la frase del propio texto que explica la respuesta y en 53 casos a mano.
+- 277 explicaciones eran idénticas a la descripción del contenido. Las 144 que ya explicaban la respuesta se dejaron como estaban. Las otras 133 se reescribieron, en su mayoría con la frase del propio texto que explica la respuesta y en 52 casos a mano.
 - Se añadieron 15 preguntas a contenidos que no tenían ninguna, entre ellos 4 mitos.
 - La pregunta del Olympus Mons ya no afirma que sea «el volcán más grande».
 
