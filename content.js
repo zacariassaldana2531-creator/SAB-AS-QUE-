@@ -1,4 +1,4 @@
-/* Lumbrario — Base de contenido v6 (444 contenidos, 497 preguntas).
+/* Lumbrario — Base de contenido v6 (444 contenidos, 501 preguntas).
  * Cada contenido tiene fuentes verificadas automáticamente contra el texto de la fuente.
  * Tipos: "articulo" | "curiosidad" | "mito". Estado: "publicado" | "borrador". Nivel: 1-3.
  * Este archivo lo puede regenerar el panel admin (admin.html → Publicar → Descargar content.js).
@@ -2439,9 +2439,9 @@ window.SQ_CONTENT = {
    "cat": "animales",
    "sub": "Rarezas",
    "title": "El wombat hace caca en forma de cubo",
-   "desc": "Es el único animal conocido que produce excrementos cúbicos.",
-   "body": "El wombat es un marsupial robusto de patas cortas que vive en Australia, y tiene una rareza única en la naturaleza: sus excrementos tienen forma de cubo. Ningún otro animal conocido produce heces cúbicas de forma natural. Cada día deja decenas de estos pequeños cubos.\n\nDurante mucho tiempo nadie supo explicar cómo lo conseguía. Investigadores descubrieron que la forma se crea en la parte final del intestino, cuyas paredes tienen zonas con distinta rigidez: dos más flexibles y dos más rígidas. Al contraerse, el intestino moldea las esquinas y los lados planos de cada pieza. El estudio ganó un premio Ig Nobel de Física en 2019.",
-   "deep": "La forma cúbica podría tener una utilidad: los wombats marcan su territorio dejando sus excrementos sobre rocas, troncos y otros lugares elevados, y un cubo no rueda, así que se queda donde lo dejan. Los wombats son excavadores excelentes que viven en madrigueras, y su bolsa marsupial se abre hacia atrás, para que no se llene de tierra mientras cavan. En 2020, los biólogos descubrieron que los wombats, como muchos otros marsupiales australianos, brillan bajo la luz ultravioleta: son biofluorescentes.",
+   "desc": "Es el caso más conocido de un animal que produce excrementos cúbicos.",
+   "body": "El wombat es un marsupial robusto de patas cortas que vive en Australia, y tiene una rareza única en la naturaleza: sus excrementos tienen forma de cubo. Un wombat adulto puede dejar entre 80 y 100 de estos cubos, de unos 2 centímetros, en una sola noche.\n\nDurante mucho tiempo nadie supo explicar cómo lo conseguía. La explicación más aceptada es que la forma se crea en la parte final del intestino, cuyas paredes tendrían zonas con distinta rigidez: dos más flexibles y dos más rígidas. Al contraerse, el intestino moldearía las esquinas y los lados planos de cada pieza, aunque el proceso todavía no se entiende del todo. El estudio ganó un premio Ig Nobel de Física en 2019.",
+   "deep": "La forma cúbica podría tener una utilidad: los wombats colocan sus excrementos para marcar su territorio y atraer pareja, y se cree que un cubo rueda menos y se queda donde lo dejan. Los wombats son excavadores excelentes que viven en madrigueras, y su bolsa marsupial se abre hacia atrás, para que no se llene de tierra mientras cavan. En 2020, los biólogos descubrieron que los wombats, como muchos otros marsupiales australianos, brillan bajo la luz ultravioleta: son biofluorescentes.",
    "sources": [
     {
      "t": "Improbable Research (organizadores de los premios Ig Nobel) — Past Ig Winners – Improbable Research",
@@ -2463,7 +2463,7 @@ window.SQ_CONTENT = {
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/960px-Vombatus_ursinus_-Maria_Island_National_Park.jpg",
    "imgCredit": {
-    "artist": "JJ Harrison ([mailto:jjharrison89@facebook.com jjharrison89@facebook.com])",
+    "artist": "JJ Harrison",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Vombatus_ursinus_-Maria_Island_National_Park.jpg",
@@ -2492,6 +2492,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: matizado «único animal» (sin respaldo directo); sustituida afirmación sin respaldo por cifra verificada; presentado como explicación aceptada, no como hecho cerrado; matizada la función de la forma cúbica; crédito de imagen limpiado"
     }
    ]
   },
@@ -3939,8 +3943,8 @@ window.SQ_CONTENT = {
    "verdict": "falso",
    "title": "«Los murciélagos son ciegos»",
    "desc": "Falso. Todas las especies de murciélagos pueden ver.",
-   "body": "«Ciego como un murciélago» es una expresión muy extendida, pero injusta. Todos los murciélagos tienen ojos funcionales y pueden ver. Lo que ocurre es que muchas especies cazan de noche y han desarrollado además un sistema extraordinario para orientarse a oscuras: la ecolocalización.\n\nCon la ecolocalización, el murciélago emite sonidos muy agudos y escucha el eco que rebota en los objetos y en sus presas. Por el tiempo que tarda el eco y por cómo suena, su cerebro calcula la distancia y el movimiento de lo que tiene delante. Sus orejas son tan sensibles que también captan los sonidos de sus presas, como el aleteo de una polilla. Algunos murciélagos frugívoros grandes no usan ecolocalización y dependen sobre todo de la vista y del olfato.",
-   "deep": "Los murciélagos son los únicos mamíferos capaces de un vuelo verdadero y sostenido, a diferencia de las ardillas voladoras, que solo planean. Su papel en los ecosistemas es enorme. La mayoría, sobre todo en zonas templadas, come insectos; muchos de los demás se alimentan de fruta o de néctar. Por eso muchas plantas de las selvas tropicales y del Mediterráneo dependen de ellos para la polinización, y muchas otras para dispersar sus semillas.",
+   "body": "«Ciego como un murciélago» es una expresión muy extendida, pero injusta. Todos los murciélagos tienen ojos funcionales y pueden ver. Lo que ocurre es que muchas especies cazan de noche y han desarrollado además un sistema extraordinario para orientarse a oscuras: la ecolocalización.\n\nCon la ecolocalización, el murciélago emite sonidos muy agudos y escucha el eco que rebota en los objetos y en sus presas. Por el tiempo que tarda el eco y por cómo suena, su cerebro calcula la distancia y el movimiento de lo que tiene delante. Sus orejas son tan sensibles que también captan los sonidos de sus presas, como el aleteo de una polilla. Los grandes murciélagos frugívoros, llamados megaquirópteros, en su mayoría no usan ecolocalización (la excepción es el género Rousettus) y dependen sobre todo de su buena vista y del olfato. Los murciélagos pequeños tienen ojos diminutos, pero ninguno es completamente ciego.",
+   "deep": "Los murciélagos son los únicos mamíferos capaces de un vuelo verdadero y sostenido, a diferencia de las ardillas voladoras, que solo planean. Su papel en los ecosistemas es enorme. La mayoría, sobre todo en zonas templadas, come insectos; muchos de los demás se alimentan de fruta o de néctar. Por eso muchas plantas de las selvas tropicales y del Mediterráneo dependen de ellos para la polinización, unas 500 especies de plantas con flor según las estimaciones, y muchas otras para dispersar sus semillas.",
    "sources": [
     {
      "t": "Servicio Geológico de EE. UU. (USGS) — Are bats blind?",
@@ -3991,6 +3995,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: precisión sobre qué murciélagos no ecolocalizan; dato de especies polinizadas; pregunta de quiz añadida"
     }
    ]
   },
@@ -4057,6 +4065,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: pregunta de quiz añadida"
     }
    ]
   },
@@ -4249,6 +4261,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: pregunta de quiz añadida"
     }
    ]
   },
@@ -4315,6 +4331,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: pregunta de quiz añadida"
     }
    ]
   },
@@ -7938,7 +7958,7 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Existe una medusa que puede volver a ser joven",
    "desc": "Turritopsis dohrnii puede regresar a su fase de pólipo cuando sufre estrés o daño.",
-   "body": "La mayoría de las medusas mueren tras reproducirse. Turritopsis dohrnii, conocida como la «medusa inmortal», hace algo extraordinario: cuando está herida, enferma o envejece, puede transformar sus células y volver a la fase juvenil de pólipo, como si una mariposa volviera a ser oruga, y empezar su ciclo de vida de nuevo.\n\nEl proceso que lo permite se llama transdiferenciación: células ya especializadas se convierten en otros tipos de células. En teoría, esta medusa podría repetir el ciclo indefinidamente, por eso se dice que es «biológicamente inmortal». Es una medusa pequeña, de pocos milímetros, que vive en aguas templadas y tropicales de todo el mundo.",
+   "body": "La mayoría de las especies de medusas tienen una vida de duración más o menos fija, que va de horas a muchos meses. Turritopsis dohrnii, conocida como la «medusa inmortal», hace algo extraordinario: cuando pasa hambre, sufre cambios bruscos de temperatura o de salinidad, está herida, enferma o envejece, puede transformar sus células y volver a la fase juvenil de pólipo, como si una mariposa volviera a ser oruga, y empezar su ciclo de vida de nuevo.\n\nEl proceso que lo permite se llama transdiferenciación: células ya especializadas se convierten en otros tipos de células. En teoría, esta medusa podría repetir el ciclo indefinidamente, por eso se dice que es «biológicamente inmortal». Es una medusa pequeña, de unos 4,5 milímetros de diámetro como máximo, que vive en aguas templadas y tropicales de todo el mundo.",
    "deep": "Que sea biológicamente inmortal no significa que no muera: la mayoría de los individuos mueren devorados, sobre todo por otras medusas, o por enfermedades antes de poder rejuvenecer. Hasta un estudio de 2006 se pensaba que Turritopsis rubra y Turritopsis nutricula eran la misma especie que Turritopsis dohrnii. Los investigadores estudian su capacidad de transdiferenciación porque podría ayudar a entender mejor el envejecimiento y la regeneración de los tejidos, aunque estamos lejos de cualquier aplicación en humanos. También se analizan sus genes mitocondriales para entender su parentesco con otras especies del mismo género.",
    "sources": [
     {
@@ -7992,6 +8012,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: corregido: «la mayoría muere tras reproducirse» no tiene respaldo; precisados los desencadenantes; tamaño precisado"
     }
    ]
   },
@@ -8102,6 +8126,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: explicación del quiz corregida"
     }
    ]
   },
@@ -8204,7 +8232,7 @@ window.SQ_CONTENT = {
    "date": "2026-11-24",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ruminantia.jpg/960px-Ruminantia.jpg",
    "imgCredit": {
-    "artist": "* :File:Bison bonasus (Linnaeus 1758).jpg (Michael Gäbler)",
+    "artist": "Varios autores (montaje de Wikimedia Commons)",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Ruminantia.jpg",
@@ -8233,6 +8261,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: crédito de imagen corregido (montaje)"
     }
    ]
   },
@@ -8299,8 +8331,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«Los camellos guardan agua en la joroba»",
    "desc": "Falso. La joroba almacena grasa, no agua.",
-   "body": "Durante mucho tiempo se creyó que los camellos almacenaban agua en la joroba, y por eso podían cruzar el desierto sin beber. No es así: la joroba es una reserva de grasa. Cuando escasea la comida, el camello puede usar esa grasa como fuente de energía. Concentrar la grasa en un solo lugar también le ayuda a disipar el calor por el resto del cuerpo.\n\nSu resistencia a la sed se debe a otras adaptaciones. Sus riñones limitan al máximo el volumen de orina, que sale espesa como un jarabe, y sus heces son tan secas que pueden usarse directamente como combustible. Un camello puede perder hasta el 25 % de su peso corporal en agua, una deshidratación que sería mortal para la mayoría de los mamíferos. Cuando por fin encuentra agua, la absorbe como una esponja: un animal muy sediento puede beber unos 110 litros en solo 13 minutos.",
-   "deep": "Hay dos especies principales de camellos domésticos: el dromedario, con una joroba, y el camello bactriano, con dos. El dromedario puede pasar hasta diez días sin beber incluso con mucho calor. El camello bactriano salvaje es una especie distinta y no es el antepasado del doméstico; está en peligro de extinción, con alrededor de mil ejemplares y una población en descenso. Los camellos se crían por su leche, su carne y como animales de carga, y su resistencia los ha hecho clave para cruzar desiertos durante milenios.",
+   "body": "Durante mucho tiempo se creyó que los camellos almacenaban agua en la joroba, y por eso podían cruzar el desierto sin beber. No es así: la joroba es una reserva de grasa. Cuando escasea la comida, el camello puede usar esa grasa como fuente de energía. Se cree, además, que concentrar la grasa en un solo lugar le ayuda a perder calor por el resto del cuerpo.\n\nSu resistencia a la sed se debe a otras adaptaciones. Sus riñones limitan al máximo el volumen de orina, que sale espesa como un jarabe, y sus heces son tan secas que pueden usarse directamente como combustible. Un camello puede perder alrededor del 25 % de su peso corporal en agua, y un dromedario hasta el 30 %, una deshidratación que sería mortal para la mayoría de los mamíferos. Cuando por fin encuentra agua, puede beber hasta unos 140 litros de una vez.",
+   "deep": "Hay dos especies principales de camellos domésticos: el dromedario, con una joroba, y el camello bactriano, con dos. El dromedario puede pasar hasta diez días sin beber incluso con mucho calor. El camello bactriano salvaje es una especie distinta y no es el antepasado del doméstico; vive en los desiertos de Gobi y Taklamakán, en China y Mongolia, y está gravemente amenazado, con alrededor de mil ejemplares. Los camellos se crían por su leche, su carne y como animales de carga, y su resistencia los ha hecho clave para cruzar desiertos durante milenios.",
    "sources": [
     {
      "t": "National Geographic — Bactrian Camel",
@@ -8345,6 +8377,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: marcado como hipótesis; corregido: cifra de 110 litros en 13 minutos sin respaldo; sustituida por dato verificado; precisado hábitat; estado de amenaza redactado sin contradicción entre fuentes"
     }
    ]
   },
@@ -15252,8 +15288,8 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El colibrí puede volar hacia atrás",
    "desc": "Su forma de batir las alas le permite quedarse quieto en el aire y retroceder.",
-   "body": "Los colibríes son los únicos vertebrados capaces de quedarse suspendidos en el aire en un mismo punto de forma sostenida, como un helicóptero, y además pueden volar hacia atrás e incluso boca abajo. Lo consiguen gracias a una articulación del hombro muy flexible, que les permite rotar el ala y generar sustentación tanto al bajarla como al subirla.\n\nBaten las alas muy rápido: las especies pequeñas, decenas de veces por segundo. Ese aleteo produce el zumbido que les da nombre en muchos idiomas: en inglés se llaman «hummingbirds», «pájaros que zumban». Así se quedan suspendidos frente a las flores para beber néctar con su lengua larga, que funciona como una pequeña bomba.",
-   "deep": "Mantener un vuelo así exige muchísima energía. Los colibríes tienen un metabolismo altísimo, que alimentan con el azúcar del néctar, y deben comer con frecuencia a lo largo del día. Son además uno de los pocos grupos de aves capaces de entrar en torpor: un estado profundo parecido al sueño en el que sus funciones se reducen al mínimo y su temperatura corporal baja mucho, para ahorrar energía durante la noche. Las flores y los colibríes han evolucionado juntos: muchas plantas tienen flores tubulares de colores vivos, como el rojo, adaptadas a su pico y a su forma de alimentarse.",
+   "body": "Los colibríes tienen el vuelo más sofisticado de todas las aves: pueden quedarse suspendidos en el aire en un mismo punto, como un helicóptero, y desplazarse en cualquier dirección, incluso hacia atrás. Lo consiguen gracias a una articulación del hombro muy flexible, que les permite rotar el ala y generar sustentación tanto al bajarla como al subirla.\n\nBaten las alas muy rápido: desde unas 12 veces por segundo en las especies más grandes hasta 99 en las más pequeñas. Ese aleteo produce el zumbido que les da nombre en muchos idiomas: en inglés se llaman «hummingbirds», «pájaros que zumban». Así se quedan suspendidos frente a las flores para beber néctar con su lengua larga, que absorbe el líquido muy deprisa.",
+   "deep": "Mantener un vuelo así exige muchísima energía. Los colibríes tienen un metabolismo altísimo, que alimentan con el azúcar del néctar, y deben comer con frecuencia a lo largo del día. Para ahorrar energía durante la noche o cuando escasea el alimento entran en torpor, un estado parecido a la hibernación en el que sus funciones se reducen al mínimo. En un colibrí en torpor se ha medido una temperatura corporal de 3,3 °C, la más baja conocida en un ave. Las flores y los colibríes han evolucionado juntos: muchas plantas tienen flores tubulares de colores vivos, como el rojo, adaptadas a su pico y a su forma de alimentarse.",
    "sources": [
     {
      "t": "Smithsonian Institution — Hummingbirds",
@@ -15306,6 +15342,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: corregido: no son los únicos vertebrados que se mantienen suspendidos; retirado «boca abajo» (sin respaldo); cifras de aleteo precisadas; retirado detalle no verificado del mecanismo de la lengua; corregido: el torpor no es exclusivo de pocas aves; añadido dato verificado; explicación del quiz corregida"
     }
    ]
   },
@@ -15340,14 +15380,6 @@ window.SQ_CONTENT = {
    ],
    "status": "publicado",
    "date": "2026-11-10",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Mirror_test_with_a_Baboon.JPG/960px-Mirror_test_with_a_Baboon.JPG",
-   "imgCredit": {
-    "artist": "Moshe Blank",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Mirror_test_with_a_Baboon.JPG",
-    "file": "Mirror_test_with_a_Baboon.JPG"
-   },
    "verif": {
     "status": "verificado",
     "level": "institucional",
@@ -15371,6 +15403,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: retirada imagen: mostraba un babuino, no un elefante; explicación del quiz corregida"
     }
    ]
   },
@@ -15481,7 +15517,7 @@ window.SQ_CONTENT = {
    "date": "2026-10-27",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Bee_dance.svg/960px-Bee_dance.svg.png",
    "imgCredit": {
-    "artist": "Own work",
+    "artist": "Autor indicado en Wikimedia Commons",
     "license": "CC BY-SA 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
     "page": "https://commons.wikimedia.org/wiki/File:Bee_dance.svg",
@@ -15510,6 +15546,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: crédito de imagen corregido (decía «Own work»)"
     }
    ]
   },
@@ -15575,6 +15615,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: explicación del quiz corregida"
     }
    ]
   },
@@ -15586,8 +15630,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Las nutrias marinas usan piedras como herramientas",
    "desc": "Las usan para romper conchas mientras flotan boca arriba.",
-   "body": "La nutria marina, que vive en las costas del Pacífico Norte, es uno de los pocos mamíferos que usan herramientas. Flotando boca arriba en el agua, coloca una piedra sobre su pecho y golpea contra ella almejas, mejillones y erizos de mar hasta romperlos y comerse su interior. Bajo cada pata delantera tiene un pliegue suelto de piel, a modo de bolsillo, donde guarda la comida que recoge y a veces la piedra que usa como herramienta.\n\nA diferencia de otros mamíferos marinos, no tiene una capa de grasa para protegerse del frío. Su abrigo es su pelaje, el más denso del reino animal: según algunas estimaciones, tiene más de un millón de pelos por pulgada cuadrada en sus zonas más densas, que atrapan una capa de aire junto a la piel y la aíslan del agua fría del Pacífico Norte. Para conservarlo en buen estado se acicala durante horas. Para no alejarse mientras duermen, a veces se envuelven en algas o se toman de las patas.",
-   "deep": "Ese pelaje tan valioso casi provocó su desaparición. Durante el comercio de pieles, entre 1741 y 1911, las nutrias marinas fueron cazadas hasta quedar al borde de la extinción. Un estudio genético con huesos antiguos encontró que las poblaciones anteriores a ese comercio tenían el doble de diversidad genética que las actuales. Son una especie clave: al comer erizos de mar, impiden que estos destruyan los bosques de algas, de los que dependen muchas otras especies marinas.",
+   "body": "La nutria marina, que vive en las costas del Pacífico Norte, es uno de los pocos mamíferos que usan herramientas. Flotando boca arriba en el agua, coloca una piedra sobre su pecho y golpea contra ella almejas, mejillones y erizos de mar hasta romperlos y comerse su interior. Bajo cada pata delantera tiene un pliegue suelto de piel, a modo de bolsillo, donde guarda la comida que recoge y a veces la piedra que usa como herramienta.\n\nA diferencia de otros mamíferos marinos, no tiene una capa de grasa para protegerse del frío. Su abrigo es su pelaje, el más denso del reino animal: tiene hasta unos 150.000 pelos por centímetro cuadrado, casi un millón por pulgada cuadrada, que atrapan una capa de aire junto a la piel y la aíslan del agua fría del Pacífico Norte. Para conservarlo en buen estado se acicala durante horas. Para no alejarse a la deriva mientras descansan, a veces se envuelven en algas, y se las ha fotografiado durmiendo tomadas de las patas.",
+   "deep": "Ese pelaje tan valioso casi provocó su desaparición. Durante el comercio de pieles, entre 1741 y 1911, las nutrias marinas fueron cazadas hasta quedar entre 1.000 y 2.000 ejemplares en todo el mundo, y en 1911 se prohibió su caza. Los estudios genéticos indican que su diversidad genética ya era baja antes de esa época, por cuellos de botella mucho más antiguos, y que la caza la redujo todavía más. Son una especie clave: al comer erizos de mar, impiden que estos destruyan los bosques de algas, de los que dependen muchas otras especies marinas.",
    "sources": [
     {
      "t": "PLOS One — Genetic Diversity and Population Parameters of Sea Otters, Enhydra lutris, before Fur Trade Extirpation from 1741–1911",
@@ -15640,6 +15684,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: cifra de densidad del pelaje corregida (no supera el millón); matizado comportamiento poco documentado; corregido: la cifra de «el doble de diversidad» no se pudo verificar; sustituida por lo que respaldan las fuentes"
     }
    ]
   },
@@ -15770,6 +15818,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: explicación del quiz corregida"
     }
    ]
   },
@@ -21866,14 +21918,6 @@ window.SQ_CONTENT = {
      "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Half_Sleeping_Bird.jpg/960px-Half_Sleeping_Bird.jpg",
-   "imgCredit": {
-    "artist": "Hussain Kaouri",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Half_Sleeping_Bird.jpg",
-    "file": "Half_Sleeping_Bird.jpg"
-   },
    "status": "publicado",
    "date": "2026-11-22",
    "verif": {
@@ -21899,6 +21943,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: retirada imagen: mostraba un ave, no un delfín"
     }
    ]
   },
@@ -21909,9 +21957,9 @@ window.SQ_CONTENT = {
    "sub": "Mamíferos",
    "level": 1,
    "title": "Un perezoso puede tardar un mes o más en digerir lo que come",
-   "desc": "Ningún otro mamífero digiere tan despacio. Los perezosos de tres dedos bajan al suelo más o menos una vez por semana.",
+   "desc": "Se cree que ningún mamífero digiere tan despacio como los perezosos de tres dedos. Los perezosos de tres dedos bajan al suelo más o menos una vez por semana.",
    "body": "Los perezosos, que viven en las selvas de Centroamérica y Sudamérica, se alimentan sobre todo de hojas, un alimento que aporta muy poca energía y es difícil de digerir. Su estómago, dividido en varias cámaras, fermenta lentamente las hojas con ayuda de bacterias. Hasta dos tercios del peso de un perezoso bien alimentado puede ser el contenido de su estómago.\n\nLa digestión puede tardar un mes o más en completarse. Para ahorrar energía, los perezosos se mueven muy despacio, mantienen una temperatura corporal relativamente baja y bajan del árbol solo más o menos una vez a la semana para hacer sus necesidades. Pasan casi toda su vida colgados boca abajo de las ramas, y en ese tiempo duermen o descansan muchas horas al día.",
-   "deep": "Su pelaje es un pequeño ecosistema: en él crecen algas que le dan un tono verdoso y le ayudan a camuflarse entre las hojas, y viven insectos como polillas, que ponen sus huevos en los excrementos del perezoso. Existen seis especies vivas, divididas en perezosos de dos dedos y de tres dedos; cuatro se consideran fuera de peligro, mientras que el perezoso de tres dedos de collar, de la Mata Atlántica de Brasil, es vulnerable. Una perezosa de dos dedos del Zoo Nacional del Smithsonian vivió unos 49 años, la más longeva registrada.",
+   "deep": "Su pelaje es un pequeño ecosistema: en él crecen algas que le dan un tono verdoso y le ayudan a camuflarse entre las hojas, y viven insectos como polillas, que ponen sus huevos en los excrementos del perezoso. Existen seis especies vivas, divididas en perezosos de dos dedos y de tres dedos; cuatro están en la categoría de preocupación menor, el perezoso de tres dedos de collar, de la Mata Atlántica de Brasil, es vulnerable, y el perezoso pigmeo, que vive solo en una pequeña isla de Panamá, está en peligro crítico. Una perezosa de dos dedos del Zoo Nacional del Smithsonian vivió unos 49 años, la más longeva registrada; en cautividad, la mediana de vida ronda los 16 años.",
    "sources": [
     {
      "t": "Smithsonian Institution — Two-toed sloth",
@@ -21964,6 +22012,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: matizada afirmación sin fuente directa; corregido: faltaba el perezoso pigmeo, en peligro crítico; añadido contexto de longevidad; explicación del quiz corregida"
     }
    ]
   },
@@ -22037,6 +22089,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: explicación del quiz corregida"
     }
    ]
   },
@@ -23265,10 +23321,10 @@ window.SQ_CONTENT = {
    "cat": "animales",
    "sub": "Insectos",
    "level": 1,
-   "title": "La mariposa que viaja hasta 3.000 millas sin conocer su destino",
+   "title": "La mariposa que viaja hasta 4.800 kilómetros sin conocer su destino",
    "subtitle": "La migración de la monarca: una ruta de ida y vuelta que ninguna mariposa completa sola",
    "desc": "Las monarcas del este de Norteamérica pasan el invierno en los bosques de oyamel de México, aunque la generación que llega nunca ha estado allí.",
-   "intro": "Según el Servicio Forestal de Estados Unidos, la monarca de Norteamérica es la única mariposa conocida que hace una migración de ida y vuelta, como las aves. No puede sobrevivir a los inviernos fríos del norte, así que cada otoño viaja hacia el sur. Algunas recorren hasta 3.000 millas (unos 4.800 kilómetros) para llegar a su refugio de invierno.",
+   "intro": "Según el Servicio Forestal de Estados Unidos, la monarca de Norteamérica es la única mariposa que hace una migración de ida y vuelta como las de las aves. Hay que matizarlo: estudios más recientes muestran que la vanesa de los cardos también hace un gran circuito de ida y vuelta entre África y Europa, repartido entre varias generaciones. No puede sobrevivir a los inviernos fríos del norte, así que cada otoño viaja hacia el sur. Algunas recorren hasta 3.000 millas (unos 4.800 kilómetros) para llegar a su refugio de invierno.",
    "sections": [
     {
      "h": "Un invierno en las montañas de México",
@@ -23356,12 +23412,21 @@ window.SQ_CONTENT = {
      "kind": "institucional",
      "accessed": "2026-11-26",
      "date": "2025-06-20"
+    },
+    {
+     "t": "Wikipedia — Vanessa cardui",
+     "org": "Wikipedia en inglés",
+     "title": "Vanessa cardui",
+     "u": "https://en.wikipedia.org/wiki/Vanessa_cardui",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
     }
    ],
    "claim": "hecho",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Monarch_butterfly_US_migration.png/960px-Monarch_butterfly_US_migration.png",
    "imgCredit": {
-    "artist": "*MonarchWanderungKlein.gif: Harald Süpfle",
+    "artist": "Harald Süpfle (adaptación)",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_US_migration.png",
@@ -23373,13 +23438,17 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; cada apartado indica la fuente que lo respalda; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (fase de mejoras: contenido nuevo verificado)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: título en kilómetros (antes 3.000 millas); matizada la exclusividad de la migración (dato desactualizado); crédito de imagen limpiado"
     }
    ]
   },
@@ -30000,7 +30069,7 @@ window.SQ_CONTENT = {
     "En Australia"
    ],
    "a": 1,
-   "exp": "Este anfibio mexicano es uno de los animales con mayor capacidad de regeneración."
+   "exp": "Vive de forma natural solo en los lagos y canales del sur de Ciudad de México, sobre todo en Xochimilco, y está en peligro crítico."
   },
   {
    "id": "q116",
@@ -31840,7 +31909,7 @@ window.SQ_CONTENT = {
     "El loro"
    ],
    "a": 1,
-   "exp": "Su forma de batir las alas le permite quedarse quieto en el aire y retroceder."
+   "exp": "Gracias a una articulación del hombro muy flexible puede mantenerse en el aire y desplazarse en cualquier dirección, incluso hacia atrás."
   },
   {
    "id": "q231",
@@ -31856,7 +31925,7 @@ window.SQ_CONTENT = {
     "La velocidad"
    ],
    "a": 1,
-   "exp": "Superan la «prueba del espejo», que pocas especies logran."
+   "exp": "Se marca al animal en un lugar que solo ve en el espejo; si se toca la marca, se interpreta que reconoce su reflejo."
   },
   {
    "id": "q232",
@@ -31904,7 +31973,7 @@ window.SQ_CONTENT = {
     "De focas"
    ],
    "a": 1,
-   "exp": "Puede superar los 30 metros de largo."
+   "exp": "Se alimenta casi solo de krill, pequeños crustáceos que filtra con sus barbas tras embestir con la boca abierta."
   },
   {
    "id": "q235",
@@ -31952,7 +32021,7 @@ window.SQ_CONTENT = {
     "No tiene pelo"
    ],
    "a": 1,
-   "exp": "Además, detecta a sus presas por los campos eléctricos que generan."
+   "exp": "Es uno de los pocos mamíferos que ponen huevos, junto con los equidnas."
   },
   {
    "id": "q238",
@@ -33408,7 +33477,7 @@ window.SQ_CONTENT = {
     "Plumas"
    ],
    "a": 1,
-   "exp": "Ningún otro mamífero digiere tan despacio. Los perezosos de tres dedos bajan al suelo más o menos una vez por semana."
+   "exp": "En su pelaje crecen algas que le dan un tono verdoso y le ayudan a camuflarse."
   },
   {
    "id": "q329",
@@ -33424,7 +33493,7 @@ window.SQ_CONTENT = {
     "Nadie, se entierra"
    ],
    "a": 1,
-   "exp": "Lo incuban durante algo más de dos meses mientras la hembra se alimenta en el mar."
+   "exp": "Solo el macho incuba el huevo, sobre las patas, durante algo más de dos meses, mientras la hembra se alimenta en el mar."
   },
   {
    "id": "q330",
@@ -36170,6 +36239,70 @@ window.SQ_CONTENT = {
    ],
    "a": 1,
    "exp": "Los casos se concentraban alrededor de la bomba de agua de Broad Street, lo que apoyaba la transmisión por agua."
+  },
+  {
+   "id": "q498",
+   "cat": "animales",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-murcielagos",
+   "q": "¿Son ciegos los murciélagos?",
+   "o": [
+    "Sí, todos",
+    "No: todos pueden ver, aunque muchos se orientan por ecolocalización",
+    "Solo ven de día",
+    "Solo los vampiros ven"
+   ],
+   "a": 1,
+   "exp": "Ninguna especie es completamente ciega; muchas cazan de noche con ayuda de la ecolocalización."
+  },
+  {
+   "id": "q499",
+   "cat": "animales",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-toros-rojo",
+   "q": "¿Qué provoca la embestida del toro ante la muleta?",
+   "o": [
+    "El color rojo",
+    "El movimiento de la tela",
+    "El olor del torero",
+    "El ruido del público"
+   ],
+   "a": 1,
+   "exp": "El ganado ve solo dos tipos de conos y no distingue bien el rojo: reacciona al movimiento."
+  },
+  {
+   "id": "q500",
+   "cat": "animales",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-avestruz",
+   "q": "¿Qué hace un avestruz ante un peligro?",
+   "o": [
+    "Esconde la cabeza en la arena",
+    "Huye corriendo o se tumba pegado al suelo",
+    "Se hace el muerto bajo el agua",
+    "Vuela a un árbol"
+   ],
+   "a": 1,
+   "exp": "No esconde la cabeza: corre, o se tumba con el cuello estirado para pasar desapercibido."
+  },
+  {
+   "id": "q501",
+   "cat": "animales",
+   "level": 2,
+   "status": "publicado",
+   "ref": "m-camaleon",
+   "q": "¿Para qué cambian de color sobre todo los camaleones?",
+   "o": [
+    "Solo para camuflarse",
+    "Para comunicarse y regular su temperatura",
+    "Para asustar al sol",
+    "Porque cambian de piel"
+   ],
+   "a": 1,
+   "exp": "Sus cambios más llamativos sirven para comunicarse con otros camaleones y para regular la temperatura."
   }
  ],
  "series": [
