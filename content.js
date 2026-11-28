@@ -1,4 +1,4 @@
-/* Lumbrario — Base de contenido v6 (444 contenidos, 501 preguntas).
+/* Lumbrario — Base de contenido v6 (444 contenidos, 516 preguntas).
  * Cada contenido tiene fuentes verificadas automáticamente contra el texto de la fuente.
  * Tipos: "articulo" | "curiosidad" | "mito". Estado: "publicado" | "borrador". Nivel: 1-3.
  * Este archivo lo puede regenerar el panel admin (admin.html → Publicar → Descargar content.js).
@@ -1989,10 +1989,10 @@ window.SQ_CONTENT = {
    "level": 1,
    "cat": "ciencia",
    "sub": "Química de los alimentos",
-   "title": "La miel bien guardada puede durar miles de años",
-   "desc": "Se ha encontrado miel en tumbas egipcias que, según los arqueólogos, seguía en buen estado.",
-   "body": "La miel bien guardada puede durar muchísimo tiempo sin echarse a perder, y se han conservado durante siglos objetos sumergidos en ella. Eso sí, hay que desmentir una historia muy repetida: no se ha encontrado miel comestible en las tumbas egipcias; todos esos casos resultaron ser otras sustancias o solo restos químicos. Lo que sí es cierto es que la química de la miel la protege muy bien.\n\nLa miel tiene muy poca agua y mucha azúcar, lo que deshidrata a las bacterias y hongos que intentan crecer en ella: el agua sale de sus células y mueren. Además es ácida, y las abejas añaden una enzima que produce pequeñas cantidades de peróxido de hidrógeno, un antiséptico. Mientras esté bien cerrada y no absorba humedad del aire, prácticamente no se estropea.",
-   "deep": "La miel es higroscópica: absorbe agua del ambiente si se deja abierta, y si su contenido de agua sube, pueden fermentarla las levaduras. Por eso hay que guardarla bien tapada. Con el tiempo es normal que se cristalice, sobre todo si tiene mucha glucosa: no está dañada, basta con calentarla suavemente al baño maría. La industria aprovecha ese proceso para producir la miel cremosa, en la que se controla la cristalización para obtener una textura untable. La recolección de miel es una actividad antiquísima, muy anterior a la domesticación de las abejas.",
+   "title": "La miel bien guardada prácticamente no caduca",
+   "desc": "Si se mantiene bien cerrada y seca, su vida útil es indefinida. La «miel comestible de las tumbas egipcias», en cambio, es un mito.",
+   "body": "La miel bien guardada puede durar muchísimo tiempo sin echarse a perder: mientras su contenido de agua se mantenga bajo, en torno al 18 % o menos, su vida útil es prácticamente indefinida. Eso sí, hay que desmentir una historia muy repetida: no se ha encontrado miel comestible en las tumbas egipcias; todos esos casos resultaron ser otras sustancias o solo restos químicos. Lo que sí es cierto es que la química de la miel la protege muy bien.\n\nLa miel tiene muy poca agua y mucha azúcar, lo que deshidrata a las bacterias y hongos que intentan crecer en ella: el agua sale de sus células y mueren. Además es ácida, y las abejas añaden una enzima que produce pequeñas cantidades de peróxido de hidrógeno, un antiséptico. Mientras esté bien cerrada y no absorba humedad del aire, prácticamente no se estropea.",
+   "deep": "La miel es higroscópica: absorbe agua del ambiente si se deja abierta, y si su contenido de agua sube, pueden fermentarla las levaduras. Por eso hay que guardarla bien tapada. Con el tiempo es normal que se cristalice, sobre todo si tiene mucha glucosa: no está dañada, basta con calentarla suavemente al baño maría. La industria aprovecha ese proceso para producir la miel cremosa, en la que se controla la cristalización para obtener una textura untable. La recolección de miel es una actividad antiquísima: los restos de miel más antiguos conocidos, de hace entre 4.700 y 5.500 años, se hallaron en vasijas de una tumba de Georgia.",
    "sources": [
     {
      "t": "Smithsonian Magazine (Smithsonian Institution) — The Science Behind Honey’s Eternal Shelf Life",
@@ -2043,6 +2043,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: título exagerado: la miel «de miles de años» de las tumbas egipcias es un mito; la descripción contradecía al propio texto; retirada afirmación sin fuente; añadido dato verificado; añadido dato verificado; pregunta de quiz añadida"
     }
    ]
   },
@@ -2087,6 +2091,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: pregunta de quiz añadida"
     }
    ]
   },
@@ -2100,7 +2108,7 @@ window.SQ_CONTENT = {
    "sub": "Estrellas",
    "title": "Una cucharadita de estrella de neutrones pesaría miles de millones de toneladas",
    "desc": "Son los restos de estrellas que explotaron, comprimidos hasta un tamaño de unos 20 km.",
-   "body": "Cuando una estrella mucho más grande que el Sol agota su combustible, su núcleo colapsa y la estrella explota como supernova. Lo que queda del núcleo puede convertirse en una estrella de neutrones: un objeto con más masa que el Sol comprimida en una esfera de unos 10 kilómetros de radio, el tamaño de una ciudad. Su masa típica es de unas 1,4 veces la del Sol.\n\nLa materia queda tan comprimida que los protones y los electrones se fusionan en neutrones, y una porción del tamaño de una cucharadita pesaría en la Tierra unos 3000 millones de toneladas, lo mismo que medio kilómetro cúbico de roca terrestre. La gravedad en su superficie es enorme, y su campo magnético es miles de millones de veces más intenso que el de la Tierra. Muchas giran a gran velocidad: algunas dan cientos de vueltas por segundo.",
+   "body": "Cuando una estrella mucho más grande que el Sol agota su combustible, su núcleo colapsa y la estrella explota como supernova. Lo que queda del núcleo puede convertirse en una estrella de neutrones: un objeto con más masa que el Sol comprimida en una esfera de unos 10 kilómetros de radio, el tamaño de una ciudad. Su masa típica es de unas 1,4 veces la del Sol.\n\nLa materia queda tan comprimida que los protones y los electrones se fusionan en neutrones, y una cucharadita de su materia tendría una masa de más de 5.500 millones de toneladas, unas 900 veces la de la Gran Pirámide de Guiza. Una porción del tamaño de una caja de cerillas pesaría unos 3.000 millones de toneladas, como medio kilómetro cúbico de roca terrestre. La gravedad en su superficie es enorme, y su campo magnético es miles de millones de veces más intenso que el de la Tierra. Muchas giran a gran velocidad: la más rápida conocida da unas 716 vueltas por segundo.",
    "deep": "Algunas estrellas de neutrones emiten haces de radiación desde sus polos magnéticos que barren el espacio como un faro. Si uno de esos haces apunta hacia la Tierra, recibimos pulsos regulares: son los púlsares. El primero lo descubrió en 1967 la astrónoma Jocelyn Bell Burnell, y su regularidad era tan precisa que al principio se bromeó con que fueran señales extraterrestres. En 2017 se detectaron por primera vez ondas gravitacionales producidas por el choque de dos estrellas de neutrones, un evento que también fabricó elementos pesados como el oro.",
    "sources": [
     {
@@ -2144,6 +2152,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Universo: corregido: la cifra de 3.000 millones de toneladas corresponde a una caja de cerillas, no a una cucharadita; dato precisado"
     }
    ]
   },
@@ -2180,7 +2192,7 @@ window.SQ_CONTENT = {
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/960px-Flag_of_Australia_%28converted%29.svg.png",
    "imgCredit": {
-    "artist": "Unknown (Vector graphics image by Ian Fieggen) (only minor code changes by uploader.)",
+    "artist": "Ian Fieggen (gráfico vectorial)",
     "license": "Dominio público",
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia_%28converted%29.svg",
@@ -2205,6 +2217,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: crédito de imagen limpiado"
     }
    ]
   },
@@ -2285,7 +2301,7 @@ window.SQ_CONTENT = {
    "title": "El desierto más grande del mundo es de hielo",
    "desc": "Un desierto se define por lo poco que llueve, no por el calor. La Antártida es el mayor.",
    "body": "Cuando pensamos en un desierto imaginamos arena y calor, pero lo que define a un desierto es la falta de precipitación: lugares donde casi no llueve ni nieva. Con esa definición, el desierto más grande del mundo es la Antártida, con unos 14 millones de km². El segundo es el desierto del Ártico, y el Sahara, el mayor desierto cálido, ocupa el tercer puesto.\n\nEn el interior de la Antártida caen de media apenas unos pocos centímetros de precipitación al año, menos que en muchos desiertos cálidos. El aire es tan frío que contiene muy poca humedad. Aun así, el continente está cubierto por una capa de hielo de varios kilómetros de espesor, porque la poca nieve que cae no se derrite y se ha ido acumulando durante cientos de miles de años.",
-   "deep": "La Antártida es el mayor desierto frío del mundo: alrededor del 98 % es una gruesa capa de hielo continental y el 2 %, roca desnuda. Los desiertos polares tienen rasgos parecidos a los cálidos, salvo que su precipitación principal es la nieve y no la lluvia. Los Valles Secos de la Antártida llevan miles de años libres de hielo, y en ellos los ciclos de congelación y deshielo dibujan en el suelo patrones de hasta cinco metros de diámetro. En la Tierra, los desiertos polares ocupan en total casi 5 millones de kilómetros cuadrados.",
+   "deep": "La Antártida es el mayor desierto frío del mundo: alrededor del 98 % es una gruesa capa de hielo continental y el 2 %, roca desnuda. Los desiertos polares tienen rasgos parecidos a los cálidos, salvo que su precipitación principal es la nieve y no la lluvia. Los Valles Secos de la Antártida llevan miles de años libres de hielo, y en ellos los ciclos de congelación y deshielo dibujan en el suelo patrones de hasta cinco metros de diámetro.",
    "sources": [
     {
      "t": "Servicio Geológico de EE. UU. (USGS) — Types of Deserts",
@@ -2349,6 +2365,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: eliminada cifra sin respaldo que contradecía los 14 millones de km² de la Antártida"
     }
    ]
   },
@@ -2707,7 +2727,7 @@ window.SQ_CONTENT = {
    "sub": "Telefonía",
    "title": "El primer mensaje de texto de la historia decía «Merry Christmas»",
    "desc": "Se envió el 3 de diciembre de 1992, desde una computadora a un teléfono móvil.",
-   "body": "El primer mensaje de texto SMS de la historia se envió el 3 de diciembre de 1992 por la red GSM de Vodafone, en el Reino Unido. Lo escribió Neil Papworth, un ingeniero de pruebas de la empresa Sema Group, desde una computadora personal, y decía simplemente «Merry Christmas», «Feliz Navidad». Lo recibió en su teléfono Orbitel 901 su colega Richard Jarvis, de Vodafone.\n\nPapworth escribió el mensaje desde una computadora, y no desde un teléfono. Con el tiempo, los mensajes más largos empezaron a dividirse en varias partes que el teléfono vuelve a unir, y apareció el MMS para enviar fotos y otros archivos multimedia. Los SMS tenían un límite de 160 caracteres. Con los años, los mensajes de texto se convirtieron en una de las formas de comunicación más usadas del mundo y crearon su propio lenguaje de abreviaturas para ahorrar caracteres.",
+   "body": "El primer mensaje de texto SMS de la historia se envió el 3 de diciembre de 1992 por la red GSM de Vodafone, en el Reino Unido. Lo escribió Neil Papworth, un ingeniero de pruebas de la empresa Sema Group, desde una computadora personal, y decía simplemente «Merry Christmas», «Feliz Navidad». Lo recibió en su teléfono Orbitel 901 su colega Richard Jarvis, de Vodafone.\n\nCon el tiempo, los mensajes más largos empezaron a dividirse en varias partes que el teléfono vuelve a unir, y apareció el MMS para enviar fotos y otros archivos multimedia. Los SMS tenían un límite de 160 caracteres. Con los años, los mensajes de texto se convirtieron en una de las formas de comunicación más usadas del mundo y crearon su propio lenguaje de abreviaturas para ahorrar caracteres.",
    "deep": "SMS significa «Short Message Service», servicio de mensajes cortos. Se convirtió en un componente de casi todos los sistemas de telefonía móvil, y cada mensaje admite hasta 160 caracteres. Hoy los SMS conviven con aplicaciones de mensajería que funcionan por internet, pero siguen siendo muy usados para códigos de verificación, alertas bancarias y avisos de emergencia, porque llegan a casi cualquier teléfono sin necesidad de datos.",
    "sources": [
     {
@@ -2760,6 +2780,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: frase repetida eliminada"
     }
    ]
   },
@@ -2928,7 +2952,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-09",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -2944,8 +2968,13 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Movido a la nueva categoría Lengua y literatura"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Lengua: completado el texto de profundización, que estaba vacío"
     }
-   ]
+   ],
+   "deep": "La expresión árabe original contiene el nombre de Dios, «Alá», y muchos hablantes todavía la sienten como un deseo que se deja en manos de la suerte o del destino. En español actual, «ojalá» es una interjección que expresa un deseo y va seguida de un verbo en subjuntivo: «ojalá llueva», «ojalá que vengas». Muchas de las palabras de origen árabe empiezan por «al» o «a», porque conservaron pegado el artículo árabe «al-»: es el caso de almohada, alcalde, algodón o azúcar. Esa huella se nota sobre todo en el vocabulario de la agricultura, la construcción, el comercio y la vida doméstica."
   },
   {
    "id": "c-taino",
@@ -3098,6 +3127,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: pregunta de quiz añadida"
     }
    ]
   },
@@ -3110,8 +3143,8 @@ window.SQ_CONTENT = {
    "cat": "geografia",
    "sub": "República Dominicana",
    "title": "La montaña más alta del Caribe está en República Dominicana",
-   "desc": "El Pico Duarte mide unos 3.098 metros.",
-   "body": "El Pico Duarte, en la Cordillera Central de la República Dominicana, es la montaña más alta de todas las islas del Caribe, con 3101 metros sobre el nivel del mar. Está a solo 85 kilómetros del punto más bajo de la región, el lago Enriquillo. Lleva el nombre de Juan Pablo Duarte, uno de los padres de la patria dominicana.\n\nAunque la República Dominicana es un país tropical, en la cima pueden registrarse temperaturas bajo cero en invierno, y a veces hay escarcha. La subida es una de las excursiones de montaña más populares del país: suele hacerse en dos o tres días, atravesando bosques de pinos y pasando la noche en refugios, y muchos excursionistas salen de madrugada para ver el amanecer desde la cumbre.",
+   "desc": "El Pico Duarte mide unos 3.100 metros; según la medición, entre 3.098 y 3.101.",
+   "body": "El Pico Duarte, en la Cordillera Central de la República Dominicana, es la montaña más alta de todas las islas del Caribe, con unos 3100 metros sobre el nivel del mar (las mediciones van de 3098 a 3101). Está a solo 85 kilómetros del punto más bajo de la región, el lago Enriquillo. Lleva el nombre de Juan Pablo Duarte, uno de los padres de la patria dominicana.\n\nAunque la República Dominicana es un país tropical, en la cima pueden registrarse temperaturas bajo cero en invierno, y a veces hay escarcha. La subida es una de las excursiones de montaña más populares del país: suele hacerse en dos o tres días, atravesando bosques de pinos y pasando la noche en refugios, y muchos excursionistas salen de madrugada para ver el amanecer desde la cumbre.",
    "deep": "El pico tiene muy cerca otra cumbre casi igual de alta, La Pelona: sus nombres populares, «Pelona Grande» y «Pelona Chica», venían de que sus cimas estaban peladas, sin árboles. Durante la dictadura de Rafael Trujillo, la más alta de las dos se llamó «Pico Trujillo»; tras la muerte del dictador se rebautizó como Pico Duarte. Gracias a esta montaña, La Española es una de las islas con mayor altitud máxima del mundo.",
    "sources": [
     {
@@ -3143,6 +3176,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: cifra unificada: la descripción y el texto daban alturas distintas; cifra unificada; explicación del quiz corregida"
     }
    ]
   },
@@ -3196,6 +3233,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: pregunta de quiz añadida"
     }
    ]
   },
@@ -3376,8 +3417,8 @@ window.SQ_CONTENT = {
    "sub": "Inflación",
    "title": "La peor inflación de la historia duplicaba los precios cada 15 horas",
    "desc": "Ocurrió en Hungría en 1946, tras la Segunda Guerra Mundial.",
-   "body": "La moneda de Hungría entre 1927 y 1946, el pengő, quedó sin ningún valor por la hiperinflación más extrema jamás registrada. En julio de 1946, la inflación mensual en Hungría alcanzó cifras de miles de billones por ciento: según una estimación, un 41,9 billones de billones por ciento, aunque las cifras varían según la fuente. Los precios se duplicaban aproximadamente cada 15 horas.\n\nEl país llegó a imprimir un billete de 100 trillones de pengő (un 1 seguido de 20 ceros), el billete de mayor valor nominal jamás emitido. El banco central llegó a imprimir incluso billetes de mil trillones, pero nunca entraron en circulación. En agosto de 1946 se sustituyó por una nueva moneda, el forinto, que se usa hasta hoy.",
-   "deep": "Para protegerse, en enero de 1946 el gobierno creó el «adópengő» o «pengő fiscal», una unidad indexada que en principio servía para planificar el presupuesto y cuyo valor en pengős se fijaba cada día. Pero también acabó desplomándose. El 1 de agosto de 1946, el forinto se introdujo a una tasa de cambio de 400 cuatrillones de pengős por cada forinto: hubo que quitarle 29 ceros a la vieja moneda. La Segunda Guerra Mundial había causado enormes costos y pérdidas a la economía húngara, el banco central estaba prácticamente bajo control del gobierno y se emitía dinero según las necesidades del presupuesto; al final, solo una moneda nueva pudo estabilizar sus finanzas. Por comparación, la hiperinflación de Zimbabue de 2008 tuvo un mes máximo en el que los precios se duplicaban cada 24,7 horas.",
+   "body": "La moneda de Hungría entre 1927 y 1946, el pengő, quedó sin ningún valor por la hiperinflación más extrema jamás registrada. En julio de 1946, la inflación mensual en Hungría alcanzó, según las estimaciones de los economistas, decenas de miles de billones por ciento, aunque las cifras varían según la fuente. Los precios se duplicaban aproximadamente cada 15 horas.\n\nEl país llegó a imprimir un billete de 100 trillones de pengő (un 1 seguido de 20 ceros), el billete de mayor valor nominal jamás emitido. El banco central llegó a imprimir incluso billetes de mil trillones, pero nunca entraron en circulación. En agosto de 1946 se sustituyó por una nueva moneda, el forinto, que se usa hasta hoy.",
+   "deep": "Para protegerse, en enero de 1946 el gobierno creó el «adópengő» o «pengő fiscal», una unidad indexada que en principio servía para planificar el presupuesto y cuyo valor en pengős se fijaba cada día. Pero también acabó desplomándose. El 1 de agosto de 1946, el forinto se introdujo a una tasa de cambio de 400.000 cuatrillones de pengős (un 4 seguido de 29 ceros) por cada forinto: hubo que quitarle 29 ceros a la vieja moneda. La Segunda Guerra Mundial había causado enormes costos y pérdidas a la economía húngara, el banco central estaba prácticamente bajo control del gobierno y se emitía dinero según las necesidades del presupuesto; al final, solo una moneda nueva pudo estabilizar sus finanzas. Por comparación, la hiperinflación de Zimbabue de 2008 tuvo un mes máximo en el que los precios se duplicaban cada 24,7 horas.",
    "sources": [
     {
      "t": "Wikipedia — Hungarian pengő",
@@ -3425,6 +3466,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: corregida cifra mal convertida («billones de billones» multiplicaba el dato por miles de millones); corregida conversión de la escala numérica (4 × 10²⁹)"
     }
    ]
   },
@@ -3438,7 +3483,7 @@ window.SQ_CONTENT = {
    "sub": "Inflación",
    "title": "Zimbabue imprimió un billete de 100 billones de dólares",
    "desc": "Fue en 2009, durante una de las peores hiperinflaciones del siglo XXI.",
-   "body": "Zimbabue vive episodios de hiperinflación desde febrero de 2007. En su peor momento, a mediados de noviembre de 2008, la inflación mensual se estima en un 790.600 millones por ciento, y la anual en cifras astronómicas. Era tan difícil de medir que el gobierno dejó de publicar estadísticas oficiales de inflación.\n\nEl billete de 100 billones de dólares zimbabuenses (100.000.000.000.000) apenas alcanzaba para comprar algunos productos básicos: en esa época no bastaba ni para pagar un viaje en autobús. En abril de 2009, el país dejó de imprimir su moneda y empezó a operar con divisas extranjeras como el dólar estadounidense. Hoy esos billetes se venden como objetos de colección.",
+   "body": "Zimbabue vive episodios de hiperinflación desde febrero de 2007. En su peor momento, a mediados de noviembre de 2008, la inflación mensual se estimó, según el cálculo, entre 79.600 millones y 790.600 millones por ciento, y la anual en cifras astronómicas. Era tan difícil de medir que el gobierno dejó de publicar estadísticas oficiales de inflación.\n\nEl billete de 100 billones de dólares zimbabuenses (100.000.000.000.000) apenas alcanzaba para comprar algunos productos básicos: en esa época no bastaba ni para pagar un viaje en autobús. En abril de 2009, el país dejó de imprimir su moneda y empezó a operar con divisas extranjeras como el dólar estadounidense. Hoy esos billetes se venden como objetos de colección.",
    "deep": "Entre las causas de la crisis estuvo una reforma agraria que expulsó a los terratenientes blancos y entregó sus tierras a agricultores negros, muchos de ellos sin experiencia ni formación; muchas granjas se abandonaron o fueron a parar a leales al presidente Robert Mugabe. Entre 1999 y 2009, la producción de alimentos cayó en picado, y el sistema bancario también se hundió. El gobierno culpó a las sanciones internacionales. En 2015 anunció el paso definitivo al dólar estadounidense, pero en 2019 reintrodujo un «dólar zimbabuense» y prohibió el uso legal de divisas extranjeras; ese mismo año la inflación volvió a dispararse, lo que mostró lo difícil que es recuperar la confianza en una moneda.",
    "sources": [
     {
@@ -3453,7 +3498,7 @@ window.SQ_CONTENT = {
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Zimbabwe_Hyperinflation_2008_notes.jpg/960px-Zimbabwe_Hyperinflation_2008_notes.jpg",
    "imgCredit": {
-    "artist": ":en:User:Discott",
+    "artist": "Discott (usuario de Wikipedia en inglés)",
     "license": "Dominio público",
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Hyperinflation_2008_notes.jpg",
@@ -3478,6 +3523,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: las fuentes dan dos cifras distintas para el máximo; se indican ambas; crédito de imagen limpiado"
     }
    ]
   },
@@ -3729,6 +3778,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Historia: pregunta de quiz añadida"
     }
    ]
   },
@@ -3862,6 +3915,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: pregunta de quiz añadida"
     }
    ]
   },
@@ -3929,6 +3986,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: pregunta de quiz añadida"
     }
    ]
   },
@@ -4137,6 +4198,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: pregunta de quiz añadida"
     }
    ]
   },
@@ -4400,6 +4465,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: explicación del quiz corregida"
     }
    ]
   },
@@ -4523,7 +4592,7 @@ window.SQ_CONTENT = {
    "title": "El helio se descubrió en el Sol antes que en la Tierra",
    "desc": "Se detectó en 1868 en la luz solar y no se aisló en la Tierra hasta 1895.",
    "body": "El helio es uno de los pocos elementos que se descubrieron fuera de la Tierra. Durante un eclipse total de Sol en 1868, el astrónomo francés Pierre Janssen observó en la luz del Sol una línea amarilla que no correspondía a ningún elemento conocido. El astrónomo inglés Norman Lockyer propuso que se trataba de un elemento nuevo y lo llamó helio, del griego helios, «Sol».\n\nDurante años, muchos dudaron de que existiera en la Tierra. Fue el 26 de marzo de 1895 cuando el químico escocés William Ramsay lo aisló por primera vez en nuestro planeta, al tratar con ácidos un mineral de uranio llamado cleveíta. Aunque en la Tierra es escaso, el helio es el segundo elemento más abundante del universo, después del hidrógeno.",
-   "deep": "Para descubrir el helio en el Sol se usó la espectroscopia: cada elemento, al calentarse, emite luz solo en ciertos colores, como si tuviera una «huella dactilar» de líneas. Comparando las líneas de la luz del Sol con las de los elementos conocidos, apareció una que no encajaba. En el universo, el helio constituye cerca del 23 % de la masa de la materia ordinaria, y gran parte se formó en los primeros minutos tras el Big Bang. En la Tierra se obtiene del gas natural, donde se acumula a partir de la desintegración radiactiva de elementos como el uranio.",
+   "deep": "Para descubrir el helio en el Sol se usó la espectroscopia: cada elemento, al calentarse, emite luz solo en ciertos colores, como si tuviera una «huella dactilar» de líneas. Comparando las líneas de la luz del Sol con las de los elementos conocidos, apareció una que no encajaba. En el universo, el helio constituye alrededor del 24 % de la masa de los elementos, y gran parte se formó en los primeros minutos tras el Big Bang. En la Tierra se obtiene del gas natural, donde se acumula a partir de la desintegración radiactiva de elementos como el uranio.",
    "sources": [
     {
      "t": "Organismo gubernamental (lanl.gov) — Helium He 2",
@@ -4568,6 +4637,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: cifra ajustada a la fuente; explicación del quiz corregida"
     }
    ]
   },
@@ -4765,6 +4838,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: explicación del quiz corregida"
     }
    ]
   },
@@ -4830,6 +4907,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: explicación del quiz corregida"
     }
    ]
   },
@@ -4875,6 +4956,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Historia: explicación del quiz corregida"
     }
    ]
   },
@@ -4887,7 +4972,7 @@ window.SQ_CONTENT = {
    "title": "La Guerra de los Cien Años duró 116 años",
    "desc": "Enfrentó a Inglaterra y Francia entre 1337 y 1453, con largas treguas de por medio.",
    "body": "La Guerra de los Cien Años no fue una guerra continua, sino una serie de conflictos y treguas entre los reinos de Inglaterra y Francia, a finales de la Edad Media, por el trono francés. Comenzó en 1337 y terminó en 1453: duró 116 años. El nombre «de los Cien Años» no se usó en la época: se lo dieron historiadores siglos después.\n\nSu origen fueron disputas feudales por el ducado de Aquitania, en el suroeste de Francia, y la chispa fue la reclamación del trono francés por parte del rey Eduardo III de Inglaterra. Los ingleses lograron grandes victorias, como la de Azincourt en 1415. Pero entonces apareció Juana de Arco, que levantó la moral francesa y ayudó a romper el asedio de Orleans. Al final, Inglaterra perdió casi todas sus posesiones en Francia.",
-   "deep": "Las batallas de Patay, en 1429, Formigny, en 1450, y Castillon, en 1453, fueron decisivas para el final de la guerra, que terminó con la victoria de la dinastía francesa de los Valois. Inglaterra conservó en el continente solo la zona de Calais. Además de un conflicto entre dos reinos, fue también una guerra civil dentro de Francia, entre los armañacs y los borgoñones, que en algunos momentos se aliaron con los ingleses. Por la cantidad de enfrentamientos, treguas y reinados que abarcó, se considera el conflicto militar más largo de la historia europea.",
+   "deep": "Las batallas de Patay, en 1429, Formigny, en 1450, y Castillon, en 1453, fueron decisivas para el final de la guerra, que terminó con la victoria de la dinastía francesa de los Valois. Inglaterra conservó en el continente solo la zona de Calais. Además de un conflicto entre dos reinos, fue también una guerra civil dentro de Francia, entre los armañacs y los borgoñones, que en algunos momentos se aliaron con los ingleses. Por la cantidad de enfrentamientos, treguas y reinados que abarcó, es uno de los conflictos militares más largos de la historia europea.",
    "sources": [
     {
      "t": "Encyclopaedia Britannica — Hundred Years' War",
@@ -4941,6 +5026,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Historia: superlativo sin respaldo: hubo conflictos europeos más largos; explicación del quiz corregida"
     }
    ]
   },
@@ -5158,6 +5247,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Historia: explicación del quiz corregida"
     }
    ]
   },
@@ -5351,6 +5444,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Psicología: explicación del quiz corregida"
     }
    ]
   },
@@ -5408,6 +5505,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Psicología: explicación del quiz corregida"
     }
    ]
   },
@@ -5757,6 +5858,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Psicología: explicación del quiz corregida"
     }
    ]
   },
@@ -5814,6 +5919,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Psicología: explicación del quiz corregida"
     }
    ]
   },
@@ -6059,6 +6168,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Universo: explicación del quiz corregida"
     }
    ]
   },
@@ -6068,9 +6181,9 @@ window.SQ_CONTENT = {
    "cat": "universo",
    "sub": "Planetas",
    "level": 1,
-   "title": "El volcán más grande del sistema solar está en Marte",
-   "desc": "El Monte Olimpo mide unos 22 km de altura, más de dos veces el Everest.",
-   "body": "El Monte Olimpo, Olympus Mons en latín, es el volcán más grande conocido del sistema solar. Es un volcán en escudo, como los de Hawái, pero a una escala gigantesca: desde el pie de los acantilados de su borde noroeste hasta la cima se eleva más de 21 kilómetros, algo más del doble que el Mauna Kea medido desde el fondo del océano, y su base mide unos 600 kilómetros de ancho.\n\nSu base es tan ancha y sus laderas tan suaves que, si estuvieras en su cima, no verías sus bordes: la curvatura de Marte los ocultaría bajo el horizonte. Pudo crecer tanto por dos razones. Marte no tiene placas tectónicas móviles: su corteza permanece fija sobre un punto caliente, así que el magma salía siempre por el mismo lugar durante muchísimo tiempo. Y la gravedad de Marte es menor que la de la Tierra, lo que permite sostener montañas más altas.",
+   "title": "Uno de los mayores volcanes del sistema solar está en Marte",
+   "desc": "El Monte Olimpo mide unos 21 km de altura, más de dos veces el Everest.",
+   "body": "El Monte Olimpo, Olympus Mons en latín, es uno de los mayores volcanes conocidos del sistema solar. Es un volcán en escudo, como los de Hawái, pero a una escala gigantesca: desde el pie de los acantilados de su borde noroeste hasta la cima se eleva más de 21 kilómetros, algo más del doble que el Mauna Kea medido desde el fondo del océano, y su base mide unos 600 kilómetros de ancho.\n\nSu base es tan ancha y sus laderas tan suaves que, si estuvieras en su cima, no verías sus bordes: la curvatura de Marte los ocultaría bajo el horizonte. Su cima comparte con el pico central del cráter Rheasilvia, en el asteroide Vesta, el título de montaña más alta conocida del sistema solar. Pudo crecer tanto por dos razones. Marte no tiene placas tectónicas móviles: su corteza permanece fija sobre un punto caliente, así que el magma salía siempre por el mismo lugar durante muchísimo tiempo. Y la gravedad de Marte es menor que la de la Tierra, lo que permite sostener montañas más altas.",
    "deep": "Olympus Mons está en la región de Tharsis, una enorme meseta volcánica donde se alinean otros volcanes gigantes. Su cima tiene una caldera formada por varios cráteres superpuestos, de unos 80 kilómetros de largo, que se formaron cuando la cámara de magma se vació y el terreno se hundió. En su base hay un acantilado de hasta varios kilómetros de altura. Los científicos creen que algunas de sus coladas de lava son relativamente recientes en términos geológicos.",
    "sources": [
     {
@@ -6132,6 +6245,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Universo: añadido matiz: empata con Rheasilvia como montaña más alta; pregunta del quiz matizada; explicación del quiz corregida; título y texto matizados («uno de los mayores volcanes»); altura unificada en 21 km"
     }
    ]
   },
@@ -6143,7 +6260,7 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Una nave lanzada en 1977 es el objeto humano más lejano",
    "desc": "La Voyager 1 entró en el espacio interestelar en 2012 y sigue enviando datos.",
-   "body": "La sonda Voyager 1 despegó el 5 de septiembre de 1977 para estudiar Júpiter y Saturno, y aprovechó la posición de los planetas para ganar velocidad con su gravedad. Tras pasar por Saturno en 1980, siguió alejándose del Sol y hoy es el objeto fabricado por el ser humano más lejano de la Tierra.\n\nEn agosto de 2012 cruzó la heliopausa, el límite de la burbuja de partículas y campos magnéticos que crea el viento solar, y se convirtió en el primer objeto humano en llegar al espacio interestelar. Sigue enviando datos con una antena de radio, aunque su señal tarda más de un día en llegar a la Tierra y su energía, que procede de generadores de plutonio, va disminuyendo poco a poco.",
+   "body": "La sonda Voyager 1 despegó el 5 de septiembre de 1977 para estudiar Júpiter y Saturno, y aprovechó la posición de los planetas para ganar velocidad con su gravedad. Tras pasar por Saturno en 1980, siguió alejándose del Sol y hoy es el objeto fabricado por el ser humano más lejano de la Tierra.\n\nEn agosto de 2012 cruzó la heliopausa, el límite de la burbuja de partículas y campos magnéticos que crea el viento solar, y se convirtió en el primer objeto humano en llegar al espacio interestelar. El 18 de noviembre de 2026 se convirtió en el primer objeto humano en alcanzar un día luz de distancia de la Tierra. Sigue enviando datos con una antena de radio, aunque su señal tarda ya más de un día en llegar y su energía, que procede de generadores de plutonio, va disminuyendo poco a poco.",
    "deep": "La Voyager 1 lleva un disco de cobre bañado en oro, el «Disco de Oro», con sonidos e imágenes de la Tierra: saludos en decenas de idiomas, música de distintas culturas y sonidos de la naturaleza, por si algún día alguna civilización la encuentra. Su gemela, la Voyager 2, lleva otro igual. En 1990, a petición de Carl Sagan, la Voyager 1 tomó la famosa fotografía del «Pálido punto azul», en la que la Tierra aparece como un diminuto punto de luz.",
    "sources": [
     {
@@ -6171,6 +6288,15 @@ window.SQ_CONTENT = {
      "kind": "enciclopedia",
      "accessed": "2026-11-26",
      "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    },
+    {
+     "t": "NASA — NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+     "org": "NASA",
+     "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+     "u": "https://www.nasa.gov/?p=1066602",
+     "kind": "institucional",
+     "accessed": "2026-11-27",
+     "note": "Consultada en la auditoría del 2026-11-27."
     }
    ],
    "status": "publicado",
@@ -6206,6 +6332,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Universo: actualizado: hito del día luz alcanzado el 18 de noviembre de 2026; fuente añadida"
     }
    ]
   },
@@ -6503,7 +6633,7 @@ window.SQ_CONTENT = {
    "title": "El primer dominio .com se registró en 1985",
    "desc": "Fue symbolics.com, de una empresa de computadoras de Massachusetts.",
    "body": "El 15 de marzo de 1985, la empresa estadounidense Symbolics registró el dominio symbolics.com, considerado el primer dominio .com de la historia de internet. Como sigue registrado, es también el dominio .com más antiguo que existe. Ese año apenas se registraron unos pocos dominios .com; hoy existen cientos de millones de dominios en internet.\n\nSymbolics era una empresa de computación nacida del Instituto Tecnológico de Massachusetts (MIT) que fabricaba las «máquinas Lisp», computadoras diseñadas para ejecutar el lenguaje de programación Lisp, muy usado entonces en la investigación de inteligencia artificial. La empresa desapareció con el tiempo, pero su dominio sobrevivió: en 2009 lo compró la empresa XF.com Investments.",
-   "deep": "El sistema de nombres de dominio, el DNS, se creó a mediados de los años ochenta para que las personas no tuvieran que recordar las direcciones numéricas de las computadoras, sino nombres fáciles. Funciona como una enorme guía telefónica distribuida por todo el mundo. La historia de Symbolics también es conocida en el mundo del software libre: según Richard Stallman, la empresa obligó al MIT a que sus mejoras del sistema de las máquinas Lisp solo estuvieran disponibles para Symbolics, lo que dejó en desventaja a su competidor, LMI. Aquella experiencia influyó en la creación del movimiento del software libre.",
+   "deep": "El sistema de nombres de dominio, el DNS, se creó en 1983 para que las personas no tuvieran que recordar las direcciones numéricas de las computadoras, sino nombres fáciles. Funciona como una enorme guía telefónica distribuida por todo el mundo. La historia de Symbolics también es conocida en el mundo del software libre: según Richard Stallman, la empresa obligó al MIT a que sus mejoras del sistema de las máquinas Lisp solo estuvieran disponibles para Symbolics, lo que dejó en desventaja a su competidor, LMI. Aquella experiencia influyó en la creación del movimiento del software libre.",
    "sources": [
     {
      "t": "Wikipedia — Symbolics",
@@ -6536,6 +6666,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: fecha precisada: el DNS se creó en 1983"
     }
    ]
   },
@@ -6610,6 +6744,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: explicación del quiz corregida"
     }
    ]
   },
@@ -6676,6 +6814,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: explicación del quiz corregida"
     }
    ]
   },
@@ -6741,6 +6883,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: explicación del quiz corregida"
     }
    ]
   },
@@ -6947,7 +7093,7 @@ window.SQ_CONTENT = {
    "sub": "Digestión",
    "level": 2,
    "title": "Tu estómago produce ácido clorhídrico, uno de los ácidos más fuertes",
-   "desc": "En los seres humanos, el jugo gástrico tiene un pH de entre 1 y 3, mucho más ácido que el de la mayoría de los animales.",
+   "desc": "En los seres humanos, el jugo gástrico tiene un pH de entre 1 y 3: es muy ácido.",
    "body": "El estómago produce ácido clorhídrico, uno de los ácidos más fuertes que existen, el mismo que se usa en la industria para limpiar metales. Lo fabrican unas células especializadas de las glándulas de su pared, llamadas células parietales. Ese ácido es el componente principal del jugo gástrico.\n\nEl ácido cumple varias funciones. Mata muchos de los microbios que llegan con los alimentos, ayuda a deshacer las proteínas y activa la pepsina, una enzima que corta las proteínas en trozos más pequeños. El jugo gástrico contiene además otras enzimas producidas por otras células de las glándulas del estómago. El pH del estómago está entre 1 y 3, muy ácido. Las paredes del estómago no se dañan gracias a una capa de moco y bicarbonato que las recubre y neutraliza el ácido junto a ellas.",
    "deep": "Cuando esa protección falla, pueden aparecer úlceras. Algunas enfermedades, como el síndrome de Zollinger-Ellison, aumentan la hormona gastrina y con ella la producción de ácido, lo que también provoca úlceras. El reflujo ocurre cuando el ácido sube hacia el esófago, que no tiene esa capa protectora. Además del ácido, el jugo gástrico contiene lipasa gástrica, que empieza a digerir las grasas, y pepsinógeno, la forma inactiva de la pepsina, que el propio ácido activa.",
    "sources": [
@@ -7003,6 +7149,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: eliminada comparación con otros animales sin respaldo (hay especies, como los buitres, con estómagos más ácidos)"
     }
    ]
   },
@@ -7057,6 +7207,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: explicación del quiz corregida"
     }
    ]
   },
@@ -7110,6 +7264,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: explicación del quiz corregida"
     }
    ]
   },
@@ -7230,6 +7388,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: explicación del quiz corregida"
     }
    ]
   },
@@ -7275,6 +7437,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: explicación del quiz corregida"
     }
    ]
   },
@@ -7286,8 +7452,8 @@ window.SQ_CONTENT = {
    "sub": "Articulaciones",
    "level": 1,
    "title": "«Tronarse los dedos causa artritis»",
-   "desc": "Falso, según los estudios disponibles. Un médico lo comprobó en sí mismo durante 60 años.",
-   "body": "Muchos padres advierten a sus hijos que tronarse los dedos causa artritis. Los estudios no lo confirman. El chasquido se relaciona con el gas disuelto en el líquido sinovial, el líquido que lubrica las articulaciones, cuando la articulación se estira de golpe.\n\nHay incluso un experimento casero famoso: el médico estadounidense Donald Unger se tronó los nudillos de la mano izquierda todos los días durante más de cincuenta años, y no los de la derecha. Al final, no encontró artritis ni otros problemas en ninguna de las dos manos. Publicó el resultado en 2004 y recibió por ello el premio Ig Nobel de Medicina de 2009. Estudios con más personas tampoco han encontrado que tronarse los nudillos cause artrosis en las manos.",
+   "desc": "Falso, según los estudios disponibles. Un médico lo comprobó en sí mismo durante más de 50 años.",
+   "body": "Muchos padres advierten a sus hijos que tronarse los dedos causa artritis. Los estudios no lo confirman. El chasquido se relaciona con el gas disuelto en el líquido sinovial, el líquido que lubrica las articulaciones, cuando la articulación se estira de golpe.\n\nHay incluso un experimento casero famoso: el médico estadounidense Donald Unger se tronó los nudillos de la mano izquierda todos los días durante más de cincuenta años, y no los de la derecha. Al final, no encontró artritis ni otros problemas en ninguna de las dos manos. Publicó el resultado en una revista médica y recibió por ello el premio Ig Nobel de Medicina de 2009. Estudios con más personas tampoco han encontrado que tronarse los nudillos cause artrosis en las manos.",
    "deep": "Durante décadas se discutió el mecanismo exacto del sonido. Según una explicación, al estirar la articulación se libera nitrógeno disuelto en el líquido sinovial y se forman burbujas de cavitación; el nitrógeno tarda unos 20 minutos en volver a disolverse, y por eso hay que esperar antes de poder tronar de nuevo el mismo dedo. En 2015, una investigación observó que las burbujas seguían en el líquido después del chasquido, lo que sugiere que el sonido se produce al formarse la burbuja y no al estallar.",
    "sources": [
     {
@@ -7329,6 +7495,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: la descripción decía 60 años y el texto, más de cincuenta; eliminado año de publicación no verificado; explicación del quiz corregida"
     }
    ]
   },
@@ -7386,6 +7556,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: explicación del quiz corregida"
     }
    ]
   },
@@ -7581,6 +7755,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -7730,7 +7908,7 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "La Española es la isla más poblada del Caribe",
    "desc": "Es la segunda más grande, después de Cuba, y la comparten dos países.",
-   "body": "La isla de La Española, compartida por la República Dominicana y Haití, es la segunda isla más grande de las Antillas, después de Cuba, pero la más poblada del Caribe. Fue además el escenario del primer asentamiento europeo permanente en América. Los taínos, sus habitantes originales, la llamaban con varios nombres, entre ellos Ayiti y Quisqueya.\n\nCristóbal Colón llegó a la isla en diciembre de 1492, durante su primer viaje, y la llamó «La Isla Española». Allí fundó La Isabela en 1493, y en 1496 se fundó Santo Domingo, hoy la ciudad europea más antigua habitada de forma continua en América. La colonización tuvo consecuencias devastadoras para la población taína, que se redujo drásticamente por la violencia, el trabajo forzado y las enfermedades traídas de Europa.",
+   "body": "La isla de La Española, compartida por la República Dominicana y Haití, es la segunda isla más grande de las Antillas, después de Cuba, pero la más poblada del Caribe. Fue además el escenario del primer asentamiento europeo permanente en América. Los taínos, sus habitantes originales, la llamaban con varios nombres, entre ellos Ayiti y Quisqueya.\n\nCristóbal Colón llegó a la isla en diciembre de 1492, durante su primer viaje, y la llamó «La Isla Española». Allí fundó La Isabela en 1493, y entre 1496 y 1498, según las fuentes, se fundó Santo Domingo, hoy la ciudad europea más antigua habitada de forma continua en América. La colonización tuvo consecuencias devastadoras para la población taína, que se redujo drásticamente por la violencia, el trabajo forzado y las enfermedades traídas de Europa.",
    "deep": "La isla quedó dividida en dos colonias: la parte oriental, española, y la occidental, francesa, conocida como Saint-Domingue, que llegó a ser la colonia más rica del Caribe gracias al azúcar y al trabajo de personas esclavizadas. En 1804, tras una revolución de esclavos, Haití se convirtió en la primera república independiente de América Latina y el Caribe. La República Dominicana proclamó su independencia de Haití en 1844. El nombre Haití viene precisamente del nombre taíno Ayiti.",
    "sources": [
     {
@@ -7772,6 +7950,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: fecha alineada con el artículo de la Ciudad Colonial (las fuentes dan 1496 o 1498)"
     }
    ]
   },
@@ -7837,6 +8019,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -7882,6 +8068,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -8016,6 +8206,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Auditoría científica de Animales: corregido: «la mayoría muere tras reproducirse» no tiene respaldo; precisados los desencadenantes; tamaño precisado"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: explicación del quiz corregida"
     }
    ]
   },
@@ -8061,6 +8255,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: explicación del quiz corregida"
     }
    ]
   },
@@ -8593,6 +8791,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Filosofía: explicación del quiz corregida"
     }
    ]
   },
@@ -8650,6 +8852,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Filosofía: explicación del quiz corregida"
     }
    ]
   },
@@ -8726,7 +8932,7 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Según una paradoja griega, Aquiles nunca alcanzaría a una tortuga",
    "desc": "Zenón de Elea propuso paradojas para cuestionar el movimiento.",
-   "body": "Zenón de Elea, un filósofo griego nacido hacia el año 490 antes de Cristo, fue cercano a Parmenides y escribió un libro de paradojas para defender su filosofía, según la cual el cambio y el movimiento son ilusiones. La más famosa es la de Aquiles y la tortuga. Si la tortuga sale con ventaja, cuando Aquiles llega a donde estaba la tortuga, ella ya avanzó un poco; cuando llega a ese nuevo punto, ella avanzó otro poco, y así infinitamente. Parece que nunca la alcanzaría.\n\nHoy las matemáticas explican que una suma infinita de distancias cada vez más pequeñas puede dar un resultado finito, y por eso Aquiles alcanza a la tortuga en un tiempo finito. Pero la paradoja obligó durante siglos a pensar con más cuidado sobre el infinito, el espacio y el tiempo.",
+   "body": "Zenón de Elea, un filósofo griego nacido hacia el año 490 antes de Cristo, fue cercano a Parménides y escribió un libro de paradojas para defender su filosofía, según la cual el cambio y el movimiento son ilusiones. La más famosa es la de Aquiles y la tortuga. Si la tortuga sale con ventaja, cuando Aquiles llega a donde estaba la tortuga, ella ya avanzó un poco; cuando llega a ese nuevo punto, ella avanzó otro poco, y así infinitamente. Parece que nunca la alcanzaría.\n\nHoy las matemáticas explican que una suma infinita de distancias cada vez más pequeñas puede dar un resultado finito, y por eso Aquiles alcanza a la tortuga en un tiempo finito. Pero la paradoja obligó durante siglos a pensar con más cuidado sobre el infinito, el espacio y el tiempo.",
    "deep": "El libro de Zenón no se conserva: conocemos sus paradojas sobre todo por Aristóteles, que las discute en su «Física», y por sus comentaristas, como Simplicio, que escribió mil años después pero aún tenía al menos parte del libro. Además de la de Aquiles, hay otras paradojas famosas sobre el movimiento: la de la dicotomía, según la cual para recorrer una distancia primero hay que recorrer la mitad, luego la mitad de lo que queda, y así infinitamente; la de la flecha, que en cada instante estaría quieta; y la del estadio. Según Platón, Zenón tenía casi 40 años cuando Sócrates era un joven de unos 20.",
    "sources": [
     {
@@ -8772,6 +8978,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Filosofía: errata ortográfica; explicación del quiz corregida"
     }
    ]
   },
@@ -8865,7 +9075,7 @@ window.SQ_CONTENT = {
    "date": "2026-11-26",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Marcus_Aurelius._De_seipso%2C_seu_vita_sua_%28Xylander%2C_1558%29.jpg/960px-Marcus_Aurelius._De_seipso%2C_seu_vita_sua_%28Xylander%2C_1558%29.jpg",
    "imgCredit": {
-    "artist": "Marcus Aurelius|City=Zürich|Date=1558|Description=M. Antonini Imperatoris Romani, Et Philo",
+    "artist": "Edición de Wilhelm Xylander (Zúrich, 1558)",
     "license": "Dominio público",
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius._De_seipso%2C_seu_vita_sua_%28Xylander%2C_1558%29.jpg",
@@ -8894,6 +9104,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Filosofía: explicación del quiz corregida; crédito de imagen limpiado"
     }
    ]
   },
@@ -9082,7 +9296,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -9098,6 +9312,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Misterios: explicación del quiz corregida"
     }
    ]
   },
@@ -9289,7 +9507,7 @@ window.SQ_CONTENT = {
    "title": "La Isla de Pascua tiene una escritura que nadie ha descifrado",
    "desc": "Se llama rongorongo y sobrevive en unas pocas decenas de objetos de madera.",
    "body": "Además de sus famosas estatuas moái, la Isla de Pascua (Rapa Nui) dejó un sistema de glifos llamado rongorongo. Solo se conservan unas dos docenas de piezas de madera con inscripciones. Los glifos son contornos de figuras humanas, animales, plantas, objetos y formas geométricas.\n\nNadie ha logrado descifrarlo con certeza, y se discute incluso si es una escritura completa o una forma de «protoescritura». Ha habido numerosos intentos de desciframiento, pero ninguno ha tenido un éxito completo. Los textos se escribían en «bustrofedón invertido»: al terminar una línea, había que girar la tablilla para leer la siguiente.",
-   "deep": "Los europeos conocieron el rongorongo a través del misionero Eugène Eyraud en 1864, cuando la población de la isla estaba devastada: incursiones de traficantes de esclavos, incluida una terrible en 1862, y una epidemia de viruela posterior la habían reducido a menos de doscientas personas. Algunos investigadores creen que pudo inventarse después del contacto con los españoles, que en 1770 hicieron firmar un tratado a los jefes locales, mientras que otros señalan que las marcas con que firmaron no se parecen al rongorongo. Algunas tablillas se han datado con carbono, pero los resultados solo indican que son posteriores a 1680.",
+   "deep": "Los europeos conocieron el rongorongo a través del misionero Eugène Eyraud en 1864, cuando la población de la isla estaba devastada: incursiones de traficantes de esclavos, incluida una terrible en 1862, y una epidemia de viruela posterior la habían reducido a menos de doscientas personas. Algunos investigadores creen que pudo inventarse después del contacto con los españoles, que en 1770 hicieron firmar un tratado a los jefes locales, mientras que otros señalan que las marcas con que firmaron no se parecen al rongorongo. Durante años, la única tablilla datada por carbono solo permitía decir que su madera era posterior a 1680. En 2024, un estudio dató cuatro tablillas conservadas en Roma: la mayoría son del siglo XIX, pero la madera de una es de mediados del siglo XV, anterior al contacto con los europeos. Se fechó la madera, no la escritura, así que la inscripción podría ser posterior.",
    "sources": [
     {
      "t": "Scientific American — The \"Talking Boards\" of Easter Island",
@@ -9313,7 +9531,7 @@ window.SQ_CONTENT = {
    "date": "2026-11-13",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Rongorongo_B-v_Aruku-Kurenga_%28color%29_edit1.jpg/960px-Rongorongo_B-v_Aruku-Kurenga_%28color%29_edit1.jpg",
    "imgCredit": {
-    "artist": "*Rongorongo_B-v_Aruku-Kurenga_(color).jpg: unknown",
+    "artist": "Autor desconocido (fotografía retocada de la tablilla B)",
     "license": "Dominio público",
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Rongorongo_B-v_Aruku-Kurenga_%28color%29_edit1.jpg",
@@ -9342,6 +9560,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Misterios: actualizado con la datación por carbono publicada en 2024; explicación del quiz corregida; crédito de imagen limpiado"
     }
    ]
   },
@@ -9407,6 +9629,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Misterios: explicación del quiz corregida"
     }
    ]
   },
@@ -9481,6 +9707,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Misterios: explicación del quiz corregida"
     }
    ]
   },
@@ -9724,6 +9954,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: explicación del quiz corregida"
     }
    ]
   },
@@ -9789,6 +10023,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: explicación del quiz corregida"
     }
    ]
   },
@@ -9911,6 +10149,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: explicación del quiz corregida"
     }
    ]
   },
@@ -9964,6 +10206,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: explicación del quiz corregida"
     }
    ]
   },
@@ -10112,6 +10358,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: explicación del quiz corregida"
     }
    ]
   },
@@ -10194,7 +10444,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -10210,6 +10460,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: explicación del quiz corregida"
     }
    ]
   },
@@ -10275,6 +10529,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: explicación del quiz corregida"
     }
    ]
   },
@@ -10303,7 +10561,7 @@ window.SQ_CONTENT = {
    "date": "2026-11-09",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/NativityChristmasLights2.jpg/960px-NativityChristmasLights2.jpg",
    "imgCredit": {
-    "artist": "* File:NativityChristmasLights.jpg:",
+    "artist": "Autor indicado en Wikimedia Commons (obra derivada)",
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "page": "https://commons.wikimedia.org/wiki/File:NativityChristmasLights2.jpg",
@@ -10328,6 +10586,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: explicación del quiz corregida; crédito de imagen limpiado"
     }
    ]
   },
@@ -10500,6 +10762,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: explicación del quiz corregida"
     }
    ]
   },
@@ -10608,7 +10874,7 @@ window.SQ_CONTENT = {
    "date": "2026-11-10",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Deity_Figure_%28Zem%C3%AD%29_MET_DP295635.jpg/960px-Deity_Figure_%28Zem%C3%AD%29_MET_DP295635.jpg",
    "imgCredit": {
-    "artist": "|title = Deity Figure (Zemí)",
+    "artist": "Museo Metropolitano de Arte (MET), Nueva York",
     "license": "CC0",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Deity_Figure_%28Zem%C3%AD%29_MET_DP295635.jpg",
@@ -10641,6 +10907,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: explicación del quiz corregida; crédito de imagen limpiado"
     }
    ]
   },
@@ -10694,6 +10964,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: explicación del quiz corregida"
     }
    ]
   },
@@ -10943,6 +11217,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Lengua: explicación del quiz corregida"
     }
    ]
   },
@@ -10996,6 +11274,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: explicación del quiz corregida"
     }
    ]
   },
@@ -11008,7 +11290,7 @@ window.SQ_CONTENT = {
    "title": "La bachata también es Patrimonio Cultural Inmaterial de la Humanidad",
    "desc": "La UNESCO la reconoció en 2019, tres años después del merengue.",
    "body": "Según la UNESCO, la bachata nació de la fusión del bolero con otros géneros afroantillanos como el son cubano, el chachachá y el merengue. La palabra «bachata» se supone de origen africano y al principio no designaba un género musical, sino una reunión o fiesta animada. Tradicionalmente se toca con una o dos guitarras, y sus letras hablan de amor, pasión y nostalgia. Fue inscrita en la lista de Patrimonio Cultural Inmaterial en 2019.\n\nSe baila en pareja, con movimientos sensuales de las caderas. Según la UNESCO, se aprende de forma espontánea desde la infancia, pero el país tiene además más de cien academias, estudios y escuelas dedicadas a enseñarla. Además de las guitarras, hoy muy a menudo eléctricas, se usan un contrabajo, bongos, maracas y güiro.",
-   "deep": "Durante mucho tiempo, la bachata se llamó «amargue», por la «música amarga» de sus letras, hasta que se impuso el nombre más neutro de bachata. La primera bachata grabada que se reconoce es «Borracho de amor», compuesta por José Manuel Calderón en 1962. Al principio era música de los barrios pobres y de las zonas rurales, y se la llegó a comparar con el blues por surgir entre personas en los márgenes de la sociedad. En los años noventa cambió su sonido, con la guitarra eléctrica y la güira, y en el siglo XXI grupos como Monchy y Alexandra o Aventura crearon la bachata urbana, que la convirtió en un fenómeno internacional.",
+   "deep": "Durante mucho tiempo, la bachata se llamó «amargue», por la «música amarga» de sus letras, hasta que se impuso el nombre más neutro de bachata. La primera bachata grabada que se reconoce es «Borracho de amor», compuesta por José Manuel Calderón en 1962. Al principio era música de los barrios pobres y de las zonas rurales, y se la llegó a comparar con el blues por surgir entre personas en los márgenes de la sociedad. En los años noventa cambió su sonido, con la guitarra eléctrica y la güira, y en el siglo XXI grupos como Aventura impulsaron la bachata urbana, que la convirtió en un fenómeno internacional.",
    "sources": [
     {
      "t": "UNESCO — La bachata dominicana (Patrimonio Cultural Inmaterial)",
@@ -11049,6 +11331,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: atribución corregida"
     }
    ]
   },
@@ -11114,6 +11400,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: explicación del quiz corregida"
     }
    ]
   },
@@ -11150,7 +11440,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "enciclopedica",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas y nombres) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "claim": "hecho",
@@ -11162,8 +11452,13 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Verificación de datos contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: completado el texto de profundización, que estaba vacío"
     }
-   ]
+   ],
+   "deep": "El Faro a Colón se inauguró en 1992, para el quinto centenario del primer viaje de Colón. Sus planos los dibujó en 1931 el arquitecto escocés J. L. Gleave, que ganó un concurso internacional, y la construcción, retomada en 1986, la supervisó el arquitecto dominicano Teófilo Carbonell. Es una enorme estructura de hormigón con forma de cruz, de unos 210 metros de largo y 59 de ancho, cuyos haces de luz proyectan una cruz en el cielo nocturno que, según se dice, se ve desde Puerto Rico. Una vez al año, el Día de la Raza, se exhiben tras un cristal los restos que las autoridades dominicanas atribuyen a Colón. Los investigadores señalan que el resultado de Sevilla no descarta que algunos huesos de Santo Domingo también sean suyos."
   },
   {
    "id": "c-sombrero-panama",
@@ -11219,6 +11514,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: explicación del quiz corregida"
     }
    ]
   },
@@ -11231,7 +11530,7 @@ window.SQ_CONTENT = {
    "title": "Hubo una época en que los Juegos Olímpicos daban medallas por pintar y escribir",
    "desc": "Entre 1912 y 1948 hubo competencias de arte: arquitectura, literatura, música, pintura y escultura.",
    "body": "Entre 1912 y 1948, los Juegos Olímpicos modernos entregaron medallas por obras de arte. El fundador de los Juegos modernos, el barón Pierre de Coubertin, quería unir deporte y arte, educar a la vez la mente y el cuerpo. Las obras debían estar inspiradas en el deporte y se dividían en cinco categorías: arquitectura, literatura, música, pintura y escultura. Por eso se le llamó el «pentatlón de las musas».\n\nLa primera edición fue en los Juegos de Estocolmo de 1912. Al principio los suecos se opusieron, porque no les gustaba la idea de mezclar el arte con la competición, pero acabaron cediendo, aunque solo se conocen 35 artistas participantes. El interés creció con los años: en los Juegos de Ámsterdam de 1928 se expusieron más de 1100 obras de arte en el museo municipal de la ciudad.",
-   "deep": "Las competencias se eliminaron por una decisión del Comité Olímpico Internacional de 1949: como la mayoría de los participantes eran artistas profesionales, se consideró que contradecían el espíritu olímpico de competencia entre aficionados, que entonces se aplicaba con rigor a los atletas. Después se organizaron exposiciones de arte y, desde 1956, los países anfitriones organizan Olimpiadas Culturales a su criterio. Solo dos personas han ganado medallas olímpicas en deporte y en arte: el estadounidense Walter Winans, campeón de tiro en 1908 y medallista de oro en escultura en 1912, y el húngaro Alfréd Hajós, campeón de natación en 1896.",
+   "deep": "Las competencias se eliminaron por una decisión del Comité Olímpico Internacional de 1949: como la mayoría de los participantes eran artistas profesionales, se consideró que contradecían el espíritu olímpico de competencia entre aficionados, que entonces se aplicaba con rigor a los atletas. Después se organizaron exposiciones de arte y, desde 1956, los países anfitriones organizan Olimpiadas Culturales a su criterio. Solo dos personas han ganado medallas olímpicas en deporte y en arte: el estadounidense Walter Winans, campeón de tiro en 1908 y medallista de oro en escultura en 1912, y el húngaro Alfréd Hajós, campeón de natación en 1896 y medalla de plata en arquitectura en 1924.",
    "sources": [
     {
      "t": "Smithsonian Magazine (Smithsonian Institution) — When the Olympics Gave Out Medals for Art",
@@ -11284,6 +11583,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: completada la frase: faltaba la medalla artística de Hajós"
     }
    ]
   },
@@ -11588,7 +11891,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -11604,6 +11907,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Psicología: explicación del quiz corregida"
     }
    ]
   },
@@ -11686,7 +11993,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "teoria",
@@ -11703,6 +12010,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Misterios: explicación del quiz corregida"
     }
    ]
   },
@@ -11783,7 +12094,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave comprobados también en fuentes institucionales o académicas citadas por la obra de referencia; los detalles restantes se apoyan en la enciclopedia, que sigue enlazada."
    },
    "claim": "hecho",
@@ -11799,6 +12110,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales o académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: explicación del quiz corregida"
     }
    ]
   },
@@ -11864,6 +12179,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: explicación del quiz corregida"
     }
    ]
   },
@@ -11996,9 +12315,9 @@ window.SQ_CONTENT = {
    "cat": "ciencia",
    "sub": "Medicina",
    "level": 2,
-   "title": "La primera radiografía de la historia fue la mano de una esposa",
+   "title": "Una de las radiografías más famosas de la historia es la mano de la esposa de Röntgen",
    "desc": "Wilhelm Röntgen descubrió los rayos X en 1895 y radiografió la mano de su esposa, Anna Bertha.",
-   "body": "En noviembre de 1895, el físico alemán Wilhelm Conrad Röntgen experimentaba en su laboratorio de Wurzburgo con tubos de descarga, en los que hacía pasar electricidad por un gas a muy baja presión. Notó que una pantalla recubierta de una sustancia fluorescente brillaba al otro lado del laboratorio, aunque el tubo estaba cubierto con cartón negro. Algo invisible atravesaba el cartón.\n\nComo no sabía qué eran esos rayos, los llamó «X», el símbolo de lo desconocido. Pronto descubrió que atravesaban la carne pero no los huesos ni los metales, y tomó una de las imágenes más famosas de la historia: la mano de su esposa, con los huesos y el anillo bien visibles. La noticia dio la vuelta al mundo en semanas, y los médicos empezaron enseguida a usar los rayos X para ver fracturas y objetos dentro del cuerpo.",
+   "body": "En noviembre de 1895, el físico alemán Wilhelm Conrad Röntgen experimentaba en su laboratorio de Wurzburgo con tubos de descarga, en los que hacía pasar electricidad por un gas a muy baja presión. Notó que una pantalla recubierta de una sustancia fluorescente brillaba al otro lado del laboratorio, aunque el tubo estaba cubierto con cartón negro. Algo invisible atravesaba el cartón.\n\nComo no sabía qué eran esos rayos, los llamó «X», el símbolo de lo desconocido. Pronto descubrió que atravesaban la carne pero no los huesos ni los metales, y unas seis semanas después de su descubrimiento tomó una de las imágenes más famosas de la historia: la mano de su esposa, Anna Bertha, con los huesos y el anillo bien visibles. Al ver su esqueleto, ella exclamó: «¡He visto mi muerte!». La noticia dio la vuelta al mundo en semanas, y los médicos empezaron enseguida a usar los rayos X para ver fracturas y objetos dentro del cuerpo.",
    "deep": "En 1901, Röntgen recibió el primer Premio Nobel de Física de la historia. Se negó a patentar su descubrimiento porque quería que beneficiara a toda la humanidad. Hoy sabemos que los rayos X son radiación electromagnética, como la luz, pero con una longitud de onda mucho más corta y por tanto mucho más energética. En muchos idiomas, como el alemán, se les sigue llamando «rayos Röntgen», y el elemento químico 111, el roentgenio, lleva su nombre. Con el tiempo se descubrieron también sus riesgos, y hoy las dosis se controlan con cuidado.",
    "sources": [
     {
@@ -12044,6 +12363,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: título sin respaldo: la fuente no dice que fuera la primera radiografía; precisado según la fuente"
     }
    ]
   },
@@ -12101,6 +12424,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: explicación del quiz corregida"
     }
    ]
   },
@@ -12137,7 +12464,7 @@ window.SQ_CONTENT = {
    "date": "2026-10-23",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/CelsiusKelvin.svg/960px-CelsiusKelvin.svg.png",
    "imgCredit": {
-    "artist": "*Celsius_kelvin_estandar_1954.png: Homo logos",
+    "artist": "Homo logos (obra derivada)",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:CelsiusKelvin.svg",
@@ -12166,6 +12493,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: explicación del quiz corregida; crédito de imagen limpiado"
     }
    ]
   },
@@ -12330,6 +12661,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Historia: explicación del quiz corregida"
     }
    ]
   },
@@ -12461,7 +12796,7 @@ window.SQ_CONTENT = {
    "cat": "historia",
    "sub": "Edad Media",
    "level": 2,
-   "title": "Un documento de 1215 limitó por primera vez el poder de un rey inglés",
+   "title": "Un documento de 1215 obligó a un rey inglés a someterse a la ley",
    "desc": "La Carta Magna obligó al rey Juan a aceptar que también estaba sujeto a la ley.",
    "body": "Los barones ingleses, hartos de los abusos del rey Juan, lo obligaron a sellar la Carta Magna el 15 de junio de 1215 en Runnymede, cerca de Windsor. Su nombre, en latín medieval, significa «Gran Carta». La redactó en primera versión el arzobispo de Canterbury, Stephen Langton, para hacer la paz entre el rey impopular y un grupo de barones rebeldes.\n\nPrometía proteger los derechos de la Iglesia, proteger a los barones de encarcelamientos ilegales y limitar los pagos feudales a la Corona. Aunque muchas de sus cláusulas trataban asuntos feudales, estableció la idea de que nadie, ni siquiera el rey, está por encima de la ley. Pero ninguna de las partes cumplió lo pactado, y el papa Inocencio III la anuló, lo que llevó a la Primera Guerra de los Barones.",
    "deep": "Tras la muerte de Juan, el gobierno de su hijo Enrique III la volvió a emitir varias veces, y en 1225 lo hizo a cambio de nuevos impuestos. En 1297 su nieto Eduardo I la confirmó como parte de la ley inglesa. Con los siglos inspiró documentos posteriores sobre derechos, como la Constitución de Estados Unidos, y principios como el debido proceso y el juicio con jurado. Hoy se conservan cuatro copias originales de 1215: dos en la Biblioteca Británica, una en el castillo de Lincoln y otra en la catedral de Salisbury.",
@@ -12488,7 +12823,7 @@ window.SQ_CONTENT = {
    "date": "2026-11-22",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg/960px-Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg",
    "imgCredit": {
-    "artist": "Original authors were the barons and King John of England. Uploaded by Earthsound",
+    "artist": "British Library (Cotton MS Augustus II.106)",
     "license": "Dominio público",
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg",
@@ -12517,6 +12852,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Historia: «por primera vez» no se sostiene: hubo cartas anteriores, como la de Enrique I en 1100; explicación del quiz corregida; crédito de imagen limpiado"
     }
    ]
   },
@@ -12627,6 +12966,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Historia: explicación del quiz corregida"
     }
    ]
   },
@@ -12726,6 +13069,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Historia: explicación del quiz corregida"
     }
    ]
   },
@@ -12783,6 +13130,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Psicología: explicación del quiz corregida"
     }
    ]
   },
@@ -12952,6 +13303,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Psicología: explicación del quiz corregida"
     }
    ]
   },
@@ -13009,6 +13364,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Psicología: explicación del quiz corregida"
     }
    ]
   },
@@ -13131,6 +13490,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Psicología: explicación del quiz corregida"
     }
    ]
   },
@@ -13189,6 +13552,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Psicología: explicación del quiz corregida"
     }
    ]
   },
@@ -13254,6 +13621,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Universo: explicación del quiz corregida"
     }
    ]
   },
@@ -13290,7 +13661,7 @@ window.SQ_CONTENT = {
    "date": "2026-10-27",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/960px-Pluto_in_True_Color_-_High-Res.png",
    "imgCredit": {
-    "artist": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex",
+    "artist": "NASA / Johns Hopkins APL / Southwest Research Institute",
     "license": "Dominio público",
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png",
@@ -13319,6 +13690,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Universo: explicación del quiz corregida; crédito de imagen limpiado"
     }
    ]
   },
@@ -13328,8 +13703,8 @@ window.SQ_CONTENT = {
    "cat": "universo",
    "sub": "Galaxias",
    "level": 2,
-   "title": "Nuestra galaxia chocará con Andrómeda dentro de unos 4.500 millones de años",
-   "desc": "Será un choque lento en el que muy pocas estrellas colisionarán directamente.",
+   "title": "Nuestra galaxia podría chocar con Andrómeda, pero ya no es seguro",
+   "desc": "Los cálculos más recientes dan una probabilidad de alrededor de la mitad en 10.000 millones de años. Si ocurre, casi ninguna estrella chocará con otra.",
    "body": "La galaxia de Andrómeda, la gran galaxia espiral más cercana a la nuestra, se acerca a la Vía Láctea a unos 110 kilómetros por segundo, según indica el corrimiento al azul de su luz. Durante años, los cálculos indicaron que ambas galaxias chocarían y se fusionarían dentro de unos 4,5 mil millones de años, formando una gran galaxia elíptica.\n\nEstudios más recientes, con datos más precisos de los telescopios Hubble y Gaia, han matizado esa predicción: la colisión no es segura y su probabilidad en los próximos 10 000 millones de años se estima en torno a la mitad. En cualquier caso, aunque ocurra, las estrellas casi no chocarían entre sí, porque las distancias entre ellas son enormes comparadas con su tamaño. Lo que cambiaría sería la forma de las galaxias.",
    "deep": "En una fusión de galaxias, la gravedad deforma ambas estructuras: se forman colas de estrellas y gas, y las nubes de gas comprimidas pueden desencadenar la formación de muchas estrellas nuevas. Los agujeros negros supermasivos de los centros de ambas galaxias acabarían cayendo uno hacia el otro y fusionándose. La galaxia resultante de una posible fusión ha recibido incluso un nombre informal: «Milkomeda». El sistema solar no correría peligro directo, aunque podría acabar en una órbita muy distinta dentro de la nueva galaxia.",
    "sources": [
@@ -13364,6 +13739,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Universo: el título afirmaba como seguro un choque que el propio texto, con datos recientes, presenta como probable al 50 %; descripción alineada con el texto; explicación del quiz corregida"
     }
    ]
   },
@@ -13605,7 +13984,7 @@ window.SQ_CONTENT = {
    "date": "2026-10-28",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Messier_87_Hubble_WikiSky.jpg/960px-Messier_87_Hubble_WikiSky.jpg",
    "imgCredit": {
-    "artist": ":en:NASA, :en:STScI, :en:WikiSky",
+    "artist": "NASA, STScI y WikiSky",
     "license": "Dominio público",
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Messier_87_Hubble_WikiSky.jpg",
@@ -13634,6 +14013,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Universo: explicación del quiz corregida; crédito de imagen limpiado"
     }
    ]
   },
@@ -13712,7 +14095,7 @@ window.SQ_CONTENT = {
    "title": "La primera llamada desde un celular fue para presumir ante la competencia",
    "desc": "Martin Cooper, de Motorola, llamó en 1973 a un rival de los laboratorios Bell.",
    "body": "El 3 de abril de 1973, en una acera de Manhattan, en Nueva York, el ingeniero de Motorola Martin Cooper hizo la primera llamada pública desde un teléfono móvil de mano. Usó un prototipo que pesaba alrededor de un kilo, el DynaTAC. Y eligió con intención a quién llamar: a Joel Engel, que dirigía el proyecto rival en Bell Labs.\n\nMotorola y Bell Labs competían por desarrollar la telefonía móvil, y Cooper quiso demostrar que su equipo había llegado primero, frente a reporteros y curiosos. Frente a los teléfonos instalados en los carros, Cooper defendía un teléfono personal y portátil, que la gente pudiera llevar consigo a cualquier parte, y Motorola respaldó su idea.",
-   "deep": "Pasaron diez años hasta que el primer teléfono móvil comercial, el Motorola DynaTAC 8000X, salió a la venta en 1983, . Lo apodaron «el ladrillo» por su tamaño y su peso. Martin Cooper, nacido en 1928, es considerado uno de los padres del teléfono móvil. Él mismo ha explicado su idea: un teléfono personal que representara a un individuo, con un número asignado no a un lugar, un escritorio o una casa, sino a una persona.",
+   "deep": "Pasaron diez años hasta que el primer teléfono móvil comercial, el Motorola DynaTAC 8000X, salió a la venta en 1983. Lo apodaron «el ladrillo» por su tamaño y su peso. Martin Cooper, nacido en 1928, es considerado uno de los padres del teléfono móvil. Él mismo ha explicado su idea: un teléfono personal que representara a un individuo, con un número asignado no a un lugar, un escritorio o una casa, sino a una persona.",
    "sources": [
     {
      "t": "Wikipedia — Martin Cooper (inventor)",
@@ -13745,6 +14128,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: errata de puntuación"
     }
    ]
   },
@@ -13802,6 +14189,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: explicación del quiz corregida"
     }
    ]
   },
@@ -13859,6 +14250,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: explicación del quiz corregida"
     }
    ]
   },
@@ -13981,6 +14376,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: explicación del quiz corregida"
     }
    ]
   },
@@ -14111,6 +14510,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: explicación del quiz corregida"
     }
    ]
   },
@@ -14242,6 +14645,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: explicación del quiz corregida"
     }
    ]
   },
@@ -14307,6 +14714,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: explicación del quiz corregida"
     }
    ]
   },
@@ -14372,6 +14783,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: explicación del quiz corregida"
     }
    ]
   },
@@ -14383,7 +14798,7 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "Las uñas de las manos crecen el doble de rápido que las de los pies",
    "desc": "Las de las manos crecen unos 3,5 mm al mes; las de los pies, alrededor de la mitad.",
-   "body": "Las uñas de las manos crecen bastante más rápido que las de los pies: en promedio, unos 3,5 milímetros al mes frente a unos 1,6. Por eso las de los pies se cortan con menos frecuencia, y una uña del pie perdida puede tardar más de un año en volver a crecer por completo.\n\nLas uñas crecen desde la matriz, una zona escondida bajo la piel en la base de la uña. Están hechas de queratina, la misma proteína del pelo. La velocidad de crecimiento varía: la uña del dedo índice crece más rápido que la del meñique, y las uñas de las manos pueden crecer hasta cuatro veces más rápido que las de los pies. En los mamíferos, la velocidad se relaciona con la longitud del último hueso del dedo.",
+   "body": "Las uñas de las manos crecen bastante más rápido que las de los pies: en promedio, unos 3,5 milímetros al mes frente a unos 1,6. Por eso las de los pies se cortan con menos frecuencia, y una uña del pie perdida puede tardar más de un año en volver a crecer por completo.\n\nLas uñas crecen desde la matriz, una zona escondida bajo la piel en la base de la uña. Están hechas de queratina, la misma proteína del pelo. La velocidad de crecimiento varía: la uña del dedo índice crece más rápido que la del meñique,. En los mamíferos, la velocidad se relaciona con la longitud del último hueso del dedo.",
    "deep": "Las uñas pueden dar pistas sobre la salud. La falta de vitaminas A y B puede volverlas frágiles y con estrías. Como la uña necesita oxígeno para crecer sana, la falta de hierro o la anemia pueden causar estrías longitudinales o hacer que la uña se curve hacia dentro, en forma de cuchara. Las uñas son una característica de casi todos los primates, excepto los titíes, y son el equivalente de las garras de otros animales: nos ayudan a manipular objetos pequeños y protegen la punta de los dedos.",
    "sources": [
     {
@@ -14425,6 +14840,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: eliminada cifra que contradecía el título (crecen alrededor del doble)"
     }
    ]
   },
@@ -14527,6 +14946,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: explicación del quiz corregida"
     }
    ]
   },
@@ -14592,6 +15015,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: explicación del quiz corregida"
     }
    ]
   },
@@ -14604,7 +15031,7 @@ window.SQ_CONTENT = {
    "title": "Cada ojo tiene un punto ciego que el cerebro «rellena»",
    "desc": "Es la zona donde el nervio óptico sale del ojo y no hay células sensibles a la luz.",
    "body": "Cada uno de tus ojos tiene un punto ciego: una pequeña zona del campo visual en la que no ves nada. Corresponde al lugar de la retina por donde sale el nervio óptico hacia el cerebro, el disco óptico. En ese punto no hay fotorreceptores, las células que captan la luz, así que lo que cae allí no se detecta.\n\nNormalmente no lo notamos por dos razones. Con los dos ojos abiertos, cada ojo cubre el punto ciego del otro. Y aun con un solo ojo, el cerebro «rellena» el hueco con la información de alrededor, inventando lo que probablemente hay. Se puede comprobar con un sencillo experimento: dibuja una cruz y un punto separados unos centímetros, tapa un ojo, mira fijamente la cruz y acerca o aleja el papel; en cierto momento, el punto desaparece.",
-   "deep": "En la literatura médica, este punto ciego fisiológico también se llama «punctum caecum». Existe además un punto ciego nocturno: el centro de la retina, la fóvea, que nos da la visión más nítida de día, tiene sobre todo conos y casi ningún bastón, las células de la visión nocturna. Una vez adaptados a la oscuridad, los bastones son unas 10 000 veces más sensibles a la luz que los conos. Por eso, de noche, una estrella muy tenue se ve mejor si no la miramos directamente, sino un poco de lado.",
+   "deep": "En la literatura médica, este punto ciego fisiológico también se llama «punctum caecum». Existe además un punto ciego nocturno: el centro de la retina, la fóvea, que nos da la visión más nítida de día, tiene sobre todo conos y casi ningún bastón, las células de la visión nocturna. Una vez adaptados a la oscuridad, los bastones son mucho más sensibles a la luz que los conos. Por eso, de noche, una estrella muy tenue se ve mejor si no la miramos directamente, sino un poco de lado.",
    "sources": [
     {
      "t": "Wikipedia — Blind spot (vision)",
@@ -14645,6 +15072,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: eliminada cifra sin respaldo en la fuente citada"
     }
    ]
   },
@@ -14755,6 +15186,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -14820,6 +15255,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -14873,6 +15312,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -14938,6 +15381,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -14950,7 +15397,7 @@ window.SQ_CONTENT = {
    "title": "El Titicaca es uno de los lagos navegables más altos del mundo",
    "desc": "Está a unos 3.800 metros de altura, entre Perú y Bolivia.",
    "body": "El lago Titicaca, en la frontera entre Perú y Bolivia, es uno de los lagos navegables más altos del mundo. Es también el lago más grande de Sudamérica por volumen de agua. Sus aguas, frías y muy azules, reflejan las montañas nevadas de la cordillera Real.\n\nEn él viven los uros, un pueblo que construye islas flotantes con totora, un junco que crece en las orillas del lago. Con la misma planta fabrican sus casas y sus barcas. Las islas se van pudriendo por debajo y hay que añadir capas nuevas de totora por encima cada pocos meses. Para muchas culturas andinas, incluido el pueblo inca, el Titicaca era un lugar sagrado: según su tradición, del lago surgieron el Sol y los primeros incas.",
-   "deep": "En el lago hay muchas islas, algunas habitadas desde hace siglos, como Taquile, en Perú, o la Isla del Sol, en Bolivia, con ruinas incas. Hay lagos más altos, como el pequeño lago del cráter del volcán Ojos del Salado, en Chile, a unos 6500 metros, pero no son navegables por barcos comerciales. El lago alberga especies que no existen en ningún otro lugar, como la rana gigante del Titicaca, que respira en buena parte a través de su piel arrugada y está en peligro de extinción. En la orilla boliviana está Tiwanaku, una gran ciudad de una civilización anterior a los incas, declarada Patrimonio de la Humanidad.",
+   "deep": "En el lago hay muchas islas, algunas habitadas desde hace siglos, como Taquile, en Perú, o la Isla del Sol, en Bolivia, con ruinas incas. Hay lagos más altos, como el pequeño lago del cráter del volcán Ojos del Salado, entre Chile y Argentina, a más de 6000 metros, pero no son navegables por barcos comerciales. El lago alberga especies que no existen en ningún otro lugar, como la rana gigante del Titicaca, que respira en buena parte a través de su piel arrugada y está en peligro de extinción. En la orilla boliviana está Tiwanaku, una gran ciudad de una civilización anterior a los incas, declarada Patrimonio de la Humanidad.",
    "sources": [
     {
      "t": "UNESCO — Centro del Patrimonio Mundial — Sacred Titicaca Lake",
@@ -14995,6 +15442,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: altura del lago de Ojos del Salado suavizada: la cifra exacta varía según la fuente"
     }
    ]
   },
@@ -15031,7 +15482,7 @@ window.SQ_CONTENT = {
    "date": "2026-11-09",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/960px-Flag_of_New_Zealand.svg.png",
    "imgCredit": {
-    "artist": "{{AutVec|o=|v=, , s. }}",
+    "artist": "Autor indicado en Wikimedia Commons",
     "license": "Dominio público",
     "licenseUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg",
@@ -15060,6 +15511,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida; crédito de imagen limpiado"
     }
    ]
   },
@@ -15134,6 +15589,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -15215,6 +15674,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -15277,6 +15740,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: explicación del quiz corregida"
     }
    ]
   },
@@ -15472,6 +15939,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: explicación del quiz corregida"
     }
    ]
   },
@@ -15753,6 +16224,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: explicación del quiz corregida"
     }
    ]
   },
@@ -15945,6 +16420,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Filosofía: explicación del quiz corregida"
     }
    ]
   },
@@ -16010,6 +16489,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Filosofía: explicación del quiz corregida"
     }
    ]
   },
@@ -16067,6 +16550,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Filosofía: explicación del quiz corregida"
     }
    ]
   },
@@ -16124,6 +16611,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Filosofía: explicación del quiz corregida"
     }
    ]
   },
@@ -16311,6 +16802,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Filosofía: explicación del quiz corregida"
     }
    ]
   },
@@ -16368,6 +16863,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Filosofía: explicación del quiz corregida"
     }
    ]
   },
@@ -16579,6 +17078,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Misterios: explicación del quiz corregida"
     }
    ]
   },
@@ -16786,6 +17289,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Misterios: explicación del quiz corregida"
     }
    ]
   },
@@ -16864,7 +17371,7 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "«En Roswell se estrelló una nave extraterrestre en 1947»",
    "desc": "Falso. Según los informes oficiales, eran restos de un globo de un proyecto militar secreto.",
-   "body": "En 1947, cerca de Roswell, en Nuevo México, se encontraron unos restos que el ejército de Estados Unidos describió primero como un «disco volador» y, poco después, como un globo meteorológico. Durante décadas, ese cambio de versión alimentó la sospecha de que se había estrellado una nave extraterrestre y de que el gobierno lo ocultaba.\n\nEn los años noventa, la Fuerza Aérea de Estados Unidos publicó informes que explicaban el caso: los restos pertenecían al Proyecto Mogul, un programa secreto de globos que llevaban micrófonos a gran altura para detectar pruebas nucleares soviéticas. Por eso se ocultó su verdadero origen en 1947. Un informe de 1994 identificó el objeto como un dispositivo del Proyecto Mogul. No hay ninguna prueba de vida extraterrestre en el caso.",
+   "body": "En 1947, cerca de Roswell, en Nuevo México, se encontraron unos restos que el ejército de Estados Unidos describió primero como un «disco volador» y, poco después, como un globo meteorológico. Durante décadas, ese cambio de versión alimentó la sospecha de que se había estrellado una nave extraterrestre y de que el gobierno lo ocultaba.\n\nEn los años noventa, la Fuerza Aérea de Estados Unidos publicó informes que explicaban el caso: los restos pertenecían al Proyecto Mogul, un programa secreto de globos que llevaban micrófonos a gran altura para detectar pruebas nucleares soviéticas. Por eso se ocultó su verdadero origen en 1947. No hay ninguna prueba de vida extraterrestre en el caso.",
    "deep": "El caso Roswell estuvo casi olvidado durante treinta años. El interés renació a finales de los setenta, y en 1980 se publicó el primer libro conspirativo, «The Roswell Incident», de Charles Berlitz y William Moore. A partir de ahí surgieron testimonios cada vez más llamativos, recogidos décadas después de los hechos. Los Archivos Nacionales de Estados Unidos señalan que no han encontrado documentos sobre el incidente de 1947 entre los registros del Proyecto Libro Azul, el programa oficial de la Fuerza Aérea que investigó los avistamientos de ovnis.",
    "sources": [
     {
@@ -16919,6 +17426,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Misterios: frase repetida eliminada"
     }
    ]
   },
@@ -16993,6 +17504,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: explicación del quiz corregida"
     }
    ]
   },
@@ -17103,6 +17618,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: explicación del quiz corregida"
     }
    ]
   },
@@ -17115,7 +17634,7 @@ window.SQ_CONTENT = {
    "title": "La primera empresa en ofrecer acciones al público nació en 1602",
    "desc": "Fue la Compañía Holandesa de las Indias Orientales.",
    "body": "La Compañía Unida de las Indias Orientales neerlandesa, conocida por sus siglas VOC, se fundó el 20 de marzo de 1602, cuando los Estados Generales de los Países Bajos unieron varias compañías comerciales existentes. Recibió un monopolio de 21 años para comerciar en Asia. Fue una de las primeras sociedades anónimas del mundo.\n\nLa VOC permitió que cualquier ciudadano de la República neerlandesa comprara participaciones y las negociara. Esas acciones se compraban y vendían en mercados al aire libre, y uno de ellos se convirtió en la Bolsa de Ámsterdam, uno de los primeros mercados de valores modernos. Los accionistas recibían dividendos y podían vender sus acciones, lo que dio origen al comercio de acciones.",
-   "deep": "La compañía llegó a ser enormemente poderosa: tenía poderes casi de gobierno, como hacer la guerra, encarcelar y ejecutar a condenados, negociar tratados, acuñar su propia moneda y fundar colonias. La dirigía un consejo de diecisiete directores, los «Heeren Seventien», con sede en Ámsterdam. Su actividad tuvo también un lado violento y colonial: su gobernador general Jan Pieterszoon Coen destruyó la ciudad de Jayakarta, donde fundó Batavia, la actual Yakarta, y en 1622 la compañía usó como excusa las violaciones de su monopolio de la nuez moscada para masacrar a habitantes de las islas Banda. Arruinada por las deudas, la VOC fue disuelta en 1799.",
+   "deep": "La compañía llegó a ser enormemente poderosa: tenía poderes casi de gobierno, como hacer la guerra, encarcelar y ejecutar a condenados, negociar tratados, acuñar su propia moneda y fundar colonias. La dirigía un consejo de diecisiete directores, los «Heeren Seventien», con sede en Ámsterdam. Su actividad tuvo también un lado violento y colonial: su gobernador general Jan Pieterszoon Coen destruyó la ciudad de Jayakarta, donde fundó Batavia, la actual Yakarta, y en 1621 la compañía usó como excusa las violaciones de su monopolio de la nuez moscada para masacrar a habitantes de las islas Banda. Arruinada por las deudas, la VOC fue disuelta en 1799.",
    "sources": [
     {
      "t": "Organismo gubernamental (museum.wa.gov.au) — VOC – United Dutch East India Company",
@@ -17168,6 +17687,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: año corregido: la conquista de Lontor y la masacre de Banda fueron en 1621"
     }
    ]
   },
@@ -17270,6 +17793,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: explicación del quiz corregida"
     }
    ]
   },
@@ -17343,6 +17870,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: explicación del quiz corregida"
     }
    ]
   },
@@ -17506,6 +18037,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: explicación del quiz corregida"
     }
    ]
   },
@@ -17638,7 +18173,7 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En los templos sijs cualquiera puede comer gratis",
    "desc": "Se llama langar: una cocina comunitaria abierta a todos, sin importar religión, casta o condición.",
-   "body": "Cada gurdwara, o templo sij, tiene un langar donde se sirven comidas gratuitas a cualquier persona, sin importar su religión, casta, género o condición social. Todos comen sentados en el suelo, juntos, como signo de igualdad. La cocina la mantienen voluntarios de la comunidad como forma de servicio desinteresado, llamado seva, y la comida es siempre vegetariana.\n\nLa tradición la inició el primer gurú de los sijs, Gurú Nanak, en el siglo XVI, y la consolidaron sus sucesores. El sijismo nació en la región del Punyab, en el norte de la India, y la idea del langar era romper con las divisiones de castas de la época, que impedían a personas de distintos grupos comer juntas.",
+   "body": "Cada gurdwara, o templo sij, tiene un langar donde se sirven comidas gratuitas a cualquier persona, sin importar su religión, casta, género o condición social. Todos comen sentados en el suelo, juntos, como signo de igualdad. La cocina la mantienen voluntarios de la comunidad como forma de servicio desinteresado, llamado seva, y la comida es siempre vegetariana.\n\nLa tradición la inició el primer gurú de los sijs, Gurú Nanak, que vivió entre 1469 y 1539, y la consolidaron sus sucesores. El sijismo nació en la región del Punyab, en el norte de la India, y la idea del langar era romper con las divisiones de castas de la época, que impedían a personas de distintos grupos comer juntas.",
    "deep": "El langar no es como un comedor social: forma parte de la vida religiosa y comunitaria de los sijs, y tanto preparar la comida como servirla y compartirla tiene un valor espiritual. Por eso, durante la pandemia de covid-19, cuando se suspendieron las reuniones religiosas, el ritual del langar también se vio interrumpido en muchos lugares. Los voluntarios cocinan, sirven, lavan los platos y limpian, y ese trabajo compartido es en sí mismo una forma de práctica religiosa.",
    "sources": [
     {
@@ -17672,6 +18207,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: fecha precisada"
     }
    ]
   },
@@ -17729,6 +18268,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: explicación del quiz corregida"
     }
    ]
   },
@@ -17794,6 +18337,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: explicación del quiz corregida"
     }
    ]
   },
@@ -17973,6 +18520,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: explicación del quiz corregida"
     }
    ]
   },
@@ -17984,7 +18535,7 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El chocolate se bebía amargo y con especias",
    "desc": "Los mayas y los mexicas lo tomaban sin azúcar, a veces con chile.",
-   "body": "El cacao se cultivaba en Mesoamérica desde hace miles de años. Hay pruebas de que los olmecas, la primera gran civilización conocida de Mesoamérica, fermentaban la pulpa dulce que rodea las semillas del cacao para hacer una bebida alcohólica. Los mayas y los aztecas lo consideraban un regalo de los dioses, y sus semillas se usaban como moneda, en ceremonias, como tributo a gobernantes y dioses, e incluso como medicina.\n\nLa bebida era espesa, espumosa y amarga. El conquistador Hernán Cortés quizá fue el primer europeo en conocer el chocolate, cuando lo vio en la corte de Moctezuma II en 1520. Al principio a los europeos les costó acostumbrarse a su sabor. Los españoles lo llevaron a Europa en el siglo XVI, donde se empezó a endulzar con azúcar. La palabra «chocolate» tiene origen náhuatl.",
+   "body": "El cacao se cultivaba en Mesoamérica desde hace miles de años. Hay pruebas de que los olmecas, la primera gran civilización conocida de Mesoamérica, fermentaban la pulpa dulce que rodea las semillas del cacao para hacer una bebida alcohólica. Los mayas y los aztecas lo consideraban un regalo de los dioses, y sus semillas se usaban como moneda, en ceremonias, como tributo a gobernantes y dioses, e incluso como medicina.\n\nLa bebida era espesa, espumosa y amarga. El conquistador Hernán Cortés quizá fue el primer europeo en conocer el chocolate, cuando lo vio en la corte de Moctezuma II, en Tenochtitlan. Al principio a los europeos les costó acostumbrarse a su sabor. Los españoles lo llevaron a Europa en el siglo XVI, donde se empezó a endulzar con azúcar. La palabra «chocolate» tiene origen náhuatl.",
    "deep": "El primer envío oficial registrado de chocolate a Europa no llegó hasta 1585. En el siglo XIX la fabricación cambió por completo: en 1828, el holandés Coenraad Johannes van Houten patentó una prensa hidráulica que separaba la manteca de cacao del licor de cacao, lo que permitió producir chocolate en masa. El origen exacto de la palabra se discute: una propuesta es que viene de una supuesta palabra náhuatl, «xocoatl», que significaría «bebida amarga», aunque los estudiosos Michael y Sophie Coe lo consideran poco probable. Hoy el chocolate es uno de los alimentos y sabores más populares del mundo.",
    "sources": [
     {
@@ -18038,6 +18589,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: eliminado año no verificado; explicación del quiz corregida"
     }
    ]
   },
@@ -18095,6 +18650,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: explicación del quiz corregida"
     }
    ]
   },
@@ -18212,8 +18771,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El primer Nobel de Literatura de América Latina fue para una mujer",
    "desc": "La chilena Gabriela Mistral lo recibió en 1945.",
-   "body": "Gabriela Mistral, cuyo nombre real era Lucila Godoy Alcayaga, nació en 1889 en Vicuña, Chile, y creció en Montegrande, un pueblo andino donde estudió en una escuela primaria en la que enseñaba su hermana mayor. Era poeta, maestra, periodista y diplomática. Desde los quince años trabajó para mantenerse a sí misma y a su madre, y llegó a dirigir liceos en distintas ciudades de Chile.\n\nEn 1945 se convirtió en la primera persona de América Latina en ganar el Premio Nobel de Literatura, «por su poesía lírica». Su obra trata temas como el amor, la maternidad, la infancia, la naturaleza, la religión y la identidad latinoamericana. Su primer libro, «Desolación», de 1922, sigue siendo celebrado en todo el mundo hispanohablante. Fue la primera latinoamericana en recibir el Nobel, seis años antes de que lo recibiera cualquier otro latinoamericano.",
-   "deep": "Mistral conoció a un joven Pablo Neruda cuando se mudó a Temuco, su ciudad natal, en 1920: le dio a conocer su poesía y le recomendó lecturas, y entre ambos nació una amistad para toda la vida. Neruda sería el segundo chileno en ganar el Nobel de Literatura. Como muchos artistas e intelectuales latinoamericanos, Mistral trabajó como cónsul de Chile desde 1932 hasta su muerte, en ciudades como Nápoles, Madrid, Lisboa, Niza, Petrópolis, Los Ángeles o Veracruz. Murió en 1957 en Hempstead, en el estado de Nueva York. Su rostro aparece en el billete de 5000 pesos chilenos, y su seudónimo combina el nombre del arcángel Gabriel y el mistral, un viento del sur de Francia.",
+   "body": "Gabriela Mistral, cuyo nombre real era Lucila Godoy Alcayaga, nació en 1889 en Vicuña, Chile, y creció en Montegrande, un pueblo andino donde estudió en una escuela primaria en la que enseñaba su hermana mayor. Era poeta, maestra, periodista y diplomática. Desde los quince años trabajó para mantenerse a sí misma y a su madre, y llegó a dirigir liceos en distintas ciudades de Chile.\n\nEn 1945 se convirtió en la primera persona de América Latina en ganar el Premio Nobel de Literatura, «por su poesía lírica». Su obra trata temas como el amor, la maternidad, la infancia, la naturaleza, la religión y la identidad latinoamericana. Su primer libro, «Desolación», de 1922, sigue siendo celebrado en todo el mundo hispanohablante.",
+   "deep": "Mistral conoció a un joven Pablo Neruda cuando se mudó a Temuco, la ciudad donde él creció, en 1920: le dio a conocer su poesía y le recomendó lecturas, y entre ambos nació una amistad para toda la vida. Neruda sería el segundo chileno en ganar el Nobel de Literatura. Como muchos artistas e intelectuales latinoamericanos, Mistral trabajó como cónsul de Chile desde 1932 hasta su muerte, en ciudades como Nápoles, Madrid, Lisboa, Niza, Petrópolis, Los Ángeles o Veracruz. Murió en 1957 en Hempstead, en el estado de Nueva York. Su rostro aparece en el billete de 5000 pesos chilenos, y su seudónimo combina el nombre del arcángel Gabriel y el mistral, un viento del sur de Francia.",
    "sources": [
     {
      "t": "Fundación Nobel — The Nobel Prize in Literature 1945",
@@ -18262,6 +18821,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Lengua: eliminada frase falsa: el argentino Carlos Saavedra Lamas ya había recibido el Nobel de la Paz en 1936; corregido: Neruda nació en Parral, no en Temuco"
     }
    ]
   },
@@ -18307,6 +18870,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: explicación del quiz corregida"
     }
    ]
   },
@@ -18547,7 +19114,7 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos principales comprobados en fuentes institucionales y académicas (OMS, NIH, Fundación Nobel, revistas revisadas por pares); los detalles que solo recoge la enciclopedia se indican con esa fuente."
    },
    "claim": "hecho",
@@ -18563,6 +19130,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-26",
      "note": "Incorporación de fuentes institucionales y académicas"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Medicina: explicación del quiz corregida"
     }
    ]
   },
@@ -19189,7 +19760,7 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "El primer trasplante de corazón entre humanos se hizo en Sudáfrica en 1967",
    "desc": "El cirujano Christiaan Barnard lo realizó en Ciudad del Cabo; el paciente vivió 18 días.",
-   "body": "El 3 de diciembre de 1967, el cirujano sudafricano Christiaan Barnard realizó en el hospital Groote Schuur de Ciudad del Cabo el primer trasplante de corazón entre humanos. La donante fue Denise Darvall, una joven de 25 años, y el receptor, Louis Washkansky, un hombre de 53 años con una enfermedad cardíaca grave.\n\nEl paciente, Louis Washkansky, murió de una neumonía 18 días después, en parte porque los fármacos para evitar el rechazo debilitaban sus defensas. Al año siguiente se hicieron más de cien trasplantes en el mundo, pero la mayoría de los pacientes murieron pronto por el rechazo. Con el desarrollo de mejores medicamentos inmunosupresores, el trasplante de corazón se convirtió en un tratamiento establecido.",
+   "body": "El 3 de diciembre de 1967, el cirujano sudafricano Christiaan Barnard realizó en el hospital Groote Schuur de Ciudad del Cabo el primer trasplante de corazón entre humanos. La donante fue Denise Darvall, una joven de 25 años, y el receptor, Louis Washkansky, un hombre de 53 años con una enfermedad cardíaca grave.\n\nWashkansky murió de una neumonía 18 días después, en parte porque los fármacos para evitar el rechazo debilitaban sus defensas. Al año siguiente se hicieron más de cien trasplantes en el mundo, pero la mayoría de los pacientes murieron pronto por el rechazo. Con el desarrollo de mejores medicamentos inmunosupresores, el trasplante de corazón se convirtió en un tratamiento establecido.",
    "deep": "El gran cambio llegó cuando se generalizó la ciclosporina, un medicamento inmunosupresor que permitió usar dosis mucho menores de corticoides para evitar el rechazo y mejoró mucho la supervivencia de los pacientes. Barnard se apoyó en técnicas desarrolladas por los cirujanos estadounidenses Norman Shumway y Richard Lower. Hoy se realizan miles de trasplantes de corazón al año en todo el mundo, más de la mitad en Estados Unidos, y su número creció un 53 % entre 2011 y 2022. El principal límite sigue siendo la falta de donantes, por lo que la donación de órganos es fundamental.",
    "sources": [
     {
@@ -19252,6 +19823,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Medicina: nombre repetido eliminado"
     }
    ]
   },
@@ -19383,6 +19958,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Medicina: explicación del quiz corregida"
     }
    ]
   },
@@ -19772,6 +20351,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Medicina: explicación del quiz corregida"
     }
    ]
   },
@@ -19910,6 +20493,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Medicina: explicación del quiz corregida"
     }
    ]
   },
@@ -20056,6 +20643,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Medicina: explicación del quiz corregida"
     }
    ]
   },
@@ -20224,7 +20815,7 @@ window.SQ_CONTENT = {
    "title": "La malaria no la causa el mosquito, sino un parásito que viaja en él",
    "desc": "Lo transmiten las hembras del mosquito Anopheles.",
    "body": "El parásito Plasmodium se transmite a las personas por la picadura de mosquitos Anopheles hembra infectados. Una vez en el cuerpo, el parásito viaja al hígado, se multiplica y después invade los glóbulos rojos, lo que causa los ataques de fiebre y escalofríos típicos de la enfermedad. El médico francés Alphonse Laveran detectó el parásito en la sangre de personas infectadas.\n\nEn 1897, el médico británico Ronald Ross demostró el papel de los mosquitos en la transmisión, al encontrar el parásito en mosquitos que habían picado a personas enfermas. Ross recibió el Premio Nobel de Medicina en 1902. Hoy existen tratamientos eficaces, mosquiteros tratados con insecticida y vacunas recomendadas por la OMS.",
-   "deep": "Según la OMS, la malaria sigue siendo una de las enfermedades más graves del mundo: en 2024 hubo unos 282 millones de casos y 610.000 muertes en 80 países, y la región africana soporta una parte desproporcionada de la carga. Hay cinco especies de Plasmodium que causan malaria en los humanos, y la malaria por Plasmodium falciparum puede convertirse en grave y causar la muerte en 24 horas. Desde 2021, la OMS recomienda el uso amplio de la vacuna RTS,S en niños que viven en zonas con transmisión moderada o alta. La malaria se puede prevenir y curar.",
+   "deep": "Según la OMS, la malaria sigue siendo una de las enfermedades más graves del mundo: cada año se registran cientos de millones de casos y alrededor de 600.000 muertes, y la región africana soporta una parte desproporcionada de la carga. Hay cinco especies de Plasmodium que causan malaria en los humanos, y la malaria por Plasmodium falciparum puede convertirse en grave y causar la muerte en 24 horas. Desde 2021, la OMS recomienda el uso amplio de la vacuna RTS,S en niños que viven en zonas con transmisión moderada o alta. La malaria se puede prevenir y curar.",
    "sources": [
     {
      "t": "Organización Mundial de la Salud (OMS) — Malaria (nota descriptiva)",
@@ -20285,6 +20876,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Medicina: cifras anuales generalizadas: no se pudo comprobar la última actualización de la OMS; explicación del quiz corregida"
     }
    ]
   },
@@ -20497,6 +21092,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Medicina: explicación del quiz corregida"
     }
    ]
   },
@@ -20830,6 +21429,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: explicación del quiz corregida"
     }
    ]
   },
@@ -20912,6 +21515,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: explicación del quiz corregida"
     }
    ]
   },
@@ -20923,7 +21530,7 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "En la cima del Everest el agua hierve a unos 71 °C",
    "desc": "A menos presión atmosférica, el agua hierve a menor temperatura.",
-   "body": "Solemos decir que el agua hierve a 100 °C, pero eso solo es cierto al nivel del mar. El punto de ebullición depende de la presión del aire que hay sobre el líquido: un líquido hierve cuando la presión de su vapor iguala a la del ambiente. Si la presión baja, al agua le basta con menos temperatura para hervir.\n\nEn la cima del Everest, a unos 8848 metros, la presión del aire es de solo unos 34 kilopascales, aproximadamente un tercio de la que hay al nivel del mar, y el agua hierve a unos 71 °C. Por eso cocinar a gran altitud requiere más tiempo: el agua hierve antes, pero está menos caliente, y la pasta o los frijoles tardan más en hacerse. Las ollas a presión hacen lo contrario: al aumentar la presión, el agua puede pasar de 100 °C y la comida se cocina más rápido.",
+   "body": "Solemos decir que el agua hierve a 100 °C, pero eso solo es cierto al nivel del mar. El punto de ebullición depende de la presión del aire que hay sobre el líquido: un líquido hierve cuando la presión de su vapor iguala a la del ambiente. Si la presión baja, al agua le basta con menos temperatura para hervir.\n\nEn la cima del Everest, a unos 8849 metros, la presión del aire es de solo unos 34 kilopascales, aproximadamente un tercio de la que hay al nivel del mar, y el agua hierve a unos 71 °C. Por eso cocinar a gran altitud requiere más tiempo: el agua hierve antes, pero está menos caliente, y la pasta o los frijoles tardan más en hacerse. Las ollas a presión hacen lo contrario: al aumentar la presión, el agua puede pasar de 100 °C y la comida se cocina más rápido.",
    "deep": "Este fenómeno tiene aplicaciones muy prácticas. Un líquido en un vacío parcial, es decir, a menor presión, hierve a menor temperatura que a la presión atmosférica, y eso se aprovecha en la industria para separar sustancias que se dañarían con temperaturas altas. En el otro extremo, las autoclaves de hospitales y laboratorios usan vapor a presión, por encima de 100 °C, para esterilizar instrumentos. El punto de ebullición también depende de lo que lleve disuelto el agua: añadir sal lo sube muy ligeramente.",
    "sources": [
     {
@@ -20965,6 +21572,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: altura actualizada (medición oficial de 2020)"
     }
    ]
   },
@@ -20975,7 +21586,7 @@ window.SQ_CONTENT = {
    "sub": "Antiguo Egipto",
    "level": 2,
    "title": "«Los soldados de Napoleón le dispararon a la nariz de la Esfinge»",
-   "desc": "Falso. Dibujos publicados en 1755, antes de la llegada de Napoleón, ya la muestran sin nariz.",
+   "desc": "Falso. Dibujos hechos en 1737 y publicados en 1755, antes de la llegada de Napoleón, ya la muestran sin nariz.",
    "body": "Una historia muy repetida cuenta que los soldados de Napoleón le volaron la nariz a la Gran Esfinge de Guiza a cañonazos, durante la expedición francesa a Egipto de 1798. Las pruebas la desmienten: los dibujos del viajero danés Frederic Louis Norden, hechos en 1737, ya muestran a la Esfinge sin nariz, décadas antes de que llegaran los franceses.\n\nLas fuentes árabes ofrecen otra explicación. En el siglo XV, el historiador al-Maqrizi atribuyó el daño a un sufí llamado Muhammad Sa'im al-Dahr, que habría destrozado la nariz en 1378 al considerar idolatría que los campesinos hicieran ofrendas a la estatua. Otro autor, al-Minufi, escribió que la cruzada contra Alejandría de 1365 fue un castigo divino por esa destrucción. El examen de la cara muestra señales de un daño deliberado con varillas o cinceles.",
    "deep": "La Gran Esfinge es una estatua de piedra caliza de una esfinge recostada, un ser mitológico con cabeza humana y cuerpo de león. Se esculpió directamente en la roca de la meseta de Guiza y la mayoría de los egiptólogos creen que se hizo en tiempos del faraón Kefrén. Durante siglos estuvo enterrada en la arena hasta los hombros, lo que protegió parte de su cuerpo pero dejó la cabeza expuesta a la erosión del viento.",
    "sources": [
@@ -21019,6 +21630,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Historia: descripción y texto daban fechas distintas sin explicar"
     }
    ]
   },
@@ -21084,6 +21699,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Historia: explicación del quiz corregida"
     }
    ]
   },
@@ -21224,6 +21843,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Psicología: explicación del quiz corregida"
     }
    ]
   },
@@ -21515,6 +22138,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Universo: explicación del quiz corregida"
     }
    ]
   },
@@ -21580,6 +22207,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: explicación del quiz corregida"
     }
    ]
   },
@@ -21642,6 +22273,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: explicación del quiz corregida"
     }
    ]
   },
@@ -21760,6 +22395,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -21833,6 +22472,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -21886,6 +22529,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Geografía: explicación del quiz corregida"
     }
    ]
   },
@@ -21947,6 +22594,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Auditoría científica de Animales: retirada imagen: mostraba un ave, no un delfín"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Animales: explicación del quiz corregida"
     }
    ]
   },
@@ -22158,6 +22809,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Filosofía: explicación del quiz corregida"
     }
    ]
   },
@@ -22361,6 +23016,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Misterios: explicación del quiz corregida"
     }
    ]
   },
@@ -22372,7 +23031,7 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "La datación por carbono-14 situó la Sábana Santa de Turín en la Edad Media",
    "desc": "En 1988, tres laboratorios la fecharon entre 1260 y 1390.",
-   "body": "La Sábana Santa es un lienzo de lino con la imagen tenue de un hombre, venerado por millones de cristianos como el sudario de Jesús. Su historia documentada comienza en la localidad francesa de Lirey, a unos 210 kilómetros al este de París. La casa de Saboya la adquirió en 1453, y en 1578 la trasladó a su capital, Turín, en Italia, donde se conserva desde entonces.\n\nEn 1988, la Universidad de Oxford, la Universidad de Arizona y el Instituto Federal Suizo de Tecnología dataron muestras del tejido en la Edad Media, entre los años 1260 y 1390, con una fiabilidad estimada del 95 %. Quienes defienden su autenticidad han cuestionado los resultados, sobre todo con el argumento de que las muestras analizadas podrían no ser representativas del lienzo.",
+   "body": "La Sábana Santa es un lienzo de lino con la imagen tenue de un hombre, venerado por millones de cristianos como el sudario de Jesús. Su historia documentada comienza en la localidad francesa de Lirey, al sureste de París. La casa de Saboya la adquirió en 1453, y en 1578 la trasladó a su capital, Turín, en Italia, donde se conserva desde entonces.\n\nEn 1988, la Universidad de Oxford, la Universidad de Arizona y el Instituto Federal Suizo de Tecnología dataron muestras del tejido en la Edad Media, entre los años 1260 y 1390, con una fiabilidad estimada del 95 %. Quienes defienden su autenticidad han cuestionado los resultados, sobre todo con el argumento de que las muestras analizadas podrían no ser representativas del lienzo.",
    "deep": "La imagen se hizo mucho más visible en 1898, cuando el fotógrafo aficionado italiano Secondo Pia la fotografió y, al examinar el negativo, descubrió una imagen sorprendentemente nítida del cuerpo. Cómo se formó sigue siendo objeto de debate. Ya en 1389, el obispo de Troyes, Pierre d'Arcis, escribió sobre ella. En 1532 sufrió un incendio en una capilla de Chambéry, cuyas quemaduras y manchas de agua todavía se ven. El Vaticano no adopta una posición oficial sobre su autenticidad, aunque anima a los fieles a venerarla como símbolo del sufrimiento de Cristo.",
    "sources": [
     {
@@ -22427,6 +23086,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Misterios: eliminada distancia no verificada"
     }
    ]
   },
@@ -22545,6 +23208,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Economía: explicación del quiz corregida"
     }
    ]
   },
@@ -22610,7 +23277,7 @@ window.SQ_CONTENT = {
    "title": "En Córdoba hay una catedral construida dentro de una mezquita",
    "desc": "La Mezquita-Catedral fue mezquita durante siglos y desde el siglo XIII es templo cristiano.",
    "body": "La gran mezquita de Córdoba se comenzó en el siglo VIII, en el año 785, bajo el emir omeya Abderramán I, y se amplió varias veces en los siglos siguientes, hasta convertirse en una de las mayores del mundo islámico. Su famoso bosque de columnas y arcos bicolores, de dos colores, la convirtió en una obra maestra del arte islámico.\n\nTras la conquista cristiana de Córdoba en 1236, se convirtió en catedral, y en el siglo XVI se levantó una gran nave renacentista en su interior. Se cuenta que el emperador Carlos V, al ver la obra terminada, lamentó que se hubiera destruido algo único en el mundo para construir algo que podía hacerse en cualquier parte.",
-   "deep": "Uno de sus elementos más famosos es el «mihrab», el nicho que indica la dirección de la oración, decorado con mosaicos dorados de estilo bizantino. Curiosamente, no está orientado exactamente hacia La Meca, sino más hacia el sur. Sus cientos de columnas, de mármol, jaspe y granito, se reutilizaron en parte de edificios romanos y visigodos anteriores. Forma parte del centro histórico de Córdoba, Patrimonio de la Humanidad por la UNESCO desde 1984. Hoy funciona como catedral católica, y hay debate sobre su nombre y su gestión.",
+   "deep": "Uno de sus elementos más famosos es el «mihrab», el nicho que indica la dirección de la oración, decorado con mosaicos dorados de estilo bizantino. Curiosamente, no está orientado exactamente hacia La Meca, sino más hacia el sur. Sus cientos de columnas, de mármol, jaspe y granito, se reutilizaron en parte de edificios romanos y visigodos anteriores. Es Patrimonio de la Humanidad por la UNESCO desde 1984; en 1994 la declaración se amplió a todo el centro histórico de Córdoba. Hoy funciona como catedral católica, y hay debate sobre su nombre y su gestión.",
    "sources": [
     {
      "t": "Wikipedia — Mosque–Cathedral of Córdoba",
@@ -22651,6 +23318,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: precisada la fecha: 1984 corresponde a la Mezquita y 1994 a la ampliación al centro histórico; explicación del quiz corregida"
     }
    ]
   },
@@ -22724,6 +23395,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: explicación del quiz corregida"
     }
    ]
   },
@@ -22778,6 +23453,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Religión: explicación del quiz corregida"
     }
    ]
   },
@@ -22835,6 +23514,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Lengua: explicación del quiz corregida"
     }
    ]
   },
@@ -22846,7 +23529,7 @@ window.SQ_CONTENT = {
    "level": 1,
    "title": "El tango es Patrimonio Cultural Inmaterial de la Humanidad desde 2009",
    "desc": "Nació en la región del Río de la Plata, entre Argentina y Uruguay.",
-   "body": "El tango es un baile social y en pareja que surgió en la década de 1880 a orillas del Río de la Plata, la frontera natural entre Argentina y Uruguay. Nació en las zonas portuarias pobres de Buenos Aires y Montevideo, de la mezcla de la milonga argentina, la habanera hispanocubana y el candombe uruguayo, y en sus comienzos se bailaba a menudo en bares y prostíbulos de los puertos.\n\nSegún la UNESCO, lo desarrollaron las clases populares urbanas, en una mezcla de inmigrantes europeos, descendientes de africanos esclavizados y criollos, cuyas costumbres se fundieron en una identidad cultural propia. Argentina y Uruguay presentaron juntos la candidatura, y la UNESCO lo inscribió como Patrimonio Cultural Inmaterial de la Humanidad el 31 de agosto de 2009.",
+   "body": "El tango es un baile social y en pareja que surgió en la década de 1880 a orillas del Río de la Plata, la frontera natural entre Argentina y Uruguay. Nació en las zonas portuarias pobres de Buenos Aires y Montevideo, de la mezcla de la milonga argentina, la habanera hispanocubana y el candombe uruguayo, y en sus comienzos se bailaba a menudo en bares y prostíbulos de los puertos.\n\nSegún la UNESCO, lo desarrollaron las clases populares urbanas, en una mezcla de inmigrantes europeos, descendientes de africanos esclavizados y criollos, cuyas costumbres se fundieron en una identidad cultural propia. Argentina y Uruguay presentaron juntos la candidatura, y la UNESCO lo inscribió como Patrimonio Cultural Inmaterial de la Humanidad en 2009.",
    "deep": "A principios del siglo XX, bailarines y orquestas de Buenos Aires viajaron a Europa, y la primera fiebre del tango estalló en París, seguida de Londres, Berlín y otras capitales. Uno de sus grandes mitos es Carlos Gardel, que murió en 1935 en un accidente de avión en Medellín. Más tarde, el compositor Ástor Piazzolla, virtuoso del bandoneón, renovó la música tradicional del tango. El origen de la palabra no está claro: una teoría la relaciona con Shangó, el dios del trueno de la religión yoruba, y otra con la palabra española «tambor». Hoy el tango se practica en todo el mundo, en sus diversas variantes.",
    "sources": [
     {
@@ -22900,6 +23583,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: fecha simplificada: la inscripción formal fue en la sesión de otoño de 2009"
     }
    ]
   },
@@ -22973,6 +23660,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cultura: explicación del quiz corregida"
     }
    ]
   },
@@ -24063,8 +24754,8 @@ window.SQ_CONTENT = {
    "level": 2,
    "title": "Hace 2.000 millones de años funcionó un reactor nuclear natural en África",
    "desc": "En Oklo, en el actual Gabón, el uranio se fisionó por sí solo mucho antes de que existieran los seres humanos.",
-   "body": "En 1972, el físico Francis Perrin y su equipo notaron algo imposible en un mineral de uranio de una mina de Gabón: contenía un 0,717 % de uranio-235, cuando todo el uranio natural tiene hoy un 0,720 %. Tras descartar que fuera uranio procesado, encontraron en la roca la huella de productos de fisión. La única explicación era que ese uranio se había fisionado de forma natural hace más de 2.000 millones de años.\n\nSegún el Organismo Internacional de Energía Atómica (OIEA), hicieron falta varias condiciones: una concentración suficiente de uranio-235 y agua que actuara como moderador para frenar los neutrones. Investigadores de la Universidad Washington en San Luis calcularon que el reactor funcionaba como un géiser: unos 30 minutos activo y unas dos horas y media en reposo, mientras el agua se evaporaba y volvía. Es el único reactor nuclear natural conocido.",
-   "deep": "¿Por qué pudo ocurrir entonces y no hoy? Porque el uranio-235 se desintegra más deprisa que el uranio-238. Hace dos mil millones de años, la proporción de uranio-235 era unas cinco veces mayor, alrededor del 3 %, aproximadamente la concentración del uranio enriquecido que usan los reactores comerciales actuales. Se sabe que el reactor natural funcionó durante unos 150 millones de años con una potencia media de unos 100 kilovatios. Los investigadores creen que estudiar cómo el agua lo regulaba podría inspirar formas más seguras y eficientes de operar los reactores modernos.",
+   "body": "En 1972, el físico Francis Perrin y su equipo notaron algo imposible en un mineral de uranio de una mina de Gabón: contenía un 0,717 % de uranio-235, cuando todo el uranio natural tiene hoy un 0,720 %. Tras descartar que fuera uranio procesado, encontraron en la roca la huella de productos de fisión. La única explicación era que ese uranio se había fisionado de forma natural hace entre unos 1.700 y 2.000 millones de años, según las estimaciones.\n\nSegún el Organismo Internacional de Energía Atómica (OIEA), hicieron falta varias condiciones: una concentración suficiente de uranio-235 y agua que actuara como moderador para frenar los neutrones. Investigadores de la Universidad Washington en San Luis calcularon que el reactor funcionaba como un géiser: unos 30 minutos activo y unas dos horas y media en reposo, mientras el agua se evaporaba y volvía. Es el único reactor nuclear natural conocido.",
+   "deep": "¿Por qué pudo ocurrir entonces y no hoy? Porque el uranio-235 se desintegra más deprisa que el uranio-238. Hace dos mil millones de años, la proporción de uranio-235 era mucho mayor, alrededor del 3 %, aproximadamente la concentración del uranio enriquecido que usan los reactores comerciales actuales. El reactor natural funcionó de forma intermitente durante unos pocos cientos de miles de años, en dieciséis zonas distintas, y su potencia probablemente nunca superó los 100 kilovatios. Los investigadores creen que estudiar cómo el agua lo regulaba podría inspirar formas más seguras y eficientes de operar los reactores modernos.",
    "sources": [
     {
      "t": "Organismo Internacional de Energía Atómica (OIEA) — Meet Oklo, the Earth’s two-billion-year-old only known natural nuclear reactor (IAEA Bulletin)",
@@ -24083,6 +24774,15 @@ window.SQ_CONTENT = {
      "kind": "academica",
      "accessed": "2026-11-26",
      "date": "2004-11"
+    },
+    {
+     "t": "Wikipedia — Natural nuclear fission reactor",
+     "org": "Wikipedia en inglés",
+     "title": "Natural nuclear fission reactor",
+     "u": "https://en.wikipedia.org/wiki/Natural_nuclear_fission_reactor",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Consultada en la auditoría del 2026-11-27."
     }
    ],
    "claim": "hecho",
@@ -24115,6 +24815,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Ciencia: fecha matizada: las fuentes dan entre 1.700 y 2.000 millones de años; corregido: no funcionó 150 millones de años, sino unos cientos de miles; redacción ajustada a la fuente; fuente añadida"
     }
    ]
   },
@@ -24192,6 +24896,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Universo: pregunta de quiz añadida"
     }
    ]
   },
@@ -24287,7 +24995,7 @@ window.SQ_CONTENT = {
    ],
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Retina-diagram.svg/960px-Retina-diagram.svg.png",
    "imgCredit": {
-    "artist": "*Fig_retine.png: Ramón y Cajal",
+    "artist": "Basado en un dibujo de Santiago Ramón y Cajal",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Retina-diagram.svg",
@@ -24310,6 +25018,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Cuerpo humano: pregunta de quiz añadida; crédito de imagen limpiado"
     }
    ]
   },
@@ -24363,6 +25075,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Universo: pregunta de quiz añadida"
     }
    ]
   },
@@ -24416,6 +25132,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Tecnología: pregunta de quiz añadida"
     }
    ]
   },
@@ -24740,6 +25460,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Lengua: pregunta de quiz añadida"
     }
    ]
   },
@@ -24852,15 +25576,20 @@ window.SQ_CONTENT = {
    "verif": {
     "status": "verificado",
     "level": "institucional",
-    "reviewed": "2026-11-26",
+    "reviewed": "2026-11-27",
     "method": "Datos clave (cifras, fechas, nombres y ejemplos) comprobados contra el texto completo de las fuentes; revisión editorial de afirmaciones."
    },
    "history": [
     {
      "date": "2026-11-26",
      "note": "Publicación (nueva categoría Lengua y literatura)"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Lengua: completado el texto de profundización, que estaba vacío; pregunta de quiz añadida"
     }
-   ]
+   ],
+   "deep": "La edición anterior, la 23.ª, se publicó en 2014, coincidiendo con el tercer centenario de la Real Academia Española, fundada en 1713. El primer gran diccionario de la Academia fue el llamado Diccionario de autoridades, publicado entre 1726 y 1739 en seis tomos, que apoyaba cada definición con citas de escritores. En 1780 apareció la primera edición en un solo tomo, el antecedente directo del diccionario actual. Hoy la versión en línea, gratuita, se actualiza periódicamente entre una edición y otra."
   },
   {
    "id": "c-cervantes-2026",
@@ -24913,6 +25642,10 @@ window.SQ_CONTENT = {
     {
      "date": "2026-11-27",
      "note": "Ampliación del texto y bloque «A fondo», verificados contra las fuentes"
+    },
+    {
+     "date": "2026-11-27",
+     "note": "Auditoría científica de Lengua: pregunta de quiz añadida"
     }
    ]
   },
@@ -28725,7 +29458,7 @@ window.SQ_CONTENT = {
     "La Sierra de Luquillo"
    ],
    "a": 1,
-   "exp": "El Pico Duarte, en República Dominicana, mide unos 3.098 m."
+   "exp": "El Pico Duarte, en República Dominicana, mide unos 3.100 metros: es la cima más alta de todas las islas del Caribe."
   },
   {
    "id": "q32",
@@ -29109,7 +29842,7 @@ window.SQ_CONTENT = {
     "Porque el agua lo empuja hacia arriba por la sal"
    ],
    "a": 1,
-   "exp": "Casi todas las sustancias se encogen al solidificarse. El agua, en cambio, se expande."
+   "exp": "Al congelarse, las moléculas de agua se ordenan en una red cristalina con mucho espacio entre ellas, así que el hielo ocupa más volumen y es menos denso que el agua líquida."
   },
   {
    "id": "q56",
@@ -29157,7 +29890,7 @@ window.SQ_CONTENT = {
     "En un meteorito"
    ],
    "a": 1,
-   "exp": "Se detectó en 1868 en la luz solar y no se aisló en la Tierra hasta 1895."
+   "exp": "El helio se descubrió en 1868 al analizar la luz del Sol durante un eclipse: apareció como una línea desconocida en su espectro. Su nombre viene del griego helios, «sol»."
   },
   {
    "id": "q59",
@@ -29205,7 +29938,7 @@ window.SQ_CONTENT = {
     "Una espiral"
    ],
    "a": 1,
-   "exp": "Desde el suelo solo vemos un arco porque el horizonte tapa el resto."
+   "exp": "En teoría, todo arcoíris es un círculo completo."
   },
   {
    "id": "q62",
@@ -29221,7 +29954,7 @@ window.SQ_CONTENT = {
     "Por el ozono"
    ],
    "a": 1,
-   "exp": "Se llama dispersión de Rayleigh. También explica los atardeceres rojizos."
+   "exp": "Las moléculas del aire dispersan mucho más la luz azul, de onda corta, que la roja; esa luz dispersada nos llega desde todo el cielo."
   },
   {
    "id": "q63",
@@ -29237,7 +29970,7 @@ window.SQ_CONTENT = {
     "Contra conejos"
    ],
    "a": 1,
-   "exp": "En 1932, soldados con ametralladoras intentaron frenar a miles de emús que arrasaban cultivos."
+   "exp": "En 1932, soldados australianos con ametralladoras intentaron frenar a los emús que arrasaban cultivos en Australia Occidental, con muy poco éxito."
   },
   {
    "id": "q64",
@@ -29253,7 +29986,7 @@ window.SQ_CONTENT = {
     "Cien días"
    ],
    "a": 1,
-   "exp": "Enfrentó a Inglaterra y Francia entre 1337 y 1453, con largas treguas de por medio."
+   "exp": "Comenzó en 1337 y terminó en 1453: duró 116 años."
   },
   {
    "id": "q65",
@@ -29317,7 +30050,7 @@ window.SQ_CONTENT = {
     "El 14 de octubre"
    ],
    "a": 1,
-   "exp": "Se saltaron 10 días para corregir el desfase del calendario juliano."
+   "exp": "Para recuperar el error acumulado se eliminaron diez días de golpe: tras el jueves 4 de octubre de 1582 vino directamente el viernes 15."
   },
   {
    "id": "q69",
@@ -29365,7 +30098,7 @@ window.SQ_CONTENT = {
     "Para que ocupen menos espacio"
    ],
    "a": 1,
-   "exp": "En 1956 se habló del «número mágico siete»; investigaciones posteriores sugieren que son unas cuatro."
+   "exp": "La memoria de corto plazo retiene pocos elementos a la vez; agrupar los dígitos en bloques reduce las unidades que hay que recordar."
   },
   {
    "id": "q72",
@@ -29381,7 +30114,7 @@ window.SQ_CONTENT = {
     "Contar personas"
    ],
    "a": 0,
-   "exp": "Se llama ceguera por falta de atención. El experimento más famoso es de 1999."
+   "exp": "Su tarea era contar los pases de uno de los equipos."
   },
   {
    "id": "q73",
@@ -29477,7 +30210,7 @@ window.SQ_CONTENT = {
     "Que el estilo visual es el mejor"
    ],
    "a": 1,
-   "exp": "No hay evidencia sólida de que adaptar la enseñanza a un «estilo» mejore el aprendizaje."
+   "exp": "Mucha gente tiene preferencias al aprender, pero los estudios no han encontrado que adaptar la enseñanza a un supuesto estilo mejore los resultados."
   },
   {
    "id": "q79",
@@ -29493,7 +30226,7 @@ window.SQ_CONTENT = {
     "Odiar las instrucciones"
    ],
    "a": 1,
-   "exp": "Se llama efecto IKEA: el esfuerzo propio aumenta el valor que le damos a algo."
+   "exp": "El «efecto IKEA» es un sesgo por el cual damos un valor desproporcionado a los productos que hemos creado o armado nosotros mismos, aunque sea en parte."
   },
   {
    "id": "q80",
@@ -29541,7 +30274,7 @@ window.SQ_CONTENT = {
     "Neptuno"
    ],
    "a": 1,
-   "exp": "Es el único planeta del sistema solar con una densidad media menor que la del agua."
+   "exp": "Su densidad media es de unos 0,69 gramos por centímetro cúbico, menor que la del agua."
   },
   {
    "id": "q83",
@@ -29549,7 +30282,7 @@ window.SQ_CONTENT = {
    "level": 1,
    "status": "publicado",
    "ref": "c-olympus-mons",
-   "q": "¿Dónde está el volcán más grande del sistema solar?",
+   "q": "¿En qué planeta está el Olympus Mons, uno de los mayores volcanes del sistema solar?",
    "o": [
     "En Hawái",
     "En Marte",
@@ -29557,7 +30290,7 @@ window.SQ_CONTENT = {
     "En la Luna"
    ],
    "a": 1,
-   "exp": "El Monte Olimpo mide unos 22 km de altura, más de dos veces el Everest."
+   "exp": "El Olympus Mons, en Marte, mide unos 21 km sobre su nivel de referencia y comparte con Rheasilvia, en Vesta, el récord de montaña más alta conocida."
   },
   {
    "id": "q84",
@@ -29669,7 +30402,7 @@ window.SQ_CONTENT = {
     "Para medir la velocidad de internet"
    ],
    "a": 1,
-   "exp": "El sistema reCAPTCHA usaba palabras que las computadoras no lograban leer."
+   "exp": "Google compró reCAPTCHA en 2009 y lo usó para digitalizar libros y periódicos."
   },
   {
    "id": "q91",
@@ -29685,7 +30418,7 @@ window.SQ_CONTENT = {
     "Del color de las primeras antenas"
    ],
    "a": 1,
-   "exp": "Harald «Diente Azul» unificó tribus de Dinamarca en el siglo X."
+   "exp": "El nombre de la tecnología inalámbrica Bluetooth viene de un rey vikingo del siglo X: Harald Bluetooth, en danés Harald Blåtand, un rey danés famoso por unificar tribus danesas."
   },
   {
    "id": "q92",
@@ -29701,7 +30434,7 @@ window.SQ_CONTENT = {
     "Katherine Johnson"
    ],
    "a": 1,
-   "exp": "Su programa estaba guardado en una memoria fabricada tejiendo hilos a mano."
+   "exp": "Su software fue desarrollado en el Instituto Tecnológico de Massachusetts (MIT) por un equipo en el que destacó Margaret Hamilton."
   },
   {
    "id": "q93",
@@ -29781,7 +30514,7 @@ window.SQ_CONTENT = {
     "52"
    ],
    "a": 2,
-   "exp": "Cada mano tiene 27 huesos y cada pie, 26: en total, 106 de 206."
+   "exp": "Cada mano tiene 27 huesos: 8 en la muñeca, 5 en la palma y 14 falanges en los dedos."
   },
   {
    "id": "q98",
@@ -29797,7 +30530,7 @@ window.SQ_CONTENT = {
     "De músculo"
    ],
    "a": 1,
-   "exp": "La rótula empieza a convertirse en hueso entre los 3 y los 6 años."
+   "exp": "Los bebés nacen con una rótula de cartílago blando, un tejido flexible."
   },
   {
    "id": "q99",
@@ -29829,7 +30562,7 @@ window.SQ_CONTENT = {
     "El gusto por lo dulce"
    ],
    "a": 1,
-   "exp": "Es una simplificación. Además de los cinco clásicos, tenemos equilibrio, propiocepción y otros."
+   "exp": "La propiocepción nos informa de la posición y el movimiento de las partes del cuerpo sin necesidad de mirarlas."
   },
   {
    "id": "q101",
@@ -29845,7 +30578,7 @@ window.SQ_CONTENT = {
     "La lengua"
    ],
    "a": 1,
-   "exp": "Charles Osborne, de Estados Unidos, tuvo hipo de 1922 a 1990."
+   "exp": "El hipo es una contracción involuntaria y repentina del diafragma, el músculo que separa el tórax del abdomen, seguida del cierre brusco de las cuerdas vocales, que produce el sonido característico."
   },
   {
    "id": "q102",
@@ -29861,7 +30594,7 @@ window.SQ_CONTENT = {
     "Solo después de los 50"
    ],
    "a": 1,
-   "exp": "Falso, según los estudios disponibles. Un médico lo comprobó en sí mismo durante 60 años."
+   "exp": "Estudios con más personas tampoco han encontrado que tronarse los nudillos cause artrosis en las manos."
   },
   {
    "id": "q103",
@@ -29877,7 +30610,7 @@ window.SQ_CONTENT = {
     "Solo los gatos"
    ],
    "a": 1,
-   "exp": "Ver, oír o pensar en bostezos puede provocarte uno."
+   "exp": "Este «bostezo contagioso» se ha observado en humanos y en otros animales, como chimpancés y perros."
   },
   {
    "id": "q104",
@@ -29925,7 +30658,7 @@ window.SQ_CONTENT = {
     "Por la temperatura"
    ],
    "a": 1,
-   "exp": "Está a más de 400 metros por debajo del nivel del mar, y su agua es tan salada que flotas sin esfuerzo."
+   "exp": "Su agua es casi diez veces más salada que la del océano, y esa sal la hace tan densa que el cuerpo flota con facilidad."
   },
   {
    "id": "q107",
@@ -29989,7 +30722,7 @@ window.SQ_CONTENT = {
     "James Cook"
    ],
    "a": 1,
-   "exp": "Cubre alrededor de un tercio de la superficie de la Tierra."
+   "exp": "Su nombre se lo dio el navegante Fernando de Magallanes en 1520, por las aguas tranquilas que encontró al salir del estrecho que hoy lleva su nombre."
   },
   {
    "id": "q111",
@@ -30005,7 +30738,7 @@ window.SQ_CONTENT = {
     "Un submarino famoso"
    ],
    "a": 1,
-   "exp": "Es el Punto Nemo, en el Pacífico Sur, a unos 2.700 km de la costa más cercana."
+   "exp": "El Punto Nemo es el polo de inaccesibilidad oceánico: el lugar del mar más alejado de cualquier tierra firme."
   },
   {
    "id": "q112",
@@ -30037,7 +30770,7 @@ window.SQ_CONTENT = {
     "Porque no se reproduce"
    ],
    "a": 1,
-   "exp": "Turritopsis dohrnii puede regresar a su fase de pólipo cuando sufre estrés o daño."
+   "exp": "Cuando pasa hambre, se hiere o envejece, puede transformar sus células y volver a su fase juvenil de pólipo para empezar de nuevo su ciclo de vida."
   },
   {
    "id": "q114",
@@ -30053,7 +30786,7 @@ window.SQ_CONTENT = {
     "50"
    ],
    "a": 0,
-   "exp": "Siete, como casi todos los mamíferos; solo que cada una es enorme."
+   "exp": "Como casi todos los mamíferos, la jirafa tiene siete vértebras en el cuello; lo que cambia es su tamaño, de unos 25 centímetros cada una."
   },
   {
    "id": "q115",
@@ -30181,7 +30914,7 @@ window.SQ_CONTENT = {
     "Ser su consejero"
    ],
    "a": 1,
-   "exp": "Diógenes de Sinope practicaba una vida de extrema sencillez."
+   "exp": "Una anécdota famosa cuenta que Alejandro Magno lo visitó y le ofreció lo que quisiera; Diógenes le contestó que se apartara, porque le tapaba el sol."
   },
   {
    "id": "q123",
@@ -30197,7 +30930,7 @@ window.SQ_CONTENT = {
     "Cortar los argumentos largos"
    ],
    "a": 1,
-   "exp": "Se atribuye al fraile y filósofo inglés Guillermo de Ockham, del siglo XIV."
+   "exp": "La idea es que, entre varias explicaciones que dan cuenta de lo mismo, conviene preferir la que necesita menos suposiciones."
   },
   {
    "id": "q124",
@@ -30229,7 +30962,7 @@ window.SQ_CONTENT = {
     "Hermes"
    ],
    "a": 1,
-   "exp": "Zenón de Elea propuso paradojas para cuestionar el movimiento."
+   "exp": "La más famosa es la de Aquiles y la tortuga."
   },
   {
    "id": "q126",
@@ -30261,7 +30994,7 @@ window.SQ_CONTENT = {
     "Arameo"
    ],
    "a": 1,
-   "exp": "Las Meditaciones de Marco Aurelio eran notas personales, no un libro para publicar."
+   "exp": "Las escribió en griego koiné, no en latín, en 12 libros."
   },
   {
    "id": "q128",
@@ -30309,7 +31042,7 @@ window.SQ_CONTENT = {
     "Jacques Cousteau"
    ],
    "a": 1,
-   "exp": "Los geoglifos de Nazca representan animales, plantas y figuras geométricas. Se crearon entre el 500 a. C. y el 500 d. C."
+   "exp": "La matemática alemana Maria Reiche dedicó gran parte de su vida a estudiarlas y protegerlas desde la década de 1940."
   },
   {
    "id": "q131",
@@ -30373,7 +31106,7 @@ window.SQ_CONTENT = {
     "En Australia"
    ],
    "a": 1,
-   "exp": "Se llama rongorongo y sobrevive en unas pocas decenas de objetos de madera."
+   "exp": "Además de sus famosas estatuas moái, la Isla de Pascua (Rapa Nui) dejó un sistema de glifos llamado rongorongo."
   },
   {
    "id": "q135",
@@ -30389,7 +31122,7 @@ window.SQ_CONTENT = {
     "Las velas"
    ],
    "a": 2,
-   "exp": "El Mary Celeste estaba en buen estado y con provisiones, pero su tripulación había desaparecido."
+   "exp": "Tenía carga, comida y agua, pero faltaba el bote salvavidas y no había rastro de las diez personas a bordo, entre ellas el capitán Benjamin Briggs, su esposa y su hija pequeña."
   },
   {
    "id": "q136",
@@ -30405,7 +31138,7 @@ window.SQ_CONTENT = {
     "Howard Carter"
    ],
    "a": 1,
-   "exp": "El Lineal A, de la antigua Creta, sigue sin descifrar. Su sucesor, el Lineal B, se descifró en 1952."
+   "exp": "El Lineal B, usado para escribir una forma antigua de griego, fue descifrado por Michael Ventris en 1952."
   },
   {
    "id": "q137",
@@ -30469,7 +31202,7 @@ window.SQ_CONTENT = {
     "En Egipto"
    ],
    "a": 1,
-   "exp": "El jiaozi, de la dinastía Song, apareció en el siglo XI."
+   "exp": "Los numismáticos los consideran el primer papel moneda de la historia, una creación de la dinastía Song de China."
   },
   {
    "id": "q141",
@@ -30485,7 +31218,7 @@ window.SQ_CONTENT = {
     "Sal"
    ],
    "a": 1,
-   "exp": "La «tulipomanía» holandesa de 1636-1637 se considera una de las primeras burbujas especulativas."
+   "exp": "En los Países Bajos, durante el Siglo de Oro neerlandés, los tulipanes raros se volvieron un símbolo de estatus y se comerciaban contratos sobre bulbos que aún no habían florecido."
   },
   {
    "id": "q142",
@@ -30517,7 +31250,7 @@ window.SQ_CONTENT = {
     "Eran diminutas"
    ],
    "a": 1,
-   "exp": "En Yap, la propiedad de las piedras rai cambiaba de dueño sin moverlas de sitio."
+   "exp": "Las grandes piedras rai casi no se movían: lo que cambiaba era quién era su dueño, algo que la comunidad recordaba."
   },
   {
    "id": "q144",
@@ -30533,7 +31266,7 @@ window.SQ_CONTENT = {
     "Un teléfono"
    ],
    "a": 1,
-   "exp": "Ocurrió el 22 de mayo de 2010 y es considerada la primera compra conocida con bitcoin."
+   "exp": "En mayo de 2010 pagó 10.000 bitcoins por dos pizzas, una de las primeras compras documentadas de bienes reales con bitcoin."
   },
   {
    "id": "q145",
@@ -30581,7 +31314,7 @@ window.SQ_CONTENT = {
     "Austria"
    ],
    "a": 1,
-   "exp": "La hiperinflación de la República de Weimar hizo que los billetes valieran menos que el papel."
+   "exp": "En Alemania, a finales de 1923, un dólar estadounidense llegó a equivaler a unos 4,2 billones de marcos."
   },
   {
    "id": "q148",
@@ -30597,7 +31330,7 @@ window.SQ_CONTENT = {
     "Alejandría"
    ],
    "a": 1,
-   "exp": "Entre ellos están las copias más antiguas conocidas de libros de la Biblia hebrea."
+   "exp": "Los primeros rollos se encontraron en 1947 en cuevas cerca de Qumrán, en la orilla noroeste del Mar Muerto."
   },
   {
    "id": "q149",
@@ -30613,7 +31346,7 @@ window.SQ_CONTENT = {
     "Hebreo"
    ],
    "a": 1,
-   "exp": "La Biblia de Gutenberg se imprimió en Maguncia, Alemania, hacia 1455."
+   "exp": "Su Biblia, en latín, se imprimió a mediados de la década de 1450."
   },
   {
    "id": "q150",
@@ -30629,7 +31362,7 @@ window.SQ_CONTENT = {
     "Sí, el 1 de enero"
    ],
    "a": 1,
-   "exp": "Aparece en un calendario romano, más de tres siglos después del nacimiento de Jesús."
+   "exp": "Los evangelios no dan la fecha; la primera celebración conocida el 25 de diciembre aparece en un calendario romano del año 336."
   },
   {
    "id": "q151",
@@ -30677,7 +31410,7 @@ window.SQ_CONTENT = {
     "Pintado en templos"
    ],
    "a": 1,
-   "exp": "El Rigveda, del hinduismo, se compuso hace más de 3.000 años."
+   "exp": "Durante siglos se transmitió de forma oral con técnicas de memorización muy precisas antes de ponerse por escrito."
   },
   {
    "id": "q154",
@@ -30709,7 +31442,7 @@ window.SQ_CONTENT = {
     "Una canoa"
    ],
    "a": 1,
-   "exp": "Eran figuras de piedra, madera o algodón que encarnaban deidades y ancestros."
+   "exp": "En la lengua taína, cemí (o zemí) designaba la fuerza espiritual y vital de deidades y ancestros."
   },
   {
    "id": "q156",
@@ -30725,7 +31458,7 @@ window.SQ_CONTENT = {
     "Árabe"
    ],
    "a": 1,
-   "exp": "Combina «hallelu», alaben, y «Yah», forma abreviada del nombre de Dios."
+   "exp": "Viene del hebreo «hallelu Yah», que significa «alabad a Yah», es decir, a Dios."
   },
   {
    "id": "q157",
@@ -30789,7 +31522,7 @@ window.SQ_CONTENT = {
     "La inventó la RAE en 1900"
    ],
    "a": 1,
-   "exp": "Los copistas medievales escribían una n pequeña sobre otra para ahorrar espacio."
+   "exp": "Los copistas medievales abreviaban la doble n escribiendo una sola con una pequeña línea ondulada encima, que acabó siendo la ñ."
   },
   {
    "id": "q161",
@@ -30805,7 +31538,7 @@ window.SQ_CONTENT = {
     "El arpa"
    ],
    "a": 1,
-   "exp": "Es un raspador de metal que se toca con un cepillo de púas."
+   "exp": "Junto con la tambora y el acordeón, la güira forma el trío básico del merengue típico dominicano."
   },
   {
    "id": "q162",
@@ -30837,7 +31570,7 @@ window.SQ_CONTENT = {
     "Japón"
    ],
    "a": 2,
-   "exp": "Cada temporada, más de cien dominicanos juegan en la MLB."
+   "exp": "Después de Estados Unidos, República Dominicana es el país que más jugadores aporta a las Grandes Ligas."
   },
   {
    "id": "q164",
@@ -30869,7 +31602,7 @@ window.SQ_CONTENT = {
     "México"
    ],
    "a": 1,
-   "exp": "Su nombre se popularizó porque se exportaba a través de Panamá."
+   "exp": "Se teje tradicionalmente en Ecuador con paja toquilla; el nombre se popularizó porque se vendía mucho en Panamá."
   },
   {
    "id": "q166",
@@ -30933,7 +31666,7 @@ window.SQ_CONTENT = {
     "95%"
    ],
    "a": 2,
-   "exp": "En el experimento original, el 65% de los participantes llegó hasta la descarga máxima de 450 voltios."
+   "exp": "En la versión más conocida, el 65 % de los participantes, 26 de 40, llegó a la descarga máxima de 450 voltios."
   },
   {
    "id": "q170",
@@ -30949,7 +31682,7 @@ window.SQ_CONTENT = {
     "Porque se rellenó con nieve"
    ],
    "a": 1,
-   "exp": "La explicación más aceptada es un asteroide o cometa que estalló en el aire antes de tocar el suelo."
+   "exp": "La mayoría de los científicos cree que un asteroide o un cometa de decenas de metros explotó en el aire a varios kilómetros de altura."
   },
   {
    "id": "q171",
@@ -30965,7 +31698,7 @@ window.SQ_CONTENT = {
     "Se fundó una universidad"
    ],
    "a": 1,
-   "exp": "Su peregrinación de 1324 se volvió legendaria en África, Oriente Medio y Europa."
+   "exp": "Según los cronistas, Mansa Musa repartió y gastó tanto oro en El Cairo que su valor cayó allí durante años."
   },
   {
    "id": "q172",
@@ -30981,7 +31714,7 @@ window.SQ_CONTENT = {
     "Plata"
    ],
    "a": 1,
-   "exp": "A presión y temperatura normales, ningún otro metal se mantiene líquido."
+   "exp": "El mercurio es el único metal líquido a temperatura ambiente; se solidifica a unos −39 °C."
   },
   {
    "id": "q173",
@@ -31045,7 +31778,7 @@ window.SQ_CONTENT = {
     "Copió una tabla anterior"
    ],
    "a": 1,
-   "exp": "Y acertó: predijo las propiedades de elementos como el galio antes de que se descubrieran."
+   "exp": "Dejó espacios vacíos y predijo que allí irían elementos todavía desconocidos, e incluso describió cómo serían: su peso atómico, su densidad y los compuestos que formarían."
   },
   {
    "id": "q177",
@@ -31061,7 +31794,7 @@ window.SQ_CONTENT = {
     "0 °C"
    ],
    "a": 1,
-   "exp": "Es el cero absoluto: −273,15 °C, o 0 kelvin."
+   "exp": "El cero absoluto, 0 kelvin, equivale a −273,15 °C: la temperatura más baja posible."
   },
   {
    "id": "q178",
@@ -31109,7 +31842,7 @@ window.SQ_CONTENT = {
     "Tamerlán"
    ],
    "a": 1,
-   "exp": "En el siglo XIII se extendía desde Asia oriental hasta Europa del Este."
+   "exp": "Gengis Kan unificó a las tribus mongolas y fue proclamado gran kan en 1206, el inicio del imperio."
   },
   {
    "id": "q181",
@@ -31157,7 +31890,7 @@ window.SQ_CONTENT = {
     "1776"
    ],
    "a": 1,
-   "exp": "La Carta Magna obligó al rey Juan a aceptar que también estaba sujeto a la ley."
+   "exp": "Los barones ingleses, hartos de los abusos del rey Juan, lo obligaron a sellar la Carta Magna el 15 de junio de 1215 en Runnymede, cerca de Windsor."
   },
   {
    "id": "q184",
@@ -31189,7 +31922,7 @@ window.SQ_CONTENT = {
     "En La Romana"
    ],
    "a": 1,
-   "exp": "Se separó de Haití tras 22 años de unificación de la isla."
+   "exp": "La noche del 27 de febrero de 1844, en la Puerta del Conde de Santo Domingo, se proclamó la República Dominicana."
   },
   {
    "id": "q186",
@@ -31221,7 +31954,7 @@ window.SQ_CONTENT = {
     "Foro Romano"
    ],
    "a": 1,
-   "exp": "Se calcula que albergaba entre 50.000 y 80.000 personas."
+   "exp": "El Anfiteatro Flavio, conocido como Coliseo, es el mayor anfiteatro antiguo jamás construido y el más grande que sigue en pie."
   },
   {
    "id": "q188",
@@ -31237,7 +31970,7 @@ window.SQ_CONTENT = {
     "Dudar de todo"
    ],
    "a": 1,
-   "exp": "Se llama sesgo de confirmación y afecta incluso a personas muy preparadas."
+   "exp": "El sesgo de confirmación es la tendencia a buscar, interpretar, preferir y recordar la información que confirma lo que ya creemos."
   },
   {
    "id": "q189",
@@ -31285,7 +32018,7 @@ window.SQ_CONTENT = {
     "Unas 15.000"
    ],
    "a": 1,
-   "exp": "Es el «número de Dunbar», propuesto por el antropólogo Robin Dunbar."
+   "exp": "El antropólogo Robin Dunbar propuso que una persona puede mantener unas 150 relaciones sociales estables."
   },
   {
    "id": "q192",
@@ -31301,7 +32034,7 @@ window.SQ_CONTENT = {
     "Mal visto"
    ],
    "a": 1,
-   "exp": "Es la sensación de haber vivido antes una situación que es nueva."
+   "exp": "El término, que en francés significa «ya visto», lo acuñó el filósofo e investigador francés Émile Boirac en 1876."
   },
   {
    "id": "q193",
@@ -31333,7 +32066,7 @@ window.SQ_CONTENT = {
     "Llamando a muchos a la vez sin señalar a nadie"
    ],
    "a": 1,
-   "exp": "Es el efecto espectador: la responsabilidad se diluye en el grupo."
+   "exp": "Pedir ayuda a una persona concreta lo contrarresta."
   },
   {
    "id": "q195",
@@ -31349,7 +32082,7 @@ window.SQ_CONTENT = {
     "Solo en músicos"
    ],
    "a": 1,
-   "exp": "No hay pruebas sólidas de que exista una memoria que funcione como una fotografía."
+   "exp": "Esa «memoria fotográfica» perfecta no se ha demostrado nunca en pruebas rigurosas."
   },
   {
    "id": "q196",
@@ -31365,7 +32098,7 @@ window.SQ_CONTENT = {
     "Midiendo las mareas"
    ],
    "a": 1,
-   "exp": "Lo sabemos gracias a espejos que dejaron los astronautas del programa Apolo."
+   "exp": "Se mide cuánto tarda un pulso láser en ir y volver a los reflectores que dejaron las misiones Apolo: la Luna se aleja unos 3,8 cm al año."
   },
   {
    "id": "q197",
@@ -31381,7 +32114,7 @@ window.SQ_CONTENT = {
     "2015"
    ],
    "a": 2,
-   "exp": "La Unión Astronómica Internacional lo reclasificó como «planeta enano»."
+   "exp": "En 2006, la Unión Astronómica Internacional estableció tres condiciones: orbitar alrededor del Sol, tener masa suficiente para adoptar una forma casi redonda y haber «limpiado» su órbita de otros cuerpos de tamaño parecido."
   },
   {
    "id": "q198",
@@ -31397,7 +32130,7 @@ window.SQ_CONTENT = {
     "Ninguna"
    ],
    "a": 1,
-   "exp": "Será un choque lento en el que muy pocas estrellas colisionarán directamente."
+   "exp": "Andrómeda se acerca a la Vía Láctea a unos 110 km/s; los cálculos recientes dan alrededor de un 50 % de probabilidad de que se fusionen."
   },
   {
    "id": "q199",
@@ -31461,7 +32194,7 @@ window.SQ_CONTENT = {
     "Sombrero"
    ],
    "a": 1,
-   "exp": "La obtuvo el Event Horizon Telescope, una red de radiotelescopios de todo el mundo."
+   "exp": "La primera imagen de un agujero negro, publicada en 2019 por el Event Horizon Telescope, muestra el de la galaxia M87."
   },
   {
    "id": "q203",
@@ -31509,7 +32242,7 @@ window.SQ_CONTENT = {
     "Venderla a una empresa"
    ],
    "a": 1,
-   "exp": "Tim Berners-Lee la creó en 1989; en 1993 el CERN liberó su tecnología para todos."
+   "exp": "En abril de 1993, el CERN puso el software de la web en el dominio público, para que cualquiera pudiera usarlo y desarrollarlo sin pagar."
   },
   {
    "id": "q206",
@@ -31525,7 +32258,7 @@ window.SQ_CONTENT = {
     "La máquina Enigma"
    ],
    "a": 1,
-   "exp": "Ada Lovelace publicó en 1843 lo que se considera el primer algoritmo para una máquina."
+   "exp": "Es considerada la primera programadora de la historia por su trabajo con el matemático Charles Babbage y su Máquina Analítica, una computadora mecánica de propósito general que nunca llegó a construirse."
   },
   {
    "id": "q207",
@@ -31557,7 +32290,7 @@ window.SQ_CONTENT = {
     "Coreano"
    ],
    "a": 1,
-   "exp": "Los diseñó Shigetaka Kurita para teléfonos móviles; hoy están en el MoMA de Nueva York."
+   "exp": "La palabra «emoji» viene del japonés: «e», imagen, y «moji», carácter."
   },
   {
    "id": "q209",
@@ -31589,7 +32322,7 @@ window.SQ_CONTENT = {
     "El Big Bang"
    ],
    "a": 1,
-   "exp": "Los relojes de los satélites deben corregirse porque el tiempo pasa distinto allá arriba."
+   "exp": "El GPS es una de las pruebas cotidianas más claras de que la relatividad de Einstein funciona."
   },
   {
    "id": "q211",
@@ -31621,7 +32354,7 @@ window.SQ_CONTENT = {
     "Un periódico"
    ],
    "a": 1,
-   "exp": "Ocurrió en 1974 en un supermercado de Ohio, Estados Unidos."
+   "exp": "El 26 de junio de 1974, a las 8:01 de la mañana, en un supermercado de Troy, Ohio, una cajera pasó por un lector un paquete de diez chicles Juicy Fruit de Wrigley."
   },
   {
    "id": "q213",
@@ -31637,7 +32370,7 @@ window.SQ_CONTENT = {
     "No los usan"
    ],
    "a": 1,
-   "exp": "Es el efecto placebo, y se tiene en cuenta en todos los ensayos clínicos."
+   "exp": "Comparar con un grupo que recibe placebo permite separar el efecto real del fármaco del efecto de las expectativas."
   },
   {
    "id": "q214",
@@ -31653,7 +32386,7 @@ window.SQ_CONTENT = {
     "200–220"
    ],
    "a": 1,
-   "exp": "Los deportistas entrenados suelen tener frecuencias más bajas."
+   "exp": "En la mayoría de los adultos sanos, el pulso en reposo está entre 60 y 100 latidos por minuto; los deportistas pueden tenerlo más bajo."
   },
   {
    "id": "q215",
@@ -31701,7 +32434,7 @@ window.SQ_CONTENT = {
     "Solo al nacer"
    ],
    "a": 1,
-   "exp": "Comparten ADN, pero las huellas se forman con influencias del entorno en el útero."
+   "exp": "Incluso los gemelos idénticos, que comparten el mismo ADN, tienen huellas dactilares distintas."
   },
   {
    "id": "q218",
@@ -31717,7 +32450,7 @@ window.SQ_CONTENT = {
     "80%"
    ],
    "a": 1,
-   "exp": "Es uno de los órganos que más energía consume."
+   "exp": "El cerebro pesa alrededor del 2 % del cuerpo, pero en reposo consume cerca del 20 % de su energía."
   },
   {
    "id": "q219",
@@ -31765,7 +32498,7 @@ window.SQ_CONTENT = {
     "Noruega"
    ],
    "a": 1,
-   "exp": "El Salto Ángel tiene 979 metros de altura."
+   "exp": "El Salto Ángel, en Venezuela, es la cascada con la caída ininterrumpida más alta del mundo: unos 979 metros en total, con una caída libre principal de unos 807 metros."
   },
   {
    "id": "q222",
@@ -31781,7 +32514,7 @@ window.SQ_CONTENT = {
     "Bolivia"
    ],
    "a": 1,
-   "exp": "Hay zonas donde nunca se ha registrado lluvia en la época moderna."
+   "exp": "El desierto de Atacama, en el norte de Chile, es uno de los lugares más secos de la Tierra y el desierto no polar más seco del mundo."
   },
   {
    "id": "q223",
@@ -31797,7 +32530,7 @@ window.SQ_CONTENT = {
     "Islandia"
    ],
    "a": 1,
-   "exp": "Australia es más grande, pero se considera un continente."
+   "exp": "Geográficamente forma parte de América del Norte, pero políticamente pertenece al Reino de Dinamarca, aunque tiene un amplio autogobierno."
   },
   {
    "id": "q224",
@@ -31813,7 +32546,7 @@ window.SQ_CONTENT = {
     "El Yangtsé"
    ],
    "a": 1,
-   "exp": "Su caudal es mayor que el de los siguientes varios ríos más caudalosos juntos."
+   "exp": "El Amazonas es el río con mayor caudal del mundo: vierte al océano Atlántico una cantidad de agua enorme, más que los siguientes ríos más caudalosos juntos."
   },
   {
    "id": "q225",
@@ -31845,7 +32578,7 @@ window.SQ_CONTENT = {
     "El emú"
    ],
    "a": 1,
-   "exp": "Los polinesios llegaron alrededor del siglo XIII."
+   "exp": "Los moas, aves gigantes sin alas, desaparecieron en pocos siglos tras la llegada de los polinesios."
   },
   {
    "id": "q227",
@@ -31861,7 +32594,7 @@ window.SQ_CONTENT = {
     "Pingüinos"
    ],
    "a": 1,
-   "exp": "Llegan a la bahía de Samaná y al Banco de la Plata para aparearse y tener sus crías."
+   "exp": "Cada invierno, miles de ballenas jorobadas del Atlántico Norte llegan a la bahía de Samaná y al Banco de la Plata para aparearse y tener sus crías."
   },
   {
    "id": "q228",
@@ -31877,7 +32610,7 @@ window.SQ_CONTENT = {
     "Kampala"
    ],
    "a": 1,
-   "exp": "Su cuenca se reparte entre países como Egipto, Sudán, Etiopía y Uganda."
+   "exp": "Ambas ramas se unen en Jartum, la capital de Sudán, y desde allí el río recorre el desierto hasta Egipto y desemboca en el Mediterráneo formando un gran delta."
   },
   {
    "id": "q229",
@@ -31893,7 +32626,7 @@ window.SQ_CONTENT = {
     "El gato"
    ],
    "a": 1,
-   "exp": "Incluso con un microscopio electrónico cuesta distinguirlas de las nuestras."
+   "exp": "Las huellas de los koalas se parecen tanto a las humanas que cuesta distinguirlas, aunque son marsupiales lejanamente emparentados con nosotros."
   },
   {
    "id": "q230",
@@ -31941,7 +32674,7 @@ window.SQ_CONTENT = {
     "Viven bajo el agua"
    ],
    "a": 1,
-   "exp": "Los cuervos de Nueva Caledonia moldean ramas y hojas para sacar insectos."
+   "exp": "El cuervo de Nueva Caledonia, un pájaro de una isla del Pacífico, es uno de los animales más hábiles fabricando herramientas."
   },
   {
    "id": "q233",
@@ -32005,7 +32738,7 @@ window.SQ_CONTENT = {
     "Las regalan a la reina"
    ],
    "a": 1,
-   "exp": "No se comen las hojas: las usan para cultivar un hongo del que se alimentan."
+   "exp": "No se comen las hojas: las usan como sustrato para cultivar el hongo del que se alimentan."
   },
   {
    "id": "q237",
@@ -32053,7 +32786,7 @@ window.SQ_CONTENT = {
     "Pericles"
    ],
    "a": 1,
-   "exp": "Fue llamado por Filipo II de Macedonia para educar a su hijo."
+   "exp": "Más tarde, el rey Filipo II de Macedonia lo llamó para que fuera tutor de su hijo, y enseñó al joven Alejandro, el futuro Alejandro Magno, durante varios años."
   },
   {
    "id": "q240",
@@ -32069,7 +32802,7 @@ window.SQ_CONTENT = {
     "Søren Kierkegaard"
    ],
    "a": 1,
-   "exp": "En su ensayo de 1942 usó el mito griego para hablar del sentido de la vida."
+   "exp": "En «El mito de Sísifo», un ensayo de 1942, Albert Camus lo convirtió en un símbolo del absurdo: el choque entre nuestra necesidad de encontrar sentido y un universo que no nos lo da."
   },
   {
    "id": "q241",
@@ -32085,7 +32818,7 @@ window.SQ_CONTENT = {
     "Tomás de Aquino"
    ],
    "a": 1,
-   "exp": "Su argumento compara lo que se gana y se pierde al creer o no creer."
+   "exp": "El matemático y filósofo francés Blaise Pascal, del siglo XVII, argumentó que, si Dios existe, creer trae una ganancia infinita, y si no existe, se pierde poco."
   },
   {
    "id": "q242",
@@ -32101,7 +32834,7 @@ window.SQ_CONTENT = {
     "Que el azar decide todo"
    ],
    "a": 1,
-   "exp": "Fue formulado en 1950 en la RAND Corporation y bautizado por Albert Tucker."
+   "exp": "El dilema muestra por qué cooperar es difícil aunque convenga a todos."
   },
   {
    "id": "q243",
@@ -32149,7 +32882,7 @@ window.SQ_CONTENT = {
     "Una estatua de bronce"
    ],
    "a": 1,
-   "exp": "Él mismo pidió ser conservado y expuesto: se le llama su «auto-icono»."
+   "exp": "Bentham pidió que su cuerpo se conservara y exhibiera; su esqueleto vestido, con una cabeza de cera, se muestra en el University College de Londres."
   },
   {
    "id": "q246",
@@ -32165,7 +32898,7 @@ window.SQ_CONTENT = {
     "Voltaire"
    ],
    "a": 1,
-   "exp": "En 1580 publicó sus «Essais», que significa «intentos» en francés."
+   "exp": "Montaigne llamó «essais», es decir, intentos, a las reflexiones personales que publicó en 1580, y así dio nombre al género."
   },
   {
    "id": "q247",
@@ -32213,7 +32946,7 @@ window.SQ_CONTENT = {
     "Los incas"
    ],
    "a": 1,
-   "exp": "Göbekli Tepe, en Turquía, se construyó hacia el 9500 a. C."
+   "exp": "Sus pilares de piedra en forma de T, entre los megalitos más antiguos que se conocen, están decorados con animales tallados y fueron levantados por grupos de cazadores-recolectores, antes de que existiera la agricultura en la zona."
   },
   {
    "id": "q250",
@@ -32261,7 +32994,7 @@ window.SQ_CONTENT = {
     "En Irlanda"
    ],
    "a": 1,
-   "exp": "El disco de Festo tiene símbolos estampados en espiral en ambas caras."
+   "exp": "Se exhibe en el Museo Arqueológico de Heraclión, en Creta."
   },
   {
    "id": "q253",
@@ -32309,7 +33042,7 @@ window.SQ_CONTENT = {
     "Roma"
    ],
    "a": 1,
-   "exp": "Eran de electro, una mezcla natural de oro y plata, hacia el siglo VII a. C."
+   "exp": "Las primeras monedas conocidas se acuñaron en Lidia, en la actual Turquía, hacia el siglo VII a. C., en electro."
   },
   {
    "id": "q256",
@@ -32341,7 +33074,7 @@ window.SQ_CONTENT = {
     "De «dollars»"
    ],
    "a": 1,
-   "exp": "Una de las teorías más aceptadas lo deriva de la abreviatura «ps»."
+   "exp": "Según la explicación más aceptada, viene de «ps», abreviatura de pesos: al escribir deprisa, la s se superpuso a la p."
   },
   {
    "id": "q258",
@@ -32389,7 +33122,7 @@ window.SQ_CONTENT = {
     "Ninguna"
    ],
    "a": 0,
-   "exp": "Aparece solo una vez en La riqueza de las naciones."
+   "exp": "Adam Smith usa la expresión una sola vez en La riqueza de las naciones, de 1776."
   },
   {
    "id": "q261",
@@ -32405,7 +33138,7 @@ window.SQ_CONTENT = {
     "Un bien público"
    ],
    "a": 1,
-   "exp": "Se llaman bienes de Veblen: su precio alto los convierte en símbolo de estatus."
+   "exp": "Se llaman «bienes Veblen» los artículos de lujo cuya demanda aumenta cuando sube su precio, lo que parece contradecir la ley de la demanda."
   },
   {
    "id": "q262",
@@ -32453,7 +33186,7 @@ window.SQ_CONTENT = {
     "Gutenberg"
    ],
    "a": 1,
-   "exp": "Los capítulos se añadieron en el siglo XIII y los versículos numerados, en el XVI."
+   "exp": "A principios del siglo XIII, el arzobispo de Canterbury Stephen Langton y el cardenal Hugo de San Caro desarrollaron sistemas distintos para dividir la Biblia, y las divisiones modernas en capítulos se basan en el de Langton."
   },
   {
    "id": "q265",
@@ -32517,7 +33250,7 @@ window.SQ_CONTENT = {
     "Confucianismo"
    ],
    "a": 1,
-   "exp": "Se llaman torii y están en los santuarios sintoístas."
+   "exp": "Señala el paso del mundo cotidiano a un lugar sagrado: al cruzarlo, se entra en el espacio de los kami, las divinidades del sintoísmo."
   },
   {
    "id": "q269",
@@ -32533,7 +33266,7 @@ window.SQ_CONTENT = {
     "Brahmanes"
    ],
    "a": 1,
-   "exp": "Fue la religión principal de los imperios persas."
+   "exp": "Los parsis llegaron a la India huyendo de la persecución tras la conquista islámica de Persia."
   },
   {
    "id": "q270",
@@ -32581,7 +33314,7 @@ window.SQ_CONTENT = {
     "Indonesia"
    ],
    "a": 1,
-   "exp": "La leyenda cuenta que un pastor llamado Kaldi notó lo enérgicas que se ponían sus cabras."
+   "exp": "La planta del café arábica es originaria de las tierras altas de Etiopía, donde crecían las plantas silvestres."
   },
   {
    "id": "q273",
@@ -32597,7 +33330,7 @@ window.SQ_CONTENT = {
     "Con leche"
    ],
    "a": 1,
-   "exp": "Los mayas y los mexicas lo tomaban sin azúcar, a veces con chile."
+   "exp": "La bebida era espesa, espumosa y amarga."
   },
   {
    "id": "q274",
@@ -32613,7 +33346,7 @@ window.SQ_CONTENT = {
     "Quechua"
    ],
    "a": 1,
-   "exp": "Llegó desde América en el siglo XVI y tardó en aceptarse como alimento en algunas regiones."
+   "exp": "La palabra «tomate» viene del náhuatl «tomatl»."
   },
   {
    "id": "q275",
@@ -32677,7 +33410,7 @@ window.SQ_CONTENT = {
     "En el Prado"
    ],
    "a": 1,
-   "exp": "Es una respuesta al bombardeo de la villa vasca de Guernica en 1937."
+   "exp": "Hoy está en el Museo Reina Sofía de Madrid, y muchos críticos lo consideran la pintura antibélica más conmovedora de la historia."
   },
   {
    "id": "q279",
@@ -32709,7 +33442,7 @@ window.SQ_CONTENT = {
     "Vacunar a las madres"
    ],
    "a": 1,
-   "exp": "Semmelweis descubrió que lavarse las manos con una solución de cal clorada salvaba la vida de las madres tras el parto."
+   "exp": "En 1847 impuso lavarse las manos con una solución de cal clorada antes de atender a las pacientes."
   },
   {
    "id": "q281",
@@ -32853,7 +33586,7 @@ window.SQ_CONTENT = {
     "El cólera"
    ],
    "a": 1,
-   "exp": "Louis Pasteur lo trató en 1885 tras ser mordido por un perro rabioso, y sobrevivió."
+   "exp": "En 1885 aplicó su vacuna contra la rabia a Joseph Meister, un niño mordido por un perro rabioso, que sobrevivió."
   },
   {
    "id": "q290",
@@ -32933,7 +33666,7 @@ window.SQ_CONTENT = {
     "Sangre de donantes"
    ],
    "a": 1,
-   "exp": "Katalin Karikó y Drew Weissman recibieron el Nobel de Medicina 2023 por los descubrimientos que las hicieron posibles."
+   "exp": "Estas vacunas no contienen el virus: llevan instrucciones, en forma de ARN mensajero, para que las células produzcan una proteína inofensiva que entrena al sistema inmunitario."
   },
   {
    "id": "q295",
@@ -32965,7 +33698,7 @@ window.SQ_CONTENT = {
     "B negativo"
    ],
    "a": 1,
-   "exp": "Por eso se usa en emergencias cuando no hay tiempo de comprobar el grupo del paciente."
+   "exp": "Sus glóbulos rojos no tienen antígenos A, B ni RhD, por eso se usan en emergencias sin conocer el grupo del paciente."
   },
   {
    "id": "q297",
@@ -32997,7 +33730,7 @@ window.SQ_CONTENT = {
     "Roma"
    ],
    "a": 1,
-   "exp": "La Organización Mundial de la Salud se fundó el 7 de abril de 1948."
+   "exp": "Tiene su sede en Ginebra, Suiza, y nació tras una propuesta de Brasil y China en la conferencia de San Francisco de 1945, donde se creó la ONU."
   },
   {
    "id": "q299",
@@ -33045,7 +33778,7 @@ window.SQ_CONTENT = {
     "Un hongo"
    ],
    "a": 1,
-   "exp": "Lo transmiten las hembras del mosquito Anopheles."
+   "exp": "El parásito Plasmodium se transmite a las personas por la picadura de mosquitos Anopheles hembra infectados."
   },
   {
    "id": "q302",
@@ -33093,7 +33826,7 @@ window.SQ_CONTENT = {
     "Beber agua"
    ],
    "a": 1,
-   "exp": "Predijo que un mal uso de la penicilina podía crear bacterias resistentes."
+   "exp": "El mal uso y el uso excesivo de los antimicrobianos son las principales causas."
   },
   {
    "id": "q305",
@@ -33173,7 +33906,7 @@ window.SQ_CONTENT = {
     "1 millón de km/s"
    ],
    "a": 1,
-   "exp": "Es de 299.792.458 metros por segundo, porque el metro se define a partir de ella."
+   "exp": "Es exactamente 299.792.458 metros por segundo: desde 1983, el metro se define a partir de ella."
   },
   {
    "id": "q310",
@@ -33189,7 +33922,7 @@ window.SQ_CONTENT = {
     "150"
    ],
    "a": 2,
-   "exp": "Los últimos nombres oficiales se aprobaron en 2016, entre ellos el oganesón."
+   "exp": "Hoy se conocen 118 elementos; los cuatro últimos recibieron su nombre oficial en 2016."
   },
   {
    "id": "q311",
@@ -33237,7 +33970,7 @@ window.SQ_CONTENT = {
     "1939"
    ],
    "a": 1,
-   "exp": "Chocó contra un iceberg en el Atlántico Norte y murieron más de 1.500 personas."
+   "exp": "Partió en su viaje inaugural de Southampton rumbo a Nueva York el 10 de abril de 1912."
   },
   {
    "id": "q314",
@@ -33269,7 +34002,7 @@ window.SQ_CONTENT = {
     "Que copiamos a los demás"
    ],
    "a": 1,
-   "exp": "Se llama efecto Pigmalión o efecto Rosenthal."
+   "exp": "Las expectativas altas sobre una persona pueden mejorar su rendimiento; con expectativas bajas ocurre lo contrario, el efecto Golem."
   },
   {
    "id": "q316",
@@ -33349,7 +34082,7 @@ window.SQ_CONTENT = {
     "2020"
    ],
    "a": 1,
-   "exp": "Completa unas 15,5 órbitas al día."
+   "exp": "Ha estado ocupada sin interrupción desde el 2 de noviembre de 2000, la presencia humana continua más larga en el espacio."
   },
   {
    "id": "q321",
@@ -33365,7 +34098,7 @@ window.SQ_CONTENT = {
     "Resortes"
    ],
    "a": 1,
-   "exp": "ENIAC, terminada en 1945, pesaba unas 27 toneladas."
+   "exp": "Era gigantesca: ocupaba una sala entera, pesaba unas 27 toneladas y tenía unos 18 000 tubos de vacío, que se fundían con frecuencia."
   },
   {
    "id": "q322",
@@ -33381,7 +34114,7 @@ window.SQ_CONTENT = {
     "Symbian"
    ],
    "a": 1,
-   "exp": "Linus Torvalds publicó la primera versión del núcleo Linux el 17 de septiembre de 1991."
+   "exp": "También es la base de Android, el sistema operativo móvil más usado."
   },
   {
    "id": "q323",
@@ -33413,7 +34146,7 @@ window.SQ_CONTENT = {
     "8.091 m"
    ],
    "a": 1,
-   "exp": "China y Nepal anunciaron conjuntamente una altura de 8.848,86 metros."
+   "exp": "En diciembre de 2020, China y Nepal anunciaron conjuntamente la altura oficial: 8.848,86 metros."
   },
   {
    "id": "q325",
@@ -33429,7 +34162,7 @@ window.SQ_CONTENT = {
     "Bajo el mar"
    ],
    "a": 1,
-   "exp": "Durante el «periodo húmedo africano» hubo lagos, ríos y sabanas donde hoy hay arena."
+   "exp": "Entre hace unos 14 500 y 5000 años, un periodo llamado el Periodo Húmedo Africano, gran parte del Sahara estuvo cubierta de vegetación, con sabanas, lagos y ríos."
   },
   {
    "id": "q326",
@@ -33445,7 +34178,7 @@ window.SQ_CONTENT = {
     "Malta"
    ],
    "a": 1,
-   "exp": "En unos 2 km² viven decenas de miles de personas."
+   "exp": "Unas 38.000 personas viven en unos 2 km²: más de 19.000 habitantes por kilómetro cuadrado."
   },
   {
    "id": "q327",
@@ -33461,7 +34194,7 @@ window.SQ_CONTENT = {
     "Una hora al año"
    ],
    "a": 1,
-   "exp": "Así pueden seguir respirando y vigilando mientras descansan."
+   "exp": "Su solución es dormir con la mitad del cerebro: un hemisferio duerme mientras el otro permanece alerta, y luego se turnan."
   },
   {
    "id": "q328",
@@ -33509,7 +34242,7 @@ window.SQ_CONTENT = {
     "Marco Aurelio"
    ],
    "a": 1,
-   "exp": "Epicteto enseñó que no controlamos lo que nos pasa, pero sí cómo respondemos."
+   "exp": "No escribió libros: su discípulo Arriano recogió sus enseñanzas en las Disertaciones y el Enquiridión, o manual."
   },
   {
    "id": "q331",
@@ -33557,7 +34290,7 @@ window.SQ_CONTENT = {
     "Todavía no"
    ],
    "a": 2,
-   "exp": "El códice Copiale resultó ser un texto de una sociedad secreta alemana del siglo XVIII."
+   "exp": "En 2011, investigadores de la Universidad del Sur de California y de la de Uppsala lo descifraron con métodos informáticos: describía los rituales de una sociedad secreta."
   },
   {
    "id": "q334",
@@ -33605,7 +34338,7 @@ window.SQ_CONTENT = {
     "La hiperinflación alemana"
    ],
    "a": 1,
-   "exp": "El «crac del 29» comenzó en Wall Street en octubre."
+   "exp": "La caída minó rápidamente la confianza en el sistema bancario de Estados Unidos y marcó el inicio de la Gran Depresión, la peor crisis económica del siglo XX, con desempleo masivo en muchos países durante la década de 1930."
   },
   {
    "id": "q337",
@@ -33637,7 +34370,7 @@ window.SQ_CONTENT = {
     "Toledo"
    ],
    "a": 1,
-   "exp": "La Mezquita-Catedral fue mezquita durante siglos y desde el siglo XIII es templo cristiano."
+   "exp": "Forma parte del centro histórico de Córdoba, Patrimonio de la Humanidad por la UNESCO desde 1984."
   },
   {
    "id": "q339",
@@ -33653,7 +34386,7 @@ window.SQ_CONTENT = {
     "Japón"
    ],
    "a": 1,
-   "exp": "Borobudur, en Java, se construyó en el siglo IX."
+   "exp": "Borobudur, en la isla de Java, en Indonesia, es el mayor templo budista del mundo."
   },
   {
    "id": "q340",
@@ -33669,7 +34402,7 @@ window.SQ_CONTENT = {
     "66"
    ],
    "a": 1,
-   "exp": "Según la tradición islámica, fue revelado al profeta Mahoma a lo largo de unos 23 años."
+   "exp": "El Corán se divide en 114 suras, o capítulos, de longitud muy variada."
   },
   {
    "id": "q341",
@@ -33685,7 +34418,7 @@ window.SQ_CONTENT = {
     "1810"
    ],
    "a": 1,
-   "exp": "Muchos la consideran la primera novela moderna."
+   "exp": "«El ingenioso hidalgo don Quijote de la Mancha», de Miguel de Cervantes, se publicó en dos partes, en 1605 y 1615."
   },
   {
    "id": "q342",
@@ -33717,7 +34450,7 @@ window.SQ_CONTENT = {
     "El tulipán"
    ],
    "a": 1,
-   "exp": "La UNESCO lo reconoció en 2008 dentro de las fiestas indígenas dedicadas a los muertos."
+   "exp": "Los aztecas ya cultivaban la flor de cempasúchil, cuyo nombre se ha interpretado como «flor de 400 vidas» y que se asocia a esta celebración."
   },
   {
    "id": "q344",
@@ -36303,6 +37036,246 @@ window.SQ_CONTENT = {
    ],
    "a": 1,
    "exp": "Sus cambios más llamativos sirven para comunicarse con otros camaleones y para regular la temperatura."
+  },
+  {
+   "id": "q502",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-sangre-azul",
+   "q": "¿De qué color es la sangre de las venas?",
+   "o": [
+    "Roja oscura",
+    "Azul",
+    "Morada",
+    "Verde"
+   ],
+   "a": 0,
+   "exp": "Es siempre roja; más oscura cuando lleva menos oxígeno. Las venas se ven azuladas por cómo la piel absorbe y refleja la luz."
+  },
+  {
+   "id": "q503",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-chicle",
+   "q": "¿Qué pasa con un chicle tragado?",
+   "o": [
+    "Se expulsa en unos días",
+    "Se queda siete años en el estómago",
+    "Se disuelve en el ácido",
+    "Se pega al intestino para siempre"
+   ],
+   "a": 0,
+   "exp": "La goma base no se digiere, pero el aparato digestivo la mueve y la expulsa como hace con la fibra."
+  },
+  {
+   "id": "q504",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "r-un-foton",
+   "q": "¿Qué mostró un experimento de 2016 sobre la visión humana?",
+   "o": [
+    "Que podemos percibir un solo fotón",
+    "Que vemos luz ultravioleta",
+    "Que el ojo no tiene punto ciego",
+    "Que los conos ven en la oscuridad"
+   ],
+   "a": 0,
+   "exp": "Los participantes detectaron un solo fotón con una probabilidad mayor que el azar, usando una fuente de luz cuántica."
+  },
+  {
+   "id": "q505",
+   "cat": "cultura",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-bandera-biblia",
+   "q": "¿Qué tiene de único el escudo de la bandera dominicana?",
+   "o": [
+    "Una Biblia abierta",
+    "Un sol con rostro",
+    "Un volcán",
+    "Un ave fénix"
+   ],
+   "a": 0,
+   "exp": "Se considera la única bandera nacional con una Biblia, abierta en el Evangelio de Juan 8:32, junto al lema «Dios, Patria, Libertad»."
+  },
+  {
+   "id": "q506",
+   "cat": "geografia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-enriquillo",
+   "q": "¿Qué característica tiene el lago Enriquillo?",
+   "o": [
+    "Está por debajo del nivel del mar",
+    "Es de agua dulce",
+    "Está en un volcán",
+    "Se congela en invierno"
+   ],
+   "a": 0,
+   "exp": "Su superficie está unas decenas de metros bajo el nivel del mar; es el punto más bajo de las islas del Caribe y su agua es más salada que la del mar."
+  },
+  {
+   "id": "q507",
+   "cat": "lengua",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-sino-si-no",
+   "q": "¿Cuál está bien escrita?",
+   "o": [
+    "No quiero café, sino té",
+    "No quiero café, si no té",
+    "No quiero café sino, té",
+    "No quiero café, sí no té"
+   ],
+   "a": 0,
+   "exp": "Cuando se contrapone una afirmación a algo negado, «sino» va junto. «Si no» separado expresa una condición: «si no llueve, saldremos»."
+  },
+  {
+   "id": "q508",
+   "cat": "tecnologia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "r-audifono-transistor",
+   "q": "¿Cuál fue el primer producto de consumo con transistores en Estados Unidos?",
+   "o": [
+    "Un audífono",
+    "Una radio de bolsillo",
+    "Una calculadora",
+    "Un televisor"
+   ],
+   "a": 0,
+   "exp": "Fue un audífono de Sonotone, en 1952; la primera radio de transistores, la Regency TR-1, no llegó hasta 1954."
+  },
+  {
+   "id": "q509",
+   "cat": "ciencia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-miel",
+   "q": "¿Por qué la miel bien guardada casi no caduca?",
+   "o": [
+    "Porque tiene muy poca agua",
+    "Porque es radiactiva",
+    "Porque contiene alcohol",
+    "Porque está congelada"
+   ],
+   "a": 0,
+   "exp": "Con un contenido de agua bajo, en torno al 18 % o menos, los microbios no pueden crecer en ella."
+  },
+  {
+   "id": "q510",
+   "cat": "ciencia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-oxigeno-mar",
+   "q": "¿Qué parte del oxígeno de la Tierra producen los océanos, según los científicos?",
+   "o": [
+    "Alrededor de la mitad",
+    "Casi nada",
+    "Todo",
+    "Una décima parte"
+   ],
+   "a": 0,
+   "exp": "Se estima que el plancton marino produce alrededor de la mitad del oxígeno del planeta."
+  },
+  {
+   "id": "q511",
+   "cat": "historia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-muralla",
+   "q": "¿Se ve la Gran Muralla China a simple vista desde el espacio?",
+   "o": [
+    "No, es demasiado estrecha",
+    "Sí, desde la Luna",
+    "Sí, siempre",
+    "Solo de noche"
+   ],
+   "a": 0,
+   "exp": "Es muy larga pero estrecha y del color del terreno, así que no se distingue a simple vista desde la órbita."
+  },
+  {
+   "id": "q512",
+   "cat": "ciencia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-rayo-dos-veces",
+   "q": "¿Puede caer un rayo dos veces en el mismo lugar?",
+   "o": [
+    "Sí, y en lugares altos ocurre a menudo",
+    "Nunca",
+    "Solo en el mar",
+    "Solo una vez por siglo"
+   ],
+   "a": 0,
+   "exp": "Los edificios altos y los picos aislados reciben rayos una y otra vez."
+  },
+  {
+   "id": "q513",
+   "cat": "universo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "r-carrington",
+   "q": "¿Qué fue el evento Carrington de 1859?",
+   "o": [
+    "Una gran tormenta solar",
+    "Un terremoto",
+    "Un eclipse total",
+    "La caída de un meteorito"
+   ],
+   "a": 0,
+   "exp": "Fue la tormenta geomagnética más fuerte registrada: hubo auroras en latitudes tropicales y fallos en los telégrafos."
+  },
+  {
+   "id": "q514",
+   "cat": "universo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "r-nieve-tv",
+   "q": "¿Qué se colaba en parte de la «nieve» de los televisores antiguos?",
+   "o": [
+    "La radiación de fondo de microondas",
+    "La luz de la Luna",
+    "Señales de satélites",
+    "El campo magnético terrestre"
+   ],
+   "a": 0,
+   "exp": "Una pequeña parte de ese ruido era la radiación de fondo de microondas, el resplandor que quedó del universo primitivo."
+  },
+  {
+   "id": "q515",
+   "cat": "lengua",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-dle-24",
+   "q": "¿Qué tiene de novedoso la 24.ª edición del Diccionario de la RAE?",
+   "o": [
+    "El papel se hizo a partir de la edición digital",
+    "Es la primera con ilustraciones",
+    "Elimina la letra ñ",
+    "Solo existe en papel"
+   ],
+   "a": 0,
+   "exp": "Por primera vez, la versión impresa se confeccionó a partir de la digital, y no al revés."
+  },
+  {
+   "id": "q516",
+   "cat": "lengua",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-cervantes-2026",
+   "q": "¿Quién ganó el Premio Cervantes 2026?",
+   "o": [
+    "Cristina Fernández Cubas",
+    "Ana María Matute",
+    "Elena Poniatowska",
+    "Ida Vitale"
+   ],
+   "a": 0,
+   "exp": "Cristina Fernández Cubas es la séptima mujer en recibirlo; las otras tres opciones lo ganaron antes."
   }
  ],
  "series": [
