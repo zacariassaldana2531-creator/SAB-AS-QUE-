@@ -1,0 +1,84 @@
+@c-torre-eiffel
+cat: cultura
+type: curiosidad
+sub: Arquitectura
+level: 1
+claim: hecho
+title: La Torre Eiffel iba a desmontarse en 1909 y la salvó la radio
+desc: Construida para la Exposición Universal de 1889, fue muy criticada por artistas. Su utilidad para las comunicaciones evitó su desmantelamiento.
+b: La Torre Eiffel se construyó entre 1887 y 1889 como gran atracción de la Exposición Universal de París de 1889. La diseñaron los ingenieros Maurice Koechlin y Émile Nouguier, de la empresa de Gustave Eiffel, y el arquitecto Stephen Sauvestre le añadió los arcos decorativos. Con sus 330 metros actuales, antena incluida, fue la estructura más alta del mundo hasta 1930, cuando la superó el edificio Chrysler de Nueva York.
+b: Hoy es un símbolo de Francia, pero no siempre fue querida. En 1887, un grupo de artistas destacados protestó contra su construcción. Se cuenta que el escritor Guy de Maupassant almorzaba a menudo en el restaurante de la torre porque era el único lugar de París desde el que no se veía.
+d: La torre no estaba pensada para durar: debía desmontarse en 1909, cuando terminara la concesión original. La salvó su utilidad práctica: resultó muy valiosa como antena para la radiotelegrafía, y se decidió conservarla. Hoy es el monumento de pago más visitado del mundo, con casi seis millones de visitantes en 2022. Para protegerla del óxido, cada siete años se le aplican unas 60 toneladas de pintura. Y es una estructura viva: por la dilatación del metal, su cima puede desplazarse hasta 18 centímetros en dirección contraria al Sol cuando una de sus caras se calienta. Los parisinos la apodan «la dama de hierro».
+src: https://en.wikipedia.org/wiki/Eiffel_Tower | Wikipedia en inglés | Eiffel Tower
+q: ¿Qué salvó a la Torre Eiffel de ser desmontada en 1909? | Una votación popular ; Su utilidad para la radiotelegrafía ; Una orden de Napoleón III ; El turismo | 1 | Resultó muy útil como antena de radiotelegrafía y se decidió conservarla.
+
+@m-pizza-margarita
+cat: cultura
+type: mito
+verdict: matizado
+sub: Gastronomía
+level: 1
+claim: debate
+title: «La pizza Margarita se inventó en 1889 en honor a la reina Margarita»
+desc: Matizado. Es una historia muy bonita, pero hay pizzas parecidas documentadas décadas antes y la leyenda tiene puntos débiles.
+b: La historia es famosa: en 1889, el pizzero napolitano Raffaele Esposito preparó varias pizzas para la reina Margarita de Saboya, y la que más le gustó fue la que llevaba tomate, mozzarella y albahaca, con los colores de la bandera italiana: rojo, blanco y verde. En su honor, se llamó pizza Margarita.
+b: Las investigaciones posteriores ponen en duda el relato. No se han encontrado noticias de la época sobre esa visita real, y la historia y el nombre «Margarita» se empezaron a promocionar en las décadas de 1930 y 1940. También se ha cuestionado la autenticidad de la carta de agradecimiento de la casa real que se exhibe en la pizzería.
+d: Lo que sí está documentado es que en Nápoles ya se usaban coberturas muy parecidas mucho antes. Entre 1796 y 1810 se preparaban pizzas con ingredientes similares, y en 1849 el escritor Emanuele Rocco describió una con albahaca, tomate y finas lonchas de mozzarella. En 1866, Francesco De Bourcard también describió coberturas emparentadas. Así que, aunque la reina pudo probar y popularizar esa combinación, es muy poco probable que se inventara para ella. Hoy la pizza Margarita es una pizza napolitana redonda, con el borde elevado, cubierta de tomate, mozzarella de búfala o fior di latte, albahaca y aceite de oliva virgen extra, y horneada tradicionalmente en horno de leña.
+src: https://en.wikipedia.org/wiki/Pizza_Margherita | Wikipedia en inglés | Pizza Margherita
+q: ¿Qué se sabe de la leyenda de la pizza Margarita y la reina en 1889? | Está totalmente demostrada ; Es dudosa: ya existían pizzas parecidas antes ; La inventó la propia reina ; Se creó en Roma | 1 | No hay noticias de la época sobre la visita, y en Nápoles se documentan coberturas similares desde finales del siglo XVIII.
+
+@c-glosas-emilianenses
+cat: lengua
+type: curiosidad
+sub: Historia del español
+level: 2
+claim: hecho
+title: Algunas de las primeras palabras escritas en español son notas al margen de un libro en latín
+desc: Las Glosas Emilianenses, de los siglos X u XI, se escribieron en un monasterio de La Rioja. Un experto las llamó el «primer vagido» del idioma.
+b: En el monasterio de San Millán de la Cogolla, en La Rioja, España, un monje anotó hace unos mil años en los márgenes de un libro en latín pequeñas aclaraciones para entender mejor el texto. Esas notas, escritas en los siglos X u XI, se conocen como Glosas Emilianenses, y durante mucho tiempo se consideraron el primer texto escrito en español.
+b: Lo interesante es que el monje mezclaba idiomas: hay notas en un latín simplificado, en una lengua romance temprana, el antepasado del español, y también en vasco. Solo dos de las alrededor de mil glosas, con seis palabras en total, están en euskera.
+d: La glosa más larga es una oración en la página 72, a la que el filólogo Dámaso Alonso llamó «el primer vagido de la lengua española», es decir, su primer llanto de recién nacido. En 2010, la Real Academia Española señaló como textos aún más antiguos los Cartularios de Valpuesta, del siglo IX. Aun así, las Glosas Emilianenses siguen ocupando un lugar especial, porque su gramática romance se distingue claramente del latín. El códice original, llamado Aemilianensis 60, fue confiscado en el siglo XIX y hoy se guarda en la Real Academia de la Historia, en Madrid; La Rioja ha pedido varias veces su devolución.
+src: https://en.wikipedia.org/wiki/Glosas_Emilianenses | Wikipedia en inglés | Glosas Emilianenses
+q: ¿Dónde se escribieron las Glosas Emilianenses? | En la Universidad de Salamanca ; En el monasterio de San Millán de la Cogolla, La Rioja ; En Toledo ; En Sevilla | 1 | Son notas en los márgenes de un códice latino del monasterio de San Millán de la Cogolla.
+
+@c-voseo
+cat: lengua
+type: curiosidad
+sub: Variedades del español
+level: 1
+claim: hecho
+title: Millones de hispanohablantes dicen «vos sos» en lugar de «tú eres», y es correcto
+desc: El voseo es la forma normal de tratar a alguien de confianza en Argentina, Uruguay, Paraguay y buena parte de Centroamérica.
+b: En muchos países de América, para hablar con alguien de confianza no se usa «tú», sino «vos»: «vos sos», «vos querés», «vos podés». Este fenómeno se llama voseo, y en la mayoría de las regiones donde se usa sustituye por completo al tuteo. Es lo normal en el español del Río de la Plata, en Argentina y Uruguay, en Paraguay, en el oriente de Bolivia y en buena parte de Centroamérica.
+b: No es un error ni una deformación. La Real Academia Española lo recoge en su Diccionario panhispánico de dudas, y sus tablas de conjugación del voseo se basan en el uso del Río de la Plata.
+d: Su origen está en la historia del idioma. En latín solo existían «tu» y «vos», y «vos» se usaba como plural y también como forma de respeto. Con el tiempo, en España «vos» perdió prestigio y terminó desapareciendo, mientras surgía «usted», que viene de «vuestra merced». En cambio, en buena parte de América, «vos» se mantuvo como forma de confianza. Hay variantes curiosas: en Chile, el pronombre «vos» se reserva para situaciones muy íntimas, pero es muy común el voseo en el verbo con el pronombre «tú», como en «tú sabís» o «tú venís». En República Dominicana y en el resto del Caribe, en cambio, lo habitual es el tuteo.
+src: https://en.wikipedia.org/wiki/Voseo | Wikipedia en inglés | Voseo
+q: ¿Qué es el voseo? | Hablar muy rápido ; Usar «vos» en lugar de «tú» para el trato de confianza ; Pronunciar la «c» como «s» ; Usar «vosotros» en América | 1 | Es el uso de «vos» como pronombre de confianza, normal en Argentina, Uruguay, Paraguay y Centroamérica.
+
+@c-espanol-segunda-lengua
+cat: lengua
+type: curiosidad
+sub: El español en el mundo
+level: 1
+claim: hecho
+title: El español es la segunda lengua materna más hablada del mundo
+desc: Lo tienen como lengua materna unos 519 millones de personas, solo por detrás del chino mandarín. México es el país con más hablantes.
+b: El español, también llamado castellano, es la segunda lengua materna más hablada del planeta, solo superada por el chino mandarín. Según cifras de 2025, unos 519 millones de personas lo tienen como lengua materna, y si se cuentan quienes lo hablan como segunda lengua o lo aprenden, la cifra total ronda los 636 millones.
+b: Es oficial en 21 países y en un territorio dependiente, y es una de las seis lenguas oficiales de las Naciones Unidas. El país con más hablantes nativos no es España, sino México, con unos 130 millones.
+d: El español nació a partir del latín vulgar en el reino de Castilla, en el centro-norte de la península ibérica. Las primeras huellas escritas aparecen en textos del siglo IX del norte de la península, y Toledo fue el centro de su primer uso escrito sistemático, en el siglo XIII. En 1492, Antonio de Nebrija publicó su gramática, una de las primeras de una lengua europea moderna. A partir de entonces, la colonización lo llevó a América, a Filipinas y a Guinea Ecuatorial. Sobre su nombre hay un debate frecuente, pero la Real Academia Española considera que «español» y «castellano» son sinónimos igualmente válidos.
+src: https://en.wikipedia.org/wiki/Spanish_language | Wikipedia en inglés | Spanish language
+q: ¿Qué país tiene más hablantes nativos de español? | España ; Colombia ; México ; Argentina | 2 | México tiene unos 130 millones de hablantes nativos, más que ningún otro país.
+
+@c-primer-bebe-probeta
+cat: medicina
+type: curiosidad
+sub: Reproducción
+level: 1
+claim: hecho
+title: El primer bebé concebido por fecundación in vitro nació en 1978
+desc: Louise Brown nació en Inglaterra el 25 de julio de 1978. Uno de los científicos responsables recibió el Nobel en 2010.
+b: El 25 de julio de 1978, en el hospital general de Oldham, en Inglaterra, nació Louise Joy Brown, la primera persona concebida mediante fecundación in vitro: la unión del óvulo y el espermatozoide se produjo en un laboratorio y el embrión se implantó después en el útero de su madre, Lesley.
+b: El procedimiento lo desarrollaron el ginecólogo Patrick Steptoe, el fisiólogo Robert Edwards y la embrióloga Jean Purdy, tras años de investigación. En 2010, Robert Edwards recibió el premio Nobel de Medicina por este trabajo.
+d: El nacimiento causó una enorme polémica. Más tarde se supo que a los Brown no se les dijo que ningún intento de fecundación in vitro había logrado todavía un bebé, lo que plantea dudas sobre su consentimiento informado. El cardenal Albino Luciani, que poco después sería el papa Juan Pablo I, expresó su preocupación por las «fábricas de bebés», aunque no condenó a la familia. En 1982, la hermana de Louise, Natalie, nació también por fecundación in vitro, y en 1999 se convirtió en la primera persona concebida así que tuvo un hijo, de forma natural. Louise se casó en 2004 y su primer hijo, nacido en 2006, fue concebido de forma natural. Hoy la fecundación in vitro es una técnica habitual en todo el mundo.
+src: https://en.wikipedia.org/wiki/Louise_Brown | Wikipedia en inglés | Louise Brown
+q: ¿En qué año nació Louise Brown, la primera persona concebida por fecundación in vitro? | 1958 ; 1978 ; 1995 ; 2001 | 1 | Nació el 25 de julio de 1978 en Oldham, Inglaterra.

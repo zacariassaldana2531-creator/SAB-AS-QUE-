@@ -1,0 +1,27 @@
+@c-primer-marcapasos
+cat: medicina
+type: curiosidad
+sub: Cardiología
+level: 2
+claim: hecho
+title: El primer paciente con marcapasos implantado vivió más que su inventor y su cirujano
+desc: Arne Larsson recibió el primero en Suecia en 1958, que falló a las tres horas. A lo largo de su vida llevó 26 marcapasos distintos.
+b: El 8 de octubre de 1958, en el Instituto Karolinska de Solna, en Suecia, el cirujano Åke Senning implantó por primera vez un marcapasos completo dentro del cuerpo de un paciente. El aparato lo había diseñado el ingeniero Rune Elmqvist, y el paciente era Arne Larsson, un hombre cuyo corazón latía de forma peligrosamente lenta.
+b: Aquel primer marcapasos falló a las tres horas, y el segundo duró dos días. Pero Larsson siguió adelante con nuevos dispositivos: a lo largo de su vida recibió 26 marcapasos diferentes. Murió en 2001, a los 86 años, después de haber sobrevivido tanto al inventor como al cirujano que le implantó el primero.
+d: Antes de los marcapasos implantables hubo aparatos externos: el ingeniero canadiense John Hopps diseñó uno en 1950, y el médico Paul Zoll fabricó dispositivos más pequeños a partir de 1952. Un marcapasos funciona enviando pequeños impulsos eléctricos que hacen latir el corazón a un ritmo adecuado. En 1960 empezaron a usarse en personas los marcapasos implantables creados por Wilson Greatbatch, con baterías de mercurio. El gran salto llegó con las pilas de litio y yodo, introducidas en 1974, que alargaron la vida de los marcapasos de alrededor de un año a hasta once. Hoy las baterías suelen durar de 5 a 10 años, y existen marcapasos sin cables, del tamaño de una cápsula, que se colocan dentro del corazón a través de una vena de la ingle.
+src: https://en.wikipedia.org/wiki/Artificial_cardiac_pacemaker | Wikipedia en inglés | Artificial cardiac pacemaker
+q: ¿Dónde se implantó el primer marcapasos dentro del cuerpo de un paciente, en 1958? | En Estados Unidos ; En Suecia ; En Japón ; En Francia | 1 | Se implantó en el Instituto Karolinska, en Suecia, a Arne Larsson, que después recibió 26 marcapasos.
+
+@c-john-snow-colera
+cat: medicina
+type: curiosidad
+sub: Epidemiología
+level: 1
+claim: hecho
+title: Un mapa de puntos descubrió que el cólera se transmitía por el agua
+desc: En 1854, el médico John Snow situó los casos de cólera de un barrio de Londres en un mapa y señaló una fuente de agua.
+b: En 1854, un brote de cólera devastó el barrio de Soho, en Londres, y mató a cientos de personas en pocos días. En aquella época, la explicación dominante era la teoría del «miasma»: se creía que enfermedades como el cólera se transmitían por el aire contaminado, el mal olor de la suciedad.
+b: El médico John Snow no estaba de acuerdo: pensaba que la enfermedad se transmitía por el agua. Para demostrarlo, marcó en un mapa del barrio cada caso con un punto. Los puntos se concentraban alrededor de una fuente pública: la bomba de agua de Broad Street. Las autoridades de la parroquia retiraron la manivela de la bomba para que nadie pudiera usarla.
+d: Snow reunió más pruebas. Comparó a los clientes de dos compañías de agua y comprobó que la mortalidad por cólera era mucho mayor entre quienes recibían agua contaminada del río Támesis. Hubo además un detalle revelador: los trabajadores de una cervecería cercana apenas enfermaron, aparentemente porque bebían cerveza en lugar del agua de la bomba. Más tarde se relacionó el brote con la contaminación por aguas residuales de pozos negros que filtraban cerca de la fuente. Hay que matizar que el brote quizá ya estaba remitiendo cuando se retiró la manivela. Aun así, el trabajo de Snow se considera el acontecimiento fundacional de la epidemiología, la ciencia que estudia cómo se propagan las enfermedades. En Londres hay hoy una réplica de la bomba, instalada en 1992.
+src: https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak | Wikipedia en inglés | 1854 Broad Street cholera outbreak
+q: ¿Qué demostró John Snow con su famoso mapa de 1854? | Que el cólera se transmitía por el aire ; Que el cólera se transmitía por el agua contaminada ; Que lo transmitían las ratas ; Que era hereditario | 1 | Los casos se concentraban alrededor de la bomba de agua de Broad Street, lo que apoyaba la transmisión por agua.

@@ -1,0 +1,97 @@
+@c-creeper
+cat: tecnologia
+type: curiosidad
+sub: Historia de la informática
+level: 2
+claim: hecho
+title: El primer «gusano» informático solo decía: «Atrápame si puedes»
+desc: Creeper se escribió en 1971 y saltaba entre computadoras de ARPANET. Para eliminarlo se creó el primer antivirus.
+b: En 1971, el programador Bob Thomas, de la empresa BBN, escribió un programa experimental llamado Creeper. Su única gracia era moverse por sí mismo entre las grandes computadoras PDP-10 conectadas a ARPANET, la red precursora de internet. Cuando llegaba a una máquina, mostraba un mensaje: «I'M THE CREEPER: CATCH ME IF YOU CAN», es decir, «Soy la enredadera: atrápame si puedes».
+b: Creeper no era malicioso: no borraba archivos ni robaba nada. Pero poco después, Ray Tomlinson, el mismo ingeniero que había creado el correo electrónico con la @, lo modificó para que pudiera copiarse a sí mismo en otras computadoras. Esa versión se considera, en general, el primer gusano informático.
+d: Si hay un problema, hay una solución: en 1972, Tomlinson creó Reaper, «la segadora», un programa que recorría ARPANET buscando a Creeper para borrarlo. Por eso se le considera el primer software antivirus de la historia. Aquella pequeña persecución entre programas inspiró después un juego de programación llamado Core War, en el que los participantes escriben programas que luchan entre sí dentro de la memoria de una computadora. En un gusano, el programa se propaga solo por la red; en un virus, en sentido estricto, el código se esconde dentro de otros programas o archivos. En el lenguaje cotidiano se suele llamar «virus» a cualquier programa malicioso, pero la historia de Creeper recuerda que los primeros fueron más bien experimentos y bromas.
+src: https://en.wikipedia.org/wiki/Creeper_and_Reaper | Wikipedia en inglés | Creeper and Reaper
+q: ¿Qué hacía Reaper, creado en 1972? | Robaba contraseñas ; Buscaba y borraba el programa Creeper ; Enviaba correos basura ; Mostraba anuncios | 1 | Ray Tomlinson lo creó para eliminar Creeper, y se considera el primer antivirus.
+
+@c-tetris
+cat: tecnologia
+type: curiosidad
+sub: Videojuegos
+level: 1
+claim: hecho
+title: Tetris nació en un centro de investigación soviético
+desc: Lo creó Alexey Pajitnov en Moscú a mediados de los ochenta, pero durante años no pudo ganar dinero con él.
+b: Tetris, el juego de las piezas que caen, lo creó a mediados de los años ochenta Alexey Pajitnov, un ingeniero informático que trabajaba en el Centro de Computación Dorodnitsyn de la Academia de Ciencias de la Unión Soviética, en Moscú. El nombre combina «tetra», por las cuatro piezas cuadradas de cada ficha, y «tenis», el deporte favorito de Pajitnov.
+b: El juego se extendió rápidamente, pero en la Unión Soviética los programas pertenecían al Estado, así que Pajitnov no podía venderlo por su cuenta. Lo que siguió fue una de las batallas de derechos más enrevesadas de la industria, que en 2023 inspiró la película «Tetris».
+d: Las primeras versiones occidentales salieron en 1988. Después, el empresario Henk Rogers consiguió para Nintendo los derechos de consolas y portátiles, y la versión de Game Boy, de 1989, se convirtió en la más vendida del juego, con unos 35 millones de copias. Los derechos del centro de investigación volvieron a Pajitnov a finales de 1995, y en 1996 se fundó The Tetris Company para gestionar las licencias. Según esa empresa, Tetris había vendido 520 millones de copias a finales de 2024, aunque algunas fuentes discuten que sea el videojuego más vendido de la historia. Su comunidad competitiva sigue activa: en enero de 2024, un adolescente estadounidense, Willis Gibson, «ganó» por primera vez la versión de NES al jugar hasta que el juego se bloqueó.
+src: https://en.wikipedia.org/wiki/Tetris | Wikipedia en inglés | Tetris
+q: ¿Dónde se creó Tetris? | En Japón, en Nintendo ; En la Unión Soviética, en un centro de investigación de Moscú ; En Estados Unidos, en Atari ; En Finlandia | 1 | Alexey Pajitnov lo creó a mediados de los ochenta en el Centro de Computación Dorodnitsyn de Moscú.
+
+@c-ley-moore
+cat: tecnologia
+type: curiosidad
+sub: Electrónica
+level: 2
+claim: hecho
+title: La «ley de Moore» no es una ley, sino una predicción de 1965
+desc: Gordon Moore observó que los componentes de los chips se duplicaban cada año; en 1975 lo corrigió a cada dos.
+b: En 1965, Gordon Moore, cofundador de Fairchild Semiconductor y más tarde de Intel, publicó una observación que marcaría a toda la industria: el número de componentes que cabían en un circuito integrado se duplicaba aproximadamente cada año. En 1975 ajustó su pronóstico: la duplicación ocurriría cada dos años, sin un gran aumento del coste.
+b: Poco después, el profesor Carver Mead, del Instituto Tecnológico de California, popularizó el nombre «ley de Moore». Pero no es una ley científica, como la de la gravedad, sino una relación empírica: una tendencia observada que la industria convirtió en objetivo durante décadas.
+d: Una confusión frecuente es la de los «18 meses». Esa cifra no la dio Moore, sino un directivo de Intel, David House, que calculó que el rendimiento de los chips se duplicaría cada 18 meses. En los últimos años, el ritmo se ha frenado: los diseñadores de microprocesadores señalan que el avance se ha ralentizado desde aproximadamente 2010, y el coste de las herramientas para fabricar chips, como las de litografía ultravioleta extrema, se dispara. La industria no se pone de acuerdo sobre su futuro: en 2022, el director de Nvidia, Jensen Huang, declaró muerta la ley de Moore, mientras que el entonces director de Intel, Pat Gelsinger, sostuvo lo contrario.
+src: https://en.wikipedia.org/wiki/Moore%27s_law | Wikipedia en inglés | Moore's law
+q: ¿Qué predice la ley de Moore, en su versión de 1975? | Que la velocidad de internet se duplica cada año ; Que los transistores de un chip se duplican cada dos años ; Que los precios de las computadoras bajan a la mitad cada mes ; Que la memoria de los teléfonos se triplica cada año | 1 | Gordon Moore corrigió en 1975 su predicción inicial: la duplicación ocurriría cada dos años.
+
+@c-costa-canada
+cat: geografia
+type: curiosidad
+sub: Costas
+level: 2
+claim: hecho
+title: Canadá tiene la costa más larga del mundo, pero nadie sabe exactamente cuánto mide
+desc: Según cómo se mida, son 202.080 o 265.523 kilómetros. Es la «paradoja de la costa».
+b: Canadá es el país con la costa más larga del mundo, gracias a sus miles de islas y a sus costas recortadas en el Atlántico, el Pacífico y el Ártico. Pero la cifra exacta depende de a quién preguntes: según el libro de datos de la CIA mide 202.080 kilómetros, y según el Instituto de Recursos Mundiales, 265.523.
+b: La diferencia no es un error. Se debe a un fenómeno conocido como la paradoja de la costa: una costa no tiene una longitud bien definida. El resultado depende de la escala con la que se mida, es decir, de la distancia entre los puntos que se usan para medirla.
+d: Imagina medir una costa con una regla de 100 kilómetros: te saltarás todas las bahías pequeñas y entrantes. Con una regla de 1 kilómetro recogerás muchos más detalles, y el total aumentará. Con una de 1 metro, aún más, porque entrarán cada roca y cada recoveco. Cuanto más pequeña es la unidad de medida, más larga resulta la costa, y el efecto es mucho mayor en costas muy recortadas, como las de los fiordos. Los matemáticos describen este comportamiento como fractal: una forma que muestra detalles nuevos a cualquier escala. Por eso, al comparar longitudes de costa entre países, solo tiene sentido hacerlo si se usan los mismos criterios de medición.
+src: https://en.wikipedia.org/wiki/List_of_countries_by_length_of_coastline | Wikipedia en inglés | List of countries by length of coastline
+q: ¿Qué país tiene la costa más larga del mundo? | Australia ; Noruega ; Canadá ; Indonesia | 2 | Canadá encabeza la lista tanto en los datos de la CIA como en los del Instituto de Recursos Mundiales.
+
+@c-salar-uyuni
+cat: geografia
+type: curiosidad
+sub: Paisajes
+level: 1
+claim: hecho
+title: El Salar de Uyuni se convierte en el espejo más grande del mundo
+desc: Este desierto de sal de Bolivia es tan plano que se usa para calibrar satélites, y guarda una gran reserva de litio.
+b: El Salar de Uyuni, en el departamento de Potosí, en Bolivia, es el mayor salar del mundo: ocupa unos 10.582 kilómetros cuadrados, a unos 3.650 metros de altitud, cerca de la cumbre de los Andes. Se formó cuando varios lagos prehistóricos se evaporaron y dejaron una gruesa costra de sal.
+b: Su superficie es asombrosamente plana: su altura media varía menos de un metro en toda su extensión. En la temporada de lluvias, una fina capa de agua quieta cubre la sal y la convierte en un espejo gigante, de unos 129 kilómetros de ancho, que refleja el cielo y las nubes.
+d: Esa planitud lo hace útil para la ciencia: se usa para calibrar los altímetros y sensores de los satélites que observan la Tierra. También tiene un enorme valor económico. Se calcula que contiene unos 10.000 millones de toneladas de sal, de las que se extraen menos de 25.000 al año. Y bajo su superficie hay salmuera rica en litio, el metal de las baterías de los teléfonos y los coches eléctricos: Bolivia tiene alrededor del 22 % de los recursos de litio conocidos del mundo, la mayor parte en este salar. Junto a él se construyeron hoteles con bloques de sal; el primero, el Palacio de Sal, fue desmontado en 2002 por problemas sanitarios y de contaminación, y se levantó otro en el borde este del salar.
+src: https://en.wikipedia.org/wiki/Salar_de_Uyuni | Wikipedia en inglés | Salar de Uyuni
+q: ¿En qué país está el Salar de Uyuni, el mayor salar del mundo? | Chile ; Perú ; Bolivia ; Argentina | 2 | Está en el departamento de Potosí, en Bolivia, y ocupa unos 10.582 km².
+
+@c-mauna-kea
+cat: geografia
+type: curiosidad
+sub: Montañas
+level: 2
+claim: debate
+title: Medido desde su base, el Mauna Kea podría ser más alto que el Everest
+desc: Este volcán de Hawái mide 4.207 metros sobre el mar, pero casi todo su cuerpo está bajo el agua.
+b: El Mauna Kea, un volcán dormido de la isla de Hawái, se eleva 4.207 metros sobre el nivel del mar: mucho menos que los 8.849 del Everest. Pero esa cifra solo cuenta la parte visible. El volcán nace en el fondo del océano Pacífico, y la mayor parte de su cuerpo está bajo el agua.
+b: Por eso algunos especialistas lo consideran la montaña más alta del mundo medida desde la base hasta la cima. La dificultad está en decidir dónde empieza exactamente su base, y según el criterio, las estimaciones de su altura total van desde unos 9.966 hasta 17.205 metros.
+d: Hay otra forma de comparar montañas: la prominencia, es decir, cuánto se eleva una cima sobre el terreno que la rodea. Medida de esa manera, el Mauna Kea ocupa el segundo lugar del mundo, solo por detrás del Everest. Su nombre significa aproximadamente «montaña blanca», por la nieve que la cubre en algunas épocas del año. Su última erupción ocurrió hace entre 4.000 y 6.000 años, y se espera que algún día vuelva a entrar en actividad. Su cima, con un cielo muy limpio y seco, alberga 13 observatorios astronómicos de hasta 11 países. Para la religión hawaiana es un lugar sagrado, y la construcción de nuevos telescopios, como el Telescopio de Treinta Metros, ha generado una fuerte polémica.
+src: https://en.wikipedia.org/wiki/Mauna_Kea | Wikipedia en inglés | Mauna Kea
+q: ¿Por qué se dice que el Mauna Kea podría ser más alto que el Everest? | Porque crece cada año ; Porque, medido desde su base en el fondo del océano, su altura total es mayor ; Porque está más cerca del Sol ; Porque su cima tiene hielo | 1 | Solo 4.207 m están sobre el mar; la mayor parte del volcán está bajo el Pacífico.
+
+@c-cosquillas
+cat: cuerpo
+type: curiosidad
+sub: Cerebro
+level: 1
+claim: hecho
+title: No puedes hacerte cosquillas a ti mismo, y tu cerebro tiene la culpa
+desc: El cerebro predice las sensaciones que producen tus propios movimientos y las atenúa. Sin sorpresa, no hay cosquillas.
+b: Intenta hacerte cosquillas en la planta del pie y comprobarás que no funciona. La explicación está en el cerebro. En 1998, la neurocientífica Sarah-Jayne Blakemore y sus colegas usaron resonancia magnética y un «robot de cosquillas» controlado con una palanca para estudiarlo: el cerebro predice la sensación que producirán tus propios movimientos y la atenúa.
+b: Cuando otra persona te hace cosquillas, no puedes anticipar con exactitud cuándo ni dónde te tocará, y el cerebro procesa la sensación con toda su intensidad. La sorpresa parece ser esencial, y al hacértelas tú mismo desaparece.
+d: Los científicos distinguen dos tipos de cosquillas. Una es la sensación de un roce muy suave que se mueve por la piel, parecida a un picor: no suele provocar risa, y sí podemos provocárnosla nosotros mismos. La otra, con una presión más firme, sí provoca risa, y podría darse solo en humanos y otros primates, aunque algunas investigaciones sugieren que también en ratas. Curiosamente, las plantas de los pies están entre las zonas con más cosquillas, aunque la palma de la mano es más sensible al tacto. Y hay excepciones a la regla: algunas personas con esquizofrenia, o con ciertos rasgos relacionados, sí pueden hacerse cosquillas, quizá porque su cerebro distingue peor entre lo que hacen ellas mismas y lo que viene de fuera.
+src: https://en.wikipedia.org/wiki/Tickling | Wikipedia en inglés | Tickling
+q: ¿Por qué no puedes hacerte cosquillas a ti mismo? | Porque la piel se acostumbra ; Porque el cerebro predice la sensación y la atenúa ; Porque los dedos no tienen nervios ; Es un mito: sí se puede | 1 | Sin la sorpresa, el cerebro anticipa el roce y reduce su intensidad.

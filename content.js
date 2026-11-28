@@ -1,4 +1,4 @@
-/* Lumbrario — Base de contenido v6 (399 contenidos, 452 preguntas).
+/* Lumbrario — Base de contenido v6 (444 contenidos, 497 preguntas).
  * Cada contenido tiene fuentes verificadas automáticamente contra el texto de la fuente.
  * Tipos: "articulo" | "curiosidad" | "mito". Estado: "publicado" | "borrador". Nivel: 1-3.
  * Este archivo lo puede regenerar el panel admin (admin.html → Publicar → Descargar content.js).
@@ -26489,6 +26489,1676 @@ window.SQ_CONTENT = {
      "note": "Publicación, con datos verificados contra las fuentes"
     }
    ]
+  },
+  {
+   "id": "c-efecto-mpemba",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "ciencia",
+   "sub": "Física",
+   "title": "¿El agua caliente se congela antes que la fría? Los físicos todavía discuten",
+   "desc": "Lo notó en 1963 un estudiante tanzano con mezcla de helado. Hoy es el «efecto Mpemba», y sigue siendo polémico.",
+   "body": "En 1963, Erasto Mpemba, un estudiante de Tanzania, observó algo que parecía absurdo: una mezcla de helado caliente se congelaba antes que una fría puesta en las mismas condiciones. Años después, el físico Denis Osborne repitió la prueba, confirmó la observación y ambos publicaron sus resultados en 1969. Desde entonces, el fenómeno lleva su nombre: el efecto Mpemba.\n\nLa idea no era nueva. Aristóteles, Francis Bacon y René Descartes ya habían descrito ideas parecidas, y en 1775 el químico Joseph Black comparó agua hervida y sin hervir. Pero que algo se haya dicho durante siglos no significa que sea cierto, y aquí empieza el problema.",
+   "deep": "El efecto Mpemba sigue en debate. Varios experimentos con agua no lograron reproducirlo de forma fiable, y una revisión de 2016, de Burridge y Linden, concluyó que no había pruebas de observaciones significativas del efecto en el agua. Parte del problema es que los físicos ni siquiera se ponen de acuerdo en cómo definirlo: depende del recipiente, del congelador y de qué se considere «congelado». Se han propuesto muchas explicaciones posibles, como el sobreenfriamiento, los gases disueltos, las microburbujas o las corrientes dentro del líquido, pero ninguna está aceptada. Curiosamente, en otros sistemas sí se ha demostrado algo parecido: en 2020 se observó en un sistema coloidal una versión «fuerte» del efecto, y se estudia también en aleaciones magnéticas y sistemas cuánticos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Mpemba effect",
+     "org": "Wikipedia en inglés",
+     "title": "Mpemba effect",
+     "u": "https://en.wikipedia.org/wiki/Mpemba_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "debate",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-petricor",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "ciencia",
+   "sub": "Química",
+   "title": "El olor de la lluvia tiene nombre: petricor",
+   "desc": "Lo bautizaron dos científicos australianos en 1964. En parte lo producen bacterias del suelo.",
+   "body": "Ese olor tan característico que aparece cuando la lluvia cae sobre la tierra seca tiene nombre: petricor. Lo propusieron en 1964 los investigadores australianos Isabel Joy Bear y Richard Thomas en un artículo de la revista Nature. La palabra une el griego «petra», piedra, e «ícor», el fluido dorado que, según la mitología griega, corría por las venas de los dioses.\n\nParte del olor viene de aceites producidos por plantas, que se acumulan en el suelo y las rocas durante los periodos secos y se liberan cuando llega la lluvia. Un estudio de 2015 descubrió cómo llega hasta nuestra nariz: las gotas que golpean superficies porosas atrapan pequeñas burbujas de aire que, al estallar, lanzan al aire diminutos aerosoles cargados de aroma.",
+   "deep": "Otra parte del olor tiene un origen inesperado: las bacterias. Investigaciones recientes lo relacionan con la geosmina y otro compuesto, producidos por bacterias del suelo del género Streptomyces. Estos compuestos atraen a unos pequeños artrópodos llamados colémbolos, que podrían ayudar a dispersar las esporas de las bacterias. Nuestra nariz es muy sensible a la geosmina: podemos detectarla en concentraciones de alrededor de 0,4 partes por mil millones. Mucho antes de que tuviera nombre, el químico Thomas Phipson ya había descrito este aroma en 1891. Hoy existe incluso un perfume, el mitti attar, que intenta recrear el olor de la tierra mojada.",
+   "sources": [
+    {
+     "t": "Wikipedia — Petrichor",
+     "org": "Wikipedia en inglés",
+     "title": "Petrichor",
+     "u": "https://en.wikipedia.org/wiki/Petrichor",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-teflon",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "ciencia",
+   "sub": "Química",
+   "title": "El teflón se descubrió por accidente, buscando un gas para neveras",
+   "desc": "En 1938, Roy Plunkett abrió un cilindro que había dejado de soltar gas y lo encontró cubierto de un polvo blanco resbaladizo.",
+   "body": "En 1938, el químico Roy Plunkett trabajaba en la empresa DuPont buscando un nuevo gas refrigerante. Un día, un cilindro dejó de soltar gas aunque, por su peso, debía seguir lleno. Al abrirlo, descubrió que el interior estaba cubierto de un material blanco y muy resbaladizo: el gas se había transformado en un polímero, el politetrafluoroetileno, conocido por sus siglas, PTFE.\n\nEl nuevo material resultó tener propiedades extraordinarias: casi nada se le pega, el agua resbala sobre él y tiene uno de los coeficientes de fricción más bajos de cualquier sólido. Se patentó en 1941, y la marca Teflon se registró en 1945.",
+   "deep": "Su primer gran uso no fue en la cocina, sino en el Proyecto Manhattan, el programa que desarrolló la bomba atómica: el PTFE recubría válvulas y juntas que debían resistir compuestos de uranio muy corrosivos. Las sartenes antiadherentes llegaron después. En 1954, el francés Marc Grégoire lanzó la marca Tefal, y la primera sartén con PTFE de Estados Unidos apareció en 1961. Hoy su mayor uso es el aislamiento de cables, que consume alrededor de la mitad de la producción. El material tiene una cara problemática: empieza a descomponerse a unos 260 °C, y su fabricación usó durante décadas el PFOA, un compuesto perjudicial para la salud y el medio ambiente que dejó de emplearse tras varias demandas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Polytetrafluoroethylene",
+     "org": "Wikipedia en inglés",
+     "title": "Polytetrafluoroethylene",
+     "u": "https://en.wikipedia.org/wiki/Polytetrafluoroethylene",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "m-biblioteca-alejandria",
+   "type": "mito",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "historia",
+   "sub": "Antigüedad",
+   "verdict": "falso",
+   "title": "«La Biblioteca de Alejandría desapareció en un gran incendio»",
+   "desc": "Falso. Su declive fue lento y duró siglos; no hubo una única catástrofe.",
+   "body": "La imagen es poderosa: una noche, las llamas devoran la mayor biblioteca de la Antigüedad y con ella desaparece todo el saber del mundo antiguo. La realidad es menos dramática, pero más interesante: la Biblioteca de Alejandría, en Egipto, decayó de forma gradual a lo largo de varios siglos.\n\nProbablemente se construyó bajo Ptolomeo II, en el siglo III antes de Cristo, como parte de un centro de investigación llamado Museo. Los Ptolomeos compraban textos sin descanso, e incluso se copiaban los libros de los barcos que llegaban al puerto. Allí trabajaron sabios como Eratóstenes, que calculó el tamaño de la Tierra.",
+   "deep": "Su declive tuvo muchos episodios. En el 145 antes de Cristo, Ptolomeo VIII expulsó a los sabios extranjeros. En el 48 antes de Cristo, un incendio provocado durante la guerra de Julio César dañó parte de la ciudad, aunque no se sabe cuánto afectó a la biblioteca. Hacia el año 260 dejan de mencionarse miembros del Museo, y en el 272 los combates en Alejandría probablemente dañaron lo que quedaba. En el 391 fue destruido el Serapeo, que albergaba una biblioteca menor. La historia de que el califa Omar mandó quemar los libros en el siglo VII aparece en fuentes escritas siglos después, y los historiadores la consideran poco fiable. El número de rollos que llegó a tener es incierto: las estimaciones van de 40.000 a cientos de miles.",
+   "sources": [
+    {
+     "t": "Wikipedia — Library of Alexandria",
+     "org": "Wikipedia en inglés",
+     "title": "Library of Alexandria",
+     "u": "https://en.wikipedia.org/wiki/Library_of_Alexandria",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-gran-piramide",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "historia",
+   "sub": "Antigüedad",
+   "title": "La Gran Pirámide fue la construcción más alta del mundo durante más de 3.700 años",
+   "desc": "Solo la superó, en el siglo XIII, la antigua catedral de San Pablo de Londres.",
+   "body": "La Gran Pirámide de Guiza, construida para el faraón Keops hacia el año 2600 antes de Cristo, es la mayor de las pirámides de Egipto y la única de las siete maravillas del mundo antiguo que sigue en gran parte en pie. Durante más de 3.700 años fue la estructura más alta construida por el ser humano, hasta que en 1221 la superó la antigua catedral de San Pablo, en Inglaterra.\n\nLas cifras son enormes: se calcula que tiene unos 2,3 millones de bloques de piedra, con un peso total de unos 6 millones de toneladas. Y su precisión asombra: sus lados están orientados hacia los puntos cardinales con una desviación media de apenas unos 3,6 minutos de arco.",
+   "deep": "Los griegos creían que la habían levantado esclavos, pero las pruebas modernas, como los campamentos de trabajadores hallados cerca, apuntan a obreros reclutados por el Estado. El historiador griego Heródoto dijo que la obra duró 20 años; las estimaciones actuales hablan de unos 26. En 2013 se descubrieron en Wadi al-Jarf, junto al mar Rojo, unos rollos de papiro con el diario de Merer, un funcionario que anotó cómo transportaba en barco bloques de piedra caliza de Tura para la pirámide. Es un testimonio directo, escrito por alguien que participó en la obra.",
+   "sources": [
+    {
+     "t": "Wikipedia — Great Pyramid of Giza",
+     "org": "Wikipedia en inglés",
+     "title": "Great Pyramid of Giza",
+     "u": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-peste-negra",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "historia",
+   "sub": "Edad Media",
+   "title": "La peste negra mató a entre un cuarto y más de la mitad de los europeos",
+   "desc": "Entre 1346 y 1353 recorrió Eurasia y el norte de África. Ni siquiera se llamaba así entonces.",
+   "body": "Entre 1346 y 1353, una pandemia de peste recorrió Eurasia y el norte de África. Es una de las más mortíferas de la historia: las estimaciones del total de muertes van de unos 25 a 200 millones, según la fuente y la región. En Europa murió entre un 25 % y un 60 % de la población, y algunas ciudades perdieron buena parte de sus habitantes en pocos meses.\n\nLa causa fue la bacteria Yersinia pestis, algo confirmado gracias al ADN recuperado de los restos de las víctimas. Lo que todavía se discute es cómo se transmitió: por las pulgas de las ratas, por pulgas y piojos humanos o de persona a persona por vía respiratoria.",
+   "deep": "Según la versión tradicional, la enfermedad entró en Europa a través de Caffa, en Crimea, durante un asedio mongol entre 1346 y 1347, y desde allí los barcos la llevaron a Constantinopla, Sicilia e Italia. Estudios genéticos señalan como posible origen Asia central, en la región de Tian Shan. Sus efectos cambiaron Europa: la falta de trabajadores hizo subir los salarios y debilitó el sistema feudal, surgieron prácticas de cuarentena y algunas comunidades se volvieron contra minorías, sobre todo los judíos, a los que se acusó falsamente. Curiosamente, sus contemporáneos no la llamaban «peste negra», sino «gran pestilencia» o nombres parecidos; en inglés, la expresión «Black Death» no se usó hasta la década de 1750.",
+   "sources": [
+    {
+     "t": "Wikipedia — Black Death",
+     "org": "Wikipedia en inglés",
+     "title": "Black Death",
+     "u": "https://en.wikipedia.org/wiki/Black_Death",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-efecto-stroop",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "psicologia",
+   "sub": "Atención",
+   "title": "Si la palabra «azul» está escrita en rojo, te cuesta decir el color",
+   "desc": "Es el efecto Stroop: leer es tan automático que interfiere con nombrar el color de la tinta.",
+   "body": "Haz la prueba mentalmente: la palabra «AZUL» escrita con tinta roja. Si alguien te pide que digas el color de la tinta, y no la palabra, tardarás más y es más probable que te equivoques que si vieras un simple rectángulo rojo. Ese pequeño tropiezo mental se llama efecto Stroop.\n\nLo publicó en inglés el psicólogo estadounidense John Ridley Stroop en 1935, aunque el alemán Erich Rudolf Jaensch ya lo había descrito en 1929, y sus raíces se remontan a experimentos del siglo XIX. El artículo de Stroop es uno de los más citados de toda la psicología experimental.",
+   "deep": "La explicación más conocida es que, para un adulto, leer es un proceso automático: no puedes evitar entender la palabra aunque lo intentes. En cambio, nombrar el color de la tinta requiere un esfuerzo deliberado, y cuando la palabra dice otra cosa, ambas respuestas compiten. Otras teorías ponen el acento en la velocidad con que procesamos cada tipo de información o en la fuerza de cada vía mental. Esta sencilla prueba se ha convertido en una herramienta clínica: se usa en tests neuropsicológicos que miden la atención selectiva, la flexibilidad mental y la velocidad de procesamiento. La interferencia es mayor, por ejemplo, en personas con TDAH, demencia o depresión. Existe también un «Stroop emocional», que usa palabras con carga emocional para estudiar cómo nos afectan.",
+   "sources": [
+    {
+     "t": "Wikipedia — Stroop effect",
+     "org": "Wikipedia en inglés",
+     "title": "Stroop effect",
+     "u": "https://en.wikipedia.org/wiki/Stroop_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-efecto-mcgurk",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "psicologia",
+   "sub": "Percepción",
+   "title": "Tus ojos pueden cambiar lo que oyes",
+   "desc": "Si oyes «ba» mientras ves unos labios que dicen «ga», lo más probable es que oigas «da». Es el efecto McGurk.",
+   "body": "En 1976, los psicólogos Harry McGurk y John MacDonald estudiaban cómo perciben el habla los bebés cuando ocurrió un error: un técnico doblaba un vídeo con el sonido equivocado. Al verlo, los dos investigadores oyeron una tercera sílaba que no estaba ni en el audio ni en los labios. Publicaron el hallazgo en la revista Nature con un título muy expresivo: «Oír los labios y ver las voces».\n\nEl ejemplo clásico es este: el audio dice «ba», pero la boca que vemos articula «ga». La mayoría de la gente no oye ninguna de las dos: oye «da». El cerebro combina lo que ve y lo que oye y construye una solución intermedia.",
+   "deep": "Lo más sorprendente del efecto McGurk es que es muy resistente: suele mantenerse aunque sepas exactamente qué está pasando. Si cierras los ojos, oyes «ba»; si los abres, vuelves a oír «da». Demuestra que la percepción del habla no depende solo del oído: la vista participa activamente, algo que se nota, por ejemplo, cuando entendemos peor a alguien con mascarilla o en un vídeo mal sincronizado. El efecto varía según el idioma y la cultura: es fuerte en hablantes de inglés, español o alemán, y más débil en hablantes de japonés y chino, quizá porque en esas culturas se mira menos directamente a la cara de quien habla.",
+   "sources": [
+    {
+     "t": "Wikipedia — McGurk effect",
+     "org": "Wikipedia en inglés",
+     "title": "McGurk effect",
+     "u": "https://en.wikipedia.org/wiki/McGurk_effect",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "m-carcel-stanford",
+   "type": "mito",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "psicologia",
+   "sub": "Experimentos famosos",
+   "verdict": "matizado",
+   "title": "«El experimento de la cárcel de Stanford demostró que cualquiera se vuelve cruel con poder»",
+   "desc": "Matizado. Es uno de los estudios más famosos de la psicología, pero sus métodos han recibido críticas muy serias.",
+   "body": "En agosto de 1971, el profesor de Stanford Philip Zimbardo montó una cárcel simulada en el sótano de un edificio de la universidad. Eligió a 24 estudiantes universitarios varones entre 75 voluntarios, les pagó 15 dólares al día y los repartió al azar entre guardias y prisioneros. El estudio debía durar dos semanas.\n\nLos abusos de los guardias fueron en aumento, y la psicóloga Christina Maslach protestó por las condiciones. Zimbardo detuvo el experimento al sexto día; él mismo admitió que se había metido demasiado en su papel de director de la prisión. Durante décadas se contó como prueba de que la situación convierte a personas normales en crueles.",
+   "deep": "Las críticas han ido creciendo. Algunos investigadores sostienen que los participantes actuaron como creían que se esperaba de ellos. Otros señalan que el anuncio para reclutar voluntarios pudo atraer a personas más inclinadas a la agresividad. En 2018 y 2019, el investigador Thibault Le Texier publicó documentos que, según él, muestran que los guardias fueron orientados hacia los resultados que Zimbardo buscaba; el equipo de Zimbardo lo negó. El Estudio de la Prisión de la BBC, de 2002, obtuvo resultados diferentes, lo que sugiere que el efecto no es tan universal. El experimento sigue siendo muy citado, sobre todo en debates de ética de la investigación: contribuyó a endurecer las normas de protección de quienes participan en estudios.",
+   "sources": [
+    {
+     "t": "Wikipedia — Stanford prison experiment",
+     "org": "Wikipedia en inglés",
+     "title": "Stanford prison experiment",
+     "u": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "debate",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-gran-mancha-roja",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "universo",
+   "sub": "Planetas",
+   "title": "La Gran Mancha Roja de Júpiter es una tormenta más grande que la Tierra, y se está encogiendo",
+   "desc": "Se observa sin interrupción desde 1879, sus vientos superan los 400 km/h y hace un siglo medía el doble.",
+   "body": "La Gran Mancha Roja de Júpiter es la mayor tormenta anticiclónica del sistema solar. En 2017 medía unos 16.350 kilómetros de ancho, alrededor de 1,3 veces el diámetro de la Tierra. Gira en sentido contrario a las agujas del reloj, completando una vuelta en unos 4,5 días terrestres, con vientos que pueden alcanzar velocidades de entre 430 y casi 500 kilómetros por hora.\n\nSe observa desde septiembre de 1831, y sin interrupción desde 1879. Entre 1665 y 1713 se vio en Júpiter una mancha parecida, pero no está claro que fuera la misma tormenta; un estudio de 2024 sugiere que no.",
+   "deep": "Lo más llamativo es que se está encogiendo. Hace aproximadamente un siglo llegó a medir unos 40.000 kilómetros de largo, y en 2004 su longitud era ya la mitad. Nadie sabe con certeza si llegará a desaparecer. Tampoco se sabe por qué es roja: los experimentos de laboratorio apuntan a compuestos que cambian de color con la radiación del Sol, como el hidrosulfuro de amonio o el acetileno, pero la causa sigue sin confirmarse. La sonda Juno, de la NASA, permitió medir por primera vez su profundidad: los datos indican que la tormenta se extiende entre unos 200 y 500 kilómetros por debajo de las nubes.",
+   "sources": [
+    {
+     "t": "Wikipedia — Great Red Spot",
+     "org": "Wikipedia en inglés",
+     "title": "Great Red Spot",
+     "u": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-primer-exoplaneta",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "universo",
+   "sub": "Exoplanetas",
+   "title": "El primer planeta descubierto alrededor de una estrella como el Sol se encontró en 1995",
+   "desc": "Se llama 51 Pegasi b, o Dimidium, y su hallazgo le valió el Nobel de Física de 2019 a Michel Mayor y Didier Queloz.",
+   "body": "Durante siglos, la pregunta de si había planetas alrededor de otras estrellas parecidas al Sol fue pura especulación. En 1995, los astrónomos Michel Mayor y Didier Queloz, de la Universidad de Ginebra, anunciaron la respuesta: habían encontrado un planeta alrededor de 51 Pegasi, una estrella similar al Sol situada a unos 50 años luz, en la constelación de Pegaso.\n\nNo lo vieron directamente. Usaron el método de la velocidad radial: midieron cómo la estrella se balanceaba ligeramente, adelante y atrás, por la atracción gravitatoria del planeta. Por este descubrimiento, Mayor y Queloz compartieron en 2019 el premio Nobel de Física.",
+   "deep": "El planeta, 51 Pegasi b, fue toda una sorpresa. Es un gigante gaseoso con aproximadamente la mitad de la masa de Júpiter, pero da una vuelta completa a su estrella en solo unos cuatro días, porque está muchísimo más cerca de ella que Mercurio del Sol. Nadie esperaba que un planeta gigante pudiera estar tan cerca, y se convirtió en el prototipo de un nuevo tipo de mundo: los «júpiteres calientes». Además, está acoplado por marea, así que siempre muestra la misma cara a su estrella. En 2015, la Unión Astronómica Internacional le dio un nombre oficial mediante un concurso público: Dimidium, que en latín significa «mitad», en referencia a su masa. En 2017 se detectaron indicios de agua en su atmósfera.",
+   "sources": [
+    {
+     "t": "Wikipedia — 51 Pegasi b",
+     "org": "Wikipedia en inglés",
+     "title": "51 Pegasi b",
+     "u": "https://en.wikipedia.org/wiki/51_Pegasi_b",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "m-estrellas-fugaces",
+   "type": "mito",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "universo",
+   "sub": "Cielo nocturno",
+   "verdict": "falso",
+   "title": "«Las estrellas fugaces son estrellas que caen»",
+   "desc": "Falso. Son pequeños fragmentos de roca o polvo que se queman al entrar en la atmósfera a gran velocidad.",
+   "body": "Las estrellas fugaces no tienen nada que ver con las estrellas, que son soles enormes a distancias inimaginables. Lo que vemos es un meteoro: el rastro luminoso que deja un pequeño cuerpo del espacio, un meteoroide, al entrar en la atmósfera de la Tierra.\n\nLos meteoroides son fragmentos que van desde simples granos de polvo hasta objetos de alrededor de un metro. Entran a velocidades enormes: los que se mueven cerca de la órbita terrestre viajan de media a unos 20 kilómetros por segundo, y en un choque de frente pueden llegar a unos 71 kilómetros por segundo. A esa velocidad, la fricción con el aire calienta el objeto y el aire a su alrededor hasta hacerlos brillar.",
+   "deep": "Conviene distinguir tres palabras: el meteoroide es el objeto en el espacio; el meteoro es la estela de luz que vemos en el cielo, y el meteorito es el fragmento que sobrevive al viaje y llega al suelo, algo poco frecuente. Cada día entran en la atmósfera una enorme cantidad de estos objetos, unos 25 millones según algunas estimaciones, y el material que cae suma unas 15.000 toneladas al año. Las lluvias de estrellas, como las Leónidas, ocurren cuando la Tierra atraviesa la nube de restos que ha dejado un cometa a lo largo de su órbita; en el caso de las Leónidas, el cometa Tempel-Tuttle. Por eso se repiten cada año en las mismas fechas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Meteoroid",
+     "org": "Wikipedia en inglés",
+     "title": "Meteoroid",
+     "u": "https://en.wikipedia.org/wiki/Meteoroid",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-creeper",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "tecnologia",
+   "sub": "Historia de la informática",
+   "title": "El primer «gusano» informático solo decía: «Atrápame si puedes»",
+   "desc": "Creeper se escribió en 1971 y saltaba entre computadoras de ARPANET. Para eliminarlo se creó el primer antivirus.",
+   "body": "En 1971, el programador Bob Thomas, de la empresa BBN, escribió un programa experimental llamado Creeper. Su única gracia era moverse por sí mismo entre las grandes computadoras PDP-10 conectadas a ARPANET, la red precursora de internet. Cuando llegaba a una máquina, mostraba un mensaje: «I'M THE CREEPER: CATCH ME IF YOU CAN», es decir, «Soy la enredadera: atrápame si puedes».\n\nCreeper no era malicioso: no borraba archivos ni robaba nada. Pero poco después, Ray Tomlinson, el mismo ingeniero que había creado el correo electrónico con la @, lo modificó para que pudiera copiarse a sí mismo en otras computadoras. Esa versión se considera, en general, el primer gusano informático.",
+   "deep": "Si hay un problema, hay una solución: en 1972, Tomlinson creó Reaper, «la segadora», un programa que recorría ARPANET buscando a Creeper para borrarlo. Por eso se le considera el primer software antivirus de la historia. Aquella pequeña persecución entre programas inspiró después un juego de programación llamado Core War, en el que los participantes escriben programas que luchan entre sí dentro de la memoria de una computadora. En un gusano, el programa se propaga solo por la red; en un virus, en sentido estricto, el código se esconde dentro de otros programas o archivos. En el lenguaje cotidiano se suele llamar «virus» a cualquier programa malicioso, pero la historia de Creeper recuerda que los primeros fueron más bien experimentos y bromas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Creeper and Reaper",
+     "org": "Wikipedia en inglés",
+     "title": "Creeper and Reaper",
+     "u": "https://en.wikipedia.org/wiki/Creeper_and_Reaper",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-tetris",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "tecnologia",
+   "sub": "Videojuegos",
+   "title": "Tetris nació en un centro de investigación soviético",
+   "desc": "Lo creó Alexey Pajitnov en Moscú a mediados de los ochenta, pero durante años no pudo ganar dinero con él.",
+   "body": "Tetris, el juego de las piezas que caen, lo creó a mediados de los años ochenta Alexey Pajitnov, un ingeniero informático que trabajaba en el Centro de Computación Dorodnitsyn de la Academia de Ciencias de la Unión Soviética, en Moscú. El nombre combina «tetra», por las cuatro piezas cuadradas de cada ficha, y «tenis», el deporte favorito de Pajitnov.\n\nEl juego se extendió rápidamente, pero en la Unión Soviética los programas pertenecían al Estado, así que Pajitnov no podía venderlo por su cuenta. Lo que siguió fue una de las batallas de derechos más enrevesadas de la industria, que en 2023 inspiró la película «Tetris».",
+   "deep": "Las primeras versiones occidentales salieron en 1988. Después, el empresario Henk Rogers consiguió para Nintendo los derechos de consolas y portátiles, y la versión de Game Boy, de 1989, se convirtió en la más vendida del juego, con unos 35 millones de copias. Los derechos del centro de investigación volvieron a Pajitnov a finales de 1995, y en 1996 se fundó The Tetris Company para gestionar las licencias. Según esa empresa, Tetris había vendido 520 millones de copias a finales de 2024, aunque algunas fuentes discuten que sea el videojuego más vendido de la historia. Su comunidad competitiva sigue activa: en enero de 2024, un adolescente estadounidense, Willis Gibson, «ganó» por primera vez la versión de NES al jugar hasta que el juego se bloqueó.",
+   "sources": [
+    {
+     "t": "Wikipedia — Tetris",
+     "org": "Wikipedia en inglés",
+     "title": "Tetris",
+     "u": "https://en.wikipedia.org/wiki/Tetris",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-ley-moore",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "tecnologia",
+   "sub": "Electrónica",
+   "title": "La «ley de Moore» no es una ley, sino una predicción de 1965",
+   "desc": "Gordon Moore observó que los componentes de los chips se duplicaban cada año; en 1975 lo corrigió a cada dos.",
+   "body": "En 1965, Gordon Moore, cofundador de Fairchild Semiconductor y más tarde de Intel, publicó una observación que marcaría a toda la industria: el número de componentes que cabían en un circuito integrado se duplicaba aproximadamente cada año. En 1975 ajustó su pronóstico: la duplicación ocurriría cada dos años, sin un gran aumento del coste.\n\nPoco después, el profesor Carver Mead, del Instituto Tecnológico de California, popularizó el nombre «ley de Moore». Pero no es una ley científica, como la de la gravedad, sino una relación empírica: una tendencia observada que la industria convirtió en objetivo durante décadas.",
+   "deep": "Una confusión frecuente es la de los «18 meses». Esa cifra no la dio Moore, sino un directivo de Intel, David House, que calculó que el rendimiento de los chips se duplicaría cada 18 meses. En los últimos años, el ritmo se ha frenado: los diseñadores de microprocesadores señalan que el avance se ha ralentizado desde aproximadamente 2010, y el coste de las herramientas para fabricar chips, como las de litografía ultravioleta extrema, se dispara. La industria no se pone de acuerdo sobre su futuro: en 2022, el director de Nvidia, Jensen Huang, declaró muerta la ley de Moore, mientras que el entonces director de Intel, Pat Gelsinger, sostuvo lo contrario.",
+   "sources": [
+    {
+     "t": "Wikipedia — Moore's law",
+     "org": "Wikipedia en inglés",
+     "title": "Moore's law",
+     "u": "https://en.wikipedia.org/wiki/Moore%27s_law",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-costa-canada",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "geografia",
+   "sub": "Costas",
+   "title": "Canadá tiene la costa más larga del mundo, pero nadie sabe exactamente cuánto mide",
+   "desc": "Según cómo se mida, son 202.080 o 265.523 kilómetros. Es la «paradoja de la costa».",
+   "body": "Canadá es el país con la costa más larga del mundo, gracias a sus miles de islas y a sus costas recortadas en el Atlántico, el Pacífico y el Ártico. Pero la cifra exacta depende de a quién preguntes: según el libro de datos de la CIA mide 202.080 kilómetros, y según el Instituto de Recursos Mundiales, 265.523.\n\nLa diferencia no es un error. Se debe a un fenómeno conocido como la paradoja de la costa: una costa no tiene una longitud bien definida. El resultado depende de la escala con la que se mida, es decir, de la distancia entre los puntos que se usan para medirla.",
+   "deep": "Imagina medir una costa con una regla de 100 kilómetros: te saltarás todas las bahías pequeñas y entrantes. Con una regla de 1 kilómetro recogerás muchos más detalles, y el total aumentará. Con una de 1 metro, aún más, porque entrarán cada roca y cada recoveco. Cuanto más pequeña es la unidad de medida, más larga resulta la costa, y el efecto es mucho mayor en costas muy recortadas, como las de los fiordos. Los matemáticos describen este comportamiento como fractal: una forma que muestra detalles nuevos a cualquier escala. Por eso, al comparar longitudes de costa entre países, solo tiene sentido hacerlo si se usan los mismos criterios de medición.",
+   "sources": [
+    {
+     "t": "Wikipedia — List of countries by length of coastline",
+     "org": "Wikipedia en inglés",
+     "title": "List of countries by length of coastline",
+     "u": "https://en.wikipedia.org/wiki/List_of_countries_by_length_of_coastline",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-salar-uyuni",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "geografia",
+   "sub": "Paisajes",
+   "title": "El Salar de Uyuni se convierte en el espejo más grande del mundo",
+   "desc": "Este desierto de sal de Bolivia es tan plano que se usa para calibrar satélites, y guarda una gran reserva de litio.",
+   "body": "El Salar de Uyuni, en el departamento de Potosí, en Bolivia, es el mayor salar del mundo: ocupa unos 10.582 kilómetros cuadrados, a unos 3.650 metros de altitud, cerca de la cumbre de los Andes. Se formó cuando varios lagos prehistóricos se evaporaron y dejaron una gruesa costra de sal.\n\nSu superficie es asombrosamente plana: su altura media varía menos de un metro en toda su extensión. En la temporada de lluvias, una fina capa de agua quieta cubre la sal y la convierte en un espejo gigante, de unos 129 kilómetros de ancho, que refleja el cielo y las nubes.",
+   "deep": "Esa planitud lo hace útil para la ciencia: se usa para calibrar los altímetros y sensores de los satélites que observan la Tierra. También tiene un enorme valor económico. Se calcula que contiene unos 10.000 millones de toneladas de sal, de las que se extraen menos de 25.000 al año. Y bajo su superficie hay salmuera rica en litio, el metal de las baterías de los teléfonos y los coches eléctricos: Bolivia tiene alrededor del 22 % de los recursos de litio conocidos del mundo, la mayor parte en este salar. Junto a él se construyeron hoteles con bloques de sal; el primero, el Palacio de Sal, fue desmontado en 2002 por problemas sanitarios y de contaminación, y se levantó otro en el borde este del salar.",
+   "sources": [
+    {
+     "t": "Wikipedia — Salar de Uyuni",
+     "org": "Wikipedia en inglés",
+     "title": "Salar de Uyuni",
+     "u": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-mauna-kea",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "geografia",
+   "sub": "Montañas",
+   "title": "Medido desde su base, el Mauna Kea podría ser más alto que el Everest",
+   "desc": "Este volcán de Hawái mide 4.207 metros sobre el mar, pero casi todo su cuerpo está bajo el agua.",
+   "body": "El Mauna Kea, un volcán dormido de la isla de Hawái, se eleva 4.207 metros sobre el nivel del mar: mucho menos que los 8.849 del Everest. Pero esa cifra solo cuenta la parte visible. El volcán nace en el fondo del océano Pacífico, y la mayor parte de su cuerpo está bajo el agua.\n\nPor eso algunos especialistas lo consideran la montaña más alta del mundo medida desde la base hasta la cima. La dificultad está en decidir dónde empieza exactamente su base, y según el criterio, las estimaciones de su altura total van desde unos 9.966 hasta 17.205 metros.",
+   "deep": "Hay otra forma de comparar montañas: la prominencia, es decir, cuánto se eleva una cima sobre el terreno que la rodea. Medida de esa manera, el Mauna Kea ocupa el segundo lugar del mundo, solo por detrás del Everest. Su nombre significa aproximadamente «montaña blanca», por la nieve que la cubre en algunas épocas del año. Su última erupción ocurrió hace entre 4.000 y 6.000 años, y se espera que algún día vuelva a entrar en actividad. Su cima, con un cielo muy limpio y seco, alberga 13 observatorios astronómicos de hasta 11 países. Para la religión hawaiana es un lugar sagrado, y la construcción de nuevos telescopios, como el Telescopio de Treinta Metros, ha generado una fuerte polémica.",
+   "sources": [
+    {
+     "t": "Wikipedia — Mauna Kea",
+     "org": "Wikipedia en inglés",
+     "title": "Mauna Kea",
+     "u": "https://en.wikipedia.org/wiki/Mauna_Kea",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "debate",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-cosquillas",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "cuerpo",
+   "sub": "Cerebro",
+   "title": "No puedes hacerte cosquillas a ti mismo, y tu cerebro tiene la culpa",
+   "desc": "El cerebro predice las sensaciones que producen tus propios movimientos y las atenúa. Sin sorpresa, no hay cosquillas.",
+   "body": "Intenta hacerte cosquillas en la planta del pie y comprobarás que no funciona. La explicación está en el cerebro. En 1998, la neurocientífica Sarah-Jayne Blakemore y sus colegas usaron resonancia magnética y un «robot de cosquillas» controlado con una palanca para estudiarlo: el cerebro predice la sensación que producirán tus propios movimientos y la atenúa.\n\nCuando otra persona te hace cosquillas, no puedes anticipar con exactitud cuándo ni dónde te tocará, y el cerebro procesa la sensación con toda su intensidad. La sorpresa parece ser esencial, y al hacértelas tú mismo desaparece.",
+   "deep": "Los científicos distinguen dos tipos de cosquillas. Una es la sensación de un roce muy suave que se mueve por la piel, parecida a un picor: no suele provocar risa, y sí podemos provocárnosla nosotros mismos. La otra, con una presión más firme, sí provoca risa, y podría darse solo en humanos y otros primates, aunque algunas investigaciones sugieren que también en ratas. Curiosamente, las plantas de los pies están entre las zonas con más cosquillas, aunque la palma de la mano es más sensible al tacto. Y hay excepciones a la regla: algunas personas con esquizofrenia, o con ciertos rasgos relacionados, sí pueden hacerse cosquillas, quizá porque su cerebro distingue peor entre lo que hacen ellas mismas y lo que viene de fuera.",
+   "sources": [
+    {
+     "t": "Wikipedia — Tickling",
+     "org": "Wikipedia en inglés",
+     "title": "Tickling",
+     "u": "https://en.wikipedia.org/wiki/Tickling",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-adn-dos-metros",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "cuerpo",
+   "sub": "Células",
+   "title": "El ADN de una sola de tus células mediría unos dos metros estirado",
+   "desc": "Cabe en un núcleo microscópico porque está enrollado alrededor de unas proteínas como hilo en carretes.",
+   "body": "Dentro del núcleo de casi cada célula de tu cuerpo hay unos 3.000 millones de pares de bases de ADN por cada juego de cromosomas, y como heredamos dos juegos, uno de cada progenitor, el total ronda los 6.300 millones. Si pudieras estirar todo ese ADN y ponerlo en línea, mediría alrededor de dos metros: unos 208 centímetros en una célula de mujer y unos 205 en una de hombre.\n\nY todo eso cabe en un núcleo que no se ve a simple vista. El secreto es el empaquetado. El ADN se enrolla alrededor de unas pequeñas proteínas llamadas histonas, dando unas dos vueltas completas a cada una, como un hilo en un carrete. Cada uno de esos carretes se llama nucleosoma, y el conjunto, mucho más compacto, se llama cromatina.",
+   "deep": "Este empaquetado no solo sirve para ahorrar espacio. También ayuda a controlar qué partes del ADN se leen: las zonas muy compactadas son más difíciles de «abrir», mientras que las más sueltas se leen con facilidad. La estructura de doble hélice del ADN se publicó el 25 de abril de 1953 en la revista Nature, en el famoso artículo de James Watson y Francis Crick. Su trabajo dependió de forma crucial de una imagen de difracción de rayos X, la «Fotografía 51», obtenida bajo la supervisión de Rosalind Franklin, cuyo papel se minimizó durante décadas. En 2023, un análisis de sus documentos concluyó que Franklin fue una participante en pie de igualdad en el descubrimiento.",
+   "sources": [
+    {
+     "t": "Wikipedia — DNA",
+     "org": "Wikipedia en inglés",
+     "title": "DNA",
+     "u": "https://en.wikipedia.org/wiki/DNA",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "m-olfato-humano",
+   "type": "mito",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "cuerpo",
+   "sub": "Sentidos",
+   "verdict": "matizado",
+   "title": "«Los humanos podemos distinguir un billón de olores»",
+   "desc": "Matizado. Lo afirmó un estudio de 2014, pero otros científicos cuestionaron sus cálculos. Lo que sí está claro: nuestro olfato es mejor de lo que creemos.",
+   "body": "Durante mucho tiempo se repitió que los humanos podíamos distinguir unos 10.000 olores. En 2014, un estudio publicado en la revista Science propuso una cifra asombrosa: más de un billón. Para calcularla, los investigadores pidieron a voluntarios que compararan mezclas de sustancias olorosas y extrapolaron los resultados.\n\nLa cifra dio la vuelta al mundo, pero otros científicos criticaron pronto sus matemáticas: con otros supuestos razonables, el resultado podía cambiar enormemente. Los propios autores aclararon además que distinguir dos olores, saber que son distintos, no es lo mismo que identificarlos o ponerles nombre.",
+   "deep": "Más allá de la cifra, el olfato humano es más importante de lo que solemos pensar. La mayor parte de lo que llamamos sabor viene en realidad del olfato retronasal: los aromas de la comida suben a la nariz desde la boca mientras masticamos. Por eso, con la nariz tapada, la comida parece sosa. Las señales del olfato llegan directamente a regiones del cerebro relacionadas con la memoria y las emociones, lo que explica por qué un olor puede traernos un recuerdo de golpe. Aun así, otros animales nos superan: se calcula que los perros son entre 10.000 y 100.000 veces más sensibles. Perder el olfato, algo que la COVID-19 provocó en alrededor de la mitad de los pacientes, afecta mucho a la calidad de vida.",
+   "sources": [
+    {
+     "t": "Wikipedia — Olfaction",
+     "org": "Wikipedia en inglés",
+     "title": "Olfaction",
+     "u": "https://en.wikipedia.org/wiki/Olfaction",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "debate",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-gatos-dulce",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "animales",
+   "sub": "Mamíferos",
+   "title": "Los gatos no pueden saborear lo dulce",
+   "desc": "Les falta una proteína clave para detectar el azúcar por un defecto en un gen. En cambio, perciben muy bien el umami.",
+   "body": "Si a tu gato no le interesan los dulces, no es capricho: no puede saborearlos. Para detectar el sabor dulce hace falta un receptor formado por dos proteínas, y a los gatos les falta una de ellas, llamada TAS1R2. El gen que la produce está estropeado: es lo que los genetistas llaman un pseudogén. Así lo explicó un estudio de 2005 con un título muy claro: la pérdida de un gen del receptor del dulce explica la indiferencia de los gatos hacia el azúcar.\n\nTiene sentido para un animal que, en la naturaleza, se alimenta casi solo de carne: el azúcar apenas forma parte de su dieta. En cambio, los gatos sí detectan el umami, el sabor sabroso de la carne y el pescado, gracias a otros receptores. El atún, por ejemplo, es especialmente rico en los compuestos que les atraen.",
+   "deep": "Sus otros sentidos están muy afinados para la caza. Gracias a una capa reflectante detrás de la retina, el tapetum lucidum, responsable del brillo de sus ojos en la oscuridad, y a una gran cantidad de bastones, las células sensibles a la luz tenue, pueden ver con alrededor de una sexta parte de la luz que necesitamos los humanos. Oyen sonidos de hasta 64 kilohercios, bastante más agudos que los que puede oír una persona o un perro, y son capaces de localizar el origen de un sonido con un margen de unos 8 centímetros a un metro de distancia. Sus aproximadamente 24 bigotes móviles les informan de los movimientos del aire y de los objetos cercanos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Cat senses",
+     "org": "Wikipedia en inglés",
+     "title": "Cat senses",
+     "u": "https://en.wikipedia.org/wiki/Cat_senses",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-ave-lira",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "animales",
+   "sub": "Aves",
+   "title": "El ave lira puede imitar casi cualquier sonido que oye",
+   "desc": "Copia el canto de otras aves, de koalas o dingos e incluso ruidos humanos, aunque algunas historias famosas están exageradas.",
+   "body": "El ave lira, que vive en los bosques del sureste de Australia, es uno de los imitadores más asombrosos del reino animal. Copia con enorme precisión el canto de otras aves y los sonidos de animales como zarigüeyas, koalas o dingos, y también sonidos de origen humano.\n\nSu nombre se debe a la cola de los machos: sus plumas externas, anchas y curvadas, recuerdan a una lira, el antiguo instrumento de cuerda. Curiosamente, la forma de lira de las primeras ilustraciones fue un invento de un taxidermista, que colocó así las plumas sin haber visto nunca un ave viva.",
+   "deep": "Existen dos especies, el ave lira soberbia y el ave lira de Albert. En plena época de cría, de junio a agosto, los machos pueden cantar hasta cuatro horas al día, casi la mitad de las horas de luz. Las hembras también son grandes imitadoras. Un estudio de 2021 descubrió algo sorprendente: durante el cortejo, los machos crean una ilusión acústica que reproduce el alboroto de una bandada entera de pájaros. Las historias de aves lira que imitan motosierras, alarmas de coche u obturadores de cámara se han hecho muy famosas, pero los especialistas advierten que la imitación de sonidos humanos está exagerada y que muchos casos son anecdóticos. El macho del ave lira soberbia aparece en la moneda australiana de 10 centavos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Lyrebird",
+     "org": "Wikipedia en inglés",
+     "title": "Lyrebird",
+     "u": "https://en.wikipedia.org/wiki/Lyrebird",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-pupilas-cabras",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "animales",
+   "sub": "Mamíferos",
+   "title": "Las cabras tienen las pupilas rectangulares",
+   "desc": "Muchos herbívoros tienen pupilas horizontales; muchos depredadores que acechan, pupilas verticales. No es casualidad.",
+   "body": "Si miras de cerca a una cabra, verás que sus pupilas no son redondas como las nuestras, sino rectángulos horizontales. No es la única: también las tienen las ovejas, los caballos y otros animales con pezuñas, como ciervos, alces o hipopótamos.\n\nOtros animales tienen pupilas en forma de rendija vertical, como los gatos, los zorros, los cocodrilos y las víboras. Un estudio de 2015 relacionó estas formas con el estilo de vida: las pupilas verticales ayudarían a calcular distancias a los depredadores que cazan al acecho, cerca del suelo; las horizontales favorecerían un campo de visión amplio y una imagen nítida de lo que se extiende a lo largo del horizonte.",
+   "deep": "La variedad de pupilas en el reino animal es enorme. Los humanos, los tigres siberianos y los lobos grises las tienen redondas. Las sepias, parientes de los calamares, tienen pupilas en forma de W. Algunos geckos tienen pupilas que, al cerrarse, se convierten en una fila de pequeños agujeros. Algunos bagres tienen pupilas en forma de anillo, y las de los pingüinos rey se vuelven cuadradas con luz intensa. Además, las pupilas en rendija tienen una ventaja práctica: pueden cerrarse mucho más que las redondas y bloquear mejor la luz, algo útil para animales que necesitan ver de noche pero también tolerar la luz del día.",
+   "sources": [
+    {
+     "t": "Wikipedia — Pupil",
+     "org": "Wikipedia en inglés",
+     "title": "Pupil",
+     "u": "https://en.wikipedia.org/wiki/Pupil",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-kant-rutina",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "filosofia",
+   "sub": "Filósofos",
+   "title": "Kant publicó su obra más influyente cuando tenía 57 años",
+   "desc": "Pasó casi toda su vida en Königsberg, la actual Kaliningrado, con una rutina tan ordenada que se volvió legendaria.",
+   "body": "Immanuel Kant nació el 22 de abril de 1724 en Königsberg, en Prusia Oriental, y murió en la misma ciudad el 12 de febrero de 1804. Hoy esa ciudad se llama Kaliningrado y pertenece a Rusia. Salvo unos años de juventud en los que trabajó como tutor en localidades cercanas, entre 1748 y 1754, pasó allí toda su vida.\n\nSu obra más famosa, la «Crítica de la razón pura», se publicó en 1781, cuando Kant tenía 57 años. En ella propuso lo que llamó un giro «copernicano»: en lugar de suponer que nuestro conocimiento se adapta a los objetos, sostuvo que los objetos, tal como los conocemos, se adaptan a la forma de nuestra mente. Para él, el espacio y el tiempo son formas con las que organizamos la experiencia.",
+   "deep": "Kant fue un profesor muy popular, nunca se casó y fue famoso por su vida estrictamente ordenada. Se cuenta que sus vecinos ponían los relojes en hora al verlo pasar en su paseo diario, aunque es una anécdota que no puede comprobarse. Su obra abarca casi toda la filosofía: el conocimiento, la ética, la estética y la política. En ética defendió el «imperativo categórico», un principio que obliga a todo ser racional, y en 1795 publicó «Sobre la paz perpetua», donde propuso que la paz duradera podría lograrse mediante Estados republicanos y la cooperación internacional. Según se cuenta, sus últimas palabras fueron «Es ist gut»: «Está bien».",
+   "sources": [
+    {
+     "t": "Wikipedia — Immanuel Kant",
+     "org": "Wikipedia en inglés",
+     "title": "Immanuel Kant",
+     "u": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-paradoja-sorites",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "filosofia",
+   "sub": "Paradojas",
+   "title": "¿Cuántos granos de arena hacen falta para formar un montón? Nadie lo sabe",
+   "desc": "La paradoja del montón tiene unos 2.400 años y sigue sin una solución aceptada por todos.",
+   "body": "Imagina un montón de un millón de granos de arena. Si le quitas un grano, sigue siendo un montón: un solo grano no marca ninguna diferencia. Si le quitas otro, también. Pero si repites el razonamiento una y otra vez, llegarás a la conclusión de que un solo grano de arena es un montón, lo cual es claramente falso.\n\nEs la paradoja sorites, o paradoja del montón; «sorites» viene de la palabra griega para «montón». Se atribuye tradicionalmente a Eubúlides de Mileto, un filósofo griego del siglo IV antes de Cristo. Lo inquietante es que cada paso del argumento parece razonable, y aun así la conclusión es absurda.",
+   "deep": "El problema está en las palabras vagas, como «montón», «calvo» o «alto», que no tienen un límite preciso. Existe una versión con el calvo: arrancar un solo pelo no deja calvo a nadie, pero arrancar uno tras otro termina haciéndolo. Los filósofos han propuesto muchas salidas. Algunos fijan un límite exacto, por ejemplo 10.000 granos, aunque parece arbitrario. Otros, como Timothy Williamson, sostienen que el límite existe pero no podemos conocerlo. Otros proponen lógicas con más de dos valores, en las que una afirmación puede ser verdadera «en cierto grado», o dicen que el significado de la palabra lo fija el uso que hace de ella una comunidad. También hay un error de razonamiento relacionado: rechazar una distinción solo porque entre dos extremos hay una transición gradual. Que no sepamos dónde empieza la calvicie no significa que no haya calvos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Sorites paradox",
+     "org": "Wikipedia en inglés",
+     "title": "Sorites paradox",
+     "u": "https://en.wikipedia.org/wiki/Sorites_paradox",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "debate",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-analectas-confucio",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "filosofia",
+   "sub": "Filosofía oriental",
+   "title": "Confucio no escribió el libro con sus enseñanzas",
+   "desc": "Las «Analectas» las recopilaron sus seguidores, probablemente a lo largo de unos dos siglos.",
+   "body": "Las «Analectas» son el texto más conocido del confucianismo: una colección de dichos y breves diálogos atribuidos a Confucio y a algunos de sus contemporáneos. Pero Confucio no las escribió. Según la tradición, sus discípulos registraron y editaron juntos sus enseñanzas después de su muerte, ocurrida en el año 479 antes de Cristo.\n\nLos especialistas modernos creen que el proceso fue aún más largo: el texto se habría compuesto a lo largo de unos dos siglos, sobre todo durante el periodo de los Reinos Combatientes, y no alcanzó su forma definitiva hasta la dinastía Han. Por eso se discuten las fechas y la autenticidad de algunos de los dichos. El texto que conservamos tiene veinte capítulos.",
+   "deep": "Entre sus enseñanzas más famosas está una versión de la llamada regla de oro, formulada en negativo: «No hagas a los demás lo que no quieras que te hagan a ti». La influencia del libro en China fue inmensa. En la época de la dinastía Song, el filósofo Zhu Xi lo incluyó entre los Cuatro Libros, los textos básicos del confucianismo, y hasta 1905 su comentario de las «Analectas» lo memorizaban quienes aspiraban a aprender a leer y escribir o a ocupar un cargo en el gobierno. Es un caso parecido al de Sócrates, que tampoco escribió nada y cuyas ideas conocemos por sus discípulos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Analects",
+     "org": "Wikipedia en inglés",
+     "title": "Analects",
+     "u": "https://en.wikipedia.org/wiki/Analects",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-hombre-somerton",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "misterios",
+   "sub": "Casos sin resolver",
+   "title": "El hombre de Somerton: un desconocido, un código y la palabra «terminado»",
+   "desc": "En 1948 apareció un hombre muerto en una playa de Australia con un papel que decía «Tamám Shud». Su identidad se propuso en 2022.",
+   "body": "El 1 de diciembre de 1948 apareció el cuerpo de un hombre en la playa de Somerton Park, cerca de Adelaida, en Australia. La policía pensó al principio que había muerto mientras dormía, pero la autopsia no encontró una causa natural, y el forense concluyó que probablemente había sido envenenado. Nunca se supo cómo murió.\n\nEn un bolsillo oculto de su ropa había un trozo de papel con dos palabras en persa: «Tamám Shud», que significan «terminado» o «acabado». Había sido arrancado de un ejemplar de las «Rubaiyat» de Omar Jayam, un libro de poesía. Cuando se encontró ese ejemplar, en la parte de atrás tenía escritas a lápiz unas líneas que parecían un mensaje cifrado.",
+   "deep": "El código nunca se ha descifrado: en 1978, unos criptógrafos concluyeron que tenía demasiado pocos símbolos para obtener una respuesta clara. En el libro había también un número de teléfono que llevó a una mujer, Jessica Thomson, que negó conocer al hombre, aunque años después su familia aseguró que sí sabía quién era. El contexto de la Guerra Fría y la cercanía de instalaciones militares secretas alimentaron teorías de espionaje. En 2022, el profesor Derek Abbott y la genealogista Colleen Fitzpatrick anunciaron que, gracias al ADN de unos cabellos atrapados en el molde de yeso de su cabeza, lo habían identificado como Carl «Charles» Webb, un ingeniero eléctrico nacido en Melbourne en 1905. La policía de Australia del Sur no había confirmado oficialmente esa identificación cuando se consultó la fuente, y el porqué de su muerte sigue siendo un misterio.",
+   "sources": [
+    {
+     "t": "Wikipedia — Tamam Shud case",
+     "org": "Wikipedia en inglés",
+     "title": "Tamam Shud case",
+     "u": "https://en.wikipedia.org/wiki/Tamam_Shud_case",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-amelia-earhart",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "misterios",
+   "sub": "Desapariciones",
+   "title": "La desaparición de Amelia Earhart sigue sin resolverse casi 90 años después",
+   "desc": "El 2 de julio de 1937 desapareció sobre el Pacífico cuando intentaba dar la vuelta al mundo. Su avión nunca se ha encontrado.",
+   "body": "Amelia Earhart fue una pionera de la aviación. En 1932 se convirtió en la primera mujer en cruzar el Atlántico en solitario y sin escalas, una hazaña que le valió la Cruz de Vuelo Distinguido. También fue la primera presidenta de las Ninety-Nines, una organización de mujeres piloto.\n\nEn 1937 intentó convertirse en la primera mujer en dar la vuelta al mundo en avión, junto al navegante Fred Noonan, a bordo de un Lockheed Electra 10E. El 2 de julio, cuando buscaban la diminuta isla Howland, en medio del Pacífico, perdieron el contacto. La Marina y la Guardia Costera de Estados Unidos organizaron la búsqueda más costosa de la historia del país hasta entonces, pero no encontraron ni rastro.",
+   "deep": "Earhart fue declarada legalmente muerta el 5 de enero de 1939. La mayoría de los historiadores creen que el avión se quedó sin combustible, cayó al mar y se hundió. Pero hay otras hipótesis. La más conocida propone que aterrizaron en la isla Gardner, hoy Nikumaroro, y sobrevivieron un tiempo como náufragos. Otras hablan de una captura por los japoneses o de un accidente en Nueva Bretaña, en Papúa Nueva Guinea. Ninguna ha podido demostrarse: expediciones recientes, como las de 2019 y 2024, no encontraron pruebas del avión. Mientras tanto, su figura se ha convertido en un símbolo de valentía y en un icono para las mujeres en la aviación.",
+   "sources": [
+    {
+     "t": "Wikipedia — Amelia Earhart",
+     "org": "Wikipedia en inglés",
+     "title": "Amelia Earhart",
+     "u": "https://en.wikipedia.org/wiki/Amelia_Earhart",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-esferas-costa-rica",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "misterios",
+   "sub": "Arqueología",
+   "title": "En Costa Rica hay más de 300 esferas de piedra casi perfectas cuyo propósito se desconoce",
+   "desc": "Algunas superan los dos metros y pesan hasta 15 toneladas. Las hicieron pueblos precolombinos hace más de mil años.",
+   "body": "En el sur de Costa Rica, sobre todo en el delta del Diquís y en la isla del Caño, se han encontrado más de 300 esferas de piedra. Algunas caben en la mano y otras superan los dos metros de diámetro y pesan hasta 15 toneladas. La mayoría están talladas en gabro, una roca ígnea muy dura, y muchas son sorprendentemente redondas.\n\nSe atribuyen a la cultura Diquís, que habitó la región aproximadamente entre los años 500 y 1500. Las primeras probablemente se hicieron hacia el año 600, aunque la mayoría son posteriores al año 1000. Su propósito sigue siendo incierto: los arqueólogos han propuesto que representaran el Sol, la Luna u otros cuerpos celestes.",
+   "deep": "Las esferas salieron a la luz en la década de 1930, cuando la United Fruit Company despejaba terrenos para plantaciones de banano. Fue un descubrimiento desafortunado: algunos trabajadores dañaron esferas con buldóceres, y otros dinamitaron varias creyendo que guardaban oro en su interior. El arqueólogo Samuel Lothrop publicó un estudio sobre ellas en 1963. Como suele pasar con los misterios arqueológicos, han surgido teorías fantasiosas, como su relación con la Atlántida, sin ningún fundamento. En 2014, la UNESCO declaró Patrimonio de la Humanidad los asentamientos cacicales precolombinos con esferas de piedra del Diquís.",
+   "sources": [
+    {
+     "t": "Wikipedia — Stone spheres of Costa Rica",
+     "org": "Wikipedia en inglés",
+     "title": "Stone spheres of Costa Rica",
+     "u": "https://en.wikipedia.org/wiki/Stone_spheres_of_Costa_Rica",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "misterio",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-impuesto-ventanas",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "economia",
+   "sub": "Impuestos",
+   "title": "En Inglaterra hubo un impuesto sobre las ventanas, y la gente las tapiaba",
+   "desc": "Se cobró de 1696 a 1851. Todavía hay casas con ventanas tapadas con ladrillos para pagar menos.",
+   "body": "En 1696, durante el reinado de Guillermo III, Inglaterra y Gales introdujeron un impuesto curioso: el impuesto sobre las ventanas. Las ventanas eran fáciles de contar desde la calle, y las casas más grandes solían tener más.\n\nAl principio pagaban las casas con más de diez ventanas; el límite se rebajó a siete en 1766 y se fijó en ocho en 1825. La reacción de muchos propietarios fue previsible: tapiar ventanas para pagar menos. Hoy todavía pueden verse en el Reino Unido casas antiguas con huecos de ventana cerrados con ladrillos.",
+   "deep": "El impuesto fue muy impopular, porque se veía como un impuesto sobre «la luz y el aire». En Escocia se aplicó uno parecido desde 1748, para casas con al menos siete ventanas o cierto nivel de alquiler. Finalmente se abolió el 24 de julio de 1851 en Inglaterra, Gales, Escocia e Irlanda. Francia tuvo un impuesto similar entre 1798 y 1926. Se dice a menudo que la expresión inglesa «daylight robbery», «robo a plena luz del día», que se usa para un precio abusivo, viene de este impuesto, pero es una etimología popular sin respaldo académico. La historia es un buen ejemplo de un fenómeno que los economistas conocen bien: los impuestos cambian el comportamiento de la gente, a veces de formas inesperadas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Window tax",
+     "org": "Wikipedia en inglés",
+     "title": "Window tax",
+     "u": "https://en.wikipedia.org/wiki/Window_tax",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-esquema-ponzi",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "economia",
+   "sub": "Fraudes",
+   "title": "El «esquema Ponzi» lleva el nombre de un estafador que prometía duplicar el dinero en 90 días",
+   "desc": "En 1920, Charles Ponzi pagaba a los primeros inversores con el dinero de los nuevos. Los afectados perdieron unos 20 millones de dólares de la época.",
+   "body": "En 1920, Charles Ponzi, un inmigrante nacido en Italia, prometió a los inversores de Boston algo irresistible: un 50 % de ganancia en 45 días, o un 100 % en 90. Decía que el beneficio venía de comprar barato en el extranjero unos cupones postales internacionales y canjearlos en Estados Unidos por más dinero.\n\nEn realidad, Ponzi pagaba a los primeros inversores con el dinero que aportaban los nuevos. Él mismo lo describió como «el viejo juego de robarle a Pedro para pagarle a Pablo». Mientras entraban inversores nuevos, el sistema parecía funcionar; cuando dejaron de llegar, se derrumbó.",
+   "deep": "El fraude se vino abajo en agosto de 1920, tras una investigación del periódico Boston Post y la intervención de las autoridades. Los inversores recuperaron menos de 30 centavos por cada dólar y perdieron, en total, unos 20 millones de dólares de 1920. Ponzi fue condenado a cinco años de prisión por fraude postal y después a otra condena estatal, y en 1934 fue deportado a Italia. Murió en la pobreza en Río de Janeiro en 1949, con una herencia de 75 dólares. Curiosamente, la idea no era suya: se cree que se inspiró en un fraude parecido de William Miller en Brooklyn, en 1899. Pero fue su nombre el que quedó para la historia. La lección sigue vigente: cuando alguien promete ganancias muy altas, rápidas y sin riesgo, conviene preguntarse de dónde sale realmente el dinero.",
+   "sources": [
+    {
+     "t": "Wikipedia — Charles Ponzi",
+     "org": "Wikipedia en inglés",
+     "title": "Charles Ponzi",
+     "u": "https://en.wikipedia.org/wiki/Charles_Ponzi",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-tragedia-comunes",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "economia",
+   "sub": "Teoría económica",
+   "title": "La «tragedia de los comunes»: por qué se agota lo que es de todos",
+   "desc": "Si cada uno saca su propio beneficio de un recurso compartido, todos pueden salir perdiendo. Pero una Nobel demostró que no es inevitable.",
+   "body": "Imagina un prado que pertenece a todo un pueblo. Cada pastor gana algo si añade una vaca más a su rebaño, mientras que el daño por el exceso de pasto se reparte entre todos. Así que cada uno, actuando de forma razonable para sí mismo, añade vacas, hasta que el prado se agota y todos pierden. Este ejemplo lo propuso en 1833 el economista William Forster Lloyd.\n\nLa idea es antigua: ya Aristóteles había observado que lo que es común a muchos recibe el menor cuidado. Pero la expresión «tragedia de los comunes» la popularizó el ecólogo Garrett Hardin en un artículo de 1968 en la revista Science, donde la aplicó a problemas como la contaminación de la atmósfera y los océanos.",
+   "deep": "Hoy se usa para explicar problemas como la sobrepesca, la escasez de agua, el cambio climático o la resistencia a los antibióticos: recursos compartidos que se deterioran porque nadie tiene suficiente incentivo para cuidarlos. Un caso clásico es el agotamiento de la pesca en los Grandes Bancos de Terranova. Pero la teoría tiene críticos importantes. Algunos historiadores señalan que los antiguos prados comunales de Inglaterra estaban bien gestionados mediante normas tradicionales. Y la economista Elinor Ostrom, premio Nobel de Economía en 2009, demostró con muchos estudios de campo que las comunidades a menudo crean sus propias reglas para administrar bien sus recursos comunes. Identificó las condiciones que ayudan: límites claros, una comunidad estable y normas locales que se puedan hacer cumplir. Las ideas de Hardin sobre la población, además, han sido muy criticadas.",
+   "sources": [
+    {
+     "t": "Wikipedia — Tragedy of the commons",
+     "org": "Wikipedia en inglés",
+     "title": "Tragedy of the commons",
+     "u": "https://en.wikipedia.org/wiki/Tragedy_of_the_commons",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "debate",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-diwali",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "religion",
+   "sub": "Festividades",
+   "title": "Diwali, la «fiesta de las luces», la celebran cuatro religiones distintas",
+   "desc": "Hindúes, jainistas, sijs y algunos budistas la celebran, cada uno con su propio significado.",
+   "body": "Diwali es la gran fiesta de las luces de la India. Su nombre viene del sánscrito y significa «hilera o serie de luces». Simboliza el triunfo de la luz sobre la oscuridad, del bien sobre el mal y del conocimiento sobre la ignorancia. Se celebra entre mediados de octubre y mediados de noviembre, en torno a la luna nueva, y dura normalmente cinco o seis días.\n\nDurante la fiesta se encienden pequeñas lámparas de aceite llamadas diyas, se decoran las casas con dibujos de colores en el suelo llamados rangoli, se hacen oraciones, se lanzan fuegos artificiales, se comparten dulces y se visita a la familia.",
+   "deep": "Lo más llamativo es que no es una fiesta de una sola religión. Para muchos hindúes recuerda el regreso del dios Rama a su ciudad, Ayodhya, y está ligada al culto a Lakshmi, la diosa de la prosperidad, con variaciones según la región. Los jainistas celebran ese día el nirvana de Mahavira, su gran maestro. Los sijs recuerdan el Bandi Chhor Divas, la liberación del gurú Hargobind. Y los budistas newar, del valle de Katmandú, también la celebran. Diwali es festivo oficial en países como la India, Nepal, Singapur y Malasia, y en algunos estados de Estados Unidos. En 2026 se celebra del 6 al 10 de noviembre. Su cara negativa son los fuegos artificiales, que aumentan la contaminación del aire y causan quemaduras.",
+   "sources": [
+    {
+     "t": "Wikipedia — Diwali",
+     "org": "Wikipedia en inglés",
+     "title": "Diwali",
+     "u": "https://en.wikipedia.org/wiki/Diwali",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-camino-santiago",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "religion",
+   "sub": "Peregrinaciones",
+   "title": "Para recibir la «compostela» hay que caminar al menos los últimos 100 kilómetros",
+   "desc": "El Camino de Santiago recibe cada año a cientos de miles de peregrinos. En 2025 fueron unos 530.000.",
+   "body": "El Camino de Santiago es una red de rutas de peregrinación que llevan a la catedral de Santiago de Compostela, en Galicia, en el noroeste de España, donde según la tradición está enterrado el apóstol Santiago. Hay registros de visitas al santuario desde el siglo IX, y en la Edad Media se convirtió en una de las grandes peregrinaciones de la cristiandad.\n\nQuien quiere el certificado oficial, la compostela, debe recorrer a pie al menos los últimos 100 kilómetros, o 200 en bicicleta, y sellar por el camino una cartilla llamada credencial. El símbolo de los peregrinos es la concha de vieira, que originalmente servía como prueba de que se había completado el viaje.",
+   "deep": "La ruta más popular es el Camino Francés, que en 2024 recorrió el 47 % de los peregrinos, seguida del Camino Portugués; también existen el Primitivo, el del Norte y rutas que salen de Francia y de Europa central. La afluencia no deja de crecer: según los registros de la catedral, en 2025 llegaron unos 530.000 peregrinos, de muchos países y por motivos religiosos, espirituales, deportivos o culturales. La UNESCO declaró Patrimonio de la Humanidad las rutas españolas en 1993 y las francesas en 1998. Los años en que el 25 de julio, día de Santiago, cae en domingo son Años Santos, con más peregrinos; el próximo será 2027.",
+   "sources": [
+    {
+     "t": "Wikipedia — Camino de Santiago",
+     "org": "Wikipedia en inglés",
+     "title": "Camino de Santiago",
+     "u": "https://en.wikipedia.org/wiki/Camino_de_Santiago",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-kumbh-mela",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "religion",
+   "sub": "Peregrinaciones",
+   "title": "La Kumbh Mela es la mayor reunión de personas del planeta",
+   "desc": "En la edición de 2025, en Prayagraj, la India, se calcularon unos 660 millones de asistentes, aunque las cifras varían mucho.",
+   "body": "La Kumbh Mela es una peregrinación hindú que se celebra en cuatro lugares junto a ríos sagrados de la India: Prayagraj, Haridwar, Nashik y Ujjain. Su fecha depende de las posiciones de Júpiter, el Sol y la Luna. Los peregrinos se sumergen en el agua en un baño ritual que, según su fe, limpia los pecados.\n\nSu escala es difícil de imaginar. Para la gran Maha Kumbh de 2025 en Prayagraj, se citan unos 660 millones de asistentes a lo largo de las semanas de celebración, frente a 240 millones en 2019. Las estimaciones varían mucho según la fuente, pero no hay duda de que es la mayor concentración humana del mundo.",
+   "deep": "Cada lugar celebra una Kumbh Mela completa cada 12 años, y Prayagraj y Haridwar acogen además una «media» Kumbh cada seis años. Según la tradición hindú, la fiesta recuerda una leyenda en la que dioses y demonios batieron el océano para obtener el néctar de la inmortalidad, y unas gotas cayeron en esos cuatro lugares; los historiadores señalan, sin embargo, que los textos más antiguos no relacionan esa leyenda con un festival. Participan ascetas llamados sadhus y grupos monásticos, y hay discursos religiosos, cantos y comidas comunitarias. La UNESCO la incluyó en su lista de Patrimonio Cultural Inmaterial. Una multitud así tiene riesgos: en enero de 2025, una avalancha humana en Prayagraj causó al menos 30 muertos, según la cifra oficial.",
+   "sources": [
+    {
+     "t": "Wikipedia — Kumbh Mela",
+     "org": "Wikipedia en inglés",
+     "title": "Kumbh Mela",
+     "u": "https://en.wikipedia.org/wiki/Kumbh_Mela",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-novena-beethoven",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "cultura",
+   "sub": "Música",
+   "title": "Beethoven estrenó la Novena Sinfonía casi totalmente sordo",
+   "desc": "Según una anécdota, una cantante tuvo que girarlo para que viera los aplausos que no podía oír.",
+   "body": "El 7 de mayo de 1824, en el teatro Kärntnertor de Viena, se estrenó la Novena Sinfonía de Ludwig van Beethoven. El compositor estaba casi completamente sordo. Oficialmente dirigía Michael Umlauf, pero Beethoven estaba en el escenario marcando el compás.\n\nEl público ovacionó la obra varias veces de pie. Según una anécdota famosa, Beethoven seguía de espaldas, sin oír nada, hasta que la contralto Caroline Unger lo giró para que pudiera ver los aplausos.",
+   "deep": "La Novena, compuesta entre 1822 y 1824, fue su última sinfonía completa y la primera gran sinfonía que incluyó voces: su último movimiento pone música al poema «Oda a la alegría», de Friedrich Schiller, para solistas y coro. Su melodía se convirtió en un símbolo: el Consejo de Europa la adoptó como himno en 1972, y las Comunidades Europeas en 1985. En 2001, la UNESCO incluyó su manuscrito en el registro Memoria del Mundo, la primera partitura musical que recibió ese honor. Existe una leyenda popular según la cual los 74 minutos de duración del disco compacto se eligieron para que cupiera entera esta sinfonía, pero no está demostrada. Una interpretación normal dura entre 65 y 70 minutos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Symphony No. 9 (Beethoven)",
+     "org": "Wikipedia en inglés",
+     "title": "Symphony No. 9 (Beethoven)",
+     "u": "https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-torre-eiffel",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "cultura",
+   "sub": "Arquitectura",
+   "title": "La Torre Eiffel iba a desmontarse en 1909 y la salvó la radio",
+   "desc": "Construida para la Exposición Universal de 1889, fue muy criticada por artistas. Su utilidad para las comunicaciones evitó su desmantelamiento.",
+   "body": "La Torre Eiffel se construyó entre 1887 y 1889 como gran atracción de la Exposición Universal de París de 1889. La diseñaron los ingenieros Maurice Koechlin y Émile Nouguier, de la empresa de Gustave Eiffel, y el arquitecto Stephen Sauvestre le añadió los arcos decorativos. Con sus 330 metros actuales, antena incluida, fue la estructura más alta del mundo hasta 1930, cuando la superó el edificio Chrysler de Nueva York.\n\nHoy es un símbolo de Francia, pero no siempre fue querida. En 1887, un grupo de artistas destacados protestó contra su construcción. Se cuenta que el escritor Guy de Maupassant almorzaba a menudo en el restaurante de la torre porque era el único lugar de París desde el que no se veía.",
+   "deep": "La torre no estaba pensada para durar: debía desmontarse en 1909, cuando terminara la concesión original. La salvó su utilidad práctica: resultó muy valiosa como antena para la radiotelegrafía, y se decidió conservarla. Hoy es el monumento de pago más visitado del mundo, con casi seis millones de visitantes en 2022. Para protegerla del óxido, cada siete años se le aplican unas 60 toneladas de pintura. Y es una estructura viva: por la dilatación del metal, su cima puede desplazarse hasta 18 centímetros en dirección contraria al Sol cuando una de sus caras se calienta. Los parisinos la apodan «la dama de hierro».",
+   "sources": [
+    {
+     "t": "Wikipedia — Eiffel Tower",
+     "org": "Wikipedia en inglés",
+     "title": "Eiffel Tower",
+     "u": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "m-pizza-margarita",
+   "type": "mito",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "cultura",
+   "sub": "Gastronomía",
+   "verdict": "matizado",
+   "title": "«La pizza Margarita se inventó en 1889 en honor a la reina Margarita»",
+   "desc": "Matizado. Es una historia muy bonita, pero hay pizzas parecidas documentadas décadas antes y la leyenda tiene puntos débiles.",
+   "body": "La historia es famosa: en 1889, el pizzero napolitano Raffaele Esposito preparó varias pizzas para la reina Margarita de Saboya, y la que más le gustó fue la que llevaba tomate, mozzarella y albahaca, con los colores de la bandera italiana: rojo, blanco y verde. En su honor, se llamó pizza Margarita.\n\nLas investigaciones posteriores ponen en duda el relato. No se han encontrado noticias de la época sobre esa visita real, y la historia y el nombre «Margarita» se empezaron a promocionar en las décadas de 1930 y 1940. También se ha cuestionado la autenticidad de la carta de agradecimiento de la casa real que se exhibe en la pizzería.",
+   "deep": "Lo que sí está documentado es que en Nápoles ya se usaban coberturas muy parecidas mucho antes. Entre 1796 y 1810 se preparaban pizzas con ingredientes similares, y en 1849 el escritor Emanuele Rocco describió una con albahaca, tomate y finas lonchas de mozzarella. En 1866, Francesco De Bourcard también describió coberturas emparentadas. Así que, aunque la reina pudo probar y popularizar esa combinación, es muy poco probable que se inventara para ella. Hoy la pizza Margarita es una pizza napolitana redonda, con el borde elevado, cubierta de tomate, mozzarella de búfala o fior di latte, albahaca y aceite de oliva virgen extra, y horneada tradicionalmente en horno de leña.",
+   "sources": [
+    {
+     "t": "Wikipedia — Pizza Margherita",
+     "org": "Wikipedia en inglés",
+     "title": "Pizza Margherita",
+     "u": "https://en.wikipedia.org/wiki/Pizza_Margherita",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "debate",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-glosas-emilianenses",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "lengua",
+   "sub": "Historia del español",
+   "title": "Algunas de las primeras palabras escritas en español son notas al margen de un libro en latín",
+   "desc": "Las Glosas Emilianenses, de los siglos X u XI, se escribieron en un monasterio de La Rioja. Un experto las llamó el «primer vagido» del idioma.",
+   "body": "En el monasterio de San Millán de la Cogolla, en La Rioja, España, un monje anotó hace unos mil años en los márgenes de un libro en latín pequeñas aclaraciones para entender mejor el texto. Esas notas, escritas en los siglos X u XI, se conocen como Glosas Emilianenses, y durante mucho tiempo se consideraron el primer texto escrito en español.\n\nLo interesante es que el monje mezclaba idiomas: hay notas en un latín simplificado, en una lengua romance temprana, el antepasado del español, y también en vasco. Solo dos de las alrededor de mil glosas, con seis palabras en total, están en euskera.",
+   "deep": "La glosa más larga es una oración en la página 72, a la que el filólogo Dámaso Alonso llamó «el primer vagido de la lengua española», es decir, su primer llanto de recién nacido. En 2010, la Real Academia Española señaló como textos aún más antiguos los Cartularios de Valpuesta, del siglo IX. Aun así, las Glosas Emilianenses siguen ocupando un lugar especial, porque su gramática romance se distingue claramente del latín. El códice original, llamado Aemilianensis 60, fue confiscado en el siglo XIX y hoy se guarda en la Real Academia de la Historia, en Madrid; La Rioja ha pedido varias veces su devolución.",
+   "sources": [
+    {
+     "t": "Wikipedia — Glosas Emilianenses",
+     "org": "Wikipedia en inglés",
+     "title": "Glosas Emilianenses",
+     "u": "https://en.wikipedia.org/wiki/Glosas_Emilianenses",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-voseo",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "lengua",
+   "sub": "Variedades del español",
+   "title": "Millones de hispanohablantes dicen «vos sos» en lugar de «tú eres», y es correcto",
+   "desc": "El voseo es la forma normal de tratar a alguien de confianza en Argentina, Uruguay, Paraguay y buena parte de Centroamérica.",
+   "body": "En muchos países de América, para hablar con alguien de confianza no se usa «tú», sino «vos»: «vos sos», «vos querés», «vos podés». Este fenómeno se llama voseo, y en la mayoría de las regiones donde se usa sustituye por completo al tuteo. Es lo normal en el español del Río de la Plata, en Argentina y Uruguay, en Paraguay, en el oriente de Bolivia y en buena parte de Centroamérica.\n\nNo es un error ni una deformación. La Real Academia Española lo recoge en su Diccionario panhispánico de dudas, y sus tablas de conjugación del voseo se basan en el uso del Río de la Plata.",
+   "deep": "Su origen está en la historia del idioma. En latín solo existían «tu» y «vos», y «vos» se usaba como plural y también como forma de respeto. Con el tiempo, en España «vos» perdió prestigio y terminó desapareciendo, mientras surgía «usted», que viene de «vuestra merced». En cambio, en buena parte de América, «vos» se mantuvo como forma de confianza. Hay variantes curiosas: en Chile, el pronombre «vos» se reserva para situaciones muy íntimas, pero es muy común el voseo en el verbo con el pronombre «tú», como en «tú sabís» o «tú venís». En República Dominicana y en el resto del Caribe, en cambio, lo habitual es el tuteo.",
+   "sources": [
+    {
+     "t": "Wikipedia — Voseo",
+     "org": "Wikipedia en inglés",
+     "title": "Voseo",
+     "u": "https://en.wikipedia.org/wiki/Voseo",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-espanol-segunda-lengua",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "lengua",
+   "sub": "El español en el mundo",
+   "title": "El español es la segunda lengua materna más hablada del mundo",
+   "desc": "Lo tienen como lengua materna unos 519 millones de personas, solo por detrás del chino mandarín. México es el país con más hablantes.",
+   "body": "El español, también llamado castellano, es la segunda lengua materna más hablada del planeta, solo superada por el chino mandarín. Según cifras de 2025, unos 519 millones de personas lo tienen como lengua materna, y si se cuentan quienes lo hablan como segunda lengua o lo aprenden, la cifra total ronda los 636 millones.\n\nEs oficial en 21 países y en un territorio dependiente, y es una de las seis lenguas oficiales de las Naciones Unidas. El país con más hablantes nativos no es España, sino México, con unos 130 millones.",
+   "deep": "El español nació a partir del latín vulgar en el reino de Castilla, en el centro-norte de la península ibérica. Las primeras huellas escritas aparecen en textos del siglo IX del norte de la península, y Toledo fue el centro de su primer uso escrito sistemático, en el siglo XIII. En 1492, Antonio de Nebrija publicó su gramática, una de las primeras de una lengua europea moderna. A partir de entonces, la colonización lo llevó a América, a Filipinas y a Guinea Ecuatorial. Sobre su nombre hay un debate frecuente, pero la Real Academia Española considera que «español» y «castellano» son sinónimos igualmente válidos.",
+   "sources": [
+    {
+     "t": "Wikipedia — Spanish language",
+     "org": "Wikipedia en inglés",
+     "title": "Spanish language",
+     "u": "https://en.wikipedia.org/wiki/Spanish_language",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-primer-bebe-probeta",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "medicina",
+   "sub": "Reproducción",
+   "title": "El primer bebé concebido por fecundación in vitro nació en 1978",
+   "desc": "Louise Brown nació en Inglaterra el 25 de julio de 1978. Uno de los científicos responsables recibió el Nobel en 2010.",
+   "body": "El 25 de julio de 1978, en el hospital general de Oldham, en Inglaterra, nació Louise Joy Brown, la primera persona concebida mediante fecundación in vitro: la unión del óvulo y el espermatozoide se produjo en un laboratorio y el embrión se implantó después en el útero de su madre, Lesley.\n\nEl procedimiento lo desarrollaron el ginecólogo Patrick Steptoe, el fisiólogo Robert Edwards y la embrióloga Jean Purdy, tras años de investigación. En 2010, Robert Edwards recibió el premio Nobel de Medicina por este trabajo.",
+   "deep": "El nacimiento causó una enorme polémica. Más tarde se supo que a los Brown no se les dijo que ningún intento de fecundación in vitro había logrado todavía un bebé, lo que plantea dudas sobre su consentimiento informado. El cardenal Albino Luciani, que poco después sería el papa Juan Pablo I, expresó su preocupación por las «fábricas de bebés», aunque no condenó a la familia. En 1982, la hermana de Louise, Natalie, nació también por fecundación in vitro, y en 1999 se convirtió en la primera persona concebida así que tuvo un hijo, de forma natural. Louise se casó en 2004 y su primer hijo, nacido en 2006, fue concebido de forma natural. Hoy la fecundación in vitro es una técnica habitual en todo el mundo.",
+   "sources": [
+    {
+     "t": "Wikipedia — Louise Brown",
+     "org": "Wikipedia en inglés",
+     "title": "Louise Brown",
+     "u": "https://en.wikipedia.org/wiki/Louise_Brown",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-primer-marcapasos",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 2,
+   "cat": "medicina",
+   "sub": "Cardiología",
+   "title": "El primer paciente con marcapasos implantado vivió más que su inventor y su cirujano",
+   "desc": "Arne Larsson recibió el primero en Suecia en 1958, que falló a las tres horas. A lo largo de su vida llevó 26 marcapasos distintos.",
+   "body": "El 8 de octubre de 1958, en el Instituto Karolinska de Solna, en Suecia, el cirujano Åke Senning implantó por primera vez un marcapasos completo dentro del cuerpo de un paciente. El aparato lo había diseñado el ingeniero Rune Elmqvist, y el paciente era Arne Larsson, un hombre cuyo corazón latía de forma peligrosamente lenta.\n\nAquel primer marcapasos falló a las tres horas, y el segundo duró dos días. Pero Larsson siguió adelante con nuevos dispositivos: a lo largo de su vida recibió 26 marcapasos diferentes. Murió en 2001, a los 86 años, después de haber sobrevivido tanto al inventor como al cirujano que le implantó el primero.",
+   "deep": "Antes de los marcapasos implantables hubo aparatos externos: el ingeniero canadiense John Hopps diseñó uno en 1950, y el médico Paul Zoll fabricó dispositivos más pequeños a partir de 1952. Un marcapasos funciona enviando pequeños impulsos eléctricos que hacen latir el corazón a un ritmo adecuado. En 1960 empezaron a usarse en personas los marcapasos implantables creados por Wilson Greatbatch, con baterías de mercurio. El gran salto llegó con las pilas de litio y yodo, introducidas en 1974, que alargaron la vida de los marcapasos de alrededor de un año a hasta once. Hoy las baterías suelen durar de 5 a 10 años, y existen marcapasos sin cables, del tamaño de una cápsula, que se colocan dentro del corazón a través de una vena de la ingle.",
+   "sources": [
+    {
+     "t": "Wikipedia — Artificial cardiac pacemaker",
+     "org": "Wikipedia en inglés",
+     "title": "Artificial cardiac pacemaker",
+     "u": "https://en.wikipedia.org/wiki/Artificial_cardiac_pacemaker",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
+  },
+  {
+   "id": "c-john-snow-colera",
+   "type": "curiosidad",
+   "status": "publicado",
+   "date": "2026-11-27",
+   "level": 1,
+   "cat": "medicina",
+   "sub": "Epidemiología",
+   "title": "Un mapa de puntos descubrió que el cólera se transmitía por el agua",
+   "desc": "En 1854, el médico John Snow situó los casos de cólera de un barrio de Londres en un mapa y señaló una fuente de agua.",
+   "body": "En 1854, un brote de cólera devastó el barrio de Soho, en Londres, y mató a cientos de personas en pocos días. En aquella época, la explicación dominante era la teoría del «miasma»: se creía que enfermedades como el cólera se transmitían por el aire contaminado, el mal olor de la suciedad.\n\nEl médico John Snow no estaba de acuerdo: pensaba que la enfermedad se transmitía por el agua. Para demostrarlo, marcó en un mapa del barrio cada caso con un punto. Los puntos se concentraban alrededor de una fuente pública: la bomba de agua de Broad Street. Las autoridades de la parroquia retiraron la manivela de la bomba para que nadie pudiera usarla.",
+   "deep": "Snow reunió más pruebas. Comparó a los clientes de dos compañías de agua y comprobó que la mortalidad por cólera era mucho mayor entre quienes recibían agua contaminada del río Támesis. Hubo además un detalle revelador: los trabajadores de una cervecería cercana apenas enfermaron, aparentemente porque bebían cerveza en lugar del agua de la bomba. Más tarde se relacionó el brote con la contaminación por aguas residuales de pozos negros que filtraban cerca de la fuente. Hay que matizar que el brote quizá ya estaba remitiendo cuando se retiró la manivela. Aun así, el trabajo de Snow se considera el acontecimiento fundacional de la epidemiología, la ciencia que estudia cómo se propagan las enfermedades. En Londres hay hoy una réplica de la bomba, instalada en 1992.",
+   "sources": [
+    {
+     "t": "Wikipedia — 1854 Broad Street cholera outbreak",
+     "org": "Wikipedia en inglés",
+     "title": "1854 Broad Street cholera outbreak",
+     "u": "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak",
+     "kind": "enciclopedia",
+     "accessed": "2026-11-27",
+     "note": "Obra de consulta colaborativa de edición continua (sin fecha única de publicación)."
+    }
+   ],
+   "verif": {
+    "status": "verificado",
+    "level": "enciclopedica",
+    "reviewed": "2026-11-27",
+    "method": "Texto de elaboración propia: cada cifra, fecha y nombre se comprobó contra el texto de la fuente citada; lo dudoso o discutido se indica como tal."
+   },
+   "claim": "hecho",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "note": "Publicación, con datos verificados contra las fuentes"
+    }
+   ]
   }
  ],
  "questions": [
@@ -33780,6 +35450,726 @@ window.SQ_CONTENT = {
    ],
    "a": 1,
    "exp": "Aparece en el «Timeo» y el «Critias» de Platón, hacia el 360 antes de Cristo, y la mayoría de los especialistas la considera ficticia."
+  },
+  {
+   "id": "q453",
+   "cat": "ciencia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-efecto-mpemba",
+   "q": "¿Qué es el efecto Mpemba?",
+   "o": [
+    "Que el agua salada hierve antes",
+    "La observación de que un líquido caliente puede congelarse antes que uno frío",
+    "Que el hielo flota",
+    "Que el agua se expande al calentarse"
+   ],
+   "a": 1,
+   "exp": "Lleva el nombre de un estudiante tanzano que lo observó en 1963; en el agua, su existencia sigue en debate."
+  },
+  {
+   "id": "q454",
+   "cat": "ciencia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-petricor",
+   "q": "¿Cómo se llama el olor que se produce cuando llueve sobre tierra seca?",
+   "o": [
+    "Ozonito",
+    "Petricor",
+    "Geomancia",
+    "Humedina"
+   ],
+   "a": 1,
+   "exp": "El término lo propusieron Isabel Joy Bear y Richard Thomas en 1964; parte del olor lo producen bacterias del suelo."
+  },
+  {
+   "id": "q455",
+   "cat": "ciencia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-teflon",
+   "q": "¿Cómo se descubrió el teflón?",
+   "o": [
+    "Buscando un pegamento",
+    "Por accidente, al investigar un gas refrigerante",
+    "En un programa espacial",
+    "Al intentar fabricar plástico para botellas"
+   ],
+   "a": 1,
+   "exp": "Roy Plunkett lo encontró en 1938 dentro de un cilindro de gas que había dejado de funcionar."
+  },
+  {
+   "id": "q456",
+   "cat": "historia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-biblioteca-alejandria",
+   "q": "¿Cómo desapareció realmente la Biblioteca de Alejandría?",
+   "o": [
+    "En un solo incendio provocado por César",
+    "Con un declive gradual a lo largo de siglos",
+    "Por orden del califa Omar",
+    "Por un terremoto"
+   ],
+   "a": 1,
+   "exp": "Sufrió varios golpes, como la expulsión de sabios en el 145 a. C. y el incendio del 48 a. C., pero su declive fue lento."
+  },
+  {
+   "id": "q457",
+   "cat": "historia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-gran-piramide",
+   "q": "¿Para qué faraón se construyó la Gran Pirámide de Guiza?",
+   "o": [
+    "Tutankamón",
+    "Ramsés II",
+    "Keops",
+    "Akenatón"
+   ],
+   "a": 2,
+   "exp": "Se construyó para Keops hacia el 2600 a. C. y fue la estructura más alta del mundo durante más de 3.700 años."
+  },
+  {
+   "id": "q458",
+   "cat": "historia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-peste-negra",
+   "q": "¿Qué bacteria causó la peste negra?",
+   "o": [
+    "Vibrio cholerae",
+    "Yersinia pestis",
+    "Mycobacterium tuberculosis",
+    "Salmonella typhi"
+   ],
+   "a": 1,
+   "exp": "El ADN de las víctimas confirmó que la causa fue Yersinia pestis."
+  },
+  {
+   "id": "q459",
+   "cat": "psicologia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-efecto-stroop",
+   "q": "¿En qué consiste el efecto Stroop?",
+   "o": [
+    "En recordar mejor los colores",
+    "En tardar más en nombrar el color de la tinta cuando la palabra dice otro color",
+    "En ver colores donde no los hay",
+    "En confundir el rojo y el verde"
+   ],
+   "a": 1,
+   "exp": "Leer es tan automático que la palabra interfiere con la tarea de nombrar el color de la tinta."
+  },
+  {
+   "id": "q460",
+   "cat": "psicologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-efecto-mcgurk",
+   "q": "En el efecto McGurk, si oyes «ba» y ves unos labios que dicen «ga», ¿qué sueles percibir?",
+   "o": [
+    "«ba»",
+    "«ga»",
+    "«da»",
+    "Nada"
+   ],
+   "a": 2,
+   "exp": "El cerebro combina vista y oído y suele construir una sílaba intermedia: «da»."
+  },
+  {
+   "id": "q461",
+   "cat": "psicologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "m-carcel-stanford",
+   "q": "¿Cuándo terminó el experimento de la cárcel de Stanford, previsto para dos semanas?",
+   "o": [
+    "Al primer día",
+    "Al sexto día",
+    "A los tres meses",
+    "Nunca se interrumpió"
+   ],
+   "a": 1,
+   "exp": "Zimbardo lo detuvo al sexto día tras las protestas de Christina Maslach."
+  },
+  {
+   "id": "q462",
+   "cat": "universo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-gran-mancha-roja",
+   "q": "¿Qué es la Gran Mancha Roja de Júpiter?",
+   "o": [
+    "Un volcán",
+    "Una tormenta gigante",
+    "Un cráter de impacto",
+    "Un océano de lava"
+   ],
+   "a": 1,
+   "exp": "Es la mayor tormenta anticiclónica del sistema solar, más ancha que la Tierra, aunque se está encogiendo."
+  },
+  {
+   "id": "q463",
+   "cat": "universo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-primer-exoplaneta",
+   "q": "¿Cómo se llama el primer planeta descubierto alrededor de una estrella parecida al Sol?",
+   "o": [
+    "Kepler-22b",
+    "51 Pegasi b (Dimidium)",
+    "Próxima b",
+    "TRAPPIST-1e"
+   ],
+   "a": 1,
+   "exp": "Lo anunciaron Michel Mayor y Didier Queloz en 1995, y por ello recibieron el Nobel de Física de 2019."
+  },
+  {
+   "id": "q464",
+   "cat": "universo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-estrellas-fugaces",
+   "q": "¿Qué es en realidad una estrella fugaz?",
+   "o": [
+    "Una estrella que explota",
+    "Un fragmento de roca o polvo que se quema en la atmósfera",
+    "Un satélite que cae",
+    "Un rayo lejano"
+   ],
+   "a": 1,
+   "exp": "Es un meteoro: la estela de luz de un meteoroide que se calienta al entrar en la atmósfera a gran velocidad."
+  },
+  {
+   "id": "q465",
+   "cat": "tecnologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-creeper",
+   "q": "¿Qué hacía Reaper, creado en 1972?",
+   "o": [
+    "Robaba contraseñas",
+    "Buscaba y borraba el programa Creeper",
+    "Enviaba correos basura",
+    "Mostraba anuncios"
+   ],
+   "a": 1,
+   "exp": "Ray Tomlinson lo creó para eliminar Creeper, y se considera el primer antivirus."
+  },
+  {
+   "id": "q466",
+   "cat": "tecnologia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-tetris",
+   "q": "¿Dónde se creó Tetris?",
+   "o": [
+    "En Japón, en Nintendo",
+    "En la Unión Soviética, en un centro de investigación de Moscú",
+    "En Estados Unidos, en Atari",
+    "En Finlandia"
+   ],
+   "a": 1,
+   "exp": "Alexey Pajitnov lo creó a mediados de los ochenta en el Centro de Computación Dorodnitsyn de Moscú."
+  },
+  {
+   "id": "q467",
+   "cat": "tecnologia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-ley-moore",
+   "q": "¿Qué predice la ley de Moore, en su versión de 1975?",
+   "o": [
+    "Que la velocidad de internet se duplica cada año",
+    "Que los transistores de un chip se duplican cada dos años",
+    "Que los precios de las computadoras bajan a la mitad cada mes",
+    "Que la memoria de los teléfonos se triplica cada año"
+   ],
+   "a": 1,
+   "exp": "Gordon Moore corrigió en 1975 su predicción inicial: la duplicación ocurriría cada dos años."
+  },
+  {
+   "id": "q468",
+   "cat": "geografia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-costa-canada",
+   "q": "¿Qué país tiene la costa más larga del mundo?",
+   "o": [
+    "Australia",
+    "Noruega",
+    "Canadá",
+    "Indonesia"
+   ],
+   "a": 2,
+   "exp": "Canadá encabeza la lista tanto en los datos de la CIA como en los del Instituto de Recursos Mundiales."
+  },
+  {
+   "id": "q469",
+   "cat": "geografia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-salar-uyuni",
+   "q": "¿En qué país está el Salar de Uyuni, el mayor salar del mundo?",
+   "o": [
+    "Chile",
+    "Perú",
+    "Bolivia",
+    "Argentina"
+   ],
+   "a": 2,
+   "exp": "Está en el departamento de Potosí, en Bolivia, y ocupa unos 10.582 km²."
+  },
+  {
+   "id": "q470",
+   "cat": "geografia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-mauna-kea",
+   "q": "¿Por qué se dice que el Mauna Kea podría ser más alto que el Everest?",
+   "o": [
+    "Porque crece cada año",
+    "Porque, medido desde su base en el fondo del océano, su altura total es mayor",
+    "Porque está más cerca del Sol",
+    "Porque su cima tiene hielo"
+   ],
+   "a": 1,
+   "exp": "Solo 4.207 m están sobre el mar; la mayor parte del volcán está bajo el Pacífico."
+  },
+  {
+   "id": "q471",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-cosquillas",
+   "q": "¿Por qué no puedes hacerte cosquillas a ti mismo?",
+   "o": [
+    "Porque la piel se acostumbra",
+    "Porque el cerebro predice la sensación y la atenúa",
+    "Porque los dedos no tienen nervios",
+    "Es un mito: sí se puede"
+   ],
+   "a": 1,
+   "exp": "Sin la sorpresa, el cerebro anticipa el roce y reduce su intensidad."
+  },
+  {
+   "id": "q472",
+   "cat": "cuerpo",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-adn-dos-metros",
+   "q": "¿Cuánto mediría aproximadamente el ADN de una sola célula humana si se estirara?",
+   "o": [
+    "Un milímetro",
+    "Unos dos metros",
+    "Un kilómetro",
+    "Lo mismo que la distancia a la Luna"
+   ],
+   "a": 1,
+   "exp": "El genoma de una célula, con sus dos juegos de cromosomas, mide unos dos metros estirado."
+  },
+  {
+   "id": "q473",
+   "cat": "cuerpo",
+   "level": 2,
+   "status": "publicado",
+   "ref": "m-olfato-humano",
+   "q": "¿De dónde viene la mayor parte de lo que percibimos como sabor?",
+   "o": [
+    "De la lengua",
+    "Del olfato",
+    "De la vista",
+    "Del oído"
+   ],
+   "a": 1,
+   "exp": "La mayor parte del sabor procede del olfato retronasal: los aromas suben a la nariz mientras masticamos."
+  },
+  {
+   "id": "q474",
+   "cat": "animales",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-gatos-dulce",
+   "q": "¿Qué sabor no pueden percibir los gatos?",
+   "o": [
+    "El salado",
+    "El dulce",
+    "El amargo",
+    "El umami"
+   ],
+   "a": 1,
+   "exp": "Les falta la proteína TAS1R2, necesaria para detectar el dulce, por un gen estropeado."
+  },
+  {
+   "id": "q475",
+   "cat": "animales",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-ave-lira",
+   "q": "¿De dónde viene el nombre del ave lira?",
+   "o": [
+    "De su canto, parecido a una lira",
+    "De la forma de la cola de los machos",
+    "De un rey griego",
+    "De su color"
+   ],
+   "a": 1,
+   "exp": "Las plumas externas de la cola de los machos recuerdan a una lira, el instrumento de cuerda."
+  },
+  {
+   "id": "q476",
+   "cat": "animales",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-pupilas-cabras",
+   "q": "¿Qué forma tienen las pupilas de las cabras?",
+   "o": [
+    "Redonda",
+    "Rectangular horizontal",
+    "Vertical en rendija",
+    "En forma de W"
+   ],
+   "a": 1,
+   "exp": "Como otros animales con pezuñas, tienen pupilas horizontales, relacionadas con un campo de visión amplio."
+  },
+  {
+   "id": "q477",
+   "cat": "filosofia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-kant-rutina",
+   "q": "¿En qué ciudad vivió Immanuel Kant casi toda su vida?",
+   "o": [
+    "Berlín",
+    "Viena",
+    "Königsberg, hoy Kaliningrado",
+    "París"
+   ],
+   "a": 2,
+   "exp": "Nació y murió en Königsberg, hoy Kaliningrado, Rusia, y salvo unos años como tutor en localidades cercanas, vivió allí siempre."
+  },
+  {
+   "id": "q478",
+   "cat": "filosofia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-paradoja-sorites",
+   "q": "¿Sobre qué trata la paradoja sorites?",
+   "o": [
+    "Sobre viajar en el tiempo",
+    "Sobre palabras vagas, como cuántos granos forman un montón",
+    "Sobre la existencia de Dios",
+    "Sobre una carrera entre Aquiles y una tortuga"
+   ],
+   "a": 1,
+   "exp": "Muestra que palabras como «montón» o «calvo» no tienen un límite preciso y conducen a conclusiones absurdas."
+  },
+  {
+   "id": "q479",
+   "cat": "filosofia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-analectas-confucio",
+   "q": "¿Quién escribió las «Analectas» de Confucio?",
+   "o": [
+    "El propio Confucio",
+    "Sus seguidores, después de su muerte",
+    "Un emperador chino",
+    "Un viajero europeo"
+   ],
+   "a": 1,
+   "exp": "Las recopilaron sus discípulos tras su muerte en el 479 a. C., y el texto se fue completando durante unos dos siglos."
+  },
+  {
+   "id": "q480",
+   "cat": "misterios",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-hombre-somerton",
+   "q": "¿Qué decía el papel encontrado en el bolsillo del hombre de Somerton?",
+   "o": [
+    "«Adiós» en francés",
+    "«Tamám Shud», «terminado» en persa",
+    "Una dirección",
+    "Un número de teléfono"
+   ],
+   "a": 1,
+   "exp": "Era un trozo arrancado de las «Rubaiyat» de Omar Jayam con las palabras persas «Tamám Shud»."
+  },
+  {
+   "id": "q481",
+   "cat": "misterios",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-amelia-earhart",
+   "q": "¿Qué intentaba hacer Amelia Earhart cuando desapareció en 1937?",
+   "o": [
+    "Cruzar el Atlántico",
+    "Dar la vuelta al mundo en avión",
+    "Llegar al Polo Norte",
+    "Batir un récord de altura"
+   ],
+   "a": 1,
+   "exp": "Desapareció con Fred Noonan cerca de la isla Howland durante su intento de vuelta al mundo."
+  },
+  {
+   "id": "q482",
+   "cat": "misterios",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-esferas-costa-rica",
+   "q": "¿Por qué algunos trabajadores dinamitaron esferas de piedra en Costa Rica?",
+   "o": [
+    "Para construir carreteras",
+    "Porque creían que guardaban oro dentro",
+    "Para estudiarlas",
+    "Porque estorbaban a los barcos"
+   ],
+   "a": 1,
+   "exp": "En los años treinta, durante el despeje de plantaciones, algunos las rompieron buscando oro."
+  },
+  {
+   "id": "q483",
+   "cat": "economia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-impuesto-ventanas",
+   "q": "¿Qué hacía mucha gente para pagar menos por el impuesto sobre las ventanas?",
+   "o": [
+    "Pintarlas de negro",
+    "Tapiarlas con ladrillos",
+    "Mudarse a Francia",
+    "Ponerles cortinas"
+   ],
+   "a": 1,
+   "exp": "Se tapiaban ventanas para quedar por debajo del límite; aún se ven casas antiguas con huecos cerrados."
+  },
+  {
+   "id": "q484",
+   "cat": "economia",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-esquema-ponzi",
+   "q": "¿Cómo funciona un esquema Ponzi?",
+   "o": [
+    "Invierte en empresas reales",
+    "Paga a los primeros inversores con el dinero de los nuevos",
+    "Imprime billetes falsos",
+    "Vende acciones de oro"
+   ],
+   "a": 1,
+   "exp": "Charles Ponzi pagaba las «ganancias» con dinero de nuevos inversores; cuando dejaron de llegar, el sistema se derrumbó."
+  },
+  {
+   "id": "q485",
+   "cat": "economia",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-tragedia-comunes",
+   "q": "¿Qué economista, premio Nobel, demostró que las comunidades pueden gestionar bien sus recursos comunes?",
+   "o": [
+    "Adam Smith",
+    "Elinor Ostrom",
+    "John Maynard Keynes",
+    "Milton Friedman"
+   ],
+   "a": 1,
+   "exp": "Elinor Ostrom mostró con estudios de campo que muchas comunidades crean sus propias reglas para cuidar los bienes comunes."
+  },
+  {
+   "id": "q486",
+   "cat": "religion",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-diwali",
+   "q": "¿Qué significa el nombre Diwali?",
+   "o": [
+    "Año nuevo",
+    "Hilera de luces",
+    "Fiesta de la cosecha",
+    "Gran río"
+   ],
+   "a": 1,
+   "exp": "Viene del sánscrito y significa «hilera o serie de luces»."
+  },
+  {
+   "id": "q487",
+   "cat": "religion",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-camino-santiago",
+   "q": "¿Cuántos kilómetros hay que caminar como mínimo para obtener la compostela?",
+   "o": [
+    "10",
+    "50",
+    "100",
+    "500"
+   ],
+   "a": 2,
+   "exp": "Hay que recorrer a pie al menos los últimos 100 km (o 200 en bicicleta) y sellar la credencial."
+  },
+  {
+   "id": "q488",
+   "cat": "religion",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-kumbh-mela",
+   "q": "¿Cada cuántos años se celebra la Kumbh Mela completa en un mismo lugar?",
+   "o": [
+    "Cada año",
+    "Cada 4 años",
+    "Cada 12 años",
+    "Cada 50 años"
+   ],
+   "a": 2,
+   "exp": "Cada uno de los cuatro lugares celebra una Kumbh Mela completa cada 12 años."
+  },
+  {
+   "id": "q489",
+   "cat": "cultura",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-novena-beethoven",
+   "q": "¿Qué poema canta el coro en el final de la Novena Sinfonía de Beethoven?",
+   "o": [
+    "«La Divina Comedia»",
+    "«Oda a la alegría», de Schiller",
+    "«El cuervo», de Poe",
+    "«Fausto», de Goethe"
+   ],
+   "a": 1,
+   "exp": "El último movimiento pone música a la «Oda a la alegría» de Friedrich Schiller."
+  },
+  {
+   "id": "q490",
+   "cat": "cultura",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-torre-eiffel",
+   "q": "¿Qué salvó a la Torre Eiffel de ser desmontada en 1909?",
+   "o": [
+    "Una votación popular",
+    "Su utilidad para la radiotelegrafía",
+    "Una orden de Napoleón III",
+    "El turismo"
+   ],
+   "a": 1,
+   "exp": "Resultó muy útil como antena de radiotelegrafía y se decidió conservarla."
+  },
+  {
+   "id": "q491",
+   "cat": "cultura",
+   "level": 1,
+   "status": "publicado",
+   "ref": "m-pizza-margarita",
+   "q": "¿Qué se sabe de la leyenda de la pizza Margarita y la reina en 1889?",
+   "o": [
+    "Está totalmente demostrada",
+    "Es dudosa: ya existían pizzas parecidas antes",
+    "La inventó la propia reina",
+    "Se creó en Roma"
+   ],
+   "a": 1,
+   "exp": "No hay noticias de la época sobre la visita, y en Nápoles se documentan coberturas similares desde finales del siglo XVIII."
+  },
+  {
+   "id": "q492",
+   "cat": "lengua",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-glosas-emilianenses",
+   "q": "¿Dónde se escribieron las Glosas Emilianenses?",
+   "o": [
+    "En la Universidad de Salamanca",
+    "En el monasterio de San Millán de la Cogolla, La Rioja",
+    "En Toledo",
+    "En Sevilla"
+   ],
+   "a": 1,
+   "exp": "Son notas en los márgenes de un códice latino del monasterio de San Millán de la Cogolla."
+  },
+  {
+   "id": "q493",
+   "cat": "lengua",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-voseo",
+   "q": "¿Qué es el voseo?",
+   "o": [
+    "Hablar muy rápido",
+    "Usar «vos» en lugar de «tú» para el trato de confianza",
+    "Pronunciar la «c» como «s»",
+    "Usar «vosotros» en América"
+   ],
+   "a": 1,
+   "exp": "Es el uso de «vos» como pronombre de confianza, normal en Argentina, Uruguay, Paraguay y Centroamérica."
+  },
+  {
+   "id": "q494",
+   "cat": "lengua",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-espanol-segunda-lengua",
+   "q": "¿Qué país tiene más hablantes nativos de español?",
+   "o": [
+    "España",
+    "Colombia",
+    "México",
+    "Argentina"
+   ],
+   "a": 2,
+   "exp": "México tiene unos 130 millones de hablantes nativos, más que ningún otro país."
+  },
+  {
+   "id": "q495",
+   "cat": "medicina",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-primer-bebe-probeta",
+   "q": "¿En qué año nació Louise Brown, la primera persona concebida por fecundación in vitro?",
+   "o": [
+    "1958",
+    "1978",
+    "1995",
+    "2001"
+   ],
+   "a": 1,
+   "exp": "Nació el 25 de julio de 1978 en Oldham, Inglaterra."
+  },
+  {
+   "id": "q496",
+   "cat": "medicina",
+   "level": 2,
+   "status": "publicado",
+   "ref": "c-primer-marcapasos",
+   "q": "¿Dónde se implantó el primer marcapasos dentro del cuerpo de un paciente, en 1958?",
+   "o": [
+    "En Estados Unidos",
+    "En Suecia",
+    "En Japón",
+    "En Francia"
+   ],
+   "a": 1,
+   "exp": "Se implantó en el Instituto Karolinska, en Suecia, a Arne Larsson, que después recibió 26 marcapasos."
+  },
+  {
+   "id": "q497",
+   "cat": "medicina",
+   "level": 1,
+   "status": "publicado",
+   "ref": "c-john-snow-colera",
+   "q": "¿Qué demostró John Snow con su famoso mapa de 1854?",
+   "o": [
+    "Que el cólera se transmitía por el aire",
+    "Que el cólera se transmitía por el agua contaminada",
+    "Que lo transmitían las ratas",
+    "Que era hereditario"
+   ],
+   "a": 1,
+   "exp": "Los casos se concentraban alrededor de la bomba de agua de Broad Street, lo que apoyaba la transmisión por agua."
   }
  ],
  "series": [

@@ -1,0 +1,83 @@
+@c-esquema-ponzi
+cat: economia
+type: curiosidad
+sub: Fraudes
+level: 1
+claim: hecho
+title: El «esquema Ponzi» lleva el nombre de un estafador que prometía duplicar el dinero en 90 días
+desc: En 1920, Charles Ponzi pagaba a los primeros inversores con el dinero de los nuevos. Los afectados perdieron unos 20 millones de dólares de la época.
+b: En 1920, Charles Ponzi, un inmigrante nacido en Italia, prometió a los inversores de Boston algo irresistible: un 50 % de ganancia en 45 días, o un 100 % en 90. Decía que el beneficio venía de comprar barato en el extranjero unos cupones postales internacionales y canjearlos en Estados Unidos por más dinero.
+b: En realidad, Ponzi pagaba a los primeros inversores con el dinero que aportaban los nuevos. Él mismo lo describió como «el viejo juego de robarle a Pedro para pagarle a Pablo». Mientras entraban inversores nuevos, el sistema parecía funcionar; cuando dejaron de llegar, se derrumbó.
+d: El fraude se vino abajo en agosto de 1920, tras una investigación del periódico Boston Post y la intervención de las autoridades. Los inversores recuperaron menos de 30 centavos por cada dólar y perdieron, en total, unos 20 millones de dólares de 1920. Ponzi fue condenado a cinco años de prisión por fraude postal y después a otra condena estatal, y en 1934 fue deportado a Italia. Murió en la pobreza en Río de Janeiro en 1949, con una herencia de 75 dólares. Curiosamente, la idea no era suya: se cree que se inspiró en un fraude parecido de William Miller en Brooklyn, en 1899. Pero fue su nombre el que quedó para la historia. La lección sigue vigente: cuando alguien promete ganancias muy altas, rápidas y sin riesgo, conviene preguntarse de dónde sale realmente el dinero.
+src: https://en.wikipedia.org/wiki/Charles_Ponzi | Wikipedia en inglés | Charles Ponzi
+q: ¿Cómo funciona un esquema Ponzi? | Invierte en empresas reales ; Paga a los primeros inversores con el dinero de los nuevos ; Imprime billetes falsos ; Vende acciones de oro | 1 | Charles Ponzi pagaba las «ganancias» con dinero de nuevos inversores; cuando dejaron de llegar, el sistema se derrumbó.
+
+@c-tragedia-comunes
+cat: economia
+type: curiosidad
+sub: Teoría económica
+level: 2
+claim: debate
+title: La «tragedia de los comunes»: por qué se agota lo que es de todos
+desc: Si cada uno saca su propio beneficio de un recurso compartido, todos pueden salir perdiendo. Pero una Nobel demostró que no es inevitable.
+b: Imagina un prado que pertenece a todo un pueblo. Cada pastor gana algo si añade una vaca más a su rebaño, mientras que el daño por el exceso de pasto se reparte entre todos. Así que cada uno, actuando de forma razonable para sí mismo, añade vacas, hasta que el prado se agota y todos pierden. Este ejemplo lo propuso en 1833 el economista William Forster Lloyd.
+b: La idea es antigua: ya Aristóteles había observado que lo que es común a muchos recibe el menor cuidado. Pero la expresión «tragedia de los comunes» la popularizó el ecólogo Garrett Hardin en un artículo de 1968 en la revista Science, donde la aplicó a problemas como la contaminación de la atmósfera y los océanos.
+d: Hoy se usa para explicar problemas como la sobrepesca, la escasez de agua, el cambio climático o la resistencia a los antibióticos: recursos compartidos que se deterioran porque nadie tiene suficiente incentivo para cuidarlos. Un caso clásico es el agotamiento de la pesca en los Grandes Bancos de Terranova. Pero la teoría tiene críticos importantes. Algunos historiadores señalan que los antiguos prados comunales de Inglaterra estaban bien gestionados mediante normas tradicionales. Y la economista Elinor Ostrom, premio Nobel de Economía en 2009, demostró con muchos estudios de campo que las comunidades a menudo crean sus propias reglas para administrar bien sus recursos comunes. Identificó las condiciones que ayudan: límites claros, una comunidad estable y normas locales que se puedan hacer cumplir. Las ideas de Hardin sobre la población, además, han sido muy criticadas.
+src: https://en.wikipedia.org/wiki/Tragedy_of_the_commons | Wikipedia en inglés | Tragedy of the commons
+q: ¿Qué economista, premio Nobel, demostró que las comunidades pueden gestionar bien sus recursos comunes? | Adam Smith ; Elinor Ostrom ; John Maynard Keynes ; Milton Friedman | 1 | Elinor Ostrom mostró con estudios de campo que muchas comunidades crean sus propias reglas para cuidar los bienes comunes.
+
+@c-diwali
+cat: religion
+type: curiosidad
+sub: Festividades
+level: 1
+claim: hecho
+title: Diwali, la «fiesta de las luces», la celebran cuatro religiones distintas
+desc: Hindúes, jainistas, sijs y algunos budistas la celebran, cada uno con su propio significado.
+b: Diwali es la gran fiesta de las luces de la India. Su nombre viene del sánscrito y significa «hilera o serie de luces». Simboliza el triunfo de la luz sobre la oscuridad, del bien sobre el mal y del conocimiento sobre la ignorancia. Se celebra entre mediados de octubre y mediados de noviembre, en torno a la luna nueva, y dura normalmente cinco o seis días.
+b: Durante la fiesta se encienden pequeñas lámparas de aceite llamadas diyas, se decoran las casas con dibujos de colores en el suelo llamados rangoli, se hacen oraciones, se lanzan fuegos artificiales, se comparten dulces y se visita a la familia.
+d: Lo más llamativo es que no es una fiesta de una sola religión. Para muchos hindúes recuerda el regreso del dios Rama a su ciudad, Ayodhya, y está ligada al culto a Lakshmi, la diosa de la prosperidad, con variaciones según la región. Los jainistas celebran ese día el nirvana de Mahavira, su gran maestro. Los sijs recuerdan el Bandi Chhor Divas, la liberación del gurú Hargobind. Y los budistas newar, del valle de Katmandú, también la celebran. Diwali es festivo oficial en países como la India, Nepal, Singapur y Malasia, y en algunos estados de Estados Unidos. En 2026 se celebra del 6 al 10 de noviembre. Su cara negativa son los fuegos artificiales, que aumentan la contaminación del aire y causan quemaduras.
+src: https://en.wikipedia.org/wiki/Diwali | Wikipedia en inglés | Diwali
+q: ¿Qué significa el nombre Diwali? | Año nuevo ; Hilera de luces ; Fiesta de la cosecha ; Gran río | 1 | Viene del sánscrito y significa «hilera o serie de luces».
+
+@c-camino-santiago
+cat: religion
+type: curiosidad
+sub: Peregrinaciones
+level: 1
+claim: hecho
+title: Para recibir la «compostela» hay que caminar al menos los últimos 100 kilómetros
+desc: El Camino de Santiago recibe cada año a cientos de miles de peregrinos. En 2025 fueron unos 530.000.
+b: El Camino de Santiago es una red de rutas de peregrinación que llevan a la catedral de Santiago de Compostela, en Galicia, en el noroeste de España, donde según la tradición está enterrado el apóstol Santiago. Hay registros de visitas al santuario desde el siglo IX, y en la Edad Media se convirtió en una de las grandes peregrinaciones de la cristiandad.
+b: Quien quiere el certificado oficial, la compostela, debe recorrer a pie al menos los últimos 100 kilómetros, o 200 en bicicleta, y sellar por el camino una cartilla llamada credencial. El símbolo de los peregrinos es la concha de vieira, que originalmente servía como prueba de que se había completado el viaje.
+d: La ruta más popular es el Camino Francés, que en 2024 recorrió el 47 % de los peregrinos, seguida del Camino Portugués; también existen el Primitivo, el del Norte y rutas que salen de Francia y de Europa central. La afluencia no deja de crecer: según los registros de la catedral, en 2025 llegaron unos 530.000 peregrinos, de muchos países y por motivos religiosos, espirituales, deportivos o culturales. La UNESCO declaró Patrimonio de la Humanidad las rutas españolas en 1993 y las francesas en 1998. Los años en que el 25 de julio, día de Santiago, cae en domingo son Años Santos, con más peregrinos; el próximo será 2027.
+src: https://en.wikipedia.org/wiki/Camino_de_Santiago | Wikipedia en inglés | Camino de Santiago
+q: ¿Cuántos kilómetros hay que caminar como mínimo para obtener la compostela? | 10 ; 50 ; 100 ; 500 | 2 | Hay que recorrer a pie al menos los últimos 100 km (o 200 en bicicleta) y sellar la credencial.
+
+@c-kumbh-mela
+cat: religion
+type: curiosidad
+sub: Peregrinaciones
+level: 2
+claim: hecho
+title: La Kumbh Mela es la mayor reunión de personas del planeta
+desc: En la edición de 2025, en Prayagraj, la India, se calcularon unos 660 millones de asistentes, aunque las cifras varían mucho.
+b: La Kumbh Mela es una peregrinación hindú que se celebra en cuatro lugares junto a ríos sagrados de la India: Prayagraj, Haridwar, Nashik y Ujjain. Su fecha depende de las posiciones de Júpiter, el Sol y la Luna. Los peregrinos se sumergen en el agua en un baño ritual que, según su fe, limpia los pecados.
+b: Su escala es difícil de imaginar. Para la gran Maha Kumbh de 2025 en Prayagraj, se citan unos 660 millones de asistentes a lo largo de las semanas de celebración, frente a 240 millones en 2019. Las estimaciones varían mucho según la fuente, pero no hay duda de que es la mayor concentración humana del mundo.
+d: Cada lugar celebra una Kumbh Mela completa cada 12 años, y Prayagraj y Haridwar acogen además una «media» Kumbh cada seis años. Según la tradición hindú, la fiesta recuerda una leyenda en la que dioses y demonios batieron el océano para obtener el néctar de la inmortalidad, y unas gotas cayeron en esos cuatro lugares; los historiadores señalan, sin embargo, que los textos más antiguos no relacionan esa leyenda con un festival. Participan ascetas llamados sadhus y grupos monásticos, y hay discursos religiosos, cantos y comidas comunitarias. La UNESCO la incluyó en su lista de Patrimonio Cultural Inmaterial. Una multitud así tiene riesgos: en enero de 2025, una avalancha humana en Prayagraj causó al menos 30 muertos, según la cifra oficial.
+src: https://en.wikipedia.org/wiki/Kumbh_Mela | Wikipedia en inglés | Kumbh Mela
+q: ¿Cada cuántos años se celebra la Kumbh Mela completa en un mismo lugar? | Cada año ; Cada 4 años ; Cada 12 años ; Cada 50 años | 2 | Cada uno de los cuatro lugares celebra una Kumbh Mela completa cada 12 años.
+
+@c-novena-beethoven
+cat: cultura
+type: curiosidad
+sub: Música
+level: 1
+claim: hecho
+title: Beethoven estrenó la Novena Sinfonía casi totalmente sordo
+desc: Según una anécdota, una cantante tuvo que girarlo para que viera los aplausos que no podía oír.
+b: El 7 de mayo de 1824, en el teatro Kärntnertor de Viena, se estrenó la Novena Sinfonía de Ludwig van Beethoven. El compositor estaba casi completamente sordo. Oficialmente dirigía Michael Umlauf, pero Beethoven estaba en el escenario marcando el compás.
+b: El público ovacionó la obra varias veces de pie. Según una anécdota famosa, Beethoven seguía de espaldas, sin oír nada, hasta que la contralto Caroline Unger lo giró para que pudiera ver los aplausos.
+d: La Novena, compuesta entre 1822 y 1824, fue su última sinfonía completa y la primera gran sinfonía que incluyó voces: su último movimiento pone música al poema «Oda a la alegría», de Friedrich Schiller, para solistas y coro. Su melodía se convirtió en un símbolo: el Consejo de Europa la adoptó como himno en 1972, y las Comunidades Europeas en 1985. En 2001, la UNESCO incluyó su manuscrito en el registro Memoria del Mundo, la primera partitura musical que recibió ese honor. Existe una leyenda popular según la cual los 74 minutos de duración del disco compacto se eligieron para que cupiera entera esta sinfonía, pero no está demostrada. Una interpretación normal dura entre 65 y 70 minutos.
+src: https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven) | Wikipedia en inglés | Symphony No. 9 (Beethoven)
+q: ¿Qué poema canta el coro en el final de la Novena Sinfonía de Beethoven? | «La Divina Comedia» ; «Oda a la alegría», de Schiller ; «El cuervo», de Poe ; «Fausto», de Goethe | 1 | El último movimiento pone música a la «Oda a la alegría» de Friedrich Schiller.

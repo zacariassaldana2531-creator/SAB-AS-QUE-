@@ -1,0 +1,84 @@
+@c-adn-dos-metros
+cat: cuerpo
+type: curiosidad
+sub: Células
+level: 1
+claim: hecho
+title: El ADN de una sola de tus células mediría unos dos metros estirado
+desc: Cabe en un núcleo microscópico porque está enrollado alrededor de unas proteínas como hilo en carretes.
+b: Dentro del núcleo de casi cada célula de tu cuerpo hay unos 3.000 millones de pares de bases de ADN por cada juego de cromosomas, y como heredamos dos juegos, uno de cada progenitor, el total ronda los 6.300 millones. Si pudieras estirar todo ese ADN y ponerlo en línea, mediría alrededor de dos metros: unos 208 centímetros en una célula de mujer y unos 205 en una de hombre.
+b: Y todo eso cabe en un núcleo que no se ve a simple vista. El secreto es el empaquetado. El ADN se enrolla alrededor de unas pequeñas proteínas llamadas histonas, dando unas dos vueltas completas a cada una, como un hilo en un carrete. Cada uno de esos carretes se llama nucleosoma, y el conjunto, mucho más compacto, se llama cromatina.
+d: Este empaquetado no solo sirve para ahorrar espacio. También ayuda a controlar qué partes del ADN se leen: las zonas muy compactadas son más difíciles de «abrir», mientras que las más sueltas se leen con facilidad. La estructura de doble hélice del ADN se publicó el 25 de abril de 1953 en la revista Nature, en el famoso artículo de James Watson y Francis Crick. Su trabajo dependió de forma crucial de una imagen de difracción de rayos X, la «Fotografía 51», obtenida bajo la supervisión de Rosalind Franklin, cuyo papel se minimizó durante décadas. En 2023, un análisis de sus documentos concluyó que Franklin fue una participante en pie de igualdad en el descubrimiento.
+src: https://en.wikipedia.org/wiki/DNA | Wikipedia en inglés | DNA
+q: ¿Cuánto mediría aproximadamente el ADN de una sola célula humana si se estirara? | Un milímetro ; Unos dos metros ; Un kilómetro ; Lo mismo que la distancia a la Luna | 1 | El genoma de una célula, con sus dos juegos de cromosomas, mide unos dos metros estirado.
+
+@m-olfato-humano
+cat: cuerpo
+type: mito
+verdict: matizado
+sub: Sentidos
+level: 2
+claim: debate
+title: «Los humanos podemos distinguir un billón de olores»
+desc: Matizado. Lo afirmó un estudio de 2014, pero otros científicos cuestionaron sus cálculos. Lo que sí está claro: nuestro olfato es mejor de lo que creemos.
+b: Durante mucho tiempo se repitió que los humanos podíamos distinguir unos 10.000 olores. En 2014, un estudio publicado en la revista Science propuso una cifra asombrosa: más de un billón. Para calcularla, los investigadores pidieron a voluntarios que compararan mezclas de sustancias olorosas y extrapolaron los resultados.
+b: La cifra dio la vuelta al mundo, pero otros científicos criticaron pronto sus matemáticas: con otros supuestos razonables, el resultado podía cambiar enormemente. Los propios autores aclararon además que distinguir dos olores, saber que son distintos, no es lo mismo que identificarlos o ponerles nombre.
+d: Más allá de la cifra, el olfato humano es más importante de lo que solemos pensar. La mayor parte de lo que llamamos sabor viene en realidad del olfato retronasal: los aromas de la comida suben a la nariz desde la boca mientras masticamos. Por eso, con la nariz tapada, la comida parece sosa. Las señales del olfato llegan directamente a regiones del cerebro relacionadas con la memoria y las emociones, lo que explica por qué un olor puede traernos un recuerdo de golpe. Aun así, otros animales nos superan: se calcula que los perros son entre 10.000 y 100.000 veces más sensibles. Perder el olfato, algo que la COVID-19 provocó en alrededor de la mitad de los pacientes, afecta mucho a la calidad de vida.
+src: https://en.wikipedia.org/wiki/Olfaction | Wikipedia en inglés | Olfaction
+q: ¿De dónde viene la mayor parte de lo que percibimos como sabor? | De la lengua ; Del olfato ; De la vista ; Del oído | 1 | La mayor parte del sabor procede del olfato retronasal: los aromas suben a la nariz mientras masticamos.
+
+@c-gatos-dulce
+cat: animales
+type: curiosidad
+sub: Mamíferos
+level: 1
+claim: hecho
+title: Los gatos no pueden saborear lo dulce
+desc: Les falta una proteína clave para detectar el azúcar por un defecto en un gen. En cambio, perciben muy bien el umami.
+b: Si a tu gato no le interesan los dulces, no es capricho: no puede saborearlos. Para detectar el sabor dulce hace falta un receptor formado por dos proteínas, y a los gatos les falta una de ellas, llamada TAS1R2. El gen que la produce está estropeado: es lo que los genetistas llaman un pseudogén. Así lo explicó un estudio de 2005 con un título muy claro: la pérdida de un gen del receptor del dulce explica la indiferencia de los gatos hacia el azúcar.
+b: Tiene sentido para un animal que, en la naturaleza, se alimenta casi solo de carne: el azúcar apenas forma parte de su dieta. En cambio, los gatos sí detectan el umami, el sabor sabroso de la carne y el pescado, gracias a otros receptores. El atún, por ejemplo, es especialmente rico en los compuestos que les atraen.
+d: Sus otros sentidos están muy afinados para la caza. Gracias a una capa reflectante detrás de la retina, el tapetum lucidum, responsable del brillo de sus ojos en la oscuridad, y a una gran cantidad de bastones, las células sensibles a la luz tenue, pueden ver con alrededor de una sexta parte de la luz que necesitamos los humanos. Oyen sonidos de hasta 64 kilohercios, bastante más agudos que los que puede oír una persona o un perro, y son capaces de localizar el origen de un sonido con un margen de unos 8 centímetros a un metro de distancia. Sus aproximadamente 24 bigotes móviles les informan de los movimientos del aire y de los objetos cercanos.
+src: https://en.wikipedia.org/wiki/Cat_senses | Wikipedia en inglés | Cat senses
+q: ¿Qué sabor no pueden percibir los gatos? | El salado ; El dulce ; El amargo ; El umami | 1 | Les falta la proteína TAS1R2, necesaria para detectar el dulce, por un gen estropeado.
+
+@c-ave-lira
+cat: animales
+type: curiosidad
+sub: Aves
+level: 1
+claim: hecho
+title: El ave lira puede imitar casi cualquier sonido que oye
+desc: Copia el canto de otras aves, de koalas o dingos e incluso ruidos humanos, aunque algunas historias famosas están exageradas.
+b: El ave lira, que vive en los bosques del sureste de Australia, es uno de los imitadores más asombrosos del reino animal. Copia con enorme precisión el canto de otras aves y los sonidos de animales como zarigüeyas, koalas o dingos, y también sonidos de origen humano.
+b: Su nombre se debe a la cola de los machos: sus plumas externas, anchas y curvadas, recuerdan a una lira, el antiguo instrumento de cuerda. Curiosamente, la forma de lira de las primeras ilustraciones fue un invento de un taxidermista, que colocó así las plumas sin haber visto nunca un ave viva.
+d: Existen dos especies, el ave lira soberbia y el ave lira de Albert. En plena época de cría, de junio a agosto, los machos pueden cantar hasta cuatro horas al día, casi la mitad de las horas de luz. Las hembras también son grandes imitadoras. Un estudio de 2021 descubrió algo sorprendente: durante el cortejo, los machos crean una ilusión acústica que reproduce el alboroto de una bandada entera de pájaros. Las historias de aves lira que imitan motosierras, alarmas de coche u obturadores de cámara se han hecho muy famosas, pero los especialistas advierten que la imitación de sonidos humanos está exagerada y que muchos casos son anecdóticos. El macho del ave lira soberbia aparece en la moneda australiana de 10 centavos.
+src: https://en.wikipedia.org/wiki/Lyrebird | Wikipedia en inglés | Lyrebird
+q: ¿De dónde viene el nombre del ave lira? | De su canto, parecido a una lira ; De la forma de la cola de los machos ; De un rey griego ; De su color | 1 | Las plumas externas de la cola de los machos recuerdan a una lira, el instrumento de cuerda.
+
+@c-pupilas-cabras
+cat: animales
+type: curiosidad
+sub: Mamíferos
+level: 2
+claim: hecho
+title: Las cabras tienen las pupilas rectangulares
+desc: Muchos herbívoros tienen pupilas horizontales; muchos depredadores que acechan, pupilas verticales. No es casualidad.
+b: Si miras de cerca a una cabra, verás que sus pupilas no son redondas como las nuestras, sino rectángulos horizontales. No es la única: también las tienen las ovejas, los caballos y otros animales con pezuñas, como ciervos, alces o hipopótamos.
+b: Otros animales tienen pupilas en forma de rendija vertical, como los gatos, los zorros, los cocodrilos y las víboras. Un estudio de 2015 relacionó estas formas con el estilo de vida: las pupilas verticales ayudarían a calcular distancias a los depredadores que cazan al acecho, cerca del suelo; las horizontales favorecerían un campo de visión amplio y una imagen nítida de lo que se extiende a lo largo del horizonte.
+d: La variedad de pupilas en el reino animal es enorme. Los humanos, los tigres siberianos y los lobos grises las tienen redondas. Las sepias, parientes de los calamares, tienen pupilas en forma de W. Algunos geckos tienen pupilas que, al cerrarse, se convierten en una fila de pequeños agujeros. Algunos bagres tienen pupilas en forma de anillo, y las de los pingüinos rey se vuelven cuadradas con luz intensa. Además, las pupilas en rendija tienen una ventaja práctica: pueden cerrarse mucho más que las redondas y bloquear mejor la luz, algo útil para animales que necesitan ver de noche pero también tolerar la luz del día.
+src: https://en.wikipedia.org/wiki/Pupil | Wikipedia en inglés | Pupil
+q: ¿Qué forma tienen las pupilas de las cabras? | Redonda ; Rectangular horizontal ; Vertical en rendija ; En forma de W | 1 | Como otros animales con pezuñas, tienen pupilas horizontales, relacionadas con un campo de visión amplio.
+
+@c-kant-rutina
+cat: filosofia
+type: curiosidad
+sub: Filósofos
+level: 1
+claim: hecho
+title: Kant publicó su obra más influyente cuando tenía 57 años
+desc: Pasó casi toda su vida en Königsberg, la actual Kaliningrado, con una rutina tan ordenada que se volvió legendaria.
+b: Immanuel Kant nació el 22 de abril de 1724 en Königsberg, en Prusia Oriental, y murió en la misma ciudad el 12 de febrero de 1804. Hoy esa ciudad se llama Kaliningrado y pertenece a Rusia. Salvo unos años de juventud en los que trabajó como tutor en localidades cercanas, entre 1748 y 1754, pasó allí toda su vida.
+b: Su obra más famosa, la «Crítica de la razón pura», se publicó en 1781, cuando Kant tenía 57 años. En ella propuso lo que llamó un giro «copernicano»: en lugar de suponer que nuestro conocimiento se adapta a los objetos, sostuvo que los objetos, tal como los conocemos, se adaptan a la forma de nuestra mente. Para él, el espacio y el tiempo son formas con las que organizamos la experiencia.
+d: Kant fue un profesor muy popular, nunca se casó y fue famoso por su vida estrictamente ordenada. Se cuenta que sus vecinos ponían los relojes en hora al verlo pasar en su paseo diario, aunque es una anécdota que no puede comprobarse. Su obra abarca casi toda la filosofía: el conocimiento, la ética, la estética y la política. En ética defendió el «imperativo categórico», un principio que obliga a todo ser racional, y en 1795 publicó «Sobre la paz perpetua», donde propuso que la paz duradera podría lograrse mediante Estados republicanos y la cooperación internacional. Según se cuenta, sus últimas palabras fueron «Es ist gut»: «Está bien».
+src: https://en.wikipedia.org/wiki/Immanuel_Kant | Wikipedia en inglés | Immanuel Kant
+q: ¿En qué ciudad vivió Immanuel Kant casi toda su vida? | Berlín ; Viena ; Königsberg, hoy Kaliningrado ; París | 2 | Nació y murió en Königsberg, hoy Kaliningrado, Rusia, y salvo unos años como tutor en localidades cercanas, vivió allí siempre.

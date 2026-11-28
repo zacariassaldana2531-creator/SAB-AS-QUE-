@@ -1,0 +1,85 @@
+@c-efecto-stroop
+cat: psicologia
+type: curiosidad
+sub: Atención
+level: 1
+claim: hecho
+title: Si la palabra «azul» está escrita en rojo, te cuesta decir el color
+desc: Es el efecto Stroop: leer es tan automático que interfiere con nombrar el color de la tinta.
+b: Haz la prueba mentalmente: la palabra «AZUL» escrita con tinta roja. Si alguien te pide que digas el color de la tinta, y no la palabra, tardarás más y es más probable que te equivoques que si vieras un simple rectángulo rojo. Ese pequeño tropiezo mental se llama efecto Stroop.
+b: Lo publicó en inglés el psicólogo estadounidense John Ridley Stroop en 1935, aunque el alemán Erich Rudolf Jaensch ya lo había descrito en 1929, y sus raíces se remontan a experimentos del siglo XIX. El artículo de Stroop es uno de los más citados de toda la psicología experimental.
+d: La explicación más conocida es que, para un adulto, leer es un proceso automático: no puedes evitar entender la palabra aunque lo intentes. En cambio, nombrar el color de la tinta requiere un esfuerzo deliberado, y cuando la palabra dice otra cosa, ambas respuestas compiten. Otras teorías ponen el acento en la velocidad con que procesamos cada tipo de información o en la fuerza de cada vía mental. Esta sencilla prueba se ha convertido en una herramienta clínica: se usa en tests neuropsicológicos que miden la atención selectiva, la flexibilidad mental y la velocidad de procesamiento. La interferencia es mayor, por ejemplo, en personas con TDAH, demencia o depresión. Existe también un «Stroop emocional», que usa palabras con carga emocional para estudiar cómo nos afectan.
+src: https://en.wikipedia.org/wiki/Stroop_effect | Wikipedia en inglés | Stroop effect
+q: ¿En qué consiste el efecto Stroop? | En recordar mejor los colores ; En tardar más en nombrar el color de la tinta cuando la palabra dice otro color ; En ver colores donde no los hay ; En confundir el rojo y el verde | 1 | Leer es tan automático que la palabra interfiere con la tarea de nombrar el color de la tinta.
+
+@c-efecto-mcgurk
+cat: psicologia
+type: curiosidad
+sub: Percepción
+level: 2
+claim: hecho
+title: Tus ojos pueden cambiar lo que oyes
+desc: Si oyes «ba» mientras ves unos labios que dicen «ga», lo más probable es que oigas «da». Es el efecto McGurk.
+b: En 1976, los psicólogos Harry McGurk y John MacDonald estudiaban cómo perciben el habla los bebés cuando ocurrió un error: un técnico doblaba un vídeo con el sonido equivocado. Al verlo, los dos investigadores oyeron una tercera sílaba que no estaba ni en el audio ni en los labios. Publicaron el hallazgo en la revista Nature con un título muy expresivo: «Oír los labios y ver las voces».
+b: El ejemplo clásico es este: el audio dice «ba», pero la boca que vemos articula «ga». La mayoría de la gente no oye ninguna de las dos: oye «da». El cerebro combina lo que ve y lo que oye y construye una solución intermedia.
+d: Lo más sorprendente del efecto McGurk es que es muy resistente: suele mantenerse aunque sepas exactamente qué está pasando. Si cierras los ojos, oyes «ba»; si los abres, vuelves a oír «da». Demuestra que la percepción del habla no depende solo del oído: la vista participa activamente, algo que se nota, por ejemplo, cuando entendemos peor a alguien con mascarilla o en un vídeo mal sincronizado. El efecto varía según el idioma y la cultura: es fuerte en hablantes de inglés, español o alemán, y más débil en hablantes de japonés y chino, quizá porque en esas culturas se mira menos directamente a la cara de quien habla.
+src: https://en.wikipedia.org/wiki/McGurk_effect | Wikipedia en inglés | McGurk effect
+q: En el efecto McGurk, si oyes «ba» y ves unos labios que dicen «ga», ¿qué sueles percibir? | «ba» ; «ga» ; «da» ; Nada | 2 | El cerebro combina vista y oído y suele construir una sílaba intermedia: «da».
+
+@m-carcel-stanford
+cat: psicologia
+type: mito
+verdict: matizado
+sub: Experimentos famosos
+level: 2
+claim: debate
+title: «El experimento de la cárcel de Stanford demostró que cualquiera se vuelve cruel con poder»
+desc: Matizado. Es uno de los estudios más famosos de la psicología, pero sus métodos han recibido críticas muy serias.
+b: En agosto de 1971, el profesor de Stanford Philip Zimbardo montó una cárcel simulada en el sótano de un edificio de la universidad. Eligió a 24 estudiantes universitarios varones entre 75 voluntarios, les pagó 15 dólares al día y los repartió al azar entre guardias y prisioneros. El estudio debía durar dos semanas.
+b: Los abusos de los guardias fueron en aumento, y la psicóloga Christina Maslach protestó por las condiciones. Zimbardo detuvo el experimento al sexto día; él mismo admitió que se había metido demasiado en su papel de director de la prisión. Durante décadas se contó como prueba de que la situación convierte a personas normales en crueles.
+d: Las críticas han ido creciendo. Algunos investigadores sostienen que los participantes actuaron como creían que se esperaba de ellos. Otros señalan que el anuncio para reclutar voluntarios pudo atraer a personas más inclinadas a la agresividad. En 2018 y 2019, el investigador Thibault Le Texier publicó documentos que, según él, muestran que los guardias fueron orientados hacia los resultados que Zimbardo buscaba; el equipo de Zimbardo lo negó. El Estudio de la Prisión de la BBC, de 2002, obtuvo resultados diferentes, lo que sugiere que el efecto no es tan universal. El experimento sigue siendo muy citado, sobre todo en debates de ética de la investigación: contribuyó a endurecer las normas de protección de quienes participan en estudios.
+src: https://en.wikipedia.org/wiki/Stanford_prison_experiment | Wikipedia en inglés | Stanford prison experiment
+q: ¿Cuándo terminó el experimento de la cárcel de Stanford, previsto para dos semanas? | Al primer día ; Al sexto día ; A los tres meses ; Nunca se interrumpió | 1 | Zimbardo lo detuvo al sexto día tras las protestas de Christina Maslach.
+
+@c-gran-mancha-roja
+cat: universo
+type: curiosidad
+sub: Planetas
+level: 1
+claim: hecho
+title: La Gran Mancha Roja de Júpiter es una tormenta más grande que la Tierra, y se está encogiendo
+desc: Se observa sin interrupción desde 1879, sus vientos superan los 400 km/h y hace un siglo medía el doble.
+b: La Gran Mancha Roja de Júpiter es la mayor tormenta anticiclónica del sistema solar. En 2017 medía unos 16.350 kilómetros de ancho, alrededor de 1,3 veces el diámetro de la Tierra. Gira en sentido contrario a las agujas del reloj, completando una vuelta en unos 4,5 días terrestres, con vientos que pueden alcanzar velocidades de entre 430 y casi 500 kilómetros por hora.
+b: Se observa desde septiembre de 1831, y sin interrupción desde 1879. Entre 1665 y 1713 se vio en Júpiter una mancha parecida, pero no está claro que fuera la misma tormenta; un estudio de 2024 sugiere que no.
+d: Lo más llamativo es que se está encogiendo. Hace aproximadamente un siglo llegó a medir unos 40.000 kilómetros de largo, y en 2004 su longitud era ya la mitad. Nadie sabe con certeza si llegará a desaparecer. Tampoco se sabe por qué es roja: los experimentos de laboratorio apuntan a compuestos que cambian de color con la radiación del Sol, como el hidrosulfuro de amonio o el acetileno, pero la causa sigue sin confirmarse. La sonda Juno, de la NASA, permitió medir por primera vez su profundidad: los datos indican que la tormenta se extiende entre unos 200 y 500 kilómetros por debajo de las nubes.
+src: https://en.wikipedia.org/wiki/Great_Red_Spot | Wikipedia en inglés | Great Red Spot
+q: ¿Qué es la Gran Mancha Roja de Júpiter? | Un volcán ; Una tormenta gigante ; Un cráter de impacto ; Un océano de lava | 1 | Es la mayor tormenta anticiclónica del sistema solar, más ancha que la Tierra, aunque se está encogiendo.
+
+@c-primer-exoplaneta
+cat: universo
+type: curiosidad
+sub: Exoplanetas
+level: 2
+claim: hecho
+title: El primer planeta descubierto alrededor de una estrella como el Sol se encontró en 1995
+desc: Se llama 51 Pegasi b, o Dimidium, y su hallazgo le valió el Nobel de Física de 2019 a Michel Mayor y Didier Queloz.
+b: Durante siglos, la pregunta de si había planetas alrededor de otras estrellas parecidas al Sol fue pura especulación. En 1995, los astrónomos Michel Mayor y Didier Queloz, de la Universidad de Ginebra, anunciaron la respuesta: habían encontrado un planeta alrededor de 51 Pegasi, una estrella similar al Sol situada a unos 50 años luz, en la constelación de Pegaso.
+b: No lo vieron directamente. Usaron el método de la velocidad radial: midieron cómo la estrella se balanceaba ligeramente, adelante y atrás, por la atracción gravitatoria del planeta. Por este descubrimiento, Mayor y Queloz compartieron en 2019 el premio Nobel de Física.
+d: El planeta, 51 Pegasi b, fue toda una sorpresa. Es un gigante gaseoso con aproximadamente la mitad de la masa de Júpiter, pero da una vuelta completa a su estrella en solo unos cuatro días, porque está muchísimo más cerca de ella que Mercurio del Sol. Nadie esperaba que un planeta gigante pudiera estar tan cerca, y se convirtió en el prototipo de un nuevo tipo de mundo: los «júpiteres calientes». Además, está acoplado por marea, así que siempre muestra la misma cara a su estrella. En 2015, la Unión Astronómica Internacional le dio un nombre oficial mediante un concurso público: Dimidium, que en latín significa «mitad», en referencia a su masa. En 2017 se detectaron indicios de agua en su atmósfera.
+src: https://en.wikipedia.org/wiki/51_Pegasi_b | Wikipedia en inglés | 51 Pegasi b
+q: ¿Cómo se llama el primer planeta descubierto alrededor de una estrella parecida al Sol? | Kepler-22b ; 51 Pegasi b (Dimidium) ; Próxima b ; TRAPPIST-1e | 1 | Lo anunciaron Michel Mayor y Didier Queloz en 1995, y por ello recibieron el Nobel de Física de 2019.
+
+@m-estrellas-fugaces
+cat: universo
+type: mito
+verdict: falso
+sub: Cielo nocturno
+level: 1
+claim: hecho
+title: «Las estrellas fugaces son estrellas que caen»
+desc: Falso. Son pequeños fragmentos de roca o polvo que se queman al entrar en la atmósfera a gran velocidad.
+b: Las estrellas fugaces no tienen nada que ver con las estrellas, que son soles enormes a distancias inimaginables. Lo que vemos es un meteoro: el rastro luminoso que deja un pequeño cuerpo del espacio, un meteoroide, al entrar en la atmósfera de la Tierra.
+b: Los meteoroides son fragmentos que van desde simples granos de polvo hasta objetos de alrededor de un metro. Entran a velocidades enormes: los que se mueven cerca de la órbita terrestre viajan de media a unos 20 kilómetros por segundo, y en un choque de frente pueden llegar a unos 71 kilómetros por segundo. A esa velocidad, la fricción con el aire calienta el objeto y el aire a su alrededor hasta hacerlos brillar.
+d: Conviene distinguir tres palabras: el meteoroide es el objeto en el espacio; el meteoro es la estela de luz que vemos en el cielo, y el meteorito es el fragmento que sobrevive al viaje y llega al suelo, algo poco frecuente. Cada día entran en la atmósfera una enorme cantidad de estos objetos, unos 25 millones según algunas estimaciones, y el material que cae suma unas 15.000 toneladas al año. Las lluvias de estrellas, como las Leónidas, ocurren cuando la Tierra atraviesa la nube de restos que ha dejado un cometa a lo largo de su órbita; en el caso de las Leónidas, el cometa Tempel-Tuttle. Por eso se repiten cada año en las mismas fechas.
+src: https://en.wikipedia.org/wiki/Meteoroid | Wikipedia en inglés | Meteoroid
+q: ¿Qué es en realidad una estrella fugaz? | Una estrella que explota ; Un fragmento de roca o polvo que se quema en la atmósfera ; Un satélite que cae ; Un rayo lejano | 1 | Es un meteoro: la estela de luz de un meteoroide que se calienta al entrar en la atmósfera a gran velocidad.

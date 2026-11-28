@@ -1,0 +1,84 @@
+@c-efecto-mpemba
+cat: ciencia
+type: curiosidad
+sub: Física
+level: 2
+claim: debate
+title: ¿El agua caliente se congela antes que la fría? Los físicos todavía discuten
+desc: Lo notó en 1963 un estudiante tanzano con mezcla de helado. Hoy es el «efecto Mpemba», y sigue siendo polémico.
+b: En 1963, Erasto Mpemba, un estudiante de Tanzania, observó algo que parecía absurdo: una mezcla de helado caliente se congelaba antes que una fría puesta en las mismas condiciones. Años después, el físico Denis Osborne repitió la prueba, confirmó la observación y ambos publicaron sus resultados en 1969. Desde entonces, el fenómeno lleva su nombre: el efecto Mpemba.
+b: La idea no era nueva. Aristóteles, Francis Bacon y René Descartes ya habían descrito ideas parecidas, y en 1775 el químico Joseph Black comparó agua hervida y sin hervir. Pero que algo se haya dicho durante siglos no significa que sea cierto, y aquí empieza el problema.
+d: El efecto Mpemba sigue en debate. Varios experimentos con agua no lograron reproducirlo de forma fiable, y una revisión de 2016, de Burridge y Linden, concluyó que no había pruebas de observaciones significativas del efecto en el agua. Parte del problema es que los físicos ni siquiera se ponen de acuerdo en cómo definirlo: depende del recipiente, del congelador y de qué se considere «congelado». Se han propuesto muchas explicaciones posibles, como el sobreenfriamiento, los gases disueltos, las microburbujas o las corrientes dentro del líquido, pero ninguna está aceptada. Curiosamente, en otros sistemas sí se ha demostrado algo parecido: en 2020 se observó en un sistema coloidal una versión «fuerte» del efecto, y se estudia también en aleaciones magnéticas y sistemas cuánticos.
+src: https://en.wikipedia.org/wiki/Mpemba_effect | Wikipedia en inglés | Mpemba effect
+q: ¿Qué es el efecto Mpemba? | Que el agua salada hierve antes ; La observación de que un líquido caliente puede congelarse antes que uno frío ; Que el hielo flota ; Que el agua se expande al calentarse | 1 | Lleva el nombre de un estudiante tanzano que lo observó en 1963; en el agua, su existencia sigue en debate.
+
+@c-petricor
+cat: ciencia
+type: curiosidad
+sub: Química
+level: 1
+claim: hecho
+title: El olor de la lluvia tiene nombre: petricor
+desc: Lo bautizaron dos científicos australianos en 1964. En parte lo producen bacterias del suelo.
+b: Ese olor tan característico que aparece cuando la lluvia cae sobre la tierra seca tiene nombre: petricor. Lo propusieron en 1964 los investigadores australianos Isabel Joy Bear y Richard Thomas en un artículo de la revista Nature. La palabra une el griego «petra», piedra, e «ícor», el fluido dorado que, según la mitología griega, corría por las venas de los dioses.
+b: Parte del olor viene de aceites producidos por plantas, que se acumulan en el suelo y las rocas durante los periodos secos y se liberan cuando llega la lluvia. Un estudio de 2015 descubrió cómo llega hasta nuestra nariz: las gotas que golpean superficies porosas atrapan pequeñas burbujas de aire que, al estallar, lanzan al aire diminutos aerosoles cargados de aroma.
+d: Otra parte del olor tiene un origen inesperado: las bacterias. Investigaciones recientes lo relacionan con la geosmina y otro compuesto, producidos por bacterias del suelo del género Streptomyces. Estos compuestos atraen a unos pequeños artrópodos llamados colémbolos, que podrían ayudar a dispersar las esporas de las bacterias. Nuestra nariz es muy sensible a la geosmina: podemos detectarla en concentraciones de alrededor de 0,4 partes por mil millones. Mucho antes de que tuviera nombre, el químico Thomas Phipson ya había descrito este aroma en 1891. Hoy existe incluso un perfume, el mitti attar, que intenta recrear el olor de la tierra mojada.
+src: https://en.wikipedia.org/wiki/Petrichor | Wikipedia en inglés | Petrichor
+q: ¿Cómo se llama el olor que se produce cuando llueve sobre tierra seca? | Ozonito ; Petricor ; Geomancia ; Humedina | 1 | El término lo propusieron Isabel Joy Bear y Richard Thomas en 1964; parte del olor lo producen bacterias del suelo.
+
+@c-teflon
+cat: ciencia
+type: curiosidad
+sub: Química
+level: 1
+claim: hecho
+title: El teflón se descubrió por accidente, buscando un gas para neveras
+desc: En 1938, Roy Plunkett abrió un cilindro que había dejado de soltar gas y lo encontró cubierto de un polvo blanco resbaladizo.
+b: En 1938, el químico Roy Plunkett trabajaba en la empresa DuPont buscando un nuevo gas refrigerante. Un día, un cilindro dejó de soltar gas aunque, por su peso, debía seguir lleno. Al abrirlo, descubrió que el interior estaba cubierto de un material blanco y muy resbaladizo: el gas se había transformado en un polímero, el politetrafluoroetileno, conocido por sus siglas, PTFE.
+b: El nuevo material resultó tener propiedades extraordinarias: casi nada se le pega, el agua resbala sobre él y tiene uno de los coeficientes de fricción más bajos de cualquier sólido. Se patentó en 1941, y la marca Teflon se registró en 1945.
+d: Su primer gran uso no fue en la cocina, sino en el Proyecto Manhattan, el programa que desarrolló la bomba atómica: el PTFE recubría válvulas y juntas que debían resistir compuestos de uranio muy corrosivos. Las sartenes antiadherentes llegaron después. En 1954, el francés Marc Grégoire lanzó la marca Tefal, y la primera sartén con PTFE de Estados Unidos apareció en 1961. Hoy su mayor uso es el aislamiento de cables, que consume alrededor de la mitad de la producción. El material tiene una cara problemática: empieza a descomponerse a unos 260 °C, y su fabricación usó durante décadas el PFOA, un compuesto perjudicial para la salud y el medio ambiente que dejó de emplearse tras varias demandas.
+src: https://en.wikipedia.org/wiki/Polytetrafluoroethylene | Wikipedia en inglés | Polytetrafluoroethylene
+q: ¿Cómo se descubrió el teflón? | Buscando un pegamento ; Por accidente, al investigar un gas refrigerante ; En un programa espacial ; Al intentar fabricar plástico para botellas | 1 | Roy Plunkett lo encontró en 1938 dentro de un cilindro de gas que había dejado de funcionar.
+
+@m-biblioteca-alejandria
+cat: historia
+type: mito
+verdict: falso
+sub: Antigüedad
+level: 1
+claim: hecho
+title: «La Biblioteca de Alejandría desapareció en un gran incendio»
+desc: Falso. Su declive fue lento y duró siglos; no hubo una única catástrofe.
+b: La imagen es poderosa: una noche, las llamas devoran la mayor biblioteca de la Antigüedad y con ella desaparece todo el saber del mundo antiguo. La realidad es menos dramática, pero más interesante: la Biblioteca de Alejandría, en Egipto, decayó de forma gradual a lo largo de varios siglos.
+b: Probablemente se construyó bajo Ptolomeo II, en el siglo III antes de Cristo, como parte de un centro de investigación llamado Museo. Los Ptolomeos compraban textos sin descanso, e incluso se copiaban los libros de los barcos que llegaban al puerto. Allí trabajaron sabios como Eratóstenes, que calculó el tamaño de la Tierra.
+d: Su declive tuvo muchos episodios. En el 145 antes de Cristo, Ptolomeo VIII expulsó a los sabios extranjeros. En el 48 antes de Cristo, un incendio provocado durante la guerra de Julio César dañó parte de la ciudad, aunque no se sabe cuánto afectó a la biblioteca. Hacia el año 260 dejan de mencionarse miembros del Museo, y en el 272 los combates en Alejandría probablemente dañaron lo que quedaba. En el 391 fue destruido el Serapeo, que albergaba una biblioteca menor. La historia de que el califa Omar mandó quemar los libros en el siglo VII aparece en fuentes escritas siglos después, y los historiadores la consideran poco fiable. El número de rollos que llegó a tener es incierto: las estimaciones van de 40.000 a cientos de miles.
+src: https://en.wikipedia.org/wiki/Library_of_Alexandria | Wikipedia en inglés | Library of Alexandria
+q: ¿Cómo desapareció realmente la Biblioteca de Alejandría? | En un solo incendio provocado por César ; Con un declive gradual a lo largo de siglos ; Por orden del califa Omar ; Por un terremoto | 1 | Sufrió varios golpes, como la expulsión de sabios en el 145 a. C. y el incendio del 48 a. C., pero su declive fue lento.
+
+@c-gran-piramide
+cat: historia
+type: curiosidad
+sub: Antigüedad
+level: 1
+claim: hecho
+title: La Gran Pirámide fue la construcción más alta del mundo durante más de 3.700 años
+desc: Solo la superó, en el siglo XIII, la antigua catedral de San Pablo de Londres.
+b: La Gran Pirámide de Guiza, construida para el faraón Keops hacia el año 2600 antes de Cristo, es la mayor de las pirámides de Egipto y la única de las siete maravillas del mundo antiguo que sigue en gran parte en pie. Durante más de 3.700 años fue la estructura más alta construida por el ser humano, hasta que en 1221 la superó la antigua catedral de San Pablo, en Inglaterra.
+b: Las cifras son enormes: se calcula que tiene unos 2,3 millones de bloques de piedra, con un peso total de unos 6 millones de toneladas. Y su precisión asombra: sus lados están orientados hacia los puntos cardinales con una desviación media de apenas unos 3,6 minutos de arco.
+d: Los griegos creían que la habían levantado esclavos, pero las pruebas modernas, como los campamentos de trabajadores hallados cerca, apuntan a obreros reclutados por el Estado. El historiador griego Heródoto dijo que la obra duró 20 años; las estimaciones actuales hablan de unos 26. En 2013 se descubrieron en Wadi al-Jarf, junto al mar Rojo, unos rollos de papiro con el diario de Merer, un funcionario que anotó cómo transportaba en barco bloques de piedra caliza de Tura para la pirámide. Es un testimonio directo, escrito por alguien que participó en la obra.
+src: https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza | Wikipedia en inglés | Great Pyramid of Giza
+q: ¿Para qué faraón se construyó la Gran Pirámide de Guiza? | Tutankamón ; Ramsés II ; Keops ; Akenatón | 2 | Se construyó para Keops hacia el 2600 a. C. y fue la estructura más alta del mundo durante más de 3.700 años.
+
+@c-peste-negra
+cat: historia
+type: curiosidad
+sub: Edad Media
+level: 1
+claim: hecho
+title: La peste negra mató a entre un cuarto y más de la mitad de los europeos
+desc: Entre 1346 y 1353 recorrió Eurasia y el norte de África. Ni siquiera se llamaba así entonces.
+b: Entre 1346 y 1353, una pandemia de peste recorrió Eurasia y el norte de África. Es una de las más mortíferas de la historia: las estimaciones del total de muertes van de unos 25 a 200 millones, según la fuente y la región. En Europa murió entre un 25 % y un 60 % de la población, y algunas ciudades perdieron buena parte de sus habitantes en pocos meses.
+b: La causa fue la bacteria Yersinia pestis, algo confirmado gracias al ADN recuperado de los restos de las víctimas. Lo que todavía se discute es cómo se transmitió: por las pulgas de las ratas, por pulgas y piojos humanos o de persona a persona por vía respiratoria.
+d: Según la versión tradicional, la enfermedad entró en Europa a través de Caffa, en Crimea, durante un asedio mongol entre 1346 y 1347, y desde allí los barcos la llevaron a Constantinopla, Sicilia e Italia. Estudios genéticos señalan como posible origen Asia central, en la región de Tian Shan. Sus efectos cambiaron Europa: la falta de trabajadores hizo subir los salarios y debilitó el sistema feudal, surgieron prácticas de cuarentena y algunas comunidades se volvieron contra minorías, sobre todo los judíos, a los que se acusó falsamente. Curiosamente, sus contemporáneos no la llamaban «peste negra», sino «gran pestilencia» o nombres parecidos; en inglés, la expresión «Black Death» no se usó hasta la década de 1750.
+src: https://en.wikipedia.org/wiki/Black_Death | Wikipedia en inglés | Black Death
+q: ¿Qué bacteria causó la peste negra? | Vibrio cholerae ; Yersinia pestis ; Mycobacterium tuberculosis ; Salmonella typhi | 1 | El ADN de las víctimas confirmó que la causa fue Yersinia pestis.

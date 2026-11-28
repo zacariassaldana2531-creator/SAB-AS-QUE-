@@ -1,0 +1,83 @@
+@c-paradoja-sorites
+cat: filosofia
+type: curiosidad
+sub: Paradojas
+level: 2
+claim: debate
+title: ¿Cuántos granos de arena hacen falta para formar un montón? Nadie lo sabe
+desc: La paradoja del montón tiene unos 2.400 años y sigue sin una solución aceptada por todos.
+b: Imagina un montón de un millón de granos de arena. Si le quitas un grano, sigue siendo un montón: un solo grano no marca ninguna diferencia. Si le quitas otro, también. Pero si repites el razonamiento una y otra vez, llegarás a la conclusión de que un solo grano de arena es un montón, lo cual es claramente falso.
+b: Es la paradoja sorites, o paradoja del montón; «sorites» viene de la palabra griega para «montón». Se atribuye tradicionalmente a Eubúlides de Mileto, un filósofo griego del siglo IV antes de Cristo. Lo inquietante es que cada paso del argumento parece razonable, y aun así la conclusión es absurda.
+d: El problema está en las palabras vagas, como «montón», «calvo» o «alto», que no tienen un límite preciso. Existe una versión con el calvo: arrancar un solo pelo no deja calvo a nadie, pero arrancar uno tras otro termina haciéndolo. Los filósofos han propuesto muchas salidas. Algunos fijan un límite exacto, por ejemplo 10.000 granos, aunque parece arbitrario. Otros, como Timothy Williamson, sostienen que el límite existe pero no podemos conocerlo. Otros proponen lógicas con más de dos valores, en las que una afirmación puede ser verdadera «en cierto grado», o dicen que el significado de la palabra lo fija el uso que hace de ella una comunidad. También hay un error de razonamiento relacionado: rechazar una distinción solo porque entre dos extremos hay una transición gradual. Que no sepamos dónde empieza la calvicie no significa que no haya calvos.
+src: https://en.wikipedia.org/wiki/Sorites_paradox | Wikipedia en inglés | Sorites paradox
+q: ¿Sobre qué trata la paradoja sorites? | Sobre viajar en el tiempo ; Sobre palabras vagas, como cuántos granos forman un montón ; Sobre la existencia de Dios ; Sobre una carrera entre Aquiles y una tortuga | 1 | Muestra que palabras como «montón» o «calvo» no tienen un límite preciso y conducen a conclusiones absurdas.
+
+@c-analectas-confucio
+cat: filosofia
+type: curiosidad
+sub: Filosofía oriental
+level: 1
+claim: hecho
+title: Confucio no escribió el libro con sus enseñanzas
+desc: Las «Analectas» las recopilaron sus seguidores, probablemente a lo largo de unos dos siglos.
+b: Las «Analectas» son el texto más conocido del confucianismo: una colección de dichos y breves diálogos atribuidos a Confucio y a algunos de sus contemporáneos. Pero Confucio no las escribió. Según la tradición, sus discípulos registraron y editaron juntos sus enseñanzas después de su muerte, ocurrida en el año 479 antes de Cristo.
+b: Los especialistas modernos creen que el proceso fue aún más largo: el texto se habría compuesto a lo largo de unos dos siglos, sobre todo durante el periodo de los Reinos Combatientes, y no alcanzó su forma definitiva hasta la dinastía Han. Por eso se discuten las fechas y la autenticidad de algunos de los dichos. El texto que conservamos tiene veinte capítulos.
+d: Entre sus enseñanzas más famosas está una versión de la llamada regla de oro, formulada en negativo: «No hagas a los demás lo que no quieras que te hagan a ti». La influencia del libro en China fue inmensa. En la época de la dinastía Song, el filósofo Zhu Xi lo incluyó entre los Cuatro Libros, los textos básicos del confucianismo, y hasta 1905 su comentario de las «Analectas» lo memorizaban quienes aspiraban a aprender a leer y escribir o a ocupar un cargo en el gobierno. Es un caso parecido al de Sócrates, que tampoco escribió nada y cuyas ideas conocemos por sus discípulos.
+src: https://en.wikipedia.org/wiki/Analects | Wikipedia en inglés | Analects
+q: ¿Quién escribió las «Analectas» de Confucio? | El propio Confucio ; Sus seguidores, después de su muerte ; Un emperador chino ; Un viajero europeo | 1 | Las recopilaron sus discípulos tras su muerte en el 479 a. C., y el texto se fue completando durante unos dos siglos.
+
+@c-hombre-somerton
+cat: misterios
+type: curiosidad
+sub: Casos sin resolver
+level: 2
+claim: misterio
+title: El hombre de Somerton: un desconocido, un código y la palabra «terminado»
+desc: En 1948 apareció un hombre muerto en una playa de Australia con un papel que decía «Tamám Shud». Su identidad se propuso en 2022.
+b: El 1 de diciembre de 1948 apareció el cuerpo de un hombre en la playa de Somerton Park, cerca de Adelaida, en Australia. La policía pensó al principio que había muerto mientras dormía, pero la autopsia no encontró una causa natural, y el forense concluyó que probablemente había sido envenenado. Nunca se supo cómo murió.
+b: En un bolsillo oculto de su ropa había un trozo de papel con dos palabras en persa: «Tamám Shud», que significan «terminado» o «acabado». Había sido arrancado de un ejemplar de las «Rubaiyat» de Omar Jayam, un libro de poesía. Cuando se encontró ese ejemplar, en la parte de atrás tenía escritas a lápiz unas líneas que parecían un mensaje cifrado.
+d: El código nunca se ha descifrado: en 1978, unos criptógrafos concluyeron que tenía demasiado pocos símbolos para obtener una respuesta clara. En el libro había también un número de teléfono que llevó a una mujer, Jessica Thomson, que negó conocer al hombre, aunque años después su familia aseguró que sí sabía quién era. El contexto de la Guerra Fría y la cercanía de instalaciones militares secretas alimentaron teorías de espionaje. En 2022, el profesor Derek Abbott y la genealogista Colleen Fitzpatrick anunciaron que, gracias al ADN de unos cabellos atrapados en el molde de yeso de su cabeza, lo habían identificado como Carl «Charles» Webb, un ingeniero eléctrico nacido en Melbourne en 1905. La policía de Australia del Sur no había confirmado oficialmente esa identificación cuando se consultó la fuente, y el porqué de su muerte sigue siendo un misterio.
+src: https://en.wikipedia.org/wiki/Tamam_Shud_case | Wikipedia en inglés | Tamam Shud case
+q: ¿Qué decía el papel encontrado en el bolsillo del hombre de Somerton? | «Adiós» en francés ; «Tamám Shud», «terminado» en persa ; Una dirección ; Un número de teléfono | 1 | Era un trozo arrancado de las «Rubaiyat» de Omar Jayam con las palabras persas «Tamám Shud».
+
+@c-amelia-earhart
+cat: misterios
+type: curiosidad
+sub: Desapariciones
+level: 1
+claim: misterio
+title: La desaparición de Amelia Earhart sigue sin resolverse casi 90 años después
+desc: El 2 de julio de 1937 desapareció sobre el Pacífico cuando intentaba dar la vuelta al mundo. Su avión nunca se ha encontrado.
+b: Amelia Earhart fue una pionera de la aviación. En 1932 se convirtió en la primera mujer en cruzar el Atlántico en solitario y sin escalas, una hazaña que le valió la Cruz de Vuelo Distinguido. También fue la primera presidenta de las Ninety-Nines, una organización de mujeres piloto.
+b: En 1937 intentó convertirse en la primera mujer en dar la vuelta al mundo en avión, junto al navegante Fred Noonan, a bordo de un Lockheed Electra 10E. El 2 de julio, cuando buscaban la diminuta isla Howland, en medio del Pacífico, perdieron el contacto. La Marina y la Guardia Costera de Estados Unidos organizaron la búsqueda más costosa de la historia del país hasta entonces, pero no encontraron ni rastro.
+d: Earhart fue declarada legalmente muerta el 5 de enero de 1939. La mayoría de los historiadores creen que el avión se quedó sin combustible, cayó al mar y se hundió. Pero hay otras hipótesis. La más conocida propone que aterrizaron en la isla Gardner, hoy Nikumaroro, y sobrevivieron un tiempo como náufragos. Otras hablan de una captura por los japoneses o de un accidente en Nueva Bretaña, en Papúa Nueva Guinea. Ninguna ha podido demostrarse: expediciones recientes, como las de 2019 y 2024, no encontraron pruebas del avión. Mientras tanto, su figura se ha convertido en un símbolo de valentía y en un icono para las mujeres en la aviación.
+src: https://en.wikipedia.org/wiki/Amelia_Earhart | Wikipedia en inglés | Amelia Earhart
+q: ¿Qué intentaba hacer Amelia Earhart cuando desapareció en 1937? | Cruzar el Atlántico ; Dar la vuelta al mundo en avión ; Llegar al Polo Norte ; Batir un récord de altura | 1 | Desapareció con Fred Noonan cerca de la isla Howland durante su intento de vuelta al mundo.
+
+@c-esferas-costa-rica
+cat: misterios
+type: curiosidad
+sub: Arqueología
+level: 1
+claim: misterio
+title: En Costa Rica hay más de 300 esferas de piedra casi perfectas cuyo propósito se desconoce
+desc: Algunas superan los dos metros y pesan hasta 15 toneladas. Las hicieron pueblos precolombinos hace más de mil años.
+b: En el sur de Costa Rica, sobre todo en el delta del Diquís y en la isla del Caño, se han encontrado más de 300 esferas de piedra. Algunas caben en la mano y otras superan los dos metros de diámetro y pesan hasta 15 toneladas. La mayoría están talladas en gabro, una roca ígnea muy dura, y muchas son sorprendentemente redondas.
+b: Se atribuyen a la cultura Diquís, que habitó la región aproximadamente entre los años 500 y 1500. Las primeras probablemente se hicieron hacia el año 600, aunque la mayoría son posteriores al año 1000. Su propósito sigue siendo incierto: los arqueólogos han propuesto que representaran el Sol, la Luna u otros cuerpos celestes.
+d: Las esferas salieron a la luz en la década de 1930, cuando la United Fruit Company despejaba terrenos para plantaciones de banano. Fue un descubrimiento desafortunado: algunos trabajadores dañaron esferas con buldóceres, y otros dinamitaron varias creyendo que guardaban oro en su interior. El arqueólogo Samuel Lothrop publicó un estudio sobre ellas en 1963. Como suele pasar con los misterios arqueológicos, han surgido teorías fantasiosas, como su relación con la Atlántida, sin ningún fundamento. En 2014, la UNESCO declaró Patrimonio de la Humanidad los asentamientos cacicales precolombinos con esferas de piedra del Diquís.
+src: https://en.wikipedia.org/wiki/Stone_spheres_of_Costa_Rica | Wikipedia en inglés | Stone spheres of Costa Rica
+q: ¿Por qué algunos trabajadores dinamitaron esferas de piedra en Costa Rica? | Para construir carreteras ; Porque creían que guardaban oro dentro ; Para estudiarlas ; Porque estorbaban a los barcos | 1 | En los años treinta, durante el despeje de plantaciones, algunos las rompieron buscando oro.
+
+@c-impuesto-ventanas
+cat: economia
+type: curiosidad
+sub: Impuestos
+level: 1
+claim: hecho
+title: En Inglaterra hubo un impuesto sobre las ventanas, y la gente las tapiaba
+desc: Se cobró de 1696 a 1851. Todavía hay casas con ventanas tapadas con ladrillos para pagar menos.
+b: En 1696, durante el reinado de Guillermo III, Inglaterra y Gales introdujeron un impuesto curioso: el impuesto sobre las ventanas. Las ventanas eran fáciles de contar desde la calle, y las casas más grandes solían tener más.
+b: Al principio pagaban las casas con más de diez ventanas; el límite se rebajó a siete en 1766 y se fijó en ocho en 1825. La reacción de muchos propietarios fue previsible: tapiar ventanas para pagar menos. Hoy todavía pueden verse en el Reino Unido casas antiguas con huecos de ventana cerrados con ladrillos.
+d: El impuesto fue muy impopular, porque se veía como un impuesto sobre «la luz y el aire». En Escocia se aplicó uno parecido desde 1748, para casas con al menos siete ventanas o cierto nivel de alquiler. Finalmente se abolió el 24 de julio de 1851 en Inglaterra, Gales, Escocia e Irlanda. Francia tuvo un impuesto similar entre 1798 y 1926. Se dice a menudo que la expresión inglesa «daylight robbery», «robo a plena luz del día», que se usa para un precio abusivo, viene de este impuesto, pero es una etimología popular sin respaldo académico. La historia es un buen ejemplo de un fenómeno que los economistas conocen bien: los impuestos cambian el comportamiento de la gente, a veces de formas inesperadas.
+src: https://en.wikipedia.org/wiki/Window_tax | Wikipedia en inglés | Window tax
+q: ¿Qué hacía mucha gente para pagar menos por el impuesto sobre las ventanas? | Pintarlas de negro ; Tapiarlas con ladrillos ; Mudarse a Francia ; Ponerles cortinas | 1 | Se tapiaban ventanas para quedar por debajo del límite; aún se ven casas antiguas con huecos cerrados.
